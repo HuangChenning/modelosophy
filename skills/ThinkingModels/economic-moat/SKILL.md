@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Buffett 护城河隐喻 + Morningstar 等来源分类
     + 《万物皆模型》护城河卡片）
-  version: v0.9-draft
+  version: v1.0
   source: docs/books/wanwu-jie-moxing/candidates/batch-7-E.md
 ---
 

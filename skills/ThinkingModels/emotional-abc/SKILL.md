@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Albert Ellis REBT / ABC(DE)
     + 《万物皆模型》情绪 ABC 卡片）
-  version: v0.9-draft
+  version: v1.0
   source: docs/books/wanwu-jie-moxing/candidates/batch-7-E.md
 ---
 

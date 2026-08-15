@@ -1,6 +1,6 @@
 {
   "skill": "economic-moat",
-  "version": "v0.9-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "em-should-01",

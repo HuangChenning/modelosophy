@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Howard Marks 非共识且正确 + Peter Thiel 少数派真理
     + 《万物皆模型》正确与非共识卡片）
-  version: v0.9-draft
+  version: v1.0
   source: docs/books/wanwu-jie-moxing/candidates/batch-7-E.md
 ---
 

@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自跨期决策/长期导向实践
     + 《万物皆模型》长线思考卡片）
-  version: v0.9-draft
+  version: v1.0
   source: docs/books/wanwu-jie-moxing/candidates/batch-7-E.md
 ---
 

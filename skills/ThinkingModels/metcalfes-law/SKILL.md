@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Metcalfe 网络效应直觉 + Odlyzko 等修正讨论
     + 《万物皆模型》梅特卡夫卡片）
-  version: v0.9-draft
+  version: v1.0
   source: docs/books/wanwu-jie-moxing/candidates/batch-7-E.md
 ---
 
