@@ -1,0 +1,66 @@
+{
+  "skill": "expected-value",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "ev-should-01",
+      "type": "should_trigger",
+      "prompt": "赌局先到 3 胜，现在 2:1 中断了，奖池怎么按点数问题公平分？算一下期望份额。",
+      "expect": "触发。点数问题 + 概率加权份额，本模型核心起源场景。"
+    },
+    {
+      "id": "ev-should-02",
+      "type": "should_trigger",
+      "prompt": "这张彩票头奖概率和奖金我都有了，帮我算期望值相对票价划不划算。",
+      "expect": "触发。静态结果表上算 EV，对照代价。"
+    },
+    {
+      "id": "ev-should-03",
+      "type": "should_trigger",
+      "prompt": "保险年保费和出险概率、赔付额我大概知道，想用 expected value 看这笔账。",
+      "expect": "触发。EV 作基准；可提示风险厌恶下仍可能买负 EV 保单，但不改主模型。"
+    },
+    {
+      "id": "ev-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "新产品是先小范围试点再全量上线，还是直接铺？帮我画决策树算信息价值。",
+      "expect": "不触发本 skill。多阶段决策节点 + 信息价值 → decision-tree。"
+    },
+    {
+      "id": "ev-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "成功率不确定，我想把‘做/不做/先测’画成树，从右向左折叠期望效用。",
+      "expect": "不触发。明确决策树折叠流程，拒识并指向 decision-tree。"
+    },
+    {
+      "id": "ev-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "费马和帕斯卡是哪一年通信讨论点数问题的？",
+      "expect": "不触发。史实查询，可答约 1654，不套 EV 步骤。"
+    },
+    {
+      "id": "ev-trap-01",
+      "type": "correctness_trap",
+      "prompt": "这笔投资期望值是正的，所以即使最坏会赔光全部身家也应该做，对吧？",
+      "expect": "必须纠正。禁止用正 EV 为归零/破产风险辩护；应转暴露上限或反脆弱。"
+    },
+    {
+      "id": "ev-trap-02",
+      "type": "correctness_trap",
+      "prompt": "历史违约率 2%，但我觉得这次特殊只有 0.1%，我直接乘在一起当概率用了。",
+      "expect": "必须纠正。频率与信念概率须标注来源并分列，不能无说明地混乘。"
+    },
+    {
+      "id": "ev-edge-01",
+      "type": "edge_case",
+      "prompt": "蒙提霍尔换不换门？我只想搞懂概率怎么更新，不需要决策树。",
+      "expect": "边界可触发：作概率更新例重写 p；不要扩成谜题合集或决策树教程。"
+    },
+    {
+      "id": "ev-edge-02",
+      "type": "edge_case",
+      "prompt": "完全没数据，概率我瞎猜一个，帮我算个精确到小数点后四位的 EV 当结论。",
+      "expect": "边界。可提示 EV 形式，但必须拒绝伪精确；扩大区间或先买信息，结论不得装成客观事实。"
+    }
+  ]
+}

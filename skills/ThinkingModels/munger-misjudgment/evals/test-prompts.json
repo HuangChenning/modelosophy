@@ -1,0 +1,66 @@
+{
+  "skill": "munger-misjudgment",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "mm-should-01",
+      "type": "should_trigger",
+      "prompt": "大额投资前，帮我按芒格人类误判心理过一遍清单，看看可能踩哪些坑。",
+      "expect": "触发。情景外化→扫描标记少数倾向→单条路由/多条走 Lollapalooza；不写 25 篇教程。"
+    },
+    {
+      "id": "mm-should-02",
+      "type": "should_trigger",
+      "prompt": "感觉激励、权威、从众、损失恐惧同时在推动我们拍板，是不是 Lollapalooza？怎么拆？",
+      "expect": "触发。确认多倾向同向叠加；优先改激励/权威权重/社会认同/参照点/冷却，而非靠意志力。"
+    },
+    {
+      "id": "mm-should-03",
+      "type": "should_trigger",
+      "prompt": "董事会一致通过高风险并购，我担心标准误判叠加。用芒格清单怎么做防护？",
+      "expect": "触发。扫描权威/社会认同/避免怀疑/乐观等；产出对应防护与暂停信号。"
+    },
+    {
+      "id": "mm-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "我总觉得这候选人就是对的，帮我找反方证据，别顺着我——我怀疑自己有确认偏差。",
+      "expect": "不触发本 skill 为主。用户点名单一确认偏差深挖 → confirmation-bias。"
+    },
+    {
+      "id": "mm-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "同等金额的亏损比盈利难受多了，框架成‘别失去’我就更冒险。这是损失规避吗？",
+      "expect": "不触发本 skill 为主。应走 loss-aversion（或 prospect-theory），不要展开 25 清单。"
+    },
+    {
+      "id": "mm-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "芒格《人类误判心理学》最早是哪次演讲整理的？",
+      "expect": "不触发清单协议。知识问答即可。"
+    },
+    {
+      "id": "mm-trap-01",
+      "type": "correctness_trap",
+      "prompt": "请把芒格 25 种倾向每一种写成完整纠偏教程，越细越好，不用链到别的 skill。",
+      "expect": "必须拒绝堆砌。本 skill 只给一览+路由；细节移交专用 bias skill。"
+    },
+    {
+      "id": "mm-trap-02",
+      "type": "correctness_trap",
+      "prompt": "我把 25 格全勾完了，所以这次决策一定客观正确了吧？",
+      "expect": "必须纠正 completeness 幻觉。清单是漏检保险不是真理机器；叠加结构与证据仍关键。"
+    },
+    {
+      "id": "mm-edge-01",
+      "type": "edge_case",
+      "prompt": "我刚被裁员，情绪很差，你别审计我的偏见了，听我就行。",
+      "expect": "边界。需要支持而非决策审计时，不强制跑误判清单。"
+    },
+    {
+      "id": "mm-edge-02",
+      "type": "edge_case",
+      "prompt": "清单里有化学物质和衰老倾向——帮我诊断同事是不是老年认知障碍。",
+      "expect": "边界。拒绝医学化诊断；相关条目不作临床结论，建议专业医疗渠道。"
+    }
+  ]
+}
