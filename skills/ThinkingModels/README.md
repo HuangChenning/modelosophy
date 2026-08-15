@@ -19,6 +19,12 @@
 | [first-principles](first-principles/SKILL.md) | 第一性原理 | 亚里士多德 archê + 马斯克工程用法 | 这是硬约束还是行业惯例？ | v1.0 |
 | [maslow-hierarchy](maslow-hierarchy/SKILL.md) | 马斯洛需求层次 | Maslow 1943（启发式，非严格定律） | 当前卡住的是哪类未满足需求？ | v1.0 |
 | [systems-thinking](systems-thinking/SKILL.md) | 系统思维 | Forrester + Meadows 存量/流量/回路 | 为什么改一个点总在别处反弹？ | v1.0 |
+| [dual-process](dual-process/SKILL.md) | 双系统 | Kahneman System 1/2 + Stanovich & West | 该信直觉还是该强制慢思考？ | v1.0 |
+| [loss-aversion](loss-aversion/SKILL.md) | 损失规避 | Kahneman & Tversky 前景理论组件 | 同等得失是否被不对称加权？ | v1.0 |
+| [local-global-optima](local-global-optima/SKILL.md) | 局部/全局最优 | 优化理论 + 爬山隐喻 | 该继续打磨还是付代价换山？ | v1.0 |
+| [eisenhower-matrix](eisenhower-matrix/SKILL.md) | 艾森豪威尔矩阵 | Eisenhower + Covey 四象限 | 急事和要事怎么排进日程？ | v1.0 |
+| [survivorship-bias](survivorship-bias/SKILL.md) | 幸存者偏差 | 选择偏差 / Wald 装甲传统 | 是不是只看见活下来的样本？ | v1.0 |
+| [compounding](compounding/SKILL.md) | 复利 | 复利公式 + 再投入机制 | 长期增长的闭环条件成不成立？ | v1.0 |
 | [socratic-questioning](socratic-questioning/SKILL.md) | 苏格拉底式质疑 | 柏拉图对话录 elenchus + Paul-Elder 框架 + CBT 引导式发现 | 这个主张自己站得住吗？ | v1.0 |
 
 > `socratic-questioning` 不在《万物皆模型》100 个模型之列，是方法论补充；它同时是本仓库 skill 定稿前的强制自检工具（见 CLAUDE.md）。
@@ -37,12 +43,18 @@ graph TD
     B -->|几个解释都说得通,不知信哪个| D[occams-razor<br/>排出验证优先级]
     B -->|怕自己只看见支持证据| CB[confirmation-bias<br/>结构化找反例]
     B -->|因最近生动案例觉得事件很常见| AH[availability-heuristic<br/>核对基础频率]
+    B -->|只从成功者倒推必胜法则| SB[survivorship-bias<br/>补失败分母]
+    B -->|同等得失痛感不对称或框架翻转| LA[loss-aversion<br/>改写参照点]
+    B -->|该信直觉还是该强制慢下来| DP[dual-process<br/>检查反馈与唤起条件]
     B -->|前路不确定,要设计应对策略| E[antifragility<br/>设计不对称结构]
     B -->|会议里事实情绪风险搅在一起| HATS[six-thinking-hats<br/>分帽并行思考]
     B -->|目标清楚,正向卡住或要失败预演| INV[inversion<br/>先列怎样搞砸]
     B -->|行业共识可能只是惯例| FP[first-principles<br/>拆到硬约束再重建]
     B -->|产品/激励可能打错需求类别| MAS[maslow-hierarchy<br/>扫描需求类别]
     B -->|改一点别处反弹,要看反馈结构| SYS[systems-thinking<br/>存量流量回路]
+    B -->|待办过载,急事要事搅在一起| EM[eisenhower-matrix<br/>四象限排程]
+    B -->|怀疑当前路径只是小山峰| LG[local-global-optima<br/>算换山下坡]
+    B -->|问长期主义/利滚利是否成立| CP[compounding<br/>查再投入与存活]
     B -->|拿着一个主张,问它站不站得住| H[socratic-questioning<br/>追问到矛盾显现]
 
     C -.->|若用户说'都已投入这么多了'| S
@@ -52,21 +64,23 @@ graph TD
     H -.->|若用户要的是共鸣而非检验| I[不使用本方法]
     D -.->|若问题是证据会不会被滤掉| CB
     D -.->|若问题是案例是否好想起来| AH
+    AH -.->|若问题是样本缺了失败者| SB
     FP -.->|若只要拆不要建| H
     FP -.->|若问的是反馈反弹而非惯例真假| SYS
     CB -.->|若没有明确立场,只因案例易提取| AH
+    S -.->|若痛点是浮亏变实亏的框架| LA
+    EM -.->|若怀疑整座山错了| LG
+    CP -.->|若故事全是活下来的长跑者| SB
 ```
 
 **关键区分**：
 - **机会成本 vs 沉没成本**：前者处理面向未来的互斥选择；后者处理已经收不回的投入是否绑架当前判断。
-- **机会成本 vs 决策树**：前者假设后果大体可比较；后者在每个行动下展开不确定结果并估算期望值。
-- **沉没成本 vs 10/10/10**：前者移除过去投入的绑架；后者把未来短/中/长期感受同时摆上桌。
-- **奥卡姆剃刀 vs 确认性偏差 vs 易得性启发**：奥卡姆排已在桌上的解释；确认偏差按已有信念筛选证据；易得性按提取难度估计频率。
+- **沉没成本 vs 损失规避**：前者问已投入能否当理由；后者问同等得失的不对称权重与框架。
+- **易得性启发 vs 幸存者偏差**：前者是提取难度替代频率；后者是筛选后样本残缺。
+- **双系统 vs 确认性偏差**：前者管何时调用慢思考；后者管证据是否被立场过滤（慢系统仍可能合理化）。
+- **艾森豪威尔 vs 局部/全局最优**：前者排同一路径上的优先级；后者问要不要付代价换山。
+- **复利 vs 幸存者偏差**：复利要再投入与存活；成功学长跑故事常抽掉爆仓者。
 - **反脆弱 vs 逆向思维**：配仓 vs 失败预演。
-- **反脆弱 vs 系统思维**：前者设计不对称暴露；后者解释存量、流量与反馈如何产生行为。
-- **第一性原理 vs 系统思维**：拆惯例重建 vs 画反馈结构找杠杆。
-- **六顶思考帽 vs 苏格拉底式质疑**：前者是团队并行思考流程；后者是检验单个主张。
-- **马斯洛 vs 机会成本**：前者把需求类别作为防漏检查表；后者在已知选项间算代价。马斯洛不是严格层级定律，也不是人格诊断。
 - **苏格拉底式质疑的元层级地位**：可用于检验其余任何模型的应用是否恰当。
 
 ## 共享术语
@@ -97,9 +111,18 @@ graph TD
 | 存量 / 流量 | 某一时刻的积累量 / 改变存量的速率 | systems-thinking |
 | 增强回路 / 调节回路 | 自我强化的反馈 / 拉向目标的反馈 | systems-thinking |
 | 杠杆点 leverage points | 改变系统行为时投入产出比更高的结构位置 | systems-thinking |
+| System 1 / System 2 | 快自动联想 vs 慢费力规则加工 | dual-process |
+| 参照点 reference point | 得失相对其编码的锚（成本价、现状、目标） | loss-aversion |
+| 处置效应 disposition effect | 过早卖盈、死拿亏——成本价参照的典型 | loss-aversion |
+| 邻域 / 下坡成本 | 局部可微调的范围 / 换山前必经的暂时变差 | local-global-optima |
+| 第 II 象限 | 重要但不紧急——预防与能力建设的杠杆区 | eisenhower-matrix |
+| 选择偏差 selection bias | 样本生成过程系统性丢掉一部分观察 | survivorship-bias |
+| 再投入闭环 | 回报是否回到本金使下一期更大 | compounding |
 
 ## 待蒸馏
 
-01–18 中本轮未构造：直觉（与 #20 卡尼曼重复）、非 SR（自造名）、升维、笛卡尔（暂缓）、万物联系。研究记录见本机 `docs/books/wanwu-jie-moxing/candidates/batch-01-18-remaining.md`。
+01–18 未构造：直觉（已由 dual-process 覆盖专家直觉条件）、非 SR、升维、笛卡尔（暂缓）、万物联系。
 
-《万物皆模型》其余约 80+ 个模型尚未开始研究（含 SWOT、PDCA、MECE、复利思维、第二序思维、卡尼曼双系统等）。
+19–30 未构造：三脑（科学过时）、冯诺依曼（类比不当）、三层解释、替身/多维视角、不平衡性、破界、非线性、自催化（留给飞轮批）。
+
+后续高价值候选含：心流、MECE、SWOT、PDCA、前景理论全文、飞轮、路径依赖、博弈论等。研究记录见本机 `docs/books/wanwu-jie-moxing/candidates/`。

@@ -1,0 +1,16 @@
+{
+  "skill": "local-global-optima",
+  "version": "v1.0",
+  "tests": [
+    {"id":"lg-should-01","type":"should_trigger","prompt":"当前岗位再怎么努力升幅也有限，要不要转行从初级做起？","expect":"触发；定义指标、下坡成本与他山验证实验。"},
+    {"id":"lg-should-02","type":"should_trigger","prompt":"代码在旧架构里已经优化不动了，是继续打磨还是重写？","expect":"触发；比较局部微调与换边界的期望净收益。"},
+    {"id":"lg-should-03","type":"should_trigger","prompt":"感觉自己卡在局部最优，但说不清另一座山是什么。","expect":"触发并要求列出候选他山；禁止空喊跳出舒适区。"},
+    {"id":"lg-decoy-sibling-01","type":"should_not_trigger","prompt":"两个确定的工作offer，帮我算放弃哪个更亏。","expect":"不触发；走机会成本。"},
+    {"id":"lg-decoy-sibling-02","type":"should_not_trigger","prompt":"项目已投入千万，不甘心停。","expect":"不触发主模型；走沉没成本。"},
+    {"id":"lg-decoy-01","type":"should_not_trigger","prompt":"今天待办太多，哪个先做？","expect":"不触发；走艾森豪威尔矩阵。"},
+    {"id":"lg-trap-01","type":"correctness_trap","prompt":"局部最优都该放弃，必须追求全局。","expect":"纠正；搜索成本高时满意的局部最优可理性。"},
+    {"id":"lg-trap-02","type":"correctness_trap","prompt":"只要不舒服就是该换山的信号。","expect":"纠正；先区分噪声/反馈延迟与真山谷。"},
+    {"id":"lg-edge-01","type":"edge_case","prompt":"KPI有五个且互相冲突，怎么谈全局最优？","expect":"触发并拒绝未加权的全局空话；先定目标函数。"},
+    {"id":"lg-edge-02","type":"edge_case","prompt":"换赛道要先降薪两年，有没有可逆试法？","expect":"触发；设计护栏式下坡（兼职/限时实验）。"}
+  ]
+}

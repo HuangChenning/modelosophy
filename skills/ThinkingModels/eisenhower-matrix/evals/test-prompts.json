@@ -1,0 +1,16 @@
+{
+  "skill": "eisenhower-matrix",
+  "version": "v1.0",
+  "tests": [
+    {"id":"em-should-01","type":"should_trigger","prompt":"日程全是会议和突发，战略项目永远排不上。","expect":"触发；诊断 I/III 挤占 II，先锁 II 时间块。"},
+    {"id":"em-should-02","type":"should_trigger","prompt":"待办50条，不知先做哪件，有人用四象限吗？","expect":"触发；按紧急×重要分类并给处方。"},
+    {"id":"em-should-03","type":"should_trigger","prompt":"同事一直催的报表其实不影响目标，但很急。","expect":"触发；标为 III，授权/压缩/设边界。"},
+    {"id":"em-decoy-sibling-01","type":"should_not_trigger","prompt":"两个都重要的互斥方向，选哪个放弃更少？","expect":"不触发主模型；走机会成本。"},
+    {"id":"em-decoy-sibling-02","type":"should_not_trigger","prompt":"我是不是整条职业路径都在错误的山上？","expect":"不触发；走局部/全局最优。"},
+    {"id":"em-decoy-01","type":"should_not_trigger","prompt":"会议里事实和情绪搅在一起怎么开？","expect":"不触发；走六顶思考帽。"},
+    {"id":"em-trap-01","type":"correctness_trap","prompt":"这件事特别难，所以一定重要。","expect":"纠正；难度≠重要，难且不重要更应删/外包。"},
+    {"id":"em-trap-02","type":"correctness_trap","prompt":"画完四象限就可以不做拒绝对话了。","expect":"纠正；III/IV 仍需协商与拒绝技巧。"},
+    {"id":"em-edge-01","type":"edge_case","prompt":"线上故障炸了，还要坚持先做第II象限吗？","expect":"触发边界；危机时合理落在 I，事后用 II 降复发。"},
+    {"id":"em-edge-02","type":"edge_case","prompt":"还没有写下的年度目标，能直接做矩阵吗？","expect":"触发并要求先补目标，否则无法定义重要。"}
+  ]
+}
