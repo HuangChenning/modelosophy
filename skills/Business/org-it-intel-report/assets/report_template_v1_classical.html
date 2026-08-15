@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ meta.company_name or '目标公司' }} · 企业深度情报报告</title>
+<title>{{ meta.company_name or '目标组织' }} · 组织 IT 情报报告</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Lora:ital,wght@0,400;0,600;1,400&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet">
@@ -305,8 +305,8 @@
   <!-- ── rail: navigation + reading progress ── -->
   <aside class="rail">
     <div class="rail-mark">情报报告</div>
-    <div class="rail-sub">Account Intelligence</div>
-    <div class="rail-co">{{ meta.company_name or '目标公司' }}</div>
+    <div class="rail-sub">Org IT Intelligence</div>
+    <div class="rail-co">{{ meta.company_name or '目标组织' }}</div>
     <div class="progress">
       <div class="progress-track"><div class="progress-bar" id="progress-bar"></div></div>
       <div class="progress-label"><span id="progress-pct">0</span>% 已读</div>
@@ -340,9 +340,9 @@
 
   <!-- ── cover ── -->
   <header class="cover">
-    <div class="eyebrow">Enmotech · Account Intelligence Report</div>
-    <h1>{{ meta.company_name or '目标公司' }}</h1>
-    <div class="sub">企业深度情报报告 · 客观情况研究版</div>
+    <div class="eyebrow">Org IT Intelligence Report</div>
+    <h1>{{ meta.company_name or '目标组织' }}</h1>
+    <div class="sub">组织 IT 情报报告 · 客观情况研究版</div>
     <div class="cover-meta">
       {% if meta.industry %}<div><div class="k">所属行业</div><div class="v">{{ meta.industry }}</div></div>{% endif %}
       {% if meta.report_purpose %}<div><div class="k">报告用途</div><div class="v">{{ meta.report_purpose }}</div></div>{% endif %}
@@ -784,7 +784,7 @@
   </section>
 
   <footer class="pagefoot">
-    由 sales-company-intel-report 技能生成 · 本报告仅覆盖客观情况研究，不含产品匹配 / 竞品对比 / 报价 / 销售话术 · 标注为「推断」「待核实」的内容需在客户接触中进一步核实。
+    由 org-it-intel-report 技能生成 · 本报告仅覆盖客观情况研究，不含产品匹配 / 竞品对比 / 报价 / 销售话术 · 标注为「推断」「待核实」的内容需在客户接触中进一步核实。
   </footer>
   </main>
 </div>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ meta.company_name or '目标公司' }} · 企业深度情报报告</title>
+<title>{{ meta.company_name or '目标组织' }} · 组织 IT 情报报告</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
 <style>
   :root {
@@ -200,9 +200,9 @@
 
   <!-- Cover -->
   <header class="cover">
-    <div class="eyebrow">Enmotech · Account Intelligence Report</div>
-    <h1>{{ meta.company_name or '目标公司' }}</h1>
-    <div class="sub">企业深度情报报告 · 客观情况研究版</div>
+    <div class="eyebrow">Org IT Intelligence Report</div>
+    <h1>{{ meta.company_name or '目标组织' }}</h1>
+    <div class="sub">组织 IT 情报报告 · 客观情况研究版</div>
     <div class="cover-meta">
       {% if meta.industry %}<div><b>{{ meta.industry }}</b>所属行业</div>{% endif %}
       {% if meta.report_purpose %}<div><b>{{ meta.report_purpose }}</b>报告用途</div>{% endif %}
@@ -591,7 +591,7 @@
     {% endif %}
   </section>
 
-  <footer class="pagefoot">由 sales-company-intel-report 技能生成 · 本报告仅覆盖客观情况研究，不含产品匹配/竞品对比/报价/销售话术 · 标注为【推断】【待核实】的内容需在客户接触中进一步核实</footer>
+  <footer class="pagefoot">由 org-it-intel-report 技能生成 · 本报告仅覆盖客观情况研究，不含产品匹配/竞品对比/报价/销售话术 · 标注为【推断】【待核实】的内容需在客户接触中进一步核实</footer>
 </div>
 
 <script>

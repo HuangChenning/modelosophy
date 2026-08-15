@@ -1,6 +1,0 @@
-interface:
-  display_name: 销售公司情报报告
-  short_description: 结构化客户情报报告（12 板块 + 置信度分级 + 来源引用 + 招投标趋势/决策链画像）。触发：公司情报、企业画像、Account
-    Research。
-policy:
-  allow_implicit_invocation: false

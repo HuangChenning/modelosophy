@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render sales-company-intel-report's data.json into a self-contained HTML report.
+"""Render org-it-intel-report's data.json into a self-contained HTML report.
 
 This script only converts already-researched, structured data into a formatted
 report (Jinja2 + Chart.js + an SVG decision-chain diagram). It does NOT search the
@@ -16,7 +16,6 @@ from __future__ import annotations
 import argparse
 import json
 import logging
-import re
 from pathlib import Path
 from typing import Any
 
@@ -39,31 +38,6 @@ CONFIDENCE_CLASS_MAP = {"已证实": "fact", "推断": "infer", "待核实": "to
 CONFIDENCE_LABEL_MAP = {"fact": "已证实", "infer": "推断", "todo": "待核实"}
 
 STANCE_VALUES = {"supportive", "resistant", "neutral", "unknown"}
-
-# data.json field names must never surface in the reader-facing prose. Anything the
-# researcher wrote using an internal key gets rewritten to its Chinese equivalent.
-FIELD_ALIASES = {
-    "vendor_summary": "供应商汇总",
-    "it_bidding": "IT招投标",
-    "open_questions": "待核实清单",
-    "executive_summary": "执行摘要",
-    "decision_chain": "决策链",
-    "company_basics": "公司概况",
-    "it_investment": "IT投入",
-    "it_landscape": "IT现状",
-    "customer_swot": "客户侧SWOT",
-    "core_pain_points": "核心痛点",
-    "business_architecture": "业务与IT架构",
-    "five_year_development": "近5年业务发展",
-    "profile_facts": "公司基本信息",
-    "source_refs": "来源编号",
-    "trend_analysis": "采购趋势分析",
-}
-
-# A trend paragraph is authored as "小标题：…。小标题：…" — split it so the report
-# can set each strand as its own labelled row instead of one undifferentiated block.
-TREND_SPLIT_RE = re.compile(r"(?<=。)(?=[^。；，]{2,10}：)")
-TREND_LABEL_RE = re.compile(r"^([^。；，]{2,10})：(.+)$", re.S)
 
 # Decision-chain diagram layout constants (SVG px)
 NODE_W, NODE_H = 220, 68
@@ -141,7 +115,7 @@ def build_bidding_timeline_chart(records: list[dict] | None) -> dict | None:
         return None
     dated = sorted(dated, key=lambda r: r["date"])
     return {
-        "labels": [f"{r['date']} {r['project_name']}" for r in dated],
+        "labels": [f"{r['date']} {r['project_name'][:16]}" for r in dated],
         "amounts": [r["amount"] for r in dated],
     }
 
@@ -194,24 +168,16 @@ def build_decision_diagram(nodes: list[dict] | None, edges: list[dict] | None) -
         for i, node in enumerate(row_nodes):
             x = start_x + i * (NODE_W + NODE_GAP_X)
             stance = node.get("stance") if node.get("stance") in STANCE_VALUES else "unknown"
-            sub_lines = _wrap_sublabel(node.get("sublabel", ""))
             positioned[node.get("id", f"n{row_idx}_{i}")] = {
                 "id": node.get("id"),
                 "label": node.get("label", ""),
                 "sublabel": node.get("sublabel", ""),
-                "sublabel_lines": sub_lines,
-                # Precomputed text anchors so the template needs no arithmetic.
-                "sublabel_line1": sub_lines[0] if sub_lines else "",
-                "sublabel_line2": sub_lines[1] if len(sub_lines) > 1 else "",
+                "sublabel_lines": _wrap_sublabel(node.get("sublabel", "")),
                 "stance": stance,
                 "x": round(x, 1),
                 "y": round(y, 1),
                 "w": NODE_W,
                 "h": NODE_H,
-                "cx": round(x + NODE_W / 2, 1),
-                "y_label": round(y + 25, 1),
-                "y_sub1": round(y + 44, 1),
-                "y_sub2": round(y + 59, 1),
             }
 
     layout_edges = []
@@ -233,91 +199,7 @@ def build_decision_diagram(nodes: list[dict] | None, edges: list[dict] | None) -
     }
 
 
-def scrub_fields(value: Any) -> Any:
-    """Recursively rewrite internal data.json key names out of any rendered string."""
-    if isinstance(value, str):
-        out = value
-        for key, label in FIELD_ALIASES.items():
-            if key in out:
-                out = out.replace(key, label)
-        return out
-    if isinstance(value, list):
-        return [scrub_fields(v) for v in value]
-    if isinstance(value, dict):
-        return {k: scrub_fields(v) for k, v in value.items()}
-    return value
-
-
-def split_trend_analysis(text: str | None) -> list[dict[str, str]]:
-    """Break the procurement-trend paragraph into labelled strands.
-
-    Returns [] when the text carries no "小标题：" structure, in which case the report
-    falls back to rendering the paragraph as written."""
-    if not text:
-        return []
-    chunks = [c.strip() for c in TREND_SPLIT_RE.split(text) if c.strip()]
-    points: list[dict[str, str]] = []
-    for chunk in chunks:
-        match = TREND_LABEL_RE.match(chunk)
-        if not match:
-            return []
-        points.append({"label": match.group(1).strip(), "text": match.group(2).strip()})
-    return points if len(points) > 1 else []
-
-
-def _wan(amount: float) -> str:
-    """Format a CNY amount into 万元 with at most two decimals."""
-    val = amount / 10000.0
-    return f"{val:,.2f}".rstrip("0").rstrip(".") if val < 100 else f"{val:,.0f}"
-
-
-def build_kpis(
-    it_bidding: dict[str, Any],
-    open_questions: list[dict],
-    sources: list[dict],
-    company_basics: dict[str, Any],
-) -> list[dict[str, Any]]:
-    """A small, always-derivable summary band for the top of the report.
-
-    Every tile is computed from the data that is already present — nothing is
-    estimated or filled in. Tiles whose input is missing are dropped."""
-    records = it_bidding.get("records") or []
-    vendor_summary = it_bidding.get("vendor_summary") or []
-    amounts = [r.get("amount") for r in records if r.get("amount")]
-    confirmed = sum(v.get("total_amount") or 0 for v in vendor_summary)
-    kpis: list[dict[str, Any]] = []
-
-    if records:
-        kpis.append({
-            "value": len(records), "unit": "项", "label": "IT招投标记录",
-            "note": f"其中 {len(amounts)} 项金额可考",
-        })
-    if amounts:
-        kpis.append({
-            "value": _wan(sum(amounts)), "unit": "万元", "label": "检索到的项目金额合计",
-            "note": "含预算口径，非全部为成交金额",
-        })
-    if confirmed:
-        kpis.append({
-            "value": _wan(confirmed), "unit": "万元", "label": "已确认中标金额",
-            "note": f"覆盖 {len(vendor_summary)} 家已确认供应商",
-        })
-    high = [q for q in open_questions if (q.get("priority") or "").strip() == "高"]
-    if open_questions:
-        kpis.append({
-            "value": len(open_questions), "unit": "条", "label": "待核实事项",
-            "note": f"其中高优先级 {len(high)} 条" if high else None,
-        })
-    if sources:
-        kpis.append({
-            "value": len(sources), "unit": "个", "label": "参考来源",
-            "note": (company_basics.get("financials") or {}).get("is_listed") and "含上市公司披露" or None,
-        })
-    return kpis[:5]
-
-
 def prepare_context(data: dict[str, Any]) -> dict[str, Any]:
-    data = scrub_fields(data)
     meta = data.get("meta", {}) or {}
     executive_summary = data.get("executive_summary", {}) or {}
     company_basics = data.get("company_basics", {}) or {}
@@ -336,10 +218,6 @@ def prepare_context(data: dict[str, Any]) -> dict[str, Any]:
     annotate_confidence(company_basics.get("profile_facts"))
     annotate_confidence((company_basics.get("organization") or {}).get("key_departments"))
     annotate_confidence(company_basics.get("five_year_development"))
-    if company_basics.get("five_year_development"):
-        company_basics["five_year_development"] = sorted(
-            company_basics["five_year_development"], key=lambda i: str(i.get("year") or "")
-        )
     annotate_confidence(core_pain_points)
     annotate_confidence(strategy.get("key_initiatives"))
     annotate_confidence(it_landscape.get("known_vendor_relationships"))
@@ -359,27 +237,7 @@ def prepare_context(data: dict[str, Any]) -> dict[str, Any]:
 
     records = it_bidding.get("records") or []
     vendor_summary = sorted(it_bidding.get("vendor_summary") or [], key=lambda v: v.get("total_amount") or 0, reverse=True)
-    # Precompute display strings so the template carries no formatting logic.
-    for v in vendor_summary:
-        total = v.get("total_amount")
-        v["total_amount_display"] = f"{total:,.0f}" if total else "—"
-        share = v.get("share_pct")
-        v["share_display"] = f"{share}%" if share is not None else "—"
-        v["categories_display"] = "、".join(v.get("categories") or []) or "—"
-    it_bidding = {
-        **it_bidding,
-        "records": records,
-        "record_count": len(records),
-        "vendor_summary": vendor_summary,
-        "trend_points": split_trend_analysis(it_bidding.get("trend_analysis")),
-    }
-
-    roles = decision_chain.get("roles") or []
-    decision_chain = {
-        **decision_chain,
-        "has_role_type": any((r.get("role_type") or "").strip() for r in roles),
-    }
-    kpis = build_kpis(it_bidding, open_questions, sources, company_basics)
+    it_bidding = {**it_bidding, "records": records, "vendor_summary": vendor_summary}
 
     charts_json = json.dumps(
         {"financials": financials_chart, "vendor": vendor_chart, "timeline": timeline_chart},
@@ -406,7 +264,6 @@ def prepare_context(data: dict[str, Any]) -> dict[str, Any]:
         "vendor_chart": vendor_chart,
         "timeline_chart": timeline_chart,
         "diagram": diagram,
-        "kpis": kpis,
         "charts_json": charts_json,
     }
 

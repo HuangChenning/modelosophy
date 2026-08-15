@@ -1,7 +1,7 @@
 ---
 title: 企业深度情报报告 - 决策链四角色模型（UB/SP/TB/EB）
 date: 2026-08-12
-tags: [sales, sales-company-intel-report, decision-chain, v3.0]
+tags: [business, org-it-intel-report, decision-chain, v3.0]
 ---
 
 # 决策链四角色模型

@@ -1,7 +1,7 @@
 ---
 title: 企业深度情报报告 - 业务全景分析工具指南（客观研究版）
 date: 2026-08-12
-tags: [sales, sales-company-intel-report, business-panorama, analysis-tools, v3.0]
+tags: [business, org-it-intel-report, business-panorama, analysis-tools, v3.0]
 ---
 
 # 业务全景分析工具指南
