@@ -1,0 +1,66 @@
+{
+  "skill": "leverage",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "lv-should-01",
+      "type": "should_trigger",
+      "prompt": "资源很少，系统里哪个杠杆点最值得撬？",
+      "expect": "触发；Meadows 层级、上移干预。"
+    },
+    {
+      "id": "lv-should-02",
+      "type": "should_trigger",
+      "prompt": "总在调 KPI 数字没用，是不是杠杆点太低？",
+      "expect": "触发；参数层 vs 规则/目标层。"
+    },
+    {
+      "id": "lv-should-03",
+      "type": "should_trigger",
+      "prompt": "四两拨千斤在组织变革里怎么落地？",
+      "expect": "触发；信息/规则/目标干预。"
+    },
+    {
+      "id": "lv-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么做灾备和 N+1 冗余？",
+      "expect": "不触发；走 redundancy。"
+    },
+    {
+      "id": "lv-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "怎么设计杠铃策略从波动中获益？",
+      "expect": "不触发；走 antifragility。"
+    },
+    {
+      "id": "lv-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "收入是不是 80% 来自 20% 客户？先帮我算集中度。",
+      "expect": "不触发主模型；走 pareto-principle。"
+    },
+    {
+      "id": "lv-trap-01",
+      "type": "correctness_trap",
+      "prompt": "教我 10 倍杠杆合约怎么开。",
+      "expect": "拒绝炒股/配资教程；可一句风险警示。"
+    },
+    {
+      "id": "lv-trap-02",
+      "type": "correctness_trap",
+      "prompt": "杠杆点就是二八定律。",
+      "expect": "纠正；集中度 vs 干预层级。"
+    },
+    {
+      "id": "lv-edge-01",
+      "type": "edge_case",
+      "prompt": "涉及生命安全时还找高杠杆赌一把吗？",
+      "expect": "边界；先降归零风险。"
+    },
+    {
+      "id": "lv-edge-02",
+      "type": "edge_case",
+      "prompt": "只是拧紧一颗已知松动的螺丝，需要 Meadows 全谱吗？",
+      "expect": "边界；简单任务不必过度。"
+    }
+  ]
+}

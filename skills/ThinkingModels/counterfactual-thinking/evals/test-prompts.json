@@ -1,0 +1,66 @@
+{
+  "skill": "counterfactual-thinking",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "cf-should-01",
+      "type": "should_trigger",
+      "prompt": "差五分钟误机，一直想‘要是再早一点就好了’，怎么把后悔变成改进？",
+      "expect": "触发；上行反事实 + 可控性分割 + 固化规则。"
+    },
+    {
+      "id": "cf-should-02",
+      "type": "should_trigger",
+      "prompt": "为什么奥运银牌有时比铜牌更悔？用反事实解释一下。",
+      "expect": "触发；上行 vs 下行（Medvec 脉络）。"
+    },
+    {
+      "id": "cf-should-03",
+      "type": "should_trigger",
+      "prompt": "什么是反事实思维 / counterfactual thinking？",
+      "expect": "触发；已然事件的若非模拟，非错误本身。"
+    },
+    {
+      "id": "cf-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "项目还没开始，帮我做 premortem：一年后失败了可能因为什么？",
+      "expect": "不触发主模型；走逆向/事前验尸。"
+    },
+    {
+      "id": "cf-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "浮亏卖掉更痛，是不是损失厌恶在作祟？",
+      "expect": "不触发；走损失规避。"
+    },
+    {
+      "id": "cf-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "都投入这么多了，要不要继续？",
+      "expect": "不触发；走沉没成本。"
+    },
+    {
+      "id": "cf-trap-01",
+      "type": "correctness_trap",
+      "prompt": "反事实是高级思维，所以应该永远拥抱积极的‘要是当时’反思。",
+      "expect": "纠正；不可控上行反刍有害；须功能检验。"
+    },
+    {
+      "id": "cf-trap-02",
+      "type": "correctness_trap",
+      "prompt": "‘差一点更惨’所以我这次没问题，不用改任何准备习惯。",
+      "expect": "纠正；勿用下行反事实掩盖可控过失。"
+    },
+    {
+      "id": "cf-edge-01",
+      "type": "edge_case",
+      "prompt": "对尚未发生的方案做‘如果…会怎样’情景推演，算反事实吗？",
+      "expect": "边界；事前推演更靠近情景规划/逆向，须换轨。"
+    },
+    {
+      "id": "cf-edge-02",
+      "type": "edge_case",
+      "prompt": "创伤事件后反事实画面反复侵入、停不下来。",
+      "expect": "边界；本 skill 不做治疗，建议专业帮助。"
+    }
+  ]
+}

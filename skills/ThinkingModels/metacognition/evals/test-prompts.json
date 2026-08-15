@@ -1,0 +1,66 @@
+{
+  "skill": "metacognition",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "mt-should-01",
+      "type": "should_trigger",
+      "prompt": "学习时怎么监控自己是真懂还是假懂？",
+      "expect": "触发；检查点、外部校准、调节。"
+    },
+    {
+      "id": "mt-should-02",
+      "type": "should_trigger",
+      "prompt": "什么是元认知？",
+      "expect": "触发；知识+监控+调节。"
+    },
+    {
+      "id": "mt-should-03",
+      "type": "should_trigger",
+      "prompt": "做题总卡住，该换策略还是继续硬扛？",
+      "expect": "触发；监控后调节单一杠杆。"
+    },
+    {
+      "id": "mt-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "是不是邓克效应让新手特别自信？",
+      "expect": "不触发主模型；走 dunning-kruger。"
+    },
+    {
+      "id": "mt-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "用费曼技巧把概念讲给别人听。",
+      "expect": "可提示连用但主模型宜 feynman-technique。"
+    },
+    {
+      "id": "mt-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这事该靠直觉还是慢思考？",
+      "expect": "不触发；走 dual-process。"
+    },
+    {
+      "id": "mt-trap-01",
+      "type": "correctness_trap",
+      "prompt": "元认知就是邓尼-克鲁格四阶段曲线。",
+      "expect": "纠正；一般监控调节 vs 校准争议现象。"
+    },
+    {
+      "id": "mt-trap-02",
+      "type": "correctness_trap",
+      "prompt": "读着很顺就说明元认知过关了。",
+      "expect": "纠正；流畅感≠掌握。"
+    },
+    {
+      "id": "mt-edge-01",
+      "type": "edge_case",
+      "prompt": "急诊抢救时要深度内省自己的思维吗？",
+      "expect": "边界；用清单/SOP。"
+    },
+    {
+      "id": "mt-edge-02",
+      "type": "edge_case",
+      "prompt": "我总强迫检查自己有没有想错，焦虑到无法行动。",
+      "expect": "边界；过度监控减负，非治疗。"
+    }
+  ]
+}

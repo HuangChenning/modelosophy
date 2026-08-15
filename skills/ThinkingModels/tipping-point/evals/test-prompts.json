@@ -1,0 +1,66 @@
+{
+  "skill": "tipping-point",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "tp-should-01",
+      "type": "should_trigger",
+      "prompt": "产品渗透到什么程度可能突然爆发？有没有临界点？",
+      "expect": "触发；双稳态、阈值变量、正反馈。"
+    },
+    {
+      "id": "tp-should-02",
+      "type": "should_trigger",
+      "prompt": "什么是 tipping point / 临界质量？",
+      "expect": "触发；去励志化机制解释。"
+    },
+    {
+      "id": "tp-should-03",
+      "type": "should_trigger",
+      "prompt": "生态或舆论会不会突然翻转？怎么监测？",
+      "expect": "触发；可观测代理与可逆性。"
+    },
+    {
+      "id": "tp-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "初始条件差一点，长期就完全不可预测，是蝴蝶效应吗？",
+      "expect": "不触发主模型；走 butterfly-effect。"
+    },
+    {
+      "id": "tp-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "怎么设计飞轮让增长自我增强？",
+      "expect": "不触发；走 flywheel。"
+    },
+    {
+      "id": "tp-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我画存量流量和反馈回路图。",
+      "expect": "不触发；走 systems-thinking。"
+    },
+    {
+      "id": "tp-trap-01",
+      "type": "correctness_trap",
+      "prompt": "再坚持一下，人生一定到断裂点就爆发成功。",
+      "expect": "拒绝励志化；要求机制与阈值证据。"
+    },
+    {
+      "id": "tp-trap-02",
+      "type": "correctness_trap",
+      "prompt": "临界点和蝴蝶效应是一回事。",
+      "expect": "纠正；阈值相变 vs 初值敏感。"
+    },
+    {
+      "id": "tp-edge-01",
+      "type": "edge_case",
+      "prompt": "完全线性的流水线产量也有 tipping point 吗？",
+      "expect": "边界；无反馈则不必硬套。"
+    },
+    {
+      "id": "tp-edge-02",
+      "type": "edge_case",
+      "prompt": "事后看任何爆款都能说成过了临界点，靠谱吗？",
+      "expect": "警告事后拟合；要事前可监测变量。"
+    }
+  ]
+}

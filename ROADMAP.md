@@ -14,12 +14,14 @@
 - 原 `skills/sales-company-intel-report/` 迁移至 `skills/Business/sales-company-intel-report/`。
 - 输出约定：Skill 生成的报告统一写入 `output/<skill-name>/`（gitignored，不进仓库）。
 
-### ThinkingModels 思维模型库（31 个）
+### ThinkingModels 思维模型库（61 个）
 蒸馏自《万物皆模型》100个思维模型书 + 各自真实学科来源，走完 cangjie-skill 五阶段流水线 + skill-creator 官方规范校验。索引见 [`skills/ThinkingModels/README.md`](skills/ThinkingModels/README.md)。
 
-第五批新增：flow、mece、path-dependence、flywheel、swot、pdca（各 10/10 盲测 + `quick_validate`）。
+第五批：flow、mece、path-dependence、flywheel、swot、pdca。
 
-同枝补齐原第五批暂缓五项：prospect-theory、dunning-kruger、fogg-behavior-model、golden-circle、johari-window（各 10/10 盲测 + `quick_validate`）；库规模 26→31。
+第六批（同枝）：prospect-theory、dunning-kruger、fogg-behavior-model、golden-circle、johari-window。
+
+第七批（30 个）：implicit-premises、butterfly-effect、deductive-reasoning、iceberg-model、feynman-technique、pareto-principle、pyramid-principle、redundancy、metacognition、forgetting-curve、tipping-point、leverage、long-tail、spiral-of-silence、serial-position-effect、ladder-of-inference、counterfactual-thinking、peak-end-rule、five-w-one-h、attribution-theory、hook-model、situational-leadership、game-theory、abductive-reasoning、emotional-abc、metcalfes-law、contrarian-and-right、porters-five-forces、economic-moat、long-term-thinking（各 10/10 盲测 + `quick_validate`）。库规模 31→61。
 
 已完成的验证环节：
 - 苏格拉底式质疑自检（定稿前强制；审计见本机 `docs/books/wanwu-jie-moxing/socratic-review.md`）
@@ -28,7 +30,7 @@
 ## 待办
 
 ### 短期：继续扩容思维模型库
-下一批优先候选：博弈论、HOOK、遗忘曲线、二八定律等（须先三重验证）。
+从原书剩余卡片中挑选仍能过三重验证者；已拒绝伪科学/撞车项不回炉。研究记录见本机 `docs/books/wanwu-jie-moxing/candidates/`。
 
 ### 待观察
 - `skills/Business/sales-company-intel-report` 官方 Skill 规范校验 / frontmatter 规范化。

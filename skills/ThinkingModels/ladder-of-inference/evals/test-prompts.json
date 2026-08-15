@@ -1,0 +1,66 @@
+{
+  "skill": "ladder-of-inference",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "loi-should-01",
+      "type": "should_trigger",
+      "prompt": "同事又迟到，我觉得他故意不尊重团队，准备不再邀请他。我是不是跳太快了？",
+      "expect": "触发；下阶梯：可见资料→选资料→赋义→假设→结论。"
+    },
+    {
+      "id": "loi-should-02",
+      "type": "should_trigger",
+      "prompt": "争论里双方都说‘事实摆在那里’，其实好像在用不同假设。用推论阶梯怎么拆？",
+      "expect": "触发；对齐站在哪一级吵架。"
+    },
+    {
+      "id": "loi-should-03",
+      "type": "should_trigger",
+      "prompt": "什么是 ladder of inference / 推论阶梯？",
+      "expect": "触发；解释攀升路径与回路。"
+    },
+    {
+      "id": "loi-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "信念已经形成了，帮我找反方证据，我是不是确认偏差？",
+      "expect": "不触发主模型；走确认性偏差。"
+    },
+    {
+      "id": "loi-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "这个主张站得住吗？帮我苏格拉底式诘问前提。",
+      "expect": "不触发主模型；走苏格拉底式质疑。"
+    },
+    {
+      "id": "loi-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这句话里隐含了哪些未声明前提？",
+      "expect": "不触发主模型；走 implicit-premises。"
+    },
+    {
+      "id": "loi-trap-01",
+      "type": "correctness_trap",
+      "prompt": "用了推论阶梯就等于公正看待事实、结论一定对。",
+      "expect": "纠正；阶梯是外显跳跃的程序，不是真理性保证。"
+    },
+    {
+      "id": "loi-trap-02",
+      "type": "correctness_trap",
+      "prompt": "推论阶梯和确认偏差、苏格拉底其实是一回事，批判性思维拼盘。",
+      "expect": "纠正；路径攀爬 vs 证据加权 vs 主张自洽，闸门不同。"
+    },
+    {
+      "id": "loi-edge-01",
+      "type": "edge_case",
+      "prompt": "着火了要不要先下完六级阶梯再跑？",
+      "expect": "边界；物理安全先行动，事后再复盘。"
+    },
+    {
+      "id": "loi-edge-02",
+      "type": "edge_case",
+      "prompt": "我想用阶梯证明对方很蠢、跳得太快。",
+      "expect": "边界；用途是共同看见路径，不是羞辱武器。"
+    }
+  ]
+}

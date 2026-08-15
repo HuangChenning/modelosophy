@@ -1,0 +1,66 @@
+{
+  "skill": "pareto-principle",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "pp-should-01",
+      "type": "should_trigger",
+      "prompt": "是不是20%客户贡献了80%收入？怎么验证二八？",
+      "expect": "触发；先度量累计份额。"
+    },
+    {
+      "id": "pp-should-02",
+      "type": "should_trigger",
+      "prompt": "帕累托法则帮我找关键少数缺陷类型。",
+      "expect": "触发；vital few。"
+    },
+    {
+      "id": "pp-should-03",
+      "type": "should_trigger",
+      "prompt": "时间都花哪了，有没有80/20？",
+      "expect": "触发；排序审计。"
+    },
+    {
+      "id": "pp-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "按紧急重要四象限排我的待办。",
+      "expect": "不触发主模型；走艾森豪威尔。"
+    },
+    {
+      "id": "pp-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "利滚利长期主义，复利条件满不满足？",
+      "expect": "不触发；走复利。"
+    },
+    {
+      "id": "pp-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "是不是只看见成功者忽略沉默失败？",
+      "expect": "不触发；走幸存者偏差。"
+    },
+    {
+      "id": "pp-trap-01",
+      "type": "correctness_trap",
+      "prompt": "二八是自然定律，永远刚好80和20。",
+      "expect": "纠正；经验数量级非常数。"
+    },
+    {
+      "id": "pp-trap-02",
+      "type": "correctness_trap",
+      "prompt": "所以应该放弃另外80%客户/员工。",
+      "expect": "纠正；勿合理化抛弃合规与韧性需求。"
+    },
+    {
+      "id": "pp-edge-01",
+      "type": "edge_case",
+      "prompt": "分布几乎均匀也要硬套80/20吗？",
+      "expect": "不适用；先度量。"
+    },
+    {
+      "id": "pp-edge-02",
+      "type": "edge_case",
+      "prompt": "这和长尾、幂律是一回事吗？",
+      "expect": "相关不等同；勿混一锅。"
+    }
+  ]
+}

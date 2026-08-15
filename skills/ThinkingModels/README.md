@@ -36,6 +36,36 @@
 | [fogg-behavior-model](fogg-behavior-model/SKILL.md) | 福格行为模型 | BJ Fogg B=MAP / Tiny Habits | 行为缺的是动机、能力还是提示？ | v1.0 |
 | [golden-circle](golden-circle/SKILL.md) | 黄金圈 | Sinek WHY–HOW–WHAT（沟通框架） | 目的-方法-产物叙事如何对齐？ | v1.0 |
 | [johari-window](johari-window/SKILL.md) | 周哈里窗 | Luft & Ingham 1955 | 反馈与披露如何扩大开放区？ | v1.0 |
+| [implicit-premises](implicit-premises/SKILL.md) | 隐含前提 | 形式逻辑 / 省略三段论 | 论证缺了哪条未说出的前提？ | v1.0 |
+| [butterfly-effect](butterfly-effect/SKILL.md) | 蝴蝶效应 | Lorenz 敏感依赖 / 混沌 | 初值微扰是否指数放大到不可预报？ | v1.0 |
+| [deductive-reasoning](deductive-reasoning/SKILL.md) | 演绎法 | 亚里士多德逻辑 validity/soundness | 前提真时结论是否必然推出？ | v1.0 |
+| [iceberg-model](iceberg-model/SKILL.md) | 冰山模型 | Schein/Hall 组织文化可见层 | 表面行为下卡住的是哪层假设？ | v1.0 |
+| [feynman-technique](feynman-technique/SKILL.md) | 费曼技巧 | Feynman 学习法 | 能否用自己的话讲清并暴露缺口？ | v1.0 |
+| [pareto-principle](pareto-principle/SKILL.md) | 二八定律 | Pareto / 经验幂律 | vital few 是否真的主导结果？ | v1.0 |
+| [pyramid-principle](pyramid-principle/SKILL.md) | 金字塔原理 | Minto Pyramid | 结论先行后如何分组论证？ | v1.0 |
+| [redundancy](redundancy/SKILL.md) | 冗余备份 | 可靠性工程 redundancy | 单点故障该用何种备份对冲？ | v1.0 |
+| [metacognition](metacognition/SKILL.md) | 元认知 | Flavell 等 metacognition | 如何监控并调节自己的思考？ | v1.0 |
+| [forgetting-curve](forgetting-curve/SKILL.md) | 遗忘曲线 | Ebbinghaus + 间隔重复 | 复习节奏怎样对抗遗忘？ | v1.0 |
+| [tipping-point](tipping-point/SKILL.md) | 断裂点 | 临界质量 / 相变（非励志书） | 系统是否临近不可逆翻转阈值？ | v1.0 |
+| [leverage](leverage/SKILL.md) | 杠杆 | Meadows 杠杆点 | 哪里撬动能以小博大？ | v1.0 |
+| [long-tail](long-tail/SKILL.md) | 长尾理论 | Anderson Long Tail | 低分发成本下尾部聚合是否划算？ | v1.0 |
+| [spiral-of-silence](spiral-of-silence/SKILL.md) | 沉默的螺旋 | Noelle-Neumann | 意见气候如何让人选择沉默？ | v1.0 |
+| [serial-position-effect](serial-position-effect/SKILL.md) | 系列位置效应 | Murdock primacy/recency | 首因近因如何扭曲列表记忆？ | v1.0 |
+| [ladder-of-inference](ladder-of-inference/SKILL.md) | 推论阶梯 | Argyris Ladder of Inference | 从数据爬到行动跳过了哪级？ | v1.0 |
+| [counterfactual-thinking](counterfactual-thinking/SKILL.md) | 反事实思维 | “若非”心理模拟 | 若当时不同会怎样——是否有用？ | v1.0 |
+| [peak-end-rule](peak-end-rule/SKILL.md) | 峰终定律 | Kahneman Peak-End | 体验回忆是否被峰值与结尾主导？ | v1.0 |
+| [five-w-one-h](five-w-one-h/SKILL.md) | 5W1H | 新闻/问题澄清清单 | 六个问题是否钉死事实缺口？ | v1.0 |
+| [attribution-theory](attribution-theory/SKILL.md) | 归因理论 | Heider/Kelley + FAE | 成败被归到人还是情境？ | v1.0 |
+| [hook-model](hook-model/SKILL.md) | HOOK模型 | Nir Eyal Hook | 习惯回路四步哪里断了？ | v1.0 |
+| [situational-leadership](situational-leadership/SKILL.md) | 情境领导 | Hersey-Blanchard | 下属准备度该配哪种领导风格？ | v1.0 |
+| [game-theory](game-theory/SKILL.md) | 博弈论 | 经典博弈入门切片 | 互动策略下均衡与困境是什么？ | v1.0 |
+| [abductive-reasoning](abductive-reasoning/SKILL.md) | 溯因推理 | Peirce abduction | 哪个假设是当前最佳解释？ | v1.0 |
+| [emotional-abc](emotional-abc/SKILL.md) | 情绪ABC | Ellis REBT | 信念B如何中介事件与情绪？ | v1.0 |
+| [metcalfes-law](metcalfes-law/SKILL.md) | 梅特卡夫法则 | Metcalfe n² 启发式 | 网络价值是否随连接数非线性？ | v1.0 |
+| [contrarian-and-right](contrarian-and-right/SKILL.md) | 正确与非共识 | Thiel 等非共识正确 | 非共识主张有何可检验正确性？ | v1.0 |
+| [porters-five-forces](porters-five-forces/SKILL.md) | 波特五力 | Porter Five Forces | 产业五力如何塑造利润池？ | v1.0 |
+| [economic-moat](economic-moat/SKILL.md) | 护城河 | Buffett/Morningstar moat | 竞争优势能否持续抵御侵蚀？ | v1.0 |
+| [long-term-thinking](long-term-thinking/SKILL.md) | 长线思考 | 跨期权衡 / 承诺装置 | 短利与长期承诺如何对齐？ | v1.0 |
 | [socratic-questioning](socratic-questioning/SKILL.md) | 苏格拉底式质疑 | 柏拉图对话录 elenchus + Paul-Elder 框架 + CBT 引导式发现 | 这个主张自己站得住吗？ | v1.0 |
 
 > `socratic-questioning` 不在《万物皆模型》100 个模型之列，是方法论补充；它同时是本仓库 skill 定稿前的强制自检工具（见 CLAUDE.md）。
@@ -77,6 +107,36 @@ graph TD
     B -->|要设计或诊断增长因果闭环| FW[flywheel<br/>画可测飞轮]
     B -->|战略内外态势盘点| SW[swot<br/>四格加TOWS匹配]
     B -->|持续改进怎么转下一圈| PC[pdca<br/>Plan-Do-Check-Act]
+    B -->|论证缺腿/未说出的前提| IP[implicit-premises<br/>补全隐含前提]
+    B -->|初值微扰是否指数放大| BE[butterfly-effect<br/>敏感依赖边界]
+    B -->|前提真时结论是否必然| DR[deductive-reasoning<br/>有效vs可靠]
+    B -->|最佳解释假设是哪个| AR[abductive-reasoning<br/>溯因]
+    B -->|80/20 vital few| PP[pareto-principle<br/>经验集中]
+    B -->|低成本尾部聚合| LT[long-tail<br/>长尾条件]
+    B -->|结论先行怎么写| PY[pyramid-principle<br/>金字塔]
+    B -->|单点故障备份| RD[redundancy<br/>冗余]
+    B -->|监控调节自己的思考| MC[metacognition<br/>元认知]
+    B -->|复习对抗遗忘| FC[forgetting-curve<br/>间隔重复]
+    B -->|临近临界翻转| TP[tipping-point<br/>临界质量]
+    B -->|哪里撬动最大| LV[leverage<br/>杠杆点]
+    B -->|意见气候使人沉默| SS[spiral-of-silence]
+    B -->|列表首因近因| SP[serial-position-effect]
+    B -->|从数据爬到信念行动| LI[ladder-of-inference]
+    B -->|若非当时会怎样| CF[counterfactual-thinking]
+    B -->|体验回忆被峰终主导| PE[peak-end-rule]
+    B -->|澄清事实六问| W6[five-w-one-h]
+    B -->|成败归人还是情境| AT[attribution-theory]
+    B -->|习惯回路四步| HK[hook-model]
+    B -->|领导风格配准备度| SL[situational-leadership]
+    B -->|互动策略均衡困境| GT[game-theory]
+    B -->|信念中介情绪| ABC[emotional-abc]
+    B -->|网络价值随连接| ML[metcalfes-law]
+    B -->|非共识且可检验正确| CR[contrarian-and-right]
+    B -->|产业五力利润池| PF[porters-five-forces]
+    B -->|竞争壁垒能否持续| EM2[economic-moat]
+    B -->|跨期权衡承诺装置| LTT[long-term-thinking]
+    B -->|组织文化可见层下| IB[iceberg-model]
+    B -->|用自己的话讲清缺口| FY[feynman-technique]
     B -->|拿着一个主张,问它站不站得住| H[socratic-questioning<br/>追问到矛盾显现]
 
     C -.->|若用户说'都已投入这么多了'| S
@@ -104,6 +164,19 @@ graph TD
     LG -.->|若山谷来自网络协调锁定| PDep
     FW -.->|若各环要迭代改进| PC
     SYS -.->|若增强回路被包装成增长故事| FW
+    ME -.->|若要的是结论先行写作结构| PY
+    PP -.->|若问低成本尾部聚合| LT
+    DR -.->|若问最佳解释而非必然推出| AR
+    AR -.->|若只排解释简单度| D
+    FB -.->|若要的是习惯回路产品设计| HK
+    INV -.->|若问若非当时会怎样| CF
+    DK -.->|若问一般监控调节思维| MC
+    SP -.->|若问体验峰终回忆而非列表记忆| PE
+    SW -.->|若问产业竞争结构| PF
+    PF -.->|若问主体可持续壁垒| EM2
+    CP -.->|若问跨期承诺装置而非再投入公式| LTT
+    TTT -.->|若问跨期制度/承诺而非三时点感受| LTT
+    E -.->|若只要备份容错| RD
 ```
 
 **关键区分**：
@@ -122,6 +195,13 @@ graph TD
 - **邓克 vs 周哈里窗**：表现-自评校准（含复制争议）vs 人际信息四格与反馈披露。
 - **黄金圈 vs SWOT**：叙事一致性 vs 内外态势匹配；黄金圈不是万能领导定律。
 - **反脆弱 vs 逆向思维**：配仓 vs 失败预演。
+- **MECE vs 金字塔原理**：分类纪律 vs 结论先行的表达结构。
+- **二八 vs 长尾**：头部集中 vs 低分发成本下尾部聚合是否划算。
+- **演绎 vs 溯因 vs 奥卡姆**：必然推出 vs 最佳解释 vs 解释优先排序。
+- **福格 vs HOOK**：单次行为发生条件 vs 习惯回路产品设计。
+- **反脆弱 vs 冗余**：从波动获益的结构 vs 备份容错。
+- **10/10/10 vs 长线思考 vs 复利**：三时点感受 vs 跨期承诺装置 vs 再投入机制。
+- **SWOT vs 五力 vs 护城河**：主体内外态势 vs 产业竞争结构 vs 可持续壁垒。
 - **苏格拉底式质疑的元层级地位**：可用于检验其余任何模型的应用是否恰当。
 
 ## 共享术语
@@ -173,9 +253,39 @@ graph TD
 | 行动线 action line | 动机×能力足够时提示才能触发行为 | fogg-behavior-model |
 | WHY / HOW / WHAT | 目的 / 方法原则 / 产品与行动 | golden-circle |
 | 开放/盲目/隐藏/未知 | 周哈里窗四格（己知×他知） | johari-window |
+| 隐含前提 / enthymeme | 论证有效性所需但表面未写出的前提 | implicit-premises |
+| 敏感依赖 SDIC | 初值微差指数放大；≠励志小因必大果 | butterfly-effect |
+| 有效 vs 可靠 | 形式必然推出 vs 前提亦为真 | deductive-reasoning |
+| 可见层 / 假设层 | 组织文化冰山：器物行为 vs 底层假设 | iceberg-model |
+| 费曼缺口 | 无法用自己的话讲清处即未掌握处 | feynman-technique |
+| vital few | 少数因素常主导大部分结果（经验律） | pareto-principle |
+| 结论先行 | 先答再分组论证支撑 | pyramid-principle |
+| 主动/待机冗余 | 并行备份 vs 故障切换备份 | redundancy |
+| 认知监控 | 对思维过程的觉察与调节 | metacognition |
+| 间隔重复 | 按遗忘节奏安排复习 | forgetting-curve |
+| 临界质量 | 越过阈值后行为不可逆翻转 | tipping-point |
+| 杠杆点 | 改变系统行为的高产出结构位置 | leverage |
+| 分发成本门槛 | 长尾商业化的必要条件 | long-tail |
+| 意见气候 | 感知中的多数意见氛围 | spiral-of-silence |
+| 首因 / 近因 | 列表两端记忆优势 | serial-position-effect |
+| 推论阶梯 | 资料→赋义→结论→行动的攀升 | ladder-of-inference |
+| 上行/下行反事实 | 若更好/若更差的“若非”模拟 | counterfactual-thinking |
+| 峰终 | 峰值强度与结尾主导体验回忆 | peak-end-rule |
+| 5W1H | Who/What/When/Where/Why/How | five-w-one-h |
+| 基本归因错误 | 高估性情、低估情境 | attribution-theory |
+| Trigger–Action–Reward–Investment | HOOK 四步习惯回路 | hook-model |
+| 准备度 | 情境领导中的能力×意愿 | situational-leadership |
+| 纳什均衡（直觉） | 无人单方偏离可更优 | game-theory |
+| 溯因 | 选当前最佳解释假设 | abductive-reasoning |
+| A–B–C | 事件–信念–情绪/行为后果 | emotional-abc |
+| n² 启发式 | 网络价值随连接数近似平方（有边界） | metcalfes-law |
+| 非共识且正确 | 少数派且可检验为真 | contrarian-and-right |
+| 五力 | 进入/替代/买方/卖方/竞争 | porters-five-forces |
+| 护城河 | 可持续竞争优势 | economic-moat |
+| 承诺装置 | 约束未来短视的制度/机制 | long-term-thinking |
 
 ## 待蒸馏
 
-01–18 / 19–30 明确不构造项见既有候选池。自催化已由飞轮批覆盖其商业用法。第五批暂缓五项已于同枝补齐。
+第七批 30 个已构造（见 `candidates/batch-7-next-thirty.md`）。既往拒绝项（三脑、升维、万物联系等）仍不构造。
 
-后续高价值候选含：博弈论、HOOK、遗忘曲线、二八定律等（须先三重验证）。研究记录见本机 `docs/books/wanwu-jie-moxing/candidates/`。
+后续可从原书剩余卡片中挑选仍能过三重验证者（如可复制化、批判性思维收窄版等）；研究记录见本机 `docs/books/wanwu-jie-moxing/candidates/`。

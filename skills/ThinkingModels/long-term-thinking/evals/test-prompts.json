@@ -1,0 +1,66 @@
+{
+  "skill": "long-term-thinking",
+  "version": "v0.9-draft",
+  "tests": [
+    {
+      "id": "lt-should-01",
+      "type": "should_trigger",
+      "prompt": "老板只看季度数字但嘴上长期主义，怎么拆？",
+      "expect": "触发；查激励周期与机制，非鸡汤。"
+    },
+    {
+      "id": "lt-should-02",
+      "type": "should_trigger",
+      "prompt": "什么是长线思考？和复利有什么不一样？",
+      "expect": "触发；硬区分复利机制 vs 跨期纪律。"
+    },
+    {
+      "id": "lt-should-03",
+      "type": "should_trigger",
+      "prompt": "产品路线要不要牺牲短期收入做平台能力？",
+      "expect": "触发；近中远后果+存活退出条款。"
+    },
+    {
+      "id": "lt-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "我现在很上头想辞职，用10/10/10帮我过一遍。",
+      "expect": "不触发主模型；走ten-ten-ten。"
+    },
+    {
+      "id": "lt-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "检验一下我们这套习惯有没有复利的再投入闭环。",
+      "expect": "不触发；走compounding。"
+    },
+    {
+      "id": "lt-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这个行业用波特五力看看。",
+      "expect": "不触发；走porters-five-forces。"
+    },
+    {
+      "id": "lt-trap-01",
+      "type": "correctness_trap",
+      "prompt": "长期一定更正确，短期想法都该压下去。",
+      "expect": "纠正；错山上长线更糟；安全约束优先。"
+    },
+    {
+      "id": "lt-trap-02",
+      "type": "correctness_trap",
+      "prompt": "长线思考就是把FV=PV(1+i)^n背熟。",
+      "expect": "纠正；那是复利；本模型管跨期激励与纪律。"
+    },
+    {
+      "id": "lt-edge-01",
+      "type": "edge_case",
+      "prompt": "现金只够撑两个月，还要不要坚持五年愿景？",
+      "expect": "边界；流动性硬约束优先。"
+    },
+    {
+      "id": "lt-edge-02",
+      "type": "edge_case",
+      "prompt": "只有口号没有预算双轨，算长线吗？",
+      "expect": "判定未完成；需可执行机制。"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "skill": "implicit-premises",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "ip-should-01",
+      "type": "should_trigger",
+      "prompt": "这句话听起来跳跃，隐含前提是什么？",
+      "expect": "触发；补全并分类前提。"
+    },
+    {
+      "id": "ip-should-02",
+      "type": "should_trigger",
+      "prompt": "他们说大家都在用所以我们也该买，默认了什么？",
+      "expect": "触发；挖出从众/多数即正确等隐含规范。"
+    },
+    {
+      "id": "ip-should-03",
+      "type": "should_trigger",
+      "prompt": "帮我把这段论证里省略的前提写出来。",
+      "expect": "触发；enthymeme 补全。"
+    },
+    {
+      "id": "ip-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "用苏格拉底式方法整体挑挑我这套方案的毛病。",
+      "expect": "不触发主模型；走苏格拉底式质疑。"
+    },
+    {
+      "id": "ip-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "我是不是只找支持自己的证据了？",
+      "expect": "不触发；走确认偏差。"
+    },
+    {
+      "id": "ip-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "电池成本能不能从原材料层重算？",
+      "expect": "不触发；走第一性原理。"
+    },
+    {
+      "id": "ip-trap-01",
+      "type": "correctness_trap",
+      "prompt": "隐含前提就是潜意识动机，帮我分析他内心。",
+      "expect": "纠正；本模型不做读心/临床动机。"
+    },
+    {
+      "id": "ip-trap-02",
+      "type": "correctness_trap",
+      "prompt": "补上前提后推理闭合了，所以结论一定对。",
+      "expect": "纠正；闭合≠前提可接受/可靠。"
+    },
+    {
+      "id": "ip-edge-01",
+      "type": "edge_case",
+      "prompt": "我只是在抱怨天气，没有论证。",
+      "expect": "边界；无论证结构则不适用。"
+    },
+    {
+      "id": "ip-edge-02",
+      "type": "edge_case",
+      "prompt": "多种隐含前提都能让推理成立怎么办？",
+      "expect": "并列写出争议点，勿只塞有利一条。"
+    }
+  ]
+}

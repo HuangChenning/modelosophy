@@ -11,7 +11,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 This repository is early. Two kinds of skills exist so far:
 
 - [`skills/Business/sales-company-intel-report`](skills/Business/sales-company-intel-report) — a sales account-research skill that demonstrates the `SKILL.md` + templates + scripts structure this project uses.
-- [`skills/ThinkingModels/`](skills/ThinkingModels) — the mental-model library so far: 31 skills (30 from the book plus Socratic questioning), spanning decision costs, biases, systems, strategy tools (SWOT, MECE, PDCA, flywheel), prospect theory / Fogg / Golden Circle / Johari / Dunning–Kruger, and more. Each was re-researched from its actual academic source (not copied from the 《万物皆模型》book's summary cards), passed a Socratic self-check, blind-tested eval cases, and official Skill spec validation. See [`skills/ThinkingModels/README.md`](skills/ThinkingModels/README.md) for the full map.
+- [`skills/ThinkingModels/`](skills/ThinkingModels) — the mental-model library so far: 61 skills (60 from the book plus Socratic questioning), spanning decision costs, biases, systems, strategy (SWOT / five forces / moat), learning & behavior (Fogg / Hook / forgetting curve), and reasoning tools (MECE / pyramid / game theory / abduction). Each was re-researched from its actual academic source (not copied from the 《万物皆模型》book's summary cards), passed a Socratic self-check, blind-tested eval cases, and official Skill spec validation. See [`skills/ThinkingModels/README.md`](skills/ThinkingModels/README.md) for the full map.
 
 ## How it works
 
@@ -48,7 +48,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The mental-model library is still early — 31 models are covered so far (30 from the book plus Socratic questioning as a method supplement). Most of the 100 models haven't been touched at all. Skill-authoring conventions may still change as the library grows.
+The mental-model library is still early — 61 models are covered so far (60 from the book plus Socratic questioning as a method supplement). A large share of the 100 book models remain unbuilt or previously rejected. Skill-authoring conventions may still change as the library grows.
 
 ## Contributing a mental model
 

@@ -1,0 +1,66 @@
+{
+  "skill": "situational-leadership",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "sl-should-01",
+      "type": "should_trigger",
+      "prompt": "新人做客户电话很积极但不会谈，情境领导该用哪种风格？",
+      "expect": "触发；D1→S1 指令。"
+    },
+    {
+      "id": "sl-should-02",
+      "type": "should_trigger",
+      "prompt": "解释一下 D1–D4 和 S1–S4。",
+      "expect": "触发；准备度×风格映射。"
+    },
+    {
+      "id": "sl-should-03",
+      "type": "should_trigger",
+      "prompt": "老手会做但抵制新工具，我该催还是该赋能？",
+      "expect": "触发；按任务评意愿，偏支持/教练。"
+    },
+    {
+      "id": "sl-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "我想早起却总起不来，用福格拆。",
+      "expect": "不触发主模型；走福格。"
+    },
+    {
+      "id": "sl-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "组织口号改了行为不变，是不是冰山下有基本假设？",
+      "expect": "不触发；走冰山。"
+    },
+    {
+      "id": "sl-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "按马斯洛他缺的是哪层需求？",
+      "expect": "不触发主模型；走马斯洛。"
+    },
+    {
+      "id": "sl-trap-01",
+      "type": "correctness_trap",
+      "prompt": "他是 D2 型人格，以后都按教练带。",
+      "expect": "纠正；按任务评，禁止永久标签。"
+    },
+    {
+      "id": "sl-trap-02",
+      "type": "correctness_trap",
+      "prompt": "情境领导就是什么都放权叫赋能。",
+      "expect": "纠正；D1 需高指令，非一律放权。"
+    },
+    {
+      "id": "sl-edge-01",
+      "type": "edge_case",
+      "prompt": "高风险合规操作也按 S4 授权培养意愿？",
+      "expect": "边界；红线不可因培养放开。"
+    },
+    {
+      "id": "sl-edge-02",
+      "type": "edge_case",
+      "prompt": "帮我诊断下属是不是抑郁症所以意愿低。",
+      "expect": "拒绝临床诊断；停留在任务督导。"
+    }
+  ]
+}

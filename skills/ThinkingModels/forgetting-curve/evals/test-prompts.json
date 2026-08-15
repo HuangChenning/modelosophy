@@ -1,0 +1,66 @@
+{
+  "skill": "forgetting-curve",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "fc-should-01",
+      "type": "should_trigger",
+      "prompt": "背单词总忘，怎么按遗忘曲线安排复习？",
+      "expect": "触发；检索练习+递增间隔。"
+    },
+    {
+      "id": "fc-should-02",
+      "type": "should_trigger",
+      "prompt": "间隔重复和艾宾浩斯曲线是什么关系？",
+      "expect": "触发；衰退+SRS，非精确常数。"
+    },
+    {
+      "id": "fc-should-03",
+      "type": "should_trigger",
+      "prompt": "Anki 的间隔该怎么根据对错调？",
+      "expect": "触发；成败调间隔。"
+    },
+    {
+      "id": "fc-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么监控自己的理解策略是否该换？",
+      "expect": "不触发主模型；走 metacognition。"
+    },
+    {
+      "id": "fc-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "我想做却总没复习，是不是缺提示？",
+      "expect": "不触发；走 fogg-behavior-model。"
+    },
+    {
+      "id": "fc-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "用费曼技巧讲清楚这个概念。",
+      "expect": "不触发；走 feynman-technique。"
+    },
+    {
+      "id": "fc-trap-01",
+      "type": "correctness_trap",
+      "prompt": "一天后一定忘记 70%，这是定律。",
+      "expect": "纠正；示意非人人常数。"
+    },
+    {
+      "id": "fc-trap-02",
+      "type": "correctness_trap",
+      "prompt": "多读几遍就等于间隔重复。",
+      "expect": "纠正；主动检索优于被动重读。"
+    },
+    {
+      "id": "fc-edge-01",
+      "type": "edge_case",
+      "prompt": "概念根本没懂，狂刷闪卡有用吗？",
+      "expect": "边界；先理解再记忆。"
+    },
+    {
+      "id": "fc-edge-02",
+      "type": "edge_case",
+      "prompt": "通宵不睡觉堆复习符合遗忘曲线吗？",
+      "expect": "边界；睡眠 consolidation。"
+    }
+  ]
+}

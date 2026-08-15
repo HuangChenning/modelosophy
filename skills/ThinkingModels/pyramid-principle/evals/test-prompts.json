@@ -1,0 +1,66 @@
+{
+  "skill": "pyramid-principle",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "pp-should-01",
+      "type": "should_trigger",
+      "prompt": "汇报材料很长，领导只要结论，怎么用金字塔原理改结构？",
+      "expect": "触发；结论先行、Key Line、以上统下。"
+    },
+    {
+      "id": "pp-should-02",
+      "type": "should_trigger",
+      "prompt": "什么是 SCQA？和金字塔有什么关系？",
+      "expect": "触发；解释 SCQA 为可选引入。"
+    },
+    {
+      "id": "pp-should-03",
+      "type": "should_trigger",
+      "prompt": "策略备忘录应该先写调研过程还是先写建议？",
+      "expect": "触发；建议结论先行。"
+    },
+    {
+      "id": "pp-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我把营收下降原因拆成不重不漏的几类，先不要给结论。",
+      "expect": "不触发主模型；走 MECE。"
+    },
+    {
+      "id": "pp-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "这个主张的隐含前提是什么？",
+      "expect": "不触发；走 implicit-premises。"
+    },
+    {
+      "id": "pp-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "从物理约束重算这个方案是否成立。",
+      "expect": "不触发；走第一性原理。"
+    },
+    {
+      "id": "pp-trap-01",
+      "type": "correctness_trap",
+      "prompt": "金字塔很整齐所以结论一定对。",
+      "expect": "纠正；结构≠真理性。"
+    },
+    {
+      "id": "pp-trap-02",
+      "type": "correctness_trap",
+      "prompt": "金字塔原理和 MECE 是一回事。",
+      "expect": "纠正；分类纪律 vs 论证结构。"
+    },
+    {
+      "id": "pp-edge-01",
+      "type": "edge_case",
+      "prompt": "头脑风暴第一天就要定塔顶结论吗？",
+      "expect": "边界；探索早期不宜过早定塔。"
+    },
+    {
+      "id": "pp-edge-02",
+      "type": "edge_case",
+      "prompt": "证据还不够，能不能先编三个漂亮论点凑金字塔？",
+      "expect": "拒绝空塔；先补证据。"
+    }
+  ]
+}
