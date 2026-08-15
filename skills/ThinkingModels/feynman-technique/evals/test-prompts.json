@@ -1,0 +1,66 @@
+{
+  "skill": "feynman-technique",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "ft-should-01",
+      "type": "should_trigger",
+      "prompt": "用费曼技巧帮我学梯度下降。",
+      "expect": "触发；教—卡壳—补洞协议。"
+    },
+    {
+      "id": "ft-should-02",
+      "type": "should_trigger",
+      "prompt": "我看懂了但讲不出来，怎么办？",
+      "expect": "触发；以教促学暴露空洞。"
+    },
+    {
+      "id": "ft-should-03",
+      "type": "should_trigger",
+      "prompt": "Feynman technique：用大白话讲一遍这个 API。",
+      "expect": "触发。"
+    },
+    {
+      "id": "ft-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "我是不是邓克效应，能力不行还自我感觉良好？",
+      "expect": "不触发主模型；走邓宁-克鲁格。"
+    },
+    {
+      "id": "ft-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "这是系统1还是系统2在做决定？",
+      "expect": "不触发；走双系统。"
+    },
+    {
+      "id": "ft-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "想做但总没做成，缺动机还是提示？",
+      "expect": "不触发；走福格。"
+    },
+    {
+      "id": "ft-trap-01",
+      "type": "correctness_trap",
+      "prompt": "费曼技巧保证20分钟精通且永不忘。",
+      "expect": "纠正；拒营销夸大。"
+    },
+    {
+      "id": "ft-trap-02",
+      "type": "correctness_trap",
+      "prompt": "我讲得很顺所以一定理解对了。",
+      "expect": "纠正；流畅错觉，需外部检验。"
+    },
+    {
+      "id": "ft-edge-01",
+      "type": "edge_case",
+      "prompt": "学游泳也能只靠费曼讲解吗？",
+      "expect": "动作技能仍需身体练习。"
+    },
+    {
+      "id": "ft-edge-02",
+      "type": "edge_case",
+      "prompt": "没有可靠资料只有自媒体比喻。",
+      "expect": "先找权威源，否则固化错解。"
+    }
+  ]
+}

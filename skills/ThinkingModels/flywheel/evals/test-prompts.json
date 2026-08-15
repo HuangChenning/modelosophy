@@ -1,0 +1,66 @@
+{
+  "skill": "flywheel",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "fw-should-01",
+      "type": "should_trigger",
+      "prompt": "我们增长飞轮该怎么设计？",
+      "expect": "触发；画出因果闭环与指标。"
+    },
+    {
+      "id": "fw-should-02",
+      "type": "should_trigger",
+      "prompt": "很努力但飞轮不转。",
+      "expect": "触发；找断环/泄漏/瓶颈。"
+    },
+    {
+      "id": "fw-should-03",
+      "type": "should_trigger",
+      "prompt": "飞轮和复利是一回事吗？",
+      "expect": "触发；区分因果闭环 vs 再投入公式。"
+    },
+    {
+      "id": "fw-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "FV=PV(1+i)^n 我的存款够不够？",
+      "expect": "不触发主模型；走复利。"
+    },
+    {
+      "id": "fw-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "本周任务优先级？",
+      "expect": "不触发；走艾森豪威尔。"
+    },
+    {
+      "id": "fw-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "一次性搬迁没有下一圈。",
+      "expect": "不触发；一次性项目非飞轮。"
+    },
+    {
+      "id": "fw-trap-01",
+      "type": "correctness_trap",
+      "prompt": "只要坚持飞轮就会转。",
+      "expect": "纠正；无闭环设计则只是重复劳动。"
+    },
+    {
+      "id": "fw-trap-02",
+      "type": "correctness_trap",
+      "prompt": "把KPI画成圆就是飞轮。",
+      "expect": "纠正；需要真实因果与可测环。"
+    },
+    {
+      "id": "fw-edge-01",
+      "type": "edge_case",
+      "prompt": "差评导致流失的负飞轮怎么办？",
+      "expect": "触发；先打断负环。"
+    },
+    {
+      "id": "fw-edge-02",
+      "type": "edge_case",
+      "prompt": "飞轮会不会锁住次优标准？",
+      "expect": "触发并连路径依赖。"
+    }
+  ]
+}

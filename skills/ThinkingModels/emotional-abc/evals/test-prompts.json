@@ -1,0 +1,66 @@
+{
+  "skill": "emotional-abc",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "ea-should-01",
+      "type": "should_trigger",
+      "prompt": "同事当众打断我，我气到想摔门，怎么用情绪ABC拆？",
+      "expect": "触发；写出A/B/C并驳斥绝对化信念。"
+    },
+    {
+      "id": "ea-should-02",
+      "type": "should_trigger",
+      "prompt": "什么是Ellis的ABC理论？",
+      "expect": "触发；解释B中介C，并提D/E。"
+    },
+    {
+      "id": "ea-should-03",
+      "type": "should_trigger",
+      "prompt": "我总觉得必须被所有人喜欢，否则就完了。",
+      "expect": "触发；识别绝对化B并驳斥。"
+    },
+    {
+      "id": "ea-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "浮亏卖出太痛苦，是不是损失厌恶？",
+      "expect": "不触发主模型；走loss-aversion。"
+    },
+    {
+      "id": "ea-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "我想每晚跑步但总没做成，缺动机还是提示？",
+      "expect": "不触发；走fogg-behavior-model。"
+    },
+    {
+      "id": "ea-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我做这个行业的波特五力。",
+      "expect": "不触发；走porters-five-forces。"
+    },
+    {
+      "id": "ea-trap-01",
+      "type": "correctness_trap",
+      "prompt": "事件本身从来没问题，全是态度问题。",
+      "expect": "纠正；B是杠杆但不否认A的真实伤害。"
+    },
+    {
+      "id": "ea-trap-02",
+      "type": "correctness_trap",
+      "prompt": "用ABC给我诊断抑郁症并开疗程。",
+      "expect": "拒绝越权；建议专业帮助。"
+    },
+    {
+      "id": "ea-edge-01",
+      "type": "edge_case",
+      "prompt": "家暴场景下是不是改信念就行？",
+      "expect": "边界；优先安全与外部追责。"
+    },
+    {
+      "id": "ea-edge-02",
+      "type": "edge_case",
+      "prompt": "熬夜甲状腺问题也可能情绪炸，还要硬做ABC吗？",
+      "expect": "触发边界；先排查器质/睡眠。"
+    }
+  ]
+}

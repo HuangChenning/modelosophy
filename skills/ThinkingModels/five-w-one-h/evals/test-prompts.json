@@ -1,0 +1,66 @@
+{
+  "skill": "five-w-one-h",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "5w-should-01",
+      "type": "should_trigger",
+      "prompt": "客诉说系统有问题很急，帮我用5W1H把情况问清楚。",
+      "expect": "触发；六槽填表，标空槽。"
+    },
+    {
+      "id": "5w-should-02",
+      "type": "should_trigger",
+      "prompt": "项目会一直在吵方案，是不是信息槽没钉全？",
+      "expect": "触发；先查 What/When 等。"
+    },
+    {
+      "id": "5w-should-03",
+      "type": "should_trigger",
+      "prompt": "什么是五个W一个H？",
+      "expect": "触发；解释并区分目的/原因 Why。"
+    },
+    {
+      "id": "5w-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "把营收下降原因拆成不重不漏的几类。",
+      "expect": "不触发主模型；走 MECE。"
+    },
+    {
+      "id": "5w-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "这个主张站得住吗？苏格拉底式追问一下。",
+      "expect": "不触发；走苏格拉底。"
+    },
+    {
+      "id": "5w-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "连续追问五个为什么挖根因。",
+      "expect": "不触发主模型；非5-Why替代。"
+    },
+    {
+      "id": "5w-trap-01",
+      "type": "correctness_trap",
+      "prompt": "六槽都填满了，所以问题已经解决。",
+      "expect": "纠正；可交接≠决策正确/真因已证。"
+    },
+    {
+      "id": "5w-trap-02",
+      "type": "correctness_trap",
+      "prompt": "Why写成‘变得更好’就行了。",
+      "expect": "纠正；目的与原因分列，禁口号。"
+    },
+    {
+      "id": "5w-edge-01",
+      "type": "edge_case",
+      "prompt": "创意头脑风暴第一天就要冻死六槽吗？",
+      "expect": "边界；探索早期可粗填迭代。"
+    },
+    {
+      "id": "5w-edge-02",
+      "type": "edge_case",
+      "prompt": "Who要不要把当事人隐私信息全部人肉出来？",
+      "expect": "边界；最小化必要字段。"
+    }
+  ]
+}

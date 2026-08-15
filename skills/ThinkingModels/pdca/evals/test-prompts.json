@@ -1,0 +1,66 @@
+{
+  "skill": "pdca",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "pc-should-01",
+      "type": "should_trigger",
+      "prompt": "质量问题想用戴明环怎么转？",
+      "expect": "触发；Plan假说-Do-Check-Act标准化。"
+    },
+    {
+      "id": "pc-should-02",
+      "type": "should_trigger",
+      "prompt": "PDCA和PDSA有啥区别？",
+      "expect": "触发；强调Study学习不只合格检验。"
+    },
+    {
+      "id": "pc-should-03",
+      "type": "should_trigger",
+      "prompt": "改了流程但不知道有没有用。",
+      "expect": "触发；补度量与Check/Act。"
+    },
+    {
+      "id": "pc-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "先做战略SWOT吧。",
+      "expect": "不触发主模型；走SWOT。"
+    },
+    {
+      "id": "pc-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "增长闭环怎么画？",
+      "expect": "不触发主模型；走飞轮。"
+    },
+    {
+      "id": "pc-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "一次性选哪个不可逆offer。",
+      "expect": "不触发；决策树/机会成本。"
+    },
+    {
+      "id": "pc-trap-01",
+      "type": "correctness_trap",
+      "prompt": "计划做一年再执行才叫PDCA。",
+      "expect": "纠正；环要短，避免伪瀑布。"
+    },
+    {
+      "id": "pc-trap-02",
+      "type": "correctness_trap",
+      "prompt": "Act就是抓住责任人处罚。",
+      "expect": "纠正；Act是标准化或弃子学习。"
+    },
+    {
+      "id": "pc-edge-01",
+      "type": "edge_case",
+      "prompt": "没有指标能转PDCA吗？",
+      "expect": "先建测量。"
+    },
+    {
+      "id": "pc-edge-02",
+      "type": "edge_case",
+      "prompt": "本环没解决完能否结束？",
+      "expect": "显式把问题放入下一Plan。"
+    }
+  ]
+}
