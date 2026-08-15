@@ -1,0 +1,66 @@
+{
+  "skill": "critical-thinking",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "ct-should-01",
+      "type": "should_trigger",
+      "prompt": "帮我用批判性思维系统评估这份商业计划书的论证质量：主张、证据和推理桥分别怎么样？",
+      "expect": "触发。明示要按标准评估论证，走 Delphi 技能步骤并可建设性修正。"
+    },
+    {
+      "id": "ct-should-02",
+      "type": "should_trigger",
+      "prompt": "这个政策评论说‘数据证明应该全面推广’，我怀疑证据标准不够，帮我审论证。",
+      "expect": "触发。证据标准与推理强度评估，核心用法。"
+    },
+    {
+      "id": "ct-should-03",
+      "type": "should_trigger",
+      "prompt": "critical thinking 帮我把对方最强表述钢人之后，指出仍缺什么、结论该如何改弱。",
+      "expect": "触发。倾向（公正）+ 评估 + 建设性改写结论。"
+    },
+    {
+      "id": "ct-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "我这个方案的逻辑站得住吗？帮我挑挑毛病，苏格拉底式追问就行，问倒为止。",
+      "expect": "不触发本 skill。点名苏格拉底/挑毛病/证伪 → socratic-questioning。"
+    },
+    {
+      "id": "ct-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "别给我重建结论，就用 elenchus 把我的隐含前提问崩，停在我不知道就好。",
+      "expect": "不触发。只要证伪且接受 aporia，是苏格拉底边界，不是 Delphi 重建。"
+    },
+    {
+      "id": "ct-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "Facione Delphi 报告是哪一年发表的？",
+      "expect": "不触发。史实查询（1990），不套六技能流程。"
+    },
+    {
+      "id": "ct-trap-01",
+      "type": "correctness_trap",
+      "prompt": "批判性思维就是凡事唱反调、把对方辩到说不出话，对吧？",
+      "expect": "必须纠正。不是抬杠；按标准评估，且可建设性修正；倾向含公正与求真。"
+    },
+    {
+      "id": "ct-trap-02",
+      "type": "correctness_trap",
+      "prompt": "批判性思维和苏格拉底式质疑不就是一回事吗？原书例子也是苏格拉底。",
+      "expect": "必须纠正硬区分：苏格拉底证伪常止于 aporia；本模型评估证据并可重建。原书例需重写不能混用。"
+    },
+    {
+      "id": "ct-edge-01",
+      "type": "edge_case",
+      "prompt": "我刚被裁员，心情很差，你就陪我说说话，别审我的人生论证。",
+      "expect": "边界。需要支持时拒绝强行套用批判性思维评审。"
+    },
+    {
+      "id": "ct-edge-02",
+      "type": "edge_case",
+      "prompt": "北京到上海高铁多远？请用批判性思维六步分析。",
+      "expect": "边界。纯事实查询不应走六技能；直接查答，指出不适用。"
+    }
+  ]
+}

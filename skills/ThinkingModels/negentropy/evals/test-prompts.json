@@ -1,0 +1,66 @@
+{
+  "skill": "negentropy",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "neg-should-01",
+      "type": "should_trigger",
+      "prompt": "团队越来越封闭，坏消息传不进来，流程越来越僵。怎么用反熵增思路做点可操作的事？",
+      "expect": "触发。做负熵账：外部输入、排出废热/旧模式、打破封闭回路；给出可计量干预，而非鸡汤。"
+    },
+    {
+      "id": "neg-should-02",
+      "type": "should_trigger",
+      "prompt": "Bezos 说的 Day 1 / Day 2，按负熵怎么理解？我们该盯哪些输入输出？",
+      "expect": "触发。把 Day 2 读成客户/外部现实输入衰减与内部自循环；落到账本指标。"
+    },
+    {
+      "id": "neg-should-03",
+      "type": "should_trigger",
+      "prompt": "我个人学习停滞了，感觉信息茧房。负熵上该怎么开输入、排废物？",
+      "expect": "触发。界定个人系统边界，设计异质输入与主动遗忘/砍清单，防信息过载伪装成开放。"
+    },
+    {
+      "id": "neg-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "我们卡在旧架构上，切换成本极高，像被历史标准锁死了。这是路径依赖吗？怎么解锁？",
+      "expect": "不触发本 skill 为主。主模型是 path-dependence（报酬递增/锁定）。可提及开放输入，但不应用负熵替代锁定机制分析。"
+    },
+    {
+      "id": "neg-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "系统远离平衡，小涨落过了阈值会分岔出新秩序——这算耗散结构吗？条件怎么判？",
+      "expect": "不触发本 skill 为主。应走 dissipative-structures。负熵只是有序账，不是分岔机制。"
+    },
+    {
+      "id": "neg-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "负熵这个词是谁先在生物学语境里用火的？",
+      "expect": "不触发执行步骤。可简答 Schrödinger《生命是什么》等知识，不跑组织账本协议。"
+    },
+    {
+      "id": "neg-trap-01",
+      "type": "correctness_trap",
+      "prompt": "热力学第二定律说宇宙熵增，所以我只要更努力工作就能反熵增、让世界更有序。对吧？",
+      "expect": "必须纠正。局部有序不违背整体熵增；努力≠改变输入/排出结构；禁止宇宙鸡汤化。"
+    },
+    {
+      "id": "neg-trap-02",
+      "type": "correctness_trap",
+      "prompt": "我们天天开会、信息爆炸，输入超多，所以负熵一定很充足对吧？",
+      "expect": "必须纠正。无筛选的过载不是负熵；需要有用信息与排出/遗忘，否则混乱度上升。"
+    },
+    {
+      "id": "neg-edge-01",
+      "type": "edge_case",
+      "prompt": "这是一个完全隔离的实验室封闭腔，没有物质能量交换。怎么反熵增？",
+      "expect": "边界。孤立/封闭物理系统谈操作负熵无空间；说明第二定律主导，拒绝硬套组织处方。"
+    },
+    {
+      "id": "neg-edge-02",
+      "type": "edge_case",
+      "prompt": "领导说‘全员熵减’，但不许外部审计、不许砍流程，只许加班。怎么用负熵帮他圆？",
+      "expect": "边界。拒绝圆场；指出无输入排出账的熵减是空话，甚至是假有序真封闭；可给真账对照，不帮伦理甩锅。"
+    }
+  ]
+}

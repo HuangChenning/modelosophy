@@ -66,6 +66,14 @@
 | [porters-five-forces](porters-five-forces/SKILL.md) | 波特五力 | Porter Five Forces | 产业五力如何塑造利润池？ | v1.0 |
 | [economic-moat](economic-moat/SKILL.md) | 护城河 | Buffett/Morningstar moat | 竞争优势能否持续抵御侵蚀？ | v1.0 |
 | [long-term-thinking](long-term-thinking/SKILL.md) | 长线思考 | 跨期权衡 / 承诺装置 | 短利与长期承诺如何对齐？ | v1.0 |
+| [process-replication](process-replication/SKILL.md) | 可复制化 | 知识迁移 / SOP / 过程复制 | 成功经验如何炼成可迁移方法论？ | v1.0 |
+| [negentropy](negentropy/SKILL.md) | 反熵增 / 负熵 | Schrödinger / Brillouin 负熵 | 开放系统如何输入有序以抗失序？ | v1.0 |
+| [expected-value](expected-value/SKILL.md) | 期望值（费马–帕斯卡） | Fermat–Pascal 点数问题 / 古典概率 | 静态结果集上概率加权划不划算？ | v1.0 |
+| [critical-thinking](critical-thinking/SKILL.md) | 批判性思维 | Dewey + Facione Delphi | 论证是否按明示标准评估并可改进？ | v1.0 |
+| [dissipative-structures](dissipative-structures/SKILL.md) | 耗散结构 | Prigogine 远离平衡开放系统 | 开放+涨落过阈值能否跃迁新有序？ | v1.0 |
+| [munger-misjudgment](munger-misjudgment/SKILL.md) | 人类误判心理 | Munger 25 倾向 + Lollapalooza | 误判清单命中谁、是否多倾向叠加？ | v1.0 |
+| [gaslighting](gaslighting/SKILL.md) | 煤气灯效应 | 操纵识别 / Stern 三阶段（非诊断） | 是否在剥夺对方现实定义权？ | v1.0 |
+| [dual-goal-list](dual-goal-list/SKILL.md) | 双目标清单 | Buffett/Flint 25/5 两清单 | Top 目标之外诱人项是否进绝对回避表？ | v1.0 |
 | [socratic-questioning](socratic-questioning/SKILL.md) | 苏格拉底式质疑 | 柏拉图对话录 elenchus + Paul-Elder 框架 + CBT 引导式发现 | 这个主张自己站得住吗？ | v1.0 |
 
 > `socratic-questioning` 不在《万物皆模型》100 个模型之列，是方法论补充；它同时是本仓库 skill 定稿前的强制自检工具（见 CLAUDE.md）。
@@ -283,9 +291,17 @@ graph TD
 | 五力 | 进入/替代/买方/卖方/竞争 | porters-five-forces |
 | 护城河 | 可持续竞争优势 | economic-moat |
 | 承诺装置 | 约束未来短视的制度/机制 | long-term-thinking |
+| 过程复制 | 成功经验→适配本地的可迁移方法论 | process-replication |
+| 负熵 / 熵减 | 开放系统输入有序/能量以维持局部有序 | negentropy |
+| 点数问题 | 未完成公平赌局按剩余可能结局分配 | expected-value |
+| Delphi 技能/倾向 | 批判性思维的认知技能 + 思维倾向框架 | critical-thinking |
+| 涨落 / 分岔点 | 远离平衡时扰动放大导致结构跃迁 | dissipative-structures |
+| Lollapalooza | 多心理倾向同向叠加的极端误判 | munger-misjudgment |
+| 现实定义权 | 谁有权裁定「发生了什么」 | gaslighting |
+| List A / List B | 最重要目标 vs 绝对回避的诱人次要目标 | dual-goal-list |
 
 ## 待蒸馏
 
-第七批 30 个已构造（见 `candidates/batch-7-next-thirty.md`）。既往拒绝项（三脑、升维、万物联系等）仍不构造。
+第八批 8 个已构造（见 `candidates/batch-8-remaining-eight.md`）。第七批见 `batch-7-next-thirty.md`。既往拒绝项（三脑、升维、万物联系等）仍不构造。
 
-后续可从原书剩余卡片中挑选仍能过三重验证者（如可复制化、批判性思维收窄版等）；研究记录见本机 `docs/books/wanwu-jie-moxing/candidates/`。
+原书可验证卡片已基本消化；后续仅在三重验证仍通过时增量补漏。研究记录见本机 `docs/books/wanwu-jie-moxing/candidates/`。

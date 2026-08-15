@@ -11,7 +11,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 This repository is early. Two kinds of skills exist so far:
 
 - [`skills/Business/org-it-intel-report`](skills/Business/org-it-intel-report) — a vendor-neutral org / IT intelligence skill (organization overview + IT investment & procurement), demonstrating the `SKILL.md` + templates + scripts structure this project uses.
-- [`skills/ThinkingModels/`](skills/ThinkingModels) — the mental-model library so far: 61 skills (60 from the book plus Socratic questioning), spanning decision costs, biases, systems, strategy (SWOT / five forces / moat), learning & behavior (Fogg / Hook / forgetting curve), and reasoning tools (MECE / pyramid / game theory / abduction). Each was re-researched from its actual academic source (not copied from the 《万物皆模型》book's summary cards), passed a Socratic self-check, blind-tested eval cases, and official Skill spec validation. See [`skills/ThinkingModels/README.md`](skills/ThinkingModels/README.md) for the full map.
+- [`skills/ThinkingModels/`](skills/ThinkingModels) — the mental-model library so far: 69 skills (68 from the book plus Socratic questioning), spanning decision costs, biases, systems, strategy (SWOT / five forces / moat), learning & behavior (Fogg / Hook / forgetting curve), and reasoning tools (MECE / pyramid / game theory / abduction / expected value / critical thinking). Each was re-researched from its actual academic source (not copied from the 《万物皆模型》book's summary cards), passed a Socratic self-check, blind-tested eval cases, and official Skill spec validation. See [`skills/ThinkingModels/README.md`](skills/ThinkingModels/README.md) for the full map.
 
 ## How it works
 
@@ -48,7 +48,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The mental-model library is still early — 61 models are covered so far (60 from the book plus Socratic questioning as a method supplement). A large share of the 100 book models remain unbuilt or previously rejected. Skill-authoring conventions may still change as the library grows.
+The mental-model library is still early — 69 models are covered so far (68 from the book plus Socratic questioning as a method supplement). Remaining book cards are mostly previously rejected or not triple-verified; Skill-authoring conventions may still change as the library grows.
 
 ## Contributing a mental model
 
