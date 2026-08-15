@@ -25,6 +25,17 @@
 | [eisenhower-matrix](eisenhower-matrix/SKILL.md) | 艾森豪威尔矩阵 | Eisenhower + Covey 四象限 | 急事和要事怎么排进日程？ | v1.0 |
 | [survivorship-bias](survivorship-bias/SKILL.md) | 幸存者偏差 | 选择偏差 / Wald 装甲传统 | 是不是只看见活下来的样本？ | v1.0 |
 | [compounding](compounding/SKILL.md) | 复利 | 复利公式 + 再投入机制 | 长期增长的闭环条件成不成立？ | v1.0 |
+| [flow](flow/SKILL.md) | 心流 | Csikszentmihalyi Flow | 挑战与技能是否匹配到专注通道？ | v1.0 |
+| [mece](mece/SKILL.md) | MECE | McKinsey / Minto | 分类是否不重不漏？ | v1.0 |
+| [path-dependence](path-dependence/SKILL.md) | 路径依赖 | David / Arthur / North | 历史选择如何锁住现在？ | v1.0 |
+| [flywheel](flywheel/SKILL.md) | 飞轮 | Collins + 增长飞轮实践 | 因果闭环是否在加速？ | v1.0 |
+| [swot](swot/SKILL.md) | SWOT | 战略态势分析 / TOWS | 内外优劣机会威胁如何匹配成行动？ | v1.0 |
+| [pdca](pdca/SKILL.md) | PDCA | Shewhart / Deming | 改进循环下一圈怎么转？ | v1.0 |
+| [prospect-theory](prospect-theory/SKILL.md) | 前景理论 | Kahneman & Tversky 1979/1992 | 参照点+价值函数+概率权重如何扭曲选择？ | v1.0 |
+| [dunning-kruger](dunning-kruger/SKILL.md) | 邓宁-克鲁格效应 | Kruger & Dunning + 复制/测量批评 | 能力自评是否可能失准？（非励志阶段论） | v1.0 |
+| [fogg-behavior-model](fogg-behavior-model/SKILL.md) | 福格行为模型 | BJ Fogg B=MAP / Tiny Habits | 行为缺的是动机、能力还是提示？ | v1.0 |
+| [golden-circle](golden-circle/SKILL.md) | 黄金圈 | Sinek WHY–HOW–WHAT（沟通框架） | 目的-方法-产物叙事如何对齐？ | v1.0 |
+| [johari-window](johari-window/SKILL.md) | 周哈里窗 | Luft & Ingham 1955 | 反馈与披露如何扩大开放区？ | v1.0 |
 | [socratic-questioning](socratic-questioning/SKILL.md) | 苏格拉底式质疑 | 柏拉图对话录 elenchus + Paul-Elder 框架 + CBT 引导式发现 | 这个主张自己站得住吗？ | v1.0 |
 
 > `socratic-questioning` 不在《万物皆模型》100 个模型之列，是方法论补充；它同时是本仓库 skill 定稿前的强制自检工具（见 CLAUDE.md）。
@@ -45,6 +56,11 @@ graph TD
     B -->|因最近生动案例觉得事件很常见| AH[availability-heuristic<br/>核对基础频率]
     B -->|只从成功者倒推必胜法则| SB[survivorship-bias<br/>补失败分母]
     B -->|同等得失痛感不对称或框架翻转| LA[loss-aversion<br/>改写参照点]
+    B -->|参照点+价值函数+概率权重全文| PT[prospect-theory<br/>前景理论框架]
+    B -->|能力自评与表现落差/校准| DK[dunning-kruger<br/>对照外部尺度]
+    B -->|行为会不会发生缺M/A/P| FB[fogg-behavior-model<br/>B=MAP]
+    B -->|沟通/品牌先对齐目的| GC[golden-circle<br/>WHY-HOW-WHAT]
+    B -->|反馈披露扩大互知| JW[johari-window<br/>四格开窗]
     B -->|该信直觉还是该强制慢下来| DP[dual-process<br/>检查反馈与唤起条件]
     B -->|前路不确定,要设计应对策略| E[antifragility<br/>设计不对称结构]
     B -->|会议里事实情绪风险搅在一起| HATS[six-thinking-hats<br/>分帽并行思考]
@@ -55,6 +71,12 @@ graph TD
     B -->|待办过载,急事要事搅在一起| EM[eisenhower-matrix<br/>四象限排程]
     B -->|怀疑当前路径只是小山峰| LG[local-global-optima<br/>算换山下坡]
     B -->|问长期主义/利滚利是否成立| CP[compounding<br/>查再投入与存活]
+    B -->|挑战技能不匹配,难进专注| FL[flow<br/>调挑战或技能]
+    B -->|要把问题拆成不重不漏的类| ME[mece<br/>互斥穷尽]
+    B -->|历史标准/架构换不掉| PDep[path-dependence<br/>点名锁定机制]
+    B -->|要设计或诊断增长因果闭环| FW[flywheel<br/>画可测飞轮]
+    B -->|战略内外态势盘点| SW[swot<br/>四格加TOWS匹配]
+    B -->|持续改进怎么转下一圈| PC[pdca<br/>Plan-Do-Check-Act]
     B -->|拿着一个主张,问它站不站得住| H[socratic-questioning<br/>追问到矛盾显现]
 
     C -.->|若用户说'都已投入这么多了'| S
@@ -69,17 +91,36 @@ graph TD
     FP -.->|若问的是反馈反弹而非惯例真假| SYS
     CB -.->|若没有明确立场,只因案例易提取| AH
     S -.->|若痛点是浮亏变实亏的框架| LA
+    LA -.->|若还要概率权重/四重模式全文| PT
+    PT -.->|若只问得失痛感不对称| LA
+    FL -.->|若问题是行为根本没发生| FB
+    FB -.->|若已能发生但体验不匹配| FL
+    DK -.->|若要结构化合反馈披露| JW
+    JW -.->|若焦点是测验校准而非人际窗| DK
+    GC -.->|若要的是战略态势而非叙事| SW
     EM -.->|若怀疑整座山错了| LG
     CP -.->|若故事全是活下来的长跑者| SB
+    CP -.->|若要的是商业因果闭环故事| FW
+    LG -.->|若山谷来自网络协调锁定| PDep
+    FW -.->|若各环要迭代改进| PC
+    SYS -.->|若增强回路被包装成增长故事| FW
 ```
 
 **关键区分**：
 - **机会成本 vs 沉没成本**：前者处理面向未来的互斥选择；后者处理已经收不回的投入是否绑架当前判断。
 - **沉没成本 vs 损失规避**：前者问已投入能否当理由；后者问同等得失的不对称权重与框架。
+- **损失规避 vs 前景理论**：前者是得失不对称组件专条；后者覆盖参照点+价值函数（含敏感度递减）+概率权重全文，并指向前者。
 - **易得性启发 vs 幸存者偏差**：前者是提取难度替代频率；后者是筛选后样本残缺。
 - **双系统 vs 确认性偏差**：前者管何时调用慢思考；后者管证据是否被立场过滤（慢系统仍可能合理化）。
 - **艾森豪威尔 vs 局部/全局最优**：前者排同一路径上的优先级；后者问要不要付代价换山。
 - **复利 vs 幸存者偏差**：复利要再投入与存活；成功学长跑故事常抽掉爆仓者。
+- **复利 vs 飞轮**：复利查再投入×时间；飞轮必须画出可测因果闭环。
+- **路径依赖 vs 沉没成本**：前者是协调/网络自我强化；后者是已付不可收回。
+- **SWOT vs MECE**：SWOT 是四格态势+匹配；MECE 是任意议题的不重不漏纪律。
+- **PDCA vs 飞轮**：飞轮定义推哪一环；PDCA 迭代怎么推。
+- **心流 vs 福格**：体验通道匹配 vs 行为是否发生（B=MAP）。
+- **邓克 vs 周哈里窗**：表现-自评校准（含复制争议）vs 人际信息四格与反馈披露。
+- **黄金圈 vs SWOT**：叙事一致性 vs 内外态势匹配；黄金圈不是万能领导定律。
 - **反脆弱 vs 逆向思维**：配仓 vs 失败预演。
 - **苏格拉底式质疑的元层级地位**：可用于检验其余任何模型的应用是否恰当。
 
@@ -118,11 +159,23 @@ graph TD
 | 第 II 象限 | 重要但不紧急——预防与能力建设的杠杆区 | eisenhower-matrix |
 | 选择偏差 selection bias | 样本生成过程系统性丢掉一部分观察 | survivorship-bias |
 | 再投入闭环 | 回报是否回到本金使下一期更大 | compounding |
+| 挑战-技能匹配 | 挑战与技能大致相当才易进通道 | flow |
+| ME / CE | 相互独立 / 完全穷尽（相对议题边界） | mece |
+| 锁定 lock-in | 因强化机制难以切换的路径状态 | path-dependence |
+| 飞轮闭环 | 可命名、可测的互相加强因果圈 | flywheel |
+| TOWS 匹配 | SO/WO/ST/WT 由四格交叉出选项 | swot |
+| PDSA | Plan-Do-Study-Act；强调学习不止合格检验 | pdca |
+| 概率权重 probability weighting | 小概率常被高估、中高概率常被低估的决策权重 | prospect-theory |
+| 敏感度递减 diminishing sensitivity | 离参照点越远，边际主观影响越小 | prospect-theory |
+| 四重模式 fourfold pattern | 高低概率 × 收益/损失下的风险态度翻转 | prospect-theory |
+| 元认知校准 | 表现与自评是否对齐；机制有竞争解释 | dunning-kruger |
+| B=MAP | Behavior = Motivation × Ability × Prompt | fogg-behavior-model |
+| 行动线 action line | 动机×能力足够时提示才能触发行为 | fogg-behavior-model |
+| WHY / HOW / WHAT | 目的 / 方法原则 / 产品与行动 | golden-circle |
+| 开放/盲目/隐藏/未知 | 周哈里窗四格（己知×他知） | johari-window |
 
 ## 待蒸馏
 
-01–18 未构造：直觉（已由 dual-process 覆盖专家直觉条件）、非 SR、升维、笛卡尔（暂缓）、万物联系。
+01–18 / 19–30 明确不构造项见既有候选池。自催化已由飞轮批覆盖其商业用法。第五批暂缓五项已于同枝补齐。
 
-19–30 未构造：三脑（科学过时）、冯诺依曼（类比不当）、三层解释、替身/多维视角、不平衡性、破界、非线性、自催化（留给飞轮批）。
-
-后续高价值候选含：心流、MECE、SWOT、PDCA、前景理论全文、飞轮、路径依赖、博弈论等。研究记录见本机 `docs/books/wanwu-jie-moxing/candidates/`。
+后续高价值候选含：博弈论、HOOK、遗忘曲线、二八定律等（须先三重验证）。研究记录见本机 `docs/books/wanwu-jie-moxing/candidates/`。
