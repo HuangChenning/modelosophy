@@ -1,7 +1,7 @@
 ---
 title: 企业深度情报报告 - 检索策略与信息源
 date: 2026-08-12
-tags: [sales, sales-company-intel-report, data-sources, research]
+tags: [business, org-it-intel-report, data-sources, research]
 ---
 
 # 检索策略与常用信息源

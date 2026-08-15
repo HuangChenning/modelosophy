@@ -11,7 +11,7 @@
 
 ### Skill 目录规范化
 - `skills/` 改为按领域分类：`skills/<category>/<name>/`。
-- 原 `skills/sales-company-intel-report/` 迁移至 `skills/Business/sales-company-intel-report/`。
+- 原 `skills/sales-company-intel-report/` 迁入 `skills/Business/`，并去品牌重命名为 `org-it-intel-report`（组织 IT 情报报告）。
 - 输出约定：Skill 生成的报告统一写入 `output/<skill-name>/`（gitignored，不进仓库）。
 
 ### ThinkingModels 思维模型库（61 个）
@@ -33,7 +33,7 @@
 从原书剩余卡片中挑选仍能过三重验证者；已拒绝伪科学/撞车项不回炉。研究记录见本机 `docs/books/wanwu-jie-moxing/candidates/`。
 
 ### 待观察
-- `skills/Business/sales-company-intel-report` 官方 Skill 规范校验 / frontmatter 规范化。
+- `skills/Business/org-it-intel-report` 官方 Skill 规范校验 / frontmatter 规范化。
 - `huawei-customer-insight`：规格书在 `docs/华为方法论/04-客户洞察Skill需求说明文档.md`，尚未实现。
 
 ---

@@ -1,0 +1,6 @@
+interface:
+  display_name: 组织IT情报报告
+  short_description: 结构化组织/企业情报报告（整体情况 + IT投入/招投标/决策链 + 置信度分级与来源引用）。触发：组织情报、公司画像、IT
+    投入、Account Research。
+policy:
+  allow_implicit_invocation: false

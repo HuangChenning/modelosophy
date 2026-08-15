@@ -1,7 +1,7 @@
 ---
 title: 企业深度情报报告 - IT招投标检索与采购趋势分析方法
 date: 2026-08-12
-tags: [sales, sales-company-intel-report, bidding, procurement-analysis]
+tags: [business, org-it-intel-report, bidding, procurement-analysis]
 ---
 
 # IT 招投标数据检索与分析方法

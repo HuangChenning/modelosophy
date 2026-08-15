@@ -1,15 +1,15 @@
 {
-  "skill_name": "sales-company-intel-report",
+  "skill_name": "org-it-intel-report",
   "evals": [
     {
       "id": 1,
       "prompt": "帮我研究一下宁德时代，我下周要去拜访他们的信息中心，想先摸清楚他们的IT建设情况和最近几年招投标的情况，出一份报告给我，主要是为了商机评估用。",
-      "expected_output": "先用 AskUserQuestion（或直接依据已给信息）确认行业、报告用途等缺失信息，随后按 SKILL.md 的检索清单联网搜集公司基本面、战略方向、IT现状/投入、近3年IT相关招投标记录、决策链信息，将结果整理进符合 references/report-structure.md v2 schema 的 data.json（含 executive_summary、decision_chain 的 diagram_nodes/edges、customer_swot、open_questions、sources），再调用 scripts/generate_report.py 生成 output/sales/sales-company-intel-report/ 下的自包含 HTML 报告（Apple风格设计，含执行摘要、财务趋势/供应商份额/招投标时间线图表、SVG决策链关系图，视数据可得性渲染），报告中所有结论都标注【已证实】/【推断】/【待核实】并附来源编号，招投标金额与供应商等具体数字必须有可追溯来源，检索不到的板块要明确留白说明而不是编造，且报告全程不出现产品推荐/竞品对比/报价/销售话术。",
+      "expected_output": "先用 AskUserQuestion（或直接依据已给信息）确认行业、报告用途等缺失信息，随后按 SKILL.md 的检索清单联网搜集公司基本面、战略方向、IT现状/投入、近3年IT相关招投标记录、决策链信息，将结果整理进符合 references/report-structure.md v2 schema 的 data.json（含 executive_summary、decision_chain 的 diagram_nodes/edges、customer_swot、open_questions、sources），再调用 scripts/generate_report.py 生成 output/org-it-intel-report/ 下的自包含 HTML 报告（Apple风格设计，含执行摘要、财务趋势/供应商份额/招投标时间线图表、SVG决策链关系图，视数据可得性渲染），报告中所有结论都标注【已证实】/【推断】/【待核实】并附来源编号，招投标金额与供应商等具体数字必须有可追溯来源，检索不到的板块要明确留白说明而不是编造，且报告全程不出现产品推荐/竞品对比/报价/销售话术。",
       "files": [],
       "expectations": [
         "使用 AskUserQuestion 或从用户消息中提取所需的必填信息（公司名称、行业、报告用途）",
         "生成的 data.json 包含 executive_summary、decision_chain（含 diagram_nodes/diagram_edges）、business_architecture、customer_swot、open_questions、sources 等 v2 新增字段",
-        "调用 scripts/generate_report.py 生成 output/sales/sales-company-intel-report/ 下的 HTML 报告，报告含执行摘要板块且置于报告最前面",
+        "调用 scripts/generate_report.py 生成 output/org-it-intel-report/ 下的 HTML 报告，报告含执行摘要板块且置于报告最前面",
         "报告中的关键判断都标注了【已证实】/【推断】/【待核实】三级置信度，且带来源编号（如 [S1]）",
         "招投标记录、金额、供应商等具体数据未被编造，缺失信息被明确标注为未检索到",
         "报告全文不包含任何产品推荐、竞品对比、报价区间或销售话术内容"

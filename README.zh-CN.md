@@ -10,7 +10,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 这个仓库还处于早期阶段。目前有两类 Skill：
 
-- [`skills/Business/sales-company-intel-report`](skills/Business/sales-company-intel-report)：一个销售侧客户情报调研 Skill，用来演示本项目采用的 `SKILL.md` + 模板 + 脚本 结构。
+- [`skills/Business/org-it-intel-report`](skills/Business/org-it-intel-report)：一个与厂商无关的组织 / IT 情报调研 Skill（组织整体情况 + IT 投入与招投标），用来演示本项目采用的 `SKILL.md` + 模板 + 脚本 结构。
 - [`skills/ThinkingModels/`](skills/ThinkingModels)：思维模型库目前 61 个 Skill（原书 60 个 + 苏格拉底式质疑），覆盖决策代价、认知偏差、系统与战略（SWOT / 五力 / 护城河）、学习与行为（福格 / HOOK / 遗忘曲线），以及推理工具（MECE / 金字塔 / 博弈论 / 溯因）等。每个都按真实学科来源重新研究（而非照抄《万物皆模型》原书卡片），经过苏格拉底式质疑自检、盲测用例验证、以及官方 Skill 规范校验。完整区分地图见 [`skills/ThinkingModels/README.md`](skills/ThinkingModels/README.md)。
 
 ## 运作原理

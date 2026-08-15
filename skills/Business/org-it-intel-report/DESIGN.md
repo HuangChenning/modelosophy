@@ -1,6 +1,6 @@
 # 企业情报报告 · 视觉与版式规范（DESIGN.md）
 
-适用范围：`sales-company-intel-report` 技能输出的 `report.html`。
+适用范围：`org-it-intel-report`（组织 IT 情报报告）技能输出的 `report.html`。
 文件对应关系：`assets/report_template.html`（Jinja2 模板，含全部样式与脚本）+ `scripts/generate_report.py`（数据准备，模板内不做任何格式化计算）。
 
 设计目标：一份可屏幕阅读、也可直接打印成 A4 的咨询报告。结论先行、事实与推断可区分、拜访前 10 分钟能读完。

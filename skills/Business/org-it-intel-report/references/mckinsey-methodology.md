@@ -1,7 +1,7 @@
 ---
 title: 企业深度情报报告 - 如何应用"麦肯锡式"方法论
 date: 2026-08-12
-tags: [sales, sales-company-intel-report, methodology, pyramid-principle]
+tags: [business, org-it-intel-report, methodology, pyramid-principle]
 ---
 
 # 如何应用"麦肯锡式"方法论

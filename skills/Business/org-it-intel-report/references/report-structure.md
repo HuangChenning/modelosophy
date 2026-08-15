@@ -1,7 +1,7 @@
 ---
 title: 企业深度情报报告 - 数据结构与字段定义（v3.0）
 date: 2026-08-12
-tags: [sales, sales-company-intel-report, report-structure, schema]
+tags: [business, org-it-intel-report, report-structure, schema]
 ---
 
 # 报告十个板块与 data.json Schema
@@ -239,7 +239,7 @@ tags: [sales, sales-company-intel-report, report-structure, schema]
 
 参考决策链之外，这一板块回答"这家公司的业务是怎么运转的，每一层对数据/IT有什么客观关切"。分层粒度参考：接入/业务层 → 应用/核心系统层 → 数据/数据库层 → 基础设施/运维层，具体分几层、叫什么名字按行业和公司实际情况调整，不必强行套用银行业的四层模型。
 
-**`attention_points` 只写现象和客观关切，不写解决方案或产品名。** 例如可以写"多个数据库引擎并存，统一监控和备份策略是否覆盖全部实例未知"，但不要写"这正是zCloud的最佳应用场景"——后半句是另一个技能的工作。
+**`attention_points` 只写现象和客观关切，不写解决方案或产品名。** 例如可以写"多个数据库引擎并存，统一监控和备份策略是否覆盖全部实例未知"，但不要写"这正是我方某某产品的最佳应用场景"——后半句是另一个技能的工作。
 
 ### customer_swot（客户侧SWOT）
 
