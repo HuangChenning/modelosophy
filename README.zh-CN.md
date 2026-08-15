@@ -11,7 +11,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 这个仓库还处于早期阶段。目前有两类 Skill：
 
 - [`skills/Business/sales-company-intel-report`](skills/Business/sales-company-intel-report)：一个销售侧客户情报调研 Skill，用来演示本项目采用的 `SKILL.md` + 模板 + 脚本 结构。
-- [`skills/ThinkingModels/`](skills/ThinkingModels)：思维模型库的第一批产出，4 个 Skill——[机会成本](skills/ThinkingModels/opportunity-cost)、[反脆弱](skills/ThinkingModels/antifragility)、[奥卡姆剃刀](skills/ThinkingModels/occams-razor)、[苏格拉底式质疑](skills/ThinkingModels/socratic-questioning)。每个都按真实学科来源重新研究（而非照抄《万物皆模型》原书卡片），经过苏格拉底式质疑自检、41 条盲测用例验证、以及官方 Skill 规范校验。SWOT、PDCA、第一性原理、MECE、复利思维、第二序思维等其余模型尚未蒸馏，研究进度见 [`skills/ThinkingModels/README.md`](skills/ThinkingModels/README.md)。
+- [`skills/ThinkingModels/`](skills/ThinkingModels)：思维模型库目前 14 个 Skill，包括机会成本、沉没成本、决策树、10/10/10、反脆弱、奥卡姆剃刀、确认性偏差、易得性启发、六顶思考帽、逆向思维、第一性原理、马斯洛需求层次、系统思维、苏格拉底式质疑。每个都按真实学科来源重新研究（而非照抄《万物皆模型》原书卡片），经过苏格拉底式质疑自检、盲测用例验证、以及官方 Skill 规范校验。SWOT、PDCA、MECE、复利思维、第二序思维等其余模型尚未蒸馏，研究进度见 [`skills/ThinkingModels/README.md`](skills/ThinkingModels/README.md)。
 
 ## 运作原理
 
@@ -48,7 +48,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-思维模型库刚起步，目前只覆盖 4 个模型，其余（沉没成本、确认性偏差、逆向思维、第一性原理等）已完成研究但尚未构造成 Skill，更多模型完全没有开始蒸馏。随着库的扩张，Skill 的编写规范仍可能调整。
+思维模型库仍处于早期，目前覆盖 14 个模型（原书 13 个 + 方法论补充苏格拉底式质疑）。100 个模型里大多数还没开始蒸馏。随着库的扩张，Skill 的编写规范仍可能调整。
 
 ## 贡献一个思维模型
 
