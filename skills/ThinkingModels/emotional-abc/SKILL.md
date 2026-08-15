@@ -31,7 +31,7 @@ Albert Ellis 的理性情绪行为疗法（REBT）核心切片：**A（Activatin
 **不要**当主模型：
 - “亏了特别痛、舍不得止损”→ [`loss-aversion`](../loss-aversion/SKILL.md)；
 - “想做却总没做成”→ [`fogg-behavior-model`](../fogg-behavior-model/SKILL.md)；
-- 检验论证隐含前提→ [`implicit-premises`](../implicit-premises/SKILL.md) / 苏格拉底。
+- 检验论证隐含前提→ [`socratic-questioning`](../socratic-questioning/SKILL.md)。
 
 ## 怎么用（执行步骤）
 
