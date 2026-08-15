@@ -63,5 +63,5 @@ Ebbinghaus（1885）用无意义音节等材料测量到：**停止练习后，�
 - **与[元认知](../metacognition/SKILL.md)**：用监控判断“是否仍可提取”，再触发间隔复习。
 - **与[费曼技巧](../feynman-technique/SKILL.md)**：深度理解与暴露空洞；遗忘曲线管保持日程。
 - **与[复利](../compounding/SKILL.md)**：间隔复习是学习上的再投入；须真实检索发生才复利。
-- **与[系列位置效应](../serial-position-effect/SKILL.md)**（若已入库）：首因近因影响单次列表记忆；本模型管跨时间衰减与复习节律。
+- **与[系列位置效应](../serial-position-effect/SKILL.md)**：首因近因影响单次列表记忆；本模型管跨时间衰减与复习节律。
 ---
