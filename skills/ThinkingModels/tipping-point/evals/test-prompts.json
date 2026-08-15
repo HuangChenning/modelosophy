@@ -61,6 +61,12 @@
       "type": "edge_case",
       "prompt": "事后看任何爆款都能说成过了临界点，靠谱吗？",
       "expect": "警告事后拟合；要事前可监测变量。"
+    },
+    {
+      "id": "tp-edge-03",
+      "type": "edge_case",
+      "prompt": "我想设一个熔断止损，压力大了就先断一截保全局，这是断裂点理论吗？",
+      "expect": "澄清：这是保护性断路/止损，改路由 antifragility 或 sunk-cost，非临界相变。"
     }
   ]
 }
