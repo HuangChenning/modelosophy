@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ meta.company_name or '目标公司' }} · 企业深度情报报告</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root {
+    /* chrome & ink — validated light-surface palette, doubles as the Apple-style neutral base */
+    --page:        #f5f5f7;
+    --surface:     #ffffff;
+    --surface-2:   #fbfbfa;
+    --ink:         #1d1d1f;
+    --ink-2:       #52514e;
+    --muted:       #898781;
+    --hairline:    #e3e2dd;
+    --hairline-strong: #d3d2cc;
+    --accent:      #2a78d6;
+    --accent-soft: #eaf1fb;
+    --accent-2:    #eb6834;
+
+    /* status — text uses a darkened step of the same hue for AA contrast; dot uses the validated hex */
+    --fact-dot: #0ca30c;   --fact-text: #0f7a3d;   --fact-bg: #eaf7ee;
+    --infer-dot: #fab219;  --infer-text: #8a5a00;  --infer-bg: #fff6e0;
+    --todo-dot: #d03b3b;   --todo-text: #a93030;   --todo-bg: #fdecec;
+
+    --radius: 14px;
+    --radius-sm: 8px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", "Segoe UI", "Microsoft YaHei", sans-serif;
+    background: var(--page);
+    color: var(--ink);
+    line-height: 1.65;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page { max-width: 900px; margin: 0 auto; padding: 28px 20px 80px; }
+  a { color: var(--accent); }
+  sup.src { font-size: 10px; margin-left: 1px; }
+  sup.src a { text-decoration: none; color: var(--accent); }
+
+  /* ---------- cover ---------- */
+  .cover {
+    background: linear-gradient(180deg, #fbfbfa 0%, #f3f3f1 100%);
+    border: 1px solid var(--hairline);
+    border-radius: 24px;
+    padding: 64px 56px 48px;
+    margin-bottom: 20px;
+  }
+  .cover .eyebrow { font-size: 12px; letter-spacing: 2.5px; color: var(--muted); font-weight: 600; text-transform: uppercase; }
+  .cover h1 { font-size: 40px; font-weight: 700; letter-spacing: -0.02em; margin: 14px 0 6px; color: var(--ink); }
+  .cover .sub { font-size: 17px; color: var(--ink-2); font-weight: 400; max-width: 640px; }
+  .cover-meta { display: flex; flex-wrap: wrap; gap: 28px; margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--hairline); }
+  .cover-meta div { font-size: 12.5px; color: var(--muted); }
+  .cover-meta b { display: block; font-size: 14px; color: var(--ink); font-weight: 600; margin-bottom: 3px; }
+  .cover-scope { margin-top: 18px; font-size: 12.5px; color: var(--muted); max-width: 640px; }
+
+  /* ---------- toc ---------- */
+  .toc {
+    background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius);
+    padding: 26px 32px; margin-bottom: 20px;
+  }
+  .toc h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--muted); margin: 0 0 14px; font-weight: 600; }
+  .toc ol { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 28px; }
+  .toc li { padding: 6px 0; font-size: 14px; break-inside: avoid; }
+  .toc a { color: var(--ink); text-decoration: none; }
+  .toc a:hover { color: var(--accent); }
+  .toc .n { color: var(--muted); margin-right: 8px; font-variant-numeric: tabular-nums; }
+
+  /* ---------- chapters ---------- */
+  section.chapter {
+    background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius);
+    padding: 34px 40px; margin-bottom: 18px; scroll-margin-top: 20px;
+  }
+  section.chapter h2 {
+    font-size: 22px; font-weight: 700; letter-spacing: -0.01em; color: var(--ink);
+    margin: 0 0 4px; display: flex; align-items: baseline; gap: 10px;
+  }
+  section.chapter h2 .idx { color: var(--muted); font-weight: 500; font-size: 15px; font-variant-numeric: tabular-nums; }
+  section.chapter .lede { font-size: 14.5px; color: var(--ink-2); margin: 6px 0 22px; }
+  h3.h { font-size: 15px; font-weight: 600; color: var(--ink); margin: 26px 0 10px; }
+  h3.h:first-of-type { margin-top: 4px; }
+  p { margin: 0 0 12px; color: var(--ink); }
+
+  /* ---------- executive summary ---------- */
+  .headline {
+    font-size: 19px; font-weight: 600; line-height: 1.5; color: var(--ink);
+    background: var(--accent-soft); border-radius: var(--radius-sm); padding: 18px 22px; margin-bottom: 20px;
+  }
+  ul.points { list-style: none; margin: 0 0 22px; padding: 0; }
+  ul.points li {
+    padding: 12px 0; border-bottom: 1px solid var(--hairline); font-size: 14.5px;
+    display: flex; gap: 10px; align-items: flex-start;
+  }
+  ul.points li:last-child { border-bottom: none; }
+  ul.points li .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); margin-top: 7px; flex-shrink: 0; }
+  .checklist { background: var(--surface-2); border: 1px solid var(--hairline); border-radius: var(--radius-sm); padding: 16px 20px; }
+  .checklist .lbl { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); font-weight: 600; margin-bottom: 10px; }
+  .checklist ol { margin: 0; padding-left: 18px; }
+  .checklist li { font-size: 14px; margin: 6px 0; }
+
+  /* ---------- badges ---------- */
+  .badge { display: inline-flex; align-items: center; gap: 5px; font-size: 11.5px; font-weight: 600; padding: 2px 9px 2px 7px; border-radius: 999px; white-space: nowrap; }
+  .badge .d { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+  .badge-fact { background: var(--fact-bg); color: var(--fact-text); }
+  .badge-fact .d { background: var(--fact-dot); }
+  .badge-infer { background: var(--infer-bg); color: var(--infer-text); }
+  .badge-infer .d { background: var(--infer-dot); }
+  .badge-todo { background: var(--todo-bg); color: var(--todo-text); }
+  .badge-todo .d { background: var(--todo-dot); }
+  .badge-unknown { background: #f0f0ee; color: var(--muted); }
+  .badge-unknown .d { background: var(--muted); }
+  .legend-key { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--muted); margin: 4px 0 18px; }
+  .legend-key span { display: inline-flex; align-items: center; gap: 6px; }
+  .legend-key i { width: 6px; height: 6px; border-radius: 50%; display: inline-block; }
+
+  /* ---------- tables ---------- */
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin: 4px 0 8px; }
+  th { text-align: left; padding: 9px 12px; color: var(--muted); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid var(--hairline-strong); }
+  td { text-align: left; padding: 11px 12px; border-bottom: 1px solid var(--hairline); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+
+  /* ---------- stat tiles ---------- */
+  .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--hairline); border: 1px solid var(--hairline); border-radius: var(--radius-sm); overflow: hidden; margin: 4px 0 20px; }
+  .stat { background: var(--surface); padding: 16px 18px; }
+  .stat .v { font-size: 22px; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; }
+  .stat .l { font-size: 11.5px; color: var(--muted); margin-top: 4px; }
+
+  /* ---------- callouts ---------- */
+  .callout { border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 14px 18px; margin: 16px 0; font-size: 13.5px; }
+  .callout.warn { border-left-color: var(--infer-dot); background: var(--infer-bg); }
+  .callout.scope { border-left-color: var(--muted); background: var(--surface-2); font-size: 12.5px; color: var(--ink-2); }
+
+  /* ---------- charts ---------- */
+  .chart-card { margin: 18px 0 26px; }
+  .chart-card .caption { font-size: 12.5px; color: var(--muted); margin-top: 8px; }
+  .chart-card canvas { max-height: 330px; }
+
+  /* ---------- decision chain svg ---------- */
+  .diagram-wrap { border: 1px solid var(--hairline); border-radius: var(--radius-sm); background: var(--surface-2); padding: 16px; margin: 16px 0 10px; overflow-x: auto; }
+  .diagram-wrap svg { display: block; margin: 0 auto; }
+  .stance-node-fill-supportive { fill: var(--fact-bg); }
+  .stance-node-stroke-supportive { stroke: var(--fact-dot); }
+  .stance-node-fill-resistant { fill: var(--todo-bg); }
+  .stance-node-stroke-resistant { stroke: var(--todo-dot); }
+  .stance-node-fill-neutral { fill: var(--infer-bg); }
+  .stance-node-stroke-neutral { stroke: var(--infer-dot); }
+  .stance-node-fill-unknown { fill: #f2f2f0; }
+  .stance-node-stroke-unknown { stroke: var(--hairline-strong); }
+
+  /* ---------- swot ---------- */
+  .swot-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 6px 0 18px; }
+  .swot-cell { border: 1px solid var(--hairline); border-radius: var(--radius-sm); padding: 16px 18px; }
+  .swot-cell h4 { margin: 0 0 8px; font-size: 13px; font-weight: 700; }
+  .swot-cell ul { margin: 0; padding-left: 16px; font-size: 13px; }
+  .swot-cell li { margin: 5px 0; }
+  .swot-s h4 { color: var(--fact-text); } .swot-w h4 { color: var(--todo-text); }
+  .swot-o h4 { color: var(--accent); } .swot-t h4 { color: var(--infer-text); }
+
+  /* ---------- open questions ---------- */
+  .q-list { list-style: none; margin: 0; padding: 0; }
+  .q-list li { border: 1px solid var(--hairline); border-radius: var(--radius-sm); padding: 14px 18px; margin-bottom: 10px; }
+  .q-list .q-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+  .q-list .q-text { font-size: 14px; font-weight: 600; color: var(--ink); }
+  .q-list .q-why { font-size: 13px; color: var(--ink-2); margin-top: 5px; }
+  .q-list .q-who { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .prio { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; flex-shrink: 0; }
+  .prio-高 { background: var(--todo-bg); color: var(--todo-text); }
+  .prio-中 { background: var(--infer-bg); color: var(--infer-text); }
+  .prio-低 { background: #f0f0ee; color: var(--muted); }
+
+  /* ---------- sources ---------- */
+  .sources { font-size: 12.5px; color: var(--ink-2); }
+  .sources ol { padding-left: 18px; margin: 0; }
+  .sources li { margin: 7px 0; overflow-wrap: anywhere; }
+  .sources li span.pub { color: var(--muted); }
+
+  .empty-hint { color: var(--muted); font-size: 13px; }
+  footer.pagefoot { text-align: center; color: var(--muted); font-size: 11.5px; margin-top: 26px; }
+
+  @media (max-width: 700px) {
+    .cover { padding: 40px 26px; } .cover h1 { font-size: 30px; }
+    section.chapter { padding: 24px 20px; }
+    .toc ol { columns: 1; }
+    .swot-grid { grid-template-columns: 1fr; }
+  }
+  @media print {
+    body { background: #fff; }
+    .cover, .toc, section.chapter { box-shadow: none; break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Cover -->
+  <header class="cover">
+    <div class="eyebrow">Enmotech · Account Intelligence Report</div>
+    <h1>{{ meta.company_name or '目标公司' }}</h1>
+    <div class="sub">企业深度情报报告 · 客观情况研究版</div>
+    <div class="cover-meta">
+      {% if meta.industry %}<div><b>{{ meta.industry }}</b>所属行业</div>{% endif %}
+      {% if meta.report_purpose %}<div><b>{{ meta.report_purpose }}</b>报告用途</div>{% endif %}
+      {% if meta.research_cutoff or meta.generated_date %}<div><b>{{ meta.research_cutoff or meta.generated_date }}</b>检索截止</div>{% endif %}
+    </div>
+    <div class="cover-scope">{{ meta.scope_note or '本报告仅覆盖客户客观情况的研究分析，不含产品匹配、竞品对比、报价或销售话术。' }}</div>
+  </header>
+
+  <!-- TOC -->
+  <nav class="toc">
+    <h2>目录</h2>
+    <ol>
+      <li><span class="n">00</span><a href="#exec">执行摘要</a></li>
+      <li><span class="n">01</span><a href="#ch1">公司概况</a></li>
+      <li><span class="n">02</span><a href="#ch2">战略方向</a></li>
+      <li><span class="n">03</span><a href="#ch3">IT发展趋势、现状与投入</a></li>
+      <li><span class="n">04</span><a href="#ch4">近3年IT相关招投标情况</a></li>
+      <li><span class="n">05</span><a href="#ch5">决策链与高管</a></li>
+      <li><span class="n">06</span><a href="#ch6">业务与IT架构分层</a></li>
+      <li><span class="n">07</span><a href="#ch7">客户侧SWOT</a></li>
+      <li><span class="n">08</span><a href="#ch8">待核实清单</a></li>
+      <li><span class="n">09</span><a href="#ch9">参考来源</a></li>
+    </ol>
+    <div class="legend-key">
+      <span><i style="background:var(--fact-dot)"></i>已证实 — 有明确来源</span>
+      <span><i style="background:var(--infer-dot)"></i>推断 — 基于事实的合理推理</span>
+      <span><i style="background:var(--todo-dot)"></i>待核实 — 需在接触中确认，不可当作既成事实使用</span>
+    </div>
+  </nav>
+
+  <!-- Executive Summary -->
+  <section class="chapter" id="exec">
+    <h2><span class="idx">00</span>执行摘要</h2>
+    {% if executive_summary.headline %}<div class="headline">{{ executive_summary.headline }}</div>{% endif %}
+    {% if executive_summary.key_points %}
+    <ul class="points">
+      {% for kp in executive_summary.key_points %}
+      <li>
+        <span class="dot"></span>
+        <span>{{ kp.point }} {{ render_badge(kp.confidence) }} {{ render_src(kp.source_refs) }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if executive_summary.first_contact_checklist %}
+    <div class="checklist">
+      <div class="lbl">首次接触必须核实</div>
+      <ol>{% for c in executive_summary.first_contact_checklist %}<li>{{ c }}</li>{% endfor %}</ol>
+    </div>
+    {% endif %}
+    {% if not executive_summary.headline and not executive_summary.key_points %}
+    <p class="empty-hint">执行摘要尚未生成。</p>
+    {% endif %}
+  </section>
+
+  <!-- 1. Company basics -->
+  <section class="chapter" id="ch1">
+    <h2><span class="idx">01</span>公司概况</h2>
+    <p class="lede">基本信息、组织架构、业务规模、行业地位、业务模式、核心痛点、近5年业务发展、财报数据</p>
+
+    {% if company_basics.profile_facts %}
+    <table>
+      <thead><tr><th>项目</th><th>内容</th><th>置信度</th></tr></thead>
+      <tbody>
+        {% for f in company_basics.profile_facts %}
+        <tr><td>{{ f.label }}</td><td>{{ f.value }} {{ render_src(f.source_refs) }}</td><td>{{ render_badge(f.confidence) }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p class="empty-hint">未检索到可靠的公司基本信息。</p>
+    {% endif %}
+
+    {% if company_basics.organization and (company_basics.organization.summary or company_basics.organization.key_departments) %}
+    <h3 class="h">组织架构</h3>
+    {% if company_basics.organization.summary %}
+    <p>{{ company_basics.organization.summary }} {{ render_badge(company_basics.organization.confidence) }} {{ render_src(company_basics.organization.source_refs) }}</p>
+    {% endif %}
+    {% if company_basics.organization.key_departments %}
+    <table>
+      <thead><tr><th>部门</th><th>职能</th><th>置信度</th></tr></thead>
+      <tbody>
+        {% for d in company_basics.organization.key_departments %}
+        <tr><td>{{ d.name }}</td><td>{{ d.function }} {{ render_src(d.source_refs) }}</td><td>{{ render_badge(d.confidence) }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+    {% endif %}
+
+    {% if company_basics.business_scale and company_basics.business_scale.revenue_scale %}
+    <h3 class="h">业务规模</h3>
+    <p>{{ company_basics.business_scale.revenue_scale }}
+      {% if company_basics.business_scale.employee_count %}；{{ company_basics.business_scale.employee_count }}{% endif %}
+      {{ render_badge(company_basics.business_scale.confidence) }} {{ render_src(company_basics.business_scale.source_refs) }}
+    </p>
+    {% endif %}
+
+    {% if company_basics.industry_position %}
+    <h3 class="h">行业地位</h3>
+    <p>{{ company_basics.industry_position }}</p>
+    {% endif %}
+
+    {% if company_basics.business_model and company_basics.business_model.summary %}
+    <h3 class="h">业务模式</h3>
+    <p>{{ company_basics.business_model.summary }} {{ render_badge(company_basics.business_model.confidence) }} {{ render_src(company_basics.business_model.source_refs) }}</p>
+    {% endif %}
+
+    {% if core_pain_points %}
+    <h3 class="h">核心痛点</h3>
+    <ul class="points">
+      {% for p in core_pain_points %}
+      <li><span class="dot"></span><span>{{ p.point }}{% if p.evidence %}（依据：{{ p.evidence }}）{% endif %} {{ render_badge(p.confidence) }} {{ render_src(p.source_refs) }}</span></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if company_basics.five_year_development %}
+    <h3 class="h">近5年业务发展</h3>
+    <table>
+      <thead><tr><th style="width:70px">年份</th><th>事件</th><th>置信度</th></tr></thead>
+      <tbody>
+        {% for item in company_basics.five_year_development %}
+        <tr><td>{{ item.year }}</td><td>{{ item.event }}</td><td>{{ render_badge(item.confidence) }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+
+    {% if financials_chart %}
+    <h3 class="h">财报数据趋势{% if company_basics.financials.revenue_unit %}（单位：{{ company_basics.financials.revenue_unit }}）{% endif %}</h3>
+    <div class="chart-card"><canvas id="chart-financials"></canvas>
+      <div class="caption">{% if company_basics.financials.source_refs %}数据来源 {{ render_src(company_basics.financials.source_refs) }}{% endif %}</div>
+    </div>
+    {% elif company_basics.financials and company_basics.financials.note %}
+    <h3 class="h">财报数据</h3>
+    <p class="empty-hint">{{ company_basics.financials.note }}</p>
+    {% endif %}
+  </section>
+
+  <!-- 2. Strategy -->
+  <section class="chapter" id="ch2">
+    <h2><span class="idx">02</span>战略方向</h2>
+    <p class="lede">近期公开披露的战略规划与转型方向</p>
+    {% if strategy.summary %}<p>{{ strategy.summary }}</p>{% endif %}
+    {% if strategy.key_initiatives %}
+    <ul class="points">
+      {% for it in strategy.key_initiatives %}
+      <li><span class="dot"></span><span><b>{{ it.title }}</b>：{{ it.description }} {{ render_badge(it.confidence) }} {{ render_src(it.source_refs) }}</span></li>
+      {% endfor %}
+    </ul>
+    {% elif not strategy.summary %}
+    <p class="empty-hint">未检索到公开的战略方向信息。</p>
+    {% endif %}
+  </section>
+
+  <!-- 3. IT landscape + investment -->
+  <section class="chapter" id="ch3">
+    <h2><span class="idx">03</span>IT发展趋势、现状与投入</h2>
+    <p class="lede">行业IT趋势、该公司信息化现状、已知供应商关系、IT投入规模与变化趋势</p>
+
+    <h3 class="h">IT发展趋势</h3>
+    <p>{{ it_landscape.trend_summary or '未检索到相关信息。' }}</p>
+    <h3 class="h">IT现状</h3>
+    <p>{{ it_landscape.current_state or '未检索到相关信息。' }}</p>
+
+    {% if it_landscape.tech_stack_signals %}
+    <h3 class="h">技术栈信号</h3>
+    <ul class="points">{% for s in it_landscape.tech_stack_signals %}<li><span class="dot"></span><span>{{ s }}</span></li>{% endfor %}</ul>
+    {% endif %}
+
+    {% if it_landscape.known_vendor_relationships %}
+    <h3 class="h">已知供应商合作关系（非招投标口径）</h3>
+    <ul class="points">
+      {% for v in it_landscape.known_vendor_relationships %}
+      <li><span class="dot"></span><span><b>{{ v.title }}</b>：{{ v.description }} {{ render_badge(v.confidence) }} {{ render_src(v.source_refs) }}</span></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <h3 class="h">IT投入信息</h3>
+    {% if it_investment.budget_estimate or it_investment.it_team_size or it_investment.investment_trend %}
+    <table>
+      <tbody>
+        {% if it_investment.budget_estimate %}<tr><th>预算规模</th><td>{{ it_investment.budget_estimate }}</td></tr>{% endif %}
+        {% if it_investment.it_team_size %}<tr><th>IT团队规模</th><td>{{ it_investment.it_team_size }}</td></tr>{% endif %}
+        {% if it_investment.investment_trend %}<tr><th>投入趋势</th><td>{{ it_investment.investment_trend }}</td></tr>{% endif %}
+      </tbody>
+    </table>
+    <p>{{ render_badge(it_investment.confidence) }} {{ render_src(it_investment.source_refs) }}</p>
+    {% else %}
+    <p class="empty-hint">未检索到IT投入相关信息。</p>
+    {% endif %}
+  </section>
+
+  <!-- 4. IT bidding -->
+  <section class="chapter" id="ch4">
+    <h2><span class="idx">04</span>近3年IT相关招投标情况</h2>
+    <p class="lede">项目明细、主要供应商中标情况汇总、采购趋势分析</p>
+
+    {% if vendor_chart %}
+    <div class="chart-card"><canvas id="chart-vendor"></canvas><div class="caption">按已知中标金额排序，仅统计金额可考的记录</div></div>
+    {% endif %}
+    {% if timeline_chart %}
+    <div class="chart-card"><canvas id="chart-timeline"></canvas><div class="caption">按项目时间排列的中标/预算金额</div></div>
+    {% endif %}
+
+    {% if it_bidding.records %}
+    <h3 class="h">项目明细（{{ it_bidding.records | length }} 条）</h3>
+    <table>
+      <thead><tr><th>时间</th><th>项目名称</th><th>金额</th><th>类别</th><th>供应商</th><th>置信度</th></tr></thead>
+      <tbody>
+        {% for r in it_bidding.records %}
+        <tr>
+          <td>{{ r.date or '-' }}</td><td>{{ r.project_name }}</td><td>{{ r.amount_display or '未披露' }}</td>
+          <td>{{ r.category or '-' }}</td><td>{{ r.vendor or '-' }}</td>
+          <td>{{ render_badge(r.confidence) }} {{ render_src(r.source_refs) }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p class="empty-hint">公开渠道未检索到该公司近3年IT相关招投标记录。</p>
+    {% endif %}
+
+    {% if it_bidding.vendor_summary %}
+    <h3 class="h">主要供应商中标情况汇总</h3>
+    <table>
+      <thead><tr><th>供应商</th><th>中标次数</th><th>中标金额合计</th><th>份额</th><th>项目类别</th></tr></thead>
+      <tbody>
+        {% for v in it_bidding.vendor_summary %}
+        <tr>
+          <td>{{ v.vendor }}</td><td>{{ v.win_count }}</td>
+          <td>{{ '{:,.0f}'.format(v.total_amount) if v.total_amount else '-' }}</td>
+          <td>{{ (v.share_pct ~ '%') if v.share_pct is not none else '-' }}</td>
+          <td>{{ v.categories | join('、') if v.categories else '-' }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+
+    {% if it_bidding.trend_analysis %}
+    <h3 class="h">采购趋势分析</h3>
+    <p>{{ it_bidding.trend_analysis }}</p>
+    {% endif %}
+  </section>
+
+  <!-- 5. Decision chain -->
+  <section class="chapter" id="ch5">
+    <h2><span class="idx">05</span>决策链与高管</h2>
+    <p class="lede">与IT相关决策的组织结构、行为倾向研究，以及已知高管信息</p>
+
+    {% if diagram %}
+    <div class="diagram-wrap">
+      <svg viewBox="0 0 {{ diagram.width }} {{ diagram.height }}" width="100%" style="max-width:{{ diagram.width }}px">
+        {% for e in diagram.edges %}
+        <line x1="{{ e.x1 }}" y1="{{ e.y1 }}" x2="{{ e.x2 }}" y2="{{ e.y2 }}" stroke="var(--hairline-strong)" stroke-width="1.5"/>
+        {% endfor %}
+        {% for n in diagram.nodes %}
+        <g>
+          <rect x="{{ n.x }}" y="{{ n.y }}" width="{{ n.w }}" height="{{ n.h }}" rx="10"
+                class="stance-node-fill-{{ n.stance }} stance-node-stroke-{{ n.stance }}" stroke-width="1.5"/>
+          <text x="{{ n.x + n.w/2 }}" y="{{ n.y + 26 }}" text-anchor="middle" font-size="13" font-weight="700" fill="var(--ink)">{{ n.label }}</text>
+          {% if n.sublabel %}
+          <text x="{{ n.x + n.w/2 }}" y="{{ n.y + 46 }}" text-anchor="middle" font-size="11" fill="var(--ink-2)">{{ n.sublabel_lines[0] if n.sublabel_lines else n.sublabel }}</text>
+          {% if n.sublabel_lines and n.sublabel_lines|length > 1 %}
+          <text x="{{ n.x + n.w/2 }}" y="{{ n.y + 61 }}" text-anchor="middle" font-size="11" fill="var(--ink-2)">{{ n.sublabel_lines[1] }}</text>
+          {% endif %}
+          {% endif %}
+        </g>
+        {% endfor %}
+      </svg>
+    </div>
+    <div class="legend-key">
+      <span><i style="background:var(--fact-dot)"></i>开放（对新方案/外部供应商态度开放）</span>
+      <span><i style="background:var(--todo-dot)"></i>谨慎（倾向维持现状）</span>
+      <span><i style="background:var(--infer-dot)"></i>中立/待观察</span>
+      <span><i style="background:var(--muted)"></i>信息不足，暂不判断</span>
+    </div>
+    {% endif %}
+
+    {% if decision_chain.roles %}
+    {% set has_ub_span = decision_chain.roles | selectattr('role_type') | list | length > 0 %}
+    <table>
+      <thead>
+        <tr>
+          <th>角色</th>{% if has_ub_span %}<th>UB/SP/TB/EB</th>{% endif %}<th>姓名</th><th>决策链位置</th>{% if has_ub_span %}<th>决策权重</th><th>沟通风格</th>{% endif %}<th>关注点/说明</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for r in decision_chain.roles %}
+        <tr>
+          <td>{{ r.role }}</td>
+          {% if has_ub_span %}<td>{{ r.role_type or '-' }}</td>{% endif %}
+          <td>{{ r.name or '未知' }}</td><td>{{ r.decision_position or '-' }}</td>
+          {% if has_ub_span %}<td>{{ r.decision_weight or '-' }}</td><td>{{ r.communication_style or '-' }}</td>{% endif %}
+          <td>{{ r.notes or '-' }} {{ render_badge(r.confidence) }} {{ render_src(r.source_refs) }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% elif not diagram %}
+    <p class="empty-hint">未检索到明确的决策链信息。</p>
+    {% endif %}
+
+    {% if decision_chain.executives %}
+    <h3 class="h">高管信息</h3>
+    <table>
+      <thead><tr><th>姓名</th><th>职务</th><th>背景</th></tr></thead>
+      <tbody>
+        {% for e in decision_chain.executives %}
+        <tr><td>{{ e.name }}</td><td>{{ e.title }}</td><td>{{ e.background or '-' }} {{ render_src(e.source_refs) }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+  </section>
+
+  <!-- 6. Business architecture -->
+  <section class="chapter" id="ch6">
+    <h2><span class="idx">06</span>业务与IT架构分层</h2>
+    <p class="lede">业务如何运转、各层级对数据与IT的客观关切点</p>
+    {% if business_architecture.layers %}
+    {% for layer in business_architecture.layers %}
+    <h3 class="h">{{ layer.name }}</h3>
+    <p>{{ layer.description }} {{ render_badge(layer.confidence) }} {{ render_src(layer.source_refs) }}</p>
+    {% if layer.attention_points %}
+    <ul class="points">{% for a in layer.attention_points %}<li><span class="dot"></span><span>{{ a }}</span></li>{% endfor %}</ul>
+    {% endif %}
+    {% endfor %}
+    {% else %}
+    <p class="empty-hint">未整理出业务与IT架构分层信息。</p>
+    {% endif %}
+  </section>
+
+  <!-- 7. Customer SWOT -->
+  <section class="chapter" id="ch7">
+    <h2><span class="idx">07</span>客户侧SWOT</h2>
+    <p class="lede">针对客户自身处境的分析，而非我方竞争定位</p>
+    {% if customer_swot.strengths or customer_swot.weaknesses or customer_swot.opportunities or customer_swot.threats %}
+    <div class="swot-grid">
+      <div class="swot-cell swot-s"><h4>优势 Strengths</h4><ul>{% for i in customer_swot.strengths %}<li>{{ i.point }} {{ render_src(i.source_refs) }}</li>{% endfor %}</ul></div>
+      <div class="swot-cell swot-w"><h4>劣势 Weaknesses</h4><ul>{% for i in customer_swot.weaknesses %}<li>{{ i.point }} {{ render_src(i.source_refs) }}</li>{% endfor %}</ul></div>
+      <div class="swot-cell swot-o"><h4>机会 Opportunities</h4><ul>{% for i in customer_swot.opportunities %}<li>{{ i.point }} {{ render_src(i.source_refs) }}</li>{% endfor %}</ul></div>
+      <div class="swot-cell swot-t"><h4>威胁 Threats</h4><ul>{% for i in customer_swot.threats %}<li>{{ i.point }} {{ render_src(i.source_refs) }}</li>{% endfor %}</ul></div>
+    </div>
+    {% else %}
+    <p class="empty-hint">未整理出客户侧SWOT分析。</p>
+    {% endif %}
+  </section>
+
+  <!-- 8. Open questions -->
+  <section class="chapter" id="ch8">
+    <h2><span class="idx">08</span>待核实清单</h2>
+    <p class="lede">下一步接触中建议核实的问题，按优先级排序</p>
+    {% if open_questions %}
+    <ul class="q-list">
+      {% for q in open_questions %}
+      <li>
+        <div class="q-top"><span class="q-text">{{ q.question }}</span>{% if q.priority %}<span class="prio prio-{{ q.priority }}">{{ q.priority }}</span>{% endif %}</div>
+        {% if q.why_it_matters %}<div class="q-why">{{ q.why_it_matters }}</div>{% endif %}
+        {% if q.suggested_contact %}<div class="q-who">建议了解渠道：{{ q.suggested_contact }}</div>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty-hint">暂无待核实清单。</p>
+    {% endif %}
+  </section>
+
+  <!-- 9. Sources -->
+  <section class="chapter" id="ch9">
+    <h2><span class="idx">09</span>参考来源</h2>
+    <p class="lede">正文中 [S1] 等编号对应以下来源，供复核</p>
+    {% if sources %}
+    <div class="sources">
+      <ol>
+        {% for s in sources %}
+        <li id="src-{{ s.id }}"><b>[{{ s.id }}]</b> {{ s.title }} <span class="pub">— {{ s.publisher }}{% if s.date %}，{{ s.date }}{% endif %}</span>{% if s.url %}<br><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.url }}</a>{% endif %}</li>
+        {% endfor %}
+      </ol>
+    </div>
+    {% else %}
+    <p class="empty-hint">未记录来源列表。</p>
+    {% endif %}
+  </section>
+
+  <footer class="pagefoot">由 sales-company-intel-report 技能生成 · 本报告仅覆盖客观情况研究，不含产品匹配/竞品对比/报价/销售话术 · 标注为【推断】【待核实】的内容需在客户接触中进一步核实</footer>
+</div>
+
+<script>
+const CHART_DATA = {{ charts_json | safe }};
+const C = {
+  blue: '#2a78d6', orange: '#eb6834', ink: '#1d1d1f', ink2: '#52514e', muted: '#898781', grid: '#e3e2dd'
+};
+Chart.defaults.font.family = "-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif";
+Chart.defaults.color = C.ink2;
+
+const endLabelPlugin = {
+  id: 'endLabel',
+  afterDatasetsDraw(chart) {
+    const { ctx } = chart;
+    chart.data.datasets.forEach((ds, i) => {
+      const meta = chart.getDatasetMeta(i);
+      if (meta.hidden || !ds.data.length) return;
+      const lastIdx = ds.data.length - 1;
+      const val = ds.data[lastIdx];
+      if (val === null || val === undefined) return;
+      const pt = meta.data[lastIdx];
+      if (!pt) return;
+      ctx.save();
+      ctx.font = '600 11px -apple-system, sans-serif';
+      ctx.fillStyle = C.ink;
+      ctx.textBaseline = 'middle';
+      ctx.textAlign = 'left';
+      ctx.fillText(Number(val).toLocaleString(), pt.x + 8, pt.y);
+      ctx.restore();
+    });
+  }
+};
+
+const barTipLabelPlugin = {
+  id: 'barTipLabel',
+  afterDatasetsDraw(chart) {
+    if (chart.data.datasets.length > 1) return;
+    const { ctx } = chart;
+    const meta = chart.getDatasetMeta(0);
+    const horizontal = chart.options.indexAxis === 'y';
+    ctx.save();
+    ctx.font = '600 11px -apple-system, sans-serif';
+    ctx.fillStyle = C.ink;
+    meta.data.forEach((el, i) => {
+      const val = chart.data.datasets[0].data[i];
+      if (val === null || val === undefined) return;
+      const label = Number(val).toLocaleString();
+      if (horizontal) {
+        ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+        ctx.fillText(label, el.x + 6, el.y);
+      } else {
+        ctx.textAlign = 'center'; ctx.textBaseline = 'bottom';
+        ctx.fillText(label, el.x, el.y - 4);
+      }
+    });
+    ctx.restore();
+  }
+};
+
+function renderFinancialsChart() {
+  const d = CHART_DATA.financials;
+  const el = document.getElementById('chart-financials');
+  if (!d || !el) return;
+  new Chart(el, {
+    type: 'line',
+    data: {
+      labels: d.years,
+      datasets: [
+        { label: '营收', data: d.revenue, borderColor: C.blue, backgroundColor: C.blue, borderWidth: 2, pointRadius: 4, pointBackgroundColor: '#fff', pointBorderColor: C.blue, pointBorderWidth: 2, tension: 0.3, spanGaps: true },
+        { label: '净利润', data: d.net_profit, borderColor: C.orange, backgroundColor: C.orange, borderWidth: 2, pointRadius: 4, pointBackgroundColor: '#fff', pointBorderColor: C.orange, pointBorderWidth: 2, tension: 0.3, spanGaps: true }
+      ]
+    },
+    options: {
+      responsive: true, layout: { padding: { right: 46 } },
+      plugins: { legend: { position: 'bottom', labels: { boxWidth: 8, boxHeight: 8, usePointStyle: true, padding: 16 } } },
+      scales: { y: { grid: { color: C.grid, drawTicks: false }, border: { display: false } }, x: { grid: { display: false }, border: { color: C.grid } } }
+    },
+    plugins: [endLabelPlugin]
+  });
+}
+
+function renderVendorChart() {
+  const d = CHART_DATA.vendor;
+  const el = document.getElementById('chart-vendor');
+  if (!d || !el) return;
+  new Chart(el, {
+    type: 'bar',
+    data: { labels: d.labels, datasets: [{ data: d.amounts, backgroundColor: C.blue, borderRadius: 4, barThickness: 20 }] },
+    options: {
+      indexAxis: 'y', responsive: true, layout: { padding: { right: 60 } },
+      plugins: { legend: { display: false }, title: { display: true, text: '主要供应商中标金额', align: 'start', color: C.ink, font: { size: 13, weight: '600' }, padding: { bottom: 12 } } },
+      scales: { x: { grid: { color: C.grid, drawTicks: false }, border: { display: false } }, y: { grid: { display: false }, border: { display: false } } }
+    },
+    plugins: [barTipLabelPlugin]
+  });
+}
+
+function renderTimelineChart() {
+  const d = CHART_DATA.timeline;
+  const el = document.getElementById('chart-timeline');
+  if (!d || !el) return;
+  const showLabels = d.labels.length <= 10;
+  new Chart(el, {
+    type: 'bar',
+    data: { labels: d.labels, datasets: [{ data: d.amounts, backgroundColor: C.blue, borderRadius: 4, maxBarThickness: 24 }] },
+    options: {
+      responsive: true, layout: { padding: { top: showLabels ? 20 : 6 } },
+      plugins: { legend: { display: false }, title: { display: true, text: '招投标项目金额时间线', align: 'start', color: C.ink, font: { size: 13, weight: '600' }, padding: { bottom: 12 } } },
+      scales: {
+        y: { grid: { color: C.grid, drawTicks: false }, border: { display: false } },
+        x: { grid: { display: false }, border: { color: C.grid }, ticks: { autoSkip: true, maxRotation: 55, minRotation: 30, font: { size: 9 } } }
+      }
+    },
+    plugins: showLabels ? [barTipLabelPlugin] : []
+  });
+}
+
+renderFinancialsChart();
+renderVendorChart();
+renderTimelineChart();
+</script>
+</body>
+</html>
