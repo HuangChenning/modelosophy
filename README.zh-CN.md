@@ -8,10 +8,19 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ## 项目简介与现状
 
-这个仓库还处于早期阶段。目前有两类 Skill：
+这个仓库还处于早期阶段。Skill 按领域放在 `skills/<category>/` 下：
 
-- [`skills/Business/org-it-intel-report`](skills/Business/org-it-intel-report)：一个与厂商无关的组织 / IT 情报调研 Skill（组织整体情况 + IT 投入与招投标），用来演示本项目采用的 `SKILL.md` + 模板 + 脚本 结构。
-- [`skills/ThinkingModels/`](skills/ThinkingModels)：思维模型库目前 69 个 Skill（原书 68 个 + 苏格拉底式质疑），覆盖决策代价、认知偏差、系统与战略（SWOT / 五力 / 护城河）、学习与行为（福格 / HOOK / 遗忘曲线），以及推理工具（MECE / 金字塔 / 博弈论 / 溯因 / 期望值 / 批判性思维）等。每个都按真实学科来源重新研究（而非照抄《万物皆模型》原书卡片），经过苏格拉底式质疑自检、盲测用例验证、以及官方 Skill 规范校验。完整区分地图见 [`skills/ThinkingModels/README.md`](skills/ThinkingModels/README.md)。
+- [`skills/business/org-it-intel-report`](skills/business/org-it-intel-report)：与厂商无关的组织 / IT 情报调研 Skill（组织整体情况 + IT 投入与招投标），演示 `SKILL.md` + 模板 + 脚本结构。
+- [`skills/thinking-models/`](skills/thinking-models)：现 **50** 个可执行思维模型 Skill（通用推理、战略、学习、领导等）。另有 **19** 个原属本库的 Skill 已迁入下方学科分类。完整索引见 [`skills/thinking-models/README.md`](skills/thinking-models/README.md)。
+- 与 `business/` / `thinking-models/` **平级**的六个学科分类（均为**可执行** Skill，不是知识卡壳）：
+  - [`econ-macro-theories`](skills/econ-macro-theories) — 宏观理论（种子待建）
+  - [`econ-micro-markets`](skills/econ-micro-markets) — 微观 / 市场（如机会成本）
+  - [`game-theory-models`](skills/game-theory-models) — 博弈论
+  - [`behavioral-biases`](skills/behavioral-biases) — 行为经济学与偏误（9 个）
+  - [`finance-investing-models`](skills/finance-investing-models) — 金融 / 投资（如复利）
+  - [`systems-classic-effects`](skills/systems-classic-effects) — 系统与经典效应（7 个）
+
+早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
 ## 运作原理
 
@@ -42,13 +51,13 @@ skills/<category>/<name>/scripts/      生成/自动化脚本（如果有）
 skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 ```
 
-`<category>` 按领域给 Skill 分组——例如 `Business/` 用于销售与客户调研类 Skill，`ThinkingModels/` 用于思维模型类 Skill。
+`<category>` 按领域分组——例如 `business/`、`thinking-models/`，以及上述六个经济学 / 偏误 / 系统分类。
 
 输出 HTML 报告的 Skill 需遵循 [`DESIGN.md`](DESIGN.md) 中定义的统一视觉规范。
 
 ## 局限性
 
-思维模型库仍处于早期，目前覆盖 69 个模型（原书 68 个 + 方法论补充苏格拉底式质疑）。原书剩余卡片多为已拒绝或未过三重验证项。随着库的扩张，Skill 的编写规范仍可能调整。
+库仍处于早期：跨分类合计约 **69** 个可执行模型（`thinking-models/` 50 + 已迁入 19）。经济学需求清单其余条目将按可执行 Skill 分批补全；编写规范仍可能随库扩张调整。
 
 ## 贡献一个思维模型
 
