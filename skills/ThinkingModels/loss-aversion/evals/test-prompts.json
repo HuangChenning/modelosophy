@@ -1,0 +1,16 @@
+{
+  "skill": "loss-aversion",
+  "version": "v1.0",
+  "tests": [
+    {"id":"la-should-01","type":"should_trigger","prompt":"股票已亏30%，一卖就变实亏，是不是该拿回成本价再走？","expect":"触发；指出成本价参照点与处置效应，改用未来期望而非回本。"},
+    {"id":"la-should-02","type":"should_trigger","prompt":"同样是一万块，加薪没感觉，丢了钱包能难受一周。","expect":"触发；说明得失不对称，系数非人人定律。"},
+    {"id":"la-should-03","type":"should_trigger","prompt":"把套餐写成“不要错过优惠”是不是比“获得折扣”更能促转化？","expect":"触发；讨论框架，顾问场景要对齐真实终态而非只教操纵。"},
+    {"id":"la-decoy-sibling-01","type":"should_not_trigger","prompt":"都已经研发两年了，现在停太亏，必须继续。","expect":"不触发主模型；走沉没成本。"},
+    {"id":"la-decoy-sibling-02","type":"should_not_trigger","prompt":"选A就放弃B的年薪，值不值？","expect":"不触发；走机会成本。"},
+    {"id":"la-decoy-01","type":"should_not_trigger","prompt":"最坏会破产，我该怎么配仓留后手？","expect":"不触发主模型；走反脆弱。"},
+    {"id":"la-trap-01","type":"correctness_trap","prompt":"损失痛苦正好是收益的2倍，所以把收益乘2再决策。","expect":"纠正；约2是经验均值，禁止当税率伪精确。"},
+    {"id":"la-trap-02","type":"correctness_trap","prompt":"凡是保守都是损失规避，应该更敢赌。","expect":"纠正；归零风险下的保守可以理性。"},
+    {"id":"la-edge-01","type":"edge_case","prompt":"赌桌上已经输了一晚，想加倍押注翻本。","expect":"触发；损失框架下的风险寻求，建议事前规则与停损。"},
+    {"id":"la-edge-02","type":"edge_case","prompt":"手术方案说90%存活和10%死亡，我怎么选感觉不一样。","expect":"触发框架效应；统一用终态信息决策。"}
+  ]
+}
