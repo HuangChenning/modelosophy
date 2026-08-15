@@ -14,33 +14,39 @@
 - 原 `skills/sales-company-intel-report/` 迁移至 `skills/Business/sales-company-intel-report/`。
 - 输出约定：Skill 生成的报告统一写入 `output/<skill-name>/`（gitignored，不进仓库）。
 
-### ThinkingModels 思维模型库（8 个）
+### ThinkingModels 思维模型库（14 个）
 蒸馏自《万物皆模型》100个思维模型书 + 各自真实学科来源，走完 cangjie-skill 五阶段流水线 + skill-creator 官方规范校验：
 
 | Skill | 状态 |
 |---|---|
 | [opportunity-cost](skills/ThinkingModels/opportunity-cost) 机会成本 | v1.0，10/10 盲测通过 |
 | [sunk-cost](skills/ThinkingModels/sunk-cost) 沉没成本 | v1.0，10/10 盲测通过 |
+| [decision-tree](skills/ThinkingModels/decision-tree) 决策树 | v1.0，10/10 盲测通过 |
+| [ten-ten-ten](skills/ThinkingModels/ten-ten-ten) 10/10/10 | v1.0，10/10 盲测通过 |
 | [antifragility](skills/ThinkingModels/antifragility) 反脆弱 | v1.0，10/10 盲测通过 |
 | [occams-razor](skills/ThinkingModels/occams-razor) 奥卡姆剃刀 | v1.0，10/10 盲测通过 |
 | [confirmation-bias](skills/ThinkingModels/confirmation-bias) 确认性偏差 | v1.0，10/10 盲测通过 |
+| [availability-heuristic](skills/ThinkingModels/availability-heuristic) 易得性启发 | v1.0，10/10 盲测通过 |
+| [six-thinking-hats](skills/ThinkingModels/six-thinking-hats) 六顶思考帽 | v1.0，10/10 盲测通过 |
 | [inversion](skills/ThinkingModels/inversion) 逆向思维 | v1.0，10/10 盲测通过 |
 | [first-principles](skills/ThinkingModels/first-principles) 第一性原理 | v1.0，10/10 盲测通过 |
-| [socratic-questioning](skills/ThinkingModels/socratic-questioning) 苏格拉底式质疑（方法论补充，非原书 100 模型之一） | v1.0，11/11 盲测通过 |
+| [maslow-hierarchy](skills/ThinkingModels/maslow-hierarchy) 马斯洛需求层次 | v1.0，10/10 盲测通过 |
+| [systems-thinking](skills/ThinkingModels/systems-thinking) 系统思维 | v1.0，10/10 盲测通过 |
+| [socratic-questioning](skills/ThinkingModels/socratic-questioning) 苏格拉底式质疑（方法论补充） | v1.0，11/11 盲测通过 |
 
 已完成的验证环节：
-- 苏格拉底式质疑自检（定稿前强制环节；第一批抓出 3 处概念/逻辑错误，第二批抓出原书"取中间值"、"子女是沉没成本"、"反过来做=逆向思维"、"第一性原理=材料账"等错误并修正，见 `docs/books/wanwu-jie-moxing/socratic-review.md`）
-- 81 条盲测用例（should_trigger / should_not_trigger / edge_case / correctness_trap），独立 sub-agent 盲测 100% 通过（`fp-edge-02` 首轮把第一性原理当主技能，收紧触发边界后复测通过）
+- 苏格拉底式质疑自检（定稿前强制环节；各批抓出的原书错误见 `docs/books/wanwu-jie-moxing/socratic-review.md`）
+- 141 条盲测用例，独立 sub-agent 盲测通过
 - 官方 Skill 规范校验（`quick_validate.py`），frontmatter 全部合规
 - 每个 skill 的 `evals/test-results.md` 已下沉到自己目录
 
 ## 待办
 
-### 短期：01–18 中尚未研究的 11 个模型
-直觉、决策树、非 sr 思维、易得性偏差、六顶思考帽、10/10/10 旁观、升维思维、笛卡尔思维、马斯洛需求层次、万物联系、万物系统。这些还没进 `candidates/`，要先做阶段 1 研究，不能直接构造。
+### 短期：01–18 中本轮未构造的 5 个
+直觉（与 #20 卡尼曼重复）、非 SR、升维、笛卡尔（暂缓）、万物联系。研究记录已在本机 `candidates/batch-01-18-remaining.md`。
 
 ### 中期：思维模型库扩容
-《万物皆模型》100 个模型中，目前蒸馏了 7 个原书模型 + 1 个方法论补充。按批次继续蒸馏剩余约 90 个，每批次先经三重验证筛选，不追求速度，保证质量红线（真实学科来源重新研究、边界条件不能空缺）。原书 19–100 连阶段 0 通读都还没做完。
+《万物皆模型》100 个模型中，目前蒸馏了 13 个原书模型 + 1 个方法论补充。按批次继续蒸馏剩余约 80+ 个，每批次先经三重验证筛选。原书 19–100 连阶段 0 通读都还没做完。
 
 ### 待观察
 - `skills/Business/sales-company-intel-report` 是否需要单独走一遍官方 Skill 规范校验（当前 frontmatter 同样使用了非标准的 `author`/`version` 顶层字段，尚未按 ThinkingModels 的方式修正）。

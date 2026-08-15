@@ -1,0 +1,16 @@
+{
+  "skill": "maslow-hierarchy",
+  "version": "v1.0",
+  "tests": [
+    {"id":"mh-should-01","type":"should_trigger","prompt":"工资已经涨了，核心员工为什么还是要走？能用马斯洛排查吗？","expect":"触发；逐类扫描安全、归属、尊重与成长，不诊断层级。"},
+    {"id":"mh-should-02","type":"should_trigger","prompt":"产品功能够用了，但用户没有归属感，需求层次能提供什么启发？","expect":"触发；当需求类别检查表并提出可验证假设。"},
+    {"id":"mh-should-03","type":"should_trigger","prompt":"团队激励是不是只盯着奖金，漏掉了别的需求？","expect":"触发；识别错层干预并用访谈/行为测试。"},
+    {"id":"mh-decoy-sibling-01","type":"should_not_trigger","prompt":"团队讨论总把事实和情绪混在一起，想设计并行会议流程。","expect":"不触发；走六顶思考帽。"},
+    {"id":"mh-decoy-sibling-02","type":"should_not_trigger","prompt":"行业都说员工只为钱工作，这到底是硬约束还是惯例？","expect":"不触发为主技能；该问法走第一性原理，可辅助用需求类别。"},
+    {"id":"mh-decoy-01","type":"should_not_trigger","prompt":"我持续失眠和抑郁，请按马斯洛诊断我的心理疾病。","expect":"不触发诊断；应建议专业评估，马斯洛不能替代临床工具。"},
+    {"id":"mh-trap-01","type":"correctness_trap","prompt":"一个人没吃饱，就不可能追求尊严、爱或意义。","expect":"纠正；严格顺序缺乏实证，需求可并行，反例广泛。"},
+    {"id":"mh-trap-02","type":"correctness_trap","prompt":"自我实现层的人比生理需求层的人更高级。","expect":"纠正；不是人格等级，不能给人贴阶层标签。"},
+    {"id":"mh-edge-01","type":"edge_case","prompt":"员工同时担心裁员、觉得孤独、又想承担更有挑战的工作，属于哪一层？","expect":"触发；拒绝单选，三类需求可同时存在并冲突。"},
+    {"id":"mh-edge-02","type":"edge_case","prompt":"跨文化团队都该按同一套五层顺序设计福利吗？","expect":"触发但拒绝普遍顺序；让当事人排序并考虑文化与个体差异。"}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "skill": "availability-heuristic",
+  "version": "v1.0",
+  "tests": [
+    {"id":"ah-should-01","type":"should_trigger","prompt":"最近天天刷到裁员新闻，是不是整个行业都在大裁员？","expect":"触发；识别新近/重复曝光，定义行业与时间窗并找基准率。"},
+    {"id":"ah-should-02","type":"should_trigger","prompt":"身边三个人创业都发财了，创业成功率应该很高吧？","expect":"触发；检查个人网络样本、分母和幸存者暴露。"},
+    {"id":"ah-should-03","type":"should_trigger","prompt":"看完一次空难报道，我现在觉得坐飞机比开车危险。","expect":"触发；比较同口径风险，不能说飞机零风险。"},
+    {"id":"ah-decoy-sibling-01","type":"should_not_trigger","prompt":"我支持这个方案，所以搜资料时只点了赞成它的文章。","expect":"不触发；按已有信念筛证据，走确认性偏差。"},
+    {"id":"ah-decoy-sibling-02","type":"should_not_trigger","prompt":"他安静又爱读书，所以肯定是图书管理员而不是销售。","expect":"不触发；按原型相似性判断，属于代表性启发。"},
+    {"id":"ah-decoy-01","type":"should_not_trigger","prompt":"过去十年数据都显示事故率连续上升，我判断风险在增加。","expect":"不触发；这是数据趋势，不是用提取容易度替代频率。"},
+    {"id":"ah-trap-01","type":"correctness_trap","prompt":"只要一件事容易想起来，它就肯定是偏差，应该反着判断。","expect":"纠正；可得性常与真实频率相关，只在暴露与频率脱钩时偏。"},
+    {"id":"ah-trap-02","type":"correctness_trap","prompt":"媒体报道过的风险都是炒作，所以可以忽略。","expect":"纠正；需查同口径基准率，不能从高估摆到反向轻视。"},
+    {"id":"ah-edge-01","type":"edge_case","prompt":"我身边十位同事都感染了，官方数据也在上升，这还算易得性偏差吗？","expect":"触发检查但不自动判错；易得性可能提供有效信号，与基准率一致即可。"},
+    {"id":"ah-edge-02","type":"edge_case","prompt":"全国数据说风险低，但我问的是本地特定年龄组，能直接用全国基准率纠偏吗？","expect":"触发并拒绝口径错配；需要匹配人群、地点和时间窗。"}
+  ]
+}

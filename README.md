@@ -11,7 +11,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 This repository is early. Two kinds of skills exist so far:
 
 - [`skills/Business/sales-company-intel-report`](skills/Business/sales-company-intel-report) — a sales account-research skill that demonstrates the `SKILL.md` + templates + scripts structure this project uses.
-- [`skills/ThinkingModels/`](skills/ThinkingModels) — the mental-model library so far: 8 skills — [opportunity cost](skills/ThinkingModels/opportunity-cost), [sunk cost](skills/ThinkingModels/sunk-cost), [antifragility](skills/ThinkingModels/antifragility), [Occam's razor](skills/ThinkingModels/occams-razor), [confirmation bias](skills/ThinkingModels/confirmation-bias), [inversion](skills/ThinkingModels/inversion), [first principles](skills/ThinkingModels/first-principles), and [Socratic questioning](skills/ThinkingModels/socratic-questioning). Each was re-researched from its actual academic source (not copied from the 《万物皆模型》book's summary cards), passed a Socratic self-check, blind-tested eval cases, and official Skill spec validation. SWOT, PDCA, MECE, compound thinking, second-order thinking, and the rest have not been distilled yet — see [`skills/ThinkingModels/README.md`](skills/ThinkingModels/README.md) for progress.
+- [`skills/ThinkingModels/`](skills/ThinkingModels) — the mental-model library so far: 14 skills, including opportunity cost, sunk cost, decision tree, 10/10/10, antifragility, Occam's razor, confirmation bias, availability heuristic, six thinking hats, inversion, first principles, Maslow's hierarchy, systems thinking, and Socratic questioning. Each was re-researched from its actual academic source (not copied from the 《万物皆模型》book's summary cards), passed a Socratic self-check, blind-tested eval cases, and official Skill spec validation. SWOT, PDCA, MECE, compound thinking, second-order thinking, and the rest have not been distilled yet — see [`skills/ThinkingModels/README.md`](skills/ThinkingModels/README.md) for progress.
 
 ## How it works
 
@@ -48,7 +48,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The mental-model library is still early — 8 models are covered so far (7 from the book plus Socratic questioning as a method supplement). Most of the 100 models haven't been touched at all. Skill-authoring conventions may still change as the library grows.
+The mental-model library is still early — 14 models are covered so far (13 from the book plus Socratic questioning as a method supplement). Most of the 100 models haven't been touched at all. Skill-authoring conventions may still change as the library grows.
 
 ## Contributing a mental model
 
