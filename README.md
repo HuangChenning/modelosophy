@@ -8,10 +8,19 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 ## What's here now
 
-This repository is early. Two kinds of skills exist so far:
+This repository is early. Skills are grouped by domain under `skills/<category>/`:
 
-- [`skills/Business/org-it-intel-report`](skills/Business/org-it-intel-report) — a vendor-neutral org / IT intelligence skill (organization overview + IT investment & procurement), demonstrating the `SKILL.md` + templates + scripts structure this project uses.
-- [`skills/ThinkingModels/`](skills/ThinkingModels) — the mental-model library so far: 69 skills (68 from the book plus Socratic questioning), spanning decision costs, biases, systems, strategy (SWOT / five forces / moat), learning & behavior (Fogg / Hook / forgetting curve), and reasoning tools (MECE / pyramid / game theory / abduction / expected value / critical thinking). Each was re-researched from its actual academic source (not copied from the 《万物皆模型》book's summary cards), passed a Socratic self-check, blind-tested eval cases, and official Skill spec validation. See [`skills/ThinkingModels/README.md`](skills/ThinkingModels/README.md) for the full map.
+- [`skills/business/org-it-intel-report`](skills/business/org-it-intel-report) — a vendor-neutral org / IT intelligence skill (organization overview + IT investment & procurement), demonstrating the `SKILL.md` + templates + scripts structure this project uses.
+- [`skills/thinking-models/`](skills/thinking-models) — **50** executable mental-model skills (general reasoning, strategy, learning, leadership, etc.). Another **19** formerly here were moved into the domain categories below. See [`skills/thinking-models/README.md`](skills/thinking-models/README.md).
+- Six domain categories **peer to** `business/` / `thinking-models/` (executable skills, not knowledge-card shells):
+  - [`econ-macro-theories`](skills/econ-macro-theories) — macro theories (seeds TBD)
+  - [`econ-micro-markets`](skills/econ-micro-markets) — micro / markets (e.g. opportunity cost)
+  - [`game-theory-models`](skills/game-theory-models) — game theory
+  - [`behavioral-biases`](skills/behavioral-biases) — behavioral economics & biases (9 skills)
+  - [`finance-investing-models`](skills/finance-investing-models) — finance / investing (e.g. compounding)
+  - [`systems-classic-effects`](skills/systems-classic-effects) — systems & classic effects (7 skills)
+
+Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
 ## How it works
 
@@ -42,13 +51,13 @@ skills/<category>/<name>/scripts/      generation or automation scripts, if any
 skills/<category>/<name>/assets/       templates the skill renders into
 ```
 
-`<category>` groups skills by domain — for example `Business/` for sales and customer-research skills, `ThinkingModels/` for mental-model skills.
+`<category>` groups skills by domain — for example `business/`, `thinking-models/`, and the six econ / bias / systems categories above.
 
 Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`](DESIGN.md).
 
 ## Limitations
 
-The mental-model library is still early — 69 models are covered so far (68 from the book plus Socratic questioning as a method supplement). Remaining book cards are mostly previously rejected or not triple-verified; Skill-authoring conventions may still change as the library grows.
+The library is still early — about **69** executable models exist across categories (50 in `thinking-models/` + 19 migrated). Remaining book / economics checklist items will be added as executable skills in batches. Conventions may still change as the library grows.
 
 ## Contributing a mental model
 
