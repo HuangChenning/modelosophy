@@ -238,7 +238,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 4 | 行为经济学与认知偏误 | `behavioral-biases` | **复用** | 名录 30 条 **已有** |
 | 5 | 金融与投资模型 | `finance-investing-models` | **复用** | 名录 30 条 **已有** |
 | 6 | 系统思维与经典效应 | `systems-classic-effects` | **复用** | 名录 30 条 **已有**（首因/近因→`serial-position-effect`；网络效应→`metcalfes-law`） |
-| 7 | 认知与思维工具 | `cognitive-thinking-tools` | **新建**；迁入 8 | 种子已有；余 **待新建** |
+| 7 | 认知与思维工具 | `cognitive-thinking-tools` | **新建**；迁入 8 | 现 **17**（M1 新建 9）；余 **待新建** |
 | 8 | 决策与概率 | `decision-probability` | **新建**；迁入 2 | 种子已有；部分 **已有@他类**；余待新建 |
 | 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 种子已有；余待新建 |
 | 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 种子已有；余待新建 |
@@ -248,7 +248,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 ### 3. 分批里程碑（建议）
 
 - [x] **M0**：名录写入 ROADMAP + 6 个新分类 README 壳 + 25 条物理迁移 + 链接/根 README 对账  
-- [ ] **M1**：第七类补齐缺口（优先 5Why / SCQA / TOC / TRIZ / 假设检验 等可验证专条）  
+- [x] **M1（首批）**：第七类优先缺口已建 9 条（`five-whys` / `scqa` / `theory-of-constraints` / `triz` / `hypothesis-testing` / `structured-thinking` / `lateral-thinking` / `logic-tree` / `star-method`，均 `v0.x-draft`）；类内现 **17**；其余名录条仍待新建  
 - [ ] **M2**：第八类补齐（贝叶斯更新、情景规划、事前验尸、OODA 等）；决策视角的沉没/机会成本 **互链**既有 Skill，不复制目录  
 - [ ] **M3**：第九–十一类分批新建（刻意练习、蓝海、看板/GTD 等）  
 - [ ] **M4**：第十二类补齐（系统基模、杠杆点已有、因果回路、CAS 等）；与第六类重复项只维护一份  
@@ -269,24 +269,24 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | MECE | 已有@`…/mece` |
 | 金字塔原理 | 已有@`…/pyramid-principle` |
 | 六顶思考帽 | 已有@`…/six-thinking-hats` |
-| 5Why 分析法 | 待新建（`five-whys`；勿与 `five-w-one-h` 混淆） |
-| 结构化思维 | 待新建（`structured-thinking`） |
+| 5Why 分析法 | 已有@`cognitive-thinking-tools/five-whys`（`v0.x-draft`；勿与 `five-w-one-h` 混淆） |
+| 结构化思维 | 已有@`…/structured-thinking`（`v0.x-draft`） |
 | 批判性思维 | 已有@`…/critical-thinking` |
-| 水平思考 | 待新建（`lateral-thinking`） |
+| 水平思考 | 已有@`…/lateral-thinking`（`v0.x-draft`） |
 | 类比思维 | 待新建（`analogical-thinking`） |
 | 抽象阶梯 | 待新建（`abstraction-ladder`；≠ `ladder-of-inference`） |
 | 黄金圈法则 | 已有@`…/golden-circle` |
-| SCQA 框架 | 待新建（`scqa`） |
-| STAR 法则 | 待新建（`star-method`） |
+| SCQA 框架 | 已有@`…/scqa`（`v0.x-draft`） |
+| STAR 法则 | 已有@`…/star-method`（`v0.x-draft`） |
 | SWOT 分析 | 已有@他类 `strategy-competition/swot`（战略主条；认知场景互链） |
 | 交叉验证 | 待新建（`cross-validation-thinking`） |
 | 反向目标 | 待新建（`backward-goal`） |
 | 思维实验 | 待新建（`thought-experiment`） |
 | 菱形六步法 | 待新建（`diamond-six-steps`） |
-| TOC 约束理论 | 待新建（`theory-of-constraints`） |
-| TRIZ 发明原理 | 待新建（`triz`） |
-| 八爪鱼图 / 概念图 / 思维导图 / 逻辑树 | 待新建（`octopus-diagram` / `concept-map` / `mind-map` / `logic-tree`） |
-| 决策矩阵 / 优劣势清单 / 假设检验 | 待新建（`decision-matrix` / `pros-cons-list` / `hypothesis-testing`） |
+| TOC 约束理论 | 已有@`…/theory-of-constraints`（`v0.x-draft`） |
+| TRIZ 发明原理 | 已有@`…/triz`（`v0.x-draft`） |
+| 八爪鱼图 / 概念图 / 思维导图 / 逻辑树 | 逻辑树已有@`…/logic-tree`（`v0.x-draft`）；其余待新建（`octopus-diagram` / `concept-map` / `mind-map`） |
+| 决策矩阵 / 优劣势清单 / 假设检验 | 假设检验已有@`…/hypothesis-testing`（`v0.x-draft`）；其余待新建（`decision-matrix` / `pros-cons-list`） |
 
 #### 八、`decision-probability`
 

@@ -1,0 +1,36 @@
+{
+  "skill": "scqa",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "scqa-should-01",
+      "type": "should_trigger",
+      "prompt": "汇报不知道怎么开场，想用SCQA。",
+      "expect": "触发；走 Situation–Complication–Question–Answer。"
+    },
+    {
+      "id": "scqa-should-02",
+      "type": "should_trigger",
+      "prompt": "帮我把读者的问题和答案对齐。",
+      "expect": "触发 SCQA 问题定义。"
+    },
+    {
+      "id": "scqa-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "面试怎么用STAR讲项目经历。",
+      "expect": "不触发；分流 star-method。"
+    },
+    {
+      "id": "scqa-edge-01",
+      "type": "edge_case",
+      "prompt": "还没有答案也能写SCQA吗？",
+      "expect": "可写到Q并标明A待证，禁止伪造答案。"
+    },
+    {
+      "id": "scqa-trap-01",
+      "type": "correctness_trap",
+      "prompt": "SCQA写完四段就等于整份论证做完了。",
+      "expect": "纠正：SCQA是开场/问题定义，展开用金字塔+证据。"
+    }
+  ]
+}

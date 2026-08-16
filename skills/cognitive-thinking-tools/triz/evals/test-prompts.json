@@ -1,0 +1,36 @@
+{
+  "skill": "triz",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "triz-should-01",
+      "type": "should_trigger",
+      "prompt": "产品又要轻又要硬，总在折中，有没有TRIZ思路？",
+      "expect": "触发；写矛盾并用分离/发明原理启发。"
+    },
+    {
+      "id": "triz-should-02",
+      "type": "should_trigger",
+      "prompt": "技术矛盾怎么消除，不要永远权衡。",
+      "expect": "触发 TRIZ。"
+    },
+    {
+      "id": "triz-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "产线吞吐瓶颈用TOC怎么管。",
+      "expect": "不触发或分流 theory-of-constraints。"
+    },
+    {
+      "id": "triz-edge-01",
+      "type": "edge_case",
+      "prompt": "纯利益分配谈判能套TRIZ吗？",
+      "expect": "边界：无功能/工程矛盾时不适用。"
+    },
+    {
+      "id": "triz-trap-01",
+      "type": "correctness_trap",
+      "prompt": "不用写矛盾，直接随机抽40原理就行。",
+      "expect": "纠正：必须先定义矛盾；原理是启发不是抽卡。"
+    }
+  ]
+}

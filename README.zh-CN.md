@@ -8,7 +8,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ## 项目简介与现状
 
-这个仓库还处于早期阶段。`skills/<category>/` 下合计 **232** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
+这个仓库还处于早期阶段。`skills/<category>/` 下合计 **241** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
@@ -18,7 +18,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | --- | ---: | --- |
 | [商业 / 组织情报](skills/business/README.md) | 1 | [目录](#商业--组织情报1) |
 | [通用思维模型](skills/thinking-models/README.md) | 25 | [目录](#通用思维模型25) |
-| [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 8 | [目录](#认知与思维工具8) |
+| [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 17 | [目录](#认知与思维工具17) |
 | [决策与概率](skills/decision-probability/README.md) | 2 | [目录](#决策与概率2) |
 | [学习与成长](skills/learning-growth/README.md) | 5 | [目录](#学习与成长5) |
 | [战略与竞争](skills/strategy-competition/README.md) | 4 | [目录](#战略与竞争4) |
@@ -68,7 +68,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计 **232** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 25）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
+库仍处于早期：跨分类合计 **241** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 34）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
 
 ## 贡献一个思维模型
 
@@ -76,7 +76,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## Skill 目录
 
-全部 **232** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
+全部 **241** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
 
 ### 商业 / 组织情报（1）
 
@@ -114,18 +114,27 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[spiral-of-silence](skills/thinking-models/spiral-of-silence/SKILL.md)** — 沉默的螺旋：诊断「怕被孤立→误判意见气候→少数派沉默→优势意见更响」的舆论动力。
 - **[ten-ten-ten](skills/thinking-models/ten-ten-ten/SKILL.md)** — 10/10/10：从当下强烈情绪拉开时间距离，分别写出约 10 分钟/10 个月/10 年的后果。
 
-### 认知与思维工具（8）
+### 认知与思维工具（17）
 
 第一性原理、结构化拆解、批判性思维等认知工具。
 
 - **[critical-thinking](skills/cognitive-thinking-tools/critical-thinking/SKILL.md)** — 批判性思维：按 Facione Delphi 框架练诠释、分析、评估、推理、说明与自我校准。
 - **[first-principles](skills/cognitive-thinking-tools/first-principles/SKILL.md)** — 第一性原理：把判断拆到硬事实/物理约束，再从约束重新往上构建，少靠类比。
+- **[five-whys](skills/cognitive-thinking-tools/five-whys/SKILL.md)** — 5Why：沿因果链追问至可行动根因（草稿）。
 - **[golden-circle](skills/cognitive-thinking-tools/golden-circle/SKILL.md)** — 黄金圈：按 WHY–HOW–WHAT 整理沟通与策略叙事，先目的再方法再产品。
+- **[hypothesis-testing](skills/cognitive-thinking-tools/hypothesis-testing/SKILL.md)** — 假设检验：写成可证伪命题并设计对照证据（草稿）。
 - **[inversion](skills/cognitive-thinking-tools/inversion/SKILL.md)** — 逆向思维：从失败倒推——先问「怎样保证搞砸」，再把每条失败路径变成规避项。
+- **[lateral-thinking](skills/cognitive-thinking-tools/lateral-thinking/SKILL.md)** — 水平思考：用挑衅/跳框逃离定势后再垂直评估（草稿）。
+- **[logic-tree](skills/cognitive-thinking-tools/logic-tree/SKILL.md)** — 逻辑树：把主问题拆成可行动的议题/假设叶子（草稿）。
 - **[mece](skills/cognitive-thinking-tools/mece/SKILL.md)** — MECE：把议题拆成相互独立、完全穷尽的类别，便于分析与分工。
 - **[occams-razor](skills/cognitive-thinking-tools/occams-razor/SKILL.md)** — 奥卡姆剃刀：在同样能解释现象的假设中，优先所需特设假设更少者，再验证。
 - **[pyramid-principle](skills/cognitive-thinking-tools/pyramid-principle/SKILL.md)** — 金字塔原理：结论先行，上层概括下层，同层 MECE 组织论证与沟通。
+- **[scqa](skills/cognitive-thinking-tools/scqa/SKILL.md)** — SCQA：情境–冲突–问题–答案的开场与问题定义（草稿）。
 - **[six-thinking-hats](skills/cognitive-thinking-tools/six-thinking-hats/SKILL.md)** — 六顶思考帽：把会议中的事实、感受、利益、风险与创意分时并行处理。
+- **[star-method](skills/cognitive-thinking-tools/star-method/SKILL.md)** — STAR：情境–任务–行动–结果的经历叙事（草稿）。
+- **[structured-thinking](skills/cognitive-thinking-tools/structured-thinking/SKILL.md)** — 结构化思维：问题定义→拆解→分析→综合的总流程（草稿）。
+- **[theory-of-constraints](skills/cognitive-thinking-tools/theory-of-constraints/SKILL.md)** — TOC 约束理论：聚焦系统吞吐瓶颈的五步法（草稿）。
+- **[triz](skills/cognitive-thinking-tools/triz/SKILL.md)** — TRIZ：把设计矛盾结构化并用分离/发明原理启发非折中解（草稿）。
 
 ### 决策与概率（2）
 

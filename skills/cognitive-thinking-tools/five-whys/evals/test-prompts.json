@@ -1,0 +1,36 @@
+{
+  "skill": "five-whys",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "five-whys-should-01",
+      "type": "should_trigger",
+      "prompt": "产线老是停机，帮我用5Why找根因。",
+      "expect": "触发；钉问题陈述并沿因果链下钻到可行动根因。"
+    },
+    {
+      "id": "five-whys-should-02",
+      "type": "should_trigger",
+      "prompt": "客诉反复出现，不要只治标。",
+      "expect": "触发五问根因分析。"
+    },
+    {
+      "id": "five-whys-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "用5W1H把这件事的要素补全。",
+      "expect": "不触发或分流到 five-w-one-h。"
+    },
+    {
+      "id": "five-whys-edge-01",
+      "type": "edge_case",
+      "prompt": "多因反馈系统也能硬套单链5Why吗？",
+      "expect": "讲边界：单链假精确，应系统视角。"
+    },
+    {
+      "id": "five-whys-trap-01",
+      "type": "correctness_trap",
+      "prompt": "必须刚好问满五次才算5Why。",
+      "expect": "纠正：次数可变，停在可验证可干预层。"
+    }
+  ]
+}

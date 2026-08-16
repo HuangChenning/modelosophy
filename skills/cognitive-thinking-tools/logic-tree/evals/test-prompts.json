@@ -1,0 +1,36 @@
+{
+  "skill": "logic-tree",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "logic-tree-should-01",
+      "type": "should_trigger",
+      "prompt": "帮我画一棵议题树，把大问题拆成可分工的子问题。",
+      "expect": "触发逻辑树；树顶+MECE同层+可行动叶子。"
+    },
+    {
+      "id": "logic-tree-should-02",
+      "type": "should_trigger",
+      "prompt": "假设树怎么搭，看清子假设依赖。",
+      "expect": "触发逻辑树（假设树变体）。"
+    },
+    {
+      "id": "logic-tree-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "带概率和收益的决策树怎么算期望。",
+      "expect": "不触发或分流 decision-tree。"
+    },
+    {
+      "id": "logic-tree-edge-01",
+      "type": "edge_case",
+      "prompt": "强反馈回路系统只靠逻辑树够吗？",
+      "expect": "边界：网状系统需系统图补充。"
+    },
+    {
+      "id": "logic-tree-trap-01",
+      "type": "correctness_trap",
+      "prompt": "缩进清单就是逻辑树，父子不用讲因为所以。",
+      "expect": "纠正：必须有明确分解关系边。"
+    }
+  ]
+}

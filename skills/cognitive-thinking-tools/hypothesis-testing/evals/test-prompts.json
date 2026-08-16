@@ -1,0 +1,36 @@
+{
+  "skill": "hypothesis-testing",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ht-should-01",
+      "type": "should_trigger",
+      "prompt": "这个产品判断怎么验证？什么证据算我错了？",
+      "expect": "触发；写可证伪假设、预测与对照。"
+    },
+    {
+      "id": "ht-should-02",
+      "type": "should_trigger",
+      "prompt": "帮我设计假设检验，不要事后编故事。",
+      "expect": "触发假设检验思维。"
+    },
+    {
+      "id": "ht-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这篇论证写得好不好，按标准审一下。",
+      "expect": "不触发或分流 critical-thinking。"
+    },
+    {
+      "id": "ht-edge-01",
+      "type": "edge_case",
+      "prompt": "纯价值争论「应不应该」怎么假设检验？",
+      "expect": "边界：先改写经验主张或承认不可检。"
+    },
+    {
+      "id": "ht-trap-01",
+      "type": "correctness_trap",
+      "prompt": "看完数据再决定假设是什么也没关系。",
+      "expect": "纠正 HARKing：需事前预测与标准。"
+    }
+  ]
+}

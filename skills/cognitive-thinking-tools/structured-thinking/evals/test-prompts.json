@@ -1,0 +1,36 @@
+{
+  "skill": "structured-thinking",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "st-should-01",
+      "type": "should_trigger",
+      "prompt": "这个问题太乱，帮我用结构化思维理清从哪开始。",
+      "expect": "触发；问题定义→拆解→分析→综合。"
+    },
+    {
+      "id": "st-should-02",
+      "type": "should_trigger",
+      "prompt": "讨论发散没有骨架，给我一个分析结构。",
+      "expect": "触发结构化思维总流程。"
+    },
+    {
+      "id": "st-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要MECE把分类拆不重不漏。",
+      "expect": "不触发或分流 mece。"
+    },
+    {
+      "id": "st-edge-01",
+      "type": "edge_case",
+      "prompt": "执行清单已经很清楚还要再造结构树吗？",
+      "expect": "边界：不必为结构而结构。"
+    },
+    {
+      "id": "st-trap-01",
+      "type": "correctness_trap",
+      "prompt": "结构化就是把金字塔/MECE/SCQA全部走一遍。",
+      "expect": "纠正：按需调用专条，不是固定全套。"
+    }
+  ]
+}

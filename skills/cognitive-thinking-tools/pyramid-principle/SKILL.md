@@ -3,9 +3,10 @@ name: pyramid-principle
 description: >
   用明托金字塔原理帮用户把论证与沟通写成「结论先行、上层概括下层、同层 MECE」的结构：
   先答问题，再用分组论据支撑，纵向答 why/how，横向不重不漏。Use when user says “金字塔原理”
-  “结论先行”“SCQA”“怎么写汇报结构”“领导只要结论”“自上而下沟通”“Barbara Minto”。
-  与 MECE 区分：MECE 是分类纪律；本模型是把已有观点组织成可辩护的论证塔。不要在证据不足时
-  硬造漂亮金字塔冒充已想清楚。
+  “结论先行”“怎么写汇报结构”“领导只要结论”“自上而下沟通”“Barbara Minto”。
+  **硬区分 SCQA**：用户只要情境–冲突–问题–答案开场/问题定义 → scqa；
+  用户要整座结论—论据论证塔 → 本模型（SCQA 仅作可选引入）。与 MECE 区分：MECE 是分类纪律；
+  本模型是把已有观点组织成可辩护的论证塔。不要在证据不足时硬造漂亮金字塔冒充已想清楚。
 metadata:
   author: modelosophy（蒸馏自 Barbara Minto《金字塔原理》+ 咨询结构化沟通实践
     + 《万物皆模型》金字塔原理卡片）
@@ -32,9 +33,10 @@ Barbara Minto 的金字塔原理：思想应组织成**顶层一个清晰结论�
 
 - 写汇报、邮件、策略备忘录，需要领导快速抓住结论；
 - 材料很多但“不知道先说什么”；
-- 直接提金字塔原理 / 结论先行 / SCQA / Minto。
+- 直接提金字塔原理 / 结论先行 / Minto。
 
 **不要**当主模型：
+- 只要 SCQA 开场或对齐读者问题 → [`scqa`](../scqa/SKILL.md)；
 - 只是把议题拆成不重不漏的桶、尚未形成主张 → [`mece`](../mece/SKILL.md)；
 - 检验主张是否自相矛盾 → [`socratic-questioning`](../../thinking-models/socratic-questioning/SKILL.md)；
 - 从硬约束重建方案 → [`first-principles`](../first-principles/SKILL.md)。
@@ -64,6 +66,7 @@ Barbara Minto 的金字塔原理：思想应组织成**顶层一个清晰结论�
 
 ## 相关模型
 
+- **与[SCQA](../scqa/SKILL.md)**：**硬区分。** 只要开场四段/问题定义 → SCQA；要完整论证塔 → 本模型。本模型可将 SCQA 作可选引入。
 - **与[MECE](../mece/SKILL.md)**：MECE 管同层分类不重不漏；金字塔管结论—论据的纵向论证结构。金字塔的每一层内部应尽量 MECE。
 - **与[演绎法](../../thinking-models/deductive-reasoning/SKILL.md)**：演绎检查形式有效；金字塔组织表达顺序。有效推理仍需可读结构。
 - **与[隐含前提](../../thinking-models/implicit-premises/SKILL.md)**：塔顶结论常依赖未写出的前提；补前提后再建塔。

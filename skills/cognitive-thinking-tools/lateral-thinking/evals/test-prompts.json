@@ -1,0 +1,36 @@
+{
+  "skill": "lateral-thinking",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "lt-should-01",
+      "type": "should_trigger",
+      "prompt": "方案都在老路上，用水平思考换个轨道。",
+      "expect": "触发；挑衅/跳框后垂直回收。"
+    },
+    {
+      "id": "lt-should-02",
+      "type": "should_trigger",
+      "prompt": "lateral thinking帮我跳出定势。",
+      "expect": "触发水平思考。"
+    },
+    {
+      "id": "lt-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "开会用六顶思考帽分角色讨论。",
+      "expect": "不触发或分流 six-thinking-hats。"
+    },
+    {
+      "id": "lt-edge-01",
+      "type": "edge_case",
+      "prompt": "安全规程执行时能用挑衅随便改吗？",
+      "expect": "边界：安全关键规程不适用。"
+    },
+    {
+      "id": "lt-trap-01",
+      "type": "correctness_trap",
+      "prompt": "水平思考就是不要逻辑，越荒诞越好当结论。",
+      "expect": "纠正：跳框后必须垂直评估回收。"
+    }
+  ]
+}

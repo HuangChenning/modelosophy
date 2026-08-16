@@ -8,7 +8,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 ## What's here now
 
-This repository is early. There are **232** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
+This repository is early. There are **241** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
@@ -18,7 +18,7 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | --- | ---: | --- |
 | [Business / Org Intel](skills/business/README.md) | 1 | [index](#business-/-org-intel1) |
 | [Thinking Models](skills/thinking-models/README.md) | 25 | [index](#thinking-models25) |
-| [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 8 | [index](#cognitive-thinking-tools8) |
+| [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 17 | [index](#cognitive-thinking-tools17) |
 | [Decision & Probability](skills/decision-probability/README.md) | 2 | [index](#decision--probability2) |
 | [Learning & Growth](skills/learning-growth/README.md) | 5 | [index](#learning--growth5) |
 | [Strategy & Competition](skills/strategy-competition/README.md) | 4 | [index](#strategy--competition4) |
@@ -68,7 +68,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **232** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 25). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
+The library is still early — **241** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 34). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
 
 ## Contributing a mental model
 
@@ -76,7 +76,7 @@ Have a thinking framework worth distilling? Open a PR that adds a new `skills/<c
 
 ## Skill catalog
 
-Per-skill blurbs for all **232** Skills. Category READMEs remain the per-domain index.
+Per-skill blurbs for all **241** Skills. Category READMEs remain the per-domain index.
 
 ### Business / Org Intel（1）
 
@@ -114,18 +114,27 @@ General reasoning, leadership, communication (domain-specific items moved out).
 - **[spiral-of-silence](skills/thinking-models/spiral-of-silence/SKILL.md)** — Spiral of silence: fear of isolation → misread climate → minority silence → louder majority.
 - **[ten-ten-ten](skills/thinking-models/ten-ten-ten/SKILL.md)** — 10/10/10: pull decisions out of hot emotion by checking ~10 minutes / 10 months / 10 years.
 
-### Cognitive Thinking Tools（8）
+### Cognitive Thinking Tools（17）
 
 First principles, structured decomposition, critical thinking tools.
 
 - **[critical-thinking](skills/cognitive-thinking-tools/critical-thinking/SKILL.md)** — Critical thinking: Facione Delphi skills (interpretation, analysis, evaluation, inference, explanation, self-regulation).
 - **[first-principles](skills/cognitive-thinking-tools/first-principles/SKILL.md)** — First principles: strip a claim to hard facts/constraints, then rebuild upward without analogy crutches.
+- **[five-whys](skills/cognitive-thinking-tools/five-whys/SKILL.md)** — Five Whys: drill a causal chain to an actionable root cause (draft).
 - **[golden-circle](skills/cognitive-thinking-tools/golden-circle/SKILL.md)** — Golden Circle: structure narrative as WHY→HOW→WHAT (purpose before product).
+- **[hypothesis-testing](skills/cognitive-thinking-tools/hypothesis-testing/SKILL.md)** — Hypothesis testing: state falsifiable claims and design contrasting evidence (draft).
 - **[inversion](skills/cognitive-thinking-tools/inversion/SKILL.md)** — Inversion: work backward from failure—“how could this go wrong?”—then avoid those paths.
+- **[lateral-thinking](skills/cognitive-thinking-tools/lateral-thinking/SKILL.md)** — Lateral thinking: provoke jumps out of set patterns, then vertically evaluate (draft).
+- **[logic-tree](skills/cognitive-thinking-tools/logic-tree/SKILL.md)** — Logic tree: decompose a master question into actionable issue/hypothesis leaves (draft).
 - **[mece](skills/cognitive-thinking-tools/mece/SKILL.md)** — MECE: split issues into mutually exclusive, collectively exhaustive categories.
 - **[occams-razor](skills/cognitive-thinking-tools/occams-razor/SKILL.md)** — Occam’s razor: among explanations that fit, prefer fewer ad hoc assumptions—then verify.
 - **[pyramid-principle](skills/cognitive-thinking-tools/pyramid-principle/SKILL.md)** — Pyramid principle: lead with the answer; group supporting arguments MECE under it.
+- **[scqa](skills/cognitive-thinking-tools/scqa/SKILL.md)** — SCQA: Situation–Complication–Question–Answer for openings and problem definition (draft).
 - **[six-thinking-hats](skills/cognitive-thinking-tools/six-thinking-hats/SKILL.md)** — Six Thinking Hats: separate facts, feelings, benefits, risks, and ideas in parallel meeting modes.
+- **[star-method](skills/cognitive-thinking-tools/star-method/SKILL.md)** — STAR: Situation–Task–Action–Result stories for interviews and reviews (draft).
+- **[structured-thinking](skills/cognitive-thinking-tools/structured-thinking/SKILL.md)** — Structured thinking: orchestrate define→decompose→analyze→synthesize (draft).
+- **[theory-of-constraints](skills/cognitive-thinking-tools/theory-of-constraints/SKILL.md)** — TOC: focus improvement on the system throughput constraint (draft).
+- **[triz](skills/cognitive-thinking-tools/triz/SKILL.md)** — TRIZ: frame design contradictions and seek non-compromise inventive moves (draft).
 
 ### Decision & Probability（2）
 
