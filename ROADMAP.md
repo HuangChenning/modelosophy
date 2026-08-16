@@ -138,6 +138,7 @@ serial-position-effect    → skills/systems-classic-effects/serial-position-eff
   - [x] **可选 evals 最小集**（2026-08-16，`feature/phase3-evals`）：六分类 **181/181** 均有 `evals/test-prompts.json`；新建 draft 补 **132** 条（各约 5 case，对齐宏观样例）；迁入旧稿原有 evals 保留。`quick_validate` 跨类抽查 10/10 通过。**未**做完整盲测；draft 仍 `v0.x-draft`
   - [x] **迁入 19 旧稿「常见误用」**（2026-08-16，`feature/phase3-misuse-backfill` → 收拢）：在「什么时候不适用」与「相关模型」之间补 `## 常见误用`（3–4 条）；`version` 仍为 `v1.0`
   - [x] **根 README 全量 Skill 索引**（2026-08-16，`feature/readme-all-skills-index` → 收拢）：双语根 README 列出仓库内可执行 Skill（约 **232** 条链接量级）
+  - [x] **分类 README 定稿复核**（2026-08-16，`feature/phase3-category-readme-review`）：14 个分类 README 与磁盘 `SKILL.md` 一一对应；统一 mattpocock 列表；补兄弟分流；`thinking-models` 已迁出表路径抽查通过；根 catalog 无漏无幽灵（未大改）
 
 ### 3. 本阶段明确不做
 
@@ -155,7 +156,7 @@ serial-position-effect    → skills/systems-classic-effects/serial-position-eff
 
 ### 5. 建议的下一执行步
 
-1. **Phase 3 剩余**：跨类「相关模型」双向建议（可选）→ 分类 README 定稿复核  
+1. **Phase 3 剩余**：跨类「相关模型」双向建议（可选；非死链）
 2. **可选**：evals 盲测加厚（非阻塞）
 3. **名录第七–十二类**：见下文「待办：名录扩充分类」——本轮已建壳 + 迁入种子；缺口 Skill 按批新建
 
@@ -248,7 +249,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 - [ ] **M2**：第八类补齐（贝叶斯更新、情景规划、事前验尸、OODA 等）；决策视角的沉没/机会成本 **互链**既有 Skill，不复制目录  
 - [ ] **M3**：第九–十一类分批新建（刻意练习、蓝海、看板/GTD 等）  
 - [ ] **M4**：第十二类补齐（系统基模、杠杆点已有、因果回路、CAS 等）；与第六类重复项只维护一份  
-- [ ] **M5**：跨类相关模型抽查 + 分类 README 定稿；可选 evals 最小集  
+- [x] **M5**：跨类相关模型抽查 + 分类 README 定稿；可选 evals 最小集（见 Phase 3 子项；双向建议仍可选残留）  
 
 ### 4. 条目状态速查（第七–十二类）
 
