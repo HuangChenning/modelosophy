@@ -1,0 +1,36 @@
+{
+  "skill": "diamond-six-steps",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "diamond-six-steps-should-01",
+      "type": "should_trigger",
+      "prompt": "用菱形六步法组织一次先发散再收敛的工作坊。",
+      "expect": "触发六步门控与扩收纪律。"
+    },
+    {
+      "id": "diamond-six-steps-should-02",
+      "type": "should_trigger",
+      "prompt": "团队要么早收要么散永不决，走菱形流程。",
+      "expect": "触发 diamond steps。"
+    },
+    {
+      "id": "diamond-six-steps-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要水平思考的挑衅技法。",
+      "expect": "分流 lateral-thinking。"
+    },
+    {
+      "id": "diamond-six-steps-edge-01",
+      "type": "edge_case",
+      "prompt": "紧急事故也要跑完两轮菱形吗？",
+      "expect": "边界：先止血，完整菱形不适用。"
+    },
+    {
+      "id": "diamond-six-steps-trap-01",
+      "type": "correctness_trap",
+      "prompt": "发散阶段就可以用领导意见直接否决。",
+      "expect": "纠正：收敛需显式标准与时间盒。"
+    }
+  ]
+}

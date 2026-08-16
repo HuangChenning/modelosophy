@@ -1,0 +1,36 @@
+{
+  "skill": "abstraction-ladder",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "abstraction-ladder-should-01",
+      "type": "should_trigger",
+      "prompt": "讨论太虚了，用抽象阶梯帮我们下钻到可执行。",
+      "expect": "触发上下钻与高度约定。"
+    },
+    {
+      "id": "abstraction-ladder-should-02",
+      "type": "should_trigger",
+      "prompt": "一堆细节，帮我上钻成原则。",
+      "expect": "触发具体→抽象。"
+    },
+    {
+      "id": "abstraction-ladder-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "我们是不是把假设当成事实了，用推论阶梯。",
+      "expect": "分流 ladder-of-inference。"
+    },
+    {
+      "id": "abstraction-ladder-edge-01",
+      "type": "edge_case",
+      "prompt": "战略会能不能全程停在口号层？",
+      "expect": "边界：决策落地必须下钻。"
+    },
+    {
+      "id": "abstraction-ladder-trap-01",
+      "type": "correctness_trap",
+      "prompt": "抽象阶梯就是推论阶梯。",
+      "expect": "纠正：一个管语义高度，一个管推理攀升。"
+    }
+  ]
+}

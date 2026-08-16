@@ -1,0 +1,36 @@
+{
+  "skill": "analogical-thinking",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "analogical-thinking-should-01",
+      "type": "should_trigger",
+      "prompt": "帮我用类比思维，把别的行业的订阅模式映射到我们硬件业务。",
+      "expect": "触发；做结构映射表并写失效边界。"
+    },
+    {
+      "id": "analogical-thinking-should-02",
+      "type": "should_trigger",
+      "prompt": "打个有结构的比方解释这个系统怎么转。",
+      "expect": "触发类比映射，不只表面相似。"
+    },
+    {
+      "id": "analogical-thinking-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "别靠类比，从硬约束用第一性原理重建。",
+      "expect": "分流 first-principles。"
+    },
+    {
+      "id": "analogical-thinking-edge-01",
+      "type": "edge_case",
+      "prompt": "源域我们也不熟，还能硬类比吗？",
+      "expect": "讲边界：无可靠源域会放大错误。"
+    },
+    {
+      "id": "analogical-thinking-trap-01",
+      "type": "correctness_trap",
+      "prompt": "表面都叫生态所以结构一定一样。",
+      "expect": "纠正：要关系映射与失效点，表面相似不够。"
+    }
+  ]
+}

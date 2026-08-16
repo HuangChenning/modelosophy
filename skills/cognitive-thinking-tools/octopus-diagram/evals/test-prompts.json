@@ -1,0 +1,36 @@
+{
+  "skill": "octopus-diagram",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "octopus-diagram-should-01",
+      "type": "should_trigger",
+      "prompt": "画八爪鱼图把上市相关维度先铺开。",
+      "expect": "触发中心+腕足盘点。"
+    },
+    {
+      "id": "octopus-diagram-should-02",
+      "type": "should_trigger",
+      "prompt": "用章鱼图看看我们漏了哪个侧面。",
+      "expect": "触发维度覆盖自检。"
+    },
+    {
+      "id": "octopus-diagram-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "我要带连接词的概念图。",
+      "expect": "分流 concept-map。"
+    },
+    {
+      "id": "octopus-diagram-edge-01",
+      "type": "edge_case",
+      "prompt": "必须凑满八条腕吗？",
+      "expect": "纠正：条数可变，维度质量优先。"
+    },
+    {
+      "id": "octopus-diagram-trap-01",
+      "type": "correctness_trap",
+      "prompt": "八爪鱼图画完就等于战略结论。",
+      "expect": "纠正：草图需回收到分析/行动。"
+    }
+  ]
+}

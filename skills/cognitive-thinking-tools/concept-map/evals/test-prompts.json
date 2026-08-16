@@ -1,0 +1,36 @@
+{
+  "skill": "concept-map",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "concept-map-should-01",
+      "type": "should_trigger",
+      "prompt": "画概念图，用连接词把这些术语的关系写成命题。",
+      "expect": "触发 focus question + 连接词命题。"
+    },
+    {
+      "id": "concept-map-should-02",
+      "type": "should_trigger",
+      "prompt": "Novak概念图帮学生理清因果关系。",
+      "expect": "触发 concept map。"
+    },
+    {
+      "id": "concept-map-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "快速脑图联想笔记就行。",
+      "expect": "分流 mind-map。"
+    },
+    {
+      "id": "concept-map-edge-01",
+      "type": "edge_case",
+      "prompt": "可不可以没有连接词只连线？",
+      "expect": "纠正：无连接词不成概念图。"
+    },
+    {
+      "id": "concept-map-trap-01",
+      "type": "correctness_trap",
+      "prompt": "概念图和思维导图是同一个东西。",
+      "expect": "纠正：命题网络 vs 放射联想。"
+    }
+  ]
+}
