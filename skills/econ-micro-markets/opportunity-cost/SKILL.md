@@ -69,3 +69,7 @@ metadata:
 与[沉没成本](../../behavioral-biases/sunk-cost/SKILL.md)关系密切但方向相反：机会成本关注**面向未来**放弃了什么，沉没成本提醒**不要**让过去已经无法收回的投入影响现在的判断。两者容易被用户混用，若用户说"都已经投入这么多了"，应识别为沉没成本场景，不是机会成本场景。
 
 与[决策树](../../decision-probability/decision-tree/SKILL.md)的区别：选项后果基本确定、重点是放弃了哪个最佳替代项，走机会成本；每个行动都有多个不确定结果、需要概率和阶段信息，走决策树。决策树的终点价值仍应包含机会成本。
+与[复利](../../finance-investing-models/compounding/SKILL.md)：把时间投进某条复利曲线，等于放弃另一条曲线的 \(n\)。
+与[比较优势](../comparative-advantage/SKILL.md)：比较优势的计算原料就是机会成本。
+与[供需](../supply-and-demand/SKILL.md)：个人选择代价用机会成本；市场层面的价量用「供需」。
+与[生产者剩余](../producer-surplus/SKILL.md)：愿卖价的底是机会成本。

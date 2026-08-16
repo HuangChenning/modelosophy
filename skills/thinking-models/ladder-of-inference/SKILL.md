@@ -62,4 +62,5 @@ Chris Argyris 的推论阶梯（ladder of inference）：人很少“看见全�
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：阶梯定位你站在哪一级；苏格拉底追问主张与前提是否自洽。常顺序：先下阶梯澄清，再诘问。
 - **与[双系统](../dual-process/SKILL.md)**：攀升往往是快系统；下阶梯是慢系统作业。
 - **与[周哈里窗](../johari-window/SKILL.md)**：盲目区常装在别人看见、你已跳过的资料里；阶梯帮你索要那一层资料。
+- **与[煤气灯效应](../gaslighting/SKILL.md)**：可帮双方从数据爬回；若一方系统禁止你停留在数据层，则更接近煤气灯而非普通推论误差。
 ---

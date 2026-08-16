@@ -74,4 +74,8 @@ metadata:
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：头部客户/能力若具备再投入，可与复利叠加；机制仍要分开讲。
 - **与[幸存者偏差](../../behavioral-biases/survivorship-bias/SKILL.md)**：只看见成功的 20% 会夸大法则；补上沉默的失败项。
 - **与[局部与全局最优](../../thinking-models/local-global-optima/SKILL.md)**：只优化当前头部可能陷入局部最优，错过下一波头部。
+- **与[长尾理论](../long-tail/SKILL.md)**：二八优先配置头部杠杆；长尾评估尾部聚合是否值得服务。先度量集中度，再决定是否做长尾。
+- **与[马太效应](../matthew-effect/SKILL.md)**：二八是结果不均衡的描述；马太解释不均衡如何**随时间自我强化**。
+- **与[搭便车效应](../free-rider-effect/SKILL.md)**：贡献二八常伴随搭便车压力。
+- **与[木桶效应](../barrel-effect/SKILL.md)**：二八常打长板杠杆；木桶先问最紧约束。串联系统优先木桶，分配注意力时两者可连用。
 ---

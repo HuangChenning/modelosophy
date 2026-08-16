@@ -60,6 +60,8 @@ metadata:
 - **与[供需法则](../supply-and-demand/SKILL.md)**：机制与冲击方向；本条聚焦出清点。
 - **与[帕累托最优](../pareto-efficiency/SKILL.md)**：出清≠帕累托；有扭曲时两者分离。
 - **与[一般均衡](../general-equilibrium/SKILL.md)**：单市场出清 vs 全市场联立。
+- **与[生产者剩余](../producer-surplus/SKILL.md)**：剩余以出清价为基准测算。
+- **与[完全竞争](../perfect-competition/SKILL.md)**：竞争市场出清价。
 
 ## 记忆钩子
 

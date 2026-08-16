@@ -59,6 +59,7 @@ Spence 教育信号等：分离均衡（不同信号暴露类型）vs 混同均�
 
 - **与[贝叶斯博弈](../bayesian-games/SKILL.md)**：更广的不完全信息框架。
 - **与[机制设计](../mechanism-design/SKILL.md)**：设计者选规则时走对方。
+- **与[信任博弈](../trust-game/SKILL.md)**：用贵信号示可信。
 
 ## 记忆钩子
 

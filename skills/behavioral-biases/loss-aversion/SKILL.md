@@ -74,4 +74,10 @@ metadata:
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：机会成本比较面向未来的替代价值；损失规避常让人过度锚定“保住现状”。
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：若问题是如何配置暴露从波动中获益，走反脆弱；本模型只诊断得失权重是否扭曲。
 - **与[双系统](../../thinking-models/dual-process/SKILL.md)**：痛感由快系统放大；止损规则需事前用慢系统写好。
+- **与[现状偏差](../status-quo-bias/SKILL.md)**：改变=失去编码。
+- **与[稀缺原则](../scarcity-principle/SKILL.md)**：“错过即失去”话术激活损失编码。
+- **与[框架效应](../framing-effect/SKILL.md)**：损失框架常激活更陡痛感。
+- **与[禀赋效应](../endowment-effect/SKILL.md)**：机制常相关；「禀赋效应」抓所有权→估值跳跃。
+- **与[心理账户](../mental-accounting/SKILL.md)**：账户结算点会重置参照点，放大痛感。
+- **与[默认效应](../default-effect/SKILL.md)**：改默认像失去被推荐状态。
 ---

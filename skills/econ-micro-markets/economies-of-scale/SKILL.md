@@ -61,6 +61,7 @@ metadata:
 - **与[自然垄断](../monopoly-natural-monopoly/SKILL.md)**：全程下降的 LRAC 是自然垄断技术条件之一。
 - **与[进入壁垒](../barriers-to-entry/SKILL.md)**：高最小有效规模本身可成壁垒。
 - **与[经济护城河](../../strategy-competition/economic-moat/SKILL.md)**：成本优势护城河常含规模；护城河还含品牌/转换成本等，勿整包迁入本分类。
+- **与[边际报酬递减](../diminishing-returns/SKILL.md)**：长期平均成本形态，不是短期边际产量。
 
 ## 记忆钩子
 

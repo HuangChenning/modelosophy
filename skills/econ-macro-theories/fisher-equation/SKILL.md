@@ -62,6 +62,7 @@ metadata:
 - **与[货币主义](../monetarism/SKILL.md)**：政策化数量论。
 - **与[MMT](../modern-monetary-theory/SKILL.md)**：对「钱从哪来」叙事冲突——对照用。
 - **与[泰勒规则](../taylor-rule/SKILL.md)**：利率工具时代的名义锚操作。
+- **与[购买力平价](../purchasing-power-parity/SKILL.md)**：名义量；汇率与货币通胀联动叙事可拼。
 
 ## 记忆钩子
 

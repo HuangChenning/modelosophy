@@ -67,4 +67,5 @@ BJ Fogg 的行为模型：一个具体行为 B 在某一刻发生，当且仅当
 - **与[PDCA](../../efficiency-execution/pdca/SKILL.md)**：MAP 诊断单次行为；PDCA 管改进循环怎么转下一圈。
 - **与[艾森豪威尔矩阵](../../efficiency-execution/eisenhower-matrix/SKILL.md)**：重要性决定该不该养成；福格决定如何让它发生。
 - **与[马斯洛需求层次](../maslow-hierarchy/SKILL.md)**：动机来源可对照需求类别，但福格不依赖严格层级定律。
+- **与[情境领导](../situational-leadership/SKILL.md)**：福格管行为 MAP；情境领导管督导强度与准备度匹配。
 ---

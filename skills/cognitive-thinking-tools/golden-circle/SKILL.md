@@ -65,4 +65,5 @@ metadata:
 - **与[福格行为模型](../../thinking-models/fogg-behavior-model/SKILL.md)**：WHY 可提高动机，但行为发生仍要 Ability×Prompt。
 - **与[幸存者偏差](../../behavioral-biases/survivorship-bias/SKILL.md)**：只从伟大演讲者倒推黄金圈必然性时要补失败样本。
 - **与[六顶思考帽](../six-thinking-hats/SKILL.md)**：帽子分角色；黄金圈分叙事层次。
+- **与[金字塔原理](../pyramid-principle/SKILL.md)**：黄金圈偏 Why–How–What 叙事动机；金字塔偏答主问题的论证层级。
 ---

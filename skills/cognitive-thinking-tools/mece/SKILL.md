@@ -56,4 +56,7 @@ MECE = **Mutually Exclusive, Collectively Exhaustive**：类别两两不重叠�
 - **与[奥卡姆剃刀](../occams-razor/SKILL.md)**：奥卡姆排解释优先级；MECE 排分类结构。
 - **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：决策树的分支在每一层也应尽量 MECE。
 - **与[苏格拉底式质疑](../../thinking-models/socratic-questioning/SKILL.md)**：先问“这棵树在回答正确的问题吗”。
+- **与[SWOT](../../strategy-competition/swot/SKILL.md)**：四格内部条目尽量不重不漏；但四格本身不是唯一正确分类。
+- **与[波特五力](../../strategy-competition/porters-five-forces/SKILL.md)**：五力条目内证据尽量不重不漏；五力不是唯一行业分类法。
+- **与[金字塔原理](../pyramid-principle/SKILL.md)**：MECE 管同层分类不重不漏；金字塔管结论—论据的纵向论证结构。金字塔的每一层内部应尽量 MECE。
 ---

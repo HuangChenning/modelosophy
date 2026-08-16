@@ -70,4 +70,6 @@ Robert Metcalfe 提出的网络价值直觉：在**可相互通信**的网络里
 - **与[路径依赖](../path-dependence/SKILL.md)**：路径依赖解释标准/安装基数如何锁住历史路径；梅特卡夫只谈兼容网络的规模—价值启发式，不自动等于“已被劣解锁定”。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：复利要再投入闭环；网络规模增长可与复利类比但机制不同。
 - **与[长尾](../long-tail/SKILL.md)**：长尾谈需求分布形态；梅特卡夫谈网络连接规模。
+- **与[马太效应](../matthew-effect/SKILL.md)**：网络价值随节点增长；马太管存量优势如何再获增量。
+- **与[锁定效应](../lock-in-effect/SKILL.md)**：网络价值可加固锁，但先分账。
 ---

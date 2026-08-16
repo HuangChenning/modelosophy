@@ -75,3 +75,5 @@ metadata:
 与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)：本模型设计不对称暴露，让系统能从波动中获益；系统思维解释存量、流量与反馈如何持续产生行为。用户问"怎么配置才能从不确定中获益"走本模型；用户问"为什么改一个点总在别处反弹"走系统思维。
 
 与[决策树](../../decision-probability/decision-tree/SKILL.md)：决策树在已列出的不确定分支上算期望值；本模型用于分支本身还不完整、需要先设计暴露结构的场景。
+与[冗余](../../thinking-models/redundancy/SKILL.md)：冗余≈提高强韧/可恢复；反脆弱要设计不对称获益。需要“坏了还能转”用「冗余」；需要“波动喂胖我”用反脆弱。
+与[蝴蝶效应](../../systems-classic-effects/butterfly-effect/SKILL.md)：在不可预报域，策略转向限制下行、保留期权，而不是更精的点预测。

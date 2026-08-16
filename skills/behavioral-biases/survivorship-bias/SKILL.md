@@ -72,4 +72,7 @@ metadata:
 - **与[确认性偏差](../confirmation-bias/SKILL.md)**：确认偏差是主动筛证据；幸存者偏差可以在无动机时仍发生——世界替你筛了。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：成功学故事里的“长期坚持”常抽掉破产路径；谈复利必须同时谈存活与负复利。
 - **与[奥卡姆剃刀](../../cognitive-thinking-tools/occams-razor/SKILL.md)**：从残缺样本归纳的“简单成功法则”往往是特设故事，优先降级验证。
+- **与[社会认同](../social-proof/SKILL.md)**：看见的“成功者都这样”可能已筛选。
+- **与[小数定律](../law-of-small-numbers/SKILL.md)**：看见的成功样本可能又小又被筛选。
+- **与[事后聪明偏误](../hindsight-bias/SKILL.md)**：只看见成功路径会强化“必然”。
 ---

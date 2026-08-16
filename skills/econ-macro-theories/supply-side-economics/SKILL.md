@@ -63,6 +63,7 @@ metadata:
 - **与[拉弗曲线](../laffer-curve/SKILL.md)**：税率—税收收入关系是供给学派常用图示；本模型更宽（管制/要素）。
 - **与[索洛增长模型](../solow-growth-model/SKILL.md)**：长期供给由资本与技术进步决定；供给学派谈激励如何影响积累与创新。
 - **与[凯恩斯主义](../keynesianism/SKILL.md)**：需求缺口 vs 供给约束——先诊断再选边。
+- **与[涓滴经济学](../trickle-down-economics/SKILL.md)**：政策工具箱重叠；涓滴是分配叙事标签。
 
 ## 记忆钩子
 

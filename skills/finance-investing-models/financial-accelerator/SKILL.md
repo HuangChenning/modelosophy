@@ -55,6 +55,7 @@ metadata:
 
 - **与[明斯基时刻](../minsky-moment/SKILL.md)**：加速器是放大通道；明斯基是脆弱性演化。
 - **与[股债跷跷板](../stock-bond-seesaw/SKILL.md)**：风险 off 时加速器可与避险债需求并存。
+- **与[坎蒂隆效应](../cantillon-effect/SKILL.md)**：资产价格与信贷互馈放大注入后果。
 
 ## 记忆钩子
 

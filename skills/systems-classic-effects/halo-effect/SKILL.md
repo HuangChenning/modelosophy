@@ -62,6 +62,7 @@ metadata:
 - **与[刻板印象](../stereotyping/SKILL.md)**：刻板从群体到个体；光环从单特质到全能。
 - **与[系列位置效应](../serial-position-effect/SKILL.md)**：首因可启动光环，但记忆位置≠光环机制。
 - **与[皮格马利翁效应](../pygmalion-effect/SKILL.md)**：期望可改变表现；光环是评价被污染。
+- **与[彼得原理](../peter-principle/SKILL.md)**：本岗光环污染升迁决策。
 
 ## 记忆钩子
 

@@ -59,6 +59,7 @@ metadata:
 
 - **与[夏普利值](../shapley-value/SKILL.md)**：按边际贡献的一点解。
 - **与[核](../core/SKILL.md)**：联盟无法改进的分配集。
+- **与[正和与负和博弈](../positive-negative-sum-game/SKILL.md)**：正和如何分走对方。
 
 ## 记忆钩子
 

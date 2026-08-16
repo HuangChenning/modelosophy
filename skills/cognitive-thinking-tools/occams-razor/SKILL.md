@@ -66,3 +66,4 @@ metadata:
 与[易得性启发](../../behavioral-biases/availability-heuristic/SKILL.md)：本模型比较多个解释的假设负担；易得性启发检查某个解释是否只因好想起来而被高估。用户说"先查哪个"走本模型；用户说"最近老看到这类事，是不是很常见"走易得性启发。
 
 与[第一性原理](../first-principles/SKILL.md)：已经有几个假说要排序，走本模型；现有假说都建在行业类比上、需要拆地基重建，走第一性原理。
+与[溯因推理](../../thinking-models/abductive-reasoning/SKILL.md)：奥卡姆排序已有解释；溯因先产表再可比。

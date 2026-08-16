@@ -59,6 +59,7 @@ Harsanyi：私有信息=类型；共同先验 + 贝叶斯更新。均衡是贝�
 
 - **与[信号博弈](../signaling-games/SKILL.md)**：发送方主动选信号时走对方。
 - **与[拍卖理论](../auction-theory/SKILL.md)**：应用场。
+- **与[博弈论](../game-theory/SKILL.md)**：超出入门四块时换专条，勿把全书塞进「博弈论」。
 
 ## 记忆钩子
 

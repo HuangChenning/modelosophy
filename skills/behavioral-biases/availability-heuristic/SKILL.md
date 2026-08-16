@@ -68,3 +68,7 @@ Tversky 与 Kahneman（1973）把易得性启发定义为：人用相关实例**
 - **与[确认性偏差](../confirmation-bias/SKILL.md)**：已有信念决定搜什么，走确认性偏差；没有明确立场，只因案例容易浮现而高估频率，走本模型。
 - **与[奥卡姆剃刀](../../cognitive-thinking-tools/occams-razor/SKILL.md)**：本模型校准候选原因的主观频率；奥卡姆剃刀再对已成形解释排序。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：易得性容易让人盯住单次事件；系统思维要求看长期行为模式与反馈结构。
+- **与[幸存者偏差](../survivorship-bias/SKILL.md)**：易得性管“好不好想起来”；「幸存者偏差」管“样本缺了谁”。常先补分母，再谈媒体曝光。
+- **与[代表性启发](../representativeness-heuristic/SKILL.md)**：一个像不像，一个想不想得起。
+- **与[模糊厌恶](../ambiguity-aversion/SKILL.md)**：熟悉域显得“不模糊”。
+- **与[峰终法则](../peak-end-rule/SKILL.md)**：峰与终更易提取，可能被误判为“全过程都那样”。

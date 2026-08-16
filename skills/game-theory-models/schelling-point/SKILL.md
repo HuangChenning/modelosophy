@@ -59,6 +59,9 @@ Schelling《冲突的战略》：多重均衡下，文化显著、唯一、中�
 
 - **与[协调博弈](../coordination-game/SKILL.md)**：多均衡母体。
 - **与[猎鹿博弈](../stag-hunt/SKILL.md)**：焦点可助迁向合作均衡。
+- **与[纳什均衡](../nash-equilibrium/SKILL.md)**：多纳什如何汇聚走对方。
+- **与[匹配理论](../matching-theory/SKILL.md)**：无算法时的焦点配对。
+- **与[无名氏定理](../folk-theorem/SKILL.md)**：多均衡选哪个。
 
 ## 记忆钩子
 

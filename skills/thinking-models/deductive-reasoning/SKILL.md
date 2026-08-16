@@ -72,4 +72,5 @@ metadata:
 - **与[第一性原理](../../cognitive-thinking-tools/first-principles/SKILL.md)**：第一性原理选择硬约束当起点并重建；演绎假定起点已给定，只负责传递。
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：苏格拉底通过追问暴露矛盾；演绎提供形式判定语言。
 - **与[奥卡姆剃刀](../../cognitive-thinking-tools/occams-razor/SKILL.md)**：多条有效解释竞争时，奥卡姆管简洁偏好，不管演绎有效性。
+- **与[溯因推理](../abductive-reasoning/SKILL.md)**：演绎保真传递；溯因生成可错最佳解释。
 ---

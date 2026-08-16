@@ -61,6 +61,7 @@ metadata:
 - **与[外部性](../externality/SKILL.md)**：科斯提供谈判式内部化路径。
 - **与[公地悲剧](../tragedy-of-the-commons/SKILL.md)**：产权与治理成本决定悲剧是否发生。
 - **与[委托-代理](../principal-agent/SKILL.md)**：企业内部也是降低某些市场交易成本的装置。
+- **与[公共物品](../public-goods/SKILL.md)**：筹资与排他技术改变物品属性与供给方式。
 
 ## 记忆钩子
 

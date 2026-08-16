@@ -60,6 +60,8 @@ Spence 教育信号：能力高者取得学历的成本更低，从而分离均�
 - **与[柠檬市场](../lemons-market/SKILL.md)**：信号是对抗柠檬的工具。
 - **与[逆向选择](../adverse-selection/SKILL.md)**：信号帮助好类型自我分离。
 - **与[信息不对称](../asymmetric-information/SKILL.md)**：总论。
+- **与[凡勃伦效应](../veblen-effect/SKILL.md)**：昂贵可作类型/地位信号。
+- **与[委托-代理](../principal-agent/SKILL.md)**：代理人用教育/证书示能。
 
 ## 记忆钩子
 

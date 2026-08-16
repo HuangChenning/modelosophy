@@ -62,6 +62,7 @@ metadata:
 - **与[均衡价格](../equilibrium-price/SKILL.md)**：供需讲机制方向；均衡价是出清点的价格水平。
 - **与[价格弹性](../price-elasticity/SKILL.md)**：问「涨一点量变多少」走弹性；本条只定方向与两侧。
 - **与[机会成本](../opportunity-cost/SKILL.md)**：个人选择代价用机会成本；市场层面的价量用本模型。
+- **与[凡勃伦效应](../veblen-effect/SKILL.md)**：基准；凡勃伦是地位商品例外。
 
 ## 记忆钩子
 

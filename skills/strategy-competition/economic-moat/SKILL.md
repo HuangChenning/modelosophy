@@ -62,4 +62,5 @@ metadata:
 - **与[梅特卡夫法则](../../systems-classic-effects/metcalfes-law/SKILL.md)**：网络效应机制专条；是否构成护城河要看多宿与衰减。
 - **与[飞轮](../flywheel/SKILL.md)**：飞轮描述增长加速回路；护城河描述利润不被侵蚀。
 - **与[正确与非共识](../../thinking-models/contrarian-and-right/SKILL.md)**：看多一家公司须非共识正确时，仍要用护城河约束估值期限。
+- **与[过程复制](../../thinking-models/process-replication/SKILL.md)**：护城河评估*难以*被复制的结构优势；「过程复制」做*如何*合法地复制过程能力。方向相反，勿混用。
 ---

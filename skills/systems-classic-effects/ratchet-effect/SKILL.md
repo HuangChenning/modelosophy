@@ -62,6 +62,7 @@ Duesenberry 等用相对收入/消费习惯解释消费向下刚性；组织中�
 - **与[路径依赖](../path-dependence/SKILL.md)**：路径依赖管历史锁定；棘轮管水平易升难降。
 - **与[锁定效应](../lock-in-effect/SKILL.md)**：锁定强调转换成本；棘轮强调降级阻力。
 - **与[损失厌恶](../../behavioral-biases/loss-aversion/SKILL.md)**：降级被编码为损失，放大棘轮。
+- **与[帕金森定律](../parkinsons-law/SKILL.md)**：编制/流程升上去难降，可与帕金森叠加。
 
 ## 记忆钩子
 

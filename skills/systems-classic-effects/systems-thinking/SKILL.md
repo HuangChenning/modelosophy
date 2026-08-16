@@ -77,3 +77,9 @@ metadata:
 - **与[第一性原理](../../cognitive-thinking-tools/first-principles/SKILL.md)**：第一性原理拆硬约束与惯例并重新构造；系统思维解释多个变量如何通过回路产生动态行为。
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：系统思维找反馈、延迟和杠杆；反脆弱设计在不确定中下行有限、上行开放的暴露。
 - **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：决策树枚举离散路径并折叠概率；系统思维关注变量连续互动与反馈，二者可分别处理选择与动态。
+- **与[蝴蝶效应](../butterfly-effect/SKILL.md)**：系统思维找存量流量与杠杆；蝴蝶效应专问初值敏感与预报视界。先有结构，再问是否 SDIC。
+- **与[系统动力学](../system-dynamics/SKILL.md)**：先思维后动力学，或反过来用动力学深化。
+- **与[反馈回路](../feedback-loops/SKILL.md)**：系统思维是总方法；反馈回路专练回路识别与极性标注。
+- **与[搭便车效应](../free-rider-effect/SKILL.md)**：用回路看“贡献者耗尽 → 公共品衰败”。
+- **与[多米诺骨牌效应](../domino-effect/SKILL.md)**：级联常是增强回路；升维看结构。
+- **与[破窗效应](../broken-windows/SKILL.md)**：若失序由激励结构驱动，升维到回路，不只修表面窗。

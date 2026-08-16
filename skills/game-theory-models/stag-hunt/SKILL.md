@@ -59,6 +59,8 @@ metadata:
 
 - **与[协调博弈](../coordination-game/SKILL.md)**：多均衡汇聚；猎鹿是带安全张力的特例谱系。
 - **与[囚徒困境](../prisoners-dilemma/SKILL.md)**：合作非纳什走对方。
+- **与[谢林点](../schelling-point/SKILL.md)**：焦点可助迁向合作均衡。
+- **与[斗鸡博弈](../chicken-game/SKILL.md)**：合作共赢 vs 安全背叛。
 
 ## 记忆钩子
 
