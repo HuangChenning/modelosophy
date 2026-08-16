@@ -1,6 +1,8 @@
 # Systems & Complexity
 
-冰山模型、杠杆点、临界点、耗散结构等复杂系统 Skill（与 `systems-classic-effects` 互补；效应类/路径依赖等不重复迁入）。
+冰山模型、杠杆点、临界点、耗散结构等复杂系统 Skill。
+
+与兄弟分类分流：复杂系统结构干预（冰山/杠杆/临界/耗散）；具名经典效应与路径依赖等见 `systems-classic-effects/`。
 
 路径：`skills/systems-complexity/<skill-name>/SKILL.md`。
 
@@ -8,10 +10,10 @@
 
 ## Skills
 
-- **[dissipative-structures](./dissipative-structures/SKILL.md)** — 用 Prigogine 耗散结构诊断开放系统在远离平衡时，能否经涨落放大越过阈值形成新的宏观有序， 并靠持续耗散能量维持。Use when user says “耗散结构”“远离平衡”“涨落”“分岔点” “非平衡相变”“开放系统突然变出新秩
-- **[iceberg-model](./iceberg-model/SKILL.md)** — 用冰山模型（组织/文化可见—不可见层，Schein/Hall 传统）把表象行为、器物与口号之下的 规范与基本假设分层，避免只改水面以上。Use when user says “冰山模型”“文化冰山” “可见层和假设层”“artifacts 
-- **[leverage](./leverage/SKILL.md)** — 用杠杆思维帮用户找到系统中「小投入、大结构化改变」的干预点：优先 Meadows 式系统杠杆点 （目标、规则、信息流、反馈结构等），而不是鼓励加财务杠杆炒股。Use when user says “杠杆点” “四两拨千斤”“杠杆原理”“sy
-- **[tipping-point](./tipping-point/SKILL.md)** — 用临界点/断裂点思维帮用户识别系统在临界质量附近可能发生的非线性相变：积累到阈值后， 状态可快速翻转且难以用线性外推。Use when user says “临界点”“断裂点”“tipping point” “临界质量”“相变”“爆发增长”
+- **[dissipative-structures](./dissipative-structures/SKILL.md)** — 耗散结构：开放系统远离平衡时经涨落放大越过阈值形成新宏观有序，并靠持续耗散维持。
+- **[iceberg-model](./iceberg-model/SKILL.md)** — 冰山模型：把器物/行为之下的规范与基本假设分层，避免只改水面以上。
+- **[leverage](./leverage/SKILL.md)** — 杠杆点：找系统中小投入、大结构化改变的干预点（Meadows 式），不是鼓励加财务杠杆。
+- **[tipping-point](./tipping-point/SKILL.md)** — 临界点/断裂点：识别临界质量附近的非线性相变——越过阈值后状态可快速翻转。
 
 ## Notes
 

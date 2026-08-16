@@ -67,4 +67,5 @@ Gladwell《引爆点》把概念流行化（个别人物、附着力、环境）
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：用回路与存量找阈值；本模型专攻跨越阈值的决策含义。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：复利是再投入×速率×时间；临界点是非线性阈值，二者不可混写为同一公式。
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md) / [沉没成本](../../behavioral-biases/sunk-cost/SKILL.md)**：保护性熔断与止损属限敞口/何时停；临界点问是否临近不可逆翻转。
+- **与[耗散结构](../dissipative-structures/SKILL.md)**：引爆点侧重传播过阈值；耗散结构还要求开放流与耗散维持的有序态。可对照，勿混为一谈。
 ---

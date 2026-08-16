@@ -66,6 +66,7 @@ metadata:
 - **与[系统动力学](../system-dynamics/SKILL.md)**：动力学把回路写成存量流量模型。
 - **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：飞轮是有意增强环设计。
 - **与[杠杆](../../systems-complexity/leverage/SKILL.md)**：杠杆点常落在回路结构上（互链不迁入）。
+- **与[二阶思维](../second-order-thinking/SKILL.md)**：二阶常显影为回路。
 
 ## 记忆钩子
 

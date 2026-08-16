@@ -62,6 +62,7 @@ metadata:
 - **与[内生增长理论](../endogenous-growth-theory/SKILL.md)**：把 A 的增速内生化。
 - **与[马尔萨斯陷阱](../malthusian-trap/SKILL.md)**：前现代对照。
 - **与[创造性破坏](../creative-destruction/SKILL.md)**：创新如何进 TFP。
+- **与[供给学派](../supply-side-economics/SKILL.md)**：长期供给由资本与技术进步决定；供给学派谈激励如何影响积累与创新。
 
 ## 记忆钩子
 

@@ -60,6 +60,7 @@ metadata:
 - **与[风险平价](../risk-parity/SKILL.md)**：资金等权 ≠ 风险等权。
 - **与[再平衡](../rebalancing/SKILL.md)**：权重漂移会使前沿选择落空。
 - **与[夏普比率](../sharpe-ratio/SKILL.md)**：单位风险报酬的常用标量。
+- **与[股债跷跷板](../stock-bond-seesaw/SKILL.md)**：负相关提供分散。
 
 ## 记忆钩子
 

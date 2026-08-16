@@ -56,6 +56,8 @@ metadata:
 - **与[权威效应](../authority-bias/SKILL.md)**：大众 vs 头衔。
 - **与[幸存者偏差](../survivorship-bias/SKILL.md)**：看见的“成功者都这样”可能已筛选。
 - **与[确认偏误](../confirmation-bias/SKILL.md)**：只看同温层的“大家都说”。
+- **与[稀缺原则](../scarcity-principle/SKILL.md)**：抢光了=别人都要。
+- **与[互惠原理](../reciprocity/SKILL.md)**：另一类顺从捷径。
 
 ## 记忆钩子
 

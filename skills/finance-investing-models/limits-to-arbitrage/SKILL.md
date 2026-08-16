@@ -56,6 +56,7 @@ metadata:
 - **与[噪音交易者风险](../noise-trader-risk/SKILL.md)**：限制的重要来源之一。
 - **与[有效市场假说](../efficient-market-hypothesis/SKILL.md)**：互补——效率命题要嵌成本与风险。
 - **与[明斯基时刻](../minsky-moment/SKILL.md)**：压力期资本撤离，限制更紧。
+- **与[动量效应与反转效应](../momentum-reversal/SKILL.md)**：解释异象为何不消失。
 
 ## 记忆钩子
 

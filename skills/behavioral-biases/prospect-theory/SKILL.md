@@ -78,4 +78,8 @@ metadata:
 - **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：规范侧画树算 EV；本模型诊断人为何偏离 EV。
 - **与[双系统](../../thinking-models/dual-process/SKILL.md)**：框架与痛感多由快系统放大；规则与终态重述需慢系统。
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：若目标是配置不对称暴露，走反脆弱；本模型只解释评价扭曲。
+- **与[期望值](../../decision-probability/expected-value/SKILL.md)**：前景理论描述人对概率与损益的扭曲；「期望值」给规范基准，可对照“行为权重 vs 客观 \(p\)”。
+- **与[框架效应](../framing-effect/SKILL.md)**：框架是编辑阶段的关键操作。
+- **与[模糊厌恶](../ambiguity-aversion/SKILL.md)**：概率权重管已知概率扭曲；「模糊厌恶」管概率未知。
+- **与[峰终法则](../peak-end-rule/SKILL.md)**：峰终属体验记忆启发式；前景理论管选择价值函数与概率权重。
 ---

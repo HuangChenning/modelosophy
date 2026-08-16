@@ -59,6 +59,7 @@ Berg et al.：投资额反映信任；返还反映可信/互惠。理性自私�
 
 - **与[重复博弈](../repeated-games/SKILL.md)**：声誉与未来。
 - **与[信号博弈](../signaling-games/SKILL.md)**：用贵信号示可信。
+- **与[独裁者博弈](../dictator-game/SKILL.md)**：投资—回报链。
 
 ## 记忆钩子
 

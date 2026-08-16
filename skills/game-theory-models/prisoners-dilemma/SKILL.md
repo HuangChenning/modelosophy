@@ -60,6 +60,7 @@ metadata:
 - **与[博弈论（入门）](../game-theory/SKILL.md)**：入门扫矩阵与术语；本条专做优势策略→帕累托劣纳什诊断。
 - **与[重复博弈](../repeated-games/SKILL.md)**：困境结构确认后要设计长期合作时走对方。
 - **与[猎鹿博弈](../stag-hunt/SKILL.md)**：合作也是纳什、风险主导背叛时走猎鹿。
+- **与[旅行者困境](../travelers-dilemma/SKILL.md)**：离散两策略近亲。
 
 ## 记忆钩子
 

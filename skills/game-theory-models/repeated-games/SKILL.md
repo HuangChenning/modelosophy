@@ -59,6 +59,8 @@ metadata:
 
 - **与[无名氏定理](../folk-theorem/SKILL.md)**：耐心足够时可持续支付集的理论边界。
 - **与[囚徒困境](../prisoners-dilemma/SKILL.md)**：阶段博弈常是 PD。
+- **与[博弈论](../game-theory/SKILL.md)**：超出入门四块时换专条，勿把全书塞进「博弈论」。
+- **与[信任博弈](../trust-game/SKILL.md)**：声誉与未来。
 
 ## 记忆钩子
 

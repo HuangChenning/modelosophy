@@ -87,3 +87,4 @@ metadata:
 - **与[第一性原理](../../cognitive-thinking-tools/first-principles/SKILL.md)**：本模型负责清除撑不住的主张，本身不重建。用户只要拆、不要建 → 本模型；用户要拆掉惯例再从硬约束往上建 → 第一性原理。笛卡尔思维（书中 #12，尚未蒸馏）更接近"先怀疑再重建"。
 - **与[批判性思维](../../cognitive-thinking-tools/critical-thinking/SKILL.md)**：本模型是 elenchus——证伪主张、常止于 aporia，不证成；批判性思维按 Facione 技能+倾向做标准评估并可建设性修正。用户说「挑毛病 / 苏格拉底式」→ 本模型；要系统审论证质量与证据标准 → 批判性思维。
 - **待蒸馏的邻近模型**：笛卡尔思维（书中 #12）。
+- **与[沉默的螺旋](../spiral-of-silence/SKILL.md)**：气候被打开后，再用诘问检验主张，而非把“敢说”当成正确。

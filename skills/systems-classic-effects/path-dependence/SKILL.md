@@ -65,4 +65,8 @@ metadata:
 - **与[沉没成本](../../behavioral-biases/sunk-cost/SKILL.md)**：沉没是已付不可收回；路径依赖是未来协调/网络仍奖励旧路径。
 - **与[系统思维](../systems-thinking/SKILL.md)**：增强回路是机制语言；本模型强调历史分叉与锁定政治。
 - **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：飞轮是有意设计的增强闭环；路径依赖也可以是无意甚至有害的闭环。
+- **与[蝴蝶效应](../butterfly-effect/SKILL.md)**：路径依赖强调早期选择锁定；敏感依赖强调微差放大。可同时出现。
+- **与[棘轮效应](../ratchet-effect/SKILL.md)**：路径依赖管历史锁定；棘轮管水平易升难降。
+- **与[马太效应](../matthew-effect/SKILL.md)**：路径依赖强调历史锁定；马太强调优势再分配。
+- **与[锁定效应](../lock-in-effect/SKILL.md)**：历史如何锁；锁定问现在退出成本。
 ---

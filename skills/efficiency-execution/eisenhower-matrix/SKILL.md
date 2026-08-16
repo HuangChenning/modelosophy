@@ -66,4 +66,5 @@ Covey 强调：高效者刻意加大第 II 象限——预防、能力建设、�
 - **与[10/10/10](../../thinking-models/ten-ten-ten/SKILL.md)**：判断“重要”时可借用短中长期感受；矩阵负责落地到日程。
 - **与[局部最优/全局最优](../../thinking-models/local-global-optima/SKILL.md)**：若所有 II 都在错误的山上，先换山再排序。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：II 象限里的习惯与能力建设，正是复利的投入端。
+- **与[双目标清单](../../thinking-models/dual-goal-list/SKILL.md)**：**硬区分。** 四象限回答“这件事何时做/委派/删”；双目标清单回答“哪些目标根本不配得到注意力”。用户被紧急事项淹没 → 艾森豪威尔；用户被一堆都重要的目标拉扯 → 「双目标清单」。
 ---

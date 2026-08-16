@@ -60,6 +60,7 @@ Nash（1950）：给定他人策略，每人选择最佳回应；整组一致即
 - **与[博弈论（入门）](../game-theory/SKILL.md)**：入门给直觉；本条强制偏离测试与多重均衡交代。
 - **与[子博弈精炼均衡](../subgame-perfect-equilibrium/SKILL.md)**：序贯 credible 过滤走对方。
 - **与[谢林点](../schelling-point/SKILL.md)**：多纳什如何汇聚走对方。
+- **与[进化稳定策略](../evolutionary-stable-strategy/SKILL.md)**：理性解概念对照。
 
 ## 记忆钩子
 

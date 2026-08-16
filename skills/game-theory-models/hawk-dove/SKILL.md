@@ -59,6 +59,7 @@ Maynard Smith：资源价值 V、打架成本 C；若 C>V，混策略或多态�
 
 - **与[演化稳定策略](../evolutionary-stable-strategy/SKILL.md)**：ESS 解概念。
 - **与[斗鸡博弈](../chicken-game/SKILL.md)**：二人边缘叙事。
+- **与[智猪博弈](../boxed-pigs/SKILL.md)**：不对称冲突/资源争夺另一谱系。
 
 ## 记忆钩子
 

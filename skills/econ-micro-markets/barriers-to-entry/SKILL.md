@@ -61,6 +61,7 @@ metadata:
 - **与[垄断](../monopoly-natural-monopoly/SKILL.md)**：壁垒维持独占。
 - **与[经济护城河](../../strategy-competition/economic-moat/SKILL.md)**：投资/战略侧「难被抢走」；本条偏产业进入条件。保留在 thinking-models，不迁入。
 - **与[五力](../../strategy-competition/porters-five-forces/SKILL.md)**：五力之一是潜在进入者；本条深挖壁垒机制。
+- **与[寡头市场](../oligopoly/SKILL.md)**：维持寡头的外壳。
 
 ## 记忆钩子
 

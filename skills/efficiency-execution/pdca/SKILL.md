@@ -56,4 +56,5 @@ PDCA = **Plan → Do → Check → Act**（Deming 常强调 **Study**，即 PDSA
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：Check 发现反弹时，升级画回路再 Plan。
 - **与[逆向思维](../../cognitive-thinking-tools/inversion/SKILL.md)**：Plan 阶段可用事前验尸列出失败模式。
 - **与[双系统](../../thinking-models/dual-process/SKILL.md)**：标准化（Act）把反复验证的做法交给习惯/System 1，节省慢思考。
+- **与[过程复制](../../thinking-models/process-replication/SKILL.md)**：PDCA 是循环改进引擎；「过程复制」的反馈步常*调用* PDCA，但主任务是跨情境迁移与适配，不是对已有标准作业做微调。
 ---

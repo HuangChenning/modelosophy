@@ -72,4 +72,6 @@ metadata:
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：质疑检验主张；窗管理披露与反馈节奏。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：只听顺耳反馈会卡住盲目区。
 - **与[双系统](../dual-process/SKILL.md)**：被反馈时的防御常由快系统触发；约定“先复述再回应”给慢系统空间。
+- **与[沉默的螺旋](../spiral-of-silence/SKILL.md)**：螺旋压低公开区表达；周哈里提供反馈/披露工具，但不处理舆论动力。
+- **与[情境领导](../situational-leadership/SKILL.md)**：反馈盲区工具；「情境领导」是任务督导风格选择。
 ---

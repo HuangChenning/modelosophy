@@ -59,6 +59,9 @@ Hurwicz / Maskin / Myerson：激励兼容、参与约束、显示原理。拍卖
 
 - **与[拍卖理论](../auction-theory/SKILL.md)**：机制的一类。
 - **与[匹配理论](../matching-theory/SKILL.md)**：非价格配置。
+- **与[博弈论](../game-theory/SKILL.md)**：超出入门四块时换专条，勿把全书塞进「博弈论」。
+- **与[旅行者困境](../travelers-dilemma/SKILL.md)**：改赔付规则。
+- **与[信号博弈](../signaling-games/SKILL.md)**：设计者选规则时走对方。
 
 ## 记忆钩子
 

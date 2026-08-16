@@ -62,6 +62,8 @@ metadata:
 - **与[内生增长理论](../endogenous-growth-theory/SKILL.md)**：创新驱动增长的现代形式。
 - **与[奥地利学派](../austrian-school/SKILL.md)**：企业家发现相邻。
 - **与[路径依赖](../../systems-classic-effects/path-dependence/SKILL.md)**：旧标准锁定可阻挠破坏。
+- **与[托宾Q](../tobins-q/SKILL.md)**：高 Q 行业吸引进入，加速破坏。
+- **与[索洛增长模型](../solow-growth-model/SKILL.md)**：创新如何进 TFP。
 
 ## 记忆钩子
 

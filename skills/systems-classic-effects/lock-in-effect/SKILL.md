@@ -62,6 +62,7 @@ metadata:
 - **与[路径依赖](../path-dependence/SKILL.md)**：历史如何锁；锁定问现在退出成本。
 - **与[梅特卡夫法则](../metcalfes-law/SKILL.md)**：网络价值可加固锁，但先分账。
 - **与[经济护城河](../../strategy-competition/economic-moat/SKILL.md)**：锁入可以是护城河来源之一；护城河是更宽战略框。
+- **与[棘轮效应](../ratchet-effect/SKILL.md)**：锁定强调转换成本；棘轮强调降级阻力。
 
 ## 记忆钩子
 

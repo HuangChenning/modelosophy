@@ -60,6 +60,7 @@ metadata:
 - **与[公共物品](../public-goods/SKILL.md)**：纯公共物品常伴随强正外部性与供给不足。
 - **与[公地悲剧](../tragedy-of-the-commons/SKILL.md)**：开放资源上的负外部性自我强化。
 - **与[交易成本与科斯定理](../transaction-costs-coase/SKILL.md)**：产权清晰且交易成本低时可谈判内部化。
+- **与[帕累托最优](../pareto-efficiency/SKILL.md)**：使竞争均衡偏离帕累托。
 
 ## 记忆钩子
 

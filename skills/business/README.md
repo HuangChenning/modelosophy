@@ -2,6 +2,8 @@
 
 组织 / IT 情报与商业调研类可执行 Skill。
 
+与兄弟分类分流：组织/IT 情报调研类交付物；战略分析（五力/护城河等）见 `strategy-competition/`，思维框架见各学科分类。
+
 路径：`skills/business/<skill-name>/SKILL.md`。
 
 ## Skills

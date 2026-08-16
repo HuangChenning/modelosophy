@@ -61,6 +61,7 @@ Sharpe ≈ (组合预期超额收益) / (收益标准差)
 - **与[现代投资组合理论](../modern-portfolio-theory/SKILL.md)**：夏普常用于前沿上选点或比较。
 - **与[风险平价](../risk-parity/SKILL.md)**：配的是风险，评价仍可用夏普。
 - **与[凯利公式](../kelly-criterion/SKILL.md)**：凯利管最优分数；夏普管事后效率描述。
+- **与[β与α](../beta-alpha/SKILL.md)**：夏普不区分 β 来源；「β与α」做分解。
 
 ## 记忆钩子
 

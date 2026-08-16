@@ -56,6 +56,7 @@ metadata:
 - **与[框架效应](../framing-effect/SKILL.md)**：措辞 vs 选项集。
 - **与[锚定效应](../anchoring/SKILL.md)**：高价档也可当锚；诱饵是支配关系。
 - **与[默认效应](../default-effect/SKILL.md)**：可并用的架构工具。
+- **与[稀缺原则](../scarcity-principle/SKILL.md)**：另一类选项架构术。
 
 ## 记忆钩子
 
