@@ -26,7 +26,7 @@ metadata:
 
 **不要**当主模型：
 - 具体做开放系统账本（输入/排出）→ [`negentropy`](../../thinking-models/negentropy/SKILL.md)
-- 涨落分岔新有序 → [`dissipative-structures`](../../thinking-models/dissipative-structures/SKILL.md)
+- 涨落分岔新有序 → [`dissipative-structures`](../../systems-complexity/dissipative-structures/SKILL.md)
 - 反馈结构诊断 → [`feedback-loops`](../feedback-loops/SKILL.md) / [`systems-thinking`](../systems-thinking/SKILL.md)
 
 ## 怎么用（执行步骤）
@@ -60,7 +60,7 @@ metadata:
 ## 相关模型
 
 - **与[负熵](../../thinking-models/negentropy/SKILL.md)**：熵增说趋势；负熵说如何维持局部有序（互链，不迁入）。
-- **与[耗散结构](../../thinking-models/dissipative-structures/SKILL.md)**：远离平衡的新有序机制。
+- **与[耗散结构](../../systems-complexity/dissipative-structures/SKILL.md)**：远离平衡的新有序机制。
 - **与[系统动力学](../system-dynamics/SKILL.md)**：用存量流量看“维护流量是否覆盖耗散”。
 
 ## 记忆钩子

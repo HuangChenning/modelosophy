@@ -39,7 +39,7 @@ metadata:
 - 用户提双目标清单 / 25/5 / 两清单 / avoid at all costs。
 
 **不要**当主模型：
-- 待办按紧急×重要排进日程 → [`eisenhower-matrix`](../eisenhower-matrix/SKILL.md)；
+- 待办按紧急×重要排进日程 → [`eisenhower-matrix`](../../efficiency-execution/eisenhower-matrix/SKILL.md)；
 - 少数战略选项的价值权衡 → [`opportunity-cost`](../../econ-micro-markets/opportunity-cost/SKILL.md)；
 - 整条赛道是否错山 → [`local-global-optima`](../local-global-optima/SKILL.md)。
 
@@ -69,7 +69,7 @@ metadata:
 
 ## 相关模型
 
-- **与[艾森豪威尔矩阵](../eisenhower-matrix/SKILL.md)**：**硬区分。** 四象限回答“这件事何时做/委派/删”；双目标清单回答“哪些目标根本不配得到注意力”。用户被紧急事项淹没 → 艾森豪威尔；用户被一堆都重要的目标拉扯 → 本模型。
+- **与[艾森豪威尔矩阵](../../efficiency-execution/eisenhower-matrix/SKILL.md)**：**硬区分。** 四象限回答“这件事何时做/委派/删”；双目标清单回答“哪些目标根本不配得到注意力”。用户被紧急事项淹没 → 艾森豪威尔；用户被一堆都重要的目标拉扯 → 本模型。
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：A 内若互斥，用机会成本选留；本模型处理 A/B 分流与 B 的回避纪律。
 - **与[帕累托](../../systems-classic-effects/pareto-principle/SKILL.md)**：帕累托启发“少数产生多数结果”；本模型提供强制执行的回避制度，避免次要 80% 目标回流。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：A 上的持续投入才可能复利；B 的多线浅挖常假性勤奋。

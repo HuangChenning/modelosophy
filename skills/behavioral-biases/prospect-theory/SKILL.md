@@ -36,7 +36,7 @@ metadata:
 - 只谈同等得失痛感不对称、处置效应、框架成亏/赚 → 走 [`loss-aversion`](../loss-aversion/SKILL.md)；
 - 已投入绑架继续 → [`sunk-cost`](../sunk-cost/SKILL.md)；
 - 互斥选项各放弃什么 → [`opportunity-cost`](../../econ-micro-markets/opportunity-cost/SKILL.md)；
-- 要画概率树算期望值作为规范工具 → [`decision-tree`](../../thinking-models/decision-tree/SKILL.md)（可先用前景理论诊断扭曲，再换期望值语言）。
+- 要画概率树算期望值作为规范工具 → [`decision-tree`](../../decision-probability/decision-tree/SKILL.md)（可先用前景理论诊断扭曲，再换期望值语言）。
 
 ## 怎么用（执行步骤）
 
@@ -75,7 +75,7 @@ metadata:
 
 - **与[损失规避](../loss-aversion/SKILL.md)**：前景理论的损失侧更陡组件；专条处理得失不对称与框架，本条覆盖全文并调用它。
 - **与[沉没成本](../sunk-cost/SKILL.md)**：已投入能否当理由 ≠ 参照点下的得失编码（常并存）。
-- **与[决策树](../../thinking-models/decision-tree/SKILL.md)**：规范侧画树算 EV；本模型诊断人为何偏离 EV。
+- **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：规范侧画树算 EV；本模型诊断人为何偏离 EV。
 - **与[双系统](../../thinking-models/dual-process/SKILL.md)**：框架与痛感多由快系统放大；规则与终态重述需慢系统。
-- **与[反脆弱](../../thinking-models/antifragility/SKILL.md)**：若目标是配置不对称暴露，走反脆弱；本模型只解释评价扭曲。
+- **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：若目标是配置不对称暴露，走反脆弱；本模型只解释评价扭曲。
 ---

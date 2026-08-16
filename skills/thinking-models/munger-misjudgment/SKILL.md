@@ -73,7 +73,7 @@ metadata:
 | 16 | 对比错误反应 | 被对照物顺序/反差带偏 | — |
 | 17 | 压力影响 | 过强压力损害认知 | — |
 | 18 | 易得性错误衡量 | 生动易提案例权重过高 | [`availability-heuristic`](../../behavioral-biases/availability-heuristic/SKILL.md) |
-| 19 | 不用就忘 | 技能与知识衰减 | [`forgetting-curve`](../forgetting-curve/SKILL.md) |
+| 19 | 不用就忘 | 技能与知识衰减 | [`forgetting-curve`](../../learning-growth/forgetting-curve/SKILL.md) |
 | 20 | 化学物质误影响 | 酒精等扭曲判断 | —（建议 defer 专业/医疗） |
 | 21 | 衰老误影响 | 认知老化相关失误 | —（非诊断） |
 | 22 | 权威误影响 | 过度服从权威与头衔 | — |
@@ -104,7 +104,7 @@ metadata:
 ## 相关模型
 
 - **与各专用 bias skill**：本模型扫描与路由；细节执行在 confirmation-bias、availability-heuristic、loss-aversion、prospect-theory、dunning-kruger、spiral-of-silence、forgetting-curve、dual-process 等。
-- **与[逆向思维](../inversion/SKILL.md)**：逆向问“如何失败”；本模型提供失败的标准心理菜单。可先清单后逆向补遗漏。
+- **与[逆向思维](../../cognitive-thinking-tools/inversion/SKILL.md)**：逆向问“如何失败”；本模型提供失败的标准心理菜单。可先清单后逆向补遗漏。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：证据过滤的专用手术刀；芒格命中相关倾向时路由过去。
 - **与[双系统](../dual-process/SKILL.md)**：压力与怀疑回避常走快系统；冷却是跨倾向通用防护。
 ---

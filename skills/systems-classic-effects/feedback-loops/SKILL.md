@@ -64,8 +64,8 @@ metadata:
 
 - **与[系统思维](../systems-thinking/SKILL.md)**：系统思维是总方法；本 Skill 专练回路。
 - **与[系统动力学](../system-dynamics/SKILL.md)**：动力学把回路写成存量流量模型。
-- **与[飞轮](../../thinking-models/flywheel/SKILL.md)**：飞轮是有意增强环设计。
-- **与[杠杆](../../thinking-models/leverage/SKILL.md)**：杠杆点常落在回路结构上（互链不迁入）。
+- **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：飞轮是有意增强环设计。
+- **与[杠杆](../../systems-complexity/leverage/SKILL.md)**：杠杆点常落在回路结构上（互链不迁入）。
 
 ## 记忆钩子
 

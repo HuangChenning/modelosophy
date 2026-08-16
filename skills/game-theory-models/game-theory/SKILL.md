@@ -34,7 +34,7 @@ metadata:
 - 用户直接说博弈论 / 囚徒困境 / 纳什 / 优势策略。
 
 **不要**当主模型：
-- 只有你一人在不确定下选择 → [`decision-tree`](../../thinking-models/decision-tree/SKILL.md)；
+- 只有你一人在不确定下选择 → [`decision-tree`](../../decision-probability/decision-tree/SKILL.md)；
 - 反馈回路与存量 → [`systems-thinking`](../../systems-classic-effects/systems-thinking/SKILL.md)；
 - 单次习惯行为设计 → [`fogg-behavior-model`](../../thinking-models/fogg-behavior-model/SKILL.md)。
 
@@ -73,7 +73,7 @@ metadata:
 - **与[囚徒困境](../prisoners-dilemma/SKILL.md)**：已确认优势策略背叛 + 帕累托劣纳什时走专条；本切片只作结构示范。
 - **与[纳什均衡](../nash-equilibrium/SKILL.md)**：要做完整偏离测试 / 多重均衡清单时走专条。
 - **与[重复博弈](../repeated-games/SKILL.md) / [机制设计](../mechanism-design/SKILL.md) / [贝叶斯博弈](../bayesian-games/SKILL.md)**：超出入门四块时换专条，勿把全书塞进本文件。
-- **与[决策树](../../thinking-models/decision-tree/SKILL.md)**：决策树服务单决策者；博弈服务互动依赖。
+- **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：决策树服务单决策者；博弈服务互动依赖。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：系统看回路与延迟；博弈看策略与支付。
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：支付里应体现放弃的替代，避免只算会计利润。
 ---

@@ -60,7 +60,7 @@ metadata:
 ## 相关模型
 
 - **与[灰犀牛](../gray-rhino/SKILL.md)**：可见拖着不办 vs 真正的事后惊奇。
-- **与[反脆弱](../../thinking-models/antifragility/SKILL.md)**：黑天鹅世界的策略语言。
+- **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：黑天鹅世界的策略语言。
 - **与[墨菲定律](../murphys-law/SKILL.md)**：可设想出错的工程防呆 vs 不可设想的尾部。
 
 ## 记忆钩子

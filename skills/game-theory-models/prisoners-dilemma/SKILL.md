@@ -28,7 +28,7 @@ metadata:
 
 **不要**在以下情况套用本模型：
 
-- 只有一人在不确定下选择 → ../../thinking-models/decision-tree/SKILL.md
+- 只有一人在不确定下选择 → ../../decision-probability/decision-tree/SKILL.md
 - 问题是长期互动如何维持合作 → ../repeated-games/SKILL.md 或 ../folk-theorem/SKILL.md
 - 只想扫盲参与人/策略/收益术语 → ../game-theory/SKILL.md
 

@@ -48,4 +48,4 @@
 
 ## Other categories
 
-[`behavioral-biases`](../behavioral-biases/) · [`business`](../business/) · [`econ-macro-theories`](../econ-macro-theories/) · [`econ-micro-markets`](../econ-micro-markets/) · [`game-theory-models`](../game-theory-models/) · [`systems-classic-effects`](../systems-classic-effects/) · [`thinking-models`](../thinking-models/)
+[`behavioral-biases`](../behavioral-biases/) · [`business`](../business/) · [`cognitive-thinking-tools`](../cognitive-thinking-tools/) · [`decision-probability`](../decision-probability/) · [`econ-macro-theories`](../econ-macro-theories/) · [`econ-micro-markets`](../econ-micro-markets/) · [`efficiency-execution`](../efficiency-execution/) · [`game-theory-models`](../game-theory-models/) · [`learning-growth`](../learning-growth/) · [`strategy-competition`](../strategy-competition/) · [`systems-classic-effects`](../systems-classic-effects/) · [`systems-complexity`](../systems-complexity/) · [`thinking-models`](../thinking-models/)

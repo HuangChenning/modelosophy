@@ -31,7 +31,7 @@ metadata:
 - 直接说二八 / 80/20 / 帕累托 / vital few。
 
 **不要**当主模型：
-- 按紧急×重要排程 → [`eisenhower-matrix`](../../thinking-models/eisenhower-matrix/SKILL.md)；
+- 按紧急×重要排程 → [`eisenhower-matrix`](../../efficiency-execution/eisenhower-matrix/SKILL.md)；
 - 回报再投入的时间指数 → [`compounding`](../../finance-investing-models/compounding/SKILL.md)；
 - 搜索空间局部陷阱 → [`local-global-optima`](../../thinking-models/local-global-optima/SKILL.md)；
 - 尾部商品合计占比的战略 → 长尾专条（若已蒸馏）；本模型不包办。
@@ -70,7 +70,7 @@ metadata:
 
 ## 相关模型
 
-- **与[艾森豪威尔矩阵](../../thinking-models/eisenhower-matrix/SKILL.md)**：艾森豪威尔用紧急/重要分类任务；帕累托用贡献集中度排序原因。可先二八缩候选，再用矩阵排期。
+- **与[艾森豪威尔矩阵](../../efficiency-execution/eisenhower-matrix/SKILL.md)**：艾森豪威尔用紧急/重要分类任务；帕累托用贡献集中度排序原因。可先二八缩候选，再用矩阵排期。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：头部客户/能力若具备再投入，可与复利叠加；机制仍要分开讲。
 - **与[幸存者偏差](../../behavioral-biases/survivorship-bias/SKILL.md)**：只看见成功的 20% 会夸大法则；补上沉默的失败项。
 - **与[局部与全局最优](../../thinking-models/local-global-optima/SKILL.md)**：只优化当前头部可能陷入局部最优，错过下一波头部。

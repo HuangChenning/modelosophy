@@ -1,61 +1,38 @@
 # Thinking Models
 
-通用可执行思维模型（推理、战略、学习、领导等）。经济学/行为/系统等主题已迁至平级分类目录。
+通用可执行思维模型（推理、领导、沟通等杂项）。已按名录迁入学科分类的条目见下方「已迁出」；经济学/行为/系统/认知工具/决策/学习/战略/效率/复杂系统等主题优先落在对应平级目录。
 
 路径：`skills/thinking-models/<skill-name>/SKILL.md`。
+
+当前合计 **25** 个（本轮再迁出 25 个后）。
 
 ## Skills
 
 - **[abductive-reasoning](./abductive-reasoning/SKILL.md)** — 溯因推理：用溯因推理（abduction / IBE）从令人惊讶的观察出发，生成并选择当前最佳解释假设，且标明待验
-- **[antifragility](./antifragility/SKILL.md)** — 反脆弱：用塔勒布的反脆弱思维模型，帮用户设计"能从波动和不确定性中获益"的策略——而不只是抗住风险
 - **[contrarian-and-right](./contrarian-and-right/SKILL.md)** — 正确与非共识：用“正确且非共识”检验非常规判断：超额洞见/回报需要既偏离主流，又经得起证据与可证伪预测
 - **[counterfactual-thinking](./counterfactual-thinking/SKILL.md)** — 反事实思维：用反事实思维处理“若非当时……就会……”的心理模拟：区分上行/下行反事实，把可控原因
-- **[critical-thinking](./critical-thinking/SKILL.md)** — 批判性思维：用 Facione Delphi（1990）共识框架做批判性思维：认知技能（诠释/分析/评估/推理/说明/自我校准）
-- **[decision-tree](./decision-tree/SKILL.md)** — 决策树：用决策分析中的决策树帮用户处理“选项已知、结果不确定、能粗估概率与后果”的多阶段选择：
 - **[deductive-reasoning](./deductive-reasoning/SKILL.md)** — 演绎法：用演绎推理（deductive reasoning）从已接受的一般前提出发，按有效推理规则推出必然随之而来的结论
-- **[dissipative-structures](./dissipative-structures/SKILL.md)** — 耗散结构：用 Prigogine 耗散结构诊断开放系统在远离平衡时，能否经涨落放大越过阈值形成新的宏观有序，
 - **[dual-goal-list](./dual-goal-list/SKILL.md)** — 双目标清单：用双目标清单（常称 25/5 或两清单法则）强制聚焦：写下约 25 个目标，圈出 Top 5 为 List A
 - **[dual-process](./dual-process/SKILL.md)** — 双系统：用卡尼曼双系统（System 1 快思考 / System 2 慢思考）帮用户判断何时该信任直觉、何时该强制慢下来：
-- **[economic-moat](./economic-moat/SKILL.md)** — 护城河：用经济护城河评估企业（或产品）能否在竞争下维持超额回报：识别壁垒来源（无形资产、转换成本、
-- **[eisenhower-matrix](./eisenhower-matrix/SKILL.md)** — 艾森豪威尔矩阵：用艾森豪威尔紧急×重要矩阵帮用户分配时间与注意力：先区分紧急与重要，优先投入重要但不紧急
 - **[emotional-abc](./emotional-abc/SKILL.md)** — 情绪：用 Ellis 情绪 ABC（REBT）把强烈情绪拆成 A 触发事件、B 信念、C 情绪/行为后果：C 不由 A
-- **[expected-value](./expected-value/SKILL.md)** — 期望值：用费马–帕斯卡传统下的期望值（EV）把不确定结果量化为概率加权平均：EV = Σ pᵢ·xᵢ
-- **[feynman-technique](./feynman-technique/SKILL.md)** — 费曼技巧：用费曼技巧（Feynman Technique）通过“用简单语言教别人”暴露理解空洞：选概念→讲解→
-- **[first-principles](./first-principles/SKILL.md)** — 第一性原理：用第一性原理帮用户把一个判断拆到不能再拆的基本事实/物理约束，再从这些约束重新往上推，
 - **[five-w-one-h](./five-w-one-h/SKILL.md)** — 5W1H（Who / What / When / Where / Why / How）：用 5W1H（Who/What/When/Where/Why/How）帮用户把事件、需求或任务的信息槽钉全，暴露缺腿事实
-- **[flow](./flow/SKILL.md)** — 心流：用心流（Flow）帮用户诊断投入状态：当挑战与技能大致匹配、目标清晰且反馈及时时，人容易进入
-- **[flywheel](./flywheel/SKILL.md)** — 飞轮：用飞轮思维设计或诊断“因果闭环是否在加速”：列出互相加强的环节，使每一圈投入提高下一圈的
 - **[fogg-behavior-model](./fogg-behavior-model/SKILL.md)** — 福格行为模型：用福格行为模型（B=MAP：动机 Motivation × 能力 Ability × 提示 Prompt）诊断行为为何发生或未发生：
-- **[forgetting-curve](./forgetting-curve/SKILL.md)** — 遗忘曲线：用遗忘曲线与间隔复习帮用户对抗记忆随时间下降：新学内容若不检索会快速遗忘
 - **[gaslighting](./gaslighting/SKILL.md)** — 煤气灯效应：用煤气灯效应识别“通过否认对方感知/记忆/判断来夺取现实定义权”的操纵模式
-- **[golden-circle](./golden-circle/SKILL.md)** — 黄金圈：用黄金圈（WHY–HOW–WHAT）整理沟通与策略叙事：先澄清目的与信念，再方法，再产品/行动
 - **[hook-model](./hook-model/SKILL.md)** — HOOK 模型 Hook Model：用 HOOK 模型（Trigger → Action → Variable Reward → Investment）设计可反复发生的产品/习惯回路
-- **[iceberg-model](./iceberg-model/SKILL.md)** — 冰山模型：用冰山模型（组织/文化可见—不可见层，Schein/Hall 传统）把表象行为、器物与口号之下的
 - **[implicit-premises](./implicit-premises/SKILL.md)** — 隐含前提：用隐含前提（suppressed / implicit premises）把论证里“没写出来却托住结论”的前提补全并分类，
-- **[inversion](./inversion/SKILL.md)** — 逆向思维：用逆向思维（Inversion）帮用户从失败倒推该避免什么——先问"怎样保证这件事搞砸"，再把每条
 - **[johari-window](./johari-window/SKILL.md)** — 周哈里窗：用周哈里窗（开放/盲目/隐藏/未知四格）设计反馈与自我披露：扩大开放区以减少误解
 - **[ladder-of-inference](./ladder-of-inference/SKILL.md)** — 推论阶梯：用推论阶梯把“从可见资料爬到信念与行动”的步骤摊开：选了哪些数据、加了什么含义与假设、
-- **[leverage](./leverage/SKILL.md)** — 杠杆：用杠杆思维帮用户找到系统中「小投入、大结构化改变」的干预点：优先 Meadows 式系统杠杆点
 - **[local-global-optima](./local-global-optima/SKILL.md)** — 局部最优：用局部最优 vs 全局最优帮用户判断“继续打磨当前路径”是否已陷入小山峰：在邻域内最好，不代表
 - **[long-term-thinking](./long-term-thinking/SKILL.md)** — 长线思考：用长线思考把决策放进多期后果与激励周期：显式写入近/中/远影响、谁在何种考核周期下行动、
 - **[maslow-hierarchy](./maslow-hierarchy/SKILL.md)** — 马斯洛需求层次：把马斯洛需求层次当作“需求类别检查表”而非普遍定律：检查生理、安全、归属、尊重、自我实现
-- **[mece](./mece/SKILL.md)** — MECE（相互独立：用 MECE（相互独立、完全穷尽）帮用户把议题拆成不重叠、不遗漏的类别，以便分析与分工
-- **[metacognition](./metacognition/SKILL.md)** — 元认知：用元认知帮用户监控与调节自己的认知过程：觉察“我是否理解/是否在用错策略”，并据此换方法、
 - **[munger-misjudgment](./munger-misjudgment/SKILL.md)** — 人类误判心理：用查理·芒格《人类误判心理学》的 25 种心理倾向做检查清单扫描，并识别 Lollapalooza
 - **[negentropy](./negentropy/SKILL.md)** — 负熵：用负熵（negentropy）账本诊断开放系统如何靠输入自由能/信息维持局部有序，并排出废热与旧模式——
-- **[occams-razor](./occams-razor/SKILL.md)** — 奥卡姆剃刀：用奥卡姆剃刀帮用户在多个能同时解释同一现象的假设/理论中做取舍——优先选择所需假设最少、
-- **[pdca](./pdca/SKILL.md)** — PDCA（戴明环）：用 PDCA（计划-执行-检查-处理）做持续改进循环：Plan 定假设与度量，Do 小范围执行，Check/Study
-- **[porters-five-forces](./porters-five-forces/SKILL.md)** — 波特五力：用波特五力在行业层面诊断利润结构：现有竞争、潜在进入者、替代品、买方议价、供方议价——
 - **[process-replication](./process-replication/SKILL.md)** — 可复制化：把他人或自己的成功经验蒸馏成可迁移方法论，并按本地约束适配后再规模化：学习→提炼因果步骤→
-- **[pyramid-principle](./pyramid-principle/SKILL.md)** — 金字塔原理：用明托金字塔原理帮用户把论证与沟通写成「结论先行、上层概括下层、同层 MECE」的结构：
 - **[redundancy](./redundancy/SKILL.md)** — 冗余备份：用冗余/备份思维帮用户在故障、误差与单点失效面前设计容错：有意保留多余容量、路径或副本，
 - **[situational-leadership](./situational-leadership/SKILL.md)** — 情境领导：用情境领导（Hersey-Blanchard / SL 思路）按下属在*具体任务*上的准备度（能力×意愿）切换督导风格
-- **[six-thinking-hats](./six-thinking-hats/SKILL.md)** — 六顶思考帽：用 Edward de Bono 六顶思考帽把会议里的事实、感受、利益、风险和创意分时处理：同一时刻全员
 - **[socratic-questioning](./socratic-questioning/SKILL.md)** — 苏格拉底式质疑：用苏格拉底式质疑（elenchus 诘问法）检验一个主张站不站得住——不是靠反驳，而是靠追问，
 - **[spiral-of-silence](./spiral-of-silence/SKILL.md)** — 沉默的螺旋：用沉默的螺旋诊断“怕被孤立 → 误判意见气候 → 少数派沉默 → 优势意见更响”的舆论动力
-- **[swot](./swot/SKILL.md)** — SWOT 分析：用 SWOT 做内外部态势结构化盘点：内部优势/劣势 × 外部机会/威胁，并做 SO/WO/ST/WT 匹配以
 - **[ten-ten-ten](./ten-ten-ten/SKILL.md)** — 10/10/10 时间视角：用 Suzy Welch 的 10/10/10 帮用户从当下强烈情绪中拉开时间距离：分别写出一个选择在约 10 分钟、
-- **[tipping-point](./tipping-point/SKILL.md)** — 断裂点：用临界点/断裂点思维帮用户识别系统在临界质量附近可能发生的非线性相变：积累到阈值后，
 
 ## 已迁出（仍为可执行 Skill）
 
@@ -80,6 +57,31 @@
 | [path-dependence](../systems-classic-effects/path-dependence/SKILL.md) | 路径依赖 | `systems-classic-effects/` |
 | [serial-position-effect](../systems-classic-effects/serial-position-effect/SKILL.md) | 系列位置效应 | `systems-classic-effects/` |
 | [systems-thinking](../systems-classic-effects/systems-thinking/SKILL.md) | 系统思维 | `systems-classic-effects/` |
+| [antifragility](../learning-growth/antifragility/SKILL.md) | 反脆弱 | `learning-growth/` |
+| [critical-thinking](../cognitive-thinking-tools/critical-thinking/SKILL.md) | 批判性思维 | `cognitive-thinking-tools/` |
+| [decision-tree](../decision-probability/decision-tree/SKILL.md) | 决策树 | `decision-probability/` |
+| [dissipative-structures](../systems-complexity/dissipative-structures/SKILL.md) | 耗散结构 | `systems-complexity/` |
+| [economic-moat](../strategy-competition/economic-moat/SKILL.md) | 护城河 | `strategy-competition/` |
+| [eisenhower-matrix](../efficiency-execution/eisenhower-matrix/SKILL.md) | 艾森豪威尔矩阵 | `efficiency-execution/` |
+| [expected-value](../decision-probability/expected-value/SKILL.md) | 期望值 | `decision-probability/` |
+| [feynman-technique](../learning-growth/feynman-technique/SKILL.md) | 费曼技巧 | `learning-growth/` |
+| [first-principles](../cognitive-thinking-tools/first-principles/SKILL.md) | 第一性原理 | `cognitive-thinking-tools/` |
+| [flow](../learning-growth/flow/SKILL.md) | 心流 | `learning-growth/` |
+| [flywheel](../strategy-competition/flywheel/SKILL.md) | 飞轮 | `strategy-competition/` |
+| [forgetting-curve](../learning-growth/forgetting-curve/SKILL.md) | 遗忘曲线 | `learning-growth/` |
+| [golden-circle](../cognitive-thinking-tools/golden-circle/SKILL.md) | 黄金圈 | `cognitive-thinking-tools/` |
+| [iceberg-model](../systems-complexity/iceberg-model/SKILL.md) | 冰山模型 | `systems-complexity/` |
+| [inversion](../cognitive-thinking-tools/inversion/SKILL.md) | 逆向思维 | `cognitive-thinking-tools/` |
+| [leverage](../systems-complexity/leverage/SKILL.md) | 杠杆 | `systems-complexity/` |
+| [mece](../cognitive-thinking-tools/mece/SKILL.md) | MECE | `cognitive-thinking-tools/` |
+| [metacognition](../learning-growth/metacognition/SKILL.md) | 元认知 | `learning-growth/` |
+| [occams-razor](../cognitive-thinking-tools/occams-razor/SKILL.md) | 奥卡姆剃刀 | `cognitive-thinking-tools/` |
+| [pdca](../efficiency-execution/pdca/SKILL.md) | PDCA | `efficiency-execution/` |
+| [porters-five-forces](../strategy-competition/porters-five-forces/SKILL.md) | 波特五力 | `strategy-competition/` |
+| [pyramid-principle](../cognitive-thinking-tools/pyramid-principle/SKILL.md) | 金字塔原理 | `cognitive-thinking-tools/` |
+| [six-thinking-hats](../cognitive-thinking-tools/six-thinking-hats/SKILL.md) | 六顶思考帽 | `cognitive-thinking-tools/` |
+| [swot](../strategy-competition/swot/SKILL.md) | SWOT | `strategy-competition/` |
+| [tipping-point](../systems-complexity/tipping-point/SKILL.md) | 临界点/断裂点 | `systems-complexity/` |
 
 下方防误触发图仅覆盖**仍留在本目录**的模型；已迁出项的分流见各目标分类 README 与对应 Skill「相关模型」。
 
@@ -222,14 +224,9 @@ graph TD
 | 溯因 | 选当前最佳解释假设 | abductive-reasoning |
 | A–B–C | 事件–信念–情绪/行为后果 | emotional-abc |
 | 非共识且正确 | 少数派且可检验为真 | contrarian-and-right |
-| 五力 | 进入/替代/买方/卖方/竞争 | porters-five-forces |
-| 护城河 | 可持续竞争优势 | economic-moat |
 | 承诺装置 | 约束未来短视的制度/机制 | long-term-thinking |
 | 过程复制 | 成功经验→适配本地的可迁移方法论 | process-replication |
 | 负熵 / 熵减 | 开放系统输入有序/能量以维持局部有序 | negentropy |
-| 点数问题 | 未完成公平赌局按剩余可能结局分配 | expected-value |
-| Delphi 技能/倾向 | 批判性思维的认知技能 + 思维倾向框架 | critical-thinking |
-| 涨落 / 分岔点 | 远离平衡时扰动放大导致结构跃迁 | dissipative-structures |
 | Lollapalooza | 多心理倾向同向叠加的极端误判 | munger-misjudgment |
 | 现实定义权 | 谁有权裁定「发生了什么」 | gaslighting |
 | List A / List B | 最重要目标 vs 绝对回避的诱人次要目标 | dual-goal-list |
@@ -242,4 +239,4 @@ graph TD
 
 ## Other categories
 
-[`behavioral-biases`](../behavioral-biases/) · [`business`](../business/) · [`econ-macro-theories`](../econ-macro-theories/) · [`econ-micro-markets`](../econ-micro-markets/) · [`finance-investing-models`](../finance-investing-models/) · [`game-theory-models`](../game-theory-models/) · [`systems-classic-effects`](../systems-classic-effects/)
+[`behavioral-biases`](../behavioral-biases/) · [`business`](../business/) · [`cognitive-thinking-tools`](../cognitive-thinking-tools/) · [`decision-probability`](../decision-probability/) · [`econ-macro-theories`](../econ-macro-theories/) · [`econ-micro-markets`](../econ-micro-markets/) · [`efficiency-execution`](../efficiency-execution/) · [`finance-investing-models`](../finance-investing-models/) · [`game-theory-models`](../game-theory-models/) · [`learning-growth`](../learning-growth/) · [`strategy-competition`](../strategy-competition/) · [`systems-classic-effects`](../systems-classic-effects/) · [`systems-complexity`](../systems-complexity/)

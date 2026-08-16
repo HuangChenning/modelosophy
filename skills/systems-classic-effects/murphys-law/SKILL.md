@@ -61,7 +61,7 @@ metadata:
 
 - **与[黑天鹅](../black-swan/SKILL.md)**：黑天鹅是分布外冲击；墨菲是已知可能出错的长期必然。
 - **与[冗余](../../thinking-models/redundancy/SKILL.md)**：冗余是应对墨菲的结构手段。
-- **与[反脆弱](../../thinking-models/antifragility/SKILL.md)**：从错误中获益的系统设计超越单纯防错。
+- **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：从错误中获益的系统设计超越单纯防错。
 
 ## 记忆钩子
 

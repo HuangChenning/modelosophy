@@ -36,7 +36,7 @@ metadata:
 - 用户直接说演绎 / 三段论 / deductive / 大前提小前提。
 
 **不要**当主模型：
-- 从惯例归零重建 → [`first-principles`](../first-principles/SKILL.md)；
+- 从惯例归零重建 → [`first-principles`](../../cognitive-thinking-tools/first-principles/SKILL.md)；
 - 挑主张毛病、追问假设 → [`socratic-questioning`](../socratic-questioning/SKILL.md)；
 - 补全没写出来的前提 → [`implicit-premises`](../implicit-premises/SKILL.md)；
 - 样本推总体、黑天鹅风险 → 归纳/反证思维，而非本模型。
@@ -69,7 +69,7 @@ metadata:
 ## 相关模型
 
 - **与[隐含前提](../implicit-premises/SKILL.md)**：日常论证常先省略前提；补全后再做演绎检验。
-- **与[第一性原理](../first-principles/SKILL.md)**：第一性原理选择硬约束当起点并重建；演绎假定起点已给定，只负责传递。
+- **与[第一性原理](../../cognitive-thinking-tools/first-principles/SKILL.md)**：第一性原理选择硬约束当起点并重建；演绎假定起点已给定，只负责传递。
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：苏格拉底通过追问暴露矛盾；演绎提供形式判定语言。
-- **与[奥卡姆剃刀](../occams-razor/SKILL.md)**：多条有效解释竞争时，奥卡姆管简洁偏好，不管演绎有效性。
+- **与[奥卡姆剃刀](../../cognitive-thinking-tools/occams-razor/SKILL.md)**：多条有效解释竞争时，奥卡姆管简洁偏好，不管演绎有效性。
 ---

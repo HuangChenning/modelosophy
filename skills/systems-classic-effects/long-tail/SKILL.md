@@ -35,7 +35,7 @@ Chris Anderson（2004/2006）的长尾：当**生产、储存、分发的边际�
 **不要**当主模型：
 - 只想找出贡献最大的 20% → [`pareto-principle`](../pareto-principle/SKILL.md)；
 - 幸存者式只看成功利基网红 → [`survivorship-bias`](../../behavioral-biases/survivorship-bias/SKILL.md)；
-- 飞轮/增强回路如何转 → [`flywheel`](../../thinking-models/flywheel/SKILL.md)。
+- 飞轮/增强回路如何转 → [`flywheel`](../../strategy-competition/flywheel/SKILL.md)。
 
 ## 怎么用（执行步骤）
 
@@ -73,6 +73,6 @@ Chris Anderson（2004/2006）的长尾：当**生产、储存、分发的边际�
 
 - **与[二八定律](../pareto-principle/SKILL.md)**：二八优先配置头部杠杆；长尾评估尾部聚合是否值得服务。先度量集中度，再决定是否做长尾。
 - **与[幸存者偏差](../../behavioral-biases/survivorship-bias/SKILL.md)**：只看见活下来的利基品牌会高估长尾容易度。
-- **与[飞轮](../../thinking-models/flywheel/SKILL.md)**：推荐质量↑→尾部匹配↑→目录价值↑ 可构成飞轮；本模型只判断尾部经济是否成立。
+- **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：推荐质量↑→尾部匹配↑→目录价值↑ 可构成飞轮；本模型只判断尾部经济是否成立。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：目录与数据资产可随时间积累，但须单位经济为正。
 ---

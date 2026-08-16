@@ -64,5 +64,5 @@ metadata:
 - **与[局部/全局最优](../../thinking-models/local-global-optima/SKILL.md)**：局部峰是现象；路径依赖常解释山谷深度（切换成本结构）。
 - **与[沉没成本](../../behavioral-biases/sunk-cost/SKILL.md)**：沉没是已付不可收回；路径依赖是未来协调/网络仍奖励旧路径。
 - **与[系统思维](../systems-thinking/SKILL.md)**：增强回路是机制语言；本模型强调历史分叉与锁定政治。
-- **与[飞轮](../../thinking-models/flywheel/SKILL.md)**：飞轮是有意设计的增强闭环；路径依赖也可以是无意甚至有害的闭环。
+- **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：飞轮是有意设计的增强闭环；路径依赖也可以是无意甚至有害的闭环。
 ---

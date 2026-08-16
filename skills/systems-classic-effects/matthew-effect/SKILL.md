@@ -67,7 +67,7 @@ metadata:
 - **与[梅特卡夫法则](../metcalfes-law/SKILL.md)**：网络价值随节点增长；马太管存量优势如何再获增量。
 - **与[帕累托原则](../pareto-principle/SKILL.md)**：二八是结果不均衡的描述；马太解释不均衡如何**随时间自我强化**。
 - **与[路径依赖](../path-dependence/SKILL.md)**：路径依赖强调历史锁定；马太强调优势再分配。
-- **与[飞轮](../../thinking-models/flywheel/SKILL.md)**：飞轮是有意设计的增强回路；马太常是无意/结构性的累积。
+- **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：飞轮是有意设计的增强回路；马太常是无意/结构性的累积。
 
 ## 记忆钩子
 

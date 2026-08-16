@@ -58,7 +58,7 @@ f* = (b p − q) / b
 
 ## 相关模型
 
-- **与[期望值](../../thinking-models/expected-value/SKILL.md)**：先有 EV/边缘，才有凯利。
+- **与[期望值](../../decision-probability/expected-value/SKILL.md)**：先有 EV/边缘，才有凯利。
 - **与[夏普比率](../sharpe-ratio/SKILL.md)**：评价效率；凯利定仓位。
 - **与[复利](../compounding/SKILL.md)**：凯利直接服务对数复利增长目标。
 

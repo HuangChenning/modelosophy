@@ -72,6 +72,6 @@ metadata:
 - **与[前景理论](../prospect-theory/SKILL.md)**：全文框架（参照点+价值函数+概率权重）；本条是其中损失侧更陡的组件专条。
 - **与[沉没成本](../sunk-cost/SKILL.md)**：沉没成本管“已投入能不能当理由”；损失规避管“同等得失的痛感不对称 / 框架”。常一起出现：浮亏仓位既有沉没感，又有损失框架。
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：机会成本比较面向未来的替代价值；损失规避常让人过度锚定“保住现状”。
-- **与[反脆弱](../../thinking-models/antifragility/SKILL.md)**：若问题是如何配置暴露从波动中获益，走反脆弱；本模型只诊断得失权重是否扭曲。
+- **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：若问题是如何配置暴露从波动中获益，走反脆弱；本模型只诊断得失权重是否扭曲。
 - **与[双系统](../../thinking-models/dual-process/SKILL.md)**：痛感由快系统放大；止损规则需事前用慢系统写好。
 ---

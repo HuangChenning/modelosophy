@@ -29,7 +29,7 @@ metadata:
 **不要**当主模型：
 - 证据搜寻只找支持自己的 → [`confirmation-bias`](../../behavioral-biases/confirmation-bias/SKILL.md)；
 - 只听成功反共识故事 → [`survivorship-bias`](../../behavioral-biases/survivorship-bias/SKILL.md)；
-- 从物理/约束重算 → [`first-principles`](../first-principles/SKILL.md)。
+- 从物理/约束重算 → [`first-principles`](../../cognitive-thinking-tools/first-principles/SKILL.md)。
 
 ## 怎么用（执行步骤）
 
@@ -60,6 +60,6 @@ metadata:
 
 - **与[确认偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：非共识主张更易陷入只搜支持证据；必须主动找反证。
 - **与[幸存者偏差](../../behavioral-biases/survivorship-bias/SKILL.md)**：反共识赢家传记抽掉失败者。
-- **与[第一性原理](../first-principles/SKILL.md)**：边常来自硬约束重算，而非抬杠。
-- **与[护城河](../economic-moat/SKILL.md)**：投资上非共识正确仍要问壁垒能否持续。
+- **与[第一性原理](../../cognitive-thinking-tools/first-principles/SKILL.md)**：边常来自硬约束重算，而非抬杠。
+- **与[护城河](../../strategy-competition/economic-moat/SKILL.md)**：投资上非共识正确仍要问壁垒能否持续。
 ---

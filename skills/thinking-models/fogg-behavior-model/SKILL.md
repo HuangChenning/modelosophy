@@ -20,7 +20,7 @@ BJ Fogg 的行为模型：一个具体行为 B 在某一刻发生，当且仅当
 
 设计含义：**动机最不可靠**——情绪、场景一变就垮。可持续策略通常是：把行为拆到足够小以抬高 Ability，挂在已有日程锚点上给 Prompt，再用即时庆祝巩固，而不是空喊“逼自己有动力”。
 
-与心流的分工：本模型回答“**会不会做出这一下**”；[`flow`](../flow/SKILL.md) 回答“做的过程是否进入挑战-技能匹配的体验通道”。能做到俯卧撑，不等于练举重时处于心流。
+与心流的分工：本模型回答“**会不会做出这一下**”；[`flow`](../../learning-growth/flow/SKILL.md) 回答“做的过程是否进入挑战-技能匹配的体验通道”。能做到俯卧撑，不等于练举重时处于心流。
 
 ## 什么时候用
 
@@ -29,10 +29,10 @@ BJ Fogg 的行为模型：一个具体行为 B 在某一刻发生，当且仅当
 - 直接提福格 / B=MAP / B=MAT / 微习惯 / tiny habits。
 
 **不要**当主模型：
-- 焦虑/无聊、挑战技能不匹配 → [`flow`](../flow/SKILL.md)；
-- 待办优先级 → [`eisenhower-matrix`](../eisenhower-matrix/SKILL.md)；
-- 沟通先讲目的 → [`golden-circle`](../golden-circle/SKILL.md)；
-- 战略态势 → [`swot`](../swot/SKILL.md)。
+- 焦虑/无聊、挑战技能不匹配 → [`flow`](../../learning-growth/flow/SKILL.md)；
+- 待办优先级 → [`eisenhower-matrix`](../../efficiency-execution/eisenhower-matrix/SKILL.md)；
+- 沟通先讲目的 → [`golden-circle`](../../cognitive-thinking-tools/golden-circle/SKILL.md)；
+- 战略态势 → [`swot`](../../strategy-competition/swot/SKILL.md)。
 
 ## 怎么用（执行步骤）
 
@@ -62,9 +62,9 @@ BJ Fogg 的行为模型：一个具体行为 B 在某一刻发生，当且仅当
 
 ## 相关模型
 
-- **与[心流](../flow/SKILL.md)**：发生 vs 体验通道；先 MAP 让行为出现，再谈匹配与专注。
+- **与[心流](../../learning-growth/flow/SKILL.md)**：发生 vs 体验通道；先 MAP 让行为出现，再谈匹配与专注。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：微行为重复可积累，但须再投入与存活条件成立。
-- **与[PDCA](../pdca/SKILL.md)**：MAP 诊断单次行为；PDCA 管改进循环怎么转下一圈。
-- **与[艾森豪威尔矩阵](../eisenhower-matrix/SKILL.md)**：重要性决定该不该养成；福格决定如何让它发生。
+- **与[PDCA](../../efficiency-execution/pdca/SKILL.md)**：MAP 诊断单次行为；PDCA 管改进循环怎么转下一圈。
+- **与[艾森豪威尔矩阵](../../efficiency-execution/eisenhower-matrix/SKILL.md)**：重要性决定该不该养成；福格决定如何让它发生。
 - **与[马斯洛需求层次](../maslow-hierarchy/SKILL.md)**：动机来源可对照需求类别，但福格不依赖严格层级定律。
 ---

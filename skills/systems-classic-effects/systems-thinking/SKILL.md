@@ -74,6 +74,6 @@ metadata:
 ## 相关模型
 
 - **与[易得性启发](../../behavioral-biases/availability-heuristic/SKILL.md)**：本模型从长期行为推结构；易得性启发检查是否被最近、生动事件替代了长期频率。
-- **与[第一性原理](../../thinking-models/first-principles/SKILL.md)**：第一性原理拆硬约束与惯例并重新构造；系统思维解释多个变量如何通过回路产生动态行为。
-- **与[反脆弱](../../thinking-models/antifragility/SKILL.md)**：系统思维找反馈、延迟和杠杆；反脆弱设计在不确定中下行有限、上行开放的暴露。
-- **与[决策树](../../thinking-models/decision-tree/SKILL.md)**：决策树枚举离散路径并折叠概率；系统思维关注变量连续互动与反馈，二者可分别处理选择与动态。
+- **与[第一性原理](../../cognitive-thinking-tools/first-principles/SKILL.md)**：第一性原理拆硬约束与惯例并重新构造；系统思维解释多个变量如何通过回路产生动态行为。
+- **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：系统思维找反馈、延迟和杠杆；反脆弱设计在不确定中下行有限、上行开放的暴露。
+- **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：决策树枚举离散路径并折叠概率；系统思维关注变量连续互动与反馈，二者可分别处理选择与动态。

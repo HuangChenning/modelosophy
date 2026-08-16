@@ -44,8 +44,8 @@
 - 本目录均为**可执行** Skill（何时用 / 怎么用 / 边界 / 相关模型）。
 - 原「9 字段知识卡」不作主交付；有用字段可吸收进各 `SKILL.md`。
 - 新建条目标 `v0.x-draft`，尚未经 skill-creator 后处理压力测试；既有成品保留原 version。
-- 不迁入 `economic-moat` / `porters-five-forces` / `long-term-thinking`；`dual-process` 留在 `thinking-models/`，仅作相关模型互链。
+- `economic-moat` / `porters-five-forces` 已迁入 `strategy-competition/`；`long-term-thinking` / `dual-process` 仍留 `thinking-models/`。
 
 ## Other categories
 
-[`business`](../business/) · [`econ-macro-theories`](../econ-macro-theories/) · [`econ-micro-markets`](../econ-micro-markets/) · [`finance-investing-models`](../finance-investing-models/) · [`game-theory-models`](../game-theory-models/) · [`systems-classic-effects`](../systems-classic-effects/) · [`thinking-models`](../thinking-models/)
+[`business`](../business/) · [`cognitive-thinking-tools`](../cognitive-thinking-tools/) · [`decision-probability`](../decision-probability/) · [`econ-macro-theories`](../econ-macro-theories/) · [`econ-micro-markets`](../econ-micro-markets/) · [`efficiency-execution`](../efficiency-execution/) · [`finance-investing-models`](../finance-investing-models/) · [`game-theory-models`](../game-theory-models/) · [`learning-growth`](../learning-growth/) · [`strategy-competition`](../strategy-competition/) · [`systems-classic-effects`](../systems-classic-effects/) · [`systems-complexity`](../systems-complexity/) · [`thinking-models`](../thinking-models/)

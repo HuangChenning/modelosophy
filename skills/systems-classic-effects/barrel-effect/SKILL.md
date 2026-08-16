@@ -32,7 +32,7 @@ metadata:
 **不要**当主模型：
 - 要找 20% 关键投入 → [`pareto-principle`](../pareto-principle/SKILL.md)
 - 要画反馈与杠杆 → [`systems-thinking`](../systems-thinking/SKILL.md)
-- 刻意保留脆弱换取反脆弱期权 → [`antifragility`](../../thinking-models/antifragility/SKILL.md)
+- 刻意保留脆弱换取反脆弱期权 → [`antifragility`](../../learning-growth/antifragility/SKILL.md)
 
 ## 怎么用（执行步骤）
 

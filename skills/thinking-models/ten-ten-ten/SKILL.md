@@ -62,5 +62,5 @@ metadata:
 
 - **与[沉没成本](../../behavioral-biases/sunk-cost/SKILL.md)**：沉没成本移除过去投入的绑架；本模型拉开未来三个时间尺度。
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：10/10/10 澄清各时点价值，机会成本比较被放弃的最佳替代项。
-- **与[决策树](../decision-tree/SKILL.md)**：情绪主导、需要时间距离走本模型；多结果概率与阶段决策走决策树。
-- **与[反脆弱](../antifragility/SKILL.md)**：若长期方向不确定，可把决定改成下行有限、保留选择性的试验。
+- **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：情绪主导、需要时间距离走本模型；多结果概率与阶段决策走决策树。
+- **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：若长期方向不确定，可把决定改成下行有限、保留选择性的试验。
