@@ -1,0 +1,36 @@
+{
+  "skill": "ratchet-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ratchet-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "奖金/预算上去了再也砍不动",
+      "expect": "触发 棘轮效应：匹配典型分析意图。"
+    },
+    {
+      "id": "ratchet-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "客户习惯了免费增值，收费就炸",
+      "expect": "触发 棘轮效应。"
+    },
+    {
+      "id": "ratchet-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "技术标准/习惯锁死。这种情况请走 path-dependence，别硬套 ratchet-effect。",
+      "expect": "不触发或应分流到兄弟 skill：path-dependence"
+    },
+    {
+      "id": "ratchet-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "棘轮效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "ratchet-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "标签滥用是对的吧？",
+      "expect": "必须纠正常见误用：标签滥用 — 任何难改的东西都叫棘轮 → 先证向下刚性。"
+    }
+  ]
+}

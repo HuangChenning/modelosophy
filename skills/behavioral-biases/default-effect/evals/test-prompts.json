@@ -1,0 +1,36 @@
+{
+  "skill": "default-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "default-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "产品/政策设计默认值——这算默认效应吗？该怎么拆？",
+      "expect": "触发 默认效应：匹配典型分析意图。"
+    },
+    {
+      "id": "default-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "一不小心就同意了——这算默认效应吗？该怎么拆？",
+      "expect": "触发 默认效应。"
+    },
+    {
+      "id": "default-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "无预设、纯因习惯不换。这种情况请走 status-quo-bias，别硬套 default-effect。",
+      "expect": "不触发或应分流到兄弟 skill：status-quo-bias"
+    },
+    {
+      "id": "default-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "默认效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "default-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "默认=永远正确是对的吧？",
+      "expect": "必须纠正常见误用：默认=永远正确 — 默认是架构，对错看目标函数与同意质量。"
+    }
+  ]
+}

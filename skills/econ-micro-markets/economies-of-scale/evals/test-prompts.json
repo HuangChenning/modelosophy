@@ -1,0 +1,36 @@
+{
+  "skill": "economies-of-scale",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "economies-of-scale-should-01",
+      "type": "should_trigger",
+      "prompt": "做大就能摊薄成本吗——这算规模经济吗？该怎么拆？",
+      "expect": "触发 规模经济：匹配典型分析意图。"
+    },
+    {
+      "id": "economies-of-scale-should-02",
+      "type": "should_trigger",
+      "prompt": "遇到规模经济这类情况，该怎么一步步分析？",
+      "expect": "触发 规模经济。"
+    },
+    {
+      "id": "economies-of-scale-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 economies-of-scope 的框架分析，不要用 economies-of-scale。",
+      "expect": "不触发或应分流到兄弟 skill：economies-of-scope"
+    },
+    {
+      "id": "economies-of-scale-edge-01",
+      "type": "edge_case",
+      "prompt": "规模经济在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "economies-of-scale-trap-01",
+      "type": "correctness_trap",
+      "prompt": "越大一定越强是对的吧？",
+      "expect": "必须纠正常见误用：越大一定越强 — 越过最优点会规模不经济。"
+    }
+  ]
+}

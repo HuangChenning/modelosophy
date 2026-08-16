@@ -1,0 +1,36 @@
+{
+  "skill": "sharpe-ratio",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "sharpe-ratio-should-01",
+      "type": "should_trigger",
+      "prompt": "两个策略哪个风险调整更好？",
+      "expect": "触发 夏普比率：匹配典型分析意图。"
+    },
+    {
+      "id": "sharpe-ratio-should-02",
+      "type": "should_trigger",
+      "prompt": "夏普 1.5 算不算高？",
+      "expect": "触发 夏普比率。"
+    },
+    {
+      "id": "sharpe-ratio-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 modern-portfolio-theory 的框架分析，不要用 sharpe-ratio。",
+      "expect": "不触发或应分流到兄弟 skill：modern-portfolio-theory"
+    },
+    {
+      "id": "sharpe-ratio-edge-01",
+      "type": "edge_case",
+      "prompt": "夏普比率在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "sharpe-ratio-trap-01",
+      "type": "correctness_trap",
+      "prompt": "追求夏普最大化而忽视流动性与容量是对的吧？",
+      "expect": "必须纠正常见误用：追求夏普最大化而忽视流动性与容量 — 。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "travelers-dilemma",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "travelers-dilemma-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到旅行者困境这类情况，该怎么一步步分析？",
+      "expect": "触发 旅行者困境：匹配典型分析意图。"
+    },
+    {
+      "id": "travelers-dilemma-should-02",
+      "type": "should_trigger",
+      "prompt": "报高了被对方低报捅——这算旅行者困境吗？该怎么拆？",
+      "expect": "触发 旅行者困境。"
+    },
+    {
+      "id": "travelers-dilemma-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 prisoners-dilemma 的框架分析，不要用 travelers-dilemma。",
+      "expect": "不触发或应分流到兄弟 skill：prisoners-dilemma"
+    },
+    {
+      "id": "travelers-dilemma-edge-01",
+      "type": "edge_case",
+      "prompt": "旅行者困境在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "travelers-dilemma-trap-01",
+      "type": "correctness_trap",
+      "prompt": "直接当囚徒讲完是对的吧？",
+      "expect": "必须纠正常见误用：直接当囚徒讲完 — 要保留多档迭代结构。"
+    }
+  ]
+}

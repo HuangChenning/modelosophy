@@ -103,14 +103,14 @@ serial-position-effect    → skills/systems-classic-effects/serial-position-eff
 
 - Phase 0 模板已在本分支：[`skills/_templates/EXECUTABLE_SKILL.md`](skills/_templates/EXECUTABLE_SKILL.md)
 - 根 README / README.zh-CN 六分类计数与上表一致
-- 新建 draft 抽查含「怎么用」「常见误用」；**迁入的 19 个旧稿**多数尚缺「常见误用」章节（可选后处理）
+- 新建 draft 抽查含「怎么用」「常见误用」；**迁入的 19 个旧稿**已增量补「常见误用」（见 Phase 3）
 
 ---
 
 ## 待办：六分类后处理与 Phase 3
 
 > **需求来源（本机，不进 GitHub）**：`WorkBuddy/.../经济学思维模型Skills生成需求.md`  
-> **本阶段状态**：形态与迁入 **已落地**；**Phase 0 模板已锁定**；**Batch A/B 数量目标已达成**（见上表）。  
+> **本阶段状态**：形态与迁入 **已落地**；**Phase 0 模板已锁定**；**Batch A/B 数量目标已达成**（见上表）；链接抽查 / evals 最小集 / 19 旧稿「常见误用」/ 根 README 全量索引已收拢至 `feature/phase3-readme-consolidate`。  
 > **硬约束**（与 CLAUDE.md 一致）：
 > - `SKILL.md` 只落在 `skills/<category>/<name>/`
 > - 研究/审计轨迹写本机 `docs/books/<slug>/`（随 `docs/` gitignore，**不进 GitHub**）
@@ -133,21 +133,30 @@ serial-position-effect    → skills/systems-classic-effects/serial-position-eff
 - [x] **Phase 0**：锁定可执行正文模板 + 9 字段吸收约定 → [`skills/_templates/`](skills/_templates/)
 - [x] **Batch A**：每类优先补缺口（宏观从 0 起；其余在已迁种子旁扩展）
 - [x] **Batch B**：补到接近需求 30/类（上表对账通过）
-- [ ] **Phase 3**：跨类「相关模型」双向检查；`quick_validate` 抽查；根 README 定稿复核
-- [ ] **可选 evals 后处理**：对新建 draft 补 `evals/` / 官方规范校验；迁入旧稿增量补「常见误用」
+- [ ] **Phase 3**：跨类「相关模型」双向建议（非死链）；分类 README 定稿复核
+  - [x] **相关模型链接抽查**（2026-08-16，`feature/phase3-link-audit`）：`skills/**/SKILL.md` + 各分类 `README.md` 共 **1337** 条相对 `SKILL.md` 链接；死链 / 错误分类路径 / 标签–slug 不一致 **0**（无可修复项）。残留见下「链接审计残留」
+  - [x] **可选 evals 最小集**（2026-08-16，`feature/phase3-evals`）：六分类 **181/181** 均有 `evals/test-prompts.json`；新建 draft 补 **132** 条（各约 5 case，对齐宏观样例）；迁入旧稿原有 evals 保留。`quick_validate` 跨类抽查 10/10 通过。**未**做完整盲测；draft 仍 `v0.x-draft`
+  - [x] **迁入 19 旧稿「常见误用」**（2026-08-16，`feature/phase3-misuse-backfill` → 收拢）：在「什么时候不适用」与「相关模型」之间补 `## 常见误用`（3–4 条）；`version` 仍为 `v1.0`
+  - [x] **根 README 全量 Skill 索引**（2026-08-16，`feature/readme-all-skills-index` → 收拢）：双语根 README 列出仓库内可执行 Skill（约 **232** 条链接量级）
 
 ### 3. 本阶段明确不做
 
 - 不恢复 `skills/Economics/` 知识卡壳 / Phase 1 旧容器
-- 不以 9 字段卡为主交付；不把本轮已迁 Skill 整篇改写成 9 字段（仅新建按模板；旧稿可选增量补「常见误用 / 钩子」）
+- 不以 9 字段卡为主交付；不把本轮已迁 Skill 整篇改写成 9 字段（仅新建按模板；旧稿可选增量补「钩子」等）
 - 不把护城河（`economic-moat`）/ 五力（`porters-five-forces`）/ 长线思考（`long-term-thinking`）强行迁入六分类
 - 不一次性新建大批量 Skill（数量目标已达成；后续仅增量）
 - 不把研究笔记写入 GitHub 跟踪路径
 
-### 4. 建议的下一执行步
+### 4. 链接审计残留（不自动改正文）
 
-1. **Phase 3**：跨类「相关模型」双向检查 → `quick_validate` 抽查 → 根 README / 分类 README 定稿复核  
-2. **或** 并行：skill-creator / evals 后处理（新建 draft 的 `evals/`、迁入 19 条补「常见误用」）
+- 单向「相关模型」边约 **423** 条（A→B 无 B→A）：属内容完备性/双向建议，非死链；不强制对称。
+- `business/org-it-intel-report` 无「相关模型」节：调研类 Skill，预期如此。
+- 护城河 / 五力 / 长线仍留 `thinking-models/`：链接目标正确，**不迁**。
+
+### 5. 建议的下一执行步
+
+1. **Phase 3 剩余**：跨类「相关模型」双向建议（可选）→ 分类 README 定稿复核  
+2. **可选**：evals 盲测加厚（非阻塞）
 
 ---
 

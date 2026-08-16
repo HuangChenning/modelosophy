@@ -1,0 +1,36 @@
+{
+  "skill": "social-proof",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "social-proof-should-01",
+      "type": "should_trigger",
+      "prompt": "评价这么多错不了——这算社会认同吗？该怎么拆？",
+      "expect": "触发 社会认同：匹配典型分析意图。"
+    },
+    {
+      "id": "social-proof-should-02",
+      "type": "should_trigger",
+      "prompt": "危机现场没人动你也愣住",
+      "expect": "触发 社会认同。"
+    },
+    {
+      "id": "social-proof-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "专家/领导说了算。这种情况请走 authority-bias，别硬套 social-proof。",
+      "expect": "不触发或应分流到兄弟 skill：authority-bias"
+    },
+    {
+      "id": "social-proof-edge-01",
+      "type": "edge_case",
+      "prompt": "社会认同在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "social-proof-trap-01",
+      "type": "correctness_trap",
+      "prompt": "反从众=智慧是对的吧？",
+      "expect": "必须纠正常见误用：反从众=智慧 — 为反感而反感也是被社会证明反向绑架。"
+    }
+  ]
+}

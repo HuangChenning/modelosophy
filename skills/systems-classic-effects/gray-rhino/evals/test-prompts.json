@@ -1,0 +1,36 @@
+{
+  "skill": "gray-rhino",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "gray-rhino-should-01",
+      "type": "should_trigger",
+      "prompt": "技术债/合规债人人都知道",
+      "expect": "触发 灰犀牛：匹配典型分析意图。"
+    },
+    {
+      "id": "gray-rhino-should-02",
+      "type": "should_trigger",
+      "prompt": "气候/债务/安全隐患报告写了三年",
+      "expect": "触发 灰犀牛。"
+    },
+    {
+      "id": "gray-rhino-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "真正事后惊奇的尾部。这种情况请走 black-swan，别硬套 gray-rhino。",
+      "expect": "不触发或应分流到兄弟 skill：black-swan"
+    },
+    {
+      "id": "gray-rhino-edge-01",
+      "type": "edge_case",
+      "prompt": "灰犀牛在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "gray-rhino-trap-01",
+      "type": "correctness_trap",
+      "prompt": "事后贴标是对的吧？",
+      "expect": "必须纠正常见误用：事后贴标 — 任何灾难都称早看见 → 要事前记录。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "adverse-selection",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "adverse-selection-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到逆向选择这类情况，该怎么一步步分析？",
+      "expect": "触发 逆向选择：匹配典型分析意图。"
+    },
+    {
+      "id": "adverse-selection-should-02",
+      "type": "should_trigger",
+      "prompt": "我想搞清楚逆向选择（adverse selection）该怎么落到可执行步骤。",
+      "expect": "触发 逆向选择。"
+    },
+    {
+      "id": "adverse-selection-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 lemons-market 的框架分析，不要用 adverse-selection。",
+      "expect": "不触发或应分流到兄弟 skill：lemons-market"
+    },
+    {
+      "id": "adverse-selection-edge-01",
+      "type": "edge_case",
+      "prompt": "逆向选择在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "adverse-selection-trap-01",
+      "type": "correctness_trap",
+      "prompt": "逆向=凡结果不好是对的吧？",
+      "expect": "必须纠正常见误用：逆向=凡结果不好 — 必须有信息自选择机制。"
+    }
+  ]
+}

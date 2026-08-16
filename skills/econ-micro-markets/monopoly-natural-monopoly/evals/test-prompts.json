@@ -1,0 +1,36 @@
+{
+  "skill": "monopoly-natural-monopoly",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "monopoly-natural-monopoly-should-01",
+      "type": "should_trigger",
+      "prompt": "垄断定价——这算垄断与自然垄断吗？该怎么拆？",
+      "expect": "触发 垄断与自然垄断：匹配典型分析意图。"
+    },
+    {
+      "id": "monopoly-natural-monopoly-should-02",
+      "type": "should_trigger",
+      "prompt": "遇到垄断与自然垄断这类情况，该怎么一步步分析？",
+      "expect": "触发 垄断与自然垄断。"
+    },
+    {
+      "id": "monopoly-natural-monopoly-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 oligopoly 的框架分析，不要用 monopoly-natural-monopoly。",
+      "expect": "不触发或应分流到兄弟 skill：oligopoly"
+    },
+    {
+      "id": "monopoly-natural-monopoly-edge-01",
+      "type": "edge_case",
+      "prompt": "垄断与自然垄断在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "monopoly-natural-monopoly-trap-01",
+      "type": "correctness_trap",
+      "prompt": "垄断=凡大必恶是对的吧？",
+      "expect": "必须纠正常见误用：垄断=凡大必恶 — 要看势力来源与消费者伤害。"
+    }
+  ]
+}

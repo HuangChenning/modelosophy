@@ -1,0 +1,36 @@
+{
+  "skill": "boxed-pigs",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "boxed-pigs-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到智猪博弈这类情况，该怎么一步步分析？",
+      "expect": "触发 智猪博弈：匹配典型分析意图。"
+    },
+    {
+      "id": "boxed-pigs-should-02",
+      "type": "should_trigger",
+      "prompt": "是不是该让大的去做",
+      "expect": "触发 智猪博弈。"
+    },
+    {
+      "id": "boxed-pigs-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 prisoners-dilemma 的框架分析，不要用 boxed-pigs。",
+      "expect": "不触发或应分流到兄弟 skill：prisoners-dilemma"
+    },
+    {
+      "id": "boxed-pigs-edge-01",
+      "type": "edge_case",
+      "prompt": "智猪博弈在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "boxed-pigs-trap-01",
+      "type": "correctness_trap",
+      "prompt": "美化剥削是对的吧？",
+      "expect": "必须纠正常见误用：美化剥削 — 强者过劳不是美德课，是结构问题。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "cantillon-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "cantillon-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "放水到底肥了谁？",
+      "expect": "触发 坎蒂隆效应：匹配典型分析意图。"
+    },
+    {
+      "id": "cantillon-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "为什么资产先涨、工资后涨？——这算坎蒂隆效应吗？该怎么拆？",
+      "expect": "触发 坎蒂隆效应。"
+    },
+    {
+      "id": "cantillon-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 financial-accelerator 的框架分析，不要用 cantillon-effect。",
+      "expect": "不触发或应分流到兄弟 skill：financial-accelerator"
+    },
+    {
+      "id": "cantillon-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "坎蒂隆效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "cantillon-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把一切不平等都叫坎蒂隆是对的吧？",
+      "expect": "必须纠正常见误用：把一切不平等都叫坎蒂隆 — 需证明与货币/信贷注入路径相关。"
+    }
+  ]
+}

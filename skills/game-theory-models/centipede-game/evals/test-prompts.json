@@ -1,0 +1,36 @@
+{
+  "skill": "centipede-game",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "centipede-game-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到蜈蚣博弈这类情况，该怎么一步步分析？",
+      "expect": "触发 蜈蚣博弈：匹配典型分析意图。"
+    },
+    {
+      "id": "centipede-game-should-02",
+      "type": "should_trigger",
+      "prompt": "倒推说该停但人不停",
+      "expect": "触发 蜈蚣博弈。"
+    },
+    {
+      "id": "centipede-game-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 backward-induction 的框架分析，不要用 centipede-game。",
+      "expect": "不触发或应分流到兄弟 skill：backward-induction"
+    },
+    {
+      "id": "centipede-game-edge-01",
+      "type": "edge_case",
+      "prompt": "蜈蚣博弈在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "centipede-game-trap-01",
+      "type": "correctness_trap",
+      "prompt": "嘲笑倒推无用是对的吧？",
+      "expect": "必须纠正常见误用：嘲笑倒推无用 — 应谈假设（共同知识理性）何处失败。"
+    }
+  ]
+}

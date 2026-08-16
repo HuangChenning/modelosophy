@@ -1,0 +1,36 @@
+{
+  "skill": "core",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "core-should-01",
+      "type": "should_trigger",
+      "prompt": "这个分配在不在核里——这算核（Core）吗？该怎么拆？",
+      "expect": "触发 核（Core）：匹配典型分析意图。"
+    },
+    {
+      "id": "core-should-02",
+      "type": "should_trigger",
+      "prompt": "会不会有小联盟拆台——这算核（Core）吗？该怎么拆？",
+      "expect": "触发 核（Core）。"
+    },
+    {
+      "id": "core-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 shapley-value 的框架分析，不要用 core。",
+      "expect": "不触发或应分流到兄弟 skill：shapley-value"
+    },
+    {
+      "id": "core-edge-01",
+      "type": "edge_case",
+      "prompt": "核（Core）在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "core-trap-01",
+      "type": "correctness_trap",
+      "prompt": "核空就说无法合作是对的吧？",
+      "expect": "必须纠正常见误用：核空就说无法合作 — 可改 v 或制度。"
+    }
+  ]
+}

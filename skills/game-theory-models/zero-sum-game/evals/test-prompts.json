@@ -1,0 +1,36 @@
+{
+  "skill": "zero-sum-game",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "zero-sum-game-should-01",
+      "type": "should_trigger",
+      "prompt": "这是不是零和博弈",
+      "expect": "触发 零和博弈：匹配典型分析意图。"
+    },
+    {
+      "id": "zero-sum-game-should-02",
+      "type": "should_trigger",
+      "prompt": "蛋糕就这么大——这算零和博弈吗？该怎么拆？",
+      "expect": "触发 零和博弈。"
+    },
+    {
+      "id": "zero-sum-game-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 positive-negative-sum-game 的框架分析，不要用 zero-sum-game。",
+      "expect": "不触发或应分流到兄弟 skill：positive-negative-sum-game"
+    },
+    {
+      "id": "zero-sum-game-edge-01",
+      "type": "edge_case",
+      "prompt": "零和博弈在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "zero-sum-game-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把竞争口头说成零和是对的吧？",
+      "expect": "必须纠正常见误用：把竞争口头说成零和 — 先核支付和；可能是正和竞争。"
+    }
+  ]
+}

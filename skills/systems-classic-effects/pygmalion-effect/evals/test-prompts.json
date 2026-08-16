@@ -1,0 +1,36 @@
+{
+  "skill": "pygmalion-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "pygmalion-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "老师/经理的期待在不公平地分配机会",
+      "expect": "触发 皮格马利翁效应：匹配典型分析意图。"
+    },
+    {
+      "id": "pygmalion-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "想用高期望激活新人但怕画饼",
+      "expect": "触发 皮格马利翁效应。"
+    },
+    {
+      "id": "pygmalion-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 hawthorne-effect 的框架分析，不要用 pygmalion-effect。",
+      "expect": "不触发或应分流到兄弟 skill：hawthorne-effect"
+    },
+    {
+      "id": "pygmalion-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "皮格马利翁效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "pygmalion-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "鸡汤化是对的吧？",
+      "expect": "必须纠正常见误用：鸡汤化 — 以为“相信就能成”无需资源。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "barrel-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "barrel-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "团队整体被一环拖死——这算木桶效应吗？该怎么拆？",
+      "expect": "触发 木桶效应：匹配典型分析意图。"
+    },
+    {
+      "id": "barrel-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "产品体验卡在支付/登录",
+      "expect": "触发 木桶效应。"
+    },
+    {
+      "id": "barrel-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "要找 20% 关键投入。这种情况请走 pareto-principle，别硬套 barrel-effect。",
+      "expect": "不触发或应分流到兄弟 skill：pareto-principle"
+    },
+    {
+      "id": "barrel-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "木桶效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "barrel-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "平均主义补板是对的吧？",
+      "expect": "必须纠正常见误用：平均主义补板 — 把资源均分给所有板 → 应先确认瓶颈。"
+    }
+  ]
+}

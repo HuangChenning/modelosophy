@@ -1,0 +1,36 @@
+{
+  "skill": "risk-parity",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "risk-parity-should-01",
+      "type": "should_trigger",
+      "prompt": "别让股票风险占满整个组合，怎么配？",
+      "expect": "触发 风险平价：匹配典型分析意图。"
+    },
+    {
+      "id": "risk-parity-should-02",
+      "type": "should_trigger",
+      "prompt": "风险平价 / 波动倒数加权是什么？",
+      "expect": "触发 风险平价。"
+    },
+    {
+      "id": "risk-parity-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 modern-portfolio-theory 的框架分析，不要用 risk-parity。",
+      "expect": "不触发或应分流到兄弟 skill：modern-portfolio-theory"
+    },
+    {
+      "id": "risk-parity-edge-01",
+      "type": "edge_case",
+      "prompt": "风险平价在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "risk-parity-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把风险平价当高收益保证是对的吧？",
+      "expect": "必须纠正常见误用：把风险平价当高收益保证 — 。"
+    }
+  ]
+}

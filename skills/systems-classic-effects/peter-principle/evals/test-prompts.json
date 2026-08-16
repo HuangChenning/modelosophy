@@ -1,0 +1,36 @@
+{
+  "skill": "peter-principle",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "peter-principle-should-01",
+      "type": "should_trigger",
+      "prompt": "明星销售升经理后团队崩了",
+      "expect": "触发 彼得原理：匹配典型分析意图。"
+    },
+    {
+      "id": "peter-principle-should-02",
+      "type": "should_trigger",
+      "prompt": "技术大牛当总监后交付混乱",
+      "expect": "触发 彼得原理。"
+    },
+    {
+      "id": "peter-principle-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "工作自动填满时间。这种情况请走 parkinsons-law，别硬套 peter-principle。",
+      "expect": "不触发或应分流到兄弟 skill：parkinsons-law"
+    },
+    {
+      "id": "peter-principle-edge-01",
+      "type": "edge_case",
+      "prompt": "彼得原理在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "peter-principle-trap-01",
+      "type": "correctness_trap",
+      "prompt": "反晋升文化是对的吧？",
+      "expect": "必须纠正常见误用：反晋升文化 — 害怕彼得而从不提拔 → 用试岗，不因噎废食。"
+    }
+  ]
+}

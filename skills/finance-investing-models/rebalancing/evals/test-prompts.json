@@ -1,0 +1,36 @@
+{
+  "skill": "rebalancing",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "rebalancing-should-01",
+      "type": "should_trigger",
+      "prompt": "股票涨多了占比太高怎么办？",
+      "expect": "触发 再平衡策略：匹配典型分析意图。"
+    },
+    {
+      "id": "rebalancing-should-02",
+      "type": "should_trigger",
+      "prompt": "要不要定期调仓？",
+      "expect": "触发 再平衡策略。"
+    },
+    {
+      "id": "rebalancing-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 modern-portfolio-theory 的框架分析，不要用 rebalancing。",
+      "expect": "不触发或应分流到兄弟 skill：modern-portfolio-theory"
+    },
+    {
+      "id": "rebalancing-edge-01",
+      "type": "edge_case",
+      "prompt": "再平衡策略在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "rebalancing-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把再平衡当择时是对的吧？",
+      "expect": "必须纠正常见误用：把再平衡当择时 — 它是回到目标，不是预测。"
+    }
+  ]
+}

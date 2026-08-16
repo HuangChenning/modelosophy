@@ -1,0 +1,36 @@
+{
+  "skill": "halo-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "halo-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "面试因名校/外表高估全面能力",
+      "expect": "触发 光环效应：匹配典型分析意图。"
+    },
+    {
+      "id": "halo-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "因为爱品牌所以宽容产品缺陷",
+      "expect": "触发 光环效应。"
+    },
+    {
+      "id": "halo-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 stereotyping 的框架分析，不要用 halo-effect。",
+      "expect": "不触发或应分流到兄弟 skill：stereotyping"
+    },
+    {
+      "id": "halo-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "光环效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "halo-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "反向丑化是对的吧？",
+      "expect": "必须纠正常见误用：反向丑化 — 一点瑕疵全面否定（负向光环/尖角效应）同样要拆维。"
+    }
+  ]
+}

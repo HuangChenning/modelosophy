@@ -1,0 +1,36 @@
+{
+  "skill": "beta-alpha",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "beta-alpha-should-01",
+      "type": "should_trigger",
+      "prompt": "这基金是真牛还是牛市带飞？",
+      "expect": "触发 Beta 与：匹配典型分析意图。"
+    },
+    {
+      "id": "beta-alpha-should-02",
+      "type": "should_trigger",
+      "prompt": "我想加一点市场暴露 / 我想要纯 alpha",
+      "expect": "触发 Beta 与。"
+    },
+    {
+      "id": "beta-alpha-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 capm 的框架分析，不要用 beta-alpha。",
+      "expect": "不触发或应分流到兄弟 skill：capm"
+    },
+    {
+      "id": "beta-alpha-edge-01",
+      "type": "edge_case",
+      "prompt": "Beta 与在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "beta-alpha-trap-01",
+      "type": "correctness_trap",
+      "prompt": "\"正收益=正 alpha\"是对的吧？",
+      "expect": "必须纠正常见误用：\"正收益=正 alpha\" — 牛市里 β 就会带来正收益。"
+    }
+  ]
+}

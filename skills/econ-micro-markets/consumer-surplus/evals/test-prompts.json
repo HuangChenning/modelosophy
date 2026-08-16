@@ -1,0 +1,36 @@
+{
+  "skill": "consumer-surplus",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "consumer-surplus-should-01",
+      "type": "should_trigger",
+      "prompt": "这个deal赚到了吗——这算消费者剩余吗？该怎么拆？",
+      "expect": "触发 消费者剩余：匹配典型分析意图。"
+    },
+    {
+      "id": "consumer-surplus-should-02",
+      "type": "should_trigger",
+      "prompt": "遇到消费者剩余这类情况，该怎么一步步分析？",
+      "expect": "触发 消费者剩余。"
+    },
+    {
+      "id": "consumer-surplus-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 producer-surplus 的框架分析，不要用 consumer-surplus。",
+      "expect": "不触发或应分流到兄弟 skill：producer-surplus"
+    },
+    {
+      "id": "consumer-surplus-edge-01",
+      "type": "edge_case",
+      "prompt": "消费者剩余在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "consumer-surplus-trap-01",
+      "type": "correctness_trap",
+      "prompt": "剩余越大越好到无视供给是对的吧？",
+      "expect": "必须纠正常见误用：剩余越大越好到无视供给 — 分析完整福利常需同时看生产者剩余与无谓损失。"
+    }
+  ]
+}

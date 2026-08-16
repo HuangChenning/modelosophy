@@ -1,0 +1,36 @@
+{
+  "skill": "system-dynamics",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "system-dynamics-should-01",
+      "type": "should_trigger",
+      "prompt": "为什么政策短期好长期糟",
+      "expect": "触发 系统动力学：匹配典型分析意图。"
+    },
+    {
+      "id": "system-dynamics-should-02",
+      "type": "should_trigger",
+      "prompt": "库存/人员/口碑呈现振荡",
+      "expect": "触发 系统动力学。"
+    },
+    {
+      "id": "system-dynamics-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "宽泛改事件叙述为结构。这种情况请走 systems-thinking，别硬套 system-dynamics。",
+      "expect": "不触发或应分流到兄弟 skill：systems-thinking"
+    },
+    {
+      "id": "system-dynamics-edge-01",
+      "type": "edge_case",
+      "prompt": "系统动力学在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "system-dynamics-trap-01",
+      "type": "correctness_trap",
+      "prompt": "模型炫技是对的吧？",
+      "expect": "必须纠正常见误用：模型炫技 — 节点爆炸失去解释力。"
+    }
+  ]
+}

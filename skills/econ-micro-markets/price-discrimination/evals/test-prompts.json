@@ -1,0 +1,36 @@
+{
+  "skill": "price-discrimination",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "price-discrimination-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到价格歧视这类情况，该怎么一步步分析？",
+      "expect": "触发 价格歧视：匹配典型分析意图。"
+    },
+    {
+      "id": "price-discrimination-should-02",
+      "type": "should_trigger",
+      "prompt": "为什么学生票更便宜——这算价格歧视吗？该怎么拆？",
+      "expect": "触发 价格歧视。"
+    },
+    {
+      "id": "price-discrimination-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 price-elasticity 的框架分析，不要用 price-discrimination。",
+      "expect": "不触发或应分流到兄弟 skill：price-elasticity"
+    },
+    {
+      "id": "price-discrimination-edge-01",
+      "type": "edge_case",
+      "prompt": "价格歧视在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "price-discrimination-trap-01",
+      "type": "correctness_trap",
+      "prompt": "歧视=一定剥削且无效率是对的吧？",
+      "expect": "必须纠正常见误用：歧视=一定剥削且无效率 — 有时扩大服务可及性；需具体分析。"
+    }
+  ]
+}

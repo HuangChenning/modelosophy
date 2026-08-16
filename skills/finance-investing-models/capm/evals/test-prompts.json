@@ -1,0 +1,36 @@
+{
+  "skill": "capm",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "capm-should-01",
+      "type": "should_trigger",
+      "prompt": "按市场风险，这个项目该要求多少回报？",
+      "expect": "触发 CAPM 资本资产定价模型：匹配典型分析意图。"
+    },
+    {
+      "id": "capm-should-02",
+      "type": "should_trigger",
+      "prompt": "β 高是不是期望收益就该更高？",
+      "expect": "触发 CAPM 资本资产定价模型。"
+    },
+    {
+      "id": "capm-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 modern-portfolio-theory 的框架分析，不要用 capm。",
+      "expect": "不触发或应分流到兄弟 skill：modern-portfolio-theory"
+    },
+    {
+      "id": "capm-edge-01",
+      "type": "edge_case",
+      "prompt": "CAPM 资本资产定价模型在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "capm-trap-01",
+      "type": "correctness_trap",
+      "prompt": "用一次实现收益宣判 CAPM 死刑是对的吧？",
+      "expect": "必须纠正常见误用：用一次实现收益宣判 CAPM 死刑 — 可能是运气或遗漏因子。"
+    }
+  ]
+}

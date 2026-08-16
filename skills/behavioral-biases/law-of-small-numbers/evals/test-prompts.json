@@ -1,0 +1,36 @@
+{
+  "skill": "law-of-small-numbers",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "law-of-small-numbers-should-01",
+      "type": "should_trigger",
+      "prompt": "短窗口绩效、小 N 实验、轶事当证据——这算小数定律吗？该怎么拆？",
+      "expect": "触发 小数定律：匹配典型分析意图。"
+    },
+    {
+      "id": "law-of-small-numbers-should-02",
+      "type": "should_trigger",
+      "prompt": "已经连续对了好几次，模式成立了",
+      "expect": "触发 小数定律。"
+    },
+    {
+      "id": "law-of-small-numbers-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 survivorship-bias 的框架分析，不要用 law-of-small-numbers。",
+      "expect": "不触发或应分流到兄弟 skill：survivorship-bias"
+    },
+    {
+      "id": "law-of-small-numbers-edge-01",
+      "type": "edge_case",
+      "prompt": "小数定律在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "law-of-small-numbers-trap-01",
+      "type": "correctness_trap",
+      "prompt": "大样本就一定对是对的吧？",
+      "expect": "必须纠正常见误用：大样本就一定对 — 测量偏差、选择偏差仍可毒害大 N——另查幸存者偏差。"
+    }
+  ]
+}

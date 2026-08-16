@@ -1,0 +1,36 @@
+{
+  "skill": "subgame-perfect-equilibrium",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "subgame-perfect-equilibrium-should-01",
+      "type": "should_trigger",
+      "prompt": "这个威胁可信吗——这算子博弈精炼均衡吗？该怎么拆？",
+      "expect": "触发 子博弈精炼均衡：匹配典型分析意图。"
+    },
+    {
+      "id": "subgame-perfect-equilibrium-should-02",
+      "type": "should_trigger",
+      "prompt": "遇到子博弈精炼均衡这类情况，该怎么一步步分析？",
+      "expect": "触发 子博弈精炼均衡。"
+    },
+    {
+      "id": "subgame-perfect-equilibrium-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要从终点倒推步骤。这种情况请走 backward-induction，别硬套 subgame-perfect-equilibrium。",
+      "expect": "不触发或应分流到兄弟 skill：backward-induction"
+    },
+    {
+      "id": "subgame-perfect-equilibrium-edge-01",
+      "type": "edge_case",
+      "prompt": "子博弈精炼均衡在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "subgame-perfect-equilibrium-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把任何口头威胁当均衡是对的吧？",
+      "expect": "必须纠正常见误用：把任何口头威胁当均衡 — 必须做子博弈检验。"
+    }
+  ]
+}

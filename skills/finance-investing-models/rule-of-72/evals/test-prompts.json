@@ -1,0 +1,36 @@
+{
+  "skill": "rule-of-72",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "rule-of-72-should-01",
+      "type": "should_trigger",
+      "prompt": "年化 6%，大概几年翻倍？",
+      "expect": "触发 72 法则：匹配典型分析意图。"
+    },
+    {
+      "id": "rule-of-72-should-02",
+      "type": "should_trigger",
+      "prompt": "72 法则怎么用？",
+      "expect": "触发 72 法则。"
+    },
+    {
+      "id": "rule-of-72-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 compounding 的框架分析，不要用 rule-of-72。",
+      "expect": "不触发或应分流到兄弟 skill：compounding"
+    },
+    {
+      "id": "rule-of-72-edge-01",
+      "type": "edge_case",
+      "prompt": "72 法则在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "rule-of-72-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把 72 当回报承诺是对的吧？",
+      "expect": "必须纠正常见误用：把 72 当回报承诺 — 它是数学近似，不是预测。"
+    }
+  ]
+}

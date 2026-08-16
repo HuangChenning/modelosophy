@@ -1,0 +1,36 @@
+{
+  "skill": "monopolistic-competition",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "monopolistic-competition-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到垄断竞争这类情况，该怎么一步步分析？",
+      "expect": "触发 垄断竞争：匹配典型分析意图。"
+    },
+    {
+      "id": "monopolistic-competition-should-02",
+      "type": "should_trigger",
+      "prompt": "差异化竞争——这算垄断竞争吗？该怎么拆？",
+      "expect": "触发 垄断竞争。"
+    },
+    {
+      "id": "monopolistic-competition-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 perfect-competition 的框架分析，不要用 monopolistic-competition。",
+      "expect": "不触发或应分流到兄弟 skill：perfect-competition"
+    },
+    {
+      "id": "monopolistic-competition-edge-01",
+      "type": "edge_case",
+      "prompt": "垄断竞争在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "monopolistic-competition-trap-01",
+      "type": "correctness_trap",
+      "prompt": "有广告=垄断竞争定理是对的吧？",
+      "expect": "必须纠正常见误用：有广告=垄断竞争定理 — 广告也出现在寡头。"
+    }
+  ]
+}

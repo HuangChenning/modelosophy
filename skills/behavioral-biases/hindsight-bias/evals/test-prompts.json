@@ -1,0 +1,36 @@
+{
+  "skill": "hindsight-bias",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "hindsight-bias-should-01",
+      "type": "should_trigger",
+      "prompt": "早该如何——这算事后聪明偏误吗？该怎么拆？",
+      "expect": "触发 事后聪明偏误：匹配典型分析意图。"
+    },
+    {
+      "id": "hindsight-bias-should-02",
+      "type": "should_trigger",
+      "prompt": "投资日志被事后改口——这算事后聪明偏误吗？该怎么拆？",
+      "expect": "触发 事后聪明偏误。"
+    },
+    {
+      "id": "hindsight-bias-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "事前置信是否校准。这种情况请走 overconfidence，别硬套 hindsight-bias。",
+      "expect": "不触发或应分流到兄弟 skill：overconfidence"
+    },
+    {
+      "id": "hindsight-bias-edge-01",
+      "type": "edge_case",
+      "prompt": "事后聪明偏误在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "hindsight-bias-trap-01",
+      "type": "correctness_trap",
+      "prompt": "禁止一切复盘是对的吧？",
+      "expect": "必须纠正常见误用：禁止一切复盘 — 要禁的是改写事前信息集，不是禁学习。"
+    }
+  ]
+}

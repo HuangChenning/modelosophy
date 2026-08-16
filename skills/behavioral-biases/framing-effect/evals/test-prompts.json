@@ -1,0 +1,36 @@
+{
+  "skill": "framing-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "framing-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "同一方案两套文案，受众态度相反",
+      "expect": "触发 框架效应：匹配典型分析意图。"
+    },
+    {
+      "id": "framing-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "医疗/投资沟通在正负框架间选择",
+      "expect": "触发 框架效应。"
+    },
+    {
+      "id": "framing-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 loss-aversion 的框架分析，不要用 framing-effect。",
+      "expect": "不触发或应分流到兄弟 skill：loss-aversion"
+    },
+    {
+      "id": "framing-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "框架效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "framing-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "“会框架=会骗人”是对的吧？",
+      "expect": "必须纠正常见误用：“会框架=会骗人” — 顾问用途是双侧展示与自检。"
+    }
+  ]
+}

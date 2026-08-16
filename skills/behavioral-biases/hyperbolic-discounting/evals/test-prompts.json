@@ -1,0 +1,36 @@
+{
+  "skill": "hyperbolic-discounting",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "hyperbolic-discounting-should-01",
+      "type": "should_trigger",
+      "prompt": "反复破功的储蓄/健康/学习计划",
+      "expect": "触发 双曲贴现：匹配典型分析意图。"
+    },
+    {
+      "id": "hyperbolic-discounting-should-02",
+      "type": "should_trigger",
+      "prompt": "以后的我会处理——这算双曲贴现吗？该怎么拆？",
+      "expect": "触发 双曲贴现。"
+    },
+    {
+      "id": "hyperbolic-discounting-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 mental-accounting 的框架分析，不要用 hyperbolic-discounting。",
+      "expect": "不触发或应分流到兄弟 skill：mental-accounting"
+    },
+    {
+      "id": "hyperbolic-discounting-edge-01",
+      "type": "edge_case",
+      "prompt": "双曲贴现在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "hyperbolic-discounting-trap-01",
+      "type": "correctness_trap",
+      "prompt": "凡拖延都双曲是对的吧？",
+      "expect": "必须纠正常见误用：凡拖延都双曲 — 也可能是任务厌恶、抑郁、不清楚下一步——先分流。"
+    }
+  ]
+}

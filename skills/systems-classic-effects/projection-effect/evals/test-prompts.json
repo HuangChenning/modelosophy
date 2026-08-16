@@ -1,0 +1,36 @@
+{
+  "skill": "projection-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "projection-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "我觉得好用，用户一定好用",
+      "expect": "触发 投射效应：匹配典型分析意图。"
+    },
+    {
+      "id": "projection-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "我讨厌 X，所以他提 X 是敌意",
+      "expect": "触发 投射效应。"
+    },
+    {
+      "id": "projection-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 stereotyping 的框架分析，不要用 projection-effect。",
+      "expect": "不触发或应分流到兄弟 skill：stereotyping"
+    },
+    {
+      "id": "projection-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "投射效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "projection-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把一切共情打成投射是对的吧？",
+      "expect": "必须纠正常见误用：把一切共情打成投射 — 有证据的理解不是病。"
+    }
+  ]
+}

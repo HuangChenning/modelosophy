@@ -1,0 +1,36 @@
+{
+  "skill": "oligopoly",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "oligopoly-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到寡头市场这类情况，该怎么一步步分析？",
+      "expect": "触发 寡头市场：匹配典型分析意图。"
+    },
+    {
+      "id": "oligopoly-should-02",
+      "type": "should_trigger",
+      "prompt": "几家垄断市场——这算寡头市场吗？该怎么拆？",
+      "expect": "触发 寡头市场。"
+    },
+    {
+      "id": "oligopoly-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 monopolistic-competition 的框架分析，不要用 oligopoly。",
+      "expect": "不触发或应分流到兄弟 skill：monopolistic-competition"
+    },
+    {
+      "id": "oligopoly-edge-01",
+      "type": "edge_case",
+      "prompt": "寡头市场在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "oligopoly-trap-01",
+      "type": "correctness_trap",
+      "prompt": "寡头=一定非法卡特尔是对的吧？",
+      "expect": "必须纠正常见误用：寡头=一定非法卡特尔 — 结构不等于违法行为。"
+    }
+  ]
+}

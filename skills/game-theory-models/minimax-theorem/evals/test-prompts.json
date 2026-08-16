@@ -1,0 +1,36 @@
+{
+  "skill": "minimax-theorem",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "minimax-theorem-should-01",
+      "type": "should_trigger",
+      "prompt": "最小最大策略——这算最小最大定理吗？该怎么拆？",
+      "expect": "触发 最小最大定理：匹配典型分析意图。"
+    },
+    {
+      "id": "minimax-theorem-should-02",
+      "type": "should_trigger",
+      "prompt": "怎么按最坏情况防守",
+      "expect": "触发 最小最大定理。"
+    },
+    {
+      "id": "minimax-theorem-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 zero-sum-game 的框架分析，不要用 minimax-theorem。",
+      "expect": "不触发或应分流到兄弟 skill：zero-sum-game"
+    },
+    {
+      "id": "minimax-theorem-edge-01",
+      "type": "edge_case",
+      "prompt": "最小最大定理在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "minimax-theorem-trap-01",
+      "type": "correctness_trap",
+      "prompt": "生活处处最小最大是对的吧？",
+      "expect": "必须纠正常见误用：生活处处最小最大 — 过保守且常非零和。"
+    }
+  ]
+}

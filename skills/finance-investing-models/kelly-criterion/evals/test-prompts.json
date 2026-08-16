@@ -1,0 +1,36 @@
+{
+  "skill": "kelly-criterion",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "kelly-criterion-should-01",
+      "type": "should_trigger",
+      "prompt": "这场有优势，应该下多少？",
+      "expect": "触发 凯利公式：匹配典型分析意图。"
+    },
+    {
+      "id": "kelly-criterion-should-02",
+      "type": "should_trigger",
+      "prompt": "凯利公式怎么算仓位？",
+      "expect": "触发 凯利公式。"
+    },
+    {
+      "id": "kelly-criterion-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 sharpe-ratio 的框架分析，不要用 kelly-criterion。",
+      "expect": "不触发或应分流到兄弟 skill：sharpe-ratio"
+    },
+    {
+      "id": "kelly-criterion-edge-01",
+      "type": "edge_case",
+      "prompt": "凯利公式在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "kelly-criterion-trap-01",
+      "type": "correctness_trap",
+      "prompt": "全凯利梭哈是对的吧？",
+      "expect": "必须纠正常见误用：全凯利梭哈 — 。"
+    }
+  ]
+}

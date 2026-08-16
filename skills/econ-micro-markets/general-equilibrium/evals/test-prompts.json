@@ -1,0 +1,36 @@
+{
+  "skill": "general-equilibrium",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "general-equilibrium-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到一般均衡理论这类情况，该怎么一步步分析？",
+      "expect": "触发 一般均衡理论：匹配典型分析意图。"
+    },
+    {
+      "id": "general-equilibrium-should-02",
+      "type": "should_trigger",
+      "prompt": "瓦尔拉斯——这算一般均衡理论吗？该怎么拆？",
+      "expect": "触发 一般均衡理论。"
+    },
+    {
+      "id": "general-equilibrium-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 equilibrium-price 的框架分析，不要用 general-equilibrium。",
+      "expect": "不触发或应分流到兄弟 skill：equilibrium-price"
+    },
+    {
+      "id": "general-equilibrium-edge-01",
+      "type": "edge_case",
+      "prompt": "一般均衡理论在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "general-equilibrium-trap-01",
+      "type": "correctness_trap",
+      "prompt": "一般均衡=市场万能信仰是对的吧？",
+      "expect": "必须纠正常见误用：一般均衡=市场万能信仰 — 它是分析框架，可嵌入失灵。"
+    }
+  ]
+}

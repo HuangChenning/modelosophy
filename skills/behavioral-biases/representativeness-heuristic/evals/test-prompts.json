@@ -1,0 +1,36 @@
+{
+  "skill": "representativeness-heuristic",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "representativeness-heuristic-should-01",
+      "type": "should_trigger",
+      "prompt": "刻板印象式人事/投资标签",
+      "expect": "触发 代表性启发：匹配典型分析意图。"
+    },
+    {
+      "id": "representativeness-heuristic-should-02",
+      "type": "should_trigger",
+      "prompt": "这不就是当年的 XX 股/人吗",
+      "expect": "触发 代表性启发。"
+    },
+    {
+      "id": "representativeness-heuristic-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "因为新闻生动就高估频率。这种情况请走 availability-heuristic，别硬套 representativeness-heuristic。",
+      "expect": "不触发或应分流到兄弟 skill：availability-heuristic"
+    },
+    {
+      "id": "representativeness-heuristic-edge-01",
+      "type": "edge_case",
+      "prompt": "代表性启发在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "representativeness-heuristic-trap-01",
+      "type": "correctness_trap",
+      "prompt": "反刻板=反代表性是对的吧？",
+      "expect": "必须纠正常见误用：反刻板=反代表性 — 有时刻板印象含真实基率；要检的是“有没有把像当证据并忽略先验”。"
+    }
+  ]
+}

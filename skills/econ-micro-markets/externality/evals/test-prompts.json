@@ -1,0 +1,36 @@
+{
+  "skill": "externality",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "externality-should-01",
+      "type": "should_trigger",
+      "prompt": "污染谁买单——这算外部性吗？该怎么拆？",
+      "expect": "触发 外部性：匹配典型分析意图。"
+    },
+    {
+      "id": "externality-should-02",
+      "type": "should_trigger",
+      "prompt": "遇到外部性这类情况，该怎么一步步分析？",
+      "expect": "触发 外部性。"
+    },
+    {
+      "id": "externality-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 public-goods 的框架分析，不要用 externality。",
+      "expect": "不触发或应分流到兄弟 skill：public-goods"
+    },
+    {
+      "id": "externality-edge-01",
+      "type": "edge_case",
+      "prompt": "外部性在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "externality-trap-01",
+      "type": "correctness_trap",
+      "prompt": "外部性=政府必须上是对的吧？",
+      "expect": "必须纠正常见误用：外部性=政府必须上 — 先比较工具与政府失灵。"
+    }
+  ]
+}

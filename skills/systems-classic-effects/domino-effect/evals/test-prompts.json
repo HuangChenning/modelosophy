@@ -1,0 +1,36 @@
+{
+  "skill": "domino-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "domino-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "供应链一环断导致全线停",
+      "expect": "触发 多米诺骨牌效应：匹配典型分析意图。"
+    },
+    {
+      "id": "domino-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "债务连锁违约——这算多米诺骨牌效应吗？该怎么拆？",
+      "expect": "触发 多米诺骨牌效应。"
+    },
+    {
+      "id": "domino-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 butterfly-effect 的框架分析，不要用 domino-effect。",
+      "expect": "不触发或应分流到兄弟 skill：butterfly-effect"
+    },
+    {
+      "id": "domino-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "多米诺骨牌效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "domino-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "事后编链是对的吧？",
+      "expect": "必须纠正常见误用：事后编链 — 任何坏事都串成多米诺 → 要事前可检验的耦合。"
+    }
+  ]
+}

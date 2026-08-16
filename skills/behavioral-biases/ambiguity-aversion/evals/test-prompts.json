@@ -1,0 +1,36 @@
+{
+  "skill": "ambiguity-aversion",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ambiguity-aversion-should-01",
+      "type": "should_trigger",
+      "prompt": "概率说不清就别做——这算模糊厌恶吗？该怎么拆？",
+      "expect": "触发 模糊厌恶：匹配典型分析意图。"
+    },
+    {
+      "id": "ambiguity-aversion-should-02",
+      "type": "should_trigger",
+      "prompt": "熟悉偏见主导组合——这算模糊厌恶吗？该怎么拆？",
+      "expect": "触发 模糊厌恶。"
+    },
+    {
+      "id": "ambiguity-aversion-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "已知概率下的得失痛感 / prospect-theory。这种情况请走 prospect-theory，别硬套 ambiguity-aversion。",
+      "expect": "不触发或应分流到兄弟 skill：prospect-theory"
+    },
+    {
+      "id": "ambiguity-aversion-edge-01",
+      "type": "edge_case",
+      "prompt": "模糊厌恶在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "ambiguity-aversion-trap-01",
+      "type": "correctness_trap",
+      "prompt": "模糊厌恶=胆小是对的吧？",
+      "expect": "必须纠正常见误用：模糊厌恶=胆小 — 已知高风险的冒险者仍可能极怕模糊。"
+    }
+  ]
+}

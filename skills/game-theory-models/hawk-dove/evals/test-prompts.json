@@ -1,0 +1,36 @@
+{
+  "skill": "hawk-dove",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "hawk-dove-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到鹰鸽博弈这类情况，该怎么一步步分析？",
+      "expect": "触发 鹰鸽博弈：匹配典型分析意图。"
+    },
+    {
+      "id": "hawk-dove-should-02",
+      "type": "should_trigger",
+      "prompt": "强硬派和温和派各多少——这算鹰鸽博弈吗？该怎么拆？",
+      "expect": "触发 鹰鸽博弈。"
+    },
+    {
+      "id": "hawk-dove-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "要 ESS 不可入侵定义。这种情况请走 evolutionary-stable-strategy，别硬套 hawk-dove。",
+      "expect": "不触发或应分流到兄弟 skill：evolutionary-stable-strategy"
+    },
+    {
+      "id": "hawk-dove-edge-01",
+      "type": "edge_case",
+      "prompt": "鹰鸽博弈在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "hawk-dove-trap-01",
+      "type": "correctness_trap",
+      "prompt": "鼓励无脑当鹰是对的吧？",
+      "expect": "必须纠正常见误用：鼓励无脑当鹰 — 忽略 C。"
+    }
+  ]
+}

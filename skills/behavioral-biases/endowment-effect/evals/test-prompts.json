@@ -1,0 +1,36 @@
+{
+  "skill": "endowment-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "endowment-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "这股票/这房/这收藏到我手里就不能便宜卖",
+      "expect": "触发 禀赋效应：匹配典型分析意图。"
+    },
+    {
+      "id": "endowment-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "WTP（愿付）与 WTA（愿接受）差距大到阻断互利交易",
+      "expect": "触发 禀赋效应。"
+    },
+    {
+      "id": "endowment-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "无所有权变化、只谈框架痛感。这种情况请走 loss-aversion，别硬套 endowment-effect。",
+      "expect": "不触发或应分流到兄弟 skill：loss-aversion"
+    },
+    {
+      "id": "endowment-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "禀赋效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "endowment-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "=损失规避是对的吧？",
+      "expect": "必须纠正常见误用：=损失规避 — 损失规避更广；禀赋专指因拥有而抬估值。"
+    }
+  ]
+}

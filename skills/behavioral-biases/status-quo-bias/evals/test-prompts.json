@@ -1,0 +1,36 @@
+{
+  "skill": "status-quo-bias",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "status-quo-bias-should-01",
+      "type": "should_trigger",
+      "prompt": "订阅、供应商、投资组合多年不审——这算现状偏差吗？该怎么拆？",
+      "expect": "触发 现状偏差：匹配典型分析意图。"
+    },
+    {
+      "id": "status-quo-bias-should-02",
+      "type": "should_trigger",
+      "prompt": "先维持现状再议——这算现状偏差吗？该怎么拆？",
+      "expect": "触发 现状偏差。"
+    },
+    {
+      "id": "status-quo-bias-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "讨论的是 UI 预设勾选如何收割同意 更贴。这种情况请走 default-effect，别硬套 status-quo-bias。",
+      "expect": "不触发或应分流到兄弟 skill：default-effect"
+    },
+    {
+      "id": "status-quo-bias-edge-01",
+      "type": "edge_case",
+      "prompt": "现状偏差在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "status-quo-bias-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把谨慎都叫现状偏差是对的吧？",
+      "expect": "必须纠正常见误用：把谨慎都叫现状偏差 — 要有净收益被无理由放弃的证据。"
+    }
+  ]
+}

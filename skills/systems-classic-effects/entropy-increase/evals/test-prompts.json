@@ -1,0 +1,36 @@
+{
+  "skill": "entropy-increase",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "entropy-increase-should-01",
+      "type": "should_trigger",
+      "prompt": "团队封闭后越来越僵——这算熵增定律吗？该怎么拆？",
+      "expect": "触发 熵增定律：匹配典型分析意图。"
+    },
+    {
+      "id": "entropy-increase-should-02",
+      "type": "should_trigger",
+      "prompt": "不维护的文档/代码必然腐烂",
+      "expect": "触发 熵增定律。"
+    },
+    {
+      "id": "entropy-increase-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 system-dynamics 的框架分析，不要用 entropy-increase。",
+      "expect": "不触发或应分流到兄弟 skill：system-dynamics"
+    },
+    {
+      "id": "entropy-increase-edge-01",
+      "type": "edge_case",
+      "prompt": "熵增定律在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "entropy-increase-trap-01",
+      "type": "correctness_trap",
+      "prompt": "励志绑科学是对的吧？",
+      "expect": "必须纠正常见误用：励志绑科学 — “熵增所以你要努力” → 停。"
+    }
+  ]
+}

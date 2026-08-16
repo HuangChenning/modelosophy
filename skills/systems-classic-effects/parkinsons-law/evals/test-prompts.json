@@ -1,0 +1,36 @@
+{
+  "skill": "parkinsons-law",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "parkinsons-law-should-01",
+      "type": "should_trigger",
+      "prompt": "两周的活拖成两个月——这算帕金森定律吗？该怎么拆？",
+      "expect": "触发 帕金森定律：匹配典型分析意图。"
+    },
+    {
+      "id": "parkinsons-law-should-02",
+      "type": "should_trigger",
+      "prompt": "加人后更忙且更慢——这算帕金森定律吗？该怎么拆？",
+      "expect": "触发 帕金森定律。"
+    },
+    {
+      "id": "parkinsons-law-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 peter-principle 的框架分析，不要用 parkinsons-law。",
+      "expect": "不触发或应分流到兄弟 skill：peter-principle"
+    },
+    {
+      "id": "parkinsons-law-edge-01",
+      "type": "edge_case",
+      "prompt": "帕金森定律在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "parkinsons-law-trap-01",
+      "type": "correctness_trap",
+      "prompt": "无脑砍时间是对的吧？",
+      "expect": "必须纠正常见误用：无脑砍时间 — 质量门槛崩溃。要有 Done 标准。"
+    }
+  ]
+}

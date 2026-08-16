@@ -1,0 +1,36 @@
+{
+  "skill": "gamblers-fallacy",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "gamblers-fallacy-should-01",
+      "type": "should_trigger",
+      "prompt": "补漏——这算赌徒谬误吗？该怎么拆？",
+      "expect": "触发 赌徒谬误：匹配典型分析意图。"
+    },
+    {
+      "id": "gamblers-fallacy-should-02",
+      "type": "should_trigger",
+      "prompt": "冷静了这么久，该爆发了",
+      "expect": "触发 赌徒谬误。"
+    },
+    {
+      "id": "gamblers-fallacy-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "相信连中说明状态火热。这种情况请走 hot-hand-fallacy，别硬套 gamblers-fallacy。",
+      "expect": "不触发或应分流到兄弟 skill：hot-hand-fallacy"
+    },
+    {
+      "id": "gamblers-fallacy-edge-01",
+      "type": "edge_case",
+      "prompt": "赌徒谬误在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "gamblers-fallacy-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把所有“该反转了”都叫赌徒谬误是对的吧？",
+      "expect": "必须纠正常见误用：把所有“该反转了”都叫赌徒谬误 — 先分独立 vs 回归 vs 热手争论。"
+    }
+  ]
+}

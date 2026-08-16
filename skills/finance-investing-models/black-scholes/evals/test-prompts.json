@@ -1,0 +1,36 @@
+{
+  "skill": "black-scholes",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "black-scholes-should-01",
+      "type": "should_trigger",
+      "prompt": "这期权权利金贵不贵？",
+      "expect": "触发 布莱克-斯科尔斯期权定价：匹配典型分析意图。"
+    },
+    {
+      "id": "black-scholes-should-02",
+      "type": "should_trigger",
+      "prompt": "隐含波动率是什么？",
+      "expect": "触发 布莱克-斯科尔斯期权定价。"
+    },
+    {
+      "id": "black-scholes-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 duration-convexity 的框架分析，不要用 black-scholes。",
+      "expect": "不触发或应分流到兄弟 skill：duration-convexity"
+    },
+    {
+      "id": "black-scholes-edge-01",
+      "type": "edge_case",
+      "prompt": "布莱克-斯科尔斯期权定价在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "black-scholes-trap-01",
+      "type": "correctness_trap",
+      "prompt": "只会背公式不会读 IV是对的吧？",
+      "expect": "必须纠正常见误用：只会背公式不会读 IV — 失去实务意义。"
+    }
+  ]
+}

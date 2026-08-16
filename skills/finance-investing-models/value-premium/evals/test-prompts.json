@@ -1,0 +1,36 @@
+{
+  "skill": "value-premium",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "value-premium-should-01",
+      "type": "should_trigger",
+      "prompt": "买便宜货长期是不是有优势？",
+      "expect": "触发 价值效应：匹配典型分析意图。"
+    },
+    {
+      "id": "value-premium-should-02",
+      "type": "should_trigger",
+      "prompt": "价值因子还有没有用？",
+      "expect": "触发 价值效应。"
+    },
+    {
+      "id": "value-premium-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 pe-pb-valuation 的框架分析，不要用 value-premium。",
+      "expect": "不触发或应分流到兄弟 skill：pe-pb-valuation"
+    },
+    {
+      "id": "value-premium-edge-01",
+      "type": "edge_case",
+      "prompt": "价值效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "value-premium-trap-01",
+      "type": "correctness_trap",
+      "prompt": "\"价值投资=买低 PE\"是对的吧？",
+      "expect": "必须纠正常见误用：\"价值投资=买低 PE\" — 忽略质量与陷阱。"
+    }
+  ]
+}

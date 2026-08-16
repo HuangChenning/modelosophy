@@ -1,0 +1,36 @@
+{
+  "skill": "dictator-game",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "dictator-game-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到独裁者博弈这类情况，该怎么一步步分析？",
+      "expect": "触发 独裁者博弈：匹配典型分析意图。"
+    },
+    {
+      "id": "dictator-game-should-02",
+      "type": "should_trigger",
+      "prompt": "单方面决定怎么分",
+      "expect": "触发 独裁者博弈。"
+    },
+    {
+      "id": "dictator-game-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 ultimatum-game 的框架分析，不要用 dictator-game。",
+      "expect": "不触发或应分流到兄弟 skill：ultimatum-game"
+    },
+    {
+      "id": "dictator-game-edge-01",
+      "type": "edge_case",
+      "prompt": "独裁者博弈在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "dictator-game-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把给予当纯粹圣贤是对的吧？",
+      "expect": "必须纠正常见误用：把给予当纯粹圣贤 — 忽略规范与注目。"
+    }
+  ]
+}

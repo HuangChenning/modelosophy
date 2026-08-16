@@ -1,0 +1,36 @@
+{
+  "skill": "bayesian-games",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "bayesian-games-should-01",
+      "type": "should_trigger",
+      "prompt": "不知道对方底牌怎么博弈",
+      "expect": "触发 贝叶斯博弈：匹配典型分析意图。"
+    },
+    {
+      "id": "bayesian-games-should-02",
+      "type": "should_trigger",
+      "prompt": "不完全信息博弈——这算贝叶斯博弈吗？该怎么拆？",
+      "expect": "触发 贝叶斯博弈。"
+    },
+    {
+      "id": "bayesian-games-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "重点是发信号让对方信。这种情况请走 signaling-games，别硬套 bayesian-games。",
+      "expect": "不触发或应分流到兄弟 skill：signaling-games"
+    },
+    {
+      "id": "bayesian-games-edge-01",
+      "type": "edge_case",
+      "prompt": "贝叶斯博弈在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "bayesian-games-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把不确定性当贝叶斯博弈却不写类型是对的吧？",
+      "expect": "必须纠正常见误用：把不确定性当贝叶斯博弈却不写类型 — 必须定义类型与信念。"
+    }
+  ]
+}

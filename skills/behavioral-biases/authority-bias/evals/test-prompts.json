@@ -1,0 +1,36 @@
+{
+  "skill": "authority-bias",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "authority-bias-should-01",
+      "type": "should_trigger",
+      "prompt": "无论证只甩头衔——这算权威效应吗？该怎么拆？",
+      "expect": "触发 权威效应：匹配典型分析意图。"
+    },
+    {
+      "id": "authority-bias-should-02",
+      "type": "should_trigger",
+      "prompt": "外行专家跨界指导仍被全盘接受",
+      "expect": "触发 权威效应。"
+    },
+    {
+      "id": "authority-bias-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 social-proof 的框架分析，不要用 authority-bias。",
+      "expect": "不触发或应分流到兄弟 skill：social-proof"
+    },
+    {
+      "id": "authority-bias-edge-01",
+      "type": "edge_case",
+      "prompt": "权威效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "authority-bias-trap-01",
+      "type": "correctness_trap",
+      "prompt": "反权威=聪明是对的吧？",
+      "expect": "必须纠正常见误用：反权威=聪明 — 拒绝证据充足的专家意见是另一种偏误。"
+    }
+  ]
+}

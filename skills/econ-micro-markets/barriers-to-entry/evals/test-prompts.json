@@ -1,0 +1,36 @@
+{
+  "skill": "barriers-to-entry",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "barriers-to-entry-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到进入壁垒这类情况，该怎么一步步分析？",
+      "expect": "触发 进入壁垒：匹配典型分析意图。"
+    },
+    {
+      "id": "barriers-to-entry-should-02",
+      "type": "should_trigger",
+      "prompt": "为什么新玩家进不来——这算进入壁垒吗？该怎么拆？",
+      "expect": "触发 进入壁垒。"
+    },
+    {
+      "id": "barriers-to-entry-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 economies-of-scale 的框架分析，不要用 barriers-to-entry。",
+      "expect": "不触发或应分流到兄弟 skill：economies-of-scale"
+    },
+    {
+      "id": "barriers-to-entry-edge-01",
+      "type": "edge_case",
+      "prompt": "进入壁垒在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "barriers-to-entry-trap-01",
+      "type": "correctness_trap",
+      "prompt": "壁垒=护城河营销话术是对的吧？",
+      "expect": "必须纠正常见误用：壁垒=护城河营销话术 — 要机制证据；战略叙事见 thinking-models/economic-moat。"
+    }
+  ]
+}

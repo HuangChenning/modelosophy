@@ -1,0 +1,36 @@
+{
+  "skill": "efficient-market-hypothesis",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "efficient-market-hypothesis-should-01",
+      "type": "should_trigger",
+      "prompt": "消息都公开了，我再分析还有没有边？",
+      "expect": "触发 有效市场假说：匹配典型分析意图。"
+    },
+    {
+      "id": "efficient-market-hypothesis-should-02",
+      "type": "should_trigger",
+      "prompt": "主动投资能不能长期跑赢指数？",
+      "expect": "触发 有效市场假说。"
+    },
+    {
+      "id": "efficient-market-hypothesis-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 limits-to-arbitrage 的框架分析，不要用 efficient-market-hypothesis。",
+      "expect": "不触发或应分流到兄弟 skill：limits-to-arbitrage"
+    },
+    {
+      "id": "efficient-market-hypothesis-edge-01",
+      "type": "edge_case",
+      "prompt": "有效市场假说在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "efficient-market-hypothesis-trap-01",
+      "type": "correctness_trap",
+      "prompt": "\"有效所以不用管理\"是对的吧？",
+      "expect": "必须纠正常见误用：\"有效所以不用管理\" — 仍需配置、风险与再平衡。"
+    }
+  ]
+}

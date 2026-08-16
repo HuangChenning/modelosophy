@@ -1,0 +1,36 @@
+{
+  "skill": "prisoners-dilemma",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "prisoners-dilemma-should-01",
+      "type": "should_trigger",
+      "prompt": "这是不是囚徒困境",
+      "expect": "触发 囚徒困境：匹配典型分析意图。"
+    },
+    {
+      "id": "prisoners-dilemma-should-02",
+      "type": "should_trigger",
+      "prompt": "大家各自最优却一起更糟",
+      "expect": "触发 囚徒困境。"
+    },
+    {
+      "id": "prisoners-dilemma-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只想扫盲参与人/策略/收益术语。这种情况请走 game-theory，别硬套 prisoners-dilemma。",
+      "expect": "不触发或应分流到兄弟 skill：game-theory"
+    },
+    {
+      "id": "prisoners-dilemma-edge-01",
+      "type": "edge_case",
+      "prompt": "囚徒困境在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "prisoners-dilemma-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把一切双输叫囚徒是对的吧？",
+      "expect": "必须纠正常见误用：把一切双输叫囚徒 — 先问是否有严格优势策略背叛；没有则换标签。"
+    }
+  ]
+}
