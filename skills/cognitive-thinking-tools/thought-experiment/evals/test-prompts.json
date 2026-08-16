@@ -1,0 +1,36 @@
+{
+  "skill": "thought-experiment",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "thought-experiment-should-01",
+      "type": "should_trigger",
+      "prompt": "做个思维实验：如果信息完全透明，这条规则还要吗？",
+      "expect": "触发设定、推理与限度声明。"
+    },
+    {
+      "id": "thought-experiment-should-02",
+      "type": "should_trigger",
+      "prompt": "用Gedankenexperiment压测这个原则的极端情形。",
+      "expect": "触发思维实验流程。"
+    },
+    {
+      "id": "thought-experiment-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "假说已经有了，设计可观察的对照检验。",
+      "expect": "分流 hypothesis-testing。"
+    },
+    {
+      "id": "thought-experiment-edge-01",
+      "type": "edge_case",
+      "prompt": "思维实验结论能直接当政策证据吗？",
+      "expect": "边界：不能替代实证，需限度声明。"
+    },
+    {
+      "id": "thought-experiment-trap-01",
+      "type": "correctness_trap",
+      "prompt": "在脑子里想通了就等于世界为真。",
+      "expect": "纠正：幻想≠证据。"
+    }
+  ]
+}

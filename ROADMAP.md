@@ -238,7 +238,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 4 | 行为经济学与认知偏误 | `behavioral-biases` | **复用** | 名录 30 条 **已有** |
 | 5 | 金融与投资模型 | `finance-investing-models` | **复用** | 名录 30 条 **已有** |
 | 6 | 系统思维与经典效应 | `systems-classic-effects` | **复用** | 名录 30 条 **已有**（首因/近因→`serial-position-effect`；网络效应→`metcalfes-law`） |
-| 7 | 认知与思维工具 | `cognitive-thinking-tools` | **新建**；迁入 8 | 现 **17**（M1 新建 9）；余 **待新建** |
+| 7 | 认知与思维工具 | `cognitive-thinking-tools` | **新建**；迁入 8 | 现 **28**（M1 新建 9 + 剩余补齐 11）；名录专条已齐（二阶/SWOT 仍@他类） |
 | 8 | 决策与概率 | `decision-probability` | **新建**；迁入 2 | 现 **13**（M2 新建 11）；部分 **已有@他类**；余待新建 |
 | 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 种子已有；余待新建 |
 | 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 种子已有；余待新建 |
@@ -248,7 +248,8 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 ### 3. 分批里程碑（建议）
 
 - [x] **M0**：名录写入 ROADMAP + 6 个新分类 README 壳 + 25 条物理迁移 + 链接/根 README 对账  
-- [x] **M1（首批）**：第七类优先缺口已建 9 条（`five-whys` / `scqa` / `theory-of-constraints` / `triz` / `hypothesis-testing` / `structured-thinking` / `lateral-thinking` / `logic-tree` / `star-method`，均 `v0.x-draft`）；类内现 **17**；其余名录条仍待新建  
+- [x] **M1（首批）**：第七类优先缺口已建 9 条（`five-whys` / `scqa` / `theory-of-constraints` / `triz` / `hypothesis-testing` / `structured-thinking` / `lateral-thinking` / `logic-tree` / `star-method`，均 `v0.x-draft`）
+- [x] **M1（第七类剩余）**：补齐 11 条（`analogical-thinking` / `abstraction-ladder` / `cross-validation-thinking` / `backward-goal` / `thought-experiment` / `diamond-six-steps` / `octopus-diagram` / `concept-map` / `mind-map` / `decision-matrix` / `pros-cons-list`，均 `v0.x-draft` + 最小 evals）；类内现 **28**；二阶思维/SWOT 仍为已有@他类不重复建  
 - [x] **M2（首批）**：第八类高价值新建 11 条（`bayesian-updating` / `grey-thinking` / `reversible-irreversible` / `mvp` / `red-team` / `pre-mortem` / `ooda-loop` / `planning-fallacy` / `scenario-planning` / `expected-utility` / `base-rate`，均 `v0.x-draft`）；类内现 **13**；沉没/机会成本/凯利/满意化/临界/杠铃 **只互链不复制**；名录其余条仍待新建  
 - [ ] **M3**：第九–十一类分批新建（刻意练习、蓝海、看板/GTD 等）  
 - [ ] **M4**：第十二类补齐（系统基模、杠杆点已有、因果回路、CAS 等）；与第六类重复项只维护一份  
@@ -273,20 +274,20 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 结构化思维 | 已有@`…/structured-thinking`（`v0.x-draft`） |
 | 批判性思维 | 已有@`…/critical-thinking` |
 | 水平思考 | 已有@`…/lateral-thinking`（`v0.x-draft`） |
-| 类比思维 | 待新建（`analogical-thinking`） |
-| 抽象阶梯 | 待新建（`abstraction-ladder`；≠ `ladder-of-inference`） |
+| 类比思维 | 已有@`…/analogical-thinking`（`v0.x-draft`） |
+| 抽象阶梯 | 已有@`…/abstraction-ladder`（`v0.x-draft`；≠ `ladder-of-inference`） |
 | 黄金圈法则 | 已有@`…/golden-circle` |
 | SCQA 框架 | 已有@`…/scqa`（`v0.x-draft`） |
 | STAR 法则 | 已有@`…/star-method`（`v0.x-draft`） |
 | SWOT 分析 | 已有@他类 `strategy-competition/swot`（战略主条；认知场景互链） |
-| 交叉验证 | 待新建（`cross-validation-thinking`） |
-| 反向目标 | 待新建（`backward-goal`） |
-| 思维实验 | 待新建（`thought-experiment`） |
-| 菱形六步法 | 待新建（`diamond-six-steps`） |
+| 交叉验证 | 已有@`…/cross-validation-thinking`（`v0.x-draft`） |
+| 反向目标 | 已有@`…/backward-goal`（`v0.x-draft`） |
+| 思维实验 | 已有@`…/thought-experiment`（`v0.x-draft`） |
+| 菱形六步法 | 已有@`…/diamond-six-steps`（`v0.x-draft`） |
 | TOC 约束理论 | 已有@`…/theory-of-constraints`（`v0.x-draft`） |
 | TRIZ 发明原理 | 已有@`…/triz`（`v0.x-draft`） |
-| 八爪鱼图 / 概念图 / 思维导图 / 逻辑树 | 逻辑树已有@`…/logic-tree`（`v0.x-draft`）；其余待新建（`octopus-diagram` / `concept-map` / `mind-map`） |
-| 决策矩阵 / 优劣势清单 / 假设检验 | 假设检验已有@`…/hypothesis-testing`（`v0.x-draft`）；其余待新建（`decision-matrix` / `pros-cons-list`） |
+| 八爪鱼图 / 概念图 / 思维导图 / 逻辑树 | 已有@`…/octopus-diagram` / `concept-map` / `mind-map` / `logic-tree`（均 `v0.x-draft`） |
+| 决策矩阵 / 优劣势清单 / 假设检验 | 均已有@`…/decision-matrix` · `pros-cons-list` · `hypothesis-testing`（`v0.x-draft`；矩阵/利弊与第八类决策树在相关模型分流） |
 
 #### 八、`decision-probability`
 
