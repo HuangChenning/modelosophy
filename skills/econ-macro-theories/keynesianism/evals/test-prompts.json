@@ -1,0 +1,36 @@
+{
+  "skill": "keynesianism",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "keynesianism-should-01",
+      "type": "should_trigger",
+      "prompt": "需求不够，企业不敢投",
+      "expect": "触发 凯恩斯主义：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "keynesianism-should-02",
+      "type": "should_trigger",
+      "prompt": "该不该加大赤字刺激",
+      "expect": "触发 凯恩斯主义。"
+    },
+    {
+      "id": "keynesianism-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "供给端瓶颈（能源短缺、劳动力枯竭）却只扩需求",
+      "expect": "不触发或应分流：供给端瓶颈（能源短缺、劳动力枯竭）却只扩需求 → 改看供给学派/索洛增长"
+    },
+    {
+      "id": "keynesianism-edge-01",
+      "type": "edge_case",
+      "prompt": "凯恩斯主义在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "keynesianism-trap-01",
+      "type": "correctness_trap",
+      "prompt": "永远刺激是对的吧？",
+      "expect": "必须纠正常见误用：永远刺激 — 把短期稳定工具做成永久增长药 → 写退出条件。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "invisible-hand",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "invisible-hand-should-01",
+      "type": "should_trigger",
+      "prompt": "让市场自己调，政府别插手",
+      "expect": "触发 看不见的手：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "invisible-hand-should-02",
+      "type": "should_trigger",
+      "prompt": "价格涨了自然会有人增产",
+      "expect": "触发 看不见的手。"
+    },
+    {
+      "id": "invisible-hand-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：把市场失灵当「看不见的手失败」一刀切——先分清是信息/外部性/公共品问题，再谈干预工具"
+    },
+    {
+      "id": "invisible-hand-edge-01",
+      "type": "edge_case",
+      "prompt": "看不见的手在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "invisible-hand-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把隐喻当证明是对的吧？",
+      "expect": "必须纠正常见误用：把隐喻当证明 — 「斯密都说了市场万能」→ 斯密未主张零政府；回到失灵清单。"
+    }
+  ]
+}

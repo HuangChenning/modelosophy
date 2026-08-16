@@ -12,13 +12,13 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 - [`skills/business/org-it-intel-report`](skills/business/org-it-intel-report)：与厂商无关的组织 / IT 情报调研 Skill（组织整体情况 + IT 投入与招投标），演示 `SKILL.md` + 模板 + 脚本结构。
 - [`skills/thinking-models/`](skills/thinking-models)：现 **50** 个可执行思维模型 Skill（通用推理、战略、学习、领导等）。另有 **19** 个原属本库的 Skill 已迁入下方学科分类。完整索引见 [`skills/thinking-models/README.md`](skills/thinking-models/README.md)。
-- 与 `business/` / `thinking-models/` **平级**的六个学科分类（均为**可执行** Skill，不是知识卡壳）：
-  - [`econ-macro-theories`](skills/econ-macro-theories) — 宏观理论（种子待建）
-  - [`econ-micro-markets`](skills/econ-micro-markets) — 微观 / 市场（如机会成本）
-  - [`game-theory-models`](skills/game-theory-models) — 博弈论
-  - [`behavioral-biases`](skills/behavioral-biases) — 行为经济学与偏误（9 个）
-  - [`finance-investing-models`](skills/finance-investing-models) — 金融 / 投资（如复利）
-  - [`systems-classic-effects`](skills/systems-classic-effects) — 系统与经典效应（7 个）
+- 与 `business/` / `thinking-models/` **平级**的六个学科分类（均为**可执行** Skill，不是知识卡壳；大量条目仍为 `v0.x-draft`）：
+  - [`econ-macro-theories`](skills/econ-macro-theories) — 宏观理论（**30**）
+  - [`econ-micro-markets`](skills/econ-micro-markets) — 微观 / 市场（**30**）
+  - [`game-theory-models`](skills/game-theory-models) — 博弈论（**31**）
+  - [`behavioral-biases`](skills/behavioral-biases) — 行为经济学与偏误（**30**）
+  - [`finance-investing-models`](skills/finance-investing-models) — 金融 / 投资（**30**）
+  - [`systems-classic-effects`](skills/systems-classic-effects) — 系统与经典效应（**30**）
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
@@ -57,7 +57,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计约 **69** 个可执行模型（`thinking-models/` 50 + 已迁入 19）。经济学需求清单其余条目将按可执行 Skill 分批补全；编写规范仍可能随库扩张调整。
+库仍处于早期：跨分类合计约 **~230** 个可执行模型（`thinking-models/` 50 + 六学科分类约 181 + `business/`）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
 
 ## 贡献一个思维模型
 

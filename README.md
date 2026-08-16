@@ -12,13 +12,13 @@ This repository is early. Skills are grouped by domain under `skills/<category>/
 
 - [`skills/business/org-it-intel-report`](skills/business/org-it-intel-report) — a vendor-neutral org / IT intelligence skill (organization overview + IT investment & procurement), demonstrating the `SKILL.md` + templates + scripts structure this project uses.
 - [`skills/thinking-models/`](skills/thinking-models) — **50** executable mental-model skills (general reasoning, strategy, learning, leadership, etc.). Another **19** formerly here were moved into the domain categories below. See [`skills/thinking-models/README.md`](skills/thinking-models/README.md).
-- Six domain categories **peer to** `business/` / `thinking-models/` (executable skills, not knowledge-card shells):
-  - [`econ-macro-theories`](skills/econ-macro-theories) — macro theories (seeds TBD)
-  - [`econ-micro-markets`](skills/econ-micro-markets) — micro / markets (e.g. opportunity cost)
-  - [`game-theory-models`](skills/game-theory-models) — game theory
-  - [`behavioral-biases`](skills/behavioral-biases) — behavioral economics & biases (9 skills)
-  - [`finance-investing-models`](skills/finance-investing-models) — finance / investing (e.g. compounding)
-  - [`systems-classic-effects`](skills/systems-classic-effects) — systems & classic effects (7 skills)
+- Six domain categories **peer to** `business/` / `thinking-models/` (executable skills, not knowledge-card shells; many entries still `v0.x-draft`):
+  - [`econ-macro-theories`](skills/econ-macro-theories) — macro theories (**30**)
+  - [`econ-micro-markets`](skills/econ-micro-markets) — micro / markets (**30**)
+  - [`game-theory-models`](skills/game-theory-models) — game theory (**31**)
+  - [`behavioral-biases`](skills/behavioral-biases) — behavioral economics & biases (**30**)
+  - [`finance-investing-models`](skills/finance-investing-models) — finance / investing (**30**)
+  - [`systems-classic-effects`](skills/systems-classic-effects) — systems & classic effects (**30**)
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
@@ -57,7 +57,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — about **69** executable models exist across categories (50 in `thinking-models/` + 19 migrated). Remaining book / economics checklist items will be added as executable skills in batches. Conventions may still change as the library grows.
+The library is still early — on the order of **~230** executable models across categories (50 in `thinking-models/` + ~181 in the six domain categories + `business/`). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
 
 ## Contributing a mental model
 

@@ -1,0 +1,36 @@
+{
+  "skill": "ricardian-equivalence",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ricardian-equivalence-should-01",
+      "type": "should_trigger",
+      "prompt": "发债减税大家会不会把钱存起来等加税",
+      "expect": "触发 李嘉图等价：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "ricardian-equivalence-should-02",
+      "type": "should_trigger",
+      "prompt": "为啥刺激消费没起来",
+      "expect": "触发 李嘉图等价。"
+    },
+    {
+      "id": "ricardian-equivalence-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：当成政治上反对一切财政的万能帽"
+    },
+    {
+      "id": "ricardian-equivalence-edge-01",
+      "type": "edge_case",
+      "prompt": "李嘉图等价在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "ricardian-equivalence-trap-01",
+      "type": "correctness_trap",
+      "prompt": "宣称现实完全等价是对的吧？",
+      "expect": "必须纠正常见误用：宣称现实完全等价 — 忽视大量违反假定的证据。"
+    }
+  ]
+}

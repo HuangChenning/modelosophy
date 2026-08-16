@@ -1,0 +1,36 @@
+{
+  "skill": "supply-side-economics",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "supply-side-economics-should-01",
+      "type": "should_trigger",
+      "prompt": "减税能不能刺激干活和投资",
+      "expect": "触发 供给学派：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "supply-side-economics-should-02",
+      "type": "should_trigger",
+      "prompt": "滞胀是不是该改供给",
+      "expect": "触发 供给学派。"
+    },
+    {
+      "id": "supply-side-economics-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "衰退主因是去杠杆/有效需求不足",
+      "expect": "不触发或应分流：衰退主因是去杠杆/有效需求不足 → 凯派/资产负债表衰退"
+    },
+    {
+      "id": "supply-side-economics-edge-01",
+      "type": "edge_case",
+      "prompt": "供给学派在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "supply-side-economics-trap-01",
+      "type": "correctness_trap",
+      "prompt": "拉弗万能是对的吧？",
+      "expect": "必须纠正常见误用：拉弗万能 — 任何减税都自称自筹 → 走拉弗曲线严格检验临界点。"
+    }
+  ]
+}

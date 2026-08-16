@@ -1,0 +1,36 @@
+{
+  "skill": "austrian-school",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "austrian-school-should-01",
+      "type": "should_trigger",
+      "prompt": "低息是不是在制造泡沫",
+      "expect": "触发 奥地利学派：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "austrian-school-should-02",
+      "type": "should_trigger",
+      "prompt": "中央计划为什么算不清",
+      "expect": "触发 奥地利学派。"
+    },
+    {
+      "id": "austrian-school-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：把奥派当成「永远紧缩」口号而忽略系统性金融崩溃的传染"
+    },
+    {
+      "id": "austrian-school-edge-01",
+      "type": "edge_case",
+      "prompt": "奥地利学派在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "austrian-school-trap-01",
+      "type": "correctness_trap",
+      "prompt": "阴谋论化央行是对的吧？",
+      "expect": "必须纠正常见误用：阴谋论化央行 — 凡是波动都怪央行 → 仍要经验检验。"
+    }
+  ]
+}

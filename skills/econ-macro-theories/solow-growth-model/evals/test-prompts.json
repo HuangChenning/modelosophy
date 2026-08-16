@@ -1,0 +1,36 @@
+{
+  "skill": "solow-growth-model",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "solow-growth-model-should-01",
+      "type": "should_trigger",
+      "prompt": "多存钱投资能不能让增长永远更快",
+      "expect": "触发 索洛增长模型：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "solow-growth-model-should-02",
+      "type": "should_trigger",
+      "prompt": "穷国追赶靠堆资本还是靠技术",
+      "expect": "触发 索洛增长模型。"
+    },
+    {
+      "id": "solow-growth-model-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "短期需求管理",
+      "expect": "不触发或应分流：短期需求管理 → 凯派"
+    },
+    {
+      "id": "solow-growth-model-edge-01",
+      "type": "edge_case",
+      "prompt": "索洛增长模型在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "solow-growth-model-trap-01",
+      "type": "correctness_trap",
+      "prompt": "储蓄率万能是对的吧？",
+      "expect": "必须纠正常见误用：储蓄率万能 — 混淆水平与增速。"
+    }
+  ]
+}

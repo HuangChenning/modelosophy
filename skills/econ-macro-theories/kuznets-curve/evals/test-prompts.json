@@ -1,0 +1,36 @@
+{
+  "skill": "kuznets-curve",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "kuznets-curve-should-01",
+      "type": "should_trigger",
+      "prompt": "发展中国家不平等先升是不是正常",
+      "expect": "触发 库兹涅茨曲线：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "kuznets-curve-should-02",
+      "type": "should_trigger",
+      "prompt": "人均到了某水平污染会不会自己降",
+      "expect": "触发 库兹涅茨曲线。"
+    },
+    {
+      "id": "kuznets-curve-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：涓滴政策辩护——曲线不是政策"
+    },
+    {
+      "id": "kuznets-curve-edge-01",
+      "type": "edge_case",
+      "prompt": "库兹涅茨曲线在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "kuznets-curve-trap-01",
+      "type": "correctness_trap",
+      "prompt": "先恶化许可证是对的吧？",
+      "expect": "必须纠正常见误用：先恶化许可证 — 用曲线挡批评。"
+    }
+  ]
+}

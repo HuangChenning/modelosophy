@@ -1,0 +1,36 @@
+{
+  "skill": "multiplier-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "multiplier-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "政府花 1 块能带动几块 GDP",
+      "expect": "触发 乘数效应：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "multiplier-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "为啥萧条时刺激更值",
+      "expect": "触发 乘数效应。"
+    },
+    {
+      "id": "multiplier-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：把金融杠杆当财政乘数"
+    },
+    {
+      "id": "multiplier-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "乘数效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "multiplier-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "广告式夸大是对的吧？",
+      "expect": "必须纠正常见误用：广告式夸大 — 政治稿用最大乘数当基准。"
+    }
+  ]
+}

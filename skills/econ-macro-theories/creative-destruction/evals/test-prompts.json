@@ -1,0 +1,36 @@
+{
+  "skill": "creative-destruction",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "creative-destruction-should-01",
+      "type": "should_trigger",
+      "prompt": "新业态把老行业冲垮是不是好事",
+      "expect": "触发 创造性破坏：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "creative-destruction-should-02",
+      "type": "should_trigger",
+      "prompt": "该不该保护传统企业",
+      "expect": "触发 创造性破坏。"
+    },
+    {
+      "id": "creative-destruction-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：宏观需求不足的周期性失业全甩给熊彼特"
+    },
+    {
+      "id": "creative-destruction-edge-01",
+      "type": "edge_case",
+      "prompt": "创造性破坏在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "creative-destruction-trap-01",
+      "type": "correctness_trap",
+      "prompt": "美化残酷是对的吧？",
+      "expect": "必须纠正常见误用：美化残酷 — 无补偿叙事。"
+    }
+  ]
+}

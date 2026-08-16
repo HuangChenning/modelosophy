@@ -1,0 +1,36 @@
+{
+  "skill": "phillips-curve",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "phillips-curve-should-01",
+      "type": "should_trigger",
+      "prompt": "要压通胀是不是必须忍受高失业",
+      "expect": "触发 菲利普斯曲线：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "phillips-curve-should-02",
+      "type": "should_trigger",
+      "prompt": "失业这么低为啥通胀还没起来",
+      "expect": "触发 菲利普斯曲线。"
+    },
+    {
+      "id": "phillips-curve-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：平坦化争论中假装曲线永远稳定可交易"
+    },
+    {
+      "id": "phillips-curve-edge-01",
+      "type": "edge_case",
+      "prompt": "菲利普斯曲线在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "phillips-curve-trap-01",
+      "type": "correctness_trap",
+      "prompt": "永久权衡幻觉是对的吧？",
+      "expect": "必须纠正常见误用：永久权衡幻觉 — 以为可永远用通胀买就业。"
+    }
+  ]
+}
