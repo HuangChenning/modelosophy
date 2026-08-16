@@ -1,0 +1,36 @@
+{
+  "skill": "zpd",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "zpd-should-01",
+      "type": "should_trigger",
+      "prompt": "辅导孩子作业总是要么太难要么太易，用ZPD怎么看？",
+      "expect": "触发三带与支架。"
+    },
+    {
+      "id": "zpd-should-02",
+      "type": "should_trigger",
+      "prompt": "带新人怎样做支架教学？",
+      "expect": "触发。"
+    },
+    {
+      "id": "zpd-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "如何进入心流写代码？",
+      "expect": "分流 flow。"
+    },
+    {
+      "id": "zpd-edge-01",
+      "type": "edge_case",
+      "prompt": "危险操作能靠试探ZPD吗？",
+      "expect": "边界：高危用模拟认证。"
+    },
+    {
+      "id": "zpd-trap-01",
+      "type": "correctness_trap",
+      "prompt": "一直代做就是最好的支架。",
+      "expect": "纠正：须渐撤。"
+    }
+  ]
+}

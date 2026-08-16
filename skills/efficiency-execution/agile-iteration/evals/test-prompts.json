@@ -1,0 +1,36 @@
+{
+  "skill": "agile-iteration",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ag-should-01",
+      "type": "should_trigger",
+      "prompt": "需求不确定，怎么用敏捷迭代降低风险？",
+      "expect": "触发迭代增量。"
+    },
+    {
+      "id": "ag-should-02",
+      "type": "should_trigger",
+      "prompt": "Sprint怎么定完成定义？",
+      "expect": "触发。"
+    },
+    {
+      "id": "ag-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要WIP限制和看板列。",
+      "expect": "分流 kanban。"
+    },
+    {
+      "id": "ag-edge-01",
+      "type": "edge_case",
+      "prompt": "桥梁施工也能两周迭代交付吗？",
+      "expect": "边界：切片困难。"
+    },
+    {
+      "id": "ag-trap-01",
+      "type": "correctness_trap",
+      "prompt": "每天站会就是敏捷，不必发布增量。",
+      "expect": "纠正。"
+    }
+  ]
+}

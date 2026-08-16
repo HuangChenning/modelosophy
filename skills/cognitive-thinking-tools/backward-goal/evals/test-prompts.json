@@ -1,0 +1,36 @@
+{
+  "skill": "backward-goal",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "backward-goal-should-01",
+      "type": "should_trigger",
+      "prompt": "用反向目标从终点倒推这个季度计划。",
+      "expect": "触发 DoD 与状态链倒推。"
+    },
+    {
+      "id": "backward-goal-should-02",
+      "type": "should_trigger",
+      "prompt": "以终为始，先定义成功长什么样再拆步骤。",
+      "expect": "触发 backward planning。"
+    },
+    {
+      "id": "backward-goal-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我列怎样保证搞砸的回避清单。",
+      "expect": "分流 inversion。"
+    },
+    {
+      "id": "backward-goal-edge-01",
+      "type": "edge_case",
+      "prompt": "终态还说不清也能倒推吗？",
+      "expect": "边界：先问题定义，不硬造假终态。"
+    },
+    {
+      "id": "backward-goal-trap-01",
+      "type": "correctness_trap",
+      "prompt": "反向目标和逆向思维是一回事。",
+      "expect": "纠正：成功路径 vs 失败回避。"
+    }
+  ]
+}

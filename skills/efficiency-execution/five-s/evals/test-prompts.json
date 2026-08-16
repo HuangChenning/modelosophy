@@ -1,0 +1,36 @@
+{
+  "skill": "five-s",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "5s-should-01",
+      "type": "should_trigger",
+      "prompt": "工位太乱找工具要十分钟，怎么做5S？",
+      "expect": "触发5S步骤。"
+    },
+    {
+      "id": "5s-should-02",
+      "type": "should_trigger",
+      "prompt": "五常法整理整顿怎么落地？",
+      "expect": "触发。"
+    },
+    {
+      "id": "5s-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "画价值流找七大浪费。",
+      "expect": "分流 lean-thinking。"
+    },
+    {
+      "id": "5s-edge-01",
+      "type": "edge_case",
+      "prompt": "做完一次大扫除就宣布5S成功了吗？",
+      "expect": "否，需素养维持。"
+    },
+    {
+      "id": "5s-trap-01",
+      "type": "correctness_trap",
+      "prompt": "5S等于精益全部。",
+      "expect": "纠正：基础层。"
+    }
+  ]
+}

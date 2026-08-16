@@ -1,0 +1,36 @@
+{
+  "skill": "decision-matrix",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "decision-matrix-should-01",
+      "type": "should_trigger",
+      "prompt": "做决策矩阵加权评分选供应商。",
+      "expect": "触发标准、权重、打分与敏感性。"
+    },
+    {
+      "id": "decision-matrix-should-02",
+      "type": "should_trigger",
+      "prompt": "多标准选型，用Pugh矩阵比一比。",
+      "expect": "触发决策矩阵。"
+    },
+    {
+      "id": "decision-matrix-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "成功率不确定，用决策树算期望值。",
+      "expect": "分流 decision-tree（第八类）。"
+    },
+    {
+      "id": "decision-matrix-edge-01",
+      "type": "edge_case",
+      "prompt": "权重拧一下冠军就换，怎么办？",
+      "expect": "结论标对权重敏感，补证据或澄清价值。"
+    },
+    {
+      "id": "decision-matrix-trap-01",
+      "type": "correctness_trap",
+      "prompt": "总分最高就科学最优、不用人负责。",
+      "expect": "纠正：矩阵可审计，不替代拍板与敏感性。"
+    }
+  ]
+}

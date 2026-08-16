@@ -8,7 +8,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 ## What's here now
 
-This repository is early. There are **248** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
+This repository is early. There are **289** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
@@ -18,11 +18,11 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | --- | ---: | --- |
 | [Business / Org Intel](skills/business/README.md) | 1 | [index](#business-/-org-intel1) |
 | [Thinking Models](skills/thinking-models/README.md) | 25 | [index](#thinking-models25) |
-| [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 17 | [index](#cognitive-thinking-tools17) |
-| [Decision & Probability](skills/decision-probability/README.md) | 2 | [index](#decision--probability2) |
-| [Learning & Growth](skills/learning-growth/README.md) | 5 | [index](#learning--growth5) |
-| [Strategy & Competition](skills/strategy-competition/README.md) | 4 | [index](#strategy--competition4) |
-| [Efficiency & Execution](skills/efficiency-execution/README.md) | 2 | [index](#efficiency--execution2) |
+| [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 28 | [index](#cognitive-thinking-tools28) |
+| [Decision & Probability](skills/decision-probability/README.md) | 13 | [index](#decision--probability13) |
+| [Learning & Growth](skills/learning-growth/README.md) | 11 | [index](#learning--growth11) |
+| [Strategy & Competition](skills/strategy-competition/README.md) | 10 | [index](#strategy--competition10) |
+| [Efficiency & Execution](skills/efficiency-execution/README.md) | 9 | [index](#efficiency--execution9) |
 | [Systems & Complexity](skills/systems-complexity/README.md) | 11 | [index](#systems--complexity11) |
 | [Macroeconomic Theories](skills/econ-macro-theories/README.md) | 30 | [index](#macroeconomic-theories30) |
 | [Microeconomics & Markets](skills/econ-micro-markets/README.md) | 30 | [index](#microeconomics--markets30) |
@@ -68,7 +68,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **248** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 41). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
+The library is still early — **289** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 82). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
 
 ## Contributing a mental model
 
@@ -76,7 +76,7 @@ Have a thinking framework worth distilling? Open a PR that adds a new `skills/<c
 
 ## Skill catalog
 
-Per-skill blurbs for all **248** Skills. Category READMEs remain the per-domain index.
+Per-skill blurbs for all **289** Skills. Category READMEs remain the per-domain index.
 
 ### Business / Org Intel（1）
 
@@ -114,11 +114,18 @@ General reasoning, leadership, communication (domain-specific items moved out).
 - **[spiral-of-silence](skills/thinking-models/spiral-of-silence/SKILL.md)** — Spiral of silence: fear of isolation → misread climate → minority silence → louder majority.
 - **[ten-ten-ten](skills/thinking-models/ten-ten-ten/SKILL.md)** — 10/10/10: pull decisions out of hot emotion by checking ~10 minutes / 10 months / 10 years.
 
-### Cognitive Thinking Tools（17）
+### Cognitive Thinking Tools（28）
 
 First principles, structured decomposition, critical thinking tools.
 
+- **[abstraction-ladder](skills/cognitive-thinking-tools/abstraction-ladder/SKILL.md)** — Abstraction ladder: move deliberately between concrete and abstract wording (draft; ≠ ladder of inference).
+- **[analogical-thinking](skills/cognitive-thinking-tools/analogical-thinking/SKILL.md)** — Analogical thinking: structure-mapping transfer with explicit failure boundaries (draft).
+- **[backward-goal](skills/cognitive-thinking-tools/backward-goal/SKILL.md)** — Backward goal: define a verifiable end state, then plan prerequisites back to today (draft).
+- **[concept-map](skills/cognitive-thinking-tools/concept-map/SKILL.md)** — Concept map: proposition networks with linking words (draft).
 - **[critical-thinking](skills/cognitive-thinking-tools/critical-thinking/SKILL.md)** — Critical thinking: Facione Delphi skills (interpretation, analysis, evaluation, inference, explanation, self-regulation).
+- **[cross-validation-thinking](skills/cognitive-thinking-tools/cross-validation-thinking/SKILL.md)** — Cross-validation thinking: corroborate claims via independent evidence paths (draft; ≠ ML k-fold).
+- **[decision-matrix](skills/cognitive-thinking-tools/decision-matrix/SKILL.md)** — Decision matrix: multi-criteria weighted scoring with sensitivity (draft; probability trees → decision-probability).
+- **[diamond-six-steps](skills/cognitive-thinking-tools/diamond-six-steps/SKILL.md)** — Diamond six steps: two diverge–converge cycles with stage gates (draft).
 - **[first-principles](skills/cognitive-thinking-tools/first-principles/SKILL.md)** — First principles: strip a claim to hard facts/constraints, then rebuild upward without analogy crutches.
 - **[five-whys](skills/cognitive-thinking-tools/five-whys/SKILL.md)** — Five Whys: drill a causal chain to an actionable root cause (draft).
 - **[golden-circle](skills/cognitive-thinking-tools/golden-circle/SKILL.md)** — Golden Circle: structure narrative as WHY→HOW→WHAT (purpose before product).
@@ -127,47 +134,81 @@ First principles, structured decomposition, critical thinking tools.
 - **[lateral-thinking](skills/cognitive-thinking-tools/lateral-thinking/SKILL.md)** — Lateral thinking: provoke jumps out of set patterns, then vertically evaluate (draft).
 - **[logic-tree](skills/cognitive-thinking-tools/logic-tree/SKILL.md)** — Logic tree: decompose a master question into actionable issue/hypothesis leaves (draft).
 - **[mece](skills/cognitive-thinking-tools/mece/SKILL.md)** — MECE: split issues into mutually exclusive, collectively exhaustive categories.
+- **[mind-map](skills/cognitive-thinking-tools/mind-map/SKILL.md)** — Mind map: radial hierarchical association for notes and brainstorming (draft).
 - **[occams-razor](skills/cognitive-thinking-tools/occams-razor/SKILL.md)** — Occam’s razor: among explanations that fit, prefer fewer ad hoc assumptions—then verify.
+- **[octopus-diagram](skills/cognitive-thinking-tools/octopus-diagram/SKILL.md)** — Octopus diagram: center topic with multi-arm dimension coverage (draft).
+- **[pros-cons-list](skills/cognitive-thinking-tools/pros-cons-list/SKILL.md)** — Pros and cons list: explicit benefit/cost scan (draft; weighted scoring → decision-matrix).
 - **[pyramid-principle](skills/cognitive-thinking-tools/pyramid-principle/SKILL.md)** — Pyramid principle: lead with the answer; group supporting arguments MECE under it.
 - **[scqa](skills/cognitive-thinking-tools/scqa/SKILL.md)** — SCQA: Situation–Complication–Question–Answer for openings and problem definition (draft).
 - **[six-thinking-hats](skills/cognitive-thinking-tools/six-thinking-hats/SKILL.md)** — Six Thinking Hats: separate facts, feelings, benefits, risks, and ideas in parallel meeting modes.
 - **[star-method](skills/cognitive-thinking-tools/star-method/SKILL.md)** — STAR: Situation–Task–Action–Result stories for interviews and reviews (draft).
 - **[structured-thinking](skills/cognitive-thinking-tools/structured-thinking/SKILL.md)** — Structured thinking: orchestrate define→decompose→analyze→synthesize (draft).
 - **[theory-of-constraints](skills/cognitive-thinking-tools/theory-of-constraints/SKILL.md)** — TOC: focus improvement on the system throughput constraint (draft).
+- **[thought-experiment](skills/cognitive-thinking-tools/thought-experiment/SKILL.md)** — Thought experiment: probe principles in counterfactual setups with explicit limits (draft).
 - **[triz](skills/cognitive-thinking-tools/triz/SKILL.md)** — TRIZ: frame design contradictions and seek non-compromise inventive moves (draft).
 
-### Decision & Probability（2）
+### Decision & Probability（13）
 
-Expected value, decision trees, decisions under uncertainty.
+Expected value, decision trees, Bayesian updating, and other decisions under uncertainty (M2 drafts included).
 
+- **[base-rate](skills/decision-probability/base-rate/SKILL.md)** — Base rate / reference class: anchor on class frequencies before case details (draft).
+- **[bayesian-updating](skills/decision-probability/bayesian-updating/SKILL.md)** — Bayesian updating: prior × likelihood → posterior (draft).
 - **[decision-tree](skills/decision-probability/decision-tree/SKILL.md)** — Decision tree: multi-stage choices with known options, uncertain outcomes, and estimable probabilities/payoffs.
+- **[expected-utility](skills/decision-probability/expected-utility/SKILL.md)** — Expected utility: choose when money is nonlinear or ruin matters (draft).
 - **[expected-value](skills/decision-probability/expected-value/SKILL.md)** — Expected value: quantify uncertain outcomes as probability-weighted averages (EV = Σ p·x).
+- **[grey-thinking](skills/decision-probability/grey-thinking/SKILL.md)** — Grey thinking: hold revisable confidence instead of binary certainty (draft).
+- **[mvp](skills/decision-probability/mvp/SKILL.md)** — MVP: minimum artifact that tests the riskiest assumption (draft).
+- **[ooda-loop](skills/decision-probability/ooda-loop/SKILL.md)** — OODA loop: observe–orient–decide–act under competitive tempo (draft).
+- **[planning-fallacy](skills/decision-probability/planning-fallacy/SKILL.md)** — Planning fallacy: correct optimistic schedules with outside view (draft).
+- **[pre-mortem](skills/decision-probability/pre-mortem/SKILL.md)** — Pre-mortem: assume failure already happened to surface preventable causes (draft).
+- **[red-team](skills/decision-probability/red-team/SKILL.md)** — Red team: structured independent attack on a plan (draft).
+- **[reversible-irreversible](skills/decision-probability/reversible-irreversible/SKILL.md)** — Reversible vs irreversible decisions: match process weight to undo cost (draft).
+- **[scenario-planning](skills/decision-probability/scenario-planning/SKILL.md)** — Scenario planning: few divergent futures for robust options and signals (draft).
 
-### Learning & Growth（5）
+### Learning & Growth（11）
 
-Feynman technique, flow, metacognition, forgetting curve, antifragility.
+Feynman technique, flow, metacognition, forgetting curve, antifragility, plus M3 drafts (deliberate practice, SRS, growth mindset, deep work, ZPD, 10k-hours clarification).
 
 - **[antifragility](skills/learning-growth/antifragility/SKILL.md)** — Antifragility: design strategies that gain from volatility and uncertainty—not merely withstand risk.
+- **[deep-work](skills/learning-growth/deep-work/SKILL.md)** — Deep work: protect uninterrupted high-cognitive focus blocks (canonical home; efficiency category cross-links only).
+- **[deliberate-practice](skills/learning-growth/deliberate-practice/SKILL.md)** — Deliberate practice: train just beyond comfort with goals, feedback, and weak-point focus.
 - **[feynman-technique](skills/learning-growth/feynman-technique/SKILL.md)** — Feynman technique: expose gaps by teaching a concept in plain language, then repair and retry.
 - **[flow](skills/learning-growth/flow/SKILL.md)** — Flow: diagnose deep engagement when challenge≈skill, goals are clear, and feedback is timely.
-- **[forgetting-curve](skills/learning-growth/forgetting-curve/SKILL.md)** — Forgetting curve: fight memory decay with spaced retrieval instead of one-shot cramming.
+- **[forgetting-curve](skills/learning-growth/forgetting-curve/SKILL.md)** — Forgetting curve: explain memory decay over time; schedule ops live in spaced repetition.
+- **[growth-mindset](skills/learning-growth/growth-mindset/SKILL.md)** — Growth mindset: treat ability as developable; rewrite feedback/goals (not effort-only pep talk).
 - **[metacognition](skills/learning-growth/metacognition/SKILL.md)** — Metacognition: monitor and regulate your own thinking—notice misunderstanding and switch strategies.
+- **[spaced-repetition](skills/learning-growth/spaced-repetition/SKILL.md)** — Spaced repetition: active retrieval + expanding intervals (SRS/review schedules).
+- **[ten-thousand-hours](skills/learning-growth/ten-thousand-hours/SKILL.md)** — Ten-thousand-hours myth check: hours ≠ expertise; redirect to deliberate practice.
+- **[zpd](skills/learning-growth/zpd/SKILL.md)** — Zone of proximal development: place tasks between independent and assisted success with fading scaffolds.
 
-### Strategy & Competition（4）
+### Strategy & Competition（10）
 
-Five forces, moats, flywheels, SWOT.
+Five forces, moats, flywheels, SWOT, plus M3 drafts (blue ocean, second curve, disruption, BCG, OKR, VRIO).
 
+- **[bcg-matrix](skills/strategy-competition/bcg-matrix/SKILL.md)** — BCG matrix: growth×relative share quadrants for portfolio invest/harvest/exit.
+- **[blue-ocean](skills/strategy-competition/blue-ocean/SKILL.md)** — Blue ocean: value innovation via ERRC to rebuild buyer utility and cost.
+- **[disruptive-innovation](skills/strategy-competition/disruptive-innovation/SKILL.md)** — Disruptive innovation: low-end/new-market trajectories vs incumbent incentives.
 - **[economic-moat](skills/strategy-competition/economic-moat/SKILL.md)** — Economic moat: assess whether a firm can sustain excess returns via durable competitive advantages.
 - **[flywheel](skills/strategy-competition/flywheel/SKILL.md)** — Flywheel: design or diagnose accelerating causal loops where each turn strengthens the next.
+- **[okr](skills/strategy-competition/okr/SKILL.md)** — OKR: align ambitious objectives with measurable key results (not task lists).
 - **[porters-five-forces](skills/strategy-competition/porters-five-forces/SKILL.md)** — Porter’s five forces: diagnose industry profit structure via rivalry, entrants, substitutes, buyers, suppliers.
+- **[second-curve](skills/strategy-competition/second-curve/SKILL.md)** — Second curve: start the next S-curve before the first peaks; set funding and kill rules.
 - **[swot](skills/strategy-competition/swot/SKILL.md)** — SWOT: structure internal strengths/weaknesses × external opportunities/threats, then TOWS matching.
+- **[vrio](skills/strategy-competition/vrio/SKILL.md)** — VRIO: audit whether resources are valuable, rare, costly to imitate, and organized.
 
-### Efficiency & Execution（2）
+### Efficiency & Execution（9）
 
-Eisenhower matrix, PDCA, execution habits.
+Eisenhower, PDCA, plus M3 drafts (Pomodoro, GTD, Kanban, agile iteration, lean, critical path, 5S). Deep work lives under Learning & Growth.
 
+- **[agile-iteration](skills/efficiency-execution/agile-iteration/SKILL.md)** — Agile iteration: short timeboxes delivering inspectable increments, then adapt.
+- **[critical-path](skills/efficiency-execution/critical-path/SKILL.md)** — Critical path: longest dependency chain that sets project duration.
 - **[eisenhower-matrix](skills/efficiency-execution/eisenhower-matrix/SKILL.md)** — Eisenhower matrix: sort work by urgent×important; prioritize important-but-not-urgent.
+- **[five-s](skills/efficiency-execution/five-s/SKILL.md)** — 5S: sort, set in order, shine, standardize, sustain for workplace/digital hygiene.
+- **[gtd](skills/efficiency-execution/gtd/SKILL.md)** — GTD: capture–clarify–organize–review into trusted next actions.
+- **[kanban](skills/efficiency-execution/kanban/SKILL.md)** — Kanban: visualize flow and limit WIP in a pull system.
+- **[lean-thinking](skills/efficiency-execution/lean-thinking/SKILL.md)** — Lean thinking: map value streams and remove waste (Kanban/5S as tools).
 - **[pdca](skills/efficiency-execution/pdca/SKILL.md)** — PDCA: Plan–Do–Check/Study–Act continuous improvement loops with explicit measures.
+- **[pomodoro](skills/efficiency-execution/pomodoro/SKILL.md)** — Pomodoro: fixed focus/break timeboxes (≠ deep-work long blocks).
 
 ### Systems & Complexity（11）
 

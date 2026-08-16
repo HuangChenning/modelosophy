@@ -58,6 +58,9 @@ metadata:
 
 ## 相关模型
 
+- **与[VRIO](../vrio/SKILL.md)**：护城河偏壁垒类型与超额回报叙事；VRIO 偏内部资源四问审计——可互证。
+- **与[蓝海战略](../blue-ocean/SKILL.md)**：开新空间后仍需问壁垒能否维持。
+- **与[颠覆式创新](../disruptive-innovation/SKILL.md)**：低端轨迹常绕开旧护城河。
 - **与[波特五力](../porters-five-forces/SKILL.md)**：五力=行业结构；护城河=主体可持续超额的来源。
 - **与[梅特卡夫法则](../../systems-classic-effects/metcalfes-law/SKILL.md)**：网络效应机制专条；是否构成护城河要看多宿与衰减。
 - **与[飞轮](../flywheel/SKILL.md)**：飞轮描述增长加速回路；护城河描述利润不被侵蚀。

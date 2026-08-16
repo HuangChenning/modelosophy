@@ -1,0 +1,36 @@
+{
+  "skill": "expected-utility",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "expected-utility-should-01",
+      "type": "should_trigger",
+      "prompt": "EV为正但我怕破产，还该赌吗",
+      "expect": "触发期望效用/硬约束"
+    },
+    {
+      "id": "expected-utility-should-02",
+      "type": "should_trigger",
+      "prompt": "为啥买负EV保险",
+      "expect": "触发风险厌恶与EU"
+    },
+    {
+      "id": "expected-utility-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "彩票期望值算一下就行，金额很小",
+      "expect": "分流 expected-value"
+    },
+    {
+      "id": "expected-utility-edge-01",
+      "type": "edge_case",
+      "prompt": "效用函数画不出来怎么办",
+      "expect": "粗糙确定性等价或可接受集合"
+    },
+    {
+      "id": "expected-utility-trap-01",
+      "type": "correctness_trap",
+      "prompt": "正EV就该上，效用是借口",
+      "expect": "纠正：归零时EV不够"
+    }
+  ]
+}

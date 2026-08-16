@@ -238,19 +238,20 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 4 | 行为经济学与认知偏误 | `behavioral-biases` | **复用** | 名录 30 条 **已有** |
 | 5 | 金融与投资模型 | `finance-investing-models` | **复用** | 名录 30 条 **已有** |
 | 6 | 系统思维与经典效应 | `systems-classic-effects` | **复用** | 名录 30 条 **已有**（首因/近因→`serial-position-effect`；网络效应→`metcalfes-law`） |
-| 7 | 认知与思维工具 | `cognitive-thinking-tools` | **新建**；迁入 8 | 现 **17**（M1 新建 9）；余 **待新建** |
-| 8 | 决策与概率 | `decision-probability` | **新建**；迁入 2 | 种子已有；部分 **已有@他类**；余待新建 |
-| 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 种子已有；余待新建 |
-| 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 种子已有；余待新建 |
-| 11 | 效率与执行 | `efficiency-execution` | **新建**；迁入 2 | 种子已有；余待新建 |
+| 7 | 认知与思维工具 | `cognitive-thinking-tools` | **新建**；迁入 8 | 现 **28**（M1 新建 9 + 剩余补齐 11）；名录专条已齐（二阶/SWOT 仍@他类） |
+| 8 | 决策与概率 | `decision-probability` | **新建**；迁入 2 | 现 **13**（M2 新建 11）；部分 **已有@他类**；余待新建 |
+| 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 现 **11**（M3 新建 6）；余 **待新建** |
+| 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 现 **10**（M3 新建 6）；余 **待新建** |
+| 11 | 效率与执行 | `efficiency-execution` | **新建**；迁入 2 | 现 **9**（M3 新建 7）；余 **待新建** |
 | 12 | 系统与复杂 | `systems-complexity` | **新建**；迁入 4；与第六类互补 | 现 **11**（种子 4 + M4 新建 7）；与第六类重复项只互链 |
 
 ### 3. 分批里程碑（建议）
 
 - [x] **M0**：名录写入 ROADMAP + 6 个新分类 README 壳 + 25 条物理迁移 + 链接/根 README 对账  
-- [x] **M1（首批）**：第七类优先缺口已建 9 条（`five-whys` / `scqa` / `theory-of-constraints` / `triz` / `hypothesis-testing` / `structured-thinking` / `lateral-thinking` / `logic-tree` / `star-method`，均 `v0.x-draft`）；类内现 **17**；其余名录条仍待新建  
-- [ ] **M2**：第八类补齐（贝叶斯更新、情景规划、事前验尸、OODA 等）；决策视角的沉没/机会成本 **互链**既有 Skill，不复制目录  
-- [ ] **M3**：第九–十一类分批新建（刻意练习、蓝海、看板/GTD 等）  
+- [x] **M1（首批）**：第七类优先缺口已建 9 条（`five-whys` / `scqa` / `theory-of-constraints` / `triz` / `hypothesis-testing` / `structured-thinking` / `lateral-thinking` / `logic-tree` / `star-method`，均 `v0.x-draft`）
+- [x] **M1（第七类剩余）**：补齐 11 条（`analogical-thinking` / `abstraction-ladder` / `cross-validation-thinking` / `backward-goal` / `thought-experiment` / `diamond-six-steps` / `octopus-diagram` / `concept-map` / `mind-map` / `decision-matrix` / `pros-cons-list`，均 `v0.x-draft` + 最小 evals）；类内现 **28**；二阶思维/SWOT 仍为已有@他类不重复建  
+- [x] **M2（首批）**：第八类高价值新建 11 条（`bayesian-updating` / `grey-thinking` / `reversible-irreversible` / `mvp` / `red-team` / `pre-mortem` / `ooda-loop` / `planning-fallacy` / `scenario-planning` / `expected-utility` / `base-rate`，均 `v0.x-draft`）；类内现 **13**；沉没/机会成本/凯利/满意化/临界/杠铃 **只互链不复制**；名录其余条仍待新建  
+- [x] **M3（首批）**：第九–十一类已建 draft（学习 +6→11；战略 +6→10；效率 +7→9；`deep-work` 落学习类）。分支 `feature/m3-learning-strategy-efficiency`；其余名录条仍待新建  
 - [x] **M4（首批）**：第十二类新建 7 条（`emergence` / `system-archetypes` / `causal-loop-diagram` / `stock-and-flow` / `complex-adaptive-systems` / `small-world-network` / `scale-free-network`，均 `v0.x-draft`）；类内现 **11**；路径依赖/锁定/网络效应/熵增/反馈等仍@`systems-classic-effects` 只互链  
 - [x] **M5**：跨类相关模型抽查 + 分类 README 定稿；可选 evals 最小集（见 Phase 3 子项；双向建议仍可选残留）  
 
@@ -273,34 +274,55 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 结构化思维 | 已有@`…/structured-thinking`（`v0.x-draft`） |
 | 批判性思维 | 已有@`…/critical-thinking` |
 | 水平思考 | 已有@`…/lateral-thinking`（`v0.x-draft`） |
-| 类比思维 | 待新建（`analogical-thinking`） |
-| 抽象阶梯 | 待新建（`abstraction-ladder`；≠ `ladder-of-inference`） |
+| 类比思维 | 已有@`…/analogical-thinking`（`v0.x-draft`） |
+| 抽象阶梯 | 已有@`…/abstraction-ladder`（`v0.x-draft`；≠ `ladder-of-inference`） |
 | 黄金圈法则 | 已有@`…/golden-circle` |
 | SCQA 框架 | 已有@`…/scqa`（`v0.x-draft`） |
 | STAR 法则 | 已有@`…/star-method`（`v0.x-draft`） |
 | SWOT 分析 | 已有@他类 `strategy-competition/swot`（战略主条；认知场景互链） |
-| 交叉验证 | 待新建（`cross-validation-thinking`） |
-| 反向目标 | 待新建（`backward-goal`） |
-| 思维实验 | 待新建（`thought-experiment`） |
-| 菱形六步法 | 待新建（`diamond-six-steps`） |
+| 交叉验证 | 已有@`…/cross-validation-thinking`（`v0.x-draft`） |
+| 反向目标 | 已有@`…/backward-goal`（`v0.x-draft`） |
+| 思维实验 | 已有@`…/thought-experiment`（`v0.x-draft`） |
+| 菱形六步法 | 已有@`…/diamond-six-steps`（`v0.x-draft`） |
 | TOC 约束理论 | 已有@`…/theory-of-constraints`（`v0.x-draft`） |
 | TRIZ 发明原理 | 已有@`…/triz`（`v0.x-draft`） |
-| 八爪鱼图 / 概念图 / 思维导图 / 逻辑树 | 逻辑树已有@`…/logic-tree`（`v0.x-draft`）；其余待新建（`octopus-diagram` / `concept-map` / `mind-map`） |
-| 决策矩阵 / 优劣势清单 / 假设检验 | 假设检验已有@`…/hypothesis-testing`（`v0.x-draft`）；其余待新建（`decision-matrix` / `pros-cons-list`） |
+| 八爪鱼图 / 概念图 / 思维导图 / 逻辑树 | 已有@`…/octopus-diagram` / `concept-map` / `mind-map` / `logic-tree`（均 `v0.x-draft`） |
+| 决策矩阵 / 优劣势清单 / 假设检验 | 均已有@`…/decision-matrix` · `pros-cons-list` · `hypothesis-testing`（`v0.x-draft`；矩阵/利弊与第八类决策树在相关模型分流） |
 
 #### 八、`decision-probability`
 
 | 名录 | 状态 |
 |---|---|
 | 期望值思维 | 已有@`decision-probability/expected-value` |
+| 贝叶斯更新 | 已有@`…/bayesian-updating`（`v0.x-draft`；≠ `bayesian-games`） |
 | 决策树 | 已有@`…/decision-tree` |
+| 概率论思维 | 待新建（`probability-thinking`；可与基率/贝叶斯互链，避免空壳总论） |
+| 灰度认知 | 已有@`…/grey-thinking`（`v0.x-draft`） |
+| 可逆与不可逆决策 | 已有@`…/reversible-irreversible`（`v0.x-draft`） |
+| 杠铃策略 / 反脆弱相关 | 部分已有@他类 `learning-growth/antifragility`（杠铃专条可后续拆或互链） |
+| 满意化原则 | 已有@他类 `game-theory-models/bounded-rationality`（有限理性与满意化；不复制） |
+| 最小可行性产品 | 已有@`…/mvp`（`v0.x-draft`） |
+| 快速试错 | 待新建（`rapid-experimentation`；与 MVP/OODA 分流） |
+| 奥兹冒险 | 待新建（`oz-principle` / accountability；确认名录原意后再建） |
+| 风险不对称 / 不对称回报 | 待新建或并入反脆弱互链（`asymmetric-payoff`） |
 | 凯利准则 | 已有@他类 `finance-investing-models/kelly-criterion` |
+| 蒙特卡洛模拟 | 待新建（`monte-carlo`） |
+| 敏感性分析 | 待新建（`sensitivity-analysis`；决策树步骤已含部分） |
+| 情景规划 | 已有@`…/scenario-planning`（`v0.x-draft`） |
+| 预验式回顾 | 并入@`…/pre-mortem`（与事前验尸同法；不另建） |
+| 红队思维 | 已有@`…/red-team`（`v0.x-draft`） |
+| 事前验尸 | 已有@`…/pre-mortem`（`v0.x-draft`） |
+| 决策日志 | 待新建（`decision-journal`） |
 | 沉没成本（决策视角） | 已有@他类 `behavioral-biases/sunk-cost`（互链，不复制） |
 | 机会成本（决策视角） | 已有@他类 `econ-micro-markets/opportunity-cost` |
-| 满意化原则 | 已有@他类 `game-theory-models/bounded-rationality`（有限理性与满意化） |
+| 阈值效应 | 待新建（`threshold-effect`；注意与临界点分流） |
 | 临界质量 | 已有@他类 `systems-complexity/tipping-point` |
-| 杠铃策略 / 反脆弱相关 | 部分已有@`learning-growth/antifragility`（杠铃专条可后续拆或互链） |
-| 其余（贝叶斯更新、灰度认知、可逆决策、MVP、红队、事前验尸、OODA、计划谬误等） | 待新建（建议 slug：`bayesian-updating`、`grey-thinking`、`reversible-irreversible`、`mvp`、`red-team`、`pre-mortem`、`ooda-loop`、`planning-fallacy` 等） |
+| 复盘四步法 | 待新建（`after-action-review`） |
+| OODA 循环 | 已有@`…/ooda-loop`（`v0.x-draft`） |
+| 计划谬误 | 已有@`…/planning-fallacy`（`v0.x-draft`） |
+| 损失函数 | 待新建（`loss-function`；与期望效用分流） |
+| 风险溢价 | 待新建或互链金融类（`risk-premium`） |
+| （增补）期望效用 / 基率 | 已有@`…/expected-utility` · `base-rate`（`v0.x-draft`；名录未单列但与 EV/贝叶斯硬区分需要） |
 
 #### 九、`learning-growth`
 
@@ -311,7 +333,8 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 元认知 | 已有@`…/metacognition` |
 | 艾宾浩斯遗忘曲线 | 已有@`…/forgetting-curve` |
 | 反脆弱 | 已有@`…/antifragility` |
-| 其余（刻意练习、间隔重复、成长型思维、一万小时、深度工作、ZPD 等） | 待新建（`deliberate-practice`、`spaced-repetition`、`growth-mindset`、`ten-thousand-hours`、`deep-work`、`zpd` 等） |
+| 刻意练习 / 间隔重复 / 成长型思维 / 一万小时 / 深度工作 / ZPD | 已有@`learning-growth/*`（M3 `v0.x-draft`） |
+| 其余学习法扩展 | 待新建 |
 
 #### 十、`strategy-competition`
 
@@ -322,7 +345,8 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 护城河 | 已有@`…/economic-moat` |
 | SWOT（战略视角） | 已有@`…/swot` |
 | 长尾战略 | 已有@他类 `systems-classic-effects/long-tail`（战略用法互链） |
-| 其余（蓝海、第二曲线、颠覆式创新、BCG/GE、OKR、VRIO、七S 等） | 待新建（`blue-ocean`、`second-curve`、`disruptive-innovation`、`bcg-matrix`、`okr`、`vrio`、`mckinsey-7s` 等） |
+| 蓝海 / 第二曲线 / 颠覆式创新 / BCG / OKR / VRIO | 已有@`strategy-competition/*`（M3 `v0.x-draft`） |
+| GE 九宫 / 七S 等 | 待新建（`ge-mckinsey-matrix`、`mckinsey-7s` 等） |
 
 #### 十一、`efficiency-execution`
 
@@ -331,8 +355,9 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 艾森豪威尔矩阵 | 已有@`efficiency-execution/eisenhower-matrix` |
 | PDCA 循环 | 已有@`…/pdca` |
 | 80/20 时间法 | 已有@他类 `systems-classic-effects/pareto-principle`（时间用法互链） |
-| 深度工作法 | 与第九类「深度工作」合并建一条即可（建议落 `learning-growth/deep-work` 或本类，二选一） |
-| 其余（番茄、GTD、看板、敏捷、关键路径、精益、5S 等） | 待新建（`pomodoro`、`gtd`、`kanban`、`agile-iteration`、`critical-path`、`lean-thinking`、`five-s` 等） |
+| 深度工作法 | 已有@他类 `learning-growth/deep-work`（主条；本类互链） |
+| 番茄 / GTD / 看板 / 敏捷迭代 / 关键路径 / 精益 / 5S | 已有@`efficiency-execution/*`（M3 `v0.x-draft`） |
+| 其余效率法扩展 | 待新建 |
 
 #### 十二、`systems-complexity`
 

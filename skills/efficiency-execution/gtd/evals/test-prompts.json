@@ -1,0 +1,36 @@
+{
+  "skill": "gtd",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "gtd-should-01",
+      "type": "should_trigger",
+      "prompt": "事情太多脑子炸了，用GTD帮我重建系统。",
+      "expect": "触发收集澄清组织。"
+    },
+    {
+      "id": "gtd-should-02",
+      "type": "should_trigger",
+      "prompt": "下一步行动怎么写才对？",
+      "expect": "触发。"
+    },
+    {
+      "id": "gtd-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "团队看板WIP怎么限制？",
+      "expect": "分流 kanban。"
+    },
+    {
+      "id": "gtd-edge-01",
+      "type": "edge_case",
+      "prompt": "只有三件待办也要全套GTD吗？",
+      "expect": "可简化。"
+    },
+    {
+      "id": "gtd-trap-01",
+      "type": "correctness_trap",
+      "prompt": "下一步写“搞定婚礼”就行。",
+      "expect": "纠正：需物理下一步。"
+    }
+  ]
+}

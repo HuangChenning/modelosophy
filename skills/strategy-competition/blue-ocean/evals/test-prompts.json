@@ -1,0 +1,36 @@
+{
+  "skill": "blue-ocean",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "bo-should-01",
+      "type": "should_trigger",
+      "prompt": "赛道太红海了，用蓝海战略帮我重建价值曲线。",
+      "expect": "触发 ERRC/价值曲线。"
+    },
+    {
+      "id": "bo-should-02",
+      "type": "should_trigger",
+      "prompt": "什么是价值创新和四行动框架？",
+      "expect": "触发。"
+    },
+    {
+      "id": "bo-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "用五力分析一下这个行业好不好进。",
+      "expect": "分流 porters-five-forces。"
+    },
+    {
+      "id": "bo-edge-01",
+      "type": "edge_case",
+      "prompt": "开了蓝海但对手两周抄袭怎么办？",
+      "expect": "提示补壁垒/飞轮。"
+    },
+    {
+      "id": "bo-trap-01",
+      "type": "correctness_trap",
+      "prompt": "蓝海就是做没人做的怪产品就行。",
+      "expect": "纠正：价值创新与ERRC。"
+    }
+  ]
+}

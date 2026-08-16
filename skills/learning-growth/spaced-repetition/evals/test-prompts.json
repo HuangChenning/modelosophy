@@ -1,0 +1,36 @@
+{
+  "skill": "spaced-repetition",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "sr-should-01",
+      "type": "should_trigger",
+      "prompt": "帮我设计 Anki 间隔重复策略背单词。",
+      "expect": "触发 SRS 操作步骤。"
+    },
+    {
+      "id": "sr-should-02",
+      "type": "should_trigger",
+      "prompt": "复习计划怎么安排间隔？",
+      "expect": "触发间隔重复日程。"
+    },
+    {
+      "id": "sr-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "用费曼技巧讲清楚相对论。",
+      "expect": "分流到 feynman-technique。"
+    },
+    {
+      "id": "sr-edge-01",
+      "type": "edge_case",
+      "prompt": "概念没懂能不能先狂制卡 SRS？",
+      "expect": "边界：先理解再间隔。"
+    },
+    {
+      "id": "sr-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把笔记再读一遍就算间隔重复。",
+      "expect": "纠正：必须主动检索。"
+    }
+  ]
+}
