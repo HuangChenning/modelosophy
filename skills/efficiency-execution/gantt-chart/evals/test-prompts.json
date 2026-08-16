@@ -1,0 +1,11 @@
+{
+  "skill": "gantt-chart",
+  "version": "v0.x-draft",
+  "tests": [
+    {"id": "ga-should-01", "type": "should_trigger", "prompt": "怎么画项目甘特图给老板看？", "expect": "触发。"},
+    {"id": "ga-should-02", "type": "should_trigger", "prompt": "Gantt 条形图如何标依赖？", "expect": "触发。"},
+    {"id": "ga-decoy-01", "type": "should_not_trigger", "prompt": "哪条依赖链决定最短工期？", "expect": "分流 critical-path。"},
+    {"id": "ga-edge-01", "type": "edge_case", "prompt": "看板团队还要维护详细甘特吗？", "expect": "边界：易过时。"},
+    {"id": "ga-trap-01", "type": "correctness_trap", "prompt": "条最长的任务就是关键路径。", "expect": "纠正：看依赖网最长链。"}
+  ]
+}

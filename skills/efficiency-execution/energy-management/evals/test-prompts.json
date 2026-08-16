@@ -1,0 +1,11 @@
+{
+  "skill": "energy-management",
+  "version": "v0.x-draft",
+  "tests": [
+    {"id": "em-should-01", "type": "should_trigger", "prompt": "下午脑雾，怎么按精力排任务？", "expect": "触发精力管理。"},
+    {"id": "em-should-02", "type": "should_trigger", "prompt": "energy management 高峰低谷怎么用？", "expect": "触发。"},
+    {"id": "em-decoy-01", "type": "should_not_trigger", "prompt": "把任务写进日历做时间块。", "expect": "分流 time-blocking。"},
+    {"id": "em-edge-01", "type": "edge_case", "prompt": "三班倒也能画理想精力曲线吗？", "expect": "边界：约束内微调。"},
+    {"id": "em-trap-01", "type": "correctness_trap", "prompt": "精力管理就是多喝咖啡熬夜。", "expect": "纠正：恢复与睡眠优先。"}
+  ]
+}

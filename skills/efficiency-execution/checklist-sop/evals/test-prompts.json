@@ -1,0 +1,11 @@
+{
+  "skill": "checklist-sop",
+  "version": "v0.x-draft",
+  "tests": [
+    {"id": "cs-should-01", "type": "should_trigger", "prompt": "发布总漏步骤，想做 checklist。", "expect": "触发。"},
+    {"id": "cs-should-02", "type": "should_trigger", "prompt": "怎么写团队 SOP？", "expect": "触发。"},
+    {"id": "cs-decoy-01", "type": "should_not_trigger", "prompt": "用PDCA跑改进实验。", "expect": "分流 pdca。"},
+    {"id": "cs-edge-01", "type": "edge_case", "prompt": "全新产品探索也要厚SOP吗？", "expect": "边界：先探索再固化。"},
+    {"id": "cs-trap-01", "type": "correctness_trap", "prompt": "清单越长越安全。", "expect": "纠正：过长无人用。"}
+  ]
+}

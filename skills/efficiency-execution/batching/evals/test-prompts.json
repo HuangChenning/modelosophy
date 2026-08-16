@@ -1,0 +1,11 @@
+{
+  "skill": "batching",
+  "version": "v0.x-draft",
+  "tests": [
+    {"id": "bat-should-01", "type": "should_trigger", "prompt": "邮件整天打断，想批处理回复。", "expect": "触发批处理。"},
+    {"id": "bat-should-02", "type": "should_trigger", "prompt": "怎么合并同类行政事务？", "expect": "触发。"},
+    {"id": "bat-decoy-01", "type": "should_not_trigger", "prompt": "看板 WIP 上限怎么定？", "expect": "分流 wip-limits/kanban。"},
+    {"id": "bat-edge-01", "type": "edge_case", "prompt": "安全告警也能批到下午吗？", "expect": "边界：不可批。"},
+    {"id": "bat-trap-01", "type": "correctness_trap", "prompt": "批得越大越高效。", "expect": "纠正：过大批量增加等待。"}
+  ]
+}

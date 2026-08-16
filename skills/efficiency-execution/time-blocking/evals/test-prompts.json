@@ -1,0 +1,11 @@
+{
+  "skill": "time-blocking",
+  "version": "v0.x-draft",
+  "tests": [
+    {"id": "tb-should-01", "type": "should_trigger", "prompt": "我想用时间块把写作写进日历。", "expect": "触发时间块。"},
+    {"id": "tb-should-02", "type": "should_trigger", "prompt": "日程太碎，怎么做 time blocking？", "expect": "触发。"},
+    {"id": "tb-decoy-01", "type": "should_not_trigger", "prompt": "紧急重要怎么四象限？", "expect": "分流 eisenhower-matrix。"},
+    {"id": "tb-edge-01", "type": "edge_case", "prompt": "值班岗也能硬时间块吗？", "expect": "边界：值班窗+短块。"},
+    {"id": "tb-trap-01", "type": "correctness_trap", "prompt": "深度工作就是把日历排满会议。", "expect": "纠正：深度工作≠会议填满；互链 deep-work。"}
+  ]
+}

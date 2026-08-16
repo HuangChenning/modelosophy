@@ -1,0 +1,11 @@
+{
+  "skill": "standup",
+  "version": "v0.x-draft",
+  "tests": [
+    {"id": "su-should-01", "type": "should_trigger", "prompt": "团队每日站会怎么开才不超时？", "expect": "触发。"},
+    {"id": "su-should-02", "type": "should_trigger", "prompt": "daily scrum 该说什么？", "expect": "触发。"},
+    {"id": "su-decoy-01", "type": "should_not_trigger", "prompt": "帮我设计整个 Sprint 计划与回顾。", "expect": "分流 agile-iteration。"},
+    {"id": "su-edge-01", "type": "edge_case", "prompt": "两个人也要每天站会吗？", "expect": "可简化。"},
+    {"id": "su-trap-01", "type": "correctness_trap", "prompt": "站会就该把技术方案讨论清楚。", "expect": "纠正：会后停车坪。"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "skill": "delegation",
+  "version": "v0.x-draft",
+  "tests": [
+    {"id": "del-should-01", "type": "should_trigger", "prompt": "我成了瓶颈，怎么把工作委派出去？", "expect": "触发。"},
+    {"id": "del-should-02", "type": "should_trigger", "prompt": "delegation 如何写清完成定义？", "expect": "触发。"},
+    {"id": "del-decoy-01", "type": "should_not_trigger", "prompt": "两分钟能回的邮件要不要委派？", "expect": "分流 two-minute-rule。"},
+    {"id": "del-edge-01", "type": "edge_case", "prompt": "没人可委派怎么办？", "expect": "先减范围/加资源。"},
+    {"id": "del-trap-01", "type": "correctness_trap", "prompt": "委派了就不用管，出了事怪下属。", "expect": "纠正：跟进与委派质量。"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "skill": "two-minute-rule",
+  "version": "v0.x-draft",
+  "tests": [
+    {"id": "tm-should-01", "type": "should_trigger", "prompt": "澄清收件箱时用两分钟法则怎么判？", "expect": "触发。"},
+    {"id": "tm-should-02", "type": "should_trigger", "prompt": "这个回复要不要记待办还是直接回？", "expect": "触发两分钟判断。"},
+    {"id": "tm-decoy-01", "type": "should_not_trigger", "prompt": "帮我重建整套GTD。", "expect": "分流 gtd。"},
+    {"id": "tm-edge-01", "type": "edge_case", "prompt": "深度写作时冒出两分钟邮件怎么办？", "expect": "先记下块后再做。"},
+    {"id": "tm-trap-01", "type": "correctness_trap", "prompt": "报告开写两分钟也算两分钟法则。", "expect": "纠正：需完整闭环。"}
+  ]
+}
