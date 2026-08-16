@@ -1,0 +1,36 @@
+{
+  "skill": "cross-validation-thinking",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "cross-validation-thinking-should-01",
+      "type": "should_trigger",
+      "prompt": "这个结论很关键，帮我做交叉验证、多源核实。",
+      "expect": "触发独立证据簇设计。"
+    },
+    {
+      "id": "cross-validation-thinking-should-02",
+      "type": "should_trigger",
+      "prompt": "访谈和数据打架，怎么三角互证？",
+      "expect": "触发分歧处理与独立路径。"
+    },
+    {
+      "id": "cross-validation-thinking-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我设计一个可证伪的假设检验实验。",
+      "expect": "分流 hypothesis-testing。"
+    },
+    {
+      "id": "cross-validation-thinking-edge-01",
+      "type": "edge_case",
+      "prompt": "五家媒体都报道算五个独立源吗？",
+      "expect": "纠正：可能同源转载，要看生成过程。"
+    },
+    {
+      "id": "cross-validation-thinking-trap-01",
+      "type": "correctness_trap",
+      "prompt": "交叉验证就是机器学习的k-fold。",
+      "expect": "纠正：此处是认知/调查三角互证。"
+    }
+  ]
+}

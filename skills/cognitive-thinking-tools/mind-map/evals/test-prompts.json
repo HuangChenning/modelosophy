@@ -1,0 +1,36 @@
+{
+  "skill": "mind-map",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "mind-map-should-01",
+      "type": "should_trigger",
+      "prompt": "用思维导图把会议内容做成放射笔记。",
+      "expect": "触发中心-主干-关键词。"
+    },
+    {
+      "id": "mind-map-should-02",
+      "type": "should_trigger",
+      "prompt": "画张脑图先把想法倒出来。",
+      "expect": "触发 mind map。"
+    },
+    {
+      "id": "mind-map-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "我要命题和连接词的知识结构图。",
+      "expect": "分流 concept-map。"
+    },
+    {
+      "id": "mind-map-edge-01",
+      "type": "edge_case",
+      "prompt": "导图画得很美但没有行动清单算完成吗？",
+      "expect": "要求回收输出。"
+    },
+    {
+      "id": "mind-map-trap-01",
+      "type": "correctness_trap",
+      "prompt": "思维导图画完就完成了严格因果分析。",
+      "expect": "纠正：分析需升级逻辑树/概念图等。"
+    }
+  ]
+}
