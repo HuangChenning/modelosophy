@@ -1,0 +1,36 @@
+{
+  "skill": "pre-mortem",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "pre-mortem-should-01",
+      "type": "should_trigger",
+      "prompt": "上线前做事前验尸",
+      "expect": "触发失败已成事实框架"
+    },
+    {
+      "id": "pre-mortem-should-02",
+      "type": "should_trigger",
+      "prompt": "premortem挖出不敢说的风险",
+      "expect": "触发"
+    },
+    {
+      "id": "pre-mortem-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "事故已经发生，做根因分析",
+      "expect": "分流 post-mortem/five-whys"
+    },
+    {
+      "id": "pre-mortem-edge-01",
+      "type": "edge_case",
+      "prompt": "领导先说必须成功再验尸",
+      "expect": "失效；领袖勿先表态"
+    },
+    {
+      "id": "pre-mortem-trap-01",
+      "type": "correctness_trap",
+      "prompt": "问可能有什么风险就算验尸",
+      "expect": "纠正：必须用已失败框架"
+    }
+  ]
+}

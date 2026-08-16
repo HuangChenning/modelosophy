@@ -1,0 +1,36 @@
+{
+  "skill": "pros-cons-list",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "pros-cons-list-should-01",
+      "type": "should_trigger",
+      "prompt": "列个优劣势清单/pros and cons帮我看要不要跳槽。",
+      "expect": "触发利弊并列与重要性标注。"
+    },
+    {
+      "id": "pros-cons-list-should-02",
+      "type": "should_trigger",
+      "prompt": "先把好坏处写出来再谈。",
+      "expect": "触发 pros-cons。"
+    },
+    {
+      "id": "pros-cons-list-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "要显式权重和敏感性分析的评分表。",
+      "expect": "分流 decision-matrix。"
+    },
+    {
+      "id": "pros-cons-list-edge-01",
+      "type": "edge_case",
+      "prompt": "利的条数比弊多是不是就该做？",
+      "expect": "纠正：条数≠权重，看重要性与否决。"
+    },
+    {
+      "id": "pros-cons-list-trap-01",
+      "type": "correctness_trap",
+      "prompt": "优劣势清单就是SWOT。",
+      "expect": "纠正：选项利弊 vs 战略四格环境扫描。"
+    }
+  ]
+}

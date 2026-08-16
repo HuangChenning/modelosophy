@@ -1,0 +1,36 @@
+{
+  "skill": "red-team",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "red-team-should-01",
+      "type": "should_trigger",
+      "prompt": "帮我红队攻击这个上线方案",
+      "expect": "触发独立对抗与漏洞清单"
+    },
+    {
+      "id": "red-team-should-02",
+      "type": "should_trigger",
+      "prompt": "找致命漏洞别和稀泥",
+      "expect": "触发红队"
+    },
+    {
+      "id": "red-team-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "开会假装项目已失败找原因",
+      "expect": "分流 pre-mortem"
+    },
+    {
+      "id": "red-team-edge-01",
+      "type": "edge_case",
+      "prompt": "小改文案也要正式红队吗",
+      "expect": "成本过高可直接试"
+    },
+    {
+      "id": "red-team-trap-01",
+      "type": "correctness_trap",
+      "prompt": "让新人提点反对意见就算红队",
+      "expect": "纠正：需独立目标与闭环"
+    }
+  ]
+}

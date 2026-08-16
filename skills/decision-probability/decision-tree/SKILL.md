@@ -69,3 +69,6 @@ metadata:
 - **与[奥卡姆剃刀](../../cognitive-thinking-tools/occams-razor/SKILL.md)**：奥卡姆剃刀给解释排验证顺序；本模型给行动与后果排选择。
 - **与[10/10/10](../../thinking-models/ten-ten-ten/SKILL.md)**：本模型量化不确定后果；10/10/10拉开短中长期的价值视角，可用于补全终点价值。
 - **与[期望值](../expected-value/SKILL.md)**：**硬区分。** 用户说画树 / 先试点再上 / 信息值多少钱 → 决策树。用户说这笔静态不确定结果的期望 / 点数公平切 / 彩票 EV → 「期望值」。
+- **与[期望效用](../expected-utility/SKILL.md)**：树叶结果可用效用折叠；用户主诉风险厌恶/归零而非画树时，可先走期望效用。
+- **与[情景规划](../scenario-planning/SKILL.md)**：概率可粗估、要折叠 EV → 本模型；深度不确定、要分歧叙事与稳健选项 → 情景规划。
+- **与[贝叶斯更新](../bayesian-updating/SKILL.md)**：机会节点概率随证据更新后再折叠。

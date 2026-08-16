@@ -8,7 +8,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ## 项目简介与现状
 
-这个仓库还处于早期阶段。`skills/<category>/` 下合计 **260** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
+这个仓库还处于早期阶段。`skills/<category>/` 下合计 **282** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
@@ -18,8 +18,8 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | --- | ---: | --- |
 | [商业 / 组织情报](skills/business/README.md) | 1 | [目录](#商业--组织情报1) |
 | [通用思维模型](skills/thinking-models/README.md) | 25 | [目录](#通用思维模型25) |
-| [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 17 | [目录](#认知与思维工具17) |
-| [决策与概率](skills/decision-probability/README.md) | 2 | [目录](#决策与概率2) |
+| [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | [目录](#认知与思维工具28) |
+| [决策与概率](skills/decision-probability/README.md) | 13 | [目录](#决策与概率13) |
 | [学习与成长](skills/learning-growth/README.md) | 11 | [目录](#学习与成长11) |
 | [战略与竞争](skills/strategy-competition/README.md) | 10 | [目录](#战略与竞争10) |
 | [效率与执行](skills/efficiency-execution/README.md) | 9 | [目录](#效率与执行9) |
@@ -68,7 +68,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计 **260** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 53）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
+库仍处于早期：跨分类合计 **282** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 75）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
 
 ## 贡献一个思维模型
 
@@ -76,7 +76,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## Skill 目录
 
-全部 **260** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
+全部 **282** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
 
 ### 商业 / 组织情报（1）
 
@@ -114,11 +114,18 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[spiral-of-silence](skills/thinking-models/spiral-of-silence/SKILL.md)** — 沉默的螺旋：诊断「怕被孤立→误判意见气候→少数派沉默→优势意见更响」的舆论动力。
 - **[ten-ten-ten](skills/thinking-models/ten-ten-ten/SKILL.md)** — 10/10/10：从当下强烈情绪拉开时间距离，分别写出约 10 分钟/10 个月/10 年的后果。
 
-### 认知与思维工具（17）
+### 认知与思维工具（28）
 
 第一性原理、结构化拆解、批判性思维等认知工具。
 
+- **[abstraction-ladder](skills/cognitive-thinking-tools/abstraction-ladder/SKILL.md)** — 抽象阶梯：在具体与抽象之间有意识上下钻（草稿；≠ 推论阶梯）。
+- **[analogical-thinking](skills/cognitive-thinking-tools/analogical-thinking/SKILL.md)** — 类比思维：结构映射迁移并检验失效边界（草稿）。
+- **[backward-goal](skills/cognitive-thinking-tools/backward-goal/SKILL.md)** — 反向目标：从可验收终态倒推到今日动作（草稿）。
+- **[concept-map](skills/cognitive-thinking-tools/concept-map/SKILL.md)** — 概念图：概念+连接词构成命题网络（草稿）。
 - **[critical-thinking](skills/cognitive-thinking-tools/critical-thinking/SKILL.md)** — 批判性思维：按 Facione Delphi 框架练诠释、分析、评估、推理、说明与自我校准。
+- **[cross-validation-thinking](skills/cognitive-thinking-tools/cross-validation-thinking/SKILL.md)** — 交叉验证：多独立证据路径核验主张（草稿；≠ ML k-fold）。
+- **[decision-matrix](skills/cognitive-thinking-tools/decision-matrix/SKILL.md)** — 决策矩阵：多标准加权评分与敏感性（草稿；概率树见决策与概率）。
+- **[diamond-six-steps](skills/cognitive-thinking-tools/diamond-six-steps/SKILL.md)** — 菱形六步法：两轮发散—收敛门控（草稿）。
 - **[first-principles](skills/cognitive-thinking-tools/first-principles/SKILL.md)** — 第一性原理：把判断拆到硬事实/物理约束，再从约束重新往上构建，少靠类比。
 - **[five-whys](skills/cognitive-thinking-tools/five-whys/SKILL.md)** — 5Why：沿因果链追问至可行动根因（草稿）。
 - **[golden-circle](skills/cognitive-thinking-tools/golden-circle/SKILL.md)** — 黄金圈：按 WHY–HOW–WHAT 整理沟通与策略叙事，先目的再方法再产品。
@@ -127,21 +134,36 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[lateral-thinking](skills/cognitive-thinking-tools/lateral-thinking/SKILL.md)** — 水平思考：用挑衅/跳框逃离定势后再垂直评估（草稿）。
 - **[logic-tree](skills/cognitive-thinking-tools/logic-tree/SKILL.md)** — 逻辑树：把主问题拆成可行动的议题/假设叶子（草稿）。
 - **[mece](skills/cognitive-thinking-tools/mece/SKILL.md)** — MECE：把议题拆成相互独立、完全穷尽的类别，便于分析与分工。
+- **[mind-map](skills/cognitive-thinking-tools/mind-map/SKILL.md)** — 思维导图：中心放射的层级联想笔记与外化（草稿）。
 - **[occams-razor](skills/cognitive-thinking-tools/occams-razor/SKILL.md)** — 奥卡姆剃刀：在同样能解释现象的假设中，优先所需特设假设更少者，再验证。
+- **[octopus-diagram](skills/cognitive-thinking-tools/octopus-diagram/SKILL.md)** — 八爪鱼图：中心主题+多腕足维度盘点（草稿）。
+- **[pros-cons-list](skills/cognitive-thinking-tools/pros-cons-list/SKILL.md)** — 优劣势清单：利弊并列扫描（草稿；加权走决策矩阵）。
 - **[pyramid-principle](skills/cognitive-thinking-tools/pyramid-principle/SKILL.md)** — 金字塔原理：结论先行，上层概括下层，同层 MECE 组织论证与沟通。
 - **[scqa](skills/cognitive-thinking-tools/scqa/SKILL.md)** — SCQA：情境–冲突–问题–答案的开场与问题定义（草稿）。
 - **[six-thinking-hats](skills/cognitive-thinking-tools/six-thinking-hats/SKILL.md)** — 六顶思考帽：把会议中的事实、感受、利益、风险与创意分时并行处理。
 - **[star-method](skills/cognitive-thinking-tools/star-method/SKILL.md)** — STAR：情境–任务–行动–结果的经历叙事（草稿）。
 - **[structured-thinking](skills/cognitive-thinking-tools/structured-thinking/SKILL.md)** — 结构化思维：问题定义→拆解→分析→综合的总流程（草稿）。
 - **[theory-of-constraints](skills/cognitive-thinking-tools/theory-of-constraints/SKILL.md)** — TOC 约束理论：聚焦系统吞吐瓶颈的五步法（草稿）。
+- **[thought-experiment](skills/cognitive-thinking-tools/thought-experiment/SKILL.md)** — 思维实验：反事实设定中澄清原则并声明限度（草稿）。
 - **[triz](skills/cognitive-thinking-tools/triz/SKILL.md)** — TRIZ：把设计矛盾结构化并用分离/发明原理启发非折中解（草稿）。
 
-### 决策与概率（2）
+### 决策与概率（13）
 
-期望值、决策树等不确定性决策工具。
+期望值、决策树、贝叶斯更新等不确定性决策工具（含 M2 draft）。
 
+- **[base-rate](skills/decision-probability/base-rate/SKILL.md)** — 基率/参考类：先锚定同类频率再并入个案（draft）。
+- **[bayesian-updating](skills/decision-probability/bayesian-updating/SKILL.md)** — 贝叶斯更新：先验 × 似然 → 后验（draft）。
 - **[decision-tree](skills/decision-probability/decision-tree/SKILL.md)** — 决策树：在选项已知、结果不确定、能粗估概率与后果时，做多阶段选择与期望值比较。
+- **[expected-utility](skills/decision-probability/expected-utility/SKILL.md)** — 期望效用：金额非线性或存在归零约束时用 EU（draft）。
 - **[expected-value](skills/decision-probability/expected-value/SKILL.md)** — 期望值：把不确定结果量化为概率加权平均（EV = Σ pᵢ·xᵢ）。
+- **[grey-thinking](skills/decision-probability/grey-thinking/SKILL.md)** — 灰度认知：用可修订置信度替代非黑即白（draft）。
+- **[mvp](skills/decision-probability/mvp/SKILL.md)** — MVP：以最小投入验证最危险假设（draft）。
+- **[ooda-loop](skills/decision-probability/ooda-loop/SKILL.md)** — OODA：观察—定向—决策—行动的对抗节奏（draft）。
+- **[planning-fallacy](skills/decision-probability/planning-fallacy/SKILL.md)** — 计划谬误：用外部视图纠偏乐观工期/成本（draft）。
+- **[pre-mortem](skills/decision-probability/pre-mortem/SKILL.md)** — 事前验尸：假定已失败以挖出可预防原因（draft）。
+- **[red-team](skills/decision-probability/red-team/SKILL.md)** — 红队：独立结构化对抗以找出可利用裂口（draft）。
+- **[reversible-irreversible](skills/decision-probability/reversible-irreversible/SKILL.md)** — 可逆/不可逆决策：按反悔成本匹配速度与审查（draft）。
+- **[scenario-planning](skills/decision-probability/scenario-planning/SKILL.md)** — 情景规划：少数分歧未来下的稳健选项与预警（draft）。
 
 ### 学习与成长（11）
 

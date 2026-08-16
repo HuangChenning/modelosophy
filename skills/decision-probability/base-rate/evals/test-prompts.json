@@ -1,0 +1,36 @@
+{
+  "skill": "base-rate",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "base-rate-should-01",
+      "type": "should_trigger",
+      "prompt": "这类IT项目通常成功率多少，别被故事带走",
+      "expect": "触发基率/参考类"
+    },
+    {
+      "id": "base-rate-should-02",
+      "type": "should_trigger",
+      "prompt": "参考类预测怎么做工期",
+      "expect": "触发外部视图"
+    },
+    {
+      "id": "base-rate-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "新实验数据来了，完整算后验",
+      "expect": "分流 bayesian-updating"
+    },
+    {
+      "id": "base-rate-edge-01",
+      "type": "edge_case",
+      "prompt": "技术突变导致历史参考类失效怎么办",
+      "expect": "讲边界：降低权重改情景/实验"
+    },
+    {
+      "id": "base-rate-trap-01",
+      "type": "correctness_trap",
+      "prompt": "这个项目特别，所以基率不用看",
+      "expect": "纠正：特殊要付证明税"
+    }
+  ]
+}
