@@ -1,6 +1,8 @@
 # Thinking Models
 
-通用可执行思维模型（推理、领导、沟通等杂项）。已按名录迁入学科分类的条目见下方「已迁出」；经济学/行为/系统/认知工具/决策/学习/战略/效率/复杂系统等主题优先落在对应平级目录。
+通用可执行思维模型（推理、领导、沟通等杂项）。
+
+与兄弟分类分流：通用推理/领导/沟通等杂项；已按名录迁入学科分类的条目见下方「已迁出」——经济学/行为/系统/认知工具/决策/学习/战略/效率等优先走对应平级目录。
 
 路径：`skills/thinking-models/<skill-name>/SKILL.md`。
 
@@ -8,31 +10,31 @@
 
 ## Skills
 
-- **[abductive-reasoning](./abductive-reasoning/SKILL.md)** — 溯因推理：用溯因推理（abduction / IBE）从令人惊讶的观察出发，生成并选择当前最佳解释假设，且标明待验
-- **[contrarian-and-right](./contrarian-and-right/SKILL.md)** — 正确与非共识：用“正确且非共识”检验非常规判断：超额洞见/回报需要既偏离主流，又经得起证据与可证伪预测
-- **[counterfactual-thinking](./counterfactual-thinking/SKILL.md)** — 反事实思维：用反事实思维处理“若非当时……就会……”的心理模拟：区分上行/下行反事实，把可控原因
-- **[deductive-reasoning](./deductive-reasoning/SKILL.md)** — 演绎法：用演绎推理（deductive reasoning）从已接受的一般前提出发，按有效推理规则推出必然随之而来的结论
-- **[dual-goal-list](./dual-goal-list/SKILL.md)** — 双目标清单：用双目标清单（常称 25/5 或两清单法则）强制聚焦：写下约 25 个目标，圈出 Top 5 为 List A
-- **[dual-process](./dual-process/SKILL.md)** — 双系统：用卡尼曼双系统（System 1 快思考 / System 2 慢思考）帮用户判断何时该信任直觉、何时该强制慢下来：
-- **[emotional-abc](./emotional-abc/SKILL.md)** — 情绪：用 Ellis 情绪 ABC（REBT）把强烈情绪拆成 A 触发事件、B 信念、C 情绪/行为后果：C 不由 A
-- **[five-w-one-h](./five-w-one-h/SKILL.md)** — 5W1H（Who / What / When / Where / Why / How）：用 5W1H（Who/What/When/Where/Why/How）帮用户把事件、需求或任务的信息槽钉全，暴露缺腿事实
-- **[fogg-behavior-model](./fogg-behavior-model/SKILL.md)** — 福格行为模型：用福格行为模型（B=MAP：动机 Motivation × 能力 Ability × 提示 Prompt）诊断行为为何发生或未发生：
-- **[gaslighting](./gaslighting/SKILL.md)** — 煤气灯效应：用煤气灯效应识别“通过否认对方感知/记忆/判断来夺取现实定义权”的操纵模式
-- **[hook-model](./hook-model/SKILL.md)** — HOOK 模型 Hook Model：用 HOOK 模型（Trigger → Action → Variable Reward → Investment）设计可反复发生的产品/习惯回路
-- **[implicit-premises](./implicit-premises/SKILL.md)** — 隐含前提：用隐含前提（suppressed / implicit premises）把论证里“没写出来却托住结论”的前提补全并分类，
-- **[johari-window](./johari-window/SKILL.md)** — 周哈里窗：用周哈里窗（开放/盲目/隐藏/未知四格）设计反馈与自我披露：扩大开放区以减少误解
-- **[ladder-of-inference](./ladder-of-inference/SKILL.md)** — 推论阶梯：用推论阶梯把“从可见资料爬到信念与行动”的步骤摊开：选了哪些数据、加了什么含义与假设、
-- **[local-global-optima](./local-global-optima/SKILL.md)** — 局部最优：用局部最优 vs 全局最优帮用户判断“继续打磨当前路径”是否已陷入小山峰：在邻域内最好，不代表
-- **[long-term-thinking](./long-term-thinking/SKILL.md)** — 长线思考：用长线思考把决策放进多期后果与激励周期：显式写入近/中/远影响、谁在何种考核周期下行动、
-- **[maslow-hierarchy](./maslow-hierarchy/SKILL.md)** — 马斯洛需求层次：把马斯洛需求层次当作“需求类别检查表”而非普遍定律：检查生理、安全、归属、尊重、自我实现
-- **[munger-misjudgment](./munger-misjudgment/SKILL.md)** — 人类误判心理：用查理·芒格《人类误判心理学》的 25 种心理倾向做检查清单扫描，并识别 Lollapalooza
-- **[negentropy](./negentropy/SKILL.md)** — 负熵：用负熵（negentropy）账本诊断开放系统如何靠输入自由能/信息维持局部有序，并排出废热与旧模式——
-- **[process-replication](./process-replication/SKILL.md)** — 可复制化：把他人或自己的成功经验蒸馏成可迁移方法论，并按本地约束适配后再规模化：学习→提炼因果步骤→
-- **[redundancy](./redundancy/SKILL.md)** — 冗余备份：用冗余/备份思维帮用户在故障、误差与单点失效面前设计容错：有意保留多余容量、路径或副本，
-- **[situational-leadership](./situational-leadership/SKILL.md)** — 情境领导：用情境领导（Hersey-Blanchard / SL 思路）按下属在*具体任务*上的准备度（能力×意愿）切换督导风格
-- **[socratic-questioning](./socratic-questioning/SKILL.md)** — 苏格拉底式质疑：用苏格拉底式质疑（elenchus 诘问法）检验一个主张站不站得住——不是靠反驳，而是靠追问，
-- **[spiral-of-silence](./spiral-of-silence/SKILL.md)** — 沉默的螺旋：用沉默的螺旋诊断“怕被孤立 → 误判意见气候 → 少数派沉默 → 优势意见更响”的舆论动力
-- **[ten-ten-ten](./ten-ten-ten/SKILL.md)** — 10/10/10 时间视角：用 Suzy Welch 的 10/10/10 帮用户从当下强烈情绪中拉开时间距离：分别写出一个选择在约 10 分钟、
+- **[abductive-reasoning](./abductive-reasoning/SKILL.md)** — 用溯因推理（abduction / IBE）从令人惊讶的观察出发，生成并选择当前最佳解释假设，且标明待验； 与演绎（保真传递）、奥卡姆剃刀（已有竞争解释的简洁排序）区分。
+- **[contrarian-and-right](./contrarian-and-right/SKILL.md)** — 用“正确且非共识”检验非常规判断：超额洞见/回报需要既偏离主流，又经得起证据与可证伪预测； 只唱反调不等于智慧。
+- **[counterfactual-thinking](./counterfactual-thinking/SKILL.md)** — 反事实思维：处理「若非当时……」的心理模拟，区分上行/下行反事实并把可控原因抽成改进行动。
+- **[deductive-reasoning](./deductive-reasoning/SKILL.md)** — 用演绎推理（deductive reasoning）从已接受的一般前提出发，按有效推理规则推出必然随之而来的结论； 区分形式有效（validity）与可靠（soundness：前提真且有效）。
+- **[dual-goal-list](./dual-goal-list/SKILL.md)** — 用双目标清单（常称 25/5 或两清单法则）强制聚焦：写下约 25 个目标，圈出 Top 5 为 List A （全力投入）；其余约 20 条进 List B——**绝对回避表**，不是“有空再做的低优先级待办”。
+- **[dual-process](./dual-process/SKILL.md)** — 双系统：用卡尼曼 System 1/System 2 判断何时信任直觉、何时强制慢思考。
+- **[emotional-abc](./emotional-abc/SKILL.md)** — 用 Ellis 情绪 ABC（REBT）把强烈情绪拆成 A 触发事件、B 信念、C 情绪/行为后果：C 不由 A 直接决定，而由对 A 的解释与要求（尤其绝对化、灾难化）中介；杠杆在检验与驳斥 B。
+- **[five-w-one-h](./five-w-one-h/SKILL.md)** — 5W1H：把 Who/What/When/Where/Why/How 信息槽钉全，暴露缺腿事实与含混行动。
+- **[fogg-behavior-model](./fogg-behavior-model/SKILL.md)** — 用福格行为模型（B=MAP：动机 Motivation × 能力 Ability × 提示 Prompt）诊断行为为何发生或未发生： 三者同时到位才跨行动线；动机最不稳时优先降低难度并设置可靠提示。
+- **[gaslighting](./gaslighting/SKILL.md)** — 用煤气灯效应识别“通过否认对方感知/记忆/判断来夺取现实定义权”的操纵模式；可用 Stern 三阶段（质疑→辩解→压抑）作识别框架，强调外置证据与安全边界。
+- **[hook-model](./hook-model/SKILL.md)** — HOOK 模型：按 Trigger→Action→Variable Reward→Investment 设计可反复发生的习惯回路。
+- **[implicit-premises](./implicit-premises/SKILL.md)** — 隐含前提：把论证里未写出却托住结论的前提补全、分类并检验可否接受。
+- **[johari-window](./johari-window/SKILL.md)** — 用周哈里窗（开放/盲目/隐藏/未知四格）设计反馈与自我披露：扩大开放区以减少误解； 用征求反馈缩小盲目区，用适度披露缩小隐藏区。
+- **[ladder-of-inference](./ladder-of-inference/SKILL.md)** — 推论阶梯：摊开从选数据→赋义→结论→行动的攀升，再回到可观察资料检验。
+- **[local-global-optima](./local-global-optima/SKILL.md)** — 局部/全局最优：判断继续打磨当前路径是否已陷入小山峰；跳出往往要先下坡。
+- **[long-term-thinking](./long-term-thinking/SKILL.md)** — 长线思考：把决策放进多期后果与激励周期，检验「长期主义」是否只是话术。
+- **[maslow-hierarchy](./maslow-hierarchy/SKILL.md)** — 把马斯洛需求层次当作“需求类别检查表”而非普遍定律：检查生理、安全、归属、尊重、自我实现 哪些需求正在受阻、哪些方案打错了层次，并允许多层需求同时存在、顺序因人和文化而异。
+- **[munger-misjudgment](./munger-misjudgment/SKILL.md)** — 用查理·芒格《人类误判心理学》的 25 种心理倾向做检查清单扫描，并识别 Lollapalooza （多倾向同向叠加）结构；单倾向命中则路由到库内专用 bias skill 深挖，不在此重复写迷你教程。
+- **[negentropy](./negentropy/SKILL.md)** — 负熵：用账本诊断开放系统如何靠输入自由能/信息维持局部有序并排出废热。
+- **[process-replication](./process-replication/SKILL.md)** — 可复制化：把成功经验蒸馏为可迁移步骤，按本地约束适配后再规模化。
+- **[redundancy](./redundancy/SKILL.md)** — 冗余备份：有意保留多余容量、路径或副本，使局部失效不致系统停摆。
+- **[situational-leadership](./situational-leadership/SKILL.md)** — 用情境领导（Hersey-Blanchard / SL 思路）按下属在*具体任务*上的准备度（能力×意愿）切换督导风格 S1–S4（指令→教练→支持→授权），禁止给人贴永久领导标签。
+- **[socratic-questioning](./socratic-questioning/SKILL.md)** — 用苏格拉底式质疑（elenchus 诘问法）检验一个主张站不站得住——不是靠反驳，而是靠追问， 让主张自身的内在矛盾显露出来。六类追问：澄清含义、检验隐含假设、追问证据、切换视角、 推导后果、反问问题本身。
+- **[spiral-of-silence](./spiral-of-silence/SKILL.md)** — 用沉默的螺旋诊断“怕被孤立 → 误判意见气候 → 少数派沉默 → 优势意见更响”的舆论动力； 区分真实多数与声量多数，并检查自己是否因孤立恐惧而闭嘴。
+- **[ten-ten-ten](./ten-ten-ten/SKILL.md)** — 用 Suzy Welch 的 10/10/10 帮用户从当下强烈情绪中拉开时间距离：分别写出一个选择在约 10 分钟、 10 个月、10 年后的后果与感受，再用当前价值观处理短痛、中期现实和长期方向的冲突。
 
 ## 已迁出（仍为可执行 Skill）
 
@@ -173,7 +175,6 @@ graph TD
 - **10/10/10 vs 长线思考 vs 复利（复利已迁至 `finance-investing-models/`）**：三时点感受 vs 跨期承诺装置 vs 再投入机制。
 - **SWOT vs 五力 vs 护城河**：主体内外态势 vs 产业竞争结构 vs 可持续壁垒。
 - **苏格拉底式质疑的元层级地位**：可用于检验其余任何模型的应用是否恰当。
-
 
 ## 共享术语
 

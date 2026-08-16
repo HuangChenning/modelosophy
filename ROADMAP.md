@@ -133,12 +133,13 @@ serial-position-effect    → skills/systems-classic-effects/serial-position-eff
 - [x] **Phase 0**：锁定可执行正文模板 + 9 字段吸收约定 → [`skills/_templates/`](skills/_templates/)
 - [x] **Batch A**：每类优先补缺口（宏观从 0 起；其余在已迁种子旁扩展）
 - [x] **Batch B**：补到接近需求 30/类（上表对账通过）
-- [ ] **Phase 3**：分类 README 定稿复核（双向建议见下已完成子项）
+- [x] **Phase 3**：分类 README 定稿复核（双向建议见下已完成子项）
   - [x] **相关模型链接抽查**（2026-08-16，`feature/phase3-link-audit`）：`skills/**/SKILL.md` + 各分类 `README.md` 共 **1337** 条相对 `SKILL.md` 链接；死链 / 错误分类路径 / 标签–slug 不一致 **0**（无可修复项）。残留见下「链接审计残留」
   - [x] **可选 evals 最小集**（2026-08-16，`feature/phase3-evals`）：六分类 **181/181** 均有 `evals/test-prompts.json`；新建 draft 补 **132** 条（各约 5 case，对齐宏观样例）；迁入旧稿原有 evals 保留。`quick_validate` 跨类抽查 10/10 通过。**未**做完整盲测；draft 仍 `v0.x-draft`
   - [x] **迁入 19 旧稿「常见误用」**（2026-08-16，`feature/phase3-misuse-backfill` → 收拢）：在「什么时候不适用」与「相关模型」之间补 `## 常见误用`（3–4 条）；`version` 仍为 `v1.0`
   - [x] **根 README 全量 Skill 索引**（2026-08-16，`feature/readme-all-skills-index` → 收拢）：双语根 README 列出仓库内可执行 Skill（约 **232** 条链接量级）
   - [x] **相关模型双向补链**（2026-08-16，`feature/phase3-bidirectional-links`）：对约 **423** 条单向边做优先级筛选（同分类 / 名录易混对 / 迁入种子↔新建稿），**不**机械对称；补反向引用 **149** 条（含一句分流判据）。残留单向边约 **274**（同分类约 **92**，跨类约 **182**）。跳过：弱相关、单向总论→专条且专条侧已足够、对向已有等价分流文案、枢纽节点过密（≥11 链且非易混）等
+  - [x] **分类 README 定稿复核**（2026-08-16，`feature/phase3-category-readme-review`）：14 个分类 README 与磁盘 `SKILL.md` 一一对应；统一 mattpocock 列表；补兄弟分流；`thinking-models` 已迁出表路径抽查通过；根 catalog 无漏无幽灵（未大改）
 
 ### 3. 本阶段明确不做
 
@@ -157,7 +158,8 @@ serial-position-effect    → skills/systems-classic-effects/serial-position-eff
 
 ### 5. 建议的下一执行步
 
-1. **Phase 3 剩余**：分类 README 定稿复核（双向补链已做一批；残留单向可按需再扫）  
+1. **Phase 3 剩余**：残留单向「相关模型」边可按需再扫（分类 README 与双向补链均已完成；非阻塞）  
+
 2. **可选**：evals 盲测加厚（非阻塞）
 3. **名录第七–十二类**：见下文「待办：名录扩充分类」——本轮已建壳 + 迁入种子；缺口 Skill 按批新建
 
@@ -250,7 +252,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 - [ ] **M2**：第八类补齐（贝叶斯更新、情景规划、事前验尸、OODA 等）；决策视角的沉没/机会成本 **互链**既有 Skill，不复制目录  
 - [ ] **M3**：第九–十一类分批新建（刻意练习、蓝海、看板/GTD 等）  
 - [ ] **M4**：第十二类补齐（系统基模、杠杆点已有、因果回路、CAS 等）；与第六类重复项只维护一份  
-- [ ] **M5**：跨类相关模型抽查 + 分类 README 定稿；可选 evals 最小集  
+- [x] **M5**：跨类相关模型抽查 + 分类 README 定稿；可选 evals 最小集（见 Phase 3 子项；双向建议仍可选残留）  
 
 ### 4. 条目状态速查（第七–十二类）
 
