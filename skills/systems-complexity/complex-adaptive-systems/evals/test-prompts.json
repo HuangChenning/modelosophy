@@ -1,0 +1,36 @@
+{
+  "skill": "complex-adaptive-systems",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "complex-adaptive-systems-should-01",
+      "type": "should_trigger",
+      "prompt": "多方都在学对方策略，算不算复杂适应系统？",
+      "expect": "触发 CAS。"
+    },
+    {
+      "id": "complex-adaptive-systems-should-02",
+      "type": "should_trigger",
+      "prompt": "干预后系统会学会绕开怎么办？",
+      "expect": "触发适应主体分析。"
+    },
+    {
+      "id": "complex-adaptive-systems-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "只要看度数幂律枢纽。",
+      "expect": "分流 scale-free-network。"
+    },
+    {
+      "id": "complex-adaptive-systems-edge-04",
+      "type": "edge_case",
+      "prompt": "CAS 是不是意味着无法管理？",
+      "expect": "纠正；可管理规则与多样性。"
+    },
+    {
+      "id": "complex-adaptive-systems-trap-05",
+      "type": "correctness_trap",
+      "prompt": "很复杂所以是 CAS，不用找适应机制。",
+      "expect": "纠正；必须写主体适应规则。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "scale-free-network",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "scale-free-network-should-01",
+      "type": "should_trigger",
+      "prompt": "是不是少数 hub 撑着整个依赖网？",
+      "expect": "触发无标度/hub。"
+    },
+    {
+      "id": "scale-free-network-should-02",
+      "type": "should_trigger",
+      "prompt": "优先连接会不会让枢纽越来越强？",
+      "expect": "触发 BA 机制。"
+    },
+    {
+      "id": "scale-free-network-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "我只想缩短平均路径、保留团内聚类。",
+      "expect": "分流 small-world。"
+    },
+    {
+      "id": "scale-free-network-edge-04",
+      "type": "edge_case",
+      "prompt": "没有度数数据能否谈无标度？",
+      "expect": "可先 hub 假设并标注不确定。"
+    },
+    {
+      "id": "scale-free-network-trap-05",
+      "type": "correctness_trap",
+      "prompt": "随机删节点和无差别打 hub 一样脆。",
+      "expect": "纠正；无标度惧目标打击。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "small-world-network",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "small-world-network-should-01",
+      "type": "should_trigger",
+      "prompt": "部门墙很厚，加几条跨团桥会不会变小世界？",
+      "expect": "触发小世界/捷径。"
+    },
+    {
+      "id": "small-world-network-should-02",
+      "type": "should_trigger",
+      "prompt": "高聚类但平均路径还是很长怎么办？",
+      "expect": "触发捷径设计。"
+    },
+    {
+      "id": "small-world-network-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "关键是少数超级枢纽被依赖。",
+      "expect": "分流 scale-free。"
+    },
+    {
+      "id": "small-world-network-edge-04",
+      "type": "edge_case",
+      "prompt": "有病毒式传播就一定是小世界吗？",
+      "expect": "不一定；可能无标度。"
+    },
+    {
+      "id": "small-world-network-trap-05",
+      "type": "correctness_trap",
+      "prompt": "小世界就是梅特卡夫定律。",
+      "expect": "纠正；拓扑 vs 价值规模。"
+    }
+  ]
+}

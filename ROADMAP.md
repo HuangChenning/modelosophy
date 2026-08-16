@@ -243,7 +243,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 现 **11**（M3 新建 6）；余 **待新建** |
 | 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 现 **10**（M3 新建 6）；余 **待新建** |
 | 11 | 效率与执行 | `efficiency-execution` | **新建**；迁入 2 | 现 **9**（M3 新建 7）；余 **待新建** |
-| 12 | 系统与复杂 | `systems-complexity` | **新建**；迁入 4；与第六类互补 | 重复项标已有@第六类；余待新建 |
+| 12 | 系统与复杂 | `systems-complexity` | **新建**；迁入 4；与第六类互补 | 现 **11**（种子 4 + M4 新建 7）；与第六类重复项只互链 |
 
 ### 3. 分批里程碑（建议）
 
@@ -252,7 +252,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 - [x] **M1（第七类剩余）**：补齐 11 条（`analogical-thinking` / `abstraction-ladder` / `cross-validation-thinking` / `backward-goal` / `thought-experiment` / `diamond-six-steps` / `octopus-diagram` / `concept-map` / `mind-map` / `decision-matrix` / `pros-cons-list`，均 `v0.x-draft` + 最小 evals）；类内现 **28**；二阶思维/SWOT 仍为已有@他类不重复建  
 - [x] **M2（首批）**：第八类高价值新建 11 条（`bayesian-updating` / `grey-thinking` / `reversible-irreversible` / `mvp` / `red-team` / `pre-mortem` / `ooda-loop` / `planning-fallacy` / `scenario-planning` / `expected-utility` / `base-rate`，均 `v0.x-draft`）；类内现 **13**；沉没/机会成本/凯利/满意化/临界/杠铃 **只互链不复制**；名录其余条仍待新建  
 - [x] **M3（首批）**：第九–十一类已建 draft（学习 +6→11；战略 +6→10；效率 +7→9；`deep-work` 落学习类）。分支 `feature/m3-learning-strategy-efficiency`；其余名录条仍待新建  
-- [ ] **M4**：第十二类补齐（系统基模、杠杆点已有、因果回路、CAS 等）；与第六类重复项只维护一份  
+- [x] **M4（首批）**：第十二类新建 7 条（`emergence` / `system-archetypes` / `causal-loop-diagram` / `stock-and-flow` / `complex-adaptive-systems` / `small-world-network` / `scale-free-network`，均 `v0.x-draft`）；类内现 **11**；路径依赖/锁定/网络效应/熵增/反馈等仍@`systems-classic-effects` 只互链  
 - [x] **M5**：跨类相关模型抽查 + 分类 README 定稿；可选 evals 最小集（见 Phase 3 子项；双向建议仍可选残留）  
 
 ### 4. 条目状态速查（第七–十二类）
@@ -368,7 +368,13 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 临界点与相变 | 已有@`…/tipping-point` |
 | 耗散结构（自组织相关种子） | 已有@`…/dissipative-structures` |
 | 路径依赖 / 锁定 / 网络效应 / 熵增 / 反馈回路 | 已有@他类 `systems-classic-effects/*`（名录注明可合并；**不**迁入本类） |
-| 其余（涌现、系统基模、因果回路、存量流量、CAS、小世界/无标度网络等） | 待新建（`emergence`、`system-archetypes`、`causal-loop-diagram`、`stock-and-flow`、`complex-adaptive-systems`、`small-world-network`、`scale-free-network` 等） |
+| 涌现 | 已有@`…/emergence`（`v0.x-draft`） |
+| 系统基模 | 已有@`…/system-archetypes`（`v0.x-draft`） |
+| 因果回路图 | 已有@`…/causal-loop-diagram`（`v0.x-draft`） |
+| 存量与流量 | 已有@`…/stock-and-flow`（`v0.x-draft`） |
+| 复杂适应系统 | 已有@`…/complex-adaptive-systems`（`v0.x-draft`） |
+| 小世界网络 | 已有@`…/small-world-network`（`v0.x-draft`） |
+| 无标度网络 | 已有@`…/scale-free-network`（`v0.x-draft`） |
 
 ### 5. 本阶段明确不做
 

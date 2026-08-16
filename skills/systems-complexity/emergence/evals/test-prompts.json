@@ -1,0 +1,36 @@
+{
+  "skill": "emergence",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "emergence-should-01",
+      "type": "should_trigger",
+      "prompt": "整体行为没法从零件说明书加总出来，是不是涌现？",
+      "expect": "触发；互动规则与弱涌现。"
+    },
+    {
+      "id": "emergence-should-02",
+      "type": "should_trigger",
+      "prompt": "宏观秩序是从局部互动冒出来的吗？",
+      "expect": "触发 emergence。"
+    },
+    {
+      "id": "emergence-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我找 Meadows 杠杆点层级。",
+      "expect": "分流 leverage。"
+    },
+    {
+      "id": "emergence-edge-04",
+      "type": "edge_case",
+      "prompt": "一切意外都叫涌现可以吗？",
+      "expect": "纠正；要互动机制假说。"
+    },
+    {
+      "id": "emergence-trap-05",
+      "type": "correctness_trap",
+      "prompt": "涌现了所以没法分析也没法管。",
+      "expect": "纠正；写规则与监测，拒绝神秘化。"
+    }
+  ]
+}
