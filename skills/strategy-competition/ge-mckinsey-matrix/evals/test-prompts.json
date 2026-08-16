@@ -1,0 +1,36 @@
+{
+  "skill": "ge-mckinsey-matrix",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ge-should-01",
+      "type": "should_trigger",
+      "prompt": "用GE九宫给五个事业部打行业吸引力和竞争实力分。",
+      "expect": "触发九宫组合。"
+    },
+    {
+      "id": "ge-should-02",
+      "type": "should_trigger",
+      "prompt": "BCG太粗了，有没有多因子的麦肯锡九盒？",
+      "expect": "触发九宫并与BCG分流。"
+    },
+    {
+      "id": "ge-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这个行业五力怎么看利润池？",
+      "expect": "分流 porters-five-forces。"
+    },
+    {
+      "id": "ge-edge-01",
+      "type": "edge_case",
+      "prompt": "公司只有一条业务也要画九宫吗？",
+      "expect": "边界：过重，不适用。"
+    },
+    {
+      "id": "ge-trap-01",
+      "type": "correctness_trap",
+      "prompt": "相对份额高就该在九宫里给实力打满分并继续重仓。",
+      "expect": "纠正：多因子+吸引力；份额≠值得长期投。"
+    }
+  ]
+}

@@ -8,7 +8,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ## 项目简介与现状
 
-这个仓库还处于早期阶段。`skills/<category>/` 下合计 **300** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
+这个仓库还处于早期阶段。`skills/<category>/` 下合计 **302** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
@@ -21,7 +21,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | [目录](#认知与思维工具28) |
 | [决策与概率](skills/decision-probability/README.md) | 24 | [目录](#决策与概率24) |
 | [学习与成长](skills/learning-growth/README.md) | 11 | [目录](#学习与成长11) |
-| [战略与竞争](skills/strategy-competition/README.md) | 10 | [目录](#战略与竞争10) |
+| [战略与竞争](skills/strategy-competition/README.md) | 12 | [目录](#战略与竞争12) |
 | [效率与执行](skills/efficiency-execution/README.md) | 9 | [目录](#效率与执行9) |
 | [系统与复杂](skills/systems-complexity/README.md) | 11 | [目录](#系统与复杂11) |
 | [宏观经济学理论](skills/econ-macro-theories/README.md) | 30 | [目录](#宏观经济学理论30) |
@@ -68,7 +68,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计 **300** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 93）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
+库仍处于早期：跨分类合计 **302** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 95）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
 
 ## 贡献一个思维模型
 
@@ -76,7 +76,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## Skill 目录
 
-全部 **300** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
+全部 **302** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
 
 ### 商业 / 组织情报（1）
 
@@ -192,15 +192,17 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[ten-thousand-hours](skills/learning-growth/ten-thousand-hours/SKILL.md)** — 一万小时定律（澄清）：纠偏时数神话，导流刻意练习。
 - **[zpd](skills/learning-growth/zpd/SKILL.md)** — 最近发展区：独立/支架/做不到三带与渐撤支架。
 
-### 战略与竞争（10）
+### 战略与竞争（12）
 
-波特五力、护城河、飞轮、SWOT，以及 M3 草稿（蓝海、第二曲线、颠覆式创新、BCG、OKR、VRIO）。
+波特五力、护城河、飞轮、SWOT，以及草稿（蓝海、第二曲线、颠覆式创新、BCG、GE 九宫、麦肯锡 7S、OKR、VRIO）。
 
 - **[bcg-matrix](skills/strategy-competition/bcg-matrix/SKILL.md)** — BCG 矩阵：增长×相对份额四象限指导组合投砍。
 - **[blue-ocean](skills/strategy-competition/blue-ocean/SKILL.md)** — 蓝海战略：价值创新与 ERRC 重建买方效用与成本边界。
 - **[disruptive-innovation](skills/strategy-competition/disruptive-innovation/SKILL.md)** — 颠覆式创新：低端/新市场轨迹与在位者非对称激励。
 - **[economic-moat](skills/strategy-competition/economic-moat/SKILL.md)** — 护城河：评估企业能否在竞争下维持超额回报，并识别壁垒来源与可持续性。
 - **[flywheel](skills/strategy-competition/flywheel/SKILL.md)** — 飞轮：设计或诊断互相加强的因果闭环，使每一圈投入提高下一圈效率。
+- **[ge-mckinsey-matrix](skills/strategy-competition/ge-mckinsey-matrix/SKILL.md)** — GE-麦肯锡九宫：行业吸引力×竞争实力九格指导投/选/撤。
+- **[mckinsey-7s](skills/strategy-competition/mckinsey-7s/SKILL.md)** — 麦肯锡 7S：硬三/软三绕共同价值观对齐，诊断战略落地的组织对齐。
 - **[okr](skills/strategy-competition/okr/SKILL.md)** — OKR：鼓舞性目标 + 可度量关键结果对齐与复盘（非待办清单）。
 - **[porters-five-forces](skills/strategy-competition/porters-five-forces/SKILL.md)** — 波特五力：在行业层面诊断利润结构——竞争、进入、替代、买方与供方议价。
 - **[second-curve](skills/strategy-competition/second-curve/SKILL.md)** — 第二曲线：在第一增长曲线趋缓前启动下一条 S 曲线并管理输血/停投。

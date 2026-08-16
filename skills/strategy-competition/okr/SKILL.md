@@ -64,6 +64,7 @@ metadata:
 
 - **与[PDCA](../../efficiency-execution/pdca/SKILL.md)**：OKR 定周期目标；PDCA 管改进循环。可连用。
 - **与[BCG 矩阵](../bcg-matrix/SKILL.md)**：组合决策后对选定业务写 OKR。
+- **与[麦肯锡 7S](../mckinsey-7s/SKILL.md)**：OKR 写目标度量；组织结构/制度/文化卡住时先用 7S 清障碍。
 - **与[SWOT](../swot/SKILL.md)**：SWOT 出战略选项；OKR 跟踪执行。
 - **与[艾森豪威尔矩阵](../../efficiency-execution/eisenhower-matrix/SKILL.md)**：个人优先级；组织对齐用 OKR。
 - **与[理论约束 TOC](../../cognitive-thinking-tools/theory-of-constraints/SKILL.md)**：若吞吐瓶颈未破，OKR 可能指向错误结果——先约束。
