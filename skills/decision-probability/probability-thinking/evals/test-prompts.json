@@ -1,0 +1,36 @@
+{
+  "skill": "probability-thinking",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "probability-thinking-should-01",
+      "type": "should_trigger",
+      "prompt": "别说肯定会，用概率思维重写判断",
+      "expect": "触发概率化事件"
+    },
+    {
+      "id": "probability-thinking-should-02",
+      "type": "should_trigger",
+      "prompt": "这件事独立吗？条件概率怎么讲",
+      "expect": "触发结构检查"
+    },
+    {
+      "id": "probability-thinking-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "先验和似然怎么合成后验",
+      "expect": "分流bayesian"
+    },
+    {
+      "id": "probability-thinking-edge-01",
+      "type": "edge_case",
+      "prompt": "事件都定义不清能给概率吗",
+      "expect": "边界：先定义事件"
+    },
+    {
+      "id": "probability-thinking-trap-01",
+      "type": "correctness_trap",
+      "prompt": "说完要有概率思维就结束，不用给区间",
+      "expect": "纠正：必须下钻或给区间"
+    }
+  ]
+}

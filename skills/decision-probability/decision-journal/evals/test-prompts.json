@@ -1,0 +1,36 @@
+{
+  "skill": "decision-journal",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "decision-journal-should-01",
+      "type": "should_trigger",
+      "prompt": "我想做决策日志校准判断",
+      "expect": "触发日志字段"
+    },
+    {
+      "id": "decision-journal-should-02",
+      "type": "should_trigger",
+      "prompt": "把当时为什么选和预测写下来事后对照",
+      "expect": "触发预注册预测"
+    },
+    {
+      "id": "decision-journal-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "项目已经失败了做四步复盘",
+      "expect": "分流AAR"
+    },
+    {
+      "id": "decision-journal-edge-01",
+      "type": "edge_case",
+      "prompt": "永远看不到结果的决策还记日志吗",
+      "expect": "边界：无反馈难校准"
+    },
+    {
+      "id": "decision-journal-trap-01",
+      "type": "correctness_trap",
+      "prompt": "事后补记当时想法也算校准",
+      "expect": "纠正：禁止事后篡改"
+    }
+  ]
+}

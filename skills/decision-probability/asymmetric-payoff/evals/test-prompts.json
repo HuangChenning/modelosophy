@@ -1,0 +1,36 @@
+{
+  "skill": "asymmetric-payoff",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "asymmetric-payoff-should-01",
+      "type": "should_trigger",
+      "prompt": "这个机会下行有限上行开放吗，看不对称回报",
+      "expect": "触发payoff轮廓"
+    },
+    {
+      "id": "asymmetric-payoff-should-02",
+      "type": "should_trigger",
+      "prompt": "风险不对称asymmetric payoff怎么筛",
+      "expect": "触发形状比较"
+    },
+    {
+      "id": "asymmetric-payoff-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么设计杠铃策略从波动获益",
+      "expect": "分流antifragility"
+    },
+    {
+      "id": "asymmetric-payoff-edge-01",
+      "type": "edge_case",
+      "prompt": "说不对称但画不出损益图",
+      "expect": "边界：必须画轮廓"
+    },
+    {
+      "id": "asymmetric-payoff-trap-01",
+      "type": "correctness_trap",
+      "prompt": "正期望值就该上，不用看左尾",
+      "expect": "纠正：形状优先"
+    }
+  ]
+}

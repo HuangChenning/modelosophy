@@ -1,0 +1,36 @@
+{
+  "skill": "sensitivity-analysis",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "sensitivity-analysis-should-01",
+      "type": "should_trigger",
+      "prompt": "哪个假设一变结论就翻，做敏感性",
+      "expect": "触发敏感/翻转点"
+    },
+    {
+      "id": "sensitivity-analysis-should-02",
+      "type": "should_trigger",
+      "prompt": "NPV对折现率弹性和tornado",
+      "expect": "触发单因素扫描"
+    },
+    {
+      "id": "sensitivity-analysis-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "我想联合随机抽样看整段分布",
+      "expect": "分流monte-carlo"
+    },
+    {
+      "id": "sensitivity-analysis-edge-01",
+      "type": "edge_case",
+      "prompt": "还没有可计算模型能敏感性吗",
+      "expect": "边界：先建模"
+    },
+    {
+      "id": "sensitivity-analysis-trap-01",
+      "type": "correctness_trap",
+      "prompt": "弹性系数报完就算做完，不用管决策翻转",
+      "expect": "纠正：要找翻转点"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "oz-principle",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "oz-principle-should-01",
+      "type": "should_trigger",
+      "prompt": "团队总在甩锅，用奥兹原则拉回问责",
+      "expect": "触发Above the Line"
+    },
+    {
+      "id": "oz-principle-should-02",
+      "type": "should_trigger",
+      "prompt": "Oz Principle See It Own It Solve It Do It",
+      "expect": "触发四步"
+    },
+    {
+      "id": "oz-principle-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "发布后按AAR四问对照计划复盘",
+      "expect": "分流AAR工艺"
+    },
+    {
+      "id": "oz-principle-edge-01",
+      "type": "edge_case",
+      "prompt": "用担当话术压迫无权同事",
+      "expect": "边界：假问责"
+    },
+    {
+      "id": "oz-principle-trap-01",
+      "type": "correctness_trap",
+      "prompt": "讲完担当不用时间盒行动也行",
+      "expect": "纠正：必须Do It"
+    }
+  ]
+}

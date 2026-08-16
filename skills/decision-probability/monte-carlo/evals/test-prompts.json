@@ -1,0 +1,36 @@
+{
+  "skill": "monte-carlo",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "monte-carlo-should-01",
+      "type": "should_trigger",
+      "prompt": "成本工期都不确定，我想跑蒙特卡洛看P90",
+      "expect": "触发MC：分布/分位"
+    },
+    {
+      "id": "monte-carlo-should-02",
+      "type": "should_trigger",
+      "prompt": "别给我一个NPV，给我结果分布",
+      "expect": "触发抽样分布"
+    },
+    {
+      "id": "monte-carlo-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "先验40%新证据怎么更新后验",
+      "expect": "分流bayesian"
+    },
+    {
+      "id": "monte-carlo-edge-01",
+      "type": "edge_case",
+      "prompt": "分布形状都是拍的也能报99.9%VaR吗",
+      "expect": "边界：假精确尾部"
+    },
+    {
+      "id": "monte-carlo-trap-01",
+      "type": "correctness_trap",
+      "prompt": "模拟均值就是答案，分位不用看",
+      "expect": "纠正：看尾部与过线率"
+    }
+  ]
+}

@@ -239,7 +239,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 5 | 金融与投资模型 | `finance-investing-models` | **复用** | 名录 30 条 **已有** |
 | 6 | 系统思维与经典效应 | `systems-classic-effects` | **复用** | 名录 30 条 **已有**（首因/近因→`serial-position-effect`；网络效应→`metcalfes-law`） |
 | 7 | 认知与思维工具 | `cognitive-thinking-tools` | **新建**；迁入 8 | 现 **28**（M1 新建 9 + 剩余补齐 11）；名录专条已齐（二阶/SWOT 仍@他类） |
-| 8 | 决策与概率 | `decision-probability` | **新建**；迁入 2 | 现 **13**（M2 新建 11）；部分 **已有@他类**；余待新建 |
+| 8 | 决策与概率 | `decision-probability` | **新建**；迁入 2 | 现 **24**（M2 11 + M2b 11）；部分 **已有@他类**；名录专条已基本齐 |
 | 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 现 **11**（M3 新建 6）；余 **待新建** |
 | 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 现 **12**（M3 新建 6 + 7S/GE 九宫 2）；余 **待新建** |
 | 11 | 效率与执行 | `efficiency-execution` | **新建**；迁入 2 | 现 **9**（M3 新建 7）；余 **待新建** |
@@ -251,6 +251,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 - [x] **M1（首批）**：第七类优先缺口已建 9 条（`five-whys` / `scqa` / `theory-of-constraints` / `triz` / `hypothesis-testing` / `structured-thinking` / `lateral-thinking` / `logic-tree` / `star-method`，均 `v0.x-draft`）
 - [x] **M1（第七类剩余）**：补齐 11 条（`analogical-thinking` / `abstraction-ladder` / `cross-validation-thinking` / `backward-goal` / `thought-experiment` / `diamond-six-steps` / `octopus-diagram` / `concept-map` / `mind-map` / `decision-matrix` / `pros-cons-list`，均 `v0.x-draft` + 最小 evals）；类内现 **28**；二阶思维/SWOT 仍为已有@他类不重复建  
 - [x] **M2（首批）**：第八类高价值新建 11 条（`bayesian-updating` / `grey-thinking` / `reversible-irreversible` / `mvp` / `red-team` / `pre-mortem` / `ooda-loop` / `planning-fallacy` / `scenario-planning` / `expected-utility` / `base-rate`，均 `v0.x-draft`）；类内现 **13**；沉没/机会成本/凯利/满意化/临界/杠铃 **只互链不复制**；名录其余条仍待新建  
+- [x] **M2b（第二批）**：第八类再建 11 条（`monte-carlo` / `decision-journal` / `after-action-review` / `rapid-experimentation` / `probability-thinking` / `sensitivity-analysis` / `asymmetric-payoff` / `threshold-effect` / `loss-function` / `risk-premium` / `oz-principle`，均 `v0.x-draft` + 最小 evals）；类内现 **24**；杠铃仍@`antifragility` 只互链；名录其余为他类互链或可选扩展；分支 `feature/m2b-decision-probability-batch2`（本分支磁盘全库 **300**；并入战略 7S/GE 的 **291** 口径后为 **302**）  
 - [x] **M3（首批）**：第九–十一类已建 draft（学习 +6→11；战略 +6→10；效率 +7→9；`deep-work` 落学习类）。分支 `feature/m3-learning-strategy-efficiency`；其余名录条仍待新建  
 - [x] **战略 7S/GE**：`strategy-competition` 新建 `mckinsey-7s` / `ge-mckinsey-matrix`（`v0.x-draft` + 最小 evals）；类内现 **12**；分支 `feature/strategy-7s-ge-matrix`（本分支磁盘全库 **291**；并入决策 M2b 的 **300** 口径后为 **302**）  
 - [x] **M4（首批）**：第十二类新建 7 条（`emergence` / `system-archetypes` / `causal-loop-diagram` / `stock-and-flow` / `complex-adaptive-systems` / `small-world-network` / `scale-free-network`，均 `v0.x-draft`）；类内现 **11**；路径依赖/锁定/网络效应/熵增/反馈等仍@`systems-classic-effects` 只互链  
@@ -297,32 +298,32 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 期望值思维 | 已有@`decision-probability/expected-value` |
 | 贝叶斯更新 | 已有@`…/bayesian-updating`（`v0.x-draft`；≠ `bayesian-games`） |
 | 决策树 | 已有@`…/decision-tree` |
-| 概率论思维 | 待新建（`probability-thinking`；可与基率/贝叶斯互链，避免空壳总论） |
+| 概率论思维 | 已有@`…/probability-thinking`（`v0.x-draft`；入口总论，强制下钻基率/贝叶斯/EV） |
 | 灰度认知 | 已有@`…/grey-thinking`（`v0.x-draft`） |
 | 可逆与不可逆决策 | 已有@`…/reversible-irreversible`（`v0.x-draft`） |
 | 杠铃策略 / 反脆弱相关 | 部分已有@他类 `learning-growth/antifragility`（杠铃专条可后续拆或互链） |
 | 满意化原则 | 已有@他类 `game-theory-models/bounded-rationality`（有限理性与满意化；不复制） |
 | 最小可行性产品 | 已有@`…/mvp`（`v0.x-draft`） |
-| 快速试错 | 待新建（`rapid-experimentation`；与 MVP/OODA 分流） |
-| 奥兹冒险 | 待新建（`oz-principle` / accountability；确认名录原意后再建） |
-| 风险不对称 / 不对称回报 | 待新建或并入反脆弱互链（`asymmetric-payoff`） |
+| 快速试错 | 已有@`…/rapid-experimentation`（`v0.x-draft`；与 MVP/OODA 分流） |
+| 奥兹冒险 | 已有@`…/oz-principle`（`v0.x-draft`；Connors Above the Line 问责，非魔法冒险） |
+| 风险不对称 / 不对称回报 | 已有@`…/asymmetric-payoff`（`v0.x-draft`；与 antifragility 互链） |
 | 凯利准则 | 已有@他类 `finance-investing-models/kelly-criterion` |
-| 蒙特卡洛模拟 | 待新建（`monte-carlo`） |
-| 敏感性分析 | 待新建（`sensitivity-analysis`；决策树步骤已含部分） |
+| 蒙特卡洛模拟 | 已有@`…/monte-carlo`（`v0.x-draft`） |
+| 敏感性分析 | 已有@`…/sensitivity-analysis`（`v0.x-draft`；与决策树/MC 分流） |
 | 情景规划 | 已有@`…/scenario-planning`（`v0.x-draft`） |
 | 预验式回顾 | 并入@`…/pre-mortem`（与事前验尸同法；不另建） |
 | 红队思维 | 已有@`…/red-team`（`v0.x-draft`） |
 | 事前验尸 | 已有@`…/pre-mortem`（`v0.x-draft`） |
-| 决策日志 | 待新建（`decision-journal`） |
+| 决策日志 | 已有@`…/decision-journal`（`v0.x-draft`） |
 | 沉没成本（决策视角） | 已有@他类 `behavioral-biases/sunk-cost`（互链，不复制） |
 | 机会成本（决策视角） | 已有@他类 `econ-micro-markets/opportunity-cost` |
-| 阈值效应 | 待新建（`threshold-effect`；注意与临界点分流） |
+| 阈值效应 | 已有@`…/threshold-effect`（`v0.x-draft`；与 tipping-point 分流） |
 | 临界质量 | 已有@他类 `systems-complexity/tipping-point` |
-| 复盘四步法 | 待新建（`after-action-review`） |
+| 复盘四步法 | 已有@`…/after-action-review`（`v0.x-draft`） |
 | OODA 循环 | 已有@`…/ooda-loop`（`v0.x-draft`） |
 | 计划谬误 | 已有@`…/planning-fallacy`（`v0.x-draft`） |
-| 损失函数 | 待新建（`loss-function`；与期望效用分流） |
-| 风险溢价 | 待新建或互链金融类（`risk-premium`） |
+| 损失函数 | 已有@`…/loss-function`（`v0.x-draft`；与期望效用分流） |
+| 风险溢价 | 已有@`…/risk-premium`（`v0.x-draft`；精算定价互链 `capm`） |
 | （增补）期望效用 / 基率 | 已有@`…/expected-utility` · `base-rate`（`v0.x-draft`；名录未单列但与 EV/贝叶斯硬区分需要） |
 
 #### 九、`learning-growth`

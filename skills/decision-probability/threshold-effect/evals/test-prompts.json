@@ -1,0 +1,36 @@
+{
+  "skill": "threshold-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "threshold-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "是不是没到阈值所以投入无效",
+      "expect": "触发阈值效应"
+    },
+    {
+      "id": "threshold-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "广告触达有没有最低有效剂量门槛",
+      "expect": "触发剂量门槛"
+    },
+    {
+      "id": "threshold-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "临界质量到了会不会相变引爆",
+      "expect": "分流tipping-point"
+    },
+    {
+      "id": "threshold-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "响应其实近似线性还硬找阈值",
+      "expect": "边界：勿过度拟合"
+    },
+    {
+      "id": "threshold-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "阈值效应就是临界点引爆",
+      "expect": "纠正：剂量门槛≠相变"
+    }
+  ]
+}
