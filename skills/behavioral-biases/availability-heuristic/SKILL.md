@@ -66,5 +66,5 @@ Tversky 与 Kahneman（1973）把易得性启发定义为：人用相关实例**
 ## 相关模型
 
 - **与[确认性偏差](../confirmation-bias/SKILL.md)**：已有信念决定搜什么，走确认性偏差；没有明确立场，只因案例容易浮现而高估频率，走本模型。
-- **与[奥卡姆剃刀](../../thinking-models/occams-razor/SKILL.md)**：本模型校准候选原因的主观频率；奥卡姆剃刀再对已成形解释排序。
+- **与[奥卡姆剃刀](../../cognitive-thinking-tools/occams-razor/SKILL.md)**：本模型校准候选原因的主观频率；奥卡姆剃刀再对已成形解释排序。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：易得性容易让人盯住单次事件；系统思维要求看长期行为模式与反馈结构。

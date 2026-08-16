@@ -35,7 +35,7 @@ metadata:
 **不要**当主模型：
 - 单次情绪决策要拉开时间感 → [`ten-ten-ten`](../ten-ten-ten/SKILL.md)；
 - 检查利滚利条件是否成立 → [`compounding`](../../finance-investing-models/compounding/SKILL.md)；
-- 行业结构 → [`porters-five-forces`](../porters-five-forces/SKILL.md)。
+- 行业结构 → [`porters-five-forces`](../../strategy-competition/porters-five-forces/SKILL.md)。
 
 ## 怎么用（执行步骤）
 
@@ -66,7 +66,7 @@ metadata:
 
 - **与[10/10/10](../ten-ten-ten/SKILL.md)**：情绪三窗 vs 跨期战略/激励纪律。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：复利=增长机制清单；长线=是否允许并保护该机制跑完。
-- **与[反脆弱](../antifragility/SKILL.md)**：长线前提是下行可控、不归零。
+- **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：长线前提是下行可控、不归零。
 - **与[路径依赖](../../systems-classic-effects/path-dependence/SKILL.md)**：早期短视选择会锁死远期选项集。
-- **与[艾森豪威尔矩阵](../eisenhower-matrix/SKILL.md)**：第 II 象限事务常是长线能力的投入端。
+- **与[艾森豪威尔矩阵](../../efficiency-execution/eisenhower-matrix/SKILL.md)**：第 II 象限事务常是长线能力的投入端。
 ---

@@ -65,6 +65,6 @@ Maslow（1943）提出，人受到多类需求驱动；常见五类是：
 
 ## 相关模型
 
-- **与[第一性原理](../first-principles/SKILL.md)**：需求层次提供动机类别；第一性原理检查“员工只为钱工作”等组织惯例是不是伪约束。
+- **与[第一性原理](../../cognitive-thinking-tools/first-principles/SKILL.md)**：需求层次提供动机类别；第一性原理检查“员工只为钱工作”等组织惯例是不是伪约束。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：管理者容易只搜支持自己激励方案的反馈；逐层扫描仍需主动找反证。
-- **与[六顶思考帽](../six-thinking-hats/SKILL.md)**：需求地图分析“什么在驱动人”；六帽组织团队从不同模式讨论方案。
+- **与[六顶思考帽](../../cognitive-thinking-tools/six-thinking-hats/SKILL.md)**：需求地图分析“什么在驱动人”；六帽组织团队从不同模式讨论方案。

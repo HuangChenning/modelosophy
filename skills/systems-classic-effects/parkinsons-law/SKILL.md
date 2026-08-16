@@ -61,7 +61,7 @@ metadata:
 
 - **与[彼得原理](../peter-principle/SKILL.md)**：常共存于官僚，但诊断问题不同。
 - **与[棘轮效应](../ratchet-effect/SKILL.md)**：编制/流程升上去难降，可与帕金森叠加。
-- **与[艾森豪威尔矩阵](../../thinking-models/eisenhower-matrix/SKILL.md)**：用优先级对抗“填满时间的假忙”。
+- **与[艾森豪威尔矩阵](../../efficiency-execution/eisenhower-matrix/SKILL.md)**：用优先级对抗“填满时间的假忙”。
 
 ## 记忆钩子
 

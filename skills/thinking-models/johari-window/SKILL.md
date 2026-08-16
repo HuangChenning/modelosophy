@@ -35,7 +35,7 @@ metadata:
 
 **不要**当主模型：
 - 能力自评 vs 测验落差机制争议 → [`dunning-kruger`](../../behavioral-biases/dunning-kruger/SKILL.md)；
-- 会议分角色 → [`six-thinking-hats`](../six-thinking-hats/SKILL.md)；
+- 会议分角色 → [`six-thinking-hats`](../../cognitive-thinking-tools/six-thinking-hats/SKILL.md)；
 - 追问主张逻辑 → [`socratic-questioning`](../socratic-questioning/SKILL.md)；
 - 临床心理问题 → 转介专业人士，本模型只谈工作/学习反馈。
 
@@ -68,7 +68,7 @@ metadata:
 ## 相关模型
 
 - **与[邓宁-克鲁格](../../behavioral-biases/dunning-kruger/SKILL.md)**：DK 看表现-自评落差；周哈里窗提供“他人知/己不知”的反馈结构。可组合，不互相替代。
-- **与[六顶思考帽](../six-thinking-hats/SKILL.md)**：帽子管会议角色；窗管人际信息分布。
+- **与[六顶思考帽](../../cognitive-thinking-tools/six-thinking-hats/SKILL.md)**：帽子管会议角色；窗管人际信息分布。
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：质疑检验主张；窗管理披露与反馈节奏。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：只听顺耳反馈会卡住盲目区。
 - **与[双系统](../dual-process/SKILL.md)**：被反馈时的防御常由快系统触发；约定“先复述再回应”给慢系统空间。

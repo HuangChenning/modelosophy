@@ -71,5 +71,5 @@ metadata:
 - **与[易得性启发](../availability-heuristic/SKILL.md)**：易得性管“好不好想起来”；本模型管“样本缺了谁”。常先补分母，再谈媒体曝光。
 - **与[确认性偏差](../confirmation-bias/SKILL.md)**：确认偏差是主动筛证据；幸存者偏差可以在无动机时仍发生——世界替你筛了。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：成功学故事里的“长期坚持”常抽掉破产路径；谈复利必须同时谈存活与负复利。
-- **与[奥卡姆剃刀](../../thinking-models/occams-razor/SKILL.md)**：从残缺样本归纳的“简单成功法则”往往是特设故事，优先降级验证。
+- **与[奥卡姆剃刀](../../cognitive-thinking-tools/occams-razor/SKILL.md)**：从残缺样本归纳的“简单成功法则”往往是特设故事，优先降级验证。
 ---

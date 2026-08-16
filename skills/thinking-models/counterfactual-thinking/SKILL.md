@@ -33,7 +33,7 @@ metadata:
 - 直接说反事实 / counterfactual / 要是当时。
 
 **不要**当主模型：
-- 行动前系统列失败模式 → [`inversion`](../inversion/SKILL.md)（含 premortem）；
+- 行动前系统列失败模式 → [`inversion`](../../cognitive-thinking-tools/inversion/SKILL.md)（含 premortem）；
 - 得失框架与损失痛感 → [`loss-aversion`](../../behavioral-biases/loss-aversion/SKILL.md)；
 - 已投入是否绑架 → [`sunk-cost`](../../behavioral-biases/sunk-cost/SKILL.md)。
 
@@ -64,7 +64,7 @@ metadata:
 
 ## 相关模型
 
-- **与[逆向思维](../inversion/SKILL.md)**：逆向=事前列失败模式；反事实=事后若非模拟。改进规则可写入下次的 inversion 清单。
+- **与[逆向思维](../../cognitive-thinking-tools/inversion/SKILL.md)**：逆向=事前列失败模式；反事实=事后若非模拟。改进规则可写入下次的 inversion 清单。
 - **与[损失规避](../../behavioral-biases/loss-aversion/SKILL.md)**：上行反事实常放大“失去的更好结果”之痛。
 - **与[沉没成本](../../behavioral-biases/sunk-cost/SKILL.md)**：反刍过去投入与反事实常纠缠；沉没成本问的是未来是否续投。
 - **与[双系统](../dual-process/SKILL.md)**：反事实情绪来得快；可控性分割与规则化需要慢系统。

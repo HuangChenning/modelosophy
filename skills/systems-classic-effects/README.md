@@ -44,9 +44,9 @@
 - 本目录均为**可执行** Skill（何时用 / 怎么用 / 边界 / 相关模型）。
 - 原「9 字段知识卡」不作主交付；有用字段已吸收进各 `SKILL.md`。
 - 新建条目为 `v0.x-draft`，未经 skill-creator 后处理压测；README「目前的进展」勿称为成品。
-- **未**从 `thinking-models` 物理迁入 antifragility / tipping-point / leverage / flywheel / long-term-thinking / economic-moat / porters-five-forces；仅互链。
+- 名录第十二类（`systems-complexity`）承接冰山/杠杆/临界点/耗散结构等；本目录保留效应与经典系统条目。`long-term-thinking` 仍留 `thinking-models/`。
 - 清单「首因/近因」由 [`serial-position-effect`](./serial-position-effect/SKILL.md) 覆盖；「网络效应」由 [`metcalfes-law`](./metcalfes-law/SKILL.md) 覆盖。
 
 ## Other categories
 
-[`behavioral-biases`](../behavioral-biases/) · [`business`](../business/) · [`econ-macro-theories`](../econ-macro-theories/) · [`econ-micro-markets`](../econ-micro-markets/) · [`finance-investing-models`](../finance-investing-models/) · [`game-theory-models`](../game-theory-models/) · [`thinking-models`](../thinking-models/)
+[`behavioral-biases`](../behavioral-biases/) · [`business`](../business/) · [`cognitive-thinking-tools`](../cognitive-thinking-tools/) · [`decision-probability`](../decision-probability/) · [`econ-macro-theories`](../econ-macro-theories/) · [`econ-micro-markets`](../econ-micro-markets/) · [`efficiency-execution`](../efficiency-execution/) · [`finance-investing-models`](../finance-investing-models/) · [`game-theory-models`](../game-theory-models/) · [`learning-growth`](../learning-growth/) · [`strategy-competition`](../strategy-competition/) · [`systems-complexity`](../systems-complexity/) · [`thinking-models`](../thinking-models/)

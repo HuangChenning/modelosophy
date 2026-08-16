@@ -61,7 +61,7 @@ metadata:
 
 - **与[系统思维](../systems-thinking/SKILL.md)**：先思维后动力学，或反过来用动力学深化。
 - **与[反馈回路](../feedback-loops/SKILL.md)**：回路是动力学的积木。
-- **与[杠杆](../../thinking-models/leverage/SKILL.md)**：Meadows 杠杆点常基于动力学直觉（互链不迁入）。
+- **与[杠杆](../../systems-complexity/leverage/SKILL.md)**：Meadows 杠杆点常基于动力学直觉（互链不迁入）。
 
 ## 记忆钩子
 

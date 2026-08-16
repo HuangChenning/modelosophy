@@ -12,176 +12,272 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
+分类一览（逐条简介见文末 [Skill 目录](#skill-目录)）：
+
+| 分类 | 数量 | 目录 |
+| --- | ---: | --- |
+| [商业 / 组织情报](skills/business/README.md) | 1 | [目录](#商业--组织情报1) |
+| [通用思维模型](skills/thinking-models/README.md) | 25 | [目录](#通用思维模型25) |
+| [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 8 | [目录](#认知与思维工具8) |
+| [决策与概率](skills/decision-probability/README.md) | 2 | [目录](#决策与概率2) |
+| [学习与成长](skills/learning-growth/README.md) | 5 | [目录](#学习与成长5) |
+| [战略与竞争](skills/strategy-competition/README.md) | 4 | [目录](#战略与竞争4) |
+| [效率与执行](skills/efficiency-execution/README.md) | 2 | [目录](#效率与执行2) |
+| [系统与复杂](skills/systems-complexity/README.md) | 4 | [目录](#系统与复杂4) |
+| [宏观经济学理论](skills/econ-macro-theories/README.md) | 30 | [目录](#宏观经济学理论30) |
+| [微观经济学与市场](skills/econ-micro-markets/README.md) | 30 | [目录](#微观经济学与市场30) |
+| [博弈论与策略](skills/game-theory-models/README.md) | 31 | [目录](#博弈论与策略31) |
+| [行为经济学与偏误](skills/behavioral-biases/README.md) | 30 | [目录](#行为经济学与偏误30) |
+| [金融与投资](skills/finance-investing-models/README.md) | 30 | [目录](#金融与投资30) |
+| [系统与经典效应](skills/systems-classic-effects/README.md) | 30 | [目录](#系统与经典效应30) |
+
+另有原属通用思维模型库的 Skill 已分批迁入学科分类（含本轮 **25** 条迁入认知/决策/学习/战略/效率/复杂系统），只在新分类下列出。
+
+## 运作原理
+
+<p align="center">
+  <img src="./assets/readme/mechanism.svg" width="100%" alt="三阶段示意图：建模、蒸馏、复用">
+</p>
+
+一个思维模型首先被**识别为一种模式**（建模），然后被**提炼为可执行的步骤**（蒸馏），写成一份 `SKILL.md`，最终被**任何读取 skills 目录的 AI Agent 调用**（复用）。
+
+## 使用方法
+
+每个 Skill 都独立存放在 `skills/<category>/<name>/` 目录下，其中的 `SKILL.md` 供 AI Agent（例如 Claude Code）读取，了解这个 Skill 做什么、如何调用。
+
+```bash
+git clone https://github.com/HuangChenning/modelosophy.git
+# 或者只把某一个 Skill 目录复制进你自己的项目
+cp -r modelosophy/skills/<category>/<name> your-project/skills/<name>
+```
+
+如果一个 Skill 会生成报告，报告统一写入 `output/<skill-name>/`；这个目录只存在于本机，不会提交到本仓库。
+
+## 仓库结构
+
+```text
+skills/<category>/<name>/SKILL.md      这个 Skill 做什么、何时使用
+skills/<category>/<name>/references/   支撑该 Skill 的方法论与参考资料
+skills/<category>/<name>/scripts/      生成/自动化脚本（如果有）
+skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
+```
+
+`<category>` 按领域分组——例如 `business/`、`thinking-models/`、六学科分类，以及认知工具 / 决策 / 学习 / 战略 / 效率 / 复杂系统等平级目录。
+
+输出 HTML 报告的 Skill 需遵循 [`DESIGN.md`](DESIGN.md) 中定义的统一视觉规范。
+
+## 局限性
+
+库仍处于早期：跨分类合计 **232** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 25）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
+
+## 贡献一个思维模型
+
+如果你有一个值得蒸馏的思维框架，欢迎按照上面的结构，新增一个 `skills/<category>/<name>/SKILL.md` 并提交 PR。
+
+## Skill 目录
+
+全部 **232** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
+
 ### 商业 / 组织情报（1）
 
 组织 / IT 情报与商业调研。
 
 - **[org-it-intel-report](skills/business/org-it-intel-report/SKILL.md)** — 组织 IT 情报报告：按麦肯锡式结构输出组织整体情况 + IT 投入/招投标情报报告（厂商中立）。
 
-### 通用思维模型（50）
+### 通用思维模型（25）
 
-通用推理、战略、学习、领导等（**50**）。另有 **19** 个原属本库的 Skill 已迁入下方学科分类，只在新分类下列出，不在此重复。
+通用推理、领导、沟通等杂项思维模型（学科专条已迁出）。
 
 - **[abductive-reasoning](skills/thinking-models/abductive-reasoning/SKILL.md)** — 溯因推理：从令人惊讶的观察出发，生成并选择当前最佳解释假设（IBE），并标明待验点。
-- **[antifragility](skills/thinking-models/antifragility/SKILL.md)** — 反脆弱：设计能从波动与不确定性中获益的策略，而不只是抗住风险。
 - **[contrarian-and-right](skills/thinking-models/contrarian-and-right/SKILL.md)** — 正确与非共识：检验非常规判断——超额洞见需既偏离主流，又经得起证据与可证伪预测。
 - **[counterfactual-thinking](skills/thinking-models/counterfactual-thinking/SKILL.md)** — 反事实思维：处理「若非当时……」的心理模拟；区分上行/下行反事实，聚焦可控原因。
-- **[critical-thinking](skills/thinking-models/critical-thinking/SKILL.md)** — 批判性思维：按 Facione Delphi 框架练诠释、分析、评估、推理、说明与自我校准。
-- **[decision-tree](skills/thinking-models/decision-tree/SKILL.md)** — 决策树：在选项已知、结果不确定、能粗估概率与后果时，做多阶段选择与期望值比较。
 - **[deductive-reasoning](skills/thinking-models/deductive-reasoning/SKILL.md)** — 演绎法：从已接受的一般前提出发，按有效推理规则推出必然随之而来的结论。
-- **[dissipative-structures](skills/thinking-models/dissipative-structures/SKILL.md)** — 耗散结构：诊断开放系统在远离平衡时，能否经涨落放大越过阈值形成新的宏观有序。
 - **[dual-goal-list](skills/thinking-models/dual-goal-list/SKILL.md)** — 双目标清单：写下约 25 个目标，圈定 Top 5 为 List A，其余列入主动回避的 List B。
 - **[dual-process](skills/thinking-models/dual-process/SKILL.md)** — 双系统：用卡尼曼 System 1/2 判断何时信任直觉、何时强制慢思考。
-- **[economic-moat](skills/thinking-models/economic-moat/SKILL.md)** — 护城河：评估企业能否在竞争下维持超额回报，并识别壁垒来源与可持续性。
-- **[eisenhower-matrix](skills/thinking-models/eisenhower-matrix/SKILL.md)** — 艾森豪威尔矩阵：按紧急×重要分配注意力，优先投入重要但不紧急的事项。
 - **[emotional-abc](skills/thinking-models/emotional-abc/SKILL.md)** — 情绪 ABC：把强烈情绪拆成触发事件 A、信念 B、情绪/行为后果 C，改 B 而非只压 C。
-- **[expected-value](skills/thinking-models/expected-value/SKILL.md)** — 期望值：把不确定结果量化为概率加权平均（EV = Σ pᵢ·xᵢ）。
-- **[feynman-technique](skills/thinking-models/feynman-technique/SKILL.md)** — 费曼技巧：用简单语言「教别人」暴露理解空洞，再修补并复讲。
-- **[first-principles](skills/thinking-models/first-principles/SKILL.md)** — 第一性原理：把判断拆到硬事实/物理约束，再从约束重新往上构建，少靠类比。
 - **[five-w-one-h](skills/thinking-models/five-w-one-h/SKILL.md)** — 5W1H：把 Who/What/When/Where/Why/How 信息槽钉全，暴露缺腿事实。
-- **[flow](skills/thinking-models/flow/SKILL.md)** — 心流：当挑战与技能大致匹配、目标清晰且反馈及时时，诊断并调节投入状态。
-- **[flywheel](skills/thinking-models/flywheel/SKILL.md)** — 飞轮：设计或诊断互相加强的因果闭环，使每一圈投入提高下一圈效率。
 - **[fogg-behavior-model](skills/thinking-models/fogg-behavior-model/SKILL.md)** — 福格行为模型：用 B=MAP（动机×能力×提示）诊断行为为何发生或未发生。
-- **[forgetting-curve](skills/thinking-models/forgetting-curve/SKILL.md)** — 遗忘曲线：用间隔检索对抗记忆随时间下降，避免一次性死记。
 - **[gaslighting](skills/thinking-models/gaslighting/SKILL.md)** — 煤气灯效应：识别通过否认对方感知/记忆来夺取「现实定义权」的操纵模式。
-- **[golden-circle](skills/thinking-models/golden-circle/SKILL.md)** — 黄金圈：按 WHY–HOW–WHAT 整理沟通与策略叙事，先目的再方法再产品。
 - **[hook-model](skills/thinking-models/hook-model/SKILL.md)** — HOOK 模型：用 Trigger→Action→Variable Reward→Investment 设计可反复发生的习惯回路。
-- **[iceberg-model](skills/thinking-models/iceberg-model/SKILL.md)** — 冰山模型：从可见行为/器物下挖到假设与文化层，避免只改表面口号。
 - **[implicit-premises](skills/thinking-models/implicit-premises/SKILL.md)** — 隐含前提：补全论证里未写出却托住结论的前提，并分类检验。
-- **[inversion](skills/thinking-models/inversion/SKILL.md)** — 逆向思维：从失败倒推——先问「怎样保证搞砸」，再把每条失败路径变成规避项。
 - **[johari-window](skills/thinking-models/johari-window/SKILL.md)** — 周哈里窗：用反馈与自我披露扩大开放区，减少盲目区与隐藏区误解。
 - **[ladder-of-inference](skills/thinking-models/ladder-of-inference/SKILL.md)** — 推论阶梯：摊开从选数据、赋义、假设到信念与行动的攀升步骤。
-- **[leverage](skills/thinking-models/leverage/SKILL.md)** — 杠杆：找到系统中小投入可带来大结构化改变的干预点（Meadows 式杠杆点）。
 - **[local-global-optima](skills/thinking-models/local-global-optima/SKILL.md)** — 局部最优：判断继续打磨当前路径是否已陷入小山峰，是否值得付代价换山。
 - **[long-term-thinking](skills/thinking-models/long-term-thinking/SKILL.md)** — 长线思考：把决策放进多期后果与激励周期，写清近/中/远影响与考核约束。
 - **[maslow-hierarchy](skills/thinking-models/maslow-hierarchy/SKILL.md)** — 马斯洛需求层次：把需求类别当检查表（非普遍定律），扫描生理到自我实现的缺口。
-- **[mece](skills/thinking-models/mece/SKILL.md)** — MECE：把议题拆成相互独立、完全穷尽的类别，便于分析与分工。
-- **[metacognition](skills/thinking-models/metacognition/SKILL.md)** — 元认知：监控并调节自己的认知过程——觉察是否理解、是否用错策略并换方法。
 - **[munger-misjudgment](skills/thinking-models/munger-misjudgment/SKILL.md)** — 人类误判心理：用芒格 25 种心理倾向做清单扫描，并警惕 Lollapalooza 叠加。
 - **[negentropy](skills/thinking-models/negentropy/SKILL.md)** — 负熵：用账本诊断开放系统如何靠输入自由能/信息维持局部有序并排出废热。
-- **[occams-razor](skills/thinking-models/occams-razor/SKILL.md)** — 奥卡姆剃刀：在同样能解释现象的假设中，优先所需特设假设更少者，再验证。
-- **[pdca](skills/thinking-models/pdca/SKILL.md)** — PDCA：Plan–Do–Check/Study–Act 持续改进循环，每圈带明确假设与度量。
-- **[porters-five-forces](skills/thinking-models/porters-five-forces/SKILL.md)** — 波特五力：在行业层面诊断利润结构——竞争、进入、替代、买方与供方议价。
 - **[process-replication](skills/thinking-models/process-replication/SKILL.md)** — 可复制化：把成功经验蒸馏为可迁移步骤，按本地约束适配后再规模化。
-- **[pyramid-principle](skills/thinking-models/pyramid-principle/SKILL.md)** — 金字塔原理：结论先行，上层概括下层，同层 MECE 组织论证与沟通。
 - **[redundancy](skills/thinking-models/redundancy/SKILL.md)** — 冗余备份：为故障与单点失效有意保留多余容量、路径或副本。
 - **[situational-leadership](skills/thinking-models/situational-leadership/SKILL.md)** — 情境领导：按下属在具体任务上的准备度（能力×意愿）切换督导风格。
-- **[six-thinking-hats](skills/thinking-models/six-thinking-hats/SKILL.md)** — 六顶思考帽：把会议中的事实、感受、利益、风险与创意分时并行处理。
 - **[socratic-questioning](skills/thinking-models/socratic-questioning/SKILL.md)** — 苏格拉底式质疑：用诘问检验主张是否站得住——追问到矛盾显现，而非直接反驳。
 - **[spiral-of-silence](skills/thinking-models/spiral-of-silence/SKILL.md)** — 沉默的螺旋：诊断「怕被孤立→误判意见气候→少数派沉默→优势意见更响」的舆论动力。
-- **[swot](skills/thinking-models/swot/SKILL.md)** — SWOT 分析：盘点内部优势/劣势×外部机会/威胁，并做 SO/WO/ST/WT 匹配导向行动。
 - **[ten-ten-ten](skills/thinking-models/ten-ten-ten/SKILL.md)** — 10/10/10：从当下强烈情绪拉开时间距离，分别写出约 10 分钟/10 个月/10 年的后果。
-- **[tipping-point](skills/thinking-models/tipping-point/SKILL.md)** — 断裂点：识别系统在临界质量附近可能发生的非线性相变——越过阈值后行为翻转。
+
+### 认知与思维工具（8）
+
+第一性原理、结构化拆解、批判性思维等认知工具。
+
+- **[critical-thinking](skills/cognitive-thinking-tools/critical-thinking/SKILL.md)** — 批判性思维：按 Facione Delphi 框架练诠释、分析、评估、推理、说明与自我校准。
+- **[first-principles](skills/cognitive-thinking-tools/first-principles/SKILL.md)** — 第一性原理：把判断拆到硬事实/物理约束，再从约束重新往上构建，少靠类比。
+- **[golden-circle](skills/cognitive-thinking-tools/golden-circle/SKILL.md)** — 黄金圈：按 WHY–HOW–WHAT 整理沟通与策略叙事，先目的再方法再产品。
+- **[inversion](skills/cognitive-thinking-tools/inversion/SKILL.md)** — 逆向思维：从失败倒推——先问「怎样保证搞砸」，再把每条失败路径变成规避项。
+- **[mece](skills/cognitive-thinking-tools/mece/SKILL.md)** — MECE：把议题拆成相互独立、完全穷尽的类别，便于分析与分工。
+- **[occams-razor](skills/cognitive-thinking-tools/occams-razor/SKILL.md)** — 奥卡姆剃刀：在同样能解释现象的假设中，优先所需特设假设更少者，再验证。
+- **[pyramid-principle](skills/cognitive-thinking-tools/pyramid-principle/SKILL.md)** — 金字塔原理：结论先行，上层概括下层，同层 MECE 组织论证与沟通。
+- **[six-thinking-hats](skills/cognitive-thinking-tools/six-thinking-hats/SKILL.md)** — 六顶思考帽：把会议中的事实、感受、利益、风险与创意分时并行处理。
+
+### 决策与概率（2）
+
+期望值、决策树等不确定性决策工具。
+
+- **[decision-tree](skills/decision-probability/decision-tree/SKILL.md)** — 决策树：在选项已知、结果不确定、能粗估概率与后果时，做多阶段选择与期望值比较。
+- **[expected-value](skills/decision-probability/expected-value/SKILL.md)** — 期望值：把不确定结果量化为概率加权平均（EV = Σ pᵢ·xᵢ）。
+
+### 学习与成长（5）
+
+费曼技巧、心流、元认知、遗忘曲线、反脆弱等。
+
+- **[antifragility](skills/learning-growth/antifragility/SKILL.md)** — 反脆弱：设计能从波动与不确定性中获益的策略，而不只是抗住风险。
+- **[feynman-technique](skills/learning-growth/feynman-technique/SKILL.md)** — 费曼技巧：用简单语言「教别人」暴露理解空洞，再修补并复讲。
+- **[flow](skills/learning-growth/flow/SKILL.md)** — 心流：当挑战与技能大致匹配、目标清晰且反馈及时时，诊断并调节投入状态。
+- **[forgetting-curve](skills/learning-growth/forgetting-curve/SKILL.md)** — 遗忘曲线：用间隔检索对抗记忆随时间下降，避免一次性死记。
+- **[metacognition](skills/learning-growth/metacognition/SKILL.md)** — 元认知：监控并调节自己的认知过程——觉察是否理解、是否用错策略并换方法。
+
+### 战略与竞争（4）
+
+波特五力、护城河、飞轮、SWOT 等战略分析。
+
+- **[economic-moat](skills/strategy-competition/economic-moat/SKILL.md)** — 护城河：评估企业能否在竞争下维持超额回报，并识别壁垒来源与可持续性。
+- **[flywheel](skills/strategy-competition/flywheel/SKILL.md)** — 飞轮：设计或诊断互相加强的因果闭环，使每一圈投入提高下一圈效率。
+- **[porters-five-forces](skills/strategy-competition/porters-five-forces/SKILL.md)** — 波特五力：在行业层面诊断利润结构——竞争、进入、替代、买方与供方议价。
+- **[swot](skills/strategy-competition/swot/SKILL.md)** — SWOT 分析：盘点内部优势/劣势×外部机会/威胁，并做 SO/WO/ST/WT 匹配导向行动。
+
+### 效率与执行（2）
+
+艾森豪威尔矩阵、PDCA 等效率与执行。
+
+- **[eisenhower-matrix](skills/efficiency-execution/eisenhower-matrix/SKILL.md)** — 艾森豪威尔矩阵：按紧急×重要分配注意力，优先投入重要但不紧急的事项。
+- **[pdca](skills/efficiency-execution/pdca/SKILL.md)** — PDCA：Plan–Do–Check/Study–Act 持续改进循环，每圈带明确假设与度量。
+
+### 系统与复杂（4）
+
+冰山模型、杠杆点、临界点、耗散结构等复杂系统（与经典效应分类互补）。
+
+- **[dissipative-structures](skills/systems-complexity/dissipative-structures/SKILL.md)** — 耗散结构：诊断开放系统在远离平衡时，能否经涨落放大越过阈值形成新的宏观有序。
+- **[iceberg-model](skills/systems-complexity/iceberg-model/SKILL.md)** — 冰山模型：从可见行为/器物下挖到假设与文化层，避免只改表面口号。
+- **[leverage](skills/systems-complexity/leverage/SKILL.md)** — 杠杆：找到系统中小投入可带来大结构化改变的干预点（Meadows 式杠杆点）。
+- **[tipping-point](skills/systems-complexity/tipping-point/SKILL.md)** — 断裂点：识别系统在临界质量附近可能发生的非线性相变——越过阈值后行为翻转。
 
 ### 宏观经济学理论（30）
 
-宏观经典理论（**30**；多为 `v0.x-draft`）。
+宏观经济学经典理论。
 
-- **[invisible-hand](skills/econ-macro-theories/invisible-hand/SKILL.md)** — 看不见的手（Invisible Hand）：分散决策在价格信号下可自发协调资源配置，无需中央指挥官。
-- **[keynesianism](skills/econ-macro-theories/keynesianism/SKILL.md)** — 凯恩斯主义（Keynesianism）：有效需求不足时可逆周期用财政/货币拉动支出，避免长期失业均衡。
-- **[monetarism](skills/econ-macro-theories/monetarism/SKILL.md)** — 货币主义（Monetarism）：通胀归根结底是货币现象；政策宜规则化，少搞相机刺激。
-- **[supply-side-economics](skills/econ-macro-theories/supply-side-economics/SKILL.md)** — 供给学派（Supply-Side Economics）：通过减税、放松管制等激励生产端，提高潜在产出而非只刺激需求。
-- **[laffer-curve](skills/econ-macro-theories/laffer-curve/SKILL.md)** — 拉弗曲线（Laffer Curve）：税率从 0 到 100% 时，税收收入先升后降；过高税率可能少收税。
-- **[austrian-school](skills/econ-macro-theories/austrian-school/SKILL.md)** — 奥地利学派（Austrian School）：强调主观价值、企业家发现与自发秩序；警惕人为信用扩张扭曲资本结构。
-- **[rational-expectations](skills/econ-macro-theories/rational-expectations/SKILL.md)** — 理性预期（Rational Expectations）：公众会利用可得信息预判政策，系统性「欺骗」难以持久生效。
-- **[modern-monetary-theory](skills/econ-macro-theories/modern-monetary-theory/SKILL.md)** — 现代货币理论（Modern Monetary Theory (MMT)）：主权法币发行国的硬约束是通胀与实资，而非「像家庭一样先收税再花钱」。
-- **[phillips-curve](skills/econ-macro-theories/phillips-curve/SKILL.md)** — 菲利普斯曲线（Phillips Curve）：短期通胀与失业常呈权衡；长期可能垂直于自然失业率。
-- **[okuns-law](skills/econ-macro-theories/okuns-law/SKILL.md)** — 奥肯定律（Okun's Law）：实际产出增长相对潜在增速越快，失业率往往下降（经验规则，非恒等）。
-- **[is-lm-model](skills/econ-macro-theories/is-lm-model/SKILL.md)** — IS-LM 模型（IS–LM Model）：在物价固定的短期，用利率把产品市场（IS）与货币市场（LM）联立求产出。
 - **[ad-as-model](skills/econ-macro-theories/ad-as-model/SKILL.md)** — AD-AS 模型（AD–AS Model）：总需求与总供给共同决定总体物价水平与总产出。
-- **[multiplier-effect](skills/econ-macro-theories/multiplier-effect/SKILL.md)** — 乘数效应（Multiplier Effect）：一笔自主支出可通过收入—消费链条放大为更大产出变动。
+- **[austrian-school](skills/econ-macro-theories/austrian-school/SKILL.md)** — 奥地利学派（Austrian School）：强调主观价值、企业家发现与自发秩序；警惕人为信用扩张扭曲资本结构。
+- **[balance-sheet-recession](skills/econ-macro-theories/balance-sheet-recession/SKILL.md)** — 资产负债表衰退（Balance Sheet Recession）：资产泡沫破裂后，企业优先还债最小化负债，即使利率极低也不愿借钱投资。
+- **[creative-destruction](skills/econ-macro-theories/creative-destruction/SKILL.md)** — 创造性破坏（Creative Destruction）：创新通过摧毁旧产品、企业与技能，重建更高生产力的结构。
 - **[crowding-out-effect](skills/econ-macro-theories/crowding-out-effect/SKILL.md)** — 挤出效应（Crowding Out）：政府借支推高利率或争夺实资，可能挤压私人投资与消费。
+- **[endogenous-growth-theory](skills/econ-macro-theories/endogenous-growth-theory/SKILL.md)** — 内生增长理论（Endogenous Growth Theory）：把知识、人力资本与创新投资内生化，使长期增长由经济决策决定。
+- **[fisher-equation](skills/econ-macro-theories/fisher-equation/SKILL.md)** — 费雪方程（Fisher Equation / Quantity Theory (MV=PQ)）：MV=PQ：货币量×流通速度≈物价水平×产出；常用于名义锚定直觉。
+- **[impossible-trinity](skills/econ-macro-theories/impossible-trinity/SKILL.md)** — 不可能三角（Impossible Trinity (Mundell–Fleming)）：资本自由流动、固定汇率、独立货币政策三者不可兼得，最多选其二。
+- **[invisible-hand](skills/econ-macro-theories/invisible-hand/SKILL.md)** — 看不见的手（Invisible Hand）：分散决策在价格信号下可自发协调资源配置，无需中央指挥官。
+- **[is-lm-model](skills/econ-macro-theories/is-lm-model/SKILL.md)** — IS-LM 模型（IS–LM Model）：在物价固定的短期，用利率把产品市场（IS）与货币市场（LM）联立求产出。
+- **[juglar-cycle](skills/econ-macro-theories/juglar-cycle/SKILL.md)** — 朱格拉周期（Juglar Cycle）：约 7–11 年的中期商业周期，常与固定资本/设备投资波动相关。
+- **[keynesianism](skills/econ-macro-theories/keynesianism/SKILL.md)** — 凯恩斯主义（Keynesianism）：有效需求不足时可逆周期用财政/货币拉动支出，避免长期失业均衡。
+- **[kitchin-cycle](skills/econ-macro-theories/kitchin-cycle/SKILL.md)** — 基钦周期（Kitchin Cycle）：约 3–5 年（常称约 40 个月）的短周期，主要与库存调整相关。
+- **[kondratiev-wave](skills/econ-macro-theories/kondratiev-wave/SKILL.md)** — 康德拉季耶夫长波（Kondratiev Wave）：主张存在约 40–60 年的技术—价格长周期；证据与机制仍争议。
+- **[kuznets-curve](skills/econ-macro-theories/kuznets-curve/SKILL.md)** — 库兹涅茨曲线（Kuznets Curve）：经济发展过程中收入不平等可能先升后降——假说，非必然规律。
+- **[laffer-curve](skills/econ-macro-theories/laffer-curve/SKILL.md)** — 拉弗曲线（Laffer Curve）：税率从 0 到 100% 时，税收收入先升后降；过高税率可能少收税。
+- **[malthusian-trap](skills/econ-macro-theories/malthusian-trap/SKILL.md)** — 马尔萨斯陷阱（Malthusian Trap）：前工业时代技术进步带来的余粮常被人口增长吞掉，人均难持续上升。
+- **[modern-monetary-theory](skills/econ-macro-theories/modern-monetary-theory/SKILL.md)** — 现代货币理论（Modern Monetary Theory (MMT)）：主权法币发行国的硬约束是通胀与实资，而非「像家庭一样先收税再花钱」。
+- **[monetarism](skills/econ-macro-theories/monetarism/SKILL.md)** — 货币主义（Monetarism）：通胀归根结底是货币现象；政策宜规则化，少搞相机刺激。
+- **[multiplier-effect](skills/econ-macro-theories/multiplier-effect/SKILL.md)** — 乘数效应（Multiplier Effect）：一笔自主支出可通过收入—消费链条放大为更大产出变动。
+- **[okuns-law](skills/econ-macro-theories/okuns-law/SKILL.md)** — 奥肯定律（Okun's Law）：实际产出增长相对潜在增速越快，失业率往往下降（经验规则，非恒等）。
+- **[phillips-curve](skills/econ-macro-theories/phillips-curve/SKILL.md)** — 菲利普斯曲线（Phillips Curve）：短期通胀与失业常呈权衡；长期可能垂直于自然失业率。
+- **[purchasing-power-parity](skills/econ-macro-theories/purchasing-power-parity/SKILL.md)** — 购买力平价（Purchasing Power Parity (PPP)）：长期看，汇率应使一篮子货物在两国的购买力大致相当（相对/绝对 PPP）。
+- **[rational-expectations](skills/econ-macro-theories/rational-expectations/SKILL.md)** — 理性预期（Rational Expectations）：公众会利用可得信息预判政策，系统性「欺骗」难以持久生效。
 - **[ricardian-equivalence](skills/econ-macro-theories/ricardian-equivalence/SKILL.md)** — 李嘉图等价（Ricardian Equivalence）：在严格假定下，政府发债融资与当期征税对私人消费的影响等价。
+- **[solow-growth-model](skills/econ-macro-theories/solow-growth-model/SKILL.md)** — 索洛增长模型（Solow Growth Model）：资本积累有递减；长期人均增长主要靠外生技术进步，储蓄率影响水平非永久增速。
+- **[supply-side-economics](skills/econ-macro-theories/supply-side-economics/SKILL.md)** — 供给学派（Supply-Side Economics）：通过减税、放松管制等激励生产端，提高潜在产出而非只刺激需求。
+- **[taylor-rule](skills/econ-macro-theories/taylor-rule/SKILL.md)** — 泰勒规则（Taylor Rule）：按通胀偏离目标与产出缺口系统设定政策利率的基准规则。
 - **[tobins-q](skills/econ-macro-theories/tobins-q/SKILL.md)** — 托宾 Q（Tobin's Q）：企业市值相对资产重置成本的比值，指引投资意愿：Q>1 倾向扩产。
 - **[trickle-down-economics](skills/econ-macro-theories/trickle-down-economics/SKILL.md)** — 涓滴经济学（Trickle-Down Economics）：主张先让上层/资本得利，增长红利再向下渗透惠及大众——证据常弱且易被滥用。
-- **[kuznets-curve](skills/econ-macro-theories/kuznets-curve/SKILL.md)** — 库兹涅茨曲线（Kuznets Curve）：经济发展过程中收入不平等可能先升后降——假说，非必然规律。
-- **[malthusian-trap](skills/econ-macro-theories/malthusian-trap/SKILL.md)** — 马尔萨斯陷阱（Malthusian Trap）：前工业时代技术进步带来的余粮常被人口增长吞掉，人均难持续上升。
-- **[solow-growth-model](skills/econ-macro-theories/solow-growth-model/SKILL.md)** — 索洛增长模型（Solow Growth Model）：资本积累有递减；长期人均增长主要靠外生技术进步，储蓄率影响水平非永久增速。
-- **[endogenous-growth-theory](skills/econ-macro-theories/endogenous-growth-theory/SKILL.md)** — 内生增长理论（Endogenous Growth Theory）：把知识、人力资本与创新投资内生化，使长期增长由经济决策决定。
-- **[creative-destruction](skills/econ-macro-theories/creative-destruction/SKILL.md)** — 创造性破坏（Creative Destruction）：创新通过摧毁旧产品、企业与技能，重建更高生产力的结构。
-- **[kondratiev-wave](skills/econ-macro-theories/kondratiev-wave/SKILL.md)** — 康德拉季耶夫长波（Kondratiev Wave）：主张存在约 40–60 年的技术—价格长周期；证据与机制仍争议。
-- **[juglar-cycle](skills/econ-macro-theories/juglar-cycle/SKILL.md)** — 朱格拉周期（Juglar Cycle）：约 7–11 年的中期商业周期，常与固定资本/设备投资波动相关。
-- **[kitchin-cycle](skills/econ-macro-theories/kitchin-cycle/SKILL.md)** — 基钦周期（Kitchin Cycle）：约 3–5 年（常称约 40 个月）的短周期，主要与库存调整相关。
-- **[impossible-trinity](skills/econ-macro-theories/impossible-trinity/SKILL.md)** — 不可能三角（Impossible Trinity (Mundell–Fleming)）：资本自由流动、固定汇率、独立货币政策三者不可兼得，最多选其二。
-- **[purchasing-power-parity](skills/econ-macro-theories/purchasing-power-parity/SKILL.md)** — 购买力平价（Purchasing Power Parity (PPP)）：长期看，汇率应使一篮子货物在两国的购买力大致相当（相对/绝对 PPP）。
-- **[fisher-equation](skills/econ-macro-theories/fisher-equation/SKILL.md)** — 费雪方程（Fisher Equation / Quantity Theory (MV=PQ)）：MV=PQ：货币量×流通速度≈物价水平×产出；常用于名义锚定直觉。
-- **[taylor-rule](skills/econ-macro-theories/taylor-rule/SKILL.md)** — 泰勒规则（Taylor Rule）：按通胀偏离目标与产出缺口系统设定政策利率的基准规则。
-- **[balance-sheet-recession](skills/econ-macro-theories/balance-sheet-recession/SKILL.md)** — 资产负债表衰退（Balance Sheet Recession）：资产泡沫破裂后，企业优先还债最小化负债，即使利率极低也不愿借钱投资。
 
 ### 微观经济学与市场（30）
 
-微观与市场机制（**30**）。
+微观与市场机制。
 
-- **[supply-and-demand](skills/econ-micro-markets/supply-and-demand/SKILL.md)** — 供需法则：价格由供给与需求共同决定，不是单边意志。
-- **[equilibrium-price](skills/econ-micro-markets/equilibrium-price/SKILL.md)** — 均衡价格：供需量相等时的市场出清价格。
-- **[price-elasticity](skills/econ-micro-markets/price-elasticity/SKILL.md)** — 供需价格弹性：数量对价格变化的敏感程度。
-- **[diminishing-marginal-utility](skills/econ-micro-markets/diminishing-marginal-utility/SKILL.md)** — 边际效用递减：消费越多，每多一份带来的满足感通常越低。
-- **[opportunity-cost](skills/econ-micro-markets/opportunity-cost/SKILL.md)** — 机会成本：互斥选项下被放弃的最佳替代价值。
+- **[adverse-selection](skills/econ-micro-markets/adverse-selection/SKILL.md)** — 逆向选择：签约前，信息劣势方更容易吸引到「不利」的交易对手。
+- **[asymmetric-information](skills/econ-micro-markets/asymmetric-information/SKILL.md)** — 信息不对称：交易一方比另一方掌握显著更多的关键信息。
+- **[barriers-to-entry](skills/econ-micro-markets/barriers-to-entry/SKILL.md)** — 进入壁垒：阻止或拖延新玩家以竞争姿态入场的障碍。
 - **[comparative-advantage](skills/econ-micro-markets/comparative-advantage/SKILL.md)** — 比较优势：专注相对成本最低的领域，再通过交易共赢。
 - **[consumer-surplus](skills/econ-micro-markets/consumer-surplus/SKILL.md)** — 消费者剩余：愿付价格与实际支付之间的差额总和。
-- **[producer-surplus](skills/econ-micro-markets/producer-surplus/SKILL.md)** — 生产者剩余：成交价高于卖方边际成本（或最低愿卖价）的差额。
+- **[diminishing-marginal-utility](skills/econ-micro-markets/diminishing-marginal-utility/SKILL.md)** — 边际效用递减：消费越多，每多一份带来的满足感通常越低。
+- **[diminishing-returns](skills/econ-micro-markets/diminishing-returns/SKILL.md)** — 边际报酬递减：其他投入固定时，再增加某一投入，产出增量终将下降。
 - **[economies-of-scale](skills/econ-micro-markets/economies-of-scale/SKILL.md)** — 规模经济：产量扩大时长期平均成本下降。
 - **[economies-of-scope](skills/econ-micro-markets/economies-of-scope/SKILL.md)** — 范围经济：多产品一起生产的总成本低于分开生产之和。
-- **[diminishing-returns](skills/econ-micro-markets/diminishing-returns/SKILL.md)** — 边际报酬递减：其他投入固定时，再增加某一投入，产出增量终将下降。
+- **[equilibrium-price](skills/econ-micro-markets/equilibrium-price/SKILL.md)** — 均衡价格：供需量相等时的市场出清价格。
 - **[externality](skills/econ-micro-markets/externality/SKILL.md)** — 外部性：行为对旁观者造成未在市场价格中反映的影响。
-- **[public-goods](skills/econ-micro-markets/public-goods/SKILL.md)** — 公共物品：非排他且非竞争，市场常供给不足。
-- **[tragedy-of-the-commons](skills/econ-micro-markets/tragedy-of-the-commons/SKILL.md)** — 公地悲剧：人人可取用的竞争性公共资源，终易被耗尽。
-- **[asymmetric-information](skills/econ-micro-markets/asymmetric-information/SKILL.md)** — 信息不对称：交易一方比另一方掌握显著更多的关键信息。
-- **[lemons-market](skills/econ-micro-markets/lemons-market/SKILL.md)** — 柠檬市场：质量信息不对称时，劣质品可能驱逐优质品。
-- **[moral-hazard](skills/econ-micro-markets/moral-hazard/SKILL.md)** — 道德风险：签约后，一方因不承担全部后果而改变隐藏行为。
-- **[adverse-selection](skills/econ-micro-markets/adverse-selection/SKILL.md)** — 逆向选择：签约前，信息劣势方更容易吸引到「不利」的交易对手。
-- **[principal-agent](skills/econ-micro-markets/principal-agent/SKILL.md)** — 委托-代理问题：代理人不完全按委托人利益行事，因目标与信息不同。
-- **[signaling](skills/econ-micro-markets/signaling/SKILL.md)** — 信号传递：用高成本、可观测行动证明自己的隐藏类型。
-- **[price-discrimination](skills/econ-micro-markets/price-discrimination/SKILL.md)** — 价格歧视：对成本相同的商品，向不同买家索取不同价格。
-- **[perfect-competition](skills/econ-micro-markets/perfect-competition/SKILL.md)** — 完全竞争：无数小厂商做同质品，人人都是价格接受者。
-- **[monopoly-natural-monopoly](skills/econ-micro-markets/monopoly-natural-monopoly/SKILL.md)** — 垄断与自然垄断：独占供给；若成本结构使一家生产最便宜，称自然垄断。
-- **[oligopoly](skills/econ-micro-markets/oligopoly/SKILL.md)** — 寡头市场：少数几家巨头相互盯着定价与产量。
-- **[monopolistic-competition](skills/econ-micro-markets/monopolistic-competition/SKILL.md)** — 垄断竞争：众多厂商卖差异化产品，有一定定价权又竞争激烈。
-- **[barriers-to-entry](skills/econ-micro-markets/barriers-to-entry/SKILL.md)** — 进入壁垒：阻止或拖延新玩家以竞争姿态入场的障碍。
-- **[transaction-costs-coase](skills/econ-micro-markets/transaction-costs-coase/SKILL.md)** — 交易成本与科斯定理：产权清晰且交易成本足够低时，当事人可谈判解决外部性；否则制度与企业边界成关键。
-- **[pareto-efficiency](skills/econ-micro-markets/pareto-efficiency/SKILL.md)** — 帕累托最优：若不损害任何人就无法再改善某人境况的状态。
 - **[general-equilibrium](skills/econ-micro-markets/general-equilibrium/SKILL.md)** — 一般均衡理论：所有市场同时出清的联动均衡分析。
+- **[lemons-market](skills/econ-micro-markets/lemons-market/SKILL.md)** — 柠檬市场：质量信息不对称时，劣质品可能驱逐优质品。
+- **[monopolistic-competition](skills/econ-micro-markets/monopolistic-competition/SKILL.md)** — 垄断竞争：众多厂商卖差异化产品，有一定定价权又竞争激烈。
+- **[monopoly-natural-monopoly](skills/econ-micro-markets/monopoly-natural-monopoly/SKILL.md)** — 垄断与自然垄断：独占供给；若成本结构使一家生产最便宜，称自然垄断。
+- **[moral-hazard](skills/econ-micro-markets/moral-hazard/SKILL.md)** — 道德风险：签约后，一方因不承担全部后果而改变隐藏行为。
+- **[oligopoly](skills/econ-micro-markets/oligopoly/SKILL.md)** — 寡头市场：少数几家巨头相互盯着定价与产量。
+- **[opportunity-cost](skills/econ-micro-markets/opportunity-cost/SKILL.md)** — 机会成本：互斥选项下被放弃的最佳替代价值。
+- **[pareto-efficiency](skills/econ-micro-markets/pareto-efficiency/SKILL.md)** — 帕累托最优：若不损害任何人就无法再改善某人境况的状态。
+- **[perfect-competition](skills/econ-micro-markets/perfect-competition/SKILL.md)** — 完全竞争：无数小厂商做同质品，人人都是价格接受者。
+- **[price-discrimination](skills/econ-micro-markets/price-discrimination/SKILL.md)** — 价格歧视：对成本相同的商品，向不同买家索取不同价格。
+- **[price-elasticity](skills/econ-micro-markets/price-elasticity/SKILL.md)** — 供需价格弹性：数量对价格变化的敏感程度。
+- **[principal-agent](skills/econ-micro-markets/principal-agent/SKILL.md)** — 委托-代理问题：代理人不完全按委托人利益行事，因目标与信息不同。
+- **[producer-surplus](skills/econ-micro-markets/producer-surplus/SKILL.md)** — 生产者剩余：成交价高于卖方边际成本（或最低愿卖价）的差额。
+- **[public-goods](skills/econ-micro-markets/public-goods/SKILL.md)** — 公共物品：非排他且非竞争，市场常供给不足。
+- **[signaling](skills/econ-micro-markets/signaling/SKILL.md)** — 信号传递：用高成本、可观测行动证明自己的隐藏类型。
+- **[supply-and-demand](skills/econ-micro-markets/supply-and-demand/SKILL.md)** — 供需法则：价格由供给与需求共同决定，不是单边意志。
+- **[tragedy-of-the-commons](skills/econ-micro-markets/tragedy-of-the-commons/SKILL.md)** — 公地悲剧：人人可取用的竞争性公共资源，终易被耗尽。
+- **[transaction-costs-coase](skills/econ-micro-markets/transaction-costs-coase/SKILL.md)** — 交易成本与科斯定理：产权清晰且交易成本足够低时，当事人可谈判解决外部性；否则制度与企业边界成关键。
 - **[veblen-effect](skills/econ-micro-markets/veblen-effect/SKILL.md)** — 凡勃伦效应：价格越高越有人买——因炫耀与地位信号。
 
 ### 博弈论与策略（31）
 
-博弈论入门切片 + 30 条具名模型（**31**）。
+博弈论与策略模型。
 
-- **[game-theory](skills/game-theory-models/game-theory/SKILL.md)** — 博弈论（入门切片）：参与人/策略/收益、优势策略、纳什直觉、囚徒困境结构示范。
-- **[prisoners-dilemma](skills/game-theory-models/prisoners-dilemma/SKILL.md)** — 囚徒困境：个体理性导致集体非理性。
-- **[nash-equilibrium](skills/game-theory-models/nash-equilibrium/SKILL.md)** — 纳什均衡：无人愿单方面改变策略的稳定态。
-- **[zero-sum-game](skills/game-theory-models/zero-sum-game/SKILL.md)** — 零和博弈：一方所得必为另一方所失。
-- **[positive-negative-sum-game](skills/game-theory-models/positive-negative-sum-game/SKILL.md)** — 正和/负和博弈：合作创造增量、对抗损耗总量。
-- **[repeated-games](skills/game-theory-models/repeated-games/SKILL.md)** — 重复博弈：长期互动催生合作（一报还一报）。
-- **[folk-theorem](skills/game-theory-models/folk-theorem/SKILL.md)** — 无名氏定理：无限重复下合作可持续。
-- **[subgame-perfect-equilibrium](skills/game-theory-models/subgame-perfect-equilibrium/SKILL.md)** — 子博弈精炼均衡：剔除不可信威胁。
+- **[auction-theory](skills/game-theory-models/auction-theory/SKILL.md)** — 拍卖理论：规则引导出价策略。
 - **[backward-induction](skills/game-theory-models/backward-induction/SKILL.md)** — 逆向归纳法：从最后一步倒推最优决策。
 - **[bayesian-games](skills/game-theory-models/bayesian-games/SKILL.md)** — 贝叶斯博弈：不完全信息下的信念博弈。
-- **[signaling-games](skills/game-theory-models/signaling-games/SKILL.md)** — 信号博弈：发送方与接收方的信息较量。
+- **[bounded-rationality](skills/game-theory-models/bounded-rationality/SKILL.md)** — 有限理性与满意化：不求最优只求够好。
 - **[boxed-pigs](skills/game-theory-models/boxed-pigs/SKILL.md)** — 智猪博弈：小猪搭大猪便车。
-- **[chicken-game](skills/game-theory-models/chicken-game/SKILL.md)** — 斗鸡博弈：谁先退让谁输，对撞两败俱伤。
-- **[stag-hunt](skills/game-theory-models/stag-hunt/SKILL.md)** — 猎鹿博弈：合作收益大，但需要互信。
-- **[coordination-game](skills/game-theory-models/coordination-game/SKILL.md)** — 协调博弈：多均衡下倾向选同一个。
-- **[hawk-dove](skills/game-theory-models/hawk-dove/SKILL.md)** — 鹰鸽博弈：攻击与退让的演化权衡。
-- **[evolutionary-stable-strategy](skills/game-theory-models/evolutionary-stable-strategy/SKILL.md)** — 演化博弈与 ESS：演化稳定策略不可被入侵。
-- **[ultimatum-game](skills/game-theory-models/ultimatum-game/SKILL.md)** — 最后通牒博弈：宁可两败俱伤也要惩罚不公。
-- **[dictator-game](skills/game-theory-models/dictator-game/SKILL.md)** — 独裁者博弈：无拒绝权下的给予。
-- **[trust-game](skills/game-theory-models/trust-game/SKILL.md)** — 信任博弈：先付出赌对方回报。
 - **[centipede-game](skills/game-theory-models/centipede-game/SKILL.md)** — 蜈蚣博弈：理性早停 vs 现实合作。
-- **[travelers-dilemma](skills/game-theory-models/travelers-dilemma/SKILL.md)** — 旅行者困境：追求自身最优反而双输。
-- **[auction-theory](skills/game-theory-models/auction-theory/SKILL.md)** — 拍卖理论：规则引导出价策略。
+- **[chicken-game](skills/game-theory-models/chicken-game/SKILL.md)** — 斗鸡博弈：谁先退让谁输，对撞两败俱伤。
+- **[cooperative-games](skills/game-theory-models/cooperative-games/SKILL.md)** — 合作博弈与联盟：集体如何分蛋糕。
+- **[coordination-game](skills/game-theory-models/coordination-game/SKILL.md)** — 协调博弈：多均衡下倾向选同一个。
+- **[core](skills/game-theory-models/core/SKILL.md)** — 核（Core）：任何联盟都无法改进的分配集。
+- **[dictator-game](skills/game-theory-models/dictator-game/SKILL.md)** — 独裁者博弈：无拒绝权下的给予。
+- **[evolutionary-stable-strategy](skills/game-theory-models/evolutionary-stable-strategy/SKILL.md)** — 演化博弈与 ESS：演化稳定策略不可被入侵。
+- **[folk-theorem](skills/game-theory-models/folk-theorem/SKILL.md)** — 无名氏定理：无限重复下合作可持续。
+- **[game-theory](skills/game-theory-models/game-theory/SKILL.md)** — 博弈论（入门切片）：参与人/策略/收益、优势策略、纳什直觉、囚徒困境结构示范。
+- **[hawk-dove](skills/game-theory-models/hawk-dove/SKILL.md)** — 鹰鸽博弈：攻击与退让的演化权衡。
+- **[matching-theory](skills/game-theory-models/matching-theory/SKILL.md)** — 匹配理论（Gale–Shapley）：稳定匹配求婚算法。
 - **[mechanism-design](skills/game-theory-models/mechanism-design/SKILL.md)** — 机制设计：逆向设计规则达成目标。
 - **[minimax-theorem](skills/game-theory-models/minimax-theorem/SKILL.md)** — 最小最大定理：零和最优防御。
-- **[cooperative-games](skills/game-theory-models/cooperative-games/SKILL.md)** — 合作博弈与联盟：集体如何分蛋糕。
-- **[shapley-value](skills/game-theory-models/shapley-value/SKILL.md)** — 夏普利值：按边际贡献公平分配。
-- **[core](skills/game-theory-models/core/SKILL.md)** — 核（Core）：任何联盟都无法改进的分配集。
-- **[matching-theory](skills/game-theory-models/matching-theory/SKILL.md)** — 匹配理论（Gale–Shapley）：稳定匹配求婚算法。
+- **[nash-equilibrium](skills/game-theory-models/nash-equilibrium/SKILL.md)** — 纳什均衡：无人愿单方面改变策略的稳定态。
+- **[positive-negative-sum-game](skills/game-theory-models/positive-negative-sum-game/SKILL.md)** — 正和/负和博弈：合作创造增量、对抗损耗总量。
+- **[prisoners-dilemma](skills/game-theory-models/prisoners-dilemma/SKILL.md)** — 囚徒困境：个体理性导致集体非理性。
+- **[repeated-games](skills/game-theory-models/repeated-games/SKILL.md)** — 重复博弈：长期互动催生合作（一报还一报）。
 - **[schelling-point](skills/game-theory-models/schelling-point/SKILL.md)** — 谢林点：无沟通时自然汇聚的选项。
-- **[bounded-rationality](skills/game-theory-models/bounded-rationality/SKILL.md)** — 有限理性与满意化：不求最优只求够好。
+- **[shapley-value](skills/game-theory-models/shapley-value/SKILL.md)** — 夏普利值：按边际贡献公平分配。
+- **[signaling-games](skills/game-theory-models/signaling-games/SKILL.md)** — 信号博弈：发送方与接收方的信息较量。
+- **[stag-hunt](skills/game-theory-models/stag-hunt/SKILL.md)** — 猎鹿博弈：合作收益大，但需要互信。
+- **[subgame-perfect-equilibrium](skills/game-theory-models/subgame-perfect-equilibrium/SKILL.md)** — 子博弈精炼均衡：剔除不可信威胁。
+- **[travelers-dilemma](skills/game-theory-models/travelers-dilemma/SKILL.md)** — 旅行者困境：追求自身最优反而双输。
+- **[trust-game](skills/game-theory-models/trust-game/SKILL.md)** — 信任博弈：先付出赌对方回报。
+- **[ultimatum-game](skills/game-theory-models/ultimatum-game/SKILL.md)** — 最后通牒博弈：宁可两败俱伤也要惩罚不公。
+- **[zero-sum-game](skills/game-theory-models/zero-sum-game/SKILL.md)** — 零和博弈：一方所得必为另一方所失。
 
 ### 行为经济学与偏误（30）
 
-前景理论、启发式与偏误纠偏（**30**）。
+前景理论、启发式与系统偏差。
 
 - **[ambiguity-aversion](skills/behavioral-biases/ambiguity-aversion/SKILL.md)** — 模糊厌恶：更怕未知概率而非已知风险，从而拒绝信息不足但期望可能更好的选项。
 - **[anchoring](skills/behavioral-biases/anchoring/SKILL.md)** — 锚定效应：首个数字/印象不当牵引后续判断与谈判报价。
@@ -216,7 +312,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ### 金融与投资（30）
 
-金融与投资常用模型（**30**）。
+金融与投资模型。
 
 - **[beta-alpha](skills/finance-investing-models/beta-alpha/SKILL.md)** — β 与 α：把收益拆成市场（或其他因子）暴露 β 与无法被暴露解释的截距 α。
 - **[black-scholes](skills/finance-investing-models/black-scholes/SKILL.md)** — 布莱克-斯科尔斯：理解欧式期权定价直觉；关键输入常是隐含波动率。
@@ -251,7 +347,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ### 系统与经典效应（30）
 
-系统思维与经典效应（**30**）。
+系统动力学与经典效应。
 
 - **[barrel-effect](skills/systems-classic-effects/barrel-effect/SKILL.md)** — 木桶效应：系统有效容量由最短板 / 最紧约束决定。
 - **[black-swan](skills/systems-classic-effects/black-swan/SKILL.md)** — 黑天鹅：稀有、冲击大、事后可叙事的极端事件。
@@ -283,47 +379,6 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 - **[stereotyping](skills/systems-classic-effects/stereotyping/SKILL.md)** — 刻板印象：用群体标签替代个体证据。
 - **[system-dynamics](skills/systems-classic-effects/system-dynamics/SKILL.md)** — 系统动力学：存量、流量、延迟的动态建模与政策实验。
 - **[systems-thinking](skills/systems-classic-effects/systems-thinking/SKILL.md)** — 系统思维：从事件升到行为模式、存量流量、反馈与杠杆点。
-
-## 运作原理
-
-<p align="center">
-  <img src="./assets/readme/mechanism.svg" width="100%" alt="三阶段示意图：建模、蒸馏、复用">
-</p>
-
-一个思维模型首先被**识别为一种模式**（建模），然后被**提炼为可执行的步骤**（蒸馏），写成一份 `SKILL.md`，最终被**任何读取 skills 目录的 AI Agent 调用**（复用）。
-
-## 使用方法
-
-每个 Skill 都独立存放在 `skills/<category>/<name>/` 目录下，其中的 `SKILL.md` 供 AI Agent（例如 Claude Code）读取，了解这个 Skill 做什么、如何调用。
-
-```bash
-git clone https://github.com/HuangChenning/modelosophy.git
-# 或者只把某一个 Skill 目录复制进你自己的项目
-cp -r modelosophy/skills/<category>/<name> your-project/skills/<name>
-```
-
-如果一个 Skill 会生成报告，报告统一写入 `output/<skill-name>/`；这个目录只存在于本机，不会提交到本仓库。
-
-## 仓库结构
-
-```text
-skills/<category>/<name>/SKILL.md      这个 Skill 做什么、何时使用
-skills/<category>/<name>/references/   支撑该 Skill 的方法论与参考资料
-skills/<category>/<name>/scripts/      生成/自动化脚本（如果有）
-skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
-```
-
-`<category>` 按领域分组——例如 `business/`、`thinking-models/`，以及上述六个经济学 / 偏误 / 系统分类。
-
-输出 HTML 报告的 Skill 需遵循 [`DESIGN.md`](DESIGN.md) 中定义的统一视觉规范。
-
-## 局限性
-
-库仍处于早期：跨分类合计 **232** 个可执行模型（`business/` 1 + `thinking-models/` 50 + 六学科分类 181）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
-
-## 贡献一个思维模型
-
-如果你有一个值得蒸馏的思维框架，欢迎按照上面的结构，新增一个 `skills/<category>/<name>/SKILL.md` 并提交 PR。
 
 ---
 

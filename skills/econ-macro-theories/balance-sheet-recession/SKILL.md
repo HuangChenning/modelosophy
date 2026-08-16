@@ -62,7 +62,7 @@ metadata:
 - **与[凯恩斯主义](../keynesianism/SKILL.md)**：需求填补逻辑近；本模型强调债务最小化微观动机。
 - **与[流动性陷阱/IS-LM](../is-lm-model/SKILL.md)**：货币失灵教室版。
 - **与[挤出效应](../crowding-out-effect/SKILL.md)**：衰退修表期挤出通常弱。
-- **与[反脆弱](../../thinking-models/antifragility/SKILL.md)**：杠杆与尾部：事前降低资产负债表脆弱性。
+- **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：杠杆与尾部：事前降低资产负债表脆弱性。
 
 ## 记忆钩子
 

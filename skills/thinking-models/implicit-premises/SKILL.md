@@ -34,7 +34,7 @@ metadata:
 **不要**当主模型：
 - 要对整个主张做压力测试、六类追问 → [`socratic-questioning`](../socratic-questioning/SKILL.md)；
 - 证据搜寻只找支持己见 → [`confirmation-bias`](../../behavioral-biases/confirmation-bias/SKILL.md)；
-- 要从硬约束重建方案 → [`first-principles`](../first-principles/SKILL.md)。
+- 要从硬约束重建方案 → [`first-principles`](../../cognitive-thinking-tools/first-principles/SKILL.md)。
 
 ## 怎么用（执行步骤）
 
@@ -66,5 +66,5 @@ metadata:
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：苏格拉底含“检验隐含假设”类追问；用户要的是整套证伪流程时走它。本模型只把缺的前提补全并分类。
 - **与[确认偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：确认偏差管你搜什么证据；隐含前提管论证结构里缺了什么命题。
 - **与[演绎法](../deductive-reasoning/SKILL.md)**：补全后常用三段论检验有效性；先补前提，再谈形式是否有效。
-- **与[奥卡姆剃刀](../occams-razor/SKILL.md)**：候选隐含前提多条时，优先最短且非特设的那条，但仍须接受证据检验。
+- **与[奥卡姆剃刀](../../cognitive-thinking-tools/occams-razor/SKILL.md)**：候选隐含前提多条时，优先最短且非特设的那条，但仍须接受证据检验。
 ---

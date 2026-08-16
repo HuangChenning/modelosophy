@@ -33,9 +33,9 @@ metadata:
 - 直接提冗余 / 备份 / 双活 / N+1 / 容错。
 
 **不要**当主模型：
-- 目标是从波动中获益、杠铃与可选性 → [`antifragility`](../antifragility/SKILL.md)；
+- 目标是从波动中获益、杠铃与可选性 → [`antifragility`](../../learning-growth/antifragility/SKILL.md)；
 - 画存量流量与反馈回路 → [`systems-thinking`](../../systems-classic-effects/systems-thinking/SKILL.md)；
-- 找投入产出极度不均的少数杠杆 → [`pareto-principle`](../../systems-classic-effects/pareto-principle/SKILL.md) 或 [`leverage`](../leverage/SKILL.md)。
+- 找投入产出极度不均的少数杠杆 → [`pareto-principle`](../../systems-classic-effects/pareto-principle/SKILL.md) 或 [`leverage`](../../systems-complexity/leverage/SKILL.md)。
 
 ## 怎么用（执行步骤）
 
@@ -62,7 +62,7 @@ metadata:
 
 ## 相关模型
 
-- **与[反脆弱](../antifragility/SKILL.md)**：冗余≈提高强韧/可恢复；反脆弱要设计不对称获益。需要“坏了还能转”用本模型；需要“波动喂胖我”用反脆弱。
+- **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：冗余≈提高强韧/可恢复；反脆弱要设计不对称获益。需要“坏了还能转”用本模型；需要“波动喂胖我”用反脆弱。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：系统图帮找单点与延迟；冗余是对关键链路的设计处方之一。
-- **与[杠杆](../leverage/SKILL.md)**：杠杆放大行动效果；冗余常降低脆弱性但也可能降低效率——在关键节点上权衡。
+- **与[杠杆](../../systems-complexity/leverage/SKILL.md)**：杠杆放大行动效果；冗余常降低脆弱性但也可能降低效率——在关键节点上权衡。
 ---

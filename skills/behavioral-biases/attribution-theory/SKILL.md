@@ -77,5 +77,5 @@ Weiner 等还把成就结果拆成可控/稳定等维度——本 skill 入门�
 - **与[确认偏差](../confirmation-bias/SKILL.md)**：确认偏差扭曲你收集的证据；归因管你把因果钉在人还是情境。
 - **与[推论阶梯](../../thinking-models/ladder-of-inference/SKILL.md)**：阶梯管攀升路径；归因常嵌在“赋义→结论”段——可先下阶梯再做共变。
 - **与[邓克效应](../dunning-kruger/SKILL.md)**：自评校准问题 ≠ 对他人行为的归因问题。
-- **与[冰山模型](../../thinking-models/iceberg-model/SKILL.md)**：文化基本假设可解释“情境压力”，但冰山不替代共变检验。
+- **与[冰山模型](../../systems-complexity/iceberg-model/SKILL.md)**：文化基本假设可解释“情境压力”，但冰山不替代共变检验。
 ---

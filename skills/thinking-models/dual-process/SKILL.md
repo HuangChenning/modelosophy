@@ -67,6 +67,6 @@ Kahneman 的核心不是“理性好、直觉坏”，而是：**默认由 Syste
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：双系统解释*何时*默认快结论；确认偏差处理*证据筛选*。慢系统被唤起后仍可能只找支持证据。
 - **与[易得性启发](../../behavioral-biases/availability-heuristic/SKILL.md)**：易得性是 System 1 常用的频率捷径之一；纠偏需要 System 2 去对基准率。
 - **与[沉没成本](../../behavioral-biases/sunk-cost/SKILL.md) / [损失规避](../../behavioral-biases/loss-aversion/SKILL.md)**：情绪痛感多由快系统放大；止损规则要预写好，不能等现场靠意志力。
-- **与[第一性原理](../first-principles/SKILL.md)**：拆惯例是典型的 System 2 重活；日常套经验则是 System 1。
+- **与[第一性原理](../../cognitive-thinking-tools/first-principles/SKILL.md)**：拆惯例是典型的 System 2 重活；日常套经验则是 System 1。
 - **与原书 #03 直觉**：不另建 skill；专家直觉的可信任条件写在本模型第 2 步。
 ---

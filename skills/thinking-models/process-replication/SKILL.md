@@ -29,10 +29,10 @@ metadata:
 - 用户直接说可复制化 / 复制成功经验 / 方法论迁移。
 
 **不要**当主模型：
-- 只想检验自己是否真懂 → [`feynman-technique`](../feynman-technique/SKILL.md)；
-- 流程已在跑、要持续改进环 → [`pdca`](../pdca/SKILL.md)；
-- 要设计自我加强的增长闭环 → [`flywheel`](../flywheel/SKILL.md)；
-- 要论证优势**为什么别人抄不走** → [`economic-moat`](../economic-moat/SKILL.md)。
+- 只想检验自己是否真懂 → [`feynman-technique`](../../learning-growth/feynman-technique/SKILL.md)；
+- 流程已在跑、要持续改进环 → [`pdca`](../../efficiency-execution/pdca/SKILL.md)；
+- 要设计自我加强的增长闭环 → [`flywheel`](../../strategy-competition/flywheel/SKILL.md)；
+- 要论证优势**为什么别人抄不走** → [`economic-moat`](../../strategy-competition/economic-moat/SKILL.md)。
 
 ## 怎么用（执行步骤）
 
@@ -62,8 +62,8 @@ metadata:
 
 ## 相关模型
 
-- **与[费曼技巧](../feynman-technique/SKILL.md)**：费曼用输出来暴露理解空洞；本模型在“已确认有效的做法”上抽迁移步骤。可连用：先讲清机制，再写 SOP。
-- **与[PDCA](../pdca/SKILL.md)**：PDCA 是循环改进引擎；本模型的反馈步常*调用* PDCA，但主任务是跨情境迁移与适配，不是对已有标准作业做微调。
-- **与[飞轮](../flywheel/SKILL.md)**：飞轮问闭环是否自我加强；本模型问步骤能否在新约束下复现。飞轮本身也可被“提炼—迁移”，但是不同问题。
-- **与[护城河](../economic-moat/SKILL.md)**：护城河评估*难以*被复制的结构优势；本模型做*如何*合法地复制过程能力。方向相反，勿混用。
+- **与[费曼技巧](../../learning-growth/feynman-technique/SKILL.md)**：费曼用输出来暴露理解空洞；本模型在“已确认有效的做法”上抽迁移步骤。可连用：先讲清机制，再写 SOP。
+- **与[PDCA](../../efficiency-execution/pdca/SKILL.md)**：PDCA 是循环改进引擎；本模型的反馈步常*调用* PDCA，但主任务是跨情境迁移与适配，不是对已有标准作业做微调。
+- **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：飞轮问闭环是否自我加强；本模型问步骤能否在新约束下复现。飞轮本身也可被“提炼—迁移”，但是不同问题。
+- **与[护城河](../../strategy-competition/economic-moat/SKILL.md)**：护城河评估*难以*被复制的结构优势；本模型做*如何*合法地复制过程能力。方向相反，勿混用。
 ---

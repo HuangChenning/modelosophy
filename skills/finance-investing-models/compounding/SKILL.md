@@ -79,8 +79,8 @@ FV = PV \times (1+i)^{n}
 ## 相关模型
 
 - **与[幸存者偏差](../../behavioral-biases/survivorship-bias/SKILL.md)**：长期赢家故事常抽掉爆仓者；谈复利先问分母。
-- **与[反脆弱](../../thinking-models/antifragility/SKILL.md)**：保护本金与可选性，是复利得以持续的前提。
-- **与[艾森豪威尔矩阵](../../thinking-models/eisenhower-matrix/SKILL.md)**：第 II 象限的习惯与能力，是复利的投入端。
+- **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：保护本金与可选性，是复利得以持续的前提。
+- **与[艾森豪威尔矩阵](../../efficiency-execution/eisenhower-matrix/SKILL.md)**：第 II 象限的习惯与能力，是复利的投入端。
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：把时间投进某条复利曲线，等于放弃另一条曲线的 \(n\)。
 - **与[局部最优/全局最优](../../thinking-models/local-global-optima/SKILL.md)**：在错误局部峰上复利，只是把偏差指数化。
 ---

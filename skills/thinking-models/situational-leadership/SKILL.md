@@ -35,7 +35,7 @@ metadata:
 
 **不要**当主模型：
 - 个人微习惯发生与否 → [`fogg-behavior-model`](../fogg-behavior-model/SKILL.md)；
-- 组织文化深层假设 → [`iceberg-model`](../iceberg-model/SKILL.md)；
+- 组织文化深层假设 → [`iceberg-model`](../../systems-complexity/iceberg-model/SKILL.md)；
 - 需求层级动机理论全文 → [`maslow-hierarchy`](../maslow-hierarchy/SKILL.md)。
 
 ## 怎么用（执行步骤）
@@ -66,5 +66,5 @@ metadata:
 - **与[福格行为模型](../fogg-behavior-model/SKILL.md)**：福格管行为 MAP；情境领导管督导强度与准备度匹配。
 - **与[马斯洛需求层次](../maslow-hierarchy/SKILL.md)**：可解释部分意愿来源，但不替代 D/S 任务诊断。
 - **与[周哈里窗](../johari-window/SKILL.md)**：反馈盲区工具；本模型是任务督导风格选择。
-- **与[PDCA](../pdca/SKILL.md)**：准备度与风格应进入检查—调整圈，避免一次定型。
+- **与[PDCA](../../efficiency-execution/pdca/SKILL.md)**：准备度与风格应进入检查—调整圈，避免一次定型。
 ---

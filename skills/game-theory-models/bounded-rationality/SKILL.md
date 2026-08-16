@@ -60,7 +60,7 @@ Simon：有限理性；满意化（satisficing）用抱负水平停止搜索。�
 
 - **与[蜈蚣博弈](../centipede-game/SKILL.md)**：行为偏离倒推的场景。
 - **与[博弈论（入门）](../game-theory/SKILL.md)**：完全理性建模入口。
-- **与[预期价值](../../thinking-models/expected-value/SKILL.md)**：能算期望时仍可用；算不动再满意化。
+- **与[预期价值](../../decision-probability/expected-value/SKILL.md)**：能算期望时仍可用；算不动再满意化。
 
 ## 记忆钩子
 

@@ -36,7 +36,7 @@ metadata:
 - 用户直接说 5W1H / 五个 W 一个 H / 先把事情问清楚。
 
 **不要**当主模型：
-- 拆成不重不漏的分析类别 → [`mece`](../mece/SKILL.md)；
+- 拆成不重不漏的分析类别 → [`mece`](../../cognitive-thinking-tools/mece/SKILL.md)；
 - 检验主张是否自洽 → [`socratic-questioning`](../socratic-questioning/SKILL.md)；
 - 多层追问“为什么”挖根因 → 专用根因工具（本模型只占 Why 槽的澄清，不当 5-Why 替代）。
 
@@ -65,8 +65,8 @@ metadata:
 
 ## 相关模型
 
-- **与[MECE](../mece/SKILL.md)**：MECE 管分类树；5W1H 管单事件信息槽。先槽位再分类，或相反，但不要互相冒充。
+- **与[MECE](../../cognitive-thinking-tools/mece/SKILL.md)**：MECE 管分类树；5W1H 管单事件信息槽。先槽位再分类，或相反，但不要互相冒充。
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：苏格拉底挑主张漏洞；5W1H 补事实缺口。
 - **与[隐含前提](../implicit-premises/SKILL.md)**：简报里常省略前提；缺槽暴露后可能要补隐含前提。
-- **与[决策树](../decision-tree/SKILL.md)**：信息齐了再画决策节点；信息残缺时先 5W1H。
+- **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：信息齐了再画决策节点；信息残缺时先 5W1H。
 ---

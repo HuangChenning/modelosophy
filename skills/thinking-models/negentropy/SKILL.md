@@ -38,7 +38,7 @@ metadata:
 - 用户直接说负熵、反熵增、熵减。
 
 **不要**当主模型：
-- 要判断“是否远离平衡 + 涨落过阈值 → 新有序结构” → [`dissipative-structures`](../dissipative-structures/SKILL.md)；
+- 要判断“是否远离平衡 + 涨落过阈值 → 新有序结构” → [`dissipative-structures`](../../systems-complexity/dissipative-structures/SKILL.md)；
 - 要解释“历史小选择如何经报酬递增锁死” → [`path-dependence`](../../systems-classic-effects/path-dependence/SKILL.md)；
 - 要画存量流量与反馈回路 → [`systems-thinking`](../../systems-classic-effects/systems-thinking/SKILL.md)；
 - 纯鸡汤式“对抗宇宙”而无系统边界与输入输出账。
@@ -71,8 +71,8 @@ metadata:
 
 ## 相关模型
 
-- **与[耗散结构](../dissipative-structures/SKILL.md)**：本模型管“有序维持的账与开放方向”；耗散结构管“远离平衡、涨落、阈值分岔后的新宏观有序”。防僵化先做负熵账；谈相变式重组用耗散结构。
+- **与[耗散结构](../../systems-complexity/dissipative-structures/SKILL.md)**：本模型管“有序维持的账与开放方向”；耗散结构管“远离平衡、涨落、阈值分岔后的新宏观有序”。防僵化先做负熵账；谈相变式重组用耗散结构。
 - **与[路径依赖](../../systems-classic-effects/path-dependence/SKILL.md)**：路径依赖解释为何锁在旧路径；负熵强调用外部输入打破封闭回路。锁定机制清楚时两者可连用。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：系统思维画反馈、延迟、存量流量并找杠杆；负熵不替代回路图，只检查边界是否开放、输入/排出账是否足以维持目标有序。用户要“按下葫芦浮起瓢”的结构图 → 系统思维；用户要“封闭僵化怎么开输入” → 本模型。
-- **与[反脆弱](../antifragility/SKILL.md)**：反脆弱设计从波动中获益的暴露；负熵确保系统仍在与环境交换。可组合，不互相替代。
+- **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：反脆弱设计从波动中获益的暴露；负熵确保系统仍在与环境交换。可组合，不互相替代。
 ---

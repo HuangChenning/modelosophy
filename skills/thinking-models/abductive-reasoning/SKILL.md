@@ -26,7 +26,7 @@ metadata:
 | 归纳 | 样本能否概括总体？ | 或然，依赖样本与偏差 |
 | **溯因（本模型）** | 什么假设最能解释观察？ | 最佳仍可假，必须可测 |
 
-与[`occams-razor`](../occams-razor/SKILL.md)：奥卡姆在**解释已经列出**时排验证优先级（少特设、可证伪）；溯因负责**生成候选 + 解释力比较**。常连用：先溯因出表，再用奥卡姆排序去查。
+与[`occams-razor`](../../cognitive-thinking-tools/occams-razor/SKILL.md)：奥卡姆在**解释已经列出**时排验证优先级（少特设、可证伪）；溯因负责**生成候选 + 解释力比较**。常连用：先溯因出表，再用奥卡姆排序去查。
 
 ## 什么时候用
 
@@ -36,7 +36,7 @@ metadata:
 
 **不要**当主模型：
 - “是否必然推出” → [`deductive-reasoning`](../deductive-reasoning/SKILL.md)；
-- “多个已有解释先查哪个”可主走 [`occams-razor`](../occams-razor/SKILL.md)；
+- “多个已有解释先查哪个”可主走 [`occams-razor`](../../cognitive-thinking-tools/occams-razor/SKILL.md)；
 - 只补论证缺腿前提 → [`implicit-premises`](../implicit-premises/SKILL.md)。
 
 ## 怎么用（执行步骤）
@@ -65,7 +65,7 @@ metadata:
 ## 相关模型
 
 - **与[演绎法](../deductive-reasoning/SKILL.md)**：演绎保真传递；溯因生成可错最佳解释。
-- **与[奥卡姆剃刀](../occams-razor/SKILL.md)**：奥卡姆排序已有解释；溯因先产表再可比。
-- **与[第一性原理](../first-principles/SKILL.md)**：第一性从硬约束重建方案；溯因解释已发生现象。
+- **与[奥卡姆剃刀](../../cognitive-thinking-tools/occams-razor/SKILL.md)**：奥卡姆排序已有解释；溯因先产表再可比。
+- **与[第一性原理](../../cognitive-thinking-tools/first-principles/SKILL.md)**：第一性从硬约束重建方案；溯因解释已发生现象。
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：可追问“最佳”的判据是否偷换；不替代假设生成。
 ---
