@@ -1,0 +1,36 @@
+{
+  "skill": "coordination-game",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "coordination-game-should-01",
+      "type": "should_trigger",
+      "prompt": "怎么协调到同一选择",
+      "expect": "触发 协调博弈：匹配典型分析意图。"
+    },
+    {
+      "id": "coordination-game-should-02",
+      "type": "should_trigger",
+      "prompt": "标准该跟谁——这算协调博弈吗？该怎么拆？",
+      "expect": "触发 协调博弈。"
+    },
+    {
+      "id": "coordination-game-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 schelling-point 的框架分析，不要用 coordination-game。",
+      "expect": "不触发或应分流到兄弟 skill：schelling-point"
+    },
+    {
+      "id": "coordination-game-edge-01",
+      "type": "edge_case",
+      "prompt": "协调博弈在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "coordination-game-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把冲突博弈当纯协调是对的吧？",
+      "expect": "必须纠正常见误用：把冲突博弈当纯协调 — 先核对利益是否一致。"
+    }
+  ]
+}

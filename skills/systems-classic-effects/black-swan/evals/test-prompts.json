@@ -1,0 +1,36 @@
+{
+  "skill": "black-swan",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "black-swan-should-01",
+      "type": "should_trigger",
+      "prompt": "分布外冲击摧毁计划——这算黑天鹅吗？该怎么拆？",
+      "expect": "触发 黑天鹅：匹配典型分析意图。"
+    },
+    {
+      "id": "black-swan-should-02",
+      "type": "should_trigger",
+      "prompt": "事后诸葛亮满天飞——这算黑天鹅吗？该怎么拆？",
+      "expect": "触发 黑天鹅。"
+    },
+    {
+      "id": "black-swan-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "明显冲来的高概率风险。这种情况请走 gray-rhino，别硬套 black-swan。",
+      "expect": "不触发或应分流到兄弟 skill：gray-rhino"
+    },
+    {
+      "id": "black-swan-edge-01",
+      "type": "edge_case",
+      "prompt": "黑天鹅在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "black-swan-trap-01",
+      "type": "correctness_trap",
+      "prompt": "甩锅是对的吧？",
+      "expect": "必须纠正常见误用：甩锅 — 管理失职喊黑天鹅。"
+    }
+  ]
+}

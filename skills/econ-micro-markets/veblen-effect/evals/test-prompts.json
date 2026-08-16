@@ -1,0 +1,36 @@
+{
+  "skill": "veblen-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "veblen-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到凡勃伦效应这类情况，该怎么一步步分析？",
+      "expect": "触发 凡勃伦效应：匹配典型分析意图。"
+    },
+    {
+      "id": "veblen-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "越贵越买——这算凡勃伦效应吗？该怎么拆？",
+      "expect": "触发 凡勃伦效应。"
+    },
+    {
+      "id": "veblen-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 supply-and-demand 的框架分析，不要用 veblen-effect。",
+      "expect": "不触发或应分流到兄弟 skill：supply-and-demand"
+    },
+    {
+      "id": "veblen-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "凡勃伦效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "veblen-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "凡勃伦=凡奢侈是对的吧？",
+      "expect": "必须纠正常见误用：凡勃伦=凡奢侈 — 许多奢侈品买的是工艺与耐久。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "signaling-games",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "signaling-games-should-01",
+      "type": "should_trigger",
+      "prompt": "怎么证明我是好类型",
+      "expect": "触发 信号博弈：匹配典型分析意图。"
+    },
+    {
+      "id": "signaling-games-should-02",
+      "type": "should_trigger",
+      "prompt": "信号够不够贵——这算信号博弈吗？该怎么拆？",
+      "expect": "触发 信号博弈。"
+    },
+    {
+      "id": "signaling-games-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "无信号结构的不完全信息。这种情况请走 bayesian-games，别硬套 signaling-games。",
+      "expect": "不触发或应分流到兄弟 skill：bayesian-games"
+    },
+    {
+      "id": "signaling-games-edge-01",
+      "type": "edge_case",
+      "prompt": "信号博弈在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "signaling-games-trap-01",
+      "type": "correctness_trap",
+      "prompt": "以为有信号就有信息是对的吧？",
+      "expect": "必须纠正常见误用：以为有信号就有信息 — 混同时信号零信息。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "mechanism-design",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "mechanism-design-should-01",
+      "type": "should_trigger",
+      "prompt": "怎么设计规则才激励兼容",
+      "expect": "触发 机制设计：匹配典型分析意图。"
+    },
+    {
+      "id": "mechanism-design-should-02",
+      "type": "should_trigger",
+      "prompt": "遇到机制设计这类情况，该怎么一步步分析？",
+      "expect": "触发 机制设计。"
+    },
+    {
+      "id": "mechanism-design-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要具体拍卖出价。这种情况请走 auction-theory，别硬套 mechanism-design。",
+      "expect": "不触发或应分流到兄弟 skill：auction-theory"
+    },
+    {
+      "id": "mechanism-design-edge-01",
+      "type": "edge_case",
+      "prompt": "机制设计在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "mechanism-design-trap-01",
+      "type": "correctness_trap",
+      "prompt": "只写目标不写约束是对的吧？",
+      "expect": "必须纠正常见误用：只写目标不写约束 — 无 IC/IR 不是机制设计。"
+    }
+  ]
+}

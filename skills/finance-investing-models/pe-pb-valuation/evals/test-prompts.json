@@ -1,0 +1,36 @@
+{
+  "skill": "pe-pb-valuation",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "pe-pb-valuation-should-01",
+      "type": "should_trigger",
+      "prompt": "这股票 30 倍 PE 算贵吗？",
+      "expect": "触发 市盈率 / 市净率估值 P/E and P/B：匹配典型分析意图。"
+    },
+    {
+      "id": "pe-pb-valuation-should-02",
+      "type": "should_trigger",
+      "prompt": "银行该看 PB 还是 PE？",
+      "expect": "触发 市盈率 / 市净率估值 P/E and P/B。"
+    },
+    {
+      "id": "pe-pb-valuation-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 value-premium 的框架分析，不要用 pe-pb-valuation。",
+      "expect": "不触发或应分流到兄弟 skill：value-premium"
+    },
+    {
+      "id": "pe-pb-valuation-edge-01",
+      "type": "edge_case",
+      "prompt": "市盈率 / 市净率估值 P/E and P/B在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "pe-pb-valuation-trap-01",
+      "type": "correctness_trap",
+      "prompt": "\"低 PE 一定价值投资\"是对的吧？",
+      "expect": "必须纠正常见误用：\"低 PE 一定价值投资\" — 可能是价值陷阱。"
+    }
+  ]
+}

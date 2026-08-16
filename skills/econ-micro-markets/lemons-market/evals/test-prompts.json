@@ -1,0 +1,36 @@
+{
+  "skill": "lemons-market",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "lemons-market-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到柠檬市场这类情况，该怎么一步步分析？",
+      "expect": "触发 柠檬市场：匹配典型分析意图。"
+    },
+    {
+      "id": "lemons-market-should-02",
+      "type": "should_trigger",
+      "prompt": "劣币驱逐良币（质量版）",
+      "expect": "触发 柠檬市场。"
+    },
+    {
+      "id": "lemons-market-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 adverse-selection 的框架分析，不要用 lemons-market。",
+      "expect": "不触发或应分流到兄弟 skill：adverse-selection"
+    },
+    {
+      "id": "lemons-market-edge-01",
+      "type": "edge_case",
+      "prompt": "柠檬市场在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "lemons-market-trap-01",
+      "type": "correctness_trap",
+      "prompt": "柠檬=凡便宜皆差是对的吧？",
+      "expect": "必须纠正常见误用：柠檬=凡便宜皆差 — 机制是信息，不是价格本身。"
+    }
+  ]
+}

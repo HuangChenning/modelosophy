@@ -1,0 +1,36 @@
+{
+  "skill": "trust-game",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "trust-game-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到信任博弈这类情况，该怎么一步步分析？",
+      "expect": "触发 信任博弈：匹配典型分析意图。"
+    },
+    {
+      "id": "trust-game-should-02",
+      "type": "should_trigger",
+      "prompt": "我先投入他会不会还——这算信任博弈吗？该怎么拆？",
+      "expect": "触发 信任博弈。"
+    },
+    {
+      "id": "trust-game-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 repeated-games 的框架分析，不要用 trust-game。",
+      "expect": "不触发或应分流到兄弟 skill：repeated-games"
+    },
+    {
+      "id": "trust-game-edge-01",
+      "type": "edge_case",
+      "prompt": "信任博弈在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "trust-game-trap-01",
+      "type": "correctness_trap",
+      "prompt": "责备先手不信任是对的吧？",
+      "expect": "必须纠正常见误用：责备先手不信任 — 结构上零还是均衡时，不信是理性。"
+    }
+  ]
+}

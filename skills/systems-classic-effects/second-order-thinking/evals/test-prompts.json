@@ -1,0 +1,36 @@
+{
+  "skill": "second-order-thinking",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "second-order-thinking-should-01",
+      "type": "should_trigger",
+      "prompt": "这个激励一改，人们会怎么钻空子",
+      "expect": "触发 二阶思维：匹配典型分析意图。"
+    },
+    {
+      "id": "second-order-thinking-should-02",
+      "type": "should_trigger",
+      "prompt": "降价抢份额之后对手与利润怎样",
+      "expect": "触发 二阶思维。"
+    },
+    {
+      "id": "second-order-thinking-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 feedback-loops 的框架分析，不要用 second-order-thinking。",
+      "expect": "不触发或应分流到兄弟 skill：feedback-loops"
+    },
+    {
+      "id": "second-order-thinking-edge-01",
+      "type": "edge_case",
+      "prompt": "二阶思维在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "second-order-thinking-trap-01",
+      "type": "correctness_trap",
+      "prompt": "事后聪明是对的吧？",
+      "expect": "必须纠正常见误用：事后聪明 — 把已知结果说成早有二阶洞见。"
+    }
+  ]
+}

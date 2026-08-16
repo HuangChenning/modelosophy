@@ -1,0 +1,36 @@
+{
+  "skill": "financial-accelerator",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "financial-accelerator-should-01",
+      "type": "should_trigger",
+      "prompt": "为什么房价/股价跌会拖垮信贷与实体？",
+      "expect": "触发 金融加速器：匹配典型分析意图。"
+    },
+    {
+      "id": "financial-accelerator-should-02",
+      "type": "should_trigger",
+      "prompt": "抵押品贬值怎样自我强化？",
+      "expect": "触发 金融加速器。"
+    },
+    {
+      "id": "financial-accelerator-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 minsky-moment 的框架分析，不要用 financial-accelerator。",
+      "expect": "不触发或应分流到兄弟 skill：minsky-moment"
+    },
+    {
+      "id": "financial-accelerator-edge-01",
+      "type": "edge_case",
+      "prompt": "金融加速器在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "financial-accelerator-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把加速器当成涨跌循环的万能词是对的吧？",
+      "expect": "必须纠正常见误用：把加速器当成涨跌循环的万能词 — 。"
+    }
+  ]
+}

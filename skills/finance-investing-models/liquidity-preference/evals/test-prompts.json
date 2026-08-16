@@ -1,0 +1,36 @@
+{
+  "skill": "liquidity-preference",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "liquidity-preference-should-01",
+      "type": "should_trigger",
+      "prompt": "为什么降息后大家还是囤现金？",
+      "expect": "触发 流动性偏好理论：匹配典型分析意图。"
+    },
+    {
+      "id": "liquidity-preference-should-02",
+      "type": "should_trigger",
+      "prompt": "流动性偏好 / 持币三动机是什么？",
+      "expect": "触发 流动性偏好理论。"
+    },
+    {
+      "id": "liquidity-preference-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 fisher-effect 的框架分析，不要用 liquidity-preference。",
+      "expect": "不触发或应分流到兄弟 skill：fisher-effect"
+    },
+    {
+      "id": "liquidity-preference-edge-01",
+      "type": "edge_case",
+      "prompt": "流动性偏好理论在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "liquidity-preference-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把流动性偏好当成炒股口头禅是对的吧？",
+      "expect": "必须纠正常见误用：把流动性偏好当成炒股口头禅 — 丢失持币动机结构。"
+    }
+  ]
+}

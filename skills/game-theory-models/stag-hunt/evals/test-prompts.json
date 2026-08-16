@@ -1,0 +1,36 @@
+{
+  "skill": "stag-hunt",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "stag-hunt-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到猎鹿博弈这类情况，该怎么一步步分析？",
+      "expect": "触发 猎鹿博弈：匹配典型分析意图。"
+    },
+    {
+      "id": "stag-hunt-should-02",
+      "type": "should_trigger",
+      "prompt": "想合作但怕对方跑——这算猎鹿博弈吗？该怎么拆？",
+      "expect": "触发 猎鹿博弈。"
+    },
+    {
+      "id": "stag-hunt-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只是选同一惯例无风险差。这种情况请走 coordination-game，别硬套 stag-hunt。",
+      "expect": "不触发或应分流到兄弟 skill：coordination-game"
+    },
+    {
+      "id": "stag-hunt-edge-01",
+      "type": "edge_case",
+      "prompt": "猎鹿博弈在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "stag-hunt-trap-01",
+      "type": "correctness_trap",
+      "prompt": "只喊愿景不降风险是对的吧？",
+      "expect": "必须纠正常见误用：只喊愿景不降风险 — 迁均衡要改战略风险。"
+    }
+  ]
+}

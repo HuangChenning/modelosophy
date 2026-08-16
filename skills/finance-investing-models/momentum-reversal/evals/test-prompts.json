@@ -1,0 +1,36 @@
+{
+  "skill": "momentum-reversal",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "momentum-reversal-should-01",
+      "type": "should_trigger",
+      "prompt": "追涨对不对？强势股还要拿吗？",
+      "expect": "触发 动量效应与反转效应：匹配典型分析意图。"
+    },
+    {
+      "id": "momentum-reversal-should-02",
+      "type": "should_trigger",
+      "prompt": "跌狠了是不是该抄？",
+      "expect": "触发 动量效应与反转效应。"
+    },
+    {
+      "id": "momentum-reversal-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 value-premium 的框架分析，不要用 momentum-reversal。",
+      "expect": "不触发或应分流到兄弟 skill：value-premium"
+    },
+    {
+      "id": "momentum-reversal-edge-01",
+      "type": "edge_case",
+      "prompt": "动量效应与反转效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "momentum-reversal-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把动量当信仰永久成立是对的吧？",
+      "expect": "必须纠正常见误用：把动量当信仰永久成立 — 。"
+    }
+  ]
+}

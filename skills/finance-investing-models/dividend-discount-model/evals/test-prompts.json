@@ -1,0 +1,36 @@
+{
+  "skill": "dividend-discount-model",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "dividend-discount-model-should-01",
+      "type": "should_trigger",
+      "prompt": "高分红蓝筹按股息怎么估？",
+      "expect": "触发 股利贴现模型：匹配典型分析意图。"
+    },
+    {
+      "id": "dividend-discount-model-should-02",
+      "type": "should_trigger",
+      "prompt": "Gordon 模型 / DDM 怎么用？",
+      "expect": "触发 股利贴现模型。"
+    },
+    {
+      "id": "dividend-discount-model-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 dcf 的框架分析，不要用 dividend-discount-model。",
+      "expect": "不触发或应分流到兄弟 skill：dcf"
+    },
+    {
+      "id": "dividend-discount-model-edge-01",
+      "type": "edge_case",
+      "prompt": "股利贴现模型在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "dividend-discount-model-trap-01",
+      "type": "correctness_trap",
+      "prompt": "用过去最高股息当 D₁是对的吧？",
+      "expect": "必须纠正常见误用：用过去最高股息当 D₁ — 不可持续。"
+    }
+  ]
+}

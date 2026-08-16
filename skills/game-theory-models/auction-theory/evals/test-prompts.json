@@ -1,0 +1,36 @@
+{
+  "skill": "auction-theory",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "auction-theory-should-01",
+      "type": "should_trigger",
+      "prompt": "这种拍卖怎么出价",
+      "expect": "触发 拍卖理论：匹配典型分析意图。"
+    },
+    {
+      "id": "auction-theory-should-02",
+      "type": "should_trigger",
+      "prompt": "二价是不是说实话",
+      "expect": "触发 拍卖理论。"
+    },
+    {
+      "id": "auction-theory-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "一般激励兼容机制。这种情况请走 mechanism-design，别硬套 auction-theory。",
+      "expect": "不触发或应分流到兄弟 skill：mechanism-design"
+    },
+    {
+      "id": "auction-theory-edge-01",
+      "type": "edge_case",
+      "prompt": "拍卖理论在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "auction-theory-trap-01",
+      "type": "correctness_trap",
+      "prompt": "所有拍卖都说实话是对的吧？",
+      "expect": "必须纠正常见误用：所有拍卖都说实话 — 仅特定格式。"
+    }
+  ]
+}

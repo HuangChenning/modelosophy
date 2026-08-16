@@ -1,0 +1,36 @@
+{
+  "skill": "supply-and-demand",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "supply-and-demand-should-01",
+      "type": "should_trigger",
+      "prompt": "为什么涨价了/降价了——这算供需法则吗？该怎么拆？",
+      "expect": "触发 供需法则：匹配典型分析意图。"
+    },
+    {
+      "id": "supply-and-demand-should-02",
+      "type": "should_trigger",
+      "prompt": "供需决定价格吗——这算供需法则吗？该怎么拆？",
+      "expect": "触发 供需法则。"
+    },
+    {
+      "id": "supply-and-demand-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 equilibrium-price 的框架分析，不要用 supply-and-demand。",
+      "expect": "不触发或应分流到兄弟 skill：equilibrium-price"
+    },
+    {
+      "id": "supply-and-demand-edge-01",
+      "type": "edge_case",
+      "prompt": "供需法则在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "supply-and-demand-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把意愿当需求曲线是对的吧？",
+      "expect": "必须纠正常见误用：把意愿当需求曲线 — 我想要」≠有效需求；要用愿付且买得起的量。"
+    }
+  ]
+}

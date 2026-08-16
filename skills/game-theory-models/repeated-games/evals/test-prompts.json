@@ -1,0 +1,36 @@
+{
+  "skill": "repeated-games",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "repeated-games-should-01",
+      "type": "should_trigger",
+      "prompt": "以后还要不要合作——这算重复博弈吗？该怎么拆？",
+      "expect": "触发 重复博弈：匹配典型分析意图。"
+    },
+    {
+      "id": "repeated-games-should-02",
+      "type": "should_trigger",
+      "prompt": "一报还一报管不管用——这算重复博弈吗？该怎么拆？",
+      "expect": "触发 重复博弈。"
+    },
+    {
+      "id": "repeated-games-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "要定理级“何时合作可支撑”。这种情况请走 folk-theorem，别硬套 repeated-games。",
+      "expect": "不触发或应分流到兄弟 skill：folk-theorem"
+    },
+    {
+      "id": "repeated-games-edge-01",
+      "type": "edge_case",
+      "prompt": "重复博弈在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "repeated-games-trap-01",
+      "type": "correctness_trap",
+      "prompt": "无条件忍让叫重复合作是对的吧？",
+      "expect": "必须纠正常见误用：无条件忍让叫重复合作 — 缺惩罚的合作常被剥削。"
+    }
+  ]
+}

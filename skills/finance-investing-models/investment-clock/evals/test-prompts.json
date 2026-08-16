@@ -1,0 +1,36 @@
+{
+  "skill": "investment-clock",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "investment-clock-should-01",
+      "type": "should_trigger",
+      "prompt": "现在该偏股还是偏债偏商品？",
+      "expect": "触发 美林投资时钟：匹配典型分析意图。"
+    },
+    {
+      "id": "investment-clock-should-02",
+      "type": "should_trigger",
+      "prompt": "美林时钟怎么用？",
+      "expect": "触发 美林投资时钟。"
+    },
+    {
+      "id": "investment-clock-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 stock-bond-seesaw 的框架分析，不要用 investment-clock。",
+      "expect": "不触发或应分流到兄弟 skill：stock-bond-seesaw"
+    },
+    {
+      "id": "investment-clock-edge-01",
+      "type": "edge_case",
+      "prompt": "美林投资时钟在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "investment-clock-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把季度标签当交易信号自动下单是对的吧？",
+      "expect": "必须纠正常见误用：把季度标签当交易信号自动下单 — 。"
+    }
+  ]
+}

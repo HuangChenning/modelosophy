@@ -1,0 +1,36 @@
+{
+  "skill": "modern-portfolio-theory",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "modern-portfolio-theory-should-01",
+      "type": "should_trigger",
+      "prompt": "股债商品怎么配，才能波动可控、期望还过得去？",
+      "expect": "触发 现代投资组合理论：匹配典型分析意图。"
+    },
+    {
+      "id": "modern-portfolio-theory-should-02",
+      "type": "should_trigger",
+      "prompt": "买很多只股票算不算分散？",
+      "expect": "触发 现代投资组合理论。"
+    },
+    {
+      "id": "modern-portfolio-theory-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 capm 的框架分析，不要用 modern-portfolio-theory。",
+      "expect": "不触发或应分流到兄弟 skill：capm"
+    },
+    {
+      "id": "modern-portfolio-theory-edge-01",
+      "type": "edge_case",
+      "prompt": "现代投资组合理论在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "modern-portfolio-theory-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把前沿当预测器是对的吧？",
+      "expect": "必须纠正常见误用：把前沿当预测器 — 输入预期垃圾则输出垃圾。"
+    }
+  ]
+}

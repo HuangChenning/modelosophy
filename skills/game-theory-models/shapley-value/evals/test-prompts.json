@@ -1,0 +1,36 @@
+{
+  "skill": "shapley-value",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "shapley-value-should-01",
+      "type": "should_trigger",
+      "prompt": "夏普利值怎么分——这算夏普利值吗？该怎么拆？",
+      "expect": "触发 夏普利值：匹配典型分析意图。"
+    },
+    {
+      "id": "shapley-value-should-02",
+      "type": "should_trigger",
+      "prompt": "按贡献分公平吗——这算夏普利值吗？该怎么拆？",
+      "expect": "触发 夏普利值。"
+    },
+    {
+      "id": "shapley-value-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 core 的框架分析，不要用 shapley-value。",
+      "expect": "不触发或应分流到兄弟 skill：core"
+    },
+    {
+      "id": "shapley-value-edge-01",
+      "type": "edge_case",
+      "prompt": "夏普利值在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "shapley-value-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把会计成本当边际贡献是对的吧？",
+      "expect": "必须纠正常见误用：把会计成本当边际贡献 — 必须用 v(S)。"
+    }
+  ]
+}

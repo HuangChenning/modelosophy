@@ -1,0 +1,36 @@
+{
+  "skill": "scarcity-principle",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "scarcity-principle-should-01",
+      "type": "should_trigger",
+      "prompt": "最后机会——这算稀缺原理吗？该怎么拆？",
+      "expect": "触发 稀缺原理：匹配典型分析意图。"
+    },
+    {
+      "id": "scarcity-principle-should-02",
+      "type": "should_trigger",
+      "prompt": "决策被倒计时绑架——这算稀缺原理吗？该怎么拆？",
+      "expect": "触发 稀缺原理。"
+    },
+    {
+      "id": "scarcity-principle-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "失去框架痛感为主。这种情况请走 loss-aversion，别硬套 scarcity-principle。",
+      "expect": "不触发或应分流到兄弟 skill：loss-aversion"
+    },
+    {
+      "id": "scarcity-principle-edge-01",
+      "type": "edge_case",
+      "prompt": "稀缺原理在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "scarcity-principle-trap-01",
+      "type": "correctness_trap",
+      "prompt": "贵=稀缺=好是对的吧？",
+      "expect": "必须纠正常见误用：贵=稀缺=好 — 价格与营销稀缺可脱钩于质量。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "moral-hazard",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "moral-hazard-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到道德风险这类情况，该怎么一步步分析？",
+      "expect": "触发 道德风险：匹配典型分析意图。"
+    },
+    {
+      "id": "moral-hazard-should-02",
+      "type": "should_trigger",
+      "prompt": "有保险就更冒险——这算道德风险吗？该怎么拆？",
+      "expect": "触发 道德风险。"
+    },
+    {
+      "id": "moral-hazard-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 adverse-selection 的框架分析，不要用 moral-hazard。",
+      "expect": "不触发或应分流到兄弟 skill：adverse-selection"
+    },
+    {
+      "id": "moral-hazard-edge-01",
+      "type": "edge_case",
+      "prompt": "道德风险在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "moral-hazard-trap-01",
+      "type": "correctness_trap",
+      "prompt": "道德风险=人品差是对的吧？",
+      "expect": "必须纠正常见误用：道德风险=人品差 — 结构问题优先于道德审判。"
+    }
+  ]
+}

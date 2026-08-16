@@ -1,0 +1,36 @@
+{
+  "skill": "matthew-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "matthew-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "头部内容/基金/学者为什么越来越难撼动",
+      "expect": "触发 马太效应：匹配典型分析意图。"
+    },
+    {
+      "id": "matthew-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "新人同样努力却拿不到同等曝光",
+      "expect": "触发 马太效应。"
+    },
+    {
+      "id": "matthew-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "用户增长主要靠连接数平方价值。这种情况请走 metcalfes-law，别硬套 matthew-effect。",
+      "expect": "不触发或应分流到兄弟 skill：metcalfes-law"
+    },
+    {
+      "id": "matthew-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "马太效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "matthew-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "道德化是对的吧？",
+      "expect": "必须纠正常见误用：道德化 — 把马太效应当“社会不公”万能词 → 先画机制与数据。"
+    }
+  ]
+}

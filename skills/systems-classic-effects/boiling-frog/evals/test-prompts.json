@@ -1,0 +1,36 @@
+{
+  "skill": "boiling-frog",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "boiling-frog-should-01",
+      "type": "should_trigger",
+      "prompt": "指标一年差 1% 没人喊停",
+      "expect": "触发 温水煮青蛙：匹配典型分析意图。"
+    },
+    {
+      "id": "boiling-frog-should-02",
+      "type": "should_trigger",
+      "prompt": "文化一点点变坏——这算温水煮青蛙吗？该怎么拆？",
+      "expect": "触发 温水煮青蛙。"
+    },
+    {
+      "id": "boiling-frog-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "明显高概率大风险被无视。这种情况请走 gray-rhino，别硬套 boiling-frog。",
+      "expect": "不触发或应分流到兄弟 skill：gray-rhino"
+    },
+    {
+      "id": "boiling-frog-edge-01",
+      "type": "edge_case",
+      "prompt": "温水煮青蛙在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "boiling-frog-trap-01",
+      "type": "correctness_trap",
+      "prompt": "当生物事实是对的吧？",
+      "expect": "必须纠正常见误用：当生物事实 — 写进报告称青蛙会被煮死 → 改为“渐变麻木隐喻”。"
+    }
+  ]
+}

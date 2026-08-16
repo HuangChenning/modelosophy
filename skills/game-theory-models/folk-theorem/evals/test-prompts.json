@@ -1,0 +1,36 @@
+{
+  "skill": "folk-theorem",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "folk-theorem-should-01",
+      "type": "should_trigger",
+      "prompt": "无限重复是不是一定能合作",
+      "expect": "触发 无名氏定理：匹配典型分析意图。"
+    },
+    {
+      "id": "folk-theorem-should-02",
+      "type": "should_trigger",
+      "prompt": "无名氏定理什么意思——这算无名氏定理吗？该怎么拆？",
+      "expect": "触发 无名氏定理。"
+    },
+    {
+      "id": "folk-theorem-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 repeated-games 的框架分析，不要用 folk-theorem。",
+      "expect": "不触发或应分流到兄弟 skill：repeated-games"
+    },
+    {
+      "id": "folk-theorem-edge-01",
+      "type": "edge_case",
+      "prompt": "无名氏定理在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "folk-theorem-trap-01",
+      "type": "correctness_trap",
+      "prompt": "读成“重复就会自动合作”是对的吧？",
+      "expect": "必须纠正常见误用：读成“重复就会自动合作” — 只要前提与均衡选择。"
+    }
+  ]
+}

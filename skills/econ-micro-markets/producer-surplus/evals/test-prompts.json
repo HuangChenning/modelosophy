@@ -1,0 +1,36 @@
+{
+  "skill": "producer-surplus",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "producer-surplus-should-01",
+      "type": "should_trigger",
+      "prompt": "商家到底赚了多少差价——这算生产者剩余吗？该怎么拆？",
+      "expect": "触发 生产者剩余：匹配典型分析意图。"
+    },
+    {
+      "id": "producer-surplus-should-02",
+      "type": "should_trigger",
+      "prompt": "遇到生产者剩余这类情况，该怎么一步步分析？",
+      "expect": "触发 生产者剩余。"
+    },
+    {
+      "id": "producer-surplus-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 consumer-surplus 的框架分析，不要用 producer-surplus。",
+      "expect": "不触发或应分流到兄弟 skill：consumer-surplus"
+    },
+    {
+      "id": "producer-surplus-edge-01",
+      "type": "edge_case",
+      "prompt": "生产者剩余在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "producer-surplus-trap-01",
+      "type": "correctness_trap",
+      "prompt": "剩余=暴利道德判决是对的吧？",
+      "expect": "必须纠正常见误用：剩余=暴利道德判决 — 剩余是分析量，需结合竞争与成本结构解读。"
+    }
+  ]
+}

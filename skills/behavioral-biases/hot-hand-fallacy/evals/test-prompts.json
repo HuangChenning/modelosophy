@@ -1,0 +1,36 @@
+{
+  "skill": "hot-hand-fallacy",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "hot-hand-fallacy-should-01",
+      "type": "should_trigger",
+      "prompt": "连胜后显著提高风险暴露",
+      "expect": "触发 热手谬误：匹配典型分析意图。"
+    },
+    {
+      "id": "hot-hand-fallacy-should-02",
+      "type": "should_trigger",
+      "prompt": "手感在，这次更大——这算热手谬误吗？该怎么拆？",
+      "expect": "触发 热手谬误。"
+    },
+    {
+      "id": "hot-hand-fallacy-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 gamblers-fallacy 的框架分析，不要用 hot-hand-fallacy。",
+      "expect": "不触发或应分流到兄弟 skill：gamblers-fallacy"
+    },
+    {
+      "id": "hot-hand-fallacy-edge-01",
+      "type": "edge_case",
+      "prompt": "热手谬误在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "hot-hand-fallacy-trap-01",
+      "type": "correctness_trap",
+      "prompt": "凡连胜必谬误是对的吧？",
+      "expect": "必须纠正常见误用：凡连胜必谬误 — 可能有真实自相关；要检验。"
+    }
+  ]
+}

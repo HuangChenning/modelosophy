@@ -1,0 +1,36 @@
+{
+  "skill": "noise-trader-risk",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "noise-trader-risk-should-01",
+      "type": "should_trigger",
+      "prompt": "我逻辑对，为什么市场继续错、我先爆了？",
+      "expect": "触发 噪音交易者风险：匹配典型分析意图。"
+    },
+    {
+      "id": "noise-trader-risk-should-02",
+      "type": "should_trigger",
+      "prompt": "噪音交易者风险是什么？",
+      "expect": "触发 噪音交易者风险。"
+    },
+    {
+      "id": "noise-trader-risk-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 limits-to-arbitrage 的框架分析，不要用 noise-trader-risk。",
+      "expect": "不触发或应分流到兄弟 skill：limits-to-arbitrage"
+    },
+    {
+      "id": "noise-trader-risk-edge-01",
+      "type": "edge_case",
+      "prompt": "噪音交易者风险在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "noise-trader-risk-trap-01",
+      "type": "correctness_trap",
+      "prompt": "\"有噪音就可以无视估值\"是对的吧？",
+      "expect": "必须纠正常见误用：\"有噪音就可以无视估值\" — 噪音是风险，不是许可证。"
+    }
+  ]
+}

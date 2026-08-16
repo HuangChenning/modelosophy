@@ -1,0 +1,36 @@
+{
+  "skill": "greater-fool-theory",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "greater-fool-theory-should-01",
+      "type": "should_trigger",
+      "prompt": "这东西根本不算得出价值，但还能涨？",
+      "expect": "触发 大傻瓜理论：匹配典型分析意图。"
+    },
+    {
+      "id": "greater-fool-theory-should-02",
+      "type": "should_trigger",
+      "prompt": "是不是击鼓传花？",
+      "expect": "触发 大傻瓜理论。"
+    },
+    {
+      "id": "greater-fool-theory-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 bubble-cycle 的框架分析，不要用 greater-fool-theory。",
+      "expect": "不触发或应分流到兄弟 skill：bubble-cycle"
+    },
+    {
+      "id": "greater-fool-theory-edge-01",
+      "type": "edge_case",
+      "prompt": "大傻瓜理论在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "greater-fool-theory-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把所有高估值扣大傻瓜帽子是对的吧？",
+      "expect": "必须纠正常见误用：把所有高估值扣大傻瓜帽子 — 成长期权也可能被错误标签。"
+    }
+  ]
+}

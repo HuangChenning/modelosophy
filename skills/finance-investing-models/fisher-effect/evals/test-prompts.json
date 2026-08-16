@@ -1,0 +1,36 @@
+{
+  "skill": "fisher-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "fisher-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "利率涨了，我的实际回报有没有涨？",
+      "expect": "触发 费雪效应：匹配典型分析意图。"
+    },
+    {
+      "id": "fisher-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "为什么高通胀国家名义利率也高？",
+      "expect": "触发 费雪效应。"
+    },
+    {
+      "id": "fisher-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 dcf 的框架分析，不要用 fisher-effect。",
+      "expect": "不触发或应分流到兄弟 skill：dcf"
+    },
+    {
+      "id": "fisher-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "费雪效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "fisher-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "用去年通胀替代预期是对的吧？",
+      "expect": "必须纠正常见误用：用去年通胀替代预期 — 。"
+    }
+  ]
+}

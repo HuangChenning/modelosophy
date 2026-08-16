@@ -1,0 +1,36 @@
+{
+  "skill": "cooperative-games",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "cooperative-games-should-01",
+      "type": "should_trigger",
+      "prompt": "要不要组联盟——这算合作博弈与联盟吗？该怎么拆？",
+      "expect": "触发 合作博弈与联盟：匹配典型分析意图。"
+    },
+    {
+      "id": "cooperative-games-should-02",
+      "type": "should_trigger",
+      "prompt": "合作博弈怎么分——这算合作博弈与联盟吗？该怎么拆？",
+      "expect": "触发 合作博弈与联盟。"
+    },
+    {
+      "id": "cooperative-games-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要边际贡献公平公式。这种情况请走 shapley-value，别硬套 cooperative-games。",
+      "expect": "不触发或应分流到兄弟 skill：shapley-value"
+    },
+    {
+      "id": "cooperative-games-edge-01",
+      "type": "edge_case",
+      "prompt": "合作博弈与联盟在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "cooperative-games-trap-01",
+      "type": "correctness_trap",
+      "prompt": "无 v(S) 空谈联盟是对的吧？",
+      "expect": "必须纠正常见误用：无 v(S) 空谈联盟 — 必须量化联盟价值。"
+    }
+  ]
+}

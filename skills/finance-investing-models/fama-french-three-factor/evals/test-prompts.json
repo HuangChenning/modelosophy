@@ -1,0 +1,36 @@
+{
+  "skill": "fama-french-three-factor",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "fama-french-three-factor-should-01",
+      "type": "should_trigger",
+      "prompt": "这只基金是真 alpha 还是抱了小盘价值？",
+      "expect": "触发 Fama-French 三因子模型：匹配典型分析意图。"
+    },
+    {
+      "id": "fama-french-three-factor-should-02",
+      "type": "should_trigger",
+      "prompt": "三因子 / SMB / HML 怎么读？",
+      "expect": "触发 Fama-French 三因子模型。"
+    },
+    {
+      "id": "fama-french-three-factor-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 capm 的框架分析，不要用 fama-french-three-factor。",
+      "expect": "不触发或应分流到兄弟 skill：capm"
+    },
+    {
+      "id": "fama-french-three-factor-edge-01",
+      "type": "edge_case",
+      "prompt": "Fama-French 三因子模型在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "fama-french-three-factor-trap-01",
+      "type": "correctness_trap",
+      "prompt": "\"三因子完美定价\"是对的吧？",
+      "expect": "必须纠正常见误用：\"三因子完美定价\" — 仍有异象与四/五因子扩展。"
+    }
+  ]
+}

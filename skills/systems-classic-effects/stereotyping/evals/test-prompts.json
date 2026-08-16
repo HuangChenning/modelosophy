@@ -1,0 +1,36 @@
+{
+  "skill": "stereotyping",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "stereotyping-should-01",
+      "type": "should_trigger",
+      "prompt": "他们部门/那类人就是…",
+      "expect": "触发 刻板印象：匹配典型分析意图。"
+    },
+    {
+      "id": "stereotyping-should-02",
+      "type": "should_trigger",
+      "prompt": "画像替代了面试观察——这算刻板印象吗？该怎么拆？",
+      "expect": "触发 刻板印象。"
+    },
+    {
+      "id": "stereotyping-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "单一个体特质外推全能。这种情况请走 halo-effect，别硬套 stereotyping。",
+      "expect": "不触发或应分流到兄弟 skill：halo-effect"
+    },
+    {
+      "id": "stereotyping-edge-01",
+      "type": "edge_case",
+      "prompt": "刻板印象在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "stereotyping-trap-01",
+      "type": "correctness_trap",
+      "prompt": "“反刻板”变成反向刻板是对的吧？",
+      "expect": "必须纠正常见误用：“反刻板”变成反向刻板 — 凡某群体必相反 → 仍是标签思维。"
+    }
+  ]
+}

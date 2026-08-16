@@ -1,0 +1,36 @@
+{
+  "skill": "economies-of-scope",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "economies-of-scope-should-01",
+      "type": "should_trigger",
+      "prompt": "要不要延伸产品线——这算范围经济吗？该怎么拆？",
+      "expect": "触发 范围经济：匹配典型分析意图。"
+    },
+    {
+      "id": "economies-of-scope-should-02",
+      "type": "should_trigger",
+      "prompt": "遇到范围经济这类情况，该怎么一步步分析？",
+      "expect": "触发 范围经济。"
+    },
+    {
+      "id": "economies-of-scope-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 economies-of-scale 的框架分析，不要用 economies-of-scope。",
+      "expect": "不触发或应分流到兄弟 skill：economies-of-scale"
+    },
+    {
+      "id": "economies-of-scope-edge-01",
+      "type": "edge_case",
+      "prompt": "范围经济在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "economies-of-scope-trap-01",
+      "type": "correctness_trap",
+      "prompt": "范围经济=多元化一定好是对的吧？",
+      "expect": "必须纠正常见误用：范围经济=多元化一定好 — 无共享时多元化常摧毁价值。"
+    }
+  ]
+}

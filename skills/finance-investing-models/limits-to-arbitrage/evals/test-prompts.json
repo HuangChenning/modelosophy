@@ -1,0 +1,36 @@
+{
+  "skill": "limits-to-arbitrage",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "limits-to-arbitrage-should-01",
+      "type": "should_trigger",
+      "prompt": "这么明显的错价，为什么没被套利平掉？",
+      "expect": "触发 套利限制：匹配典型分析意图。"
+    },
+    {
+      "id": "limits-to-arbitrage-should-02",
+      "type": "should_trigger",
+      "prompt": "套利限制包括哪些？",
+      "expect": "触发 套利限制。"
+    },
+    {
+      "id": "limits-to-arbitrage-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 noise-trader-risk 的框架分析，不要用 limits-to-arbitrage。",
+      "expect": "不触发或应分流到兄弟 skill：noise-trader-risk"
+    },
+    {
+      "id": "limits-to-arbitrage-edge-01",
+      "type": "edge_case",
+      "prompt": "套利限制在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "limits-to-arbitrage-trap-01",
+      "type": "correctness_trap",
+      "prompt": "\"有限制所以市场完全无效\"是对的吧？",
+      "expect": "必须纠正常见误用：\"有限制所以市场完全无效\" — 成本调整后的效率仍可能很高。"
+    }
+  ]
+}

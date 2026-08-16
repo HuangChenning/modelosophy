@@ -1,0 +1,36 @@
+{
+  "skill": "nash-equilibrium",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "nash-equilibrium-should-01",
+      "type": "should_trigger",
+      "prompt": "有没有纳什均衡——这算纳什均衡吗？该怎么拆？",
+      "expect": "触发 纳什均衡：匹配典型分析意图。"
+    },
+    {
+      "id": "nash-equilibrium-should-02",
+      "type": "should_trigger",
+      "prompt": "谁也不想单方面改策略——这算纳什均衡吗？该怎么拆？",
+      "expect": "触发 纳什均衡。"
+    },
+    {
+      "id": "nash-equilibrium-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要扫盲博弈四件套。这种情况请走 game-theory，别硬套 nash-equilibrium。",
+      "expect": "不触发或应分流到兄弟 skill：game-theory"
+    },
+    {
+      "id": "nash-equilibrium-edge-01",
+      "type": "edge_case",
+      "prompt": "纳什均衡在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "nash-equilibrium-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把纳什当“最优解”是对的吧？",
+      "expect": "必须纠正常见误用：把纳什当“最优解” — 只保证稳定，不保证集体最好。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "mental-accounting",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "mental-accounting-should-01",
+      "type": "should_trigger",
+      "prompt": "年终奖可以乱花，但工资一毛不能动",
+      "expect": "触发 心理账户：匹配典型分析意图。"
+    },
+    {
+      "id": "mental-accounting-should-02",
+      "type": "should_trigger",
+      "prompt": "这只股票是用闲钱买的，亏了没关系",
+      "expect": "触发 心理账户。"
+    },
+    {
+      "id": "mental-accounting-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只谈沉没投入不肯停。这种情况请走 sunk-cost，别硬套 mental-accounting。",
+      "expect": "不触发或应分流到兄弟 skill：sunk-cost"
+    },
+    {
+      "id": "mental-accounting-edge-01",
+      "type": "edge_case",
+      "prompt": "心理账户在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "mental-accounting-trap-01",
+      "type": "correctness_trap",
+      "prompt": "凡分预算都叫病是对的吧？",
+      "expect": "必须纠正常见误用：凡分预算都叫病 — 预算是工具；病在标签导致总财富决策矛盾。"
+    }
+  ]
+}

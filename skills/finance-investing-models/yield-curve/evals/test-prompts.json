@@ -1,0 +1,36 @@
+{
+  "skill": "yield-curve",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "yield-curve-should-01",
+      "type": "should_trigger",
+      "prompt": "曲线倒挂了意味着什么？",
+      "expect": "触发 利率期限结构：匹配典型分析意图。"
+    },
+    {
+      "id": "yield-curve-should-02",
+      "type": "should_trigger",
+      "prompt": "该做陡峭化还是平坦化交易？",
+      "expect": "触发 利率期限结构。"
+    },
+    {
+      "id": "yield-curve-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 investment-clock 的框架分析，不要用 yield-curve。",
+      "expect": "不触发或应分流到兄弟 skill：investment-clock"
+    },
+    {
+      "id": "yield-curve-edge-01",
+      "type": "edge_case",
+      "prompt": "利率期限结构在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "yield-curve-trap-01",
+      "type": "correctness_trap",
+      "prompt": "\"倒挂=明天衰退\"是对的吧？",
+      "expect": "必须纠正常见误用：\"倒挂=明天衰退\" — 时滞与例外都存在。"
+    }
+  ]
+}

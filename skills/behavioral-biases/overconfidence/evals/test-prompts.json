@@ -1,0 +1,36 @@
+{
+  "skill": "overconfidence",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "overconfidence-should-01",
+      "type": "should_trigger",
+      "prompt": "这次几乎不可能错——这算过度自信吗？该怎么拆？",
+      "expect": "触发 过度自信：匹配典型分析意图。"
+    },
+    {
+      "id": "overconfidence-should-02",
+      "type": "should_trigger",
+      "prompt": "我比市场更懂——这算过度自信吗？该怎么拆？",
+      "expect": "触发 过度自信。"
+    },
+    {
+      "id": "overconfidence-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "明确怀疑“新手无知却狂妄”经典曲线。这种情况请走 dunning-kruger，别硬套 overconfidence。",
+      "expect": "不触发或应分流到兄弟 skill：dunning-kruger"
+    },
+    {
+      "id": "overconfidence-edge-01",
+      "type": "edge_case",
+      "prompt": "过度自信在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "overconfidence-trap-01",
+      "type": "correctness_trap",
+      "prompt": "自信=过度自信是对的吧？",
+      "expect": "必须纠正常见误用：自信=过度自信 — 有证据的高置信不是病。"
+    }
+  ]
+}

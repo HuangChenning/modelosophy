@@ -1,0 +1,36 @@
+{
+  "skill": "schelling-point",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "schelling-point-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到谢林点（焦点均衡）这类情况，该怎么一步步分析？",
+      "expect": "触发 谢林点（焦点均衡）：匹配典型分析意图。"
+    },
+    {
+      "id": "schelling-point-should-02",
+      "type": "should_trigger",
+      "prompt": "没约定会对到哪——这算谢林点（焦点均衡）吗？该怎么拆？",
+      "expect": "触发 谢林点（焦点均衡）。"
+    },
+    {
+      "id": "schelling-point-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 coordination-game 的框架分析，不要用 schelling-point。",
+      "expect": "不触发或应分流到兄弟 skill：coordination-game"
+    },
+    {
+      "id": "schelling-point-edge-01",
+      "type": "edge_case",
+      "prompt": "谢林点（焦点均衡）在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "schelling-point-trap-01",
+      "type": "correctness_trap",
+      "prompt": "当支付最优证明是对的吧？",
+      "expect": "必须纠正常见误用：当支付最优证明 — 焦点是显著性，不是福利定理。"
+    }
+  ]
+}

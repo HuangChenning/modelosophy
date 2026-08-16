@@ -1,0 +1,36 @@
+{
+  "skill": "price-elasticity",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "price-elasticity-should-01",
+      "type": "should_trigger",
+      "prompt": "涨价会少卖多少——这算供需价格弹性吗？该怎么拆？",
+      "expect": "触发 供需价格弹性：匹配典型分析意图。"
+    },
+    {
+      "id": "price-elasticity-should-02",
+      "type": "should_trigger",
+      "prompt": "需求有没有弹性——这算供需价格弹性吗？该怎么拆？",
+      "expect": "触发 供需价格弹性。"
+    },
+    {
+      "id": "price-elasticity-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 supply-and-demand 的框架分析，不要用 price-elasticity。",
+      "expect": "不触发或应分流到兄弟 skill：supply-and-demand"
+    },
+    {
+      "id": "price-elasticity-edge-01",
+      "type": "edge_case",
+      "prompt": "供需价格弹性在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "price-elasticity-trap-01",
+      "type": "correctness_trap",
+      "prompt": "弹性=斜率是对的吧？",
+      "expect": "必须纠正常见误用：弹性=斜率 — 斜率依赖单位；弹性是无量纲百分比比。"
+    }
+  ]
+}

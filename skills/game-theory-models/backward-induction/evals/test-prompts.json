@@ -1,0 +1,36 @@
+{
+  "skill": "backward-induction",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "backward-induction-should-01",
+      "type": "should_trigger",
+      "prompt": "从最后一步倒推——这算逆向归纳法吗？该怎么拆？",
+      "expect": "触发 逆向归纳法：匹配典型分析意图。"
+    },
+    {
+      "id": "backward-induction-should-02",
+      "type": "should_trigger",
+      "prompt": "逆向归纳怎么做——这算逆向归纳法吗？该怎么拆？",
+      "expect": "触发 逆向归纳法。"
+    },
+    {
+      "id": "backward-induction-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要可信威胁概念。这种情况请走 subgame-perfect-equilibrium，别硬套 backward-induction。",
+      "expect": "不触发或应分流到兄弟 skill：subgame-perfect-equilibrium"
+    },
+    {
+      "id": "backward-induction-edge-01",
+      "type": "edge_case",
+      "prompt": "逆向归纳法在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "backward-induction-trap-01",
+      "type": "correctness_trap",
+      "prompt": "无树空谈倒推是对的吧？",
+      "expect": "必须纠正常见误用：无树空谈倒推 — 必须有节点与支付。"
+    }
+  ]
+}

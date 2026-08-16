@@ -1,0 +1,36 @@
+{
+  "skill": "commitment-consistency",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "commitment-consistency-should-01",
+      "type": "should_trigger",
+      "prompt": "感觉被一步步套牢——这算承诺与一致吗？该怎么拆？",
+      "expect": "触发 承诺与一致：匹配典型分析意图。"
+    },
+    {
+      "id": "commitment-consistency-should-02",
+      "type": "should_trigger",
+      "prompt": "想设计自己的预承诺——这算承诺与一致吗？该怎么拆？",
+      "expect": "触发 承诺与一致。"
+    },
+    {
+      "id": "commitment-consistency-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 sunk-cost 的框架分析，不要用 commitment-consistency。",
+      "expect": "不触发或应分流到兄弟 skill：sunk-cost"
+    },
+    {
+      "id": "commitment-consistency-edge-01",
+      "type": "edge_case",
+      "prompt": "承诺与一致在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "commitment-consistency-trap-01",
+      "type": "correctness_trap",
+      "prompt": "一致=永远不改口是对的吧？",
+      "expect": "必须纠正常见误用：一致=永远不改口 — 理性一致是对证据一致，不是对旧话一致。"
+    }
+  ]
+}

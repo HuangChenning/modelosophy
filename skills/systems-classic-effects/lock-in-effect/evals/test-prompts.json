@@ -1,0 +1,36 @@
+{
+  "skill": "lock-in-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "lock-in-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "想换云/ERP/IM 但迁移成本吓人",
+      "expect": "触发 锁定效应：匹配典型分析意图。"
+    },
+    {
+      "id": "lock-in-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "设计忠诚计划 vs 不道德困住",
+      "expect": "触发 锁定效应。"
+    },
+    {
+      "id": "lock-in-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "历史标准自我强化全过程。这种情况请走 path-dependence，别硬套 lock-in-effect。",
+      "expect": "不触发或应分流到兄弟 skill：path-dependence"
+    },
+    {
+      "id": "lock-in-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "锁定效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "lock-in-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把满意度叫锁定是对的吧？",
+      "expect": "必须纠正常见误用：把满意度叫锁定 — 喜欢留下不是锁。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "anchoring",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "anchoring-should-01",
+      "type": "should_trigger",
+      "prompt": "对方先报了价，我感觉怎么谈都围着那个数转",
+      "expect": "触发 锚定效应：匹配典型分析意图。"
+    },
+    {
+      "id": "anchoring-should-02",
+      "type": "should_trigger",
+      "prompt": "预算/估值是不是被第一个看到的数字带偏了",
+      "expect": "触发 锚定效应。"
+    },
+    {
+      "id": "anchoring-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "同一事实因表述翻转让人改选。这种情况请走 framing-effect，别硬套 anchoring。",
+      "expect": "不触发或应分流到兄弟 skill：framing-effect"
+    },
+    {
+      "id": "anchoring-edge-01",
+      "type": "edge_case",
+      "prompt": "锚定效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "anchoring-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把一切参照点叫锚定是对的吧？",
+      "expect": "必须纠正常见误用：把一切参照点叫锚定 — 得失框架走损失规避/前景理论；本条管估计与报价牵引。"
+    }
+  ]
+}

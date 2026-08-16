@@ -1,0 +1,36 @@
+{
+  "skill": "positive-negative-sum-game",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "positive-negative-sum-game-should-01",
+      "type": "should_trigger",
+      "prompt": "能不能做成正和——这算正和与负和博弈吗？该怎么拆？",
+      "expect": "触发 正和与负和博弈：匹配典型分析意图。"
+    },
+    {
+      "id": "positive-negative-sum-game-should-02",
+      "type": "should_trigger",
+      "prompt": "这是不是两败俱伤的负和",
+      "expect": "触发 正和与负和博弈。"
+    },
+    {
+      "id": "positive-negative-sum-game-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "严格支付和为常数。这种情况请走 zero-sum-game，别硬套 positive-negative-sum-game。",
+      "expect": "不触发或应分流到兄弟 skill：zero-sum-game"
+    },
+    {
+      "id": "positive-negative-sum-game-edge-01",
+      "type": "edge_case",
+      "prompt": "正和与负和博弈在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "positive-negative-sum-game-trap-01",
+      "type": "correctness_trap",
+      "prompt": "用正和掩盖剥削是对的吧？",
+      "expect": "必须纠正常见误用：用正和掩盖剥削 — 增量存在仍可能分配极不公；需另做分配分析。"
+    }
+  ]
+}

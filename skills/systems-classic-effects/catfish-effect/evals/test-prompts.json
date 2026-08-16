@@ -1,0 +1,36 @@
+{
+  "skill": "catfish-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "catfish-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "团队躺平，想引入外部标杆/空降",
+      "expect": "触发 鲶鱼效应：匹配典型分析意图。"
+    },
+    {
+      "id": "catfish-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "垄断业务线缺乏紧迫感——这算鲶鱼效应吗？该怎么拆？",
+      "expect": "触发 鲶鱼效应。"
+    },
+    {
+      "id": "catfish-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "仅因被观察而改变行为。这种情况请走 hawthorne-effect，别硬套 catfish-effect。",
+      "expect": "不触发或应分流到兄弟 skill：hawthorne-effect"
+    },
+    {
+      "id": "catfish-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "鲶鱼效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "catfish-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "恐吓管理是对的吧？",
+      "expect": "必须纠正常见误用：恐吓管理 — 用裁员传闻当鲶鱼 → 短期绩效↑长期信任↓。"
+    }
+  ]
+}

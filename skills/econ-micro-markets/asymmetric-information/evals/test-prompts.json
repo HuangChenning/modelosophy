@@ -1,0 +1,36 @@
+{
+  "skill": "asymmetric-information",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "asymmetric-information-should-01",
+      "type": "should_trigger",
+      "prompt": "遇到信息不对称这类情况，该怎么一步步分析？",
+      "expect": "触发 信息不对称：匹配典型分析意图。"
+    },
+    {
+      "id": "asymmetric-information-should-02",
+      "type": "should_trigger",
+      "prompt": "对方知道得比我多——这算信息不对称吗？该怎么拆？",
+      "expect": "触发 信息不对称。"
+    },
+    {
+      "id": "asymmetric-information-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请只按 lemons-market 的框架分析，不要用 asymmetric-information。",
+      "expect": "不触发或应分流到兄弟 skill：lemons-market"
+    },
+    {
+      "id": "asymmetric-information-edge-01",
+      "type": "edge_case",
+      "prompt": "信息不对称在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "asymmetric-information-trap-01",
+      "type": "correctness_trap",
+      "prompt": "信息不对称=对方一定骗我是对的吧？",
+      "expect": "必须纠正常见误用：信息不对称=对方一定骗我 — 可能存在声誉与重复交易约束。"
+    }
+  ]
+}

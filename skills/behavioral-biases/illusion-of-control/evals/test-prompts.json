@@ -1,0 +1,36 @@
+{
+  "skill": "illusion-of-control",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "illusion-of-control-should-01",
+      "type": "should_trigger",
+      "prompt": "把仪式当风控——这算控制错觉吗？该怎么拆？",
+      "expect": "触发 控制错觉：匹配典型分析意图。"
+    },
+    {
+      "id": "illusion-of-control-should-02",
+      "type": "should_trigger",
+      "prompt": "我亲自下单才安心——这算控制错觉吗？该怎么拆？",
+      "expect": "触发 控制错觉。"
+    },
+    {
+      "id": "illusion-of-control-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "校准自己的预测精度。这种情况请走 overconfidence，别硬套 illusion-of-control。",
+      "expect": "不触发或应分流到兄弟 skill：overconfidence"
+    },
+    {
+      "id": "illusion-of-control-edge-01",
+      "type": "edge_case",
+      "prompt": "控制错觉在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "illusion-of-control-trap-01",
+      "type": "correctness_trap",
+      "prompt": "凡仪式都是病是对的吧？",
+      "expect": "必须纠正常见误用：凡仪式都是病 — 有些仪式降焦虑且不损期望——可保留但别当 alpha。"
+    }
+  ]
+}
