@@ -1,0 +1,36 @@
+{
+  "skill": "disruptive-innovation",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "di-should-01",
+      "type": "should_trigger",
+      "prompt": "我们想从低端市场颠覆巨头，怎么按Christensen分析？",
+      "expect": "触发轨迹与激励分析。"
+    },
+    {
+      "id": "di-should-02",
+      "type": "should_trigger",
+      "prompt": "这是不是颠覆式创新？",
+      "expect": "触发类型判定。"
+    },
+    {
+      "id": "di-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "用波特五力看行业吸引力。",
+      "expect": "分流 five-forces。"
+    },
+    {
+      "id": "di-edge-01",
+      "type": "edge_case",
+      "prompt": "高端全新技术突破算颠覆吗？",
+      "expect": "常为维持性；谨慎贴标。"
+    },
+    {
+      "id": "di-trap-01",
+      "type": "correctness_trap",
+      "prompt": "任何成功创新都叫颠覆式创新。",
+      "expect": "纠正误用。"
+    }
+  ]
+}

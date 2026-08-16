@@ -1,10 +1,10 @@
 ---
 name: forgetting-curve
 description: >
-  用遗忘曲线与间隔复习帮用户对抗记忆随时间下降：新学内容若不检索会快速遗忘；在遗忘前
-  安排递增间隔的主动回忆可提高长期保持。Use when user says “遗忘曲线”“艾宾浩斯”
-  “间隔重复”“spaced repetition”“Anki”“背了就忘”“怎么安排复习”。不要把示意曲线
-  当成人人相同的精确公式；也不要用被动重读代替主动检索。
+  用遗忘曲线解释记忆随时间下降的现象与原则：新学内容若不检索会快速遗忘；对抗衰减需主动检索。
+  Use when user says “遗忘曲线”“艾宾浩斯”“为什么背了就忘”“记忆衰退”。复习日程 / Anki / SRS
+  操作走 spaced-repetition，不要与本模型抢主触发。不要把示意曲线当成人人相同的精确公式；
+  也不要用被动重读代替主动检索。
 metadata:
   author: modelosophy（蒸馏自 Ebbinghaus 遗忘研究 + 现代间隔重复/检索练习文献
     + 《万物皆模型》遗忘曲线卡片）
@@ -28,9 +28,10 @@ Ebbinghaus（1885）用无意义音节等材料测量到：**停止练习后，�
 
 - 备考、语言、专业术语：背了就忘；
 - 设计复习计划 / Anki 类卡片；
-- 直接提遗忘曲线 / 艾宾浩斯 / 间隔重复 / spaced repetition。
+- 直接提遗忘曲线 / 艾宾浩斯 / 为什么会忘。
 
 **不要**当主模型：
+- 要排复习日程 / Anki / SRS → [`spaced-repetition`](../spaced-repetition/SKILL.md)；
 - 监控理解策略本身 → [`metacognition`](../metacognition/SKILL.md)；
 - 用教别人简化概念 → [`feynman-technique`](../feynman-technique/SKILL.md)；
 - 行为能不能发生（动机×能力×提示）→ [`fogg-behavior-model`](../../thinking-models/fogg-behavior-model/SKILL.md)。
@@ -60,6 +61,7 @@ Ebbinghaus（1885）用无意义音节等材料测量到：**停止练习后，�
 
 ## 相关模型
 
+- **与[间隔重复](../spaced-repetition/SKILL.md)**：本模型解释衰减现象；间隔重复专做日程/SRS 操作。用户说「怎么排复习」走间隔重复。
 - **与[元认知](../metacognition/SKILL.md)**：用监控判断“是否仍可提取”，再触发间隔复习。
 - **与[费曼技巧](../feynman-technique/SKILL.md)**：深度理解与暴露空洞；遗忘曲线管保持日程。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：间隔复习是学习上的再投入；须真实检索发生才复利。

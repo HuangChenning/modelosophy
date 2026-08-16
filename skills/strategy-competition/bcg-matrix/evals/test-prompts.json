@@ -1,0 +1,36 @@
+{
+  "skill": "bcg-matrix",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "bcg-should-01",
+      "type": "should_trigger",
+      "prompt": "三条产品线，用BCG矩阵看钱往哪投。",
+      "expect": "触发四象限组合。"
+    },
+    {
+      "id": "bcg-should-02",
+      "type": "should_trigger",
+      "prompt": "哪个是现金牛哪个是瘦狗？",
+      "expect": "触发。"
+    },
+    {
+      "id": "bcg-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我们写本季度OKR。",
+      "expect": "分流 okr。"
+    },
+    {
+      "id": "bcg-edge-01",
+      "type": "edge_case",
+      "prompt": "只有一个产品也要画BCG吗？",
+      "expect": "边界：不适用。"
+    },
+    {
+      "id": "bcg-trap-01",
+      "type": "correctness_trap",
+      "prompt": "份额高就一定是现金牛该一直投。",
+      "expect": "纠正：看增长与现金。"
+    }
+  ]
+}

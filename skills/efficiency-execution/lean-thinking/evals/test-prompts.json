@@ -1,0 +1,36 @@
+{
+  "skill": "lean-thinking",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "lean-should-01",
+      "type": "should_trigger",
+      "prompt": "流程很慢，用精益看看浪费在哪。",
+      "expect": "触发价值流与浪费。"
+    },
+    {
+      "id": "lean-should-02",
+      "type": "should_trigger",
+      "prompt": "七大浪费怎么对到我们团队？",
+      "expect": "触发。"
+    },
+    {
+      "id": "lean-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只想做工位5S整理。",
+      "expect": "分流 five-s。"
+    },
+    {
+      "id": "lean-edge-01",
+      "type": "edge_case",
+      "prompt": "安全库存算浪费吗？",
+      "expect": "区分缓冲与浪费。"
+    },
+    {
+      "id": "lean-trap-01",
+      "type": "correctness_trap",
+      "prompt": "精益就是裁员降本。",
+      "expect": "纠正。"
+    }
+  ]
+}

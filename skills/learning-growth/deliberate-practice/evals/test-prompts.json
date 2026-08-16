@@ -1,0 +1,36 @@
+{
+  "skill": "deliberate-practice",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "dp-should-01",
+      "type": "should_trigger",
+      "prompt": "钢琴练了很多但卡住了，怎么用刻意练习突破？",
+      "expect": "触发；钉表现标准、定位瓶颈、设计有反馈的练习块。"
+    },
+    {
+      "id": "dp-should-02",
+      "type": "should_trigger",
+      "prompt": "每天刷题两小时没进步，帮我改训练计划。",
+      "expect": "触发刻意练习设计。"
+    },
+    {
+      "id": "dp-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "单词背了就忘，怎么安排 Anki 间隔？",
+      "expect": "分流到 spaced-repetition/forgetting-curve。"
+    },
+    {
+      "id": "dp-edge-01",
+      "type": "edge_case",
+      "prompt": "没有教练也没有标准答案，能刻意练习吗？",
+      "expect": "讲边界：先建反馈通道。"
+    },
+    {
+      "id": "dp-trap-01",
+      "type": "correctness_trap",
+      "prompt": "只要重复一万小时就是刻意练习。",
+      "expect": "纠正：质量与反馈优先，非时长口号。"
+    }
+  ]
+}

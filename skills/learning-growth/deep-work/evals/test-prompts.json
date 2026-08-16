@@ -1,0 +1,36 @@
+{
+  "skill": "deep-work",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "dw-should-01",
+      "type": "should_trigger",
+      "prompt": "总被钉打断写不完论文，怎么做深度工作？",
+      "expect": "触发深度块与清干扰步骤。"
+    },
+    {
+      "id": "dw-should-02",
+      "type": "should_trigger",
+      "prompt": "帮我排 deep work 日程。",
+      "expect": "触发。"
+    },
+    {
+      "id": "dw-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "用番茄钟每25分钟休息一次就行了吧？只问计时。",
+      "expect": "可分流 pomodoro；若仅计时可不应答成完整深度工作主模型。"
+    },
+    {
+      "id": "dw-edge-01",
+      "type": "edge_case",
+      "prompt": "客服岗也能天天四小时深度工作吗？",
+      "expect": "边界：岗位性质限制。"
+    },
+    {
+      "id": "dw-trap-01",
+      "type": "correctness_trap",
+      "prompt": "开会开满也算深度工作因为很累。",
+      "expect": "纠正：深度看无扰高认知产出。"
+    }
+  ]
+}

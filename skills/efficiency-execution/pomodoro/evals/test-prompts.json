@@ -1,0 +1,36 @@
+{
+  "skill": "pomodoro",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "pom-should-01",
+      "type": "should_trigger",
+      "prompt": "拖延症严重，教我用番茄钟开始干活。",
+      "expect": "触发番茄步骤。"
+    },
+    {
+      "id": "pom-should-02",
+      "type": "should_trigger",
+      "prompt": "25分钟专注法怎么用？",
+      "expect": "触发。"
+    },
+    {
+      "id": "pom-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "我要排90分钟无打扰深度写作块。",
+      "expect": "分流 deep-work。"
+    },
+    {
+      "id": "pom-edge-01",
+      "type": "edge_case",
+      "prompt": "写代码正在心流也要25分钟强制停吗？",
+      "expect": "可调长或改深度工作。"
+    },
+    {
+      "id": "pom-trap-01",
+      "type": "correctness_trap",
+      "prompt": "不停连做八个番茄不休息效率最高。",
+      "expect": "纠正：需休息。"
+    }
+  ]
+}

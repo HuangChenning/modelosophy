@@ -240,9 +240,9 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 6 | 系统思维与经典效应 | `systems-classic-effects` | **复用** | 名录 30 条 **已有**（首因/近因→`serial-position-effect`；网络效应→`metcalfes-law`） |
 | 7 | 认知与思维工具 | `cognitive-thinking-tools` | **新建**；迁入 8 | 现 **17**（M1 新建 9）；余 **待新建** |
 | 8 | 决策与概率 | `decision-probability` | **新建**；迁入 2 | 种子已有；部分 **已有@他类**；余待新建 |
-| 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 种子已有；余待新建 |
-| 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 种子已有；余待新建 |
-| 11 | 效率与执行 | `efficiency-execution` | **新建**；迁入 2 | 种子已有；余待新建 |
+| 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 现 **11**（M3 新建 6）；余 **待新建** |
+| 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 现 **10**（M3 新建 6）；余 **待新建** |
+| 11 | 效率与执行 | `efficiency-execution` | **新建**；迁入 2 | 现 **9**（M3 新建 7）；余 **待新建** |
 | 12 | 系统与复杂 | `systems-complexity` | **新建**；迁入 4；与第六类互补 | 重复项标已有@第六类；余待新建 |
 
 ### 3. 分批里程碑（建议）
@@ -250,7 +250,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 - [x] **M0**：名录写入 ROADMAP + 6 个新分类 README 壳 + 25 条物理迁移 + 链接/根 README 对账  
 - [x] **M1（首批）**：第七类优先缺口已建 9 条（`five-whys` / `scqa` / `theory-of-constraints` / `triz` / `hypothesis-testing` / `structured-thinking` / `lateral-thinking` / `logic-tree` / `star-method`，均 `v0.x-draft`）；类内现 **17**；其余名录条仍待新建  
 - [ ] **M2**：第八类补齐（贝叶斯更新、情景规划、事前验尸、OODA 等）；决策视角的沉没/机会成本 **互链**既有 Skill，不复制目录  
-- [ ] **M3**：第九–十一类分批新建（刻意练习、蓝海、看板/GTD 等）  
+- [x] **M3（首批）**：第九–十一类已建 draft（学习 +6→11；战略 +6→10；效率 +7→9；`deep-work` 落学习类）。分支 `feature/m3-learning-strategy-efficiency`；其余名录条仍待新建  
 - [ ] **M4**：第十二类补齐（系统基模、杠杆点已有、因果回路、CAS 等）；与第六类重复项只维护一份  
 - [x] **M5**：跨类相关模型抽查 + 分类 README 定稿；可选 evals 最小集（见 Phase 3 子项；双向建议仍可选残留）  
 
@@ -311,7 +311,8 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 元认知 | 已有@`…/metacognition` |
 | 艾宾浩斯遗忘曲线 | 已有@`…/forgetting-curve` |
 | 反脆弱 | 已有@`…/antifragility` |
-| 其余（刻意练习、间隔重复、成长型思维、一万小时、深度工作、ZPD 等） | 待新建（`deliberate-practice`、`spaced-repetition`、`growth-mindset`、`ten-thousand-hours`、`deep-work`、`zpd` 等） |
+| 刻意练习 / 间隔重复 / 成长型思维 / 一万小时 / 深度工作 / ZPD | 已有@`learning-growth/*`（M3 `v0.x-draft`） |
+| 其余学习法扩展 | 待新建 |
 
 #### 十、`strategy-competition`
 
@@ -322,7 +323,8 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 护城河 | 已有@`…/economic-moat` |
 | SWOT（战略视角） | 已有@`…/swot` |
 | 长尾战略 | 已有@他类 `systems-classic-effects/long-tail`（战略用法互链） |
-| 其余（蓝海、第二曲线、颠覆式创新、BCG/GE、OKR、VRIO、七S 等） | 待新建（`blue-ocean`、`second-curve`、`disruptive-innovation`、`bcg-matrix`、`okr`、`vrio`、`mckinsey-7s` 等） |
+| 蓝海 / 第二曲线 / 颠覆式创新 / BCG / OKR / VRIO | 已有@`strategy-competition/*`（M3 `v0.x-draft`） |
+| GE 九宫 / 七S 等 | 待新建（`ge-mckinsey-matrix`、`mckinsey-7s` 等） |
 
 #### 十一、`efficiency-execution`
 
@@ -331,8 +333,9 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 艾森豪威尔矩阵 | 已有@`efficiency-execution/eisenhower-matrix` |
 | PDCA 循环 | 已有@`…/pdca` |
 | 80/20 时间法 | 已有@他类 `systems-classic-effects/pareto-principle`（时间用法互链） |
-| 深度工作法 | 与第九类「深度工作」合并建一条即可（建议落 `learning-growth/deep-work` 或本类，二选一） |
-| 其余（番茄、GTD、看板、敏捷、关键路径、精益、5S 等） | 待新建（`pomodoro`、`gtd`、`kanban`、`agile-iteration`、`critical-path`、`lean-thinking`、`five-s` 等） |
+| 深度工作法 | 已有@他类 `learning-growth/deep-work`（主条；本类互链） |
+| 番茄 / GTD / 看板 / 敏捷迭代 / 关键路径 / 精益 / 5S | 已有@`efficiency-execution/*`（M3 `v0.x-draft`） |
+| 其余效率法扩展 | 待新建 |
 
 #### 十二、`systems-complexity`
 
