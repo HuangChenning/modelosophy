@@ -1,0 +1,36 @@
+{
+  "skill": "retrieval-practice",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "rp-should-01",
+      "type": "should_trigger",
+      "prompt": "重读很多遍还是记不住，怎么做检索练习？",
+      "expect": "触发；合上材料主动提取+对照纠错。"
+    },
+    {
+      "id": "rp-should-02",
+      "type": "should_trigger",
+      "prompt": "测试效应是什么，闭卷自测怎么安排？",
+      "expect": "触发检索练习。"
+    },
+    {
+      "id": "rp-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "Anki 间隔怎么调比较好？",
+      "expect": "分流 spaced-repetition。"
+    },
+    {
+      "id": "rp-edge-01",
+      "type": "edge_case",
+      "prompt": "完全零基础能直接闭卷吗？",
+      "expect": "讲边界：先最小编码再检索。"
+    },
+    {
+      "id": "rp-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把课本再高亮一遍就等于检索练习。",
+      "expect": "纠正：重读≠提取。"
+    }
+  ]
+}

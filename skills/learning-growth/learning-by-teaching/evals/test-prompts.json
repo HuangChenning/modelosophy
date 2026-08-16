@@ -1,0 +1,36 @@
+{
+  "skill": "learning-by-teaching",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "lbt-should-01",
+      "type": "should_trigger",
+      "prompt": "想用教中学，分享会怎么备课才真学到？",
+      "expect": "触发；最小单元+互动检查+教后自测。"
+    },
+    {
+      "id": "lbt-should-02",
+      "type": "should_trigger",
+      "prompt": "protégé effect 怎么落到同伴辅导？",
+      "expect": "触发学习中教。"
+    },
+    {
+      "id": "lbt-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "学习金字塔 90% 是不是科学？",
+      "expect": "分流 learning-pyramid 纠偏。"
+    },
+    {
+      "id": "lbt-edge-01",
+      "type": "edge_case",
+      "prompt": "零基础能直接教别人吗？",
+      "expect": "边界：先正确模型。"
+    },
+    {
+      "id": "lbt-trap-01",
+      "type": "correctness_trap",
+      "prompt": "照念幻灯也算学习中教。",
+      "expect": "纠正：须强制提取与检查点。"
+    }
+  ]
+}

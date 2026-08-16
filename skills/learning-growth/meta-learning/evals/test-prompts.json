@@ -1,0 +1,36 @@
+{
+  "skill": "meta-learning",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ml-should-01",
+      "type": "should_trigger",
+      "prompt": "元学习是什么，怎么选择学法？",
+      "expect": "触发；任务标签+策略菜单+短实验。"
+    },
+    {
+      "id": "ml-should-02",
+      "type": "should_trigger",
+      "prompt": "learning how to learn 如何落地到每周？",
+      "expect": "触发元学习。"
+    },
+    {
+      "id": "ml-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "我这道题是不是假懂？",
+      "expect": "分流元认知。"
+    },
+    {
+      "id": "ml-edge-01",
+      "type": "edge_case",
+      "prompt": "一直规划学法不开始学怎么办？",
+      "expect": "边界：限时选型防拖延。"
+    },
+    {
+      "id": "ml-trap-01",
+      "type": "correctness_trap",
+      "prompt": "元学习和元认知是一回事。",
+      "expect": "纠正：实时监控 vs 跨任务菜单。"
+    }
+  ]
+}
