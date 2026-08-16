@@ -1,0 +1,36 @@
+{
+  "skill": "ansoff-matrix",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ansoff-matrix-should-01",
+      "type": "should_trigger",
+      "prompt": "增长用安索夫矩阵：渗透还是多元化？",
+      "expect": "触发四格。"
+    },
+    {
+      "id": "ansoff-matrix-should-02",
+      "type": "should_trigger",
+      "prompt": "新产品打老客户算哪一格？",
+      "expect": "产品开发。"
+    },
+    {
+      "id": "ansoff-matrix-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "三条业务线用BCG决定投砍。",
+      "expect": "分流 bcg。"
+    },
+    {
+      "id": "ansoff-matrix-edge-01",
+      "type": "edge_case",
+      "prompt": "强平台生态产品市场边界极糊，硬套四格？",
+      "expect": "边界：过粗需补平台视角。"
+    },
+    {
+      "id": "ansoff-matrix-trap-01",
+      "type": "correctness_trap",
+      "prompt": "多元化最酷所以优先做。",
+      "expect": "纠正：风险阶梯，先穷尽单维。"
+    }
+  ]
+}

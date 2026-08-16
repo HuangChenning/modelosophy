@@ -1,0 +1,36 @@
+{
+  "skill": "cost-leadership",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "cost-leadership-should-01",
+      "type": "should_trigger",
+      "prompt": "我们有没有成本领先资格打价格战？",
+      "expect": "触发成本领先。"
+    },
+    {
+      "id": "cost-leadership-should-02",
+      "type": "should_trigger",
+      "prompt": "相对对手单位成本为什么更低？",
+      "expect": "触发。"
+    },
+    {
+      "id": "cost-leadership-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么做全市场差异化溢价。",
+      "expect": "分流差异化。"
+    },
+    {
+      "id": "cost-leadership-edge-01",
+      "type": "edge_case",
+      "prompt": "规模达不到最小有效规模？",
+      "expect": "边界。"
+    },
+    {
+      "id": "cost-leadership-trap-01",
+      "type": "correctness_trap",
+      "prompt": "降价了就等于成本领先。",
+      "expect": "纠正：需结构性相对成本优势。"
+    }
+  ]
+}

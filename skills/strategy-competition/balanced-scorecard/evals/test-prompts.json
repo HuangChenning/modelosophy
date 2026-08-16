@@ -1,0 +1,36 @@
+{
+  "skill": "balanced-scorecard",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "balanced-scorecard-should-01",
+      "type": "should_trigger",
+      "prompt": "用平衡计分卡把战略落到四维指标。",
+      "expect": "触发 BSC。"
+    },
+    {
+      "id": "balanced-scorecard-should-02",
+      "type": "should_trigger",
+      "prompt": "画战略地图：能力到财务的因果。",
+      "expect": "触发。"
+    },
+    {
+      "id": "balanced-scorecard-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要鼓舞性目标和KR写法。",
+      "expect": "分流 okr。"
+    },
+    {
+      "id": "balanced-scorecard-edge-01",
+      "type": "edge_case",
+      "prompt": "五人小团队要上完整BSC吗？",
+      "expect": "边界：过重。"
+    },
+    {
+      "id": "balanced-scorecard-trap-01",
+      "type": "correctness_trap",
+      "prompt": "BSC就是把KPI凑满四个维度。",
+      "expect": "纠正：先战略主题与因果。"
+    }
+  ]
+}

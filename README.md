@@ -8,7 +8,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 ## What's here now
 
-This repository is early. There are **302** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
+This repository is early. There are **314** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
@@ -21,7 +21,7 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 28 | [index](#cognitive-thinking-tools28) |
 | [Decision & Probability](skills/decision-probability/README.md) | 24 | [index](#decision--probability24) |
 | [Learning & Growth](skills/learning-growth/README.md) | 11 | [index](#learning--growth11) |
-| [Strategy & Competition](skills/strategy-competition/README.md) | 12 | [index](#strategy--competition12) |
+| [Strategy & Competition](skills/strategy-competition/README.md) | 24 | [index](#strategy--competition24) |
 | [Efficiency & Execution](skills/efficiency-execution/README.md) | 9 | [index](#efficiency--execution9) |
 | [Systems & Complexity](skills/systems-complexity/README.md) | 11 | [index](#systems--complexity11) |
 | [Macroeconomic Theories](skills/econ-macro-theories/README.md) | 30 | [index](#macroeconomic-theories30) |
@@ -68,7 +68,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **302** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 95). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
+The library is still early — **314** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 107). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
 
 ## Contributing a mental model
 
@@ -76,7 +76,7 @@ Have a thinking framework worth distilling? Open a PR that adds a new `skills/<c
 
 ## Skill catalog
 
-Per-skill blurbs for all **302** Skills. Category READMEs remain the per-domain index.
+Per-skill blurbs for all **314** Skills. Category READMEs remain the per-domain index.
 
 ### Business / Org Intel（1）
 
@@ -192,21 +192,33 @@ Feynman technique, flow, metacognition, forgetting curve, antifragility, plus M3
 - **[ten-thousand-hours](skills/learning-growth/ten-thousand-hours/SKILL.md)** — Ten-thousand-hours myth check: hours ≠ expertise; redirect to deliberate practice.
 - **[zpd](skills/learning-growth/zpd/SKILL.md)** — Zone of proximal development: place tasks between independent and assisted success with fading scaffolds.
 
-### Strategy & Competition（12）
+### Strategy & Competition（24）
 
-Five forces, moats, flywheels, SWOT, plus drafts for blue ocean, second curve, disruption, BCG, GE–McKinsey nine-box, McKinsey 7S, OKR, and VRIO.
+Five forces, moats, flywheels, SWOT, blue ocean, second curve, disruption, BCG, GE–McKinsey, 7S, OKR, VRIO, plus this batch (Ansoff, BSC, value chain, generic strategies/clock, positioning, platform, RBV/core competence, KPI).
 
+- **[ansoff-matrix](skills/strategy-competition/ansoff-matrix/SKILL.md)** — Ansoff matrix: existing/new market × product growth paths with rising risk (draft).
+- **[balanced-scorecard](skills/strategy-competition/balanced-scorecard/SKILL.md)** — Balanced scorecard: finance/customer/process/learning causal chain and strategy map (draft).
 - **[bcg-matrix](skills/strategy-competition/bcg-matrix/SKILL.md)** — BCG matrix: growth×relative share quadrants for portfolio invest/harvest/exit.
 - **[blue-ocean](skills/strategy-competition/blue-ocean/SKILL.md)** — Blue ocean: value innovation via ERRC to rebuild buyer utility and cost.
+- **[core-competence](skills/strategy-competition/core-competence/SKILL.md)** — Core competence: shared hard-to-imitate capabilities that open multiple markets (draft).
+- **[cost-leadership](skills/strategy-competition/cost-leadership/SKILL.md)** — Cost leadership: structural lowest-cost advantage in a broad market (draft).
+- **[differentiation-strategy](skills/strategy-competition/differentiation-strategy/SKILL.md)** — Differentiation: buyer-valued uniqueness and premium via activity-system trade-offs (draft).
 - **[disruptive-innovation](skills/strategy-competition/disruptive-innovation/SKILL.md)** — Disruptive innovation: low-end/new-market trajectories vs incumbent incentives.
 - **[economic-moat](skills/strategy-competition/economic-moat/SKILL.md)** — Economic moat: assess whether a firm can sustain excess returns via durable competitive advantages.
 - **[flywheel](skills/strategy-competition/flywheel/SKILL.md)** — Flywheel: design or diagnose accelerating causal loops where each turn strengthens the next.
 - **[ge-mckinsey-matrix](skills/strategy-competition/ge-mckinsey-matrix/SKILL.md)** — GE–McKinsey nine-box: industry attractiveness × competitive strength for invest/select/harvest.
+- **[kpi-framework](skills/strategy-competition/kpi-framework/SKILL.md)** — KPI framework: few sharp metrics with owners; watch Goodhart (draft).
 - **[mckinsey-7s](skills/strategy-competition/mckinsey-7s/SKILL.md)** — McKinsey 7S: align hard/soft Ss around shared values to diagnose strategy–organization congruence.
+- **[niche-strategy](skills/strategy-competition/niche-strategy/SKILL.md)** — Niche/focus: narrow arena cost or differentiation with explicit breadth trade-offs (draft).
 - **[okr](skills/strategy-competition/okr/SKILL.md)** — OKR: align ambitious objectives with measurable key results (not task lists).
+- **[platform-strategy](skills/strategy-competition/platform-strategy/SKILL.md)** — Platform strategy: multi-sided markets, network effects, cold start, governance (draft).
 - **[porters-five-forces](skills/strategy-competition/porters-five-forces/SKILL.md)** — Porter’s five forces: diagnose industry profit structure via rivalry, entrants, substitutes, buyers, suppliers.
+- **[positioning](skills/strategy-competition/positioning/SKILL.md)** — Positioning: own a clear, defensible spot in the target mind (draft).
+- **[resource-based-view](skills/strategy-competition/resource-based-view/SKILL.md)** — Resource-based view: internal heterogeneous resources/capabilities as advantage sources (draft).
 - **[second-curve](skills/strategy-competition/second-curve/SKILL.md)** — Second curve: start the next S-curve before the first peaks; set funding and kill rules.
+- **[strategic-clock](skills/strategy-competition/strategic-clock/SKILL.md)** — Strategic clock: price × perceived value paths; spot stuck-in-the-middle (draft).
 - **[swot](skills/strategy-competition/swot/SKILL.md)** — SWOT: structure internal strengths/weaknesses × external opportunities/threats, then TOWS matching.
+- **[value-chain](skills/strategy-competition/value-chain/SKILL.md)** — Value chain: primary/support activities for cost and differentiation loci (draft).
 - **[vrio](skills/strategy-competition/vrio/SKILL.md)** — VRIO: audit whether resources are valuable, rare, costly to imitate, and organized.
 
 ### Efficiency & Execution（9）
