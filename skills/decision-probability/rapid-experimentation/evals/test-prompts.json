@@ -1,0 +1,36 @@
+{
+  "skill": "rapid-experimentation",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "rapid-experimentation-should-01",
+      "type": "should_trigger",
+      "prompt": "不确定押哪边，想快速试错小步验证",
+      "expect": "触发实验序列"
+    },
+    {
+      "id": "rapid-experimentation-should-02",
+      "type": "should_trigger",
+      "prompt": "用实验节奏fail fast但要有止损",
+      "expect": "触发阈值止损"
+    },
+    {
+      "id": "rapid-experimentation-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要定义最小学习制品MVP长什么样",
+      "expect": "分流mvp"
+    },
+    {
+      "id": "rapid-experimentation-edge-01",
+      "type": "edge_case",
+      "prompt": "航空安全也能先上线试错吗",
+      "expect": "边界：不可试错域"
+    },
+    {
+      "id": "rapid-experimentation-trap-01",
+      "type": "correctness_trap",
+      "prompt": "失败本身就是成功，不用学习信号",
+      "expect": "纠正：无学习则浪费"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "after-action-review",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "after-action-review-should-01",
+      "type": "should_trigger",
+      "prompt": "发布结束了做AAR四步复盘",
+      "expect": "触发AAR四问"
+    },
+    {
+      "id": "after-action-review-should-02",
+      "type": "should_trigger",
+      "prompt": "对照原计划和实际发生提炼教训",
+      "expect": "触发意图vs实际"
+    },
+    {
+      "id": "after-action-review-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "上线前假定已失败做事前验尸",
+      "expect": "分流pre-mortem"
+    },
+    {
+      "id": "after-action-review-edge-01",
+      "type": "edge_case",
+      "prompt": "复盘会变成批斗怎么办",
+      "expect": "边界：心理安全"
+    },
+    {
+      "id": "after-action-review-trap-01",
+      "type": "correctness_trap",
+      "prompt": "复盘只要大家说说感受就行",
+      "expect": "纠正：要可验证改进行动"
+    }
+  ]
+}

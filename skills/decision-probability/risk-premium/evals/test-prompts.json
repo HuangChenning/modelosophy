@@ -1,0 +1,36 @@
+{
+  "skill": "risk-premium",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "risk-premium-should-01",
+      "type": "should_trigger",
+      "prompt": "这笔不确定收益风险溢价够不够",
+      "expect": "触发风险溢价"
+    },
+    {
+      "id": "risk-premium-should-02",
+      "type": "should_trigger",
+      "prompt": "为什么要求回报要高于无风险利率",
+      "expect": "触发溢价拆解"
+    },
+    {
+      "id": "risk-premium-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "用CAPM算β和市场风险溢价精确定价",
+      "expect": "分流capm"
+    },
+    {
+      "id": "risk-premium-edge-01",
+      "type": "edge_case",
+      "prompt": "个人可能破产时还能只谈可分散溢价吗",
+      "expect": "边界：接EU"
+    },
+    {
+      "id": "risk-premium-trap-01",
+      "type": "correctness_trap",
+      "prompt": "去年实现高收益说明溢价合理",
+      "expect": "纠正：事后≠事前溢价"
+    }
+  ]
+}

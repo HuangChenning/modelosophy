@@ -1,0 +1,36 @@
+{
+  "skill": "loss-function",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "loss-function-should-01",
+      "type": "should_trigger",
+      "prompt": "假阳性和假阴性代价不同，阈值怎么定",
+      "expect": "触发损失函数"
+    },
+    {
+      "id": "loss-function-should-02",
+      "type": "should_trigger",
+      "prompt": "两类错误谁更贵来定检测阈值",
+      "expect": "触发期望损失"
+    },
+    {
+      "id": "loss-function-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "我对亏损比盈利更敏感是什么偏差",
+      "expect": "分流loss-aversion"
+    },
+    {
+      "id": "loss-function-edge-01",
+      "type": "edge_case",
+      "prompt": "代价完全不可比怎么办",
+      "expect": "边界：先协商代理"
+    },
+    {
+      "id": "loss-function-trap-01",
+      "type": "correctness_trap",
+      "prompt": "准确率最高的阈值就是最优",
+      "expect": "纠正：非对称代价"
+    }
+  ]
+}
