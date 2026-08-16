@@ -1,0 +1,36 @@
+{
+  "skill": "purchasing-power-parity",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "purchasing-power-parity-should-01",
+      "type": "should_trigger",
+      "prompt": "通胀差会不会最终反映到汇率",
+      "expect": "触发 购买力平价：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "purchasing-power-parity-should-02",
+      "type": "should_trigger",
+      "prompt": "人民币按 PPP 是高估还是低估",
+      "expect": "触发 购买力平价。"
+    },
+    {
+      "id": "purchasing-power-parity-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：不可能三角的政策组合问题"
+    },
+    {
+      "id": "purchasing-power-parity-edge-01",
+      "type": "edge_case",
+      "prompt": "购买力平价在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "purchasing-power-parity-trap-01",
+      "type": "correctness_trap",
+      "prompt": "当即期交易信号是对的吧？",
+      "expect": "必须纠正常见误用：当即期交易信号 — 偏离可持续十年。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "balance-sheet-recession",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "balance-sheet-recession-should-01",
+      "type": "should_trigger",
+      "prompt": "利率都零了为啥没人借钱",
+      "expect": "触发 资产负债表衰退：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "balance-sheet-recession-should-02",
+      "type": "should_trigger",
+      "prompt": "是不是都在修资产负债表",
+      "expect": "触发 资产负债表衰退。"
+    },
+    {
+      "id": "balance-sheet-recession-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：高通胀供给冲击主场"
+    },
+    {
+      "id": "balance-sheet-recession-edge-01",
+      "type": "edge_case",
+      "prompt": "资产负债表衰退在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "balance-sheet-recession-trap-01",
+      "type": "correctness_trap",
+      "prompt": "为任意赤字背书是对的吧？",
+      "expect": "必须纠正常见误用：为任意赤字背书 — 仍要看通胀与实资。"
+    }
+  ]
+}

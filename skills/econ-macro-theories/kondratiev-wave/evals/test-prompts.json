@@ -1,0 +1,36 @@
+{
+  "skill": "kondratiev-wave",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "kondratiev-wave-should-01",
+      "type": "should_trigger",
+      "prompt": "我们是不是在康波萧条/复苏",
+      "expect": "触发 康德拉季耶夫长波：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "kondratiev-wave-should-02",
+      "type": "should_trigger",
+      "prompt": "技术革命是不是五六十年一轮",
+      "expect": "触发 康德拉季耶夫长波。"
+    },
+    {
+      "id": "kondratiev-wave-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "库存短周期",
+      "expect": "不触发或应分流：库存短周期 → kitchin-cycle"
+    },
+    {
+      "id": "kondratiev-wave-edge-01",
+      "type": "edge_case",
+      "prompt": "康德拉季耶夫长波在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "kondratiev-wave-trap-01",
+      "type": "correctness_trap",
+      "prompt": "精确择时是对的吧？",
+      "expect": "必须纠正常见误用：精确择时 — 金融营销滥用。"
+    }
+  ]
+}

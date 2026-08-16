@@ -3,7 +3,7 @@ name: game-theory
 description: >
   用博弈论入门切片（参与人/策略/收益、优势策略、纳什直觉、囚徒困境）分析互动决策：你的最优
   取决于他人选择。Use when user says “博弈论”“囚徒困境”“纳什均衡”“优势策略”“支付矩阵”
-  “别人也这么想我会怎样”。本 skill 不做演化博弈/贝叶斯博弈/机制设计全书；单人不确定决策走决策树。
+  “别人也这么想我会怎样”。本 skill 不做演化博弈/贝叶斯博弈/机制设计全书——那些走同目录专条；单人不确定决策走决策树。
 metadata:
   author: modelosophy（蒸馏自 von Neumann-Morgenstern / Nash 直觉 + 经典 2×2 博弈
     + 《万物皆模型》博弈论卡片）
@@ -63,8 +63,10 @@ metadata:
 
 ## 相关模型
 
+- **与[囚徒困境](../prisoners-dilemma/SKILL.md)**：已确认优势策略背叛 + 帕累托劣纳什时走专条；本切片只作结构示范。
+- **与[纳什均衡](../nash-equilibrium/SKILL.md)**：要做完整偏离测试 / 多重均衡清单时走专条。
+- **与[重复博弈](../repeated-games/SKILL.md) / [机制设计](../mechanism-design/SKILL.md) / [贝叶斯博弈](../bayesian-games/SKILL.md)**：超出入门四块时换专条，勿把全书塞进本文件。
 - **与[决策树](../../thinking-models/decision-tree/SKILL.md)**：决策树服务单决策者；博弈服务互动依赖。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：系统看回路与延迟；博弈看策略与支付。
-- **与[逆向思维](../../thinking-models/inversion/SKILL.md)**：可问“如何让合作崩溃”，用于压力测试制度，但结论需合法。
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：支付里应体现放弃的替代，避免只算会计利润。
 ---

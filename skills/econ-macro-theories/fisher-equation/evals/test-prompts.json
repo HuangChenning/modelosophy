@@ -1,0 +1,36 @@
+{
+  "skill": "fisher-equation",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "fisher-equation-should-01",
+      "type": "should_trigger",
+      "prompt": "货币增速和名义 GDP 对得上吗",
+      "expect": "触发 费雪方程：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "fisher-equation-should-02",
+      "type": "should_trigger",
+      "prompt": "印钱是不是一对一变通胀",
+      "expect": "触发 费雪方程。"
+    },
+    {
+      "id": "fisher-equation-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：泰勒规则利率反应函数主场"
+    },
+    {
+      "id": "fisher-equation-edge-01",
+      "type": "edge_case",
+      "prompt": "费雪方程在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "fisher-equation-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把恒等当因果是对的吧？",
+      "expect": "必须纠正常见误用：把恒等当因果 — PQ 也可驱动 M 内生。"
+    }
+  ]
+}

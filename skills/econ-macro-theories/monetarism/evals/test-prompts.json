@@ -1,0 +1,36 @@
+{
+  "skill": "monetarism",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "monetarism-should-01",
+      "type": "should_trigger",
+      "prompt": "通胀会不会是印太多钱",
+      "expect": "触发 货币主义：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "monetarism-should-02",
+      "type": "should_trigger",
+      "prompt": "央行该不该定规则而不是每次开会拍脑袋",
+      "expect": "触发 货币主义。"
+    },
+    {
+      "id": "monetarism-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：短期流动性危机的紧急注资（如金融危机）——可与金融稳定工具配合，勿教条拒绝一切流动性"
+    },
+    {
+      "id": "monetarism-edge-01",
+      "type": "edge_case",
+      "prompt": "货币主义在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "monetarism-trap-01",
+      "type": "correctness_trap",
+      "prompt": "一切通胀只怪央行是对的吧？",
+      "expect": "必须纠正常见误用：一切通胀只怪央行 — 忽视战争/疫情供给冲击 → 双因子记账。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "crowding-out-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "crowding-out-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "赤字会不会害得企业借钱更贵",
+      "expect": "触发 挤出效应：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "crowding-out-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "政府项目是不是抢了民间的人",
+      "expect": "触发 挤出效应。"
+    },
+    {
+      "id": "crowding-out-effect-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：只谈开放经济汇率挤出（可能成立）却不声明渠道"
+    },
+    {
+      "id": "crowding-out-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "挤出效应在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "crowding-out-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "永远 100% 挤出是对的吧？",
+      "expect": "必须纠正常见误用：永远 100% 挤出 — 古典极端假定当现实。"
+    }
+  ]
+}

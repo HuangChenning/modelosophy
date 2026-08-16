@@ -1,0 +1,36 @@
+{
+  "skill": "malthusian-trap",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "malthusian-trap-should-01",
+      "type": "should_trigger",
+      "prompt": "古人为啥几乎不变富",
+      "expect": "触发 马尔萨斯陷阱：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "malthusian-trap-should-02",
+      "type": "should_trigger",
+      "prompt": "粮食增产会不会只导致更多人口",
+      "expect": "触发 马尔萨斯陷阱。"
+    },
+    {
+      "id": "malthusian-trap-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：当代老龄化/创新增长问题直接用马尔萨斯吓人"
+    },
+    {
+      "id": "malthusian-trap-edge-01",
+      "type": "edge_case",
+      "prompt": "马尔萨斯陷阱在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "malthusian-trap-trap-01",
+      "type": "correctness_trap",
+      "prompt": "反移民/反人道口号是对的吧？",
+      "expect": "必须纠正常见误用：反移民/反人道口号 — 偷运政治。"
+    }
+  ]
+}

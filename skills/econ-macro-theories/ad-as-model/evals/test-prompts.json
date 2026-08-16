@@ -1,0 +1,36 @@
+{
+  "skill": "ad-as-model",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ad-as-model-should-01",
+      "type": "should_trigger",
+      "prompt": "这是需求太热还是供给不够",
+      "expect": "触发 AD-AS 模型：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "ad-as-model-should-02",
+      "type": "should_trigger",
+      "prompt": "为何物价涨产出还掉",
+      "expect": "触发 AD-AS 模型。"
+    },
+    {
+      "id": "ad-as-model-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "单个产品供需",
+      "expect": "不触发或应分流：单个产品供需 → 微观供需技能"
+    },
+    {
+      "id": "ad-as-model-edge-01",
+      "type": "edge_case",
+      "prompt": "AD-AS 模型在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "ad-as-model-trap-01",
+      "type": "correctness_trap",
+      "prompt": "凡通胀都当需求是对的吧？",
+      "expect": "必须纠正常见误用：凡通胀都当需求 — 误杀供给。"
+    }
+  ]
+}

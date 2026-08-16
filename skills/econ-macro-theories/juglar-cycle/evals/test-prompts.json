@@ -1,0 +1,36 @@
+{
+  "skill": "juglar-cycle",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "juglar-cycle-should-01",
+      "type": "should_trigger",
+      "prompt": "资本开支周期是不是到了换设备潮",
+      "expect": "触发 朱格拉周期：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "juglar-cycle-should-02",
+      "type": "should_trigger",
+      "prompt": "这轮复苏能持续近十年吗",
+      "expect": "触发 朱格拉周期。"
+    },
+    {
+      "id": "juglar-cycle-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "40 个月库存",
+      "expect": "不触发或应分流：40 个月库存 → kitchin"
+    },
+    {
+      "id": "juglar-cycle-edge-01",
+      "type": "edge_case",
+      "prompt": "朱格拉周期在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "juglar-cycle-trap-01",
+      "type": "correctness_trap",
+      "prompt": "固定 10 年日历是对的吧？",
+      "expect": "必须纠正常见误用：固定 10 年日历 — 机械择时。"
+    }
+  ]
+}

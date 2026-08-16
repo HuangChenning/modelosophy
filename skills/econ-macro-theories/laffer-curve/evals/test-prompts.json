@@ -1,0 +1,36 @@
+{
+  "skill": "laffer-curve",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "laffer-curve-should-01",
+      "type": "should_trigger",
+      "prompt": "再减税，税收反而更多？",
+      "expect": "触发 拉弗曲线：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "laffer-curve-should-02",
+      "type": "should_trigger",
+      "prompt": "现在税率是不是高过临界点了",
+      "expect": "触发 拉弗曲线。"
+    },
+    {
+      "id": "laffer-curve-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：把分配正义或公共品需求问题伪装成拉弗峰值争论"
+    },
+    {
+      "id": "laffer-curve-edge-01",
+      "type": "edge_case",
+      "prompt": "拉弗曲线在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "laffer-curve-trap-01",
+      "type": "correctness_trap",
+      "prompt": "峰值迷信是对的吧？",
+      "expect": "必须纠正常见误用：峰值迷信 — 声称「我们已经在右段」却无弹性证据。"
+    }
+  ]
+}

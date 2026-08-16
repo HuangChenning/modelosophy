@@ -1,0 +1,36 @@
+{
+  "skill": "rational-expectations",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "rational-expectations-should-01",
+      "type": "should_trigger",
+      "prompt": "放水大家早看穿了吧",
+      "expect": "触发 理性预期：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "rational-expectations-should-02",
+      "type": "should_trigger",
+      "prompt": "央行说话市场秒懂",
+      "expect": "触发 理性预期。"
+    },
+    {
+      "id": "rational-expectations-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "行为偏误主导的慢学习场景",
+      "expect": "不触发或应分流：行为偏误主导的慢学习场景 → 行为经济学技能"
+    },
+    {
+      "id": "rational-expectations-edge-01",
+      "type": "edge_case",
+      "prompt": "理性预期在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "rational-expectations-trap-01",
+      "type": "correctness_trap",
+      "prompt": "政策永远没用是对的吧？",
+      "expect": "必须纠正常见误用：政策永远没用 — 忽略名义粘性、流动性约束下短期仍有效。"
+    }
+  ]
+}

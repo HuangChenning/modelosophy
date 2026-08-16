@@ -1,0 +1,36 @@
+{
+  "skill": "endogenous-growth-theory",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "endogenous-growth-theory-should-01",
+      "type": "should_trigger",
+      "prompt": "为何有的国家长期增长更快",
+      "expect": "触发 内生增长理论：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "endogenous-growth-theory-should-02",
+      "type": "should_trigger",
+      "prompt": "该不该补贴研发和教育",
+      "expect": "触发 内生增长理论。"
+    },
+    {
+      "id": "endogenous-growth-theory-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：索洛水平效应问题却硬上内生增长术语"
+    },
+    {
+      "id": "endogenous-growth-theory-edge-01",
+      "type": "edge_case",
+      "prompt": "内生增长理论在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "endogenous-growth-theory-trap-01",
+      "type": "correctness_trap",
+      "prompt": "口号化创新是对的吧？",
+      "expect": "必须纠正常见误用：口号化创新 — 无计量的「新质」空转。"
+    }
+  ]
+}

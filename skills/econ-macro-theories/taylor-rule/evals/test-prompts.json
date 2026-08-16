@@ -1,0 +1,36 @@
+{
+  "skill": "taylor-rule",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "taylor-rule-should-01",
+      "type": "should_trigger",
+      "prompt": "按泰勒规则现在利率该在哪",
+      "expect": "触发 泰勒规则：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "taylor-rule-should-02",
+      "type": "should_trigger",
+      "prompt": "央行是不是落后于曲线",
+      "expect": "触发 泰勒规则。"
+    },
+    {
+      "id": "taylor-rule-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：财政乘数主场"
+    },
+    {
+      "id": "taylor-rule-edge-01",
+      "type": "edge_case",
+      "prompt": "泰勒规则在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "taylor-rule-trap-01",
+      "type": "correctness_trap",
+      "prompt": "唯一正确利率是对的吧？",
+      "expect": "必须纠正常见误用：唯一正确利率 — 参数争论巨大。"
+    }
+  ]
+}

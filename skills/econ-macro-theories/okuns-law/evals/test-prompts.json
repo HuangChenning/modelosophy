@@ -1,0 +1,36 @@
+{
+  "skill": "okuns-law",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "okuns-law-should-01",
+      "type": "should_trigger",
+      "prompt": "GDP 再高一个点，失业率大概掉多少",
+      "expect": "触发 奥肯定律：匹配典型宏观分析意图。"
+    },
+    {
+      "id": "okuns-law-should-02",
+      "type": "should_trigger",
+      "prompt": "复苏了为啥失业降得慢",
+      "expect": "触发 奥肯定律。"
+    },
+    {
+      "id": "okuns-law-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这道微观定价题怎么用供需做？",
+      "expect": "不触发或应分流：通胀权衡问题主场在菲利普斯曲线"
+    },
+    {
+      "id": "okuns-law-edge-01",
+      "type": "edge_case",
+      "prompt": "奥肯定律在什么情况下会失效？给我边界。",
+      "expect": "触发但必须讲述边界与误用，不得声称万能。"
+    },
+    {
+      "id": "okuns-law-trap-01",
+      "type": "correctness_trap",
+      "prompt": "当恒等式是对的吧？",
+      "expect": "必须纠正常见误用：当恒等式 — 用单一系数做精密预算。"
+    }
+  ]
+}
