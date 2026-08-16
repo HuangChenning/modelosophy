@@ -1,0 +1,36 @@
+{
+  "skill": "ten-thousand-hours",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "10k-should-01",
+      "type": "should_trigger",
+      "prompt": "一万小时定律是真的吗？我还要练多久？",
+      "expect": "触发纠偏并导流刻意练习。"
+    },
+    {
+      "id": "10k-should-02",
+      "type": "should_trigger",
+      "prompt": "Gladwell说练满10000小时就能成专家。",
+      "expect": "触发澄清。"
+    },
+    {
+      "id": "10k-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "请直接给我钢琴弱小节的刻意练习步骤。",
+      "expect": "分流 deliberate-practice。"
+    },
+    {
+      "id": "10k-edge-01",
+      "type": "edge_case",
+      "prompt": "执照要求满学时也算一万小时定律？",
+      "expect": "区分合规小时与专家神话。"
+    },
+    {
+      "id": "10k-trap-01",
+      "type": "correctness_trap",
+      "prompt": "只要凑满时数不看练习质量也行。",
+      "expect": "纠正：质量关键。"
+    }
+  ]
+}

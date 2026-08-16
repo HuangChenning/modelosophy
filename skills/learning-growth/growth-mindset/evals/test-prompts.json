@@ -1,0 +1,36 @@
+{
+  "skill": "growth-mindset",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "gm-should-01",
+      "type": "should_trigger",
+      "prompt": "孩子一遇难题就说自己没天赋，怎么办？",
+      "expect": "触发成长型思维反馈改写。"
+    },
+    {
+      "id": "gm-should-02",
+      "type": "should_trigger",
+      "prompt": "用成长型思维帮我看职场失败。",
+      "expect": "触发。"
+    },
+    {
+      "id": "gm-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我做钢琴弱小节的刻意练习计划。",
+      "expect": "分流 deliberate-practice。"
+    },
+    {
+      "id": "gm-edge-01",
+      "type": "edge_case",
+      "prompt": "是不是有成长型思维就一定能成功？",
+      "expect": "弱主张：非保证成功。"
+    },
+    {
+      "id": "gm-trap-01",
+      "type": "correctness_trap",
+      "prompt": "夸孩子你真聪明就是成长型思维。",
+      "expect": "纠正：特质表扬易诱发固定型。"
+    }
+  ]
+}

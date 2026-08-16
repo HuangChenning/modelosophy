@@ -1,0 +1,36 @@
+{
+  "skill": "kanban",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "kb-should-01",
+      "type": "should_trigger",
+      "prompt": "团队任务卡死，怎么用看板和WIP限制？",
+      "expect": "触发看板WIP。"
+    },
+    {
+      "id": "kb-should-02",
+      "type": "should_trigger",
+      "prompt": "帮我设计Kanban列。",
+      "expect": "触发。"
+    },
+    {
+      "id": "kb-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "我们要做两周Sprint计划会怎么开。",
+      "expect": "分流 agile-iteration。"
+    },
+    {
+      "id": "kb-edge-01",
+      "type": "edge_case",
+      "prompt": "固定交期大项目只用看板够吗？",
+      "expect": "或需关键路径。"
+    },
+    {
+      "id": "kb-trap-01",
+      "type": "correctness_trap",
+      "prompt": "看板就是多几列，不必限制在制品。",
+      "expect": "纠正：WIP核心。"
+    }
+  ]
+}

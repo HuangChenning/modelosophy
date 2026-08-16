@@ -1,0 +1,36 @@
+{
+  "skill": "vrio",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "vrio-should-01",
+      "type": "should_trigger",
+      "prompt": "用VRIO审计我们算不算有核心竞争力。",
+      "expect": "触发四问审计。"
+    },
+    {
+      "id": "vrio-should-02",
+      "type": "should_trigger",
+      "prompt": "这个能力稀缺且难模仿吗？",
+      "expect": "触发。"
+    },
+    {
+      "id": "vrio-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "画一下行业五力。",
+      "expect": "分流 five-forces。"
+    },
+    {
+      "id": "vrio-edge-01",
+      "type": "edge_case",
+      "prompt": "技术变了，旧专利还Valuable吗？",
+      "expect": "V可能归零。"
+    },
+    {
+      "id": "vrio-trap-01",
+      "type": "correctness_trap",
+      "prompt": "有很多资产就等于持续竞争优势。",
+      "expect": "纠正：需R I O。"
+    }
+  ]
+}

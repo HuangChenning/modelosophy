@@ -62,6 +62,9 @@ Covey 强调：高效者刻意加大第 II 象限——预防、能力建设、�
 
 ## 相关模型
 
+- **与[番茄工作法](../pomodoro/SKILL.md)**：矩阵选优先级；番茄执行时间盒。
+- **与[GTD](../gtd/SKILL.md)**：GTD 产出下一步；矩阵帮排紧急重要。
+- **与[深度工作](../../learning-growth/deep-work/SKILL.md)**：重要不紧急常放入深度块（主条在学习类）。
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：矩阵排的是执行顺序；若两件都重要且互斥，用机会成本比放弃价值。
 - **与[10/10/10](../../thinking-models/ten-ten-ten/SKILL.md)**：判断“重要”时可借用短中长期感受；矩阵负责落地到日程。
 - **与[局部最优/全局最优](../../thinking-models/local-global-optima/SKILL.md)**：若所有 II 都在错误的山上，先换山再排序。

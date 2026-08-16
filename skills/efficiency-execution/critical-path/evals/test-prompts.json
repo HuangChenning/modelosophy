@@ -1,0 +1,36 @@
+{
+  "skill": "critical-path",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "cpm-should-01",
+      "type": "should_trigger",
+      "prompt": "项目总延期，帮我找关键路径。",
+      "expect": "触发CPM。"
+    },
+    {
+      "id": "cpm-should-02",
+      "type": "should_trigger",
+      "prompt": "哪些任务时差为零？",
+      "expect": "触发。"
+    },
+    {
+      "id": "cpm-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "用看板限制WIP。",
+      "expect": "分流 kanban。"
+    },
+    {
+      "id": "cpm-edge-01",
+      "type": "edge_case",
+      "prompt": "研发探索期依赖都不清，能画CPM吗？",
+      "expect": "边界：先学习。"
+    },
+    {
+      "id": "cpm-trap-01",
+      "type": "correctness_trap",
+      "prompt": "所有任务都同等关键。",
+      "expect": "纠正。"
+    }
+  ]
+}

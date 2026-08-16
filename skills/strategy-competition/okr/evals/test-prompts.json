@@ -1,0 +1,36 @@
+{
+  "skill": "okr",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "okr-should-01",
+      "type": "should_trigger",
+      "prompt": "帮团队写本季度OKR，KR不要写成任务列表。",
+      "expect": "触发结果型KR。"
+    },
+    {
+      "id": "okr-should-02",
+      "type": "should_trigger",
+      "prompt": "公司目标怎么对齐到小组？",
+      "expect": "触发OKR对齐。"
+    },
+    {
+      "id": "okr-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "用BCG看业务组合投哪条线。",
+      "expect": "分流 bcg-matrix。"
+    },
+    {
+      "id": "okr-edge-01",
+      "type": "edge_case",
+      "prompt": "早期探索也能全员硬OKR吗？",
+      "expect": "边界：可能扼杀可选性。"
+    },
+    {
+      "id": "okr-trap-01",
+      "type": "correctness_trap",
+      "prompt": "KR写完成五个功能就算好OKR。",
+      "expect": "纠正：应是结果。"
+    }
+  ]
+}

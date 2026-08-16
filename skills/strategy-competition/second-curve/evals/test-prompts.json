@@ -1,0 +1,36 @@
+{
+  "skill": "second-curve",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "sc-should-01",
+      "type": "should_trigger",
+      "prompt": "主业增长放缓，何时启动第二曲线？",
+      "expect": "触发时机与隔离规则。"
+    },
+    {
+      "id": "sc-should-02",
+      "type": "should_trigger",
+      "prompt": "用S曲线看看我们要不要开新业务。",
+      "expect": "触发。"
+    },
+    {
+      "id": "sc-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我做ERRC价值曲线。",
+      "expect": "分流 blue-ocean。"
+    },
+    {
+      "id": "sc-edge-01",
+      "type": "edge_case",
+      "prompt": "公司快破产了还谈第二曲线吗？",
+      "expect": "边界：先止血。"
+    },
+    {
+      "id": "sc-trap-01",
+      "type": "correctness_trap",
+      "prompt": "等完全不行了再转型最安全。",
+      "expect": "纠正：往往已晚。"
+    }
+  ]
+}
