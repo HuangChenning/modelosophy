@@ -1,0 +1,36 @@
+{
+  "skill": "planning-fallacy",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "planning-fallacy-should-01",
+      "type": "should_trigger",
+      "prompt": "又延期了，是不是计划谬误",
+      "expect": "触发乐观规划纠偏"
+    },
+    {
+      "id": "planning-fallacy-should-02",
+      "type": "should_trigger",
+      "prompt": "这次我们更懂，两周能做完",
+      "expect": "触发外部视图"
+    },
+    {
+      "id": "planning-fallacy-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要给我一个行业平均成功率数字",
+      "expect": "可基率；本模型点名规划乐观"
+    },
+    {
+      "id": "planning-fallacy-edge-01",
+      "type": "edge_case",
+      "prompt": "延期是因为需求狂增",
+      "expect": "先治理变更，不全归谬误"
+    },
+    {
+      "id": "planning-fallacy-trap-01",
+      "type": "correctness_trap",
+      "prompt": "再仔细排一次内部任务就能准",
+      "expect": "纠正：要用外部视图"
+    }
+  ]
+}

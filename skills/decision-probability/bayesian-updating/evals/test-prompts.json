@@ -1,0 +1,36 @@
+{
+  "skill": "bayesian-updating",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "bayesian-updating-should-01",
+      "type": "should_trigger",
+      "prompt": "新证据出来了，先验40%，怎么更新后验？",
+      "expect": "触发贝叶斯：先验×似然→后验"
+    },
+    {
+      "id": "bayesian-updating-should-02",
+      "type": "should_trigger",
+      "prompt": "阳性检验后真的得病概率怎么算？",
+      "expect": "触发；强调基率与似然"
+    },
+    {
+      "id": "bayesian-updating-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "不完全信息下对手类型怎么博弈？",
+      "expect": "分流 bayesian-games"
+    },
+    {
+      "id": "bayesian-updating-edge-01",
+      "type": "edge_case",
+      "prompt": "没有可观察证据也能贝叶斯吗？",
+      "expect": "讲边界：先改造成可观察或承认无法更新"
+    },
+    {
+      "id": "bayesian-updating-trap-01",
+      "type": "correctness_trap",
+      "prompt": "后验更高就是更自信，不用写似然。",
+      "expect": "纠正：必须写似然，否则只是心情"
+    }
+  ]
+}

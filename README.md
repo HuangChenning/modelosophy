@@ -8,7 +8,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 ## What's here now
 
-This repository is early. There are **252** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
+This repository is early. There are **263** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
@@ -19,7 +19,7 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | [Business / Org Intel](skills/business/README.md) | 1 | [index](#business-/-org-intel1) |
 | [Thinking Models](skills/thinking-models/README.md) | 25 | [index](#thinking-models25) |
 | [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 28 | [index](#cognitive-thinking-tools28) |
-| [Decision & Probability](skills/decision-probability/README.md) | 2 | [index](#decision--probability2) |
+| [Decision & Probability](skills/decision-probability/README.md) | 13 | [index](#decision--probability13) |
 | [Learning & Growth](skills/learning-growth/README.md) | 5 | [index](#learning--growth5) |
 | [Strategy & Competition](skills/strategy-competition/README.md) | 4 | [index](#strategy--competition4) |
 | [Efficiency & Execution](skills/efficiency-execution/README.md) | 2 | [index](#efficiency--execution2) |
@@ -68,7 +68,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **252** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 45). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
+The library is still early — **263** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 56). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
 
 ## Contributing a mental model
 
@@ -76,7 +76,7 @@ Have a thinking framework worth distilling? Open a PR that adds a new `skills/<c
 
 ## Skill catalog
 
-Per-skill blurbs for all **252** Skills. Category READMEs remain the per-domain index.
+Per-skill blurbs for all **263** Skills. Category READMEs remain the per-domain index.
 
 ### Business / Org Intel（1）
 
@@ -147,12 +147,23 @@ First principles, structured decomposition, critical thinking tools.
 - **[thought-experiment](skills/cognitive-thinking-tools/thought-experiment/SKILL.md)** — Thought experiment: probe principles in counterfactual setups with explicit limits (draft).
 - **[triz](skills/cognitive-thinking-tools/triz/SKILL.md)** — TRIZ: frame design contradictions and seek non-compromise inventive moves (draft).
 
-### Decision & Probability（2）
+### Decision & Probability（13）
 
-Expected value, decision trees, decisions under uncertainty.
+Expected value, decision trees, Bayesian updating, and other decisions under uncertainty (M2 drafts included).
 
+- **[base-rate](skills/decision-probability/base-rate/SKILL.md)** — Base rate / reference class: anchor on class frequencies before case details (draft).
+- **[bayesian-updating](skills/decision-probability/bayesian-updating/SKILL.md)** — Bayesian updating: prior × likelihood → posterior (draft).
 - **[decision-tree](skills/decision-probability/decision-tree/SKILL.md)** — Decision tree: multi-stage choices with known options, uncertain outcomes, and estimable probabilities/payoffs.
+- **[expected-utility](skills/decision-probability/expected-utility/SKILL.md)** — Expected utility: choose when money is nonlinear or ruin matters (draft).
 - **[expected-value](skills/decision-probability/expected-value/SKILL.md)** — Expected value: quantify uncertain outcomes as probability-weighted averages (EV = Σ p·x).
+- **[grey-thinking](skills/decision-probability/grey-thinking/SKILL.md)** — Grey thinking: hold revisable confidence instead of binary certainty (draft).
+- **[mvp](skills/decision-probability/mvp/SKILL.md)** — MVP: minimum artifact that tests the riskiest assumption (draft).
+- **[ooda-loop](skills/decision-probability/ooda-loop/SKILL.md)** — OODA loop: observe–orient–decide–act under competitive tempo (draft).
+- **[planning-fallacy](skills/decision-probability/planning-fallacy/SKILL.md)** — Planning fallacy: correct optimistic schedules with outside view (draft).
+- **[pre-mortem](skills/decision-probability/pre-mortem/SKILL.md)** — Pre-mortem: assume failure already happened to surface preventable causes (draft).
+- **[red-team](skills/decision-probability/red-team/SKILL.md)** — Red team: structured independent attack on a plan (draft).
+- **[reversible-irreversible](skills/decision-probability/reversible-irreversible/SKILL.md)** — Reversible vs irreversible decisions: match process weight to undo cost (draft).
+- **[scenario-planning](skills/decision-probability/scenario-planning/SKILL.md)** — Scenario planning: few divergent futures for robust options and signals (draft).
 
 ### Learning & Growth（5）
 

@@ -8,7 +8,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ## 项目简介与现状
 
-这个仓库还处于早期阶段。`skills/<category>/` 下合计 **252** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
+这个仓库还处于早期阶段。`skills/<category>/` 下合计 **263** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
@@ -19,7 +19,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [商业 / 组织情报](skills/business/README.md) | 1 | [目录](#商业--组织情报1) |
 | [通用思维模型](skills/thinking-models/README.md) | 25 | [目录](#通用思维模型25) |
 | [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | [目录](#认知与思维工具28) |
-| [决策与概率](skills/decision-probability/README.md) | 2 | [目录](#决策与概率2) |
+| [决策与概率](skills/decision-probability/README.md) | 13 | [目录](#决策与概率13) |
 | [学习与成长](skills/learning-growth/README.md) | 5 | [目录](#学习与成长5) |
 | [战略与竞争](skills/strategy-competition/README.md) | 4 | [目录](#战略与竞争4) |
 | [效率与执行](skills/efficiency-execution/README.md) | 2 | [目录](#效率与执行2) |
@@ -68,7 +68,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计 **252** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 45）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
+库仍处于早期：跨分类合计 **263** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 56）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
 
 ## 贡献一个思维模型
 
@@ -76,7 +76,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## Skill 目录
 
-全部 **252** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
+全部 **263** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
 
 ### 商业 / 组织情报（1）
 
@@ -147,12 +147,23 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[thought-experiment](skills/cognitive-thinking-tools/thought-experiment/SKILL.md)** — 思维实验：反事实设定中澄清原则并声明限度（草稿）。
 - **[triz](skills/cognitive-thinking-tools/triz/SKILL.md)** — TRIZ：把设计矛盾结构化并用分离/发明原理启发非折中解（草稿）。
 
-### 决策与概率（2）
+### 决策与概率（13）
 
-期望值、决策树等不确定性决策工具。
+期望值、决策树、贝叶斯更新等不确定性决策工具（含 M2 draft）。
 
+- **[base-rate](skills/decision-probability/base-rate/SKILL.md)** — 基率/参考类：先锚定同类频率再并入个案（draft）。
+- **[bayesian-updating](skills/decision-probability/bayesian-updating/SKILL.md)** — 贝叶斯更新：先验 × 似然 → 后验（draft）。
 - **[decision-tree](skills/decision-probability/decision-tree/SKILL.md)** — 决策树：在选项已知、结果不确定、能粗估概率与后果时，做多阶段选择与期望值比较。
+- **[expected-utility](skills/decision-probability/expected-utility/SKILL.md)** — 期望效用：金额非线性或存在归零约束时用 EU（draft）。
 - **[expected-value](skills/decision-probability/expected-value/SKILL.md)** — 期望值：把不确定结果量化为概率加权平均（EV = Σ pᵢ·xᵢ）。
+- **[grey-thinking](skills/decision-probability/grey-thinking/SKILL.md)** — 灰度认知：用可修订置信度替代非黑即白（draft）。
+- **[mvp](skills/decision-probability/mvp/SKILL.md)** — MVP：以最小投入验证最危险假设（draft）。
+- **[ooda-loop](skills/decision-probability/ooda-loop/SKILL.md)** — OODA：观察—定向—决策—行动的对抗节奏（draft）。
+- **[planning-fallacy](skills/decision-probability/planning-fallacy/SKILL.md)** — 计划谬误：用外部视图纠偏乐观工期/成本（draft）。
+- **[pre-mortem](skills/decision-probability/pre-mortem/SKILL.md)** — 事前验尸：假定已失败以挖出可预防原因（draft）。
+- **[red-team](skills/decision-probability/red-team/SKILL.md)** — 红队：独立结构化对抗以找出可利用裂口（draft）。
+- **[reversible-irreversible](skills/decision-probability/reversible-irreversible/SKILL.md)** — 可逆/不可逆决策：按反悔成本匹配速度与审查（draft）。
+- **[scenario-planning](skills/decision-probability/scenario-planning/SKILL.md)** — 情景规划：少数分歧未来下的稳健选项与预警（draft）。
 
 ### 学习与成长（5）
 

@@ -1,0 +1,36 @@
+{
+  "skill": "scenario-planning",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "scenario-planning-should-01",
+      "type": "should_trigger",
+      "prompt": "做情景规划，别只给一个预测",
+      "expect": "触发多叙事情景"
+    },
+    {
+      "id": "scenario-planning-should-02",
+      "type": "should_trigger",
+      "prompt": "监管和技术两个轴怎么做情景",
+      "expect": "触发主轴与风洞"
+    },
+    {
+      "id": "scenario-planning-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "概率能估，帮我画决策树折叠EV",
+      "expect": "分流 decision-tree"
+    },
+    {
+      "id": "scenario-planning-edge-01",
+      "type": "edge_case",
+      "prompt": "可逆小试验能验证，还开情景工作坊吗",
+      "expect": "优先试验"
+    },
+    {
+      "id": "scenario-planning-trap-01",
+      "type": "correctness_trap",
+      "prompt": "乐观基准悲观三个销量数字就是情景",
+      "expect": "纠正：需要机制分歧轴"
+    }
+  ]
+}

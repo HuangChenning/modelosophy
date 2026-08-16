@@ -1,0 +1,36 @@
+{
+  "skill": "grey-thinking",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "grey-thinking-should-01",
+      "type": "should_trigger",
+      "prompt": "别非黑即白，我大概六成把握",
+      "expect": "触发灰度置信"
+    },
+    {
+      "id": "grey-thinking-should-02",
+      "type": "should_trigger",
+      "prompt": "把观点标成概率",
+      "expect": "触发灰度"
+    },
+    {
+      "id": "grey-thinking-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "有似然比，帮我算正式后验",
+      "expect": "分流 bayesian-updating"
+    },
+    {
+      "id": "grey-thinking-edge-01",
+      "type": "edge_case",
+      "prompt": "安全红线能灰度执行吗",
+      "expect": "否，红线用确定性规则"
+    },
+    {
+      "id": "grey-thinking-trap-01",
+      "type": "correctness_trap",
+      "prompt": "灰度就是各打五十大板永远50%",
+      "expect": "纠正：强证据必须移动刻度"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "ooda-loop",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ooda-loop-should-01",
+      "type": "should_trigger",
+      "prompt": "用OODA加快我们比对手的节奏",
+      "expect": "触发闭环与Orient"
+    },
+    {
+      "id": "ooda-loop-should-02",
+      "type": "should_trigger",
+      "prompt": "观察定向决策行动怎么落地",
+      "expect": "触发"
+    },
+    {
+      "id": "ooda-loop-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "生产线质量用PDCA闭环改进",
+      "expect": "分流 pdca"
+    },
+    {
+      "id": "ooda-loop-edge-01",
+      "type": "edge_case",
+      "prompt": "反馈要一年才有，硬加速OODA？",
+      "expect": "不适合；先买信息"
+    },
+    {
+      "id": "ooda-loop-trap-01",
+      "type": "correctness_trap",
+      "prompt": "OODA就是越快发版越好",
+      "expect": "纠正：Orient质量优先"
+    }
+  ]
+}

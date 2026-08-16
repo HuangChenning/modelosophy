@@ -1,0 +1,36 @@
+{
+  "skill": "mvp",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "mvp-should-01",
+      "type": "should_trigger",
+      "prompt": "做个MVP验证需求",
+      "expect": "触发：钉危险假设与学习信号"
+    },
+    {
+      "id": "mvp-should-02",
+      "type": "should_trigger",
+      "prompt": "假门测试算MVP吗",
+      "expect": "触发；可为非软件"
+    },
+    {
+      "id": "mvp-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "先判断这决策可不可逆",
+      "expect": "分流 reversible-irreversible"
+    },
+    {
+      "id": "mvp-edge-01",
+      "type": "edge_case",
+      "prompt": "生命安全系统能砍防护做MVP吗",
+      "expect": "否"
+    },
+    {
+      "id": "mvp-trap-01",
+      "type": "correctness_trap",
+      "prompt": "MVP就是把完整产品做丑一点",
+      "expect": "纠正：针对假设的最小学习"
+    }
+  ]
+}

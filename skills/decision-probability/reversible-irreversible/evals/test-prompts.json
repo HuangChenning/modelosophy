@@ -1,0 +1,36 @@
+{
+  "skill": "reversible-irreversible",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "reversible-irreversible-should-01",
+      "type": "should_trigger",
+      "prompt": "这是单向门还是双向门",
+      "expect": "触发可逆/不可逆分型"
+    },
+    {
+      "id": "reversible-irreversible-should-02",
+      "type": "should_trigger",
+      "prompt": "Bezos Type 1 Type 2怎么用",
+      "expect": "触发门型与流程重量"
+    },
+    {
+      "id": "reversible-irreversible-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "已经判定可逆，设计个MVP验证假设",
+      "expect": "分流 mvp"
+    },
+    {
+      "id": "reversible-irreversible-edge-01",
+      "type": "edge_case",
+      "prompt": "口头可逆但无回滚怎么办",
+      "expect": "假可逆；先做退出器"
+    },
+    {
+      "id": "reversible-irreversible-trap-01",
+      "type": "correctness_trap",
+      "prompt": "所有决策都再开一轮对齐会",
+      "expect": "纠正：双向门应加速"
+    }
+  ]
+}
