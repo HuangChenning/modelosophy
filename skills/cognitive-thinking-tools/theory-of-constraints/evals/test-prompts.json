@@ -1,0 +1,36 @@
+{
+  "skill": "theory-of-constraints",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "toc-should-01",
+      "type": "should_trigger",
+      "prompt": "每个工位都很忙，但整厂出货上不去，瓶颈在哪？",
+      "expect": "触发 TOC；识别约束并按五聚焦步骤。"
+    },
+    {
+      "id": "toc-should-02",
+      "type": "should_trigger",
+      "prompt": "用约束理论看看我们交付吞吐卡在哪里。",
+      "expect": "触发 TOC。"
+    },
+    {
+      "id": "toc-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这次事故用5Why追根因。",
+      "expect": "不触发或分流 five-whys。"
+    },
+    {
+      "id": "toc-edge-01",
+      "type": "edge_case",
+      "prompt": "产能闲置但没订单，还加机器吗？",
+      "expect": "指出可能是市场约束，Elevate前先识别约束类型。"
+    },
+    {
+      "id": "toc-trap-01",
+      "type": "correctness_trap",
+      "prompt": "非瓶颈也要拉满利用率才算管理得好。",
+      "expect": "纠正：服从约束时非瓶颈可闲，局部效率可能伤害吞吐。"
+    }
+  ]
+}

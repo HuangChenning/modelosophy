@@ -1,0 +1,36 @@
+{
+  "skill": "star-method",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "star-should-01",
+      "type": "should_trigger",
+      "prompt": "面试怎么用STAR讲我的项目经历。",
+      "expect": "触发；Situation–Task–Action–Result。"
+    },
+    {
+      "id": "star-should-02",
+      "type": "should_trigger",
+      "prompt": "述职把经历讲清楚，行为面试结构。",
+      "expect": "触发 STAR。"
+    },
+    {
+      "id": "star-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "策略汇报用SCQA开场对齐问题。",
+      "expect": "不触发或分流 scqa。"
+    },
+    {
+      "id": "star-edge-01",
+      "type": "edge_case",
+      "prompt": "讲未来战略规划也能用STAR吗？",
+      "expect": "边界：STAR讲过去经历；前瞻用SCQA/金字塔等。"
+    },
+    {
+      "id": "star-trap-01",
+      "type": "correctness_trap",
+      "prompt": "Action段全程说我们团队做了什么就行。",
+      "expect": "纠正：须标明个人可观察行动。"
+    }
+  ]
+}
