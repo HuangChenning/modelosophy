@@ -56,6 +56,7 @@ metadata:
 
 - **与[利率期限结构](../yield-curve/SKILL.md)**：Δy 来自曲线哪一段要说清。
 - **与[费雪效应](../fisher-effect/SKILL.md)**：名义利率含通胀预期，影响曲线与债价。
+- **与[布莱克-斯科尔斯期权定价](../black-scholes/SKILL.md)**：都是“对风险因子的敏感度”语言。
 
 ## 记忆钩子
 

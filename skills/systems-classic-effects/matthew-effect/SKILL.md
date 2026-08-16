@@ -68,6 +68,7 @@ metadata:
 - **与[帕累托原则](../pareto-principle/SKILL.md)**：二八是结果不均衡的描述；马太解释不均衡如何**随时间自我强化**。
 - **与[路径依赖](../path-dependence/SKILL.md)**：路径依赖强调历史锁定；马太强调优势再分配。
 - **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：飞轮是有意设计的增强回路；马太常是无意/结构性的累积。
+- **与[皮格马利翁效应](../pygmalion-effect/SKILL.md)**：期望分配机会可喂养马太。
 
 ## 记忆钩子
 

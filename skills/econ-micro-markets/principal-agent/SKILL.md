@@ -60,6 +60,7 @@ metadata:
 - **与[道德风险](../moral-hazard/SKILL.md)**：代理偷懒/冒险是道德风险。
 - **与[信号传递](../signaling/SKILL.md)**：代理人用教育/证书示能。
 - **与[信息不对称](../asymmetric-information/SKILL.md)**：总论。
+- **与[交易成本与科斯定理](../transaction-costs-coase/SKILL.md)**：企业内部也是降低某些市场交易成本的装置。
 
 ## 记忆钩子
 

@@ -56,6 +56,7 @@ metadata:
 - **与[损失规避](../loss-aversion/SKILL.md)**：“错过即失去”话术激活损失编码。
 - **与[社会认同](../social-proof/SKILL.md)**：抢光了=别人都要。
 - **与[诱饵效应](../decoy-effect/SKILL.md)**：另一类选项架构术。
+- **与[互惠原理](../reciprocity/SKILL.md)**：限时赠品双触发。
 
 ## 记忆钩子
 

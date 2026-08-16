@@ -83,4 +83,10 @@ FV = PV \times (1+i)^{n}
 - **与[艾森豪威尔矩阵](../../efficiency-execution/eisenhower-matrix/SKILL.md)**：第 II 象限的习惯与能力，是复利的投入端。
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：把时间投进某条复利曲线，等于放弃另一条曲线的 \(n\)。
 - **与[局部最优/全局最优](../../thinking-models/local-global-optima/SKILL.md)**：在错误局部峰上复利，只是把偏差指数化。
+- **与[72法则](../rule-of-72/SKILL.md)**：「72法则」是复利的口袋计算器。
+- **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：复利给数学形式；飞轮给商业/组织因果故事。常一起成立，但检验方式不同。
+- **与[再平衡](../rebalancing/SKILL.md)**：再平衡影响长期路径与风险存活。
+- **与[凯利公式](../kelly-criterion/SKILL.md)**：凯利直接服务对数复利增长目标。
+- **与[费雪效应](../fisher-effect/SKILL.md)**：长期实际复利才接近购买力真相。
+- **与[股利贴现模型](../dividend-discount-model/SKILL.md)**：分红再投入时，持有期回报含复利路径。
 ---

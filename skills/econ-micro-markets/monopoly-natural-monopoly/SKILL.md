@@ -61,6 +61,8 @@ metadata:
 - **与[进入壁垒](../barriers-to-entry/SKILL.md)**：维持独占的条件。
 - **与[规模经济](../economies-of-scale/SKILL.md)**：自然垄断的成本基础。
 - **与[五力模型](../../strategy-competition/porters-five-forces/SKILL.md)**：产业竞争结构扫描；本条深挖独占定价与自然垄断技术。勿迁入本分类。
+- **与[价格歧视](../price-discrimination/SKILL.md)**：势力来源。
+- **与[完全竞争](../perfect-competition/SKILL.md)**：极端另一端。
 
 ## 记忆钩子
 

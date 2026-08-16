@@ -64,6 +64,8 @@ metadata:
 - **与[菲利普斯曲线](../phillips-curve/SKILL.md)**：货币主义强调长期垂直菲利普斯曲线（自然率）。
 - **与[泰勒规则](../taylor-rule/SKILL.md)**：现代规则型政策的操作化亲戚。
 - **与[凯恩斯主义](../keynesianism/SKILL.md)**：短期需求管理 vs 长期货币锚——先看通胀与预期。
+- **与[购买力平价](../purchasing-power-parity/SKILL.md)**：长期货币—物价。
+- **与[现代货币理论](../modern-monetary-theory/SKILL.md)**：强调货币/名义锚；与 MMT 冲突点在通胀机制与制度。
 
 ## 记忆钩子
 

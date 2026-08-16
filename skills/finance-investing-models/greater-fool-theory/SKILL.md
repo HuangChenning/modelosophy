@@ -56,6 +56,7 @@ metadata:
 - **与[泡沫周期](../bubble-cycle/SKILL.md)**：大傻瓜逻辑在狂热期主导。
 - **与[有效市场假说](../efficient-market-hypothesis/SKILL.md)**：EMH 不保证价格等于价值，只约束信息集下的超额。
 - **与[动量效应](../momentum-reversal/SKILL.md)**：价格动量可延续接盘预期。
+- **与[噪音交易者风险](../noise-trader-risk/SKILL.md)**：噪音常表现为接盘预期。
 
 ## 记忆钩子
 

@@ -68,3 +68,4 @@ metadata:
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：能估概率、目标是最大化期望效用，走本模型；深度不确定、重点是下行有限和避免归零，走反脆弱。
 - **与[奥卡姆剃刀](../../cognitive-thinking-tools/occams-razor/SKILL.md)**：奥卡姆剃刀给解释排验证顺序；本模型给行动与后果排选择。
 - **与[10/10/10](../../thinking-models/ten-ten-ten/SKILL.md)**：本模型量化不确定后果；10/10/10拉开短中长期的价值视角，可用于补全终点价值。
+- **与[期望值](../expected-value/SKILL.md)**：**硬区分。** 用户说画树 / 先试点再上 / 信息值多少钱 → 决策树。用户说这笔静态不确定结果的期望 / 点数公平切 / 彩票 EV → 「期望值」。

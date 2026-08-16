@@ -61,6 +61,7 @@ metadata:
 - **与[DCF](../dcf/SKILL.md)**：折现率口径必须名义/实际一致。
 - **与[市盈率市净率](../pe-pb-valuation/SKILL.md)**：利率与通胀体制改变合理倍数。
 - **与[复利](../compounding/SKILL.md)**：长期实际复利才接近购买力真相。
+- **与[72法则](../rule-of-72/SKILL.md)**：用实际利率估实际购买力翻倍。
 
 ## 记忆钩子
 

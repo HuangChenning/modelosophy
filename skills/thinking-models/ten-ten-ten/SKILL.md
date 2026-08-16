@@ -64,3 +64,4 @@ metadata:
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：10/10/10 澄清各时点价值，机会成本比较被放弃的最佳替代项。
 - **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：情绪主导、需要时间距离走本模型；多结果概率与阶段决策走决策树。
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：若长期方向不确定，可把决定改成下行有限、保留选择性的试验。
+- **与[长线思考](../long-term-thinking/SKILL.md)**：情绪三窗 vs 跨期战略/激励纪律。

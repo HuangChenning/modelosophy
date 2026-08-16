@@ -60,6 +60,8 @@ metadata:
 - **与[生产者剩余](../producer-surplus/SKILL.md)**：买卖两侧剩余，常一起谈福利。
 - **与[价格歧视](../price-discrimination/SKILL.md)**：歧视试图攫取消费者剩余。
 - **与[供需法则](../supply-and-demand/SKILL.md)**：剩余建立在需求曲线之上。
+- **与[供需价格弹性](../price-elasticity/SKILL.md)**：弹性影响剩余如何随价变。
+- **与[帕累托最优](../pareto-efficiency/SKILL.md)**：局部福利近似工具。
 
 ## 记忆钩子
 

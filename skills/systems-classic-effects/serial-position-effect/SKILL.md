@@ -73,4 +73,5 @@ metadata:
 - **与[可得性启发](../../behavioral-biases/availability-heuristic/SKILL.md)**：头尾项更易提取，可能被误当成“更重要/更常见”。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：第一印象形成假设后，后续信息被筛选——首因可启动确认偏差。
 - **与[双系统](../../thinking-models/dual-process/SKILL.md)**：开场/收尾常走快系统锚定；重要决策用慢系统重看全序列。
+- **与[光环效应](../halo-effect/SKILL.md)**：首因可启动光环，但记忆位置≠光环机制。
 ---

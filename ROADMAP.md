@@ -133,11 +133,12 @@ serial-position-effect    → skills/systems-classic-effects/serial-position-eff
 - [x] **Phase 0**：锁定可执行正文模板 + 9 字段吸收约定 → [`skills/_templates/`](skills/_templates/)
 - [x] **Batch A**：每类优先补缺口（宏观从 0 起；其余在已迁种子旁扩展）
 - [x] **Batch B**：补到接近需求 30/类（上表对账通过）
-- [ ] **Phase 3**：跨类「相关模型」双向建议（非死链）；分类 README 定稿复核
+- [x] **Phase 3**：分类 README 定稿复核（双向建议见下已完成子项）
   - [x] **相关模型链接抽查**（2026-08-16，`feature/phase3-link-audit`）：`skills/**/SKILL.md` + 各分类 `README.md` 共 **1337** 条相对 `SKILL.md` 链接；死链 / 错误分类路径 / 标签–slug 不一致 **0**（无可修复项）。残留见下「链接审计残留」
   - [x] **可选 evals 最小集**（2026-08-16，`feature/phase3-evals`）：六分类 **181/181** 均有 `evals/test-prompts.json`；新建 draft 补 **132** 条（各约 5 case，对齐宏观样例）；迁入旧稿原有 evals 保留。`quick_validate` 跨类抽查 10/10 通过。**未**做完整盲测；draft 仍 `v0.x-draft`
   - [x] **迁入 19 旧稿「常见误用」**（2026-08-16，`feature/phase3-misuse-backfill` → 收拢）：在「什么时候不适用」与「相关模型」之间补 `## 常见误用`（3–4 条）；`version` 仍为 `v1.0`
   - [x] **根 README 全量 Skill 索引**（2026-08-16，`feature/readme-all-skills-index` → 收拢）：双语根 README 列出仓库内可执行 Skill（约 **232** 条链接量级）
+  - [x] **相关模型双向补链**（2026-08-16，`feature/phase3-bidirectional-links`）：对约 **423** 条单向边做优先级筛选（同分类 / 名录易混对 / 迁入种子↔新建稿），**不**机械对称；补反向引用 **149** 条（含一句分流判据）。残留单向边约 **274**（同分类约 **92**，跨类约 **182**）。跳过：弱相关、单向总论→专条且专条侧已足够、对向已有等价分流文案、枢纽节点过密（≥11 链且非易混）等
   - [x] **分类 README 定稿复核**（2026-08-16，`feature/phase3-category-readme-review`）：14 个分类 README 与磁盘 `SKILL.md` 一一对应；统一 mattpocock 列表；补兄弟分流；`thinking-models` 已迁出表路径抽查通过；根 catalog 无漏无幽灵（未大改）
 
 ### 3. 本阶段明确不做
@@ -150,13 +151,15 @@ serial-position-effect    → skills/systems-classic-effects/serial-position-eff
 
 ### 4. 链接审计残留（不自动改正文）
 
-- 单向「相关模型」边约 **423** 条（A→B 无 B→A）：属内容完备性/双向建议，非死链；不强制对称。
+- 单向「相关模型」边：基线约 **423** → 本轮补反向后约 **274**（同分类 ~92 / 跨类 ~182）。策略见上「相关模型双向补链」；**仍不强制**全库对称。
+- 本轮跳过原则：非兄弟/非易混的弱相关边；专条已指向总论且总论侧不必回链的单向；对向已有未链但等价的分流说明；单文件相关节已很密（≥11）且非高优先级易混对。
 - `business/org-it-intel-report` 无「相关模型」节：调研类 Skill，预期如此。
 - ~~护城河 / 五力 / 长线仍留 `thinking-models/`~~：护城河 / 五力已于名录扩充分类轮迁入 `strategy-competition/`；`long-term-thinking` 仍留 `thinking-models/`（名录无精确对应专条）。
 
 ### 5. 建议的下一执行步
 
-1. **Phase 3 剩余**：跨类「相关模型」双向建议（可选；非死链）
+1. **Phase 3 剩余**：残留单向「相关模型」边可按需再扫（分类 README 与双向补链均已完成；非阻塞）  
+
 2. **可选**：evals 盲测加厚（非阻塞）
 3. **名录第七–十二类**：见下文「待办：名录扩充分类」——本轮已建壳 + 迁入种子；缺口 Skill 按批新建
 

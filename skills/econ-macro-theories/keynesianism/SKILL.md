@@ -64,6 +64,9 @@ metadata:
 - **与[挤出效应](../crowding-out-effect/SKILL.md)**：财政扩张可能挤私人投资；两者必须同屏。
 - **与[货币主义](../monetarism/SKILL.md)**：凯派重需求管理；货币主义强调通胀归根货币、规则优于相机抉择。
 - **与[资产负债表衰退](../balance-sheet-recession/SKILL.md)**：企业优先还债时利率刺激失效——凯派财政更相关。
+- **与[托宾Q](../tobins-q/SKILL.md)**：投资是有效需求关键组件；Q 是微观动机指标。
+- **与[供给学派](../supply-side-economics/SKILL.md)**：需求缺口 vs 供给约束——先诊断再选边。
+- **与[李嘉图等价](../ricardian-equivalence/SKILL.md)**：凯派默认等价不完全。
 
 ## 记忆钩子
 

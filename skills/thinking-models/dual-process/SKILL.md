@@ -69,4 +69,6 @@ Kahneman 的核心不是“理性好、直觉坏”，而是：**默认由 Syste
 - **与[沉没成本](../../behavioral-biases/sunk-cost/SKILL.md) / [损失规避](../../behavioral-biases/loss-aversion/SKILL.md)**：情绪痛感多由快系统放大；止损规则要预写好，不能等现场靠意志力。
 - **与[第一性原理](../../cognitive-thinking-tools/first-principles/SKILL.md)**：拆惯例是典型的 System 2 重活；日常套经验则是 System 1。
 - **与原书 #03 直觉**：不另建 skill；专家直觉的可信任条件写在本模型第 2 步。
+- **与[邓宁-克鲁格效应](../../behavioral-biases/dunning-kruger/SKILL.md)**：即时自信常由快系统给出；校准需要慢系统对照外部尺度。
+- **与[人类误判心理](../munger-misjudgment/SKILL.md)**：压力与怀疑回避常走快系统；冷却是跨倾向通用防护。
 ---

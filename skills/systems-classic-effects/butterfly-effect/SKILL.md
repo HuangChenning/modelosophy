@@ -77,4 +77,5 @@ Lorenz 气象模型的经典叙事（蝴蝶扇动翅膀与远方风暴）是这�
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：复利是定向的再投入增长；蝴蝶效应不保证增长方向。
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：在不可预报域，策略转向限制下行、保留期权，而不是更精的点预测。
 - **与[路径依赖](../path-dependence/SKILL.md)**：路径依赖强调早期选择锁定；敏感依赖强调微差放大。可同时出现。
+- **与[多米诺骨牌效应](../domino-effect/SKILL.md)**：蝴蝶问预报视界；多米诺问可隔断的触发链。
 ---

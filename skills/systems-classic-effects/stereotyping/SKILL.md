@@ -62,6 +62,7 @@ metadata:
 - **与[光环效应](../halo-effect/SKILL.md)**：中心特质 vs 群体标签。
 - **与[确认偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：刻板常靠确认偏差续命。
 - **与[可得性启发](../../behavioral-biases/availability-heuristic/SKILL.md)**：易想起的群体故事喂养刻板。
+- **与[投射效应](../projection-effect/SKILL.md)**：刻板用群体；投射用自我。
 
 ## 记忆钩子
 

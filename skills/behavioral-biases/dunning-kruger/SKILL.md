@@ -78,4 +78,7 @@ metadata:
 - **与[幸存者偏差](../survivorship-bias/SKILL.md)**：只看见成功自信者，会高估“自信=能力”。
 - **与[苏格拉底式质疑](../../thinking-models/socratic-questioning/SKILL.md)**：追问“你凭什么知道自己知道”是校准话术，但质疑本身不测量能力。
 - **与[周哈里窗](../../thinking-models/johari-window/SKILL.md)**：他人看见而自己不知的盲目区，是获取校准反馈的结构语言；DK 更聚焦表现-自评落差。
+- **与[过度自信](../overconfidence/SKILL.md)**：DK 是能力—自评特定模式；「过度自信」是更广校准问题。
+- **与[费曼技巧](../../learning-growth/feynman-technique/SKILL.md)**：邓克讨论自评偏差机制与争议；费曼是主动制造外部化反馈的练习协议。可连用：先讲，再对照客观测分。
+- **与[权威效应](../authority-bias/SKILL.md)**：伪专家自我加冕时，受众端是权威效应。
 ---

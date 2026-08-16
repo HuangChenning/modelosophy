@@ -61,6 +61,7 @@ metadata:
 - **与[逆向选择](../adverse-selection/SKILL.md)**：签约前类型隐藏。
 - **与[道德风险](../moral-hazard/SKILL.md)**：签约后行动隐藏。
 - **与[信号传递](../signaling/SKILL.md)**：高成本行动披露类型。
+- **与[委托-代理](../principal-agent/SKILL.md)**：总论。
 
 ## 记忆钩子
 

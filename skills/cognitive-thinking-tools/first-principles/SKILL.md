@@ -76,4 +76,6 @@ metadata:
 - **与[奥卡姆剃刀](../occams-razor/SKILL.md)**：奥卡姆剃刀在现成解释里排优先级；本模型在现成解释之外重建。已经有几个假说要排序，走奥卡姆剃刀；现有假说都建在类比上、需要拆地基，走本模型。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：归零之后仍可能只搜集支持你所选起点的证据。第一性原理不豁免确认性偏差。
 - **与[苏格拉底式质疑](../../thinking-models/socratic-questioning/SKILL.md)**：苏格拉底式质疑清掉撑不住的主张，本身不负责重建。笛卡尔式普遍怀疑（原书 #12，尚未蒸馏）更接近"先怀疑再重建"；若用户只要拆、不要建，应走苏格拉底式质疑而不是本模型。
+- **与[马斯洛需求层次](../../thinking-models/maslow-hierarchy/SKILL.md)**：需求层次提供动机类别；第一性原理检查“员工只为钱工作”等组织惯例是不是伪约束。
+- **与[正确与非共识](../../thinking-models/contrarian-and-right/SKILL.md)**：边常来自硬约束重算，而非抬杠。
 ---
