@@ -1,0 +1,36 @@
+{
+  "skill": "delay-feedback",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "delay-should-01",
+      "type": "should_trigger",
+      "prompt": "库存一补就积压、一停又缺货，是不是反馈延迟？",
+      "expect": "触发；标延迟与降增益。"
+    },
+    {
+      "id": "delay-should-02",
+      "type": "should_trigger",
+      "prompt": "政策总是慢半拍然后调过头。",
+      "expect": "触发 delay-feedback。"
+    },
+    {
+      "id": "delay-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我区分这是正反馈还是负反馈。",
+      "expect": "分流 feedback-loops。"
+    },
+    {
+      "id": "delay-edge-04",
+      "type": "edge_case",
+      "prompt": "没有闭环，就是事情推进慢，算延迟反馈吗？",
+      "expect": "否；先要有闭环。"
+    },
+    {
+      "id": "delay-trap-05",
+      "type": "correctness_trap",
+      "prompt": "振荡了就再加一层审批加强控制。",
+      "expect": "纠正；可能加大延迟，应降增益/先行指标。"
+    }
+  ]
+}

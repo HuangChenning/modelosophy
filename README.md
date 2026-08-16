@@ -8,7 +8,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 ## What's here now
 
-This repository is early. There are **302** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
+This repository is early. There are **314** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
@@ -23,7 +23,7 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | [Learning & Growth](skills/learning-growth/README.md) | 11 | [index](#learning--growth11) |
 | [Strategy & Competition](skills/strategy-competition/README.md) | 12 | [index](#strategy--competition12) |
 | [Efficiency & Execution](skills/efficiency-execution/README.md) | 9 | [index](#efficiency--execution9) |
-| [Systems & Complexity](skills/systems-complexity/README.md) | 11 | [index](#systems--complexity11) |
+| [Systems & Complexity](skills/systems-complexity/README.md) | 23 | [index](#systems--complexity23) |
 | [Macroeconomic Theories](skills/econ-macro-theories/README.md) | 30 | [index](#macroeconomic-theories30) |
 | [Microeconomics & Markets](skills/econ-micro-markets/README.md) | 30 | [index](#microeconomics--markets30) |
 | [Game Theory & Strategy](skills/game-theory-models/README.md) | 31 | [index](#game-theory--strategy31) |
@@ -68,7 +68,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **302** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 95). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
+The library is still early — **314** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 107). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
 
 ## Contributing a mental model
 
@@ -76,7 +76,7 @@ Have a thinking framework worth distilling? Open a PR that adds a new `skills/<c
 
 ## Skill catalog
 
-Per-skill blurbs for all **302** Skills. Category READMEs remain the per-domain index.
+Per-skill blurbs for all **314** Skills. Category READMEs remain the per-domain index.
 
 ### Business / Org Intel（1）
 
@@ -223,17 +223,26 @@ Eisenhower, PDCA, plus M3 drafts (Pomodoro, GTD, Kanban, agile iteration, lean, 
 - **[pdca](skills/efficiency-execution/pdca/SKILL.md)** — PDCA: Plan–Do–Check/Study–Act continuous improvement loops with explicit measures.
 - **[pomodoro](skills/efficiency-execution/pomodoro/SKILL.md)** — Pomodoro: fixed focus/break timeboxes (≠ deep-work long blocks).
 
-### Systems & Complexity（11）
-
-Iceberg, leverage, tipping points, dissipative structures, plus M4 drafts (emergence, archetypes, CLD, stock-flow, CAS, network topologies).
-
+### Systems & Complexity（23）
 - **[causal-loop-diagram](skills/systems-complexity/causal-loop-diagram/SKILL.md)** — Causal loop diagram: polarity-marked reinforcing/balancing loops with delays (draft).
+- **[collective-intelligence](skills/systems-complexity/collective-intelligence/SKILL.md)** — Collective intelligence: diversity, independence, and aggregation design (draft).
 - **[complex-adaptive-systems](skills/systems-complexity/complex-adaptive-systems/SKILL.md)** — Complex adaptive systems: heterogeneous adapting agents, local rules, coevolution (draft).
+- **[delay-feedback](skills/systems-complexity/delay-feedback/SKILL.md)** — Delay feedback: how lags create overshoot and oscillation (draft).
 - **[dissipative-structures](skills/systems-complexity/dissipative-structures/SKILL.md)** — Dissipative structures: far-from-equilibrium order via fluctuations past a threshold, sustained by ongoing dissipation.
+- **[edge-of-chaos](skills/systems-complexity/edge-of-chaos/SKILL.md)** — Edge of chaos: workable zone between freeze and scramble (draft).
 - **[emergence](skills/systems-complexity/emergence/SKILL.md)** — Emergence: macro patterns from micro interactions, not linear sums of parts (draft).
+- **[fitness-landscape](skills/systems-complexity/fitness-landscape/SKILL.md)** — Fitness landscape: multi-peak search, local optima, jump or reshape (draft).
+- **[fractals](skills/systems-complexity/fractals/SKILL.md)** — Fractals: cross-scale self-similarity within a stated scale window (draft).
+- **[homeostasis](skills/systems-complexity/homeostasis/SKILL.md)** — Homeostasis: sense–compare–actuate regulation around a setpoint (draft).
 - **[iceberg-model](skills/systems-complexity/iceberg-model/SKILL.md)** — Iceberg model: layer artifacts/behaviors above norms and basic assumptions—don’t only change the waterline.
 - **[leverage](skills/systems-complexity/leverage/SKILL.md)** — Leverage points: find small interventions with large structural effect (Meadows)—not financial leverage cheerleading.
+- **[multistability](skills/systems-complexity/multistability/SKILL.md)** — Multistability: multiple attractors and hysteresis (draft).
+- **[network-topology](skills/systems-complexity/network-topology/SKILL.md)** — Network topology: graph metrics and structural interventions (draft).
+- **[normal-distribution](skills/systems-complexity/normal-distribution/SKILL.md)** — Normal distribution: thin-tailed bell curve; contrast with power laws (draft).
+- **[power-law](skills/systems-complexity/power-law/SKILL.md)** — Power law: heavy tails and tail-aware strategy; contrast with the normal (draft).
+- **[requisite-variety](skills/systems-complexity/requisite-variety/SKILL.md)** — Requisite variety: Ashby matching of disturbance vs response menus (draft).
 - **[scale-free-network](skills/systems-complexity/scale-free-network/SKILL.md)** — Scale-free network: heavy-tailed degrees and hubs; preferential attachment and fragility (draft).
+- **[self-organization](skills/systems-complexity/self-organization/SKILL.md)** — Self-organization: order from local rules and flows without a central blueprint (draft).
 - **[small-world-network](skills/systems-complexity/small-world-network/SKILL.md)** — Small-world network: high clustering with short paths via a few long-range shortcuts (draft).
 - **[stock-and-flow](skills/systems-complexity/stock-and-flow/SKILL.md)** — Stock and flow: bathtub accumulation with unit-consistent rates (draft).
 - **[system-archetypes](skills/systems-complexity/system-archetypes/SKILL.md)** — System archetypes: reusable feedback stories (limits to growth, fixes that fail, …) (draft).

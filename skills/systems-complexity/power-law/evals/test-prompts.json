@@ -1,0 +1,36 @@
+{
+  "skill": "power-law",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "power-law-should-01",
+      "type": "should_trigger",
+      "prompt": "少数客户贡献了大部分收入，是不是幂律/胖尾？",
+      "expect": "触发；累计份额与尾部策略。"
+    },
+    {
+      "id": "power-law-should-02",
+      "type": "should_trigger",
+      "prompt": "这件事能不能用正态分布的均值±σ 管？",
+      "expect": "可触发对照；引导检查胖尾。"
+    },
+    {
+      "id": "power-law-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我找网络里的 hub 和优先连接。",
+      "expect": "分流 scale-free-network。"
+    },
+    {
+      "id": "power-law-edge-04",
+      "type": "edge_case",
+      "prompt": "样本只有 20 个也能拟合幂律指数吗？",
+      "expect": "警告小样本；用胖尾候选即可。"
+    },
+    {
+      "id": "power-law-trap-05",
+      "type": "correctness_trap",
+      "prompt": "平均损失不高所以风险可控。",
+      "expect": "纠正；胖尾下均值可掩盖极端。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "fitness-landscape",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "fitness-should-01",
+      "type": "should_trigger",
+      "prompt": "优化很久没提升，是不是困在局部最优？",
+      "expect": "触发；定义适应度与崎岖度。"
+    },
+    {
+      "id": "fitness-should-02",
+      "type": "should_trigger",
+      "prompt": "用适应度景观看看产品搜索该爬山还是跳跃。",
+      "expect": "触发 fitness-landscape。"
+    },
+    {
+      "id": "fitness-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "多方主体互相学习共同演化怎么分析？",
+      "expect": "分流 complex-adaptive-systems。"
+    },
+    {
+      "id": "fitness-edge-04",
+      "type": "edge_case",
+      "prompt": "适应度指标本身被团队游戏化了怎么办？",
+      "expect": "边界；景观不可靠，先修指标。"
+    },
+    {
+      "id": "fitness-trap-05",
+      "type": "correctness_trap",
+      "prompt": "局部最优所以继续微调就行。",
+      "expect": "纠正；崎岖时需跳跃或改景观。"
+    }
+  ]
+}

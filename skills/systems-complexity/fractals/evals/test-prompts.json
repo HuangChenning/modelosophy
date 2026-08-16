@@ -1,0 +1,36 @@
+{
+  "skill": "fractals",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "fractal-should-01",
+      "type": "should_trigger",
+      "prompt": "放大组织局部还是同一套结构，算分形吗？",
+      "expect": "触发；尺度窗与自相似检验。"
+    },
+    {
+      "id": "fractal-should-02",
+      "type": "should_trigger",
+      "prompt": "海岸线那种自相似能用来想系统结构吗？",
+      "expect": "触发 fractals。"
+    },
+    {
+      "id": "fractal-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "收入是不是幂律分布？",
+      "expect": "分流 power-law。"
+    },
+    {
+      "id": "fractal-edge-04",
+      "type": "edge_case",
+      "prompt": "画了三层嵌套框就是分形战略吗？",
+      "expect": "否；要可检验自相似。"
+    },
+    {
+      "id": "fractal-trap-05",
+      "type": "correctness_trap",
+      "prompt": "分形所以任何尺度结论都能外推。",
+      "expect": "纠正；标失效尺度。"
+    }
+  ]
+}

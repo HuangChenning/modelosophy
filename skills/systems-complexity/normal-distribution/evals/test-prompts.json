@@ -1,0 +1,36 @@
+{
+  "skill": "normal-distribution",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "normal-should-01",
+      "type": "should_trigger",
+      "prompt": "加工尺寸误差能不能用均值和标准差管？",
+      "expect": "触发；薄尾+生成故事。"
+    },
+    {
+      "id": "normal-should-02",
+      "type": "should_trigger",
+      "prompt": "和幂律比，这次更像正态分布吗？",
+      "expect": "触发对照流程。"
+    },
+    {
+      "id": "normal-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "平台流量是不是幂律头部垄断？",
+      "expect": "分流 power-law。"
+    },
+    {
+      "id": "normal-edge-04",
+      "type": "edge_case",
+      "prompt": "KPI 不钟形，要不要强制正态化打分？",
+      "expect": "拒绝强制；查机制。"
+    },
+    {
+      "id": "normal-trap-05",
+      "type": "correctness_trap",
+      "prompt": "已经 ±3σ 了所以极端不可能。",
+      "expect": "纠正；模型风险与胖尾可能。"
+    }
+  ]
+}

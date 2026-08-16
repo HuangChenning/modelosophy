@@ -1,0 +1,36 @@
+{
+  "skill": "multistability",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "multi-should-01",
+      "type": "should_trigger",
+      "prompt": "环境差不多却能停在两种模式，是多稳态吗？",
+      "expect": "触发；吸引盆与机制。"
+    },
+    {
+      "id": "multi-should-02",
+      "type": "should_trigger",
+      "prompt": "降回去了参数却回不到原状态，是回滞吗？",
+      "expect": "触发 multistability。"
+    },
+    {
+      "id": "multi-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "马上要到临界点翻转了怎么预警？",
+      "expect": "分流 tipping-point。"
+    },
+    {
+      "id": "multi-edge-04",
+      "type": "edge_case",
+      "prompt": "情绪一天变几次算多稳态吗？",
+      "expect": "否；要可维持稳定态。"
+    },
+    {
+      "id": "multi-trap-05",
+      "type": "correctness_trap",
+      "prompt": "翻过去了轻轻推就能回来。",
+      "expect": "纠正；回滞下恢复可能更贵。"
+    }
+  ]
+}
