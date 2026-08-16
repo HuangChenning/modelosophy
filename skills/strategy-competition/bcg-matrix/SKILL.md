@@ -3,7 +3,7 @@ name: bcg-matrix
 description: >
   用 BCG 矩阵（成长-份额矩阵）把业务按市场增长率×相对份额分为明星/现金牛/问题/瘦狗，
   指导组合投资与舍弃。Use when user says “BCG矩阵”“成长份额矩阵”“现金牛明星瘦狗”
-  “业务组合怎么投”。不要把它当成精确科学或唯一组合工具；GE/麦肯锡九宫更细时另议。
+  “业务组合怎么投”。  不要把它当成精确科学或唯一组合工具；GE/麦肯锡九宫更细时用 ge-mckinsey-matrix。
   勿与 OKR（目标对齐）或 VRIO（资源价值）混淆。
 metadata:
   author: modelosophy（蒸馏自 BCG growth-share matrix 经典框架及常见误用边界）
@@ -63,6 +63,7 @@ metadata:
 
 ## 相关模型
 
+- **与[GE-麦肯锡九宫](../ge-mckinsey-matrix/SKILL.md)**：BCG 两变量四格快筛；九宫多因子九格细评。可先粗后细，统一 SBU/市场定义，勿双轨矛盾结论。
 - **与[第二曲线](../second-curve/SKILL.md)**：BCG 看组合位置；第二曲线看切换时机。问题/明星常与第二曲线候选重叠，需显式讨论。
 - **与[OKR](../okr/SKILL.md)**：组合决策后，用 OKR 对齐执行目标。
 - **与[飞轮](../flywheel/SKILL.md)**：跨业务协同时矩阵不够，补飞轮。

@@ -1,0 +1,36 @@
+{
+  "skill": "mckinsey-7s",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "7s-should-01",
+      "type": "should_trigger",
+      "prompt": "战略定了但执行不动，用麦肯锡7S做一次组织对齐诊断。",
+      "expect": "触发七要素对齐诊断。"
+    },
+    {
+      "id": "7s-should-02",
+      "type": "should_trigger",
+      "prompt": "我们改了组织架构图，为什么还是老样子？",
+      "expect": "触发：硬结构与软/制度未对齐。"
+    },
+    {
+      "id": "7s-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我们写本季度OKR。",
+      "expect": "分流 okr。"
+    },
+    {
+      "id": "7s-edge-01",
+      "type": "edge_case",
+      "prompt": "三条产品线该投哪个砍哪个，用7S行吗？",
+      "expect": "边界：组合问题走BCG/GE九宫。"
+    },
+    {
+      "id": "7s-trap-01",
+      "type": "correctness_trap",
+      "prompt": "把官网使命愿景填进Shared Values就算做完7S了。",
+      "expect": "纠正：用可观察奖惩行为，非口号。"
+    }
+  ]
+}
