@@ -57,4 +57,6 @@ SWOT 将与对象相关的因素分为：**S 优势、W 劣势**（相对内部�
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：威胁/机会若来自回路，SWOT 之后要画动态。
 - **与[第一性原理](../../cognitive-thinking-tools/first-principles/SKILL.md)**：行业 SWOT 里的“劣势”可能只是惯例，可再拆。
 - **与[波特五力](../porters-five-forces/SKILL.md)**：五力=行业结构吸引力；SWOT=特定对象 S/W/O/T + 匹配。先结构后定位，或并行但勿混格。
+- **与[麦肯锡 7S](../mckinsey-7s/SKILL.md)**：SWOT 出内外匹配方向；组织能否兑现走 7S。
+- **与[GE-麦肯锡九宫](../ge-mckinsey-matrix/SKILL.md)**：单业务态势用 SWOT；多业务组合定位用九宫/BCG。
 ---
