@@ -8,7 +8,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ## 项目简介与现状
 
-这个仓库还处于早期阶段。`skills/<category>/` 下合计 **241** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
+这个仓库还处于早期阶段。`skills/<category>/` 下合计 **248** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
@@ -23,7 +23,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [学习与成长](skills/learning-growth/README.md) | 5 | [目录](#学习与成长5) |
 | [战略与竞争](skills/strategy-competition/README.md) | 4 | [目录](#战略与竞争4) |
 | [效率与执行](skills/efficiency-execution/README.md) | 2 | [目录](#效率与执行2) |
-| [系统与复杂](skills/systems-complexity/README.md) | 4 | [目录](#系统与复杂4) |
+| [系统与复杂](skills/systems-complexity/README.md) | 11 | [目录](#系统与复杂11) |
 | [宏观经济学理论](skills/econ-macro-theories/README.md) | 30 | [目录](#宏观经济学理论30) |
 | [微观经济学与市场](skills/econ-micro-markets/README.md) | 30 | [目录](#微观经济学与市场30) |
 | [博弈论与策略](skills/game-theory-models/README.md) | 31 | [目录](#博弈论与策略31) |
@@ -68,7 +68,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计 **241** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 34）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
+库仍处于早期：跨分类合计 **248** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 41）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
 
 ## 贡献一个思维模型
 
@@ -76,7 +76,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## Skill 目录
 
-全部 **241** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
+全部 **248** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
 
 ### 商业 / 组织情报（1）
 
@@ -169,14 +169,21 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[eisenhower-matrix](skills/efficiency-execution/eisenhower-matrix/SKILL.md)** — 艾森豪威尔矩阵：按紧急×重要分配注意力，优先投入重要但不紧急的事项。
 - **[pdca](skills/efficiency-execution/pdca/SKILL.md)** — PDCA：Plan–Do–Check/Study–Act 持续改进循环，每圈带明确假设与度量。
 
-### 系统与复杂（4）
+### 系统与复杂（11）
 
-冰山模型、杠杆点、临界点、耗散结构等复杂系统（与经典效应分类互补）。
+冰山、杠杆、临界点、耗散结构，以及 M4 草稿（涌现、基模、因果回路、存量流量、CAS、网络拓扑）。
 
-- **[dissipative-structures](skills/systems-complexity/dissipative-structures/SKILL.md)** — 耗散结构：诊断开放系统在远离平衡时，能否经涨落放大越过阈值形成新的宏观有序。
-- **[iceberg-model](skills/systems-complexity/iceberg-model/SKILL.md)** — 冰山模型：从可见行为/器物下挖到假设与文化层，避免只改表面口号。
-- **[leverage](skills/systems-complexity/leverage/SKILL.md)** — 杠杆：找到系统中小投入可带来大结构化改变的干预点（Meadows 式杠杆点）。
-- **[tipping-point](skills/systems-complexity/tipping-point/SKILL.md)** — 断裂点：识别系统在临界质量附近可能发生的非线性相变——越过阈值后行为翻转。
+- **[causal-loop-diagram](skills/systems-complexity/causal-loop-diagram/SKILL.md)** — 因果回路图：带极性的增强/调节回路并标延迟（草稿）。
+- **[complex-adaptive-systems](skills/systems-complexity/complex-adaptive-systems/SKILL.md)** — 复杂适应系统：异质适应主体、局部规则与共同演化（草稿）。
+- **[dissipative-structures](skills/systems-complexity/dissipative-structures/SKILL.md)** — 耗散结构：远离平衡经涨落过阈值形成新有序，并靠持续耗散维持。
+- **[emergence](skills/systems-complexity/emergence/SKILL.md)** — 涌现：宏观模式由微观互动生成，不可零件属性加总（草稿）。
+- **[iceberg-model](skills/systems-complexity/iceberg-model/SKILL.md)** — 冰山模型：器物/行为之下分层规范与基本假设，避免只改水面以上。
+- **[leverage](skills/systems-complexity/leverage/SKILL.md)** — 杠杆点：小投入撬动大结构改变（Meadows），不是鼓吹财务杠杆。
+- **[scale-free-network](skills/systems-complexity/scale-free-network/SKILL.md)** — 无标度网络：度数幂律与枢纽；优先连接与韧性（草稿）。
+- **[small-world-network](skills/systems-complexity/small-world-network/SKILL.md)** — 小世界网络：高聚类 + 短路径；少量长程捷径（草稿）。
+- **[stock-and-flow](skills/systems-complexity/stock-and-flow/SKILL.md)** — 存量与流量：浴缸式累积与单位一致的速率（草稿）。
+- **[system-archetypes](skills/systems-complexity/system-archetypes/SKILL.md)** — 系统基模：增长上限、舍本逐末等可复用反馈故事（草稿）。
+- **[tipping-point](skills/systems-complexity/tipping-point/SKILL.md)** — 临界点：临界质量附近的非线性相变，过阈值可快速翻转。
 
 ### 宏观经济学理论（30）
 

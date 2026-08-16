@@ -1,0 +1,36 @@
+{
+  "skill": "causal-loop-diagram",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "causal-loop-diagram-should-01",
+      "type": "should_trigger",
+      "prompt": "帮我画增强回路和调节回路，标极性。",
+      "expect": "触发 CLD。"
+    },
+    {
+      "id": "causal-loop-diagram-should-02",
+      "type": "should_trigger",
+      "prompt": "画个因果回路图解释越管越乱。",
+      "expect": "触发 CLD。"
+    },
+    {
+      "id": "causal-loop-diagram-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "我要浴缸模型看库存累积单位。",
+      "expect": "分流 stock-and-flow。"
+    },
+    {
+      "id": "causal-loop-diagram-edge-04",
+      "type": "edge_case",
+      "prompt": "箭头可以不标正负吗？",
+      "expect": "纠正；必须标极性。"
+    },
+    {
+      "id": "causal-loop-diagram-trap-05",
+      "type": "correctness_trap",
+      "prompt": "把愿望「成功」直接当变量连箭头。",
+      "expect": "纠正；拆可观测变量。"
+    }
+  ]
+}

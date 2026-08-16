@@ -1,0 +1,36 @@
+{
+  "skill": "stock-and-flow",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "stock-and-flow-should-01",
+      "type": "should_trigger",
+      "prompt": "用存量流量解释技术债怎么堆起来。",
+      "expect": "触发 S&F。"
+    },
+    {
+      "id": "stock-and-flow-should-02",
+      "type": "should_trigger",
+      "prompt": "水位和流速怎么分开看？",
+      "expect": "触发 stock vs flow。"
+    },
+    {
+      "id": "stock-and-flow-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "只要定性增强调节回路故事。",
+      "expect": "分流 CLD。"
+    },
+    {
+      "id": "stock-and-flow-edge-04",
+      "type": "edge_case",
+      "prompt": "本月新增用户是存量还是流量？",
+      "expect": "流量；存量是用户总数。"
+    },
+    {
+      "id": "stock-and-flow-trap-05",
+      "type": "correctness_trap",
+      "prompt": "单位不对也能把满意度加进库存。",
+      "expect": "纠正；单位守恒检查。"
+    }
+  ]
+}

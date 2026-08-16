@@ -1,0 +1,36 @@
+{
+  "skill": "system-archetypes",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "system-archetypes-should-01",
+      "type": "should_trigger",
+      "prompt": "短期修好长期更糟，像不像舍本逐末基模？",
+      "expect": "触发基模匹配。"
+    },
+    {
+      "id": "system-archetypes-should-02",
+      "type": "should_trigger",
+      "prompt": "增长突然撞墙，是不是增长上限？",
+      "expect": "触发 limits to growth。"
+    },
+    {
+      "id": "system-archetypes-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "先别谈基模，教我怎么画 CLD 极性。",
+      "expect": "分流 causal-loop-diagram。"
+    },
+    {
+      "id": "system-archetypes-edge-04",
+      "type": "edge_case",
+      "prompt": "只贴一个基模名不填变量行吗？",
+      "expect": "纠正；必须落到变量。"
+    },
+    {
+      "id": "system-archetypes-trap-05",
+      "type": "correctness_trap",
+      "prompt": "基模命中了所以没救。",
+      "expect": "纠正；结构可改。"
+    }
+  ]
+}

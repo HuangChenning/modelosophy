@@ -8,7 +8,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 ## What's here now
 
-This repository is early. There are **241** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
+This repository is early. There are **248** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
@@ -23,7 +23,7 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | [Learning & Growth](skills/learning-growth/README.md) | 5 | [index](#learning--growth5) |
 | [Strategy & Competition](skills/strategy-competition/README.md) | 4 | [index](#strategy--competition4) |
 | [Efficiency & Execution](skills/efficiency-execution/README.md) | 2 | [index](#efficiency--execution2) |
-| [Systems & Complexity](skills/systems-complexity/README.md) | 4 | [index](#systems--complexity4) |
+| [Systems & Complexity](skills/systems-complexity/README.md) | 11 | [index](#systems--complexity11) |
 | [Macroeconomic Theories](skills/econ-macro-theories/README.md) | 30 | [index](#macroeconomic-theories30) |
 | [Microeconomics & Markets](skills/econ-micro-markets/README.md) | 30 | [index](#microeconomics--markets30) |
 | [Game Theory & Strategy](skills/game-theory-models/README.md) | 31 | [index](#game-theory--strategy31) |
@@ -68,7 +68,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **241** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 34). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
+The library is still early — **248** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 41). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
 
 ## Contributing a mental model
 
@@ -76,7 +76,7 @@ Have a thinking framework worth distilling? Open a PR that adds a new `skills/<c
 
 ## Skill catalog
 
-Per-skill blurbs for all **241** Skills. Category READMEs remain the per-domain index.
+Per-skill blurbs for all **248** Skills. Category READMEs remain the per-domain index.
 
 ### Business / Org Intel（1）
 
@@ -169,14 +169,21 @@ Eisenhower matrix, PDCA, execution habits.
 - **[eisenhower-matrix](skills/efficiency-execution/eisenhower-matrix/SKILL.md)** — Eisenhower matrix: sort work by urgent×important; prioritize important-but-not-urgent.
 - **[pdca](skills/efficiency-execution/pdca/SKILL.md)** — PDCA: Plan–Do–Check/Study–Act continuous improvement loops with explicit measures.
 
-### Systems & Complexity（4）
+### Systems & Complexity（11）
 
-Iceberg model, leverage points, tipping points, dissipative structures (complements classic effects).
+Iceberg, leverage, tipping points, dissipative structures, plus M4 drafts (emergence, archetypes, CLD, stock-flow, CAS, network topologies).
 
-- **[dissipative-structures](skills/systems-complexity/dissipative-structures/SKILL.md)** — Dissipative structures: diagnose whether an open system far from equilibrium can form new order via amplified fluctuations.
-- **[iceberg-model](skills/systems-complexity/iceberg-model/SKILL.md)** — Iceberg model: dig under visible behavior/artifacts to assumptions and culture layers.
-- **[leverage](skills/systems-complexity/leverage/SKILL.md)** — Leverage: find high-impact intervention points (Meadows-style) where small moves change system behavior.
-- **[tipping-point](skills/systems-complexity/tipping-point/SKILL.md)** — Tipping point: spot nonlinear phase changes near critical mass after threshold crossing.
+- **[causal-loop-diagram](skills/systems-complexity/causal-loop-diagram/SKILL.md)** — Causal loop diagram: polarity-marked reinforcing/balancing loops with delays (draft).
+- **[complex-adaptive-systems](skills/systems-complexity/complex-adaptive-systems/SKILL.md)** — Complex adaptive systems: heterogeneous adapting agents, local rules, coevolution (draft).
+- **[dissipative-structures](skills/systems-complexity/dissipative-structures/SKILL.md)** — Dissipative structures: far-from-equilibrium order via fluctuations past a threshold, sustained by ongoing dissipation.
+- **[emergence](skills/systems-complexity/emergence/SKILL.md)** — Emergence: macro patterns from micro interactions, not linear sums of parts (draft).
+- **[iceberg-model](skills/systems-complexity/iceberg-model/SKILL.md)** — Iceberg model: layer artifacts/behaviors above norms and basic assumptions—don’t only change the waterline.
+- **[leverage](skills/systems-complexity/leverage/SKILL.md)** — Leverage points: find small interventions with large structural effect (Meadows)—not financial leverage cheerleading.
+- **[scale-free-network](skills/systems-complexity/scale-free-network/SKILL.md)** — Scale-free network: heavy-tailed degrees and hubs; preferential attachment and fragility (draft).
+- **[small-world-network](skills/systems-complexity/small-world-network/SKILL.md)** — Small-world network: high clustering with short paths via a few long-range shortcuts (draft).
+- **[stock-and-flow](skills/systems-complexity/stock-and-flow/SKILL.md)** — Stock and flow: bathtub accumulation with unit-consistent rates (draft).
+- **[system-archetypes](skills/systems-complexity/system-archetypes/SKILL.md)** — System archetypes: reusable feedback stories (limits to growth, fixes that fail, …) (draft).
+- **[tipping-point](skills/systems-complexity/tipping-point/SKILL.md)** — Tipping point: nonlinear phase change near critical mass—state can flip quickly past a threshold.
 
 ### Macroeconomic Theories（30）
 
