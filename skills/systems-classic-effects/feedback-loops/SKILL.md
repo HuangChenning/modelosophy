@@ -68,6 +68,7 @@ metadata:
 - **与[杠杆](../../systems-complexity/leverage/SKILL.md)**：杠杆点常落在回路结构上（互链不迁入）。
 - **与[二阶思维](../second-order-thinking/SKILL.md)**：二阶常显影为回路。
 
+- **与[延迟反馈](../../systems-complexity/delay-feedback/SKILL.md)**：本条辨极性；时滞导致振荡过冲用延迟反馈。
 ## 记忆钩子
 
 先标 +/- 再绕环——增强会跑飞，调节怕延迟。

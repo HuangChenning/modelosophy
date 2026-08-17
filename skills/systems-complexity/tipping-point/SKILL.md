@@ -69,3 +69,5 @@ Gladwell《引爆点》把概念流行化（个别人物、附着力、环境）
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md) / [沉没成本](../../behavioral-biases/sunk-cost/SKILL.md)**：保护性熔断与止损属限敞口/何时停；临界点问是否临近不可逆翻转。
 - **与[耗散结构](../dissipative-structures/SKILL.md)**：引爆点侧重传播过阈值；耗散结构还要求开放流与耗散维持的有序态。可对照，勿混为一谈。
 ---
+
+- **与[多稳态](../multistability/SKILL.md)**：临界谈越过阈值；多稳态谈翻完后的多个吸引盆与回滞。

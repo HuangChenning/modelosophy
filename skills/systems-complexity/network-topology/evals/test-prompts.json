@@ -1,0 +1,36 @@
+{
+  "skill": "network-topology",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "topo-should-01",
+      "type": "should_trigger",
+      "prompt": "想先看清协作网谁是桥、断哪里最痛。",
+      "expect": "触发 network-topology。"
+    },
+    {
+      "id": "topo-should-02",
+      "type": "should_trigger",
+      "prompt": "网络拓扑上该加捷径还是护 hub？",
+      "expect": "触发；结构干预选型。"
+    },
+    {
+      "id": "topo-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "已经确认是高聚类短路径，细讲小世界。",
+      "expect": "分流 small-world-network。"
+    },
+    {
+      "id": "topo-edge-04",
+      "type": "edge_case",
+      "prompt": "边上关系完全看不到，怎么做拓扑？",
+      "expect": "边界；先采集边。"
+    },
+    {
+      "id": "topo-trap-05",
+      "type": "correctness_trap",
+      "prompt": "度数最高的人最重要。",
+      "expect": "纠正；看桥与中介中心性。"
+    }
+  ]
+}

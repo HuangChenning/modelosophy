@@ -243,7 +243,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 现 **23**（M3 新建 6 + 本批新建 12）；余 **待新建**（距 ~30 约 7） |
 | 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 现 **24**（M3 新建 6 + 7S/GE 2 + 本批新建 12）；余 **待新建**（距 ~30 约 6） |
 | 11 | 效率与执行 | `efficiency-execution` | **新建**；迁入 2 | 现 **21**（M3 新建 7 + 本批新建 12）；余 **待新建**（距 ~30 约 9） |
-| 12 | 系统与复杂 | `systems-complexity` | **新建**；迁入 4；与第六类互补 | 现 **11**（种子 4 + M4 新建 7）；与第六类重复项只互链 |
+| 12 | 系统与复杂 | `systems-complexity` | **新建**；迁入 4；与第六类互补 | 现 **23**（种子 4 + M4 新建 7 + M4b 新建 12）；与第六类重复项只互链 |
 
 ### 3. 分批里程碑（建议）
 
@@ -257,7 +257,9 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 - [x] **战略 7S/GE**：`strategy-competition` 新建 `mckinsey-7s` / `ge-mckinsey-matrix`（`v0.x-draft` + 最小 evals）；类内现 **12**；分支 `feature/strategy-7s-ge-matrix`（本分支磁盘全库 **291**；并入决策 M2b 的 **300** 口径后为 **302**）  
 - [x] **战略竞争本批**：第十类再建 12 条（`ansoff-matrix` / `balanced-scorecard` / `value-chain` / `cost-leadership` / `differentiation-strategy` / `niche-strategy` / `strategic-clock` / `positioning` / `platform-strategy` / `resource-based-view` / `core-competence` / `kpi-framework`，均 `v0.x-draft` + 最小 evals）；类内现 **24**；分支 `feature/strategy-competition-batch`（相对 main `e406271` 全库经学习+本批 **302→326**；并行效率/系统批若另增条数需再对账）  
 - [x] **M4（首批）**：第十二类新建 7 条（`emergence` / `system-archetypes` / `causal-loop-diagram` / `stock-and-flow` / `complex-adaptive-systems` / `small-world-network` / `scale-free-network`，均 `v0.x-draft`）；类内现 **11**；路径依赖/锁定/网络效应/熵增/反馈等仍@`systems-classic-effects` 只互链  
+- [x] **M4b（第二批 · 与学习/战略/效率并行）**：第十二类再建 12 条（`self-organization` / `power-law` / `normal-distribution` / `delay-feedback` / `fitness-landscape` / `edge-of-chaos` / `fractals` / `network-topology` / `collective-intelligence` / `multistability` / `homeostasis` / `requisite-variety`，均 `v0.x-draft` + 最小 evals）；类内现 **23**；路径依赖/锁定/网络效应/熵增/反馈等仍只互链；分支 `feature/systems-complexity-batch`（四批合并后全库 **350**）  
 - [x] **学习成长本批**：第九类再建 12 条（`retrieval-practice` / `interleaved-practice` / `transfer-of-learning` / `dual-coding` / `elaborative-interrogation` / `chunking` / `t-shaped-skills` / `learning-pyramid` / `mentorship` / `learning-by-teaching` / `meta-learning` / `unlearning`，均 `v0.x-draft` + 最小 evals）；类内现 **23**；分支 `feature/learning-growth-batch`（相对 main `e406271` 全库经本批+战略 **302→326**；并行效率/系统批若另增条数需再对账）  
+
 - [x] **M5**：跨类相关模型抽查 + 分类 README 定稿；可选 evals 最小集（见 Phase 3 子项；双向建议仍可选残留）  
 
 ### 4. 条目状态速查（第七–十二类）
@@ -388,6 +390,13 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 复杂适应系统 | 已有@`…/complex-adaptive-systems`（`v0.x-draft`） |
 | 小世界网络 | 已有@`…/small-world-network`（`v0.x-draft`） |
 | 无标度网络 | 已有@`…/scale-free-network`（`v0.x-draft`） |
+| 自组织 | 已有@`…/self-organization`（`v0.x-draft`；M4b） |
+| 幂律 / 正态分布（对照） | 已有@`…/power-law` · `…/normal-distribution`（`v0.x-draft`；M4b） |
+| 延迟反馈 | 已有@`…/delay-feedback`（`v0.x-draft`；M4b；与第六类 feedback-loops 互链） |
+| 适应度景观 / 混沌边缘 | 已有@`…/fitness-landscape` · `…/edge-of-chaos`（`v0.x-draft`；M4b） |
+| 分形 / 网络拓扑 | 已有@`…/fractals` · `…/network-topology`（`v0.x-draft`；M4b） |
+| 集体智能 / 多稳态 | 已有@`…/collective-intelligence` · `…/multistability`（`v0.x-draft`；M4b） |
+| 内稳态 / 必要多样性 | 已有@`…/homeostasis` · `…/requisite-variety`（`v0.x-draft`；M4b） |
 
 ### 5. 本阶段明确不做
 

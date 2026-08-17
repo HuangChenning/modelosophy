@@ -1,0 +1,36 @@
+{
+  "skill": "edge-of-chaos",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "eoc-should-01",
+      "type": "should_trigger",
+      "prompt": "流程太死没创新，是不是该调到混沌边缘？",
+      "expect": "触发；控制参数与双轨。"
+    },
+    {
+      "id": "eoc-should-02",
+      "type": "should_trigger",
+      "prompt": "组织太松什么都定不住，怎么找秩序与混乱之间？",
+      "expect": "触发 edge-of-chaos。"
+    },
+    {
+      "id": "eoc-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "系统是不是快到临界点要翻转了？",
+      "expect": "分流 tipping-point。"
+    },
+    {
+      "id": "eoc-edge-04",
+      "type": "edge_case",
+      "prompt": "核电站也要在混沌边缘运营吗？",
+      "expect": "否；高可靠偏有序，探索进沙箱。"
+    },
+    {
+      "id": "eoc-trap-05",
+      "type": "correctness_trap",
+      "prompt": "混沌边缘就是越乱越好、少管。",
+      "expect": "纠正；要硬约束+受控实验。"
+    }
+  ]
+}

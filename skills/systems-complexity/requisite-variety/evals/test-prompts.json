@@ -1,0 +1,36 @@
+{
+  "skill": "requisite-variety",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "rv-should-01",
+      "type": "should_trigger",
+      "prompt": "规则总被钻空子，是不是管控多样性不够？",
+      "expect": "触发；扰动×响应矩阵。"
+    },
+    {
+      "id": "rv-should-02",
+      "type": "should_trigger",
+      "prompt": "用 Ashby 必要多样性看看风控菜单。",
+      "expect": "触发 requisite-variety。"
+    },
+    {
+      "id": "rv-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "怎么设计恒温式设定点调节？",
+      "expect": "分流 homeostasis。"
+    },
+    {
+      "id": "rv-edge-04",
+      "type": "edge_case",
+      "prompt": "多写十份流程算增加必要多样性吗？",
+      "expect": "否；假多样性。"
+    },
+    {
+      "id": "rv-trap-05",
+      "type": "correctness_trap",
+      "prompt": "必要多样性就是把组织搞得越复杂越好。",
+      "expect": "纠正；匹配缺口或缩暴露，非堆复杂度。"
+    }
+  ]
+}

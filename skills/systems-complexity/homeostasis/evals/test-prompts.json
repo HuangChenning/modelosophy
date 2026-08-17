@@ -1,0 +1,36 @@
+{
+  "skill": "homeostasis",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "homeo-should-01",
+      "type": "should_trigger",
+      "prompt": "怎么把服务质量维持在设定目标附近？",
+      "expect": "触发；传感比较效应器。"
+    },
+    {
+      "id": "homeo-should-02",
+      "type": "should_trigger",
+      "prompt": "组织内稳态回路怎么设计？",
+      "expect": "触发 homeostasis。"
+    },
+    {
+      "id": "homeo-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "系统能停在两个完全不同的稳定模式。",
+      "expect": "分流 multistability。"
+    },
+    {
+      "id": "homeo-edge-04",
+      "type": "edge_case",
+      "prompt": "有毒文化也很「稳定」，要强化稳态吗？",
+      "expect": "否；有害设定点应迁盆。"
+    },
+    {
+      "id": "homeo-trap-05",
+      "type": "correctness_trap",
+      "prompt": "稳态就是什么都不要变。",
+      "expect": "纠正；动态调节，设定点可更新。"
+    }
+  ]
+}

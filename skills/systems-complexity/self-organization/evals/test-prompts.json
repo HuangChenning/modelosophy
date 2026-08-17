@@ -1,0 +1,36 @@
+{
+  "skill": "self-organization",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "self-org-should-01",
+      "type": "should_trigger",
+      "prompt": "没有中央指挥，团队却形成了稳定分工，是自组织吗？",
+      "expect": "触发；局部规则与边界条件。"
+    },
+    {
+      "id": "self-org-should-02",
+      "type": "should_trigger",
+      "prompt": "自发秩序能不能靠局部互动长出来？",
+      "expect": "触发 self-organization。"
+    },
+    {
+      "id": "self-org-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "开放系统远离平衡过阈值形成有序，用耗散结构怎么拆？",
+      "expect": "分流 dissipative-structures。"
+    },
+    {
+      "id": "self-org-edge-04",
+      "type": "edge_case",
+      "prompt": "领导不管就是自组织吧？",
+      "expect": "纠正；要局部规则与流，不是放任。"
+    },
+    {
+      "id": "self-org-trap-05",
+      "type": "correctness_trap",
+      "prompt": "自组织了所以没法设计干预。",
+      "expect": "纠正；可改局部规则与边界条件。"
+    }
+  ]
+}

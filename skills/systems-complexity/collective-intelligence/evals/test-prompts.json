@@ -1,0 +1,36 @@
+{
+  "skill": "collective-intelligence",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ci-should-01",
+      "type": "should_trigger",
+      "prompt": "众包预测会不会比专家更准？怎么设计？",
+      "expect": "触发；四条件与聚合器。"
+    },
+    {
+      "id": "ci-should-02",
+      "type": "should_trigger",
+      "prompt": "怎样避免开会毁掉集体智能？",
+      "expect": "触发；独立轮。"
+    },
+    {
+      "id": "ci-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "宏观模式是不是涌现出来的？",
+      "expect": "分流 emergence。"
+    },
+    {
+      "id": "ci-edge-04",
+      "type": "edge_case",
+      "prompt": "伦理争议能不能用集体智能投票解决？",
+      "expect": "边界；规范分歧不靠聚合。"
+    },
+    {
+      "id": "ci-trap-05",
+      "type": "correctness_trap",
+      "prompt": "少数服从多数就是集体智能。",
+      "expect": "纠正；要独立性与多样。"
+    }
+  ]
+}

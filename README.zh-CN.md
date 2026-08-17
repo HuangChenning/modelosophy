@@ -8,7 +8,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ## 项目简介与现状
 
-这个仓库还处于早期阶段。`skills/<category>/` 下合计 **338** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
+这个仓库还处于早期阶段。`skills/<category>/` 下合计 **350** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
@@ -23,7 +23,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [学习与成长](skills/learning-growth/README.md) | 23 | [目录](#学习与成长23) |
 | [战略与竞争](skills/strategy-competition/README.md) | 24 | [目录](#战略与竞争24) |
 | [效率与执行](skills/efficiency-execution/README.md) | 21 | [目录](#效率与执行21) |
-| [系统与复杂](skills/systems-complexity/README.md) | 11 | [目录](#系统与复杂11) |
+| [系统与复杂](skills/systems-complexity/README.md) | 23 | [目录](#系统与复杂23) |
 | [宏观经济学理论](skills/econ-macro-theories/README.md) | 30 | [目录](#宏观经济学理论30) |
 | [微观经济学与市场](skills/econ-micro-markets/README.md) | 30 | [目录](#微观经济学与市场30) |
 | [博弈论与策略](skills/game-theory-models/README.md) | 31 | [目录](#博弈论与策略31) |
@@ -68,7 +68,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计 **338** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 131）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
+库仍处于早期：跨分类合计 **350** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 143）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
 
 ## 贡献一个思维模型
 
@@ -76,7 +76,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## Skill 目录
 
-全部 **338** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
+全部 **350** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
 
 ### 商业 / 组织情报（1）
 
@@ -259,17 +259,26 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[two-minute-rule](skills/efficiency-execution/two-minute-rule/SKILL.md)** — 两分钟法则：澄清时立刻完成≤2 分钟行动（draft）。
 - **[wip-limits](skills/efficiency-execution/wip-limits/SKILL.md)** — WIP 限制：在制品上限暴露瓶颈、缩短周期（draft）。
 
-### 系统与复杂（11）
-
-冰山、杠杆、临界点、耗散结构，以及 M4 草稿（涌现、基模、因果回路、存量流量、CAS、网络拓扑）。
-
+### 系统与复杂（23）
 - **[causal-loop-diagram](skills/systems-complexity/causal-loop-diagram/SKILL.md)** — 因果回路图：带极性的增强/调节回路并标延迟（草稿）。
+- **[collective-intelligence](skills/systems-complexity/collective-intelligence/SKILL.md)** — 集体智能：多样性、独立与聚合机制（草稿）。
 - **[complex-adaptive-systems](skills/systems-complexity/complex-adaptive-systems/SKILL.md)** — 复杂适应系统：异质适应主体、局部规则与共同演化（草稿）。
+- **[delay-feedback](skills/systems-complexity/delay-feedback/SKILL.md)** — 延迟反馈：时滞如何造成过冲与振荡（草稿）。
 - **[dissipative-structures](skills/systems-complexity/dissipative-structures/SKILL.md)** — 耗散结构：远离平衡经涨落过阈值形成新有序，并靠持续耗散维持。
+- **[edge-of-chaos](skills/systems-complexity/edge-of-chaos/SKILL.md)** — 混沌边缘：秩序与混乱之间的可进化工作点（草稿）。
 - **[emergence](skills/systems-complexity/emergence/SKILL.md)** — 涌现：宏观模式由微观互动生成，不可零件属性加总（草稿）。
+- **[fitness-landscape](skills/systems-complexity/fitness-landscape/SKILL.md)** — 适应度景观：多峰搜索、局部最优与跳跃/改景观（草稿）。
+- **[fractals](skills/systems-complexity/fractals/SKILL.md)** — 分形：给定尺度窗内的跨尺度自相似（草稿）。
+- **[homeostasis](skills/systems-complexity/homeostasis/SKILL.md)** — 内稳态：围绕设定点的传感—比较—效应器调节（草稿）。
 - **[iceberg-model](skills/systems-complexity/iceberg-model/SKILL.md)** — 冰山模型：器物/行为之下分层规范与基本假设，避免只改水面以上。
 - **[leverage](skills/systems-complexity/leverage/SKILL.md)** — 杠杆点：小投入撬动大结构改变（Meadows），不是鼓吹财务杠杆。
+- **[multistability](skills/systems-complexity/multistability/SKILL.md)** — 多稳态：多个吸引盆与回滞（草稿）。
+- **[network-topology](skills/systems-complexity/network-topology/SKILL.md)** — 网络拓扑：图度量与结构干预入口（草稿）。
+- **[normal-distribution](skills/systems-complexity/normal-distribution/SKILL.md)** — 正态分布：薄尾钟形；与幂律对照（草稿）。
+- **[power-law](skills/systems-complexity/power-law/SKILL.md)** — 幂律：胖尾与尾部策略；与正态对照（草稿）。
+- **[requisite-variety](skills/systems-complexity/requisite-variety/SKILL.md)** — 必要多样性：Ashby 扰动×响应匹配（草稿）。
 - **[scale-free-network](skills/systems-complexity/scale-free-network/SKILL.md)** — 无标度网络：度数幂律与枢纽；优先连接与韧性（草稿）。
+- **[self-organization](skills/systems-complexity/self-organization/SKILL.md)** — 自组织：无中央蓝图下由局部规则与流生成秩序（草稿）。
 - **[small-world-network](skills/systems-complexity/small-world-network/SKILL.md)** — 小世界网络：高聚类 + 短路径；少量长程捷径（草稿）。
 - **[stock-and-flow](skills/systems-complexity/stock-and-flow/SKILL.md)** — 存量与流量：浴缸式累积与单位一致的速率（草稿）。
 - **[system-archetypes](skills/systems-complexity/system-archetypes/SKILL.md)** — 系统基模：增长上限、舍本逐末等可复用反馈故事（草稿）。
