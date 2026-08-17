@@ -1,0 +1,36 @@
+{
+  "skill": "interleaved-practice",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ip-should-01",
+      "type": "should_trigger",
+      "prompt": "同类题刷得很顺，一混就不会，怎么交错练？",
+      "expect": "触发；易混类别混合+先辨类。"
+    },
+    {
+      "id": "ip-should-02",
+      "type": "should_trigger",
+      "prompt": "blocked 和 interleaved 怎么选？",
+      "expect": "触发交错练习说明。"
+    },
+    {
+      "id": "ip-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我调单词 SRS 间隔。",
+      "expect": "分流 spaced-repetition。"
+    },
+    {
+      "id": "ip-edge-01",
+      "type": "edge_case",
+      "prompt": "什么都不会能不能直接交错？",
+      "expect": "边界：先最小 blocked。"
+    },
+    {
+      "id": "ip-trap-01",
+      "type": "correctness_trap",
+      "prompt": "练习时越顺越好，不要故意混题型。",
+      "expect": "纠正：期望难度/情境干扰。"
+    }
+  ]
+}

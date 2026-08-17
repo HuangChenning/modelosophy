@@ -1,0 +1,36 @@
+{
+  "skill": "chunking",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ch-should-01",
+      "type": "should_trigger",
+      "prompt": "一次记太多就炸，怎么用组块打包？",
+      "expect": "触发；意义归并+可命名块。"
+    },
+    {
+      "id": "ch-should-02",
+      "type": "should_trigger",
+      "prompt": "专家为什么一眼能看出模式，和 chunking 有关吗？",
+      "expect": "触发组块。"
+    },
+    {
+      "id": "ch-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我排 Anki 复习计划。",
+      "expect": "分流间隔重复。"
+    },
+    {
+      "id": "ch-edge-01",
+      "type": "edge_case",
+      "prompt": "领域知识为零怎么组块？",
+      "expect": "边界：先学最小模式。"
+    },
+    {
+      "id": "ch-trap-01",
+      "type": "correctness_trap",
+      "prompt": "每五个项目切一刀就算组块。",
+      "expect": "纠正：须有意义可命名。"
+    }
+  ]
+}

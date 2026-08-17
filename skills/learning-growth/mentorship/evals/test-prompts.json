@@ -1,0 +1,36 @@
+{
+  "skill": "mentorship",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "me-should-01",
+      "type": "should_trigger",
+      "prompt": "怎么设计 90 天导师带教协议？",
+      "expect": "触发；目标节奏反馈渐撤。"
+    },
+    {
+      "id": "me-should-02",
+      "type": "should_trigger",
+      "prompt": "带新人 mentorship 怎么避免变成闲聊？",
+      "expect": "触发导师制。"
+    },
+    {
+      "id": "me-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这个题对我来说太难还是太易？",
+      "expect": "分流 ZPD。"
+    },
+    {
+      "id": "me-edge-01",
+      "type": "edge_case",
+      "prompt": "没有共同任务域能找导师吗？",
+      "expect": "边界：先课程/社区。"
+    },
+    {
+      "id": "me-trap-01",
+      "type": "correctness_trap",
+      "prompt": "加了业界大牛微信就算有导师。",
+      "expect": "纠正：须协议与真实任务。"
+    }
+  ]
+}

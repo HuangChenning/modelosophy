@@ -1,0 +1,36 @@
+{
+  "skill": "unlearning",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ul-should-01",
+      "type": "should_trigger",
+      "prompt": "旧方法总在压力下冒出来，怎么去学习？",
+      "expect": "触发；点名退役+替换+干扰情境。"
+    },
+    {
+      "id": "ul-should-02",
+      "type": "should_trigger",
+      "prompt": "框架大改版如何 unlearning 旧 API 习惯？",
+      "expect": "触发去学习。"
+    },
+    {
+      "id": "ul-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "新语法怎么刻意练习？",
+      "expect": "可连用但主场景若只要练新法可分流刻意练习。"
+    },
+    {
+      "id": "ul-edge-01",
+      "type": "edge_case",
+      "prompt": "旧法其实还是对的也要忘掉吗？",
+      "expect": "边界：先证伪再退役。"
+    },
+    {
+      "id": "ul-trap-01",
+      "type": "correctness_trap",
+      "prompt": "去学习就是把脑子清空。",
+      "expect": "纠正：有管理的触发—反应退役。"
+    }
+  ]
+}
