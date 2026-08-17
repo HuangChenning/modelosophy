@@ -8,7 +8,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ## 项目简介与现状
 
-这个仓库还处于早期阶段。`skills/<category>/` 下合计 **314** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
+这个仓库还处于早期阶段。`skills/<category>/` 下合计 **326** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
@@ -20,13 +20,8 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [通用思维模型](skills/thinking-models/README.md) | 25 | [目录](#通用思维模型25) |
 | [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | [目录](#认知与思维工具28) |
 | [决策与概率](skills/decision-probability/README.md) | 24 | [目录](#决策与概率24) |
-<<<<<<< HEAD
-| [学习与成长](skills/learning-growth/README.md) | 11 | [目录](#学习与成长11) |
-| [战略与竞争](skills/strategy-competition/README.md) | 24 | [目录](#战略与竞争24) |
-=======
 | [学习与成长](skills/learning-growth/README.md) | 23 | [目录](#学习与成长23) |
-| [战略与竞争](skills/strategy-competition/README.md) | 12 | [目录](#战略与竞争12) |
->>>>>>> origin/main
+| [战略与竞争](skills/strategy-competition/README.md) | 24 | [目录](#战略与竞争24) |
 | [效率与执行](skills/efficiency-execution/README.md) | 9 | [目录](#效率与执行9) |
 | [系统与复杂](skills/systems-complexity/README.md) | 11 | [目录](#系统与复杂11) |
 | [宏观经济学理论](skills/econ-macro-theories/README.md) | 30 | [目录](#宏观经济学理论30) |
@@ -73,7 +68,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计 **314** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 107）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
+库仍处于早期：跨分类合计 **326** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 119）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
 
 ## 贡献一个思维模型
 
@@ -81,7 +76,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## Skill 目录
 
-全部 **314** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
+全部 **326** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
 
 ### 商业 / 组织情报（1）
 

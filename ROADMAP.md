@@ -240,13 +240,8 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 6 | 系统思维与经典效应 | `systems-classic-effects` | **复用** | 名录 30 条 **已有**（首因/近因→`serial-position-effect`；网络效应→`metcalfes-law`） |
 | 7 | 认知与思维工具 | `cognitive-thinking-tools` | **新建**；迁入 8 | 现 **28**（M1 新建 9 + 剩余补齐 11）；名录专条已齐（二阶/SWOT 仍@他类） |
 | 8 | 决策与概率 | `decision-probability` | **新建**；迁入 2 | 现 **24**（M2 11 + M2b 11）；部分 **已有@他类**；名录专条已基本齐 |
-<<<<<<< HEAD
-| 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 现 **11**（M3 新建 6）；余 **待新建** |
-| 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 现 **24**（M3 新建 6 + 7S/GE 2 + 本批新建 12）；余 **待新建**（距 ~30 约 6） |
-=======
 | 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 现 **23**（M3 新建 6 + 本批新建 12）；余 **待新建**（距 ~30 约 7） |
-| 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 现 **12**（M3 新建 6 + 7S/GE 九宫 2）；余 **待新建** |
->>>>>>> origin/main
+| 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 现 **24**（M3 新建 6 + 7S/GE 2 + 本批新建 12）；余 **待新建**（距 ~30 约 6） |
 | 11 | 效率与执行 | `efficiency-execution` | **新建**；迁入 2 | 现 **9**（M3 新建 7）；余 **待新建** |
 | 12 | 系统与复杂 | `systems-complexity` | **新建**；迁入 4；与第六类互补 | 现 **11**（种子 4 + M4 新建 7）；与第六类重复项只互链 |
 
@@ -259,9 +254,9 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 - [x] **M2b（第二批）**：第八类再建 11 条（`monte-carlo` / `decision-journal` / `after-action-review` / `rapid-experimentation` / `probability-thinking` / `sensitivity-analysis` / `asymmetric-payoff` / `threshold-effect` / `loss-function` / `risk-premium` / `oz-principle`，均 `v0.x-draft` + 最小 evals）；类内现 **24**；杠铃仍@`antifragility` 只互链；名录其余为他类互链或可选扩展；分支 `feature/m2b-decision-probability-batch2`（本分支磁盘全库 **300**；并入战略 7S/GE 的 **291** 口径后为 **302**）  
 - [x] **M3（首批）**：第九–十一类已建 draft（学习 +6→11；战略 +6→10；效率 +7→9；`deep-work` 落学习类）。分支 `feature/m3-learning-strategy-efficiency`；其余名录条仍待新建  
 - [x] **战略 7S/GE**：`strategy-competition` 新建 `mckinsey-7s` / `ge-mckinsey-matrix`（`v0.x-draft` + 最小 evals）；类内现 **12**；分支 `feature/strategy-7s-ge-matrix`（本分支磁盘全库 **291**；并入决策 M2b 的 **300** 口径后为 **302**）  
-- [x] **战略竞争本批**：第十类再建 12 条（`ansoff-matrix` / `balanced-scorecard` / `value-chain` / `cost-leadership` / `differentiation-strategy` / `niche-strategy` / `strategic-clock` / `positioning` / `platform-strategy` / `resource-based-view` / `core-competence` / `kpi-framework`，均 `v0.x-draft` + 最小 evals）；类内现 **24**；分支 `feature/strategy-competition-batch`（相对 main `e406271` 全库 **302→314**；并行学习/效率/系统批若另增条数需再对账）  
+- [x] **战略竞争本批**：第十类再建 12 条（`ansoff-matrix` / `balanced-scorecard` / `value-chain` / `cost-leadership` / `differentiation-strategy` / `niche-strategy` / `strategic-clock` / `positioning` / `platform-strategy` / `resource-based-view` / `core-competence` / `kpi-framework`，均 `v0.x-draft` + 最小 evals）；类内现 **24**；分支 `feature/strategy-competition-batch`（相对 main `e406271` 全库经学习+本批 **302→326**；并行效率/系统批若另增条数需再对账）  
 - [x] **M4（首批）**：第十二类新建 7 条（`emergence` / `system-archetypes` / `causal-loop-diagram` / `stock-and-flow` / `complex-adaptive-systems` / `small-world-network` / `scale-free-network`，均 `v0.x-draft`）；类内现 **11**；路径依赖/锁定/网络效应/熵增/反馈等仍@`systems-classic-effects` 只互链  
-- [x] **学习成长本批**：第九类再建 12 条（`retrieval-practice` / `interleaved-practice` / `transfer-of-learning` / `dual-coding` / `elaborative-interrogation` / `chunking` / `t-shaped-skills` / `learning-pyramid` / `mentorship` / `learning-by-teaching` / `meta-learning` / `unlearning`，均 `v0.x-draft` + 最小 evals）；类内现 **23**；分支 `feature/learning-growth-batch`（相对 main `e406271` 全库 **302→314**；并行战略/效率/系统批若另增条数需再对账）  
+- [x] **学习成长本批**：第九类再建 12 条（`retrieval-practice` / `interleaved-practice` / `transfer-of-learning` / `dual-coding` / `elaborative-interrogation` / `chunking` / `t-shaped-skills` / `learning-pyramid` / `mentorship` / `learning-by-teaching` / `meta-learning` / `unlearning`，均 `v0.x-draft` + 最小 evals）；类内现 **23**；分支 `feature/learning-growth-batch`（相对 main `e406271` 全库经本批+战略 **302→326**；并行效率/系统批若另增条数需再对账）  
 - [x] **M5**：跨类相关模型抽查 + 分类 README 定稿；可选 evals 最小集（见 Phase 3 子项；双向建议仍可选残留）  
 
 ### 4. 条目状态速查（第七–十二类）

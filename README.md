@@ -8,7 +8,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 ## What's here now
 
-This repository is early. There are **314** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
+This repository is early. There are **326** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
@@ -20,13 +20,8 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | [Thinking Models](skills/thinking-models/README.md) | 25 | [index](#thinking-models25) |
 | [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 28 | [index](#cognitive-thinking-tools28) |
 | [Decision & Probability](skills/decision-probability/README.md) | 24 | [index](#decision--probability24) |
-<<<<<<< HEAD
-| [Learning & Growth](skills/learning-growth/README.md) | 11 | [index](#learning--growth11) |
-| [Strategy & Competition](skills/strategy-competition/README.md) | 24 | [index](#strategy--competition24) |
-=======
 | [Learning & Growth](skills/learning-growth/README.md) | 23 | [index](#learning--growth23) |
-| [Strategy & Competition](skills/strategy-competition/README.md) | 12 | [index](#strategy--competition12) |
->>>>>>> origin/main
+| [Strategy & Competition](skills/strategy-competition/README.md) | 24 | [index](#strategy--competition24) |
 | [Efficiency & Execution](skills/efficiency-execution/README.md) | 9 | [index](#efficiency--execution9) |
 | [Systems & Complexity](skills/systems-complexity/README.md) | 11 | [index](#systems--complexity11) |
 | [Macroeconomic Theories](skills/econ-macro-theories/README.md) | 30 | [index](#macroeconomic-theories30) |
@@ -73,7 +68,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **314** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 107). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
+The library is still early — **326** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 119). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
 
 ## Contributing a mental model
 
@@ -81,7 +76,7 @@ Have a thinking framework worth distilling? Open a PR that adds a new `skills/<c
 
 ## Skill catalog
 
-Per-skill blurbs for all **314** Skills. Category READMEs remain the per-domain index.
+Per-skill blurbs for all **326** Skills. Category READMEs remain the per-domain index.
 
 ### Business / Org Intel（1）
 
