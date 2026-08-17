@@ -1,0 +1,11 @@
+{
+  "skill": "wip-limits",
+  "version": "v0.x-draft",
+  "tests": [
+    {"id": "wip-should-01", "type": "should_trigger", "prompt": "同时开太多坑，怎么设 WIP 限制？", "expect": "触发。"},
+    {"id": "wip-should-02", "type": "should_trigger", "prompt": "在制品上限个人该设几？", "expect": "触发。"},
+    {"id": "wip-decoy-01", "type": "should_not_trigger", "prompt": "帮我画完整看板列和拉动规则。", "expect": "分流 kanban。"},
+    {"id": "wip-edge-01", "type": "edge_case", "prompt": "老板强制加塞怎么办？", "expect": "升级政策/显式代价。"},
+    {"id": "wip-trap-01", "type": "correctness_trap", "prompt": "WIP 越大吞吐越大。", "expect": "纠正：利特尔法则，过大拖周期。"}
+  ]
+}

@@ -8,7 +8,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ## 项目简介与现状
 
-这个仓库还处于早期阶段。`skills/<category>/` 下合计 **326** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
+这个仓库还处于早期阶段。`skills/<category>/` 下合计 **338** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
@@ -22,7 +22,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [决策与概率](skills/decision-probability/README.md) | 24 | [目录](#决策与概率24) |
 | [学习与成长](skills/learning-growth/README.md) | 23 | [目录](#学习与成长23) |
 | [战略与竞争](skills/strategy-competition/README.md) | 24 | [目录](#战略与竞争24) |
-| [效率与执行](skills/efficiency-execution/README.md) | 9 | [目录](#效率与执行9) |
+| [效率与执行](skills/efficiency-execution/README.md) | 21 | [目录](#效率与执行21) |
 | [系统与复杂](skills/systems-complexity/README.md) | 11 | [目录](#系统与复杂11) |
 | [宏观经济学理论](skills/econ-macro-theories/README.md) | 30 | [目录](#宏观经济学理论30) |
 | [微观经济学与市场](skills/econ-micro-markets/README.md) | 30 | [目录](#微观经济学与市场30) |
@@ -68,7 +68,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计 **326** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 119）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
+库仍处于早期：跨分类合计 **338** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 131）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
 
 ## 贡献一个思维模型
 
@@ -76,7 +76,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## Skill 目录
 
-全部 **326** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
+全部 **338** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
 
 ### 商业 / 组织情报（1）
 
@@ -233,19 +233,31 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[value-chain](skills/strategy-competition/value-chain/SKILL.md)** — 价值链：主活动/支持活动拆解成本与差异化落点（draft）。
 - **[vrio](skills/strategy-competition/vrio/SKILL.md)** — VRIO：资源/能力是否有价值、稀缺、难模仿且有组织支持。
 
-### 效率与执行（9）
+### 效率与执行（21）
 
-艾森豪威尔、PDCA，以及 M3 草稿（番茄、GTD、看板、敏捷迭代、精益、关键路径、5S）。深度工作见学习与成长类。
+艾森豪威尔、PDCA、M3 草稿（番茄、GTD、看板、敏捷、精益、关键路径、5S），以及本批（批处理、清单/SOP、持续改进、委派、吃青蛙、精力管理、甘特、里程碑、站会、时间块、两分钟法则、WIP 限制）。深度工作见学习与成长类。
 
 - **[agile-iteration](skills/efficiency-execution/agile-iteration/SKILL.md)** — 敏捷迭代：短时间盒交付可检视增量并检视适应。
+- **[batching](skills/efficiency-execution/batching/SKILL.md)** — 批处理：同类任务集中时段，降低上下文切换（draft）。
+- **[checklist-sop](skills/efficiency-execution/checklist-sop/SKILL.md)** — 清单/SOP：关键步骤外部化，降低遗漏与方差（draft）。
+- **[continuous-improvement](skills/efficiency-execution/continuous-improvement/SKILL.md)** — 持续改进：小步全员常态化抬高标准（draft）。
 - **[critical-path](skills/efficiency-execution/critical-path/SKILL.md)** — 关键路径：项目依赖网络中决定最短工期的最长链。
+- **[delegation](skills/efficiency-execution/delegation/SKILL.md)** — 委派：结果与权限清晰移交并保留跟进（draft）。
+- **[eat-the-frog](skills/efficiency-execution/eat-the-frog/SKILL.md)** — 吃青蛙：当日最高杠杆难事先做完（draft）。
 - **[eisenhower-matrix](skills/efficiency-execution/eisenhower-matrix/SKILL.md)** — 艾森豪威尔矩阵：按紧急×重要分配注意力，优先投入重要但不紧急的事项。
+- **[energy-management](skills/efficiency-execution/energy-management/SKILL.md)** — 精力管理：按身心高峰匹配任务类型（draft）。
 - **[five-s](skills/efficiency-execution/five-s/SKILL.md)** — 5S：整理整顿清扫清洁素养，稳固现场/数字工作区基础。
+- **[gantt-chart](skills/efficiency-execution/gantt-chart/SKILL.md)** — 甘特图：时间条与依赖可视化沟通进度（draft）。
 - **[gtd](skills/efficiency-execution/gtd/SKILL.md)** — GTD：收集-澄清-组织-回顾，落到可信的下一步行动。
 - **[kanban](skills/efficiency-execution/kanban/SKILL.md)** — 看板：可视化流 + 限制 WIP 的拉动系统。
 - **[lean-thinking](skills/efficiency-execution/lean-thinking/SKILL.md)** — 精益思维：价值流与消除浪费（看板/5S 为其工具层）。
+- **[milestone-planning](skills/efficiency-execution/milestone-planning/SKILL.md)** — 里程碑规划：可验证阶段门对齐范围与日期（draft）。
 - **[pdca](skills/efficiency-execution/pdca/SKILL.md)** — PDCA：Plan–Do–Check/Study–Act 持续改进循环，每圈带明确假设与度量。
 - **[pomodoro](skills/efficiency-execution/pomodoro/SKILL.md)** — 番茄工作法：固定专注-短休时间盒节奏（≠深度工作长块）。
+- **[standup](skills/efficiency-execution/standup/SKILL.md)** — 站会：短同步昨日/今日/障碍（draft）。
+- **[time-blocking](skills/efficiency-execution/time-blocking/SKILL.md)** — 时间块：日历切成专属用途连续时段（draft）。
+- **[two-minute-rule](skills/efficiency-execution/two-minute-rule/SKILL.md)** — 两分钟法则：澄清时立刻完成≤2 分钟行动（draft）。
+- **[wip-limits](skills/efficiency-execution/wip-limits/SKILL.md)** — WIP 限制：在制品上限暴露瓶颈、缩短周期（draft）。
 
 ### 系统与复杂（11）
 

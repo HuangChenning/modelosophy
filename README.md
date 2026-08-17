@@ -8,7 +8,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 ## What's here now
 
-This repository is early. There are **326** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
+This repository is early. There are **338** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
@@ -22,7 +22,7 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | [Decision & Probability](skills/decision-probability/README.md) | 24 | [index](#decision--probability24) |
 | [Learning & Growth](skills/learning-growth/README.md) | 23 | [index](#learning--growth23) |
 | [Strategy & Competition](skills/strategy-competition/README.md) | 24 | [index](#strategy--competition24) |
-| [Efficiency & Execution](skills/efficiency-execution/README.md) | 9 | [index](#efficiency--execution9) |
+| [Efficiency & Execution](skills/efficiency-execution/README.md) | 21 | [index](#efficiency--execution21) |
 | [Systems & Complexity](skills/systems-complexity/README.md) | 11 | [index](#systems--complexity11) |
 | [Macroeconomic Theories](skills/econ-macro-theories/README.md) | 30 | [index](#macroeconomic-theories30) |
 | [Microeconomics & Markets](skills/econ-micro-markets/README.md) | 30 | [index](#microeconomics--markets30) |
@@ -68,7 +68,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **326** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 119). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
+The library is still early — **338** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 131). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
 
 ## Contributing a mental model
 
@@ -76,7 +76,7 @@ Have a thinking framework worth distilling? Open a PR that adds a new `skills/<c
 
 ## Skill catalog
 
-Per-skill blurbs for all **326** Skills. Category READMEs remain the per-domain index.
+Per-skill blurbs for all **338** Skills. Category READMEs remain the per-domain index.
 
 ### Business / Org Intel（1）
 
@@ -233,19 +233,31 @@ Five forces, moats, flywheels, SWOT, blue ocean, second curve, disruption, BCG, 
 - **[value-chain](skills/strategy-competition/value-chain/SKILL.md)** — Value chain: primary/support activities for cost and differentiation loci (draft).
 - **[vrio](skills/strategy-competition/vrio/SKILL.md)** — VRIO: audit whether resources are valuable, rare, costly to imitate, and organized.
 
-### Efficiency & Execution（9）
+### Efficiency & Execution（21）
 
-Eisenhower, PDCA, plus M3 drafts (Pomodoro, GTD, Kanban, agile iteration, lean, critical path, 5S). Deep work lives under Learning & Growth.
+Eisenhower, PDCA, M3 drafts (Pomodoro, GTD, Kanban, agile, lean, critical path, 5S), plus this batch (batching, checklist/SOP, continuous improvement, delegation, eat-the-frog, energy, Gantt, milestones, standup, time-blocking, two-minute rule, WIP limits). Deep work lives under Learning & Growth.
 
 - **[agile-iteration](skills/efficiency-execution/agile-iteration/SKILL.md)** — Agile iteration: short timeboxes delivering inspectable increments, then adapt.
+- **[batching](skills/efficiency-execution/batching/SKILL.md)** — Batching: group similar tasks to cut context switching (draft).
+- **[checklist-sop](skills/efficiency-execution/checklist-sop/SKILL.md)** — Checklist/SOP: externalize critical steps to cut omission variance (draft).
+- **[continuous-improvement](skills/efficiency-execution/continuous-improvement/SKILL.md)** — Continuous improvement (Kaizen): small, frequent standard raises (draft).
 - **[critical-path](skills/efficiency-execution/critical-path/SKILL.md)** — Critical path: longest dependency chain that sets project duration.
+- **[delegation](skills/efficiency-execution/delegation/SKILL.md)** — Delegation: hand off outcomes and authority with clear follow-up (draft).
+- **[eat-the-frog](skills/efficiency-execution/eat-the-frog/SKILL.md)** — Eat the frog: finish the day’s hardest high-leverage task first (draft).
 - **[eisenhower-matrix](skills/efficiency-execution/eisenhower-matrix/SKILL.md)** — Eisenhower matrix: sort work by urgent×important; prioritize important-but-not-urgent.
+- **[energy-management](skills/efficiency-execution/energy-management/SKILL.md)** — Energy management: match task type to peak/trough capacity (draft).
 - **[five-s](skills/efficiency-execution/five-s/SKILL.md)** — 5S: sort, set in order, shine, standardize, sustain for workplace/digital hygiene.
+- **[gantt-chart](skills/efficiency-execution/gantt-chart/SKILL.md)** — Gantt chart: timeline bars and dependencies for schedule communication (draft).
 - **[gtd](skills/efficiency-execution/gtd/SKILL.md)** — GTD: capture–clarify–organize–review into trusted next actions.
 - **[kanban](skills/efficiency-execution/kanban/SKILL.md)** — Kanban: visualize flow and limit WIP in a pull system.
 - **[lean-thinking](skills/efficiency-execution/lean-thinking/SKILL.md)** — Lean thinking: map value streams and remove waste (Kanban/5S as tools).
+- **[milestone-planning](skills/efficiency-execution/milestone-planning/SKILL.md)** — Milestone planning: few verifiable stage gates for scope/date alignment (draft).
 - **[pdca](skills/efficiency-execution/pdca/SKILL.md)** — PDCA: Plan–Do–Check/Study–Act continuous improvement loops with explicit measures.
 - **[pomodoro](skills/efficiency-execution/pomodoro/SKILL.md)** — Pomodoro: fixed focus/break timeboxes (≠ deep-work long blocks).
+- **[standup](skills/efficiency-execution/standup/SKILL.md)** — Standup: short sync of yesterday/today/blockers (draft).
+- **[time-blocking](skills/efficiency-execution/time-blocking/SKILL.md)** — Time blocking: calendar slices with dedicated purpose (draft).
+- **[two-minute-rule](skills/efficiency-execution/two-minute-rule/SKILL.md)** — Two-minute rule: do ≤2-minute actions immediately when clarifying (draft).
+- **[wip-limits](skills/efficiency-execution/wip-limits/SKILL.md)** — WIP limits: cap in-progress work to expose bottlenecks (draft).
 
 ### Systems & Complexity（11）
 

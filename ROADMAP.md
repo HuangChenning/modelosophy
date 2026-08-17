@@ -242,7 +242,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 8 | 决策与概率 | `decision-probability` | **新建**；迁入 2 | 现 **24**（M2 11 + M2b 11）；部分 **已有@他类**；名录专条已基本齐 |
 | 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 现 **23**（M3 新建 6 + 本批新建 12）；余 **待新建**（距 ~30 约 7） |
 | 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 现 **24**（M3 新建 6 + 7S/GE 2 + 本批新建 12）；余 **待新建**（距 ~30 约 6） |
-| 11 | 效率与执行 | `efficiency-execution` | **新建**；迁入 2 | 现 **9**（M3 新建 7）；余 **待新建** |
+| 11 | 效率与执行 | `efficiency-execution` | **新建**；迁入 2 | 现 **21**（M3 新建 7 + 本批新建 12）；余 **待新建**（距 ~30 约 9） |
 | 12 | 系统与复杂 | `systems-complexity` | **新建**；迁入 4；与第六类互补 | 现 **11**（种子 4 + M4 新建 7）；与第六类重复项只互链 |
 
 ### 3. 分批里程碑（建议）
@@ -253,6 +253,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 - [x] **M2（首批）**：第八类高价值新建 11 条（`bayesian-updating` / `grey-thinking` / `reversible-irreversible` / `mvp` / `red-team` / `pre-mortem` / `ooda-loop` / `planning-fallacy` / `scenario-planning` / `expected-utility` / `base-rate`，均 `v0.x-draft`）；类内现 **13**；沉没/机会成本/凯利/满意化/临界/杠铃 **只互链不复制**；名录其余条仍待新建  
 - [x] **M2b（第二批）**：第八类再建 11 条（`monte-carlo` / `decision-journal` / `after-action-review` / `rapid-experimentation` / `probability-thinking` / `sensitivity-analysis` / `asymmetric-payoff` / `threshold-effect` / `loss-function` / `risk-premium` / `oz-principle`，均 `v0.x-draft` + 最小 evals）；类内现 **24**；杠铃仍@`antifragility` 只互链；名录其余为他类互链或可选扩展；分支 `feature/m2b-decision-probability-batch2`（本分支磁盘全库 **300**；并入战略 7S/GE 的 **291** 口径后为 **302**）  
 - [x] **M3（首批）**：第九–十一类已建 draft（学习 +6→11；战略 +6→10；效率 +7→9；`deep-work` 落学习类）。分支 `feature/m3-learning-strategy-efficiency`；其余名录条仍待新建  
+- [x] **效率执行本批**：第十一类再建 12 条（`batching` / `checklist-sop` / `continuous-improvement` / `delegation` / `eat-the-frog` / `energy-management` / `gantt-chart` / `milestone-planning` / `standup` / `time-blocking` / `two-minute-rule` / `wip-limits`，均 `v0.x-draft` + 最小 evals）；类内现 **21**；分支 `feature/efficiency-execution-batch`（相对 main `e406271` 全库 **302→314**；并行学习/战略/系统批若另增条数需再对账）  
 - [x] **战略 7S/GE**：`strategy-competition` 新建 `mckinsey-7s` / `ge-mckinsey-matrix`（`v0.x-draft` + 最小 evals）；类内现 **12**；分支 `feature/strategy-7s-ge-matrix`（本分支磁盘全库 **291**；并入决策 M2b 的 **300** 口径后为 **302**）  
 - [x] **战略竞争本批**：第十类再建 12 条（`ansoff-matrix` / `balanced-scorecard` / `value-chain` / `cost-leadership` / `differentiation-strategy` / `niche-strategy` / `strategic-clock` / `positioning` / `platform-strategy` / `resource-based-view` / `core-competence` / `kpi-framework`，均 `v0.x-draft` + 最小 evals）；类内现 **24**；分支 `feature/strategy-competition-batch`（相对 main `e406271` 全库经学习+本批 **302→326**；并行效率/系统批若另增条数需再对账）  
 - [x] **M4（首批）**：第十二类新建 7 条（`emergence` / `system-archetypes` / `causal-loop-diagram` / `stock-and-flow` / `complex-adaptive-systems` / `small-world-network` / `scale-free-network`，均 `v0.x-draft`）；类内现 **11**；路径依赖/锁定/网络效应/熵增/反馈等仍@`systems-classic-effects` 只互链  
@@ -367,7 +368,9 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 80/20 时间法 | 已有@他类 `systems-classic-effects/pareto-principle`（时间用法互链） |
 | 深度工作法 | 已有@他类 `learning-growth/deep-work`（主条；本类互链） |
 | 番茄 / GTD / 看板 / 敏捷迭代 / 关键路径 / 精益 / 5S | 已有@`efficiency-execution/*`（M3 `v0.x-draft`） |
-| 其余效率法扩展 | 待新建 |
+| 批处理 / 清单SOP / 持续改进 / 委派 / 吃青蛙 / 精力管理 | 已有@`…/batching` · `checklist-sop` · `continuous-improvement` · `delegation` · `eat-the-frog` · `energy-management`（本批 `v0.x-draft`） |
+| 甘特 / 里程碑 / 站会 / 时间块 / 两分钟法则 / WIP 限制 | 已有@`…/gantt-chart` · `milestone-planning` · `standup` · `time-blocking` · `two-minute-rule` · `wip-limits`（本批 `v0.x-draft`） |
+| 其余效率法扩展 | 待新建（距类目标 ~30 约 9） |
 
 #### 十二、`systems-complexity`
 

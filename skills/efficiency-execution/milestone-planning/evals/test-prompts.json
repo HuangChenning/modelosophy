@@ -1,0 +1,11 @@
+{
+  "skill": "milestone-planning",
+  "version": "v0.x-draft",
+  "tests": [
+    {"id": "ms-should-01", "type": "should_trigger", "prompt": "大项目怎么设可验收里程碑？", "expect": "触发。"},
+    {"id": "ms-should-02", "type": "should_trigger", "prompt": "版本节点 milestone 怎么定义 Done？", "expect": "触发。"},
+    {"id": "ms-decoy-01", "type": "should_not_trigger", "prompt": "帮我算关键路径工期。", "expect": "分流 critical-path。"},
+    {"id": "ms-edge-01", "type": "edge_case", "prompt": "纯研究项目也能设里程碑吗？", "expect": "用学习/验证门。"},
+    {"id": "ms-trap-01", "type": "correctness_trap", "prompt": "里程碑就是开例会的日子。", "expect": "纠正：需验收标准。"}
+  ]
+}
