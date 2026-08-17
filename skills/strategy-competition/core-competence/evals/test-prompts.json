@@ -1,0 +1,36 @@
+{
+  "skill": "core-competence",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "core-competence-should-01",
+      "type": "should_trigger",
+      "prompt": "我们的核心竞争力到底是什么，能延伸吗？",
+      "expect": "触发核心能力。"
+    },
+    {
+      "id": "core-competence-should-02",
+      "type": "should_trigger",
+      "prompt": "各事业部是否共享同一能力根？",
+      "expect": "触发。"
+    },
+    {
+      "id": "core-competence-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "对这条专利做VRIO四问打分。",
+      "expect": "分流 vrio。"
+    },
+    {
+      "id": "core-competence-edge-01",
+      "type": "edge_case",
+      "prompt": "单产品初创也要找核心能力树？",
+      "expect": "边界：可更轻。"
+    },
+    {
+      "id": "core-competence-trap-01",
+      "type": "correctness_trap",
+      "prompt": "我们的核心能力就是这款爆品。",
+      "expect": "纠正：能力≠产品名。"
+    }
+  ]
+}

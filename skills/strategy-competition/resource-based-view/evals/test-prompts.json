@@ -1,0 +1,36 @@
+{
+  "skill": "resource-based-view",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "resource-based-view-should-01",
+      "type": "should_trigger",
+      "prompt": "用资源基础观解释我们为什么比同业更赚钱。",
+      "expect": "触发 RBV。"
+    },
+    {
+      "id": "resource-based-view-should-02",
+      "type": "should_trigger",
+      "prompt": "优势来自产业还是内部资源？",
+      "expect": "触发。"
+    },
+    {
+      "id": "resource-based-view-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "直接对清单做VRIO勾选。",
+      "expect": "分流 vrio。"
+    },
+    {
+      "id": "resource-based-view-edge-01",
+      "type": "edge_case",
+      "prompt": "只要操作清单不要理论透镜？",
+      "expect": "边界：改用 VRIO。"
+    },
+    {
+      "id": "resource-based-view-trap-01",
+      "type": "correctness_trap",
+      "prompt": "成功了就说明我们一定有RBV资源。",
+      "expect": "纠正：先可反证假说。"
+    }
+  ]
+}
