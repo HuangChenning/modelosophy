@@ -1,0 +1,11 @@
+{
+  "skill": "eat-the-frog",
+  "version": "v0.x-draft",
+  "tests": [
+    {"id": "frog-should-01", "type": "should_trigger", "prompt": "我总把最难的报告拖到晚上，吃青蛙怎么做？", "expect": "触发。"},
+    {"id": "frog-should-02", "type": "should_trigger", "prompt": "eat the frog 今天先做什么？", "expect": "触发。"},
+    {"id": "frog-decoy-01", "type": "should_not_trigger", "prompt": "用四象限给二十件事分类。", "expect": "分流 eisenhower。"},
+    {"id": "frog-edge-01", "type": "edge_case", "prompt": "夜猫子也必须早上吃青蛙吗？", "expect": "对齐个人高峰。"},
+    {"id": "frog-trap-01", "type": "correctness_trap", "prompt": "最紧急的群消息就是青蛙。", "expect": "纠正：选重要逃避项。"}
+  ]
+}

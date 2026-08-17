@@ -1,0 +1,36 @@
+{
+  "skill": "value-chain",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "value-chain-should-01",
+      "type": "should_trigger",
+      "prompt": "用价值链拆我们成本和差异化落在哪个活动。",
+      "expect": "触发价值链。"
+    },
+    {
+      "id": "value-chain-should-02",
+      "type": "should_trigger",
+      "prompt": "哪些主活动该外包？",
+      "expect": "触发。"
+    },
+    {
+      "id": "value-chain-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这行业五力谁赚钱？",
+      "expect": "分流五力。"
+    },
+    {
+      "id": "value-chain-edge-01",
+      "type": "edge_case",
+      "prompt": "纯多边平台还用经典制造价值链吗？",
+      "expect": "边界：需改写。"
+    },
+    {
+      "id": "value-chain-trap-01",
+      "type": "correctness_trap",
+      "prompt": "价值链等于组织架构图。",
+      "expect": "纠正：按价值活动非汇报线。"
+    }
+  ]
+}

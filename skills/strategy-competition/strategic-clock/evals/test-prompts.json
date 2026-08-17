@@ -1,0 +1,36 @@
+{
+  "skill": "strategic-clock",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "strategic-clock-should-01",
+      "type": "should_trigger",
+      "prompt": "用战略钟看我们走低价还是高价值。",
+      "expect": "触发战略钟。"
+    },
+    {
+      "id": "strategic-clock-should-02",
+      "type": "should_trigger",
+      "prompt": "是不是夹在中间？Bowman怎么选格。",
+      "expect": "触发。"
+    },
+    {
+      "id": "strategic-clock-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "写公司OKR。",
+      "expect": "分流 okr。"
+    },
+    {
+      "id": "strategic-clock-edge-01",
+      "type": "edge_case",
+      "prompt": "价格被招标公式锁死？",
+      "expect": "边界。"
+    },
+    {
+      "id": "strategic-clock-trap-01",
+      "type": "correctness_trap",
+      "prompt": "标自己在高价值格就算完成战略。",
+      "expect": "纠正：需证据与落地专条。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "kpi-framework",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "kpi-framework-should-01",
+      "type": "should_trigger",
+      "prompt": "KPI太多，怎么设计少而尖的关键指标？",
+      "expect": "触发 KPI。"
+    },
+    {
+      "id": "kpi-framework-should-02",
+      "type": "should_trigger",
+      "prompt": "北星指标怎么防刷数？",
+      "expect": "触发 Goodhart。"
+    },
+    {
+      "id": "kpi-framework-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写鼓舞性目标和KR。",
+      "expect": "分流 okr。"
+    },
+    {
+      "id": "kpi-framework-edge-01",
+      "type": "edge_case",
+      "prompt": "探索期没有稳定过程也要上KPI？",
+      "expect": "边界：先学习度量。"
+    },
+    {
+      "id": "kpi-framework-trap-01",
+      "type": "correctness_trap",
+      "prompt": "KPI就是OKR换个说法。",
+      "expect": "纠正：治理与周期不同。"
+    }
+  ]
+}

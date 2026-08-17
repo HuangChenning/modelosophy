@@ -1,0 +1,36 @@
+{
+  "skill": "differentiation-strategy",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "differentiation-strategy-should-01",
+      "type": "should_trigger",
+      "prompt": "差异化战略：客户凭什么付溢价？",
+      "expect": "触发差异化。"
+    },
+    {
+      "id": "differentiation-strategy-should-02",
+      "type": "should_trigger",
+      "prompt": "独特性如何落到活动系统和权衡？",
+      "expect": "触发。"
+    },
+    {
+      "id": "differentiation-strategy-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要一句心智定位语。",
+      "expect": "分流定位。"
+    },
+    {
+      "id": "differentiation-strategy-edge-01",
+      "type": "edge_case",
+      "prompt": "买方只比价且规格透明？",
+      "expect": "边界：难成立。"
+    },
+    {
+      "id": "differentiation-strategy-trap-01",
+      "type": "correctness_trap",
+      "prompt": "功能多就是差异化。",
+      "expect": "纠正：要愿付与权衡。"
+    }
+  ]
+}

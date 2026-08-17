@@ -1,0 +1,36 @@
+{
+  "skill": "transfer-of-learning",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "tl-should-01",
+      "type": "should_trigger",
+      "prompt": "课上会做，换个场景就不会，怎么练迁移？",
+      "expect": "触发；近远迁移+变式验收。"
+    },
+    {
+      "id": "tl-should-02",
+      "type": "should_trigger",
+      "prompt": "近迁移和远迁移怎么设计练习？",
+      "expect": "触发迁移学习。"
+    },
+    {
+      "id": "tl-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "单词背了就忘怎么间隔复习？",
+      "expect": "分流检索/间隔。"
+    },
+    {
+      "id": "tl-edge-01",
+      "type": "edge_case",
+      "prompt": "两个领域完全没共同结构也能迁移吗？",
+      "expect": "边界：无共同元素勿硬迁。"
+    },
+    {
+      "id": "tl-trap-01",
+      "type": "correctness_trap",
+      "prompt": "原题全对就说明已经迁移成功。",
+      "expect": "纠正：须新情境验收。"
+    }
+  ]
+}

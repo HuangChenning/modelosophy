@@ -1,0 +1,11 @@
+{
+  "skill": "continuous-improvement",
+  "version": "v0.x-draft",
+  "tests": [
+    {"id": "ci-should-01", "type": "should_trigger", "prompt": "想建 Kaizen 持续改进文化，怎么起步？", "expect": "触发。"},
+    {"id": "ci-should-02", "type": "should_trigger", "prompt": "流程靠救火，如何日常改善？", "expect": "触发。"},
+    {"id": "ci-decoy-01", "type": "should_not_trigger", "prompt": "帮我写这一圈 PDCA 的假设和度量。", "expect": "分流 pdca。"},
+    {"id": "ci-edge-01", "type": "edge_case", "prompt": "系统已经崩了还做小步改善吗？", "expect": "先稳定。"},
+    {"id": "ci-trap-01", "type": "correctness_trap", "prompt": "持续改进就是一年一次大改造。", "expect": "纠正：日常小步。"}
+  ]
+}
