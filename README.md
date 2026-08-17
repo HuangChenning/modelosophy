@@ -8,7 +8,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 ## What's here now
 
-This repository is early. There are **314** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
+This repository is early. There are **338** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
@@ -20,8 +20,8 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | [Thinking Models](skills/thinking-models/README.md) | 25 | [index](#thinking-models25) |
 | [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 28 | [index](#cognitive-thinking-tools28) |
 | [Decision & Probability](skills/decision-probability/README.md) | 24 | [index](#decision--probability24) |
-| [Learning & Growth](skills/learning-growth/README.md) | 11 | [index](#learning--growth11) |
-| [Strategy & Competition](skills/strategy-competition/README.md) | 12 | [index](#strategy--competition12) |
+| [Learning & Growth](skills/learning-growth/README.md) | 23 | [index](#learning--growth23) |
+| [Strategy & Competition](skills/strategy-competition/README.md) | 24 | [index](#strategy--competition24) |
 | [Efficiency & Execution](skills/efficiency-execution/README.md) | 21 | [index](#efficiency--execution21) |
 | [Systems & Complexity](skills/systems-complexity/README.md) | 11 | [index](#systems--complexity11) |
 | [Macroeconomic Theories](skills/econ-macro-theories/README.md) | 30 | [index](#macroeconomic-theories30) |
@@ -68,7 +68,7 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **314** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 107). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
+The library is still early — **338** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 131). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
 
 ## Contributing a mental model
 
@@ -76,7 +76,7 @@ Have a thinking framework worth distilling? Open a PR that adds a new `skills/<c
 
 ## Skill catalog
 
-Per-skill blurbs for all **314** Skills. Category READMEs remain the per-domain index.
+Per-skill blurbs for all **338** Skills. Category READMEs remain the per-domain index.
 
 ### Business / Org Intel（1）
 
@@ -176,37 +176,61 @@ Expected value, decision trees, Bayesian updating, Monte Carlo, journals/AAR, an
 - **[sensitivity-analysis](skills/decision-probability/sensitivity-analysis/SKILL.md)** — Sensitivity analysis: find flip assumptions and robust regions (draft).
 - **[threshold-effect](skills/decision-probability/threshold-effect/SKILL.md)** — Threshold effect: dose/rule cutoffs (≠ tipping-point phase change) (draft).
 
-### Learning & Growth（11）
+### Learning & Growth（23）
 
-Feynman technique, flow, metacognition, forgetting curve, antifragility, plus M3 drafts (deliberate practice, SRS, growth mindset, deep work, ZPD, 10k-hours clarification).
+Feynman, flow, metacognition, forgetting curve, antifragility, M3 drafts (deliberate practice, SRS, growth mindset, deep work, ZPD, 10k-hours), plus this batch (retrieval/interleaving/transfer, dual coding, elaborative interrogation, chunking, T-shaped, learning-pyramid caveat, mentorship, learning-by-teaching, meta-learning, unlearning).
 
 - **[antifragility](skills/learning-growth/antifragility/SKILL.md)** — Antifragility: design strategies that gain from volatility and uncertainty—not merely withstand risk.
+- **[chunking](skills/learning-growth/chunking/SKILL.md)** — Chunking: pack items into named meaningful units to cut working-memory load (draft).
 - **[deep-work](skills/learning-growth/deep-work/SKILL.md)** — Deep work: protect uninterrupted high-cognitive focus blocks (canonical home; efficiency category cross-links only).
 - **[deliberate-practice](skills/learning-growth/deliberate-practice/SKILL.md)** — Deliberate practice: train just beyond comfort with goals, feedback, and weak-point focus.
+- **[dual-coding](skills/learning-growth/dual-coding/SKILL.md)** — Dual coding: align verbal and imagistic representations for dual retrieval cues (draft).
+- **[elaborative-interrogation](skills/learning-growth/elaborative-interrogation/SKILL.md)** — Elaborative interrogation: ask why a claim is sensible to anchor it in prior knowledge (draft).
 - **[feynman-technique](skills/learning-growth/feynman-technique/SKILL.md)** — Feynman technique: expose gaps by teaching a concept in plain language, then repair and retry.
 - **[flow](skills/learning-growth/flow/SKILL.md)** — Flow: diagnose deep engagement when challenge≈skill, goals are clear, and feedback is timely.
 - **[forgetting-curve](skills/learning-growth/forgetting-curve/SKILL.md)** — Forgetting curve: explain memory decay over time; schedule ops live in spaced repetition.
 - **[growth-mindset](skills/learning-growth/growth-mindset/SKILL.md)** — Growth mindset: treat ability as developable; rewrite feedback/goals (not effort-only pep talk).
+- **[interleaved-practice](skills/learning-growth/interleaved-practice/SKILL.md)** — Interleaved practice: mix confusable categories to improve discrimination and transfer (draft).
+- **[learning-by-teaching](skills/learning-growth/learning-by-teaching/SKILL.md)** — Learning by teaching: use real/simulated teaching tasks to force retrieval and organization (draft).
+- **[learning-pyramid](skills/learning-growth/learning-pyramid/SKILL.md)** — Learning pyramid (caveat): debunk fake retention %; keep only a weak active-engagement heuristic (draft).
+- **[mentorship](skills/learning-growth/mentorship/SKILL.md)** — Mentorship: goal–cadence–feedback–fade protocols for apprenticeship (draft).
+- **[meta-learning](skills/learning-growth/meta-learning/SKILL.md)** — Meta-learning: choose and experiment with how-to-learn strategy menus across tasks (draft).
 - **[metacognition](skills/learning-growth/metacognition/SKILL.md)** — Metacognition: monitor and regulate your own thinking—notice misunderstanding and switch strategies.
+- **[retrieval-practice](skills/learning-growth/retrieval-practice/SKILL.md)** — Retrieval practice: active recall (testing effect) to strengthen retention and diagnose gaps (draft).
 - **[spaced-repetition](skills/learning-growth/spaced-repetition/SKILL.md)** — Spaced repetition: active retrieval + expanding intervals (SRS/review schedules).
+- **[t-shaped-skills](skills/learning-growth/t-shaped-skills/SKILL.md)** — T-shaped skills: one deliverable depth bar plus conversational breadth bars (draft).
 - **[ten-thousand-hours](skills/learning-growth/ten-thousand-hours/SKILL.md)** — Ten-thousand-hours myth check: hours ≠ expertise; redirect to deliberate practice.
+- **[transfer-of-learning](skills/learning-growth/transfer-of-learning/SKILL.md)** — Transfer of learning: design near/far transfer variants and cross-context checks (draft).
+- **[unlearning](skills/learning-growth/unlearning/SKILL.md)** — Unlearning: retire interfering old knowledge/responses under managed triggers (draft).
 - **[zpd](skills/learning-growth/zpd/SKILL.md)** — Zone of proximal development: place tasks between independent and assisted success with fading scaffolds.
 
-### Strategy & Competition（12）
+### Strategy & Competition（24）
 
-Five forces, moats, flywheels, SWOT, plus drafts for blue ocean, second curve, disruption, BCG, GE–McKinsey nine-box, McKinsey 7S, OKR, and VRIO.
+Five forces, moats, flywheels, SWOT, blue ocean, second curve, disruption, BCG, GE–McKinsey, 7S, OKR, VRIO, plus this batch (Ansoff, BSC, value chain, generic strategies/clock, positioning, platform, RBV/core competence, KPI).
 
+- **[ansoff-matrix](skills/strategy-competition/ansoff-matrix/SKILL.md)** — Ansoff matrix: existing/new market × product growth paths with rising risk (draft).
+- **[balanced-scorecard](skills/strategy-competition/balanced-scorecard/SKILL.md)** — Balanced scorecard: finance/customer/process/learning causal chain and strategy map (draft).
 - **[bcg-matrix](skills/strategy-competition/bcg-matrix/SKILL.md)** — BCG matrix: growth×relative share quadrants for portfolio invest/harvest/exit.
 - **[blue-ocean](skills/strategy-competition/blue-ocean/SKILL.md)** — Blue ocean: value innovation via ERRC to rebuild buyer utility and cost.
+- **[core-competence](skills/strategy-competition/core-competence/SKILL.md)** — Core competence: shared hard-to-imitate capabilities that open multiple markets (draft).
+- **[cost-leadership](skills/strategy-competition/cost-leadership/SKILL.md)** — Cost leadership: structural lowest-cost advantage in a broad market (draft).
+- **[differentiation-strategy](skills/strategy-competition/differentiation-strategy/SKILL.md)** — Differentiation: buyer-valued uniqueness and premium via activity-system trade-offs (draft).
 - **[disruptive-innovation](skills/strategy-competition/disruptive-innovation/SKILL.md)** — Disruptive innovation: low-end/new-market trajectories vs incumbent incentives.
 - **[economic-moat](skills/strategy-competition/economic-moat/SKILL.md)** — Economic moat: assess whether a firm can sustain excess returns via durable competitive advantages.
 - **[flywheel](skills/strategy-competition/flywheel/SKILL.md)** — Flywheel: design or diagnose accelerating causal loops where each turn strengthens the next.
 - **[ge-mckinsey-matrix](skills/strategy-competition/ge-mckinsey-matrix/SKILL.md)** — GE–McKinsey nine-box: industry attractiveness × competitive strength for invest/select/harvest.
+- **[kpi-framework](skills/strategy-competition/kpi-framework/SKILL.md)** — KPI framework: few sharp metrics with owners; watch Goodhart (draft).
 - **[mckinsey-7s](skills/strategy-competition/mckinsey-7s/SKILL.md)** — McKinsey 7S: align hard/soft Ss around shared values to diagnose strategy–organization congruence.
+- **[niche-strategy](skills/strategy-competition/niche-strategy/SKILL.md)** — Niche/focus: narrow arena cost or differentiation with explicit breadth trade-offs (draft).
 - **[okr](skills/strategy-competition/okr/SKILL.md)** — OKR: align ambitious objectives with measurable key results (not task lists).
+- **[platform-strategy](skills/strategy-competition/platform-strategy/SKILL.md)** — Platform strategy: multi-sided markets, network effects, cold start, governance (draft).
 - **[porters-five-forces](skills/strategy-competition/porters-five-forces/SKILL.md)** — Porter’s five forces: diagnose industry profit structure via rivalry, entrants, substitutes, buyers, suppliers.
+- **[positioning](skills/strategy-competition/positioning/SKILL.md)** — Positioning: own a clear, defensible spot in the target mind (draft).
+- **[resource-based-view](skills/strategy-competition/resource-based-view/SKILL.md)** — Resource-based view: internal heterogeneous resources/capabilities as advantage sources (draft).
 - **[second-curve](skills/strategy-competition/second-curve/SKILL.md)** — Second curve: start the next S-curve before the first peaks; set funding and kill rules.
+- **[strategic-clock](skills/strategy-competition/strategic-clock/SKILL.md)** — Strategic clock: price × perceived value paths; spot stuck-in-the-middle (draft).
 - **[swot](skills/strategy-competition/swot/SKILL.md)** — SWOT: structure internal strengths/weaknesses × external opportunities/threats, then TOWS matching.
+- **[value-chain](skills/strategy-competition/value-chain/SKILL.md)** — Value chain: primary/support activities for cost and differentiation loci (draft).
 - **[vrio](skills/strategy-competition/vrio/SKILL.md)** — VRIO: audit whether resources are valuable, rare, costly to imitate, and organized.
 
 ### Efficiency & Execution（21）

@@ -1,0 +1,36 @@
+{
+  "skill": "niche-strategy",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "niche-strategy-should-01",
+      "type": "should_trigger",
+      "prompt": "我们做垂直利基，小而美还是铺开？",
+      "expect": "触发利基。"
+    },
+    {
+      "id": "niche-strategy-should-02",
+      "type": "should_trigger",
+      "prompt": "集中化战略的放弃清单怎么写？",
+      "expect": "触发。"
+    },
+    {
+      "id": "niche-strategy-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "全市场成本领先怎么做。",
+      "expect": "分流成本领先。"
+    },
+    {
+      "id": "niche-strategy-edge-01",
+      "type": "edge_case",
+      "prompt": "利基过小养不活团队？",
+      "expect": "边界：经济性。"
+    },
+    {
+      "id": "niche-strategy-trap-01",
+      "type": "correctness_trap",
+      "prompt": "利基就是没野心随便做个缝。",
+      "expect": "纠正：窄处仍要优势+放弃清单。"
+    }
+  ]
+}

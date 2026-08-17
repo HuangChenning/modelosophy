@@ -1,0 +1,36 @@
+{
+  "skill": "dual-coding",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "dc-should-01",
+      "type": "should_trigger",
+      "prompt": "文字背不住，怎么用双重编码图文一起记？",
+      "expect": "触发；命题+示意互译。"
+    },
+    {
+      "id": "dc-should-02",
+      "type": "should_trigger",
+      "prompt": "Paivio 双重编码怎么落到复习里？",
+      "expect": "触发双重编码。"
+    },
+    {
+      "id": "dc-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "只要闭卷默写单词就行吗？",
+      "expect": "可分流检索；非双编码主场景。"
+    },
+    {
+      "id": "dc-edge-01",
+      "type": "edge_case",
+      "prompt": "纯抽象符号也要硬配萌图吗？",
+      "expect": "边界：无关图无效。"
+    },
+    {
+      "id": "dc-trap-01",
+      "type": "correctness_trap",
+      "prompt": "幻灯片多贴装饰图就是双重编码。",
+      "expect": "纠正：须与命题互译。"
+    }
+  ]
+}

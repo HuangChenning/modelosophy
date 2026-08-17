@@ -1,0 +1,36 @@
+{
+  "skill": "positioning",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "positioning-should-01",
+      "type": "should_trigger",
+      "prompt": "我们要在用户脑子里占什么位置？一句话定位怎么写？",
+      "expect": "触发定位。"
+    },
+    {
+      "id": "positioning-should-02",
+      "type": "should_trigger",
+      "prompt": "品类第一还是做对立定位？",
+      "expect": "触发。"
+    },
+    {
+      "id": "positioning-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我们写本季度OKR关键结果。",
+      "expect": "分流 okr。"
+    },
+    {
+      "id": "positioning-edge-01",
+      "type": "edge_case",
+      "prompt": "招标规格完全主导，还要做消费品式定位吗？",
+      "expect": "边界：心智弱时次优先。"
+    },
+    {
+      "id": "positioning-trap-01",
+      "type": "correctness_trap",
+      "prompt": "定位就是想一句好听的广告语。",
+      "expect": "纠正：需可预测取舍与接触点对齐。"
+    }
+  ]
+}

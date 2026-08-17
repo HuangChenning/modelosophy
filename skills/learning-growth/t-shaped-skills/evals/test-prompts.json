@@ -1,0 +1,36 @@
+{
+  "skill": "t-shaped-skills",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ts-should-01",
+      "type": "should_trigger",
+      "prompt": "技能树深度和广度怎么配，想做 T 型？",
+      "expect": "触发；纵深作品+横杠对话级。"
+    },
+    {
+      "id": "ts-should-02",
+      "type": "should_trigger",
+      "prompt": "一专多能的季度学习计划怎么订？",
+      "expect": "触发 T 型技能。"
+    },
+    {
+      "id": "ts-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "钢琴某个小节怎么刻意练习？",
+      "expect": "分流刻意练习。"
+    },
+    {
+      "id": "ts-edge-01",
+      "type": "edge_case",
+      "prompt": "岗位要求 π 型双深怎么办？",
+      "expect": "边界：按岗位改画像。"
+    },
+    {
+      "id": "ts-trap-01",
+      "type": "correctness_trap",
+      "prompt": "多刷证书横着点满就是 T 型。",
+      "expect": "纠正：须有纵深可交付作品。"
+    }
+  ]
+}

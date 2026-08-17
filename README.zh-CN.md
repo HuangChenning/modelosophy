@@ -8,7 +8,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ## 项目简介与现状
 
-这个仓库还处于早期阶段。`skills/<category>/` 下合计 **314** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
+这个仓库还处于早期阶段。`skills/<category>/` 下合计 **338** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
@@ -20,8 +20,8 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [通用思维模型](skills/thinking-models/README.md) | 25 | [目录](#通用思维模型25) |
 | [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | [目录](#认知与思维工具28) |
 | [决策与概率](skills/decision-probability/README.md) | 24 | [目录](#决策与概率24) |
-| [学习与成长](skills/learning-growth/README.md) | 11 | [目录](#学习与成长11) |
-| [战略与竞争](skills/strategy-competition/README.md) | 12 | [目录](#战略与竞争12) |
+| [学习与成长](skills/learning-growth/README.md) | 23 | [目录](#学习与成长23) |
+| [战略与竞争](skills/strategy-competition/README.md) | 24 | [目录](#战略与竞争24) |
 | [效率与执行](skills/efficiency-execution/README.md) | 21 | [目录](#效率与执行21) |
 | [系统与复杂](skills/systems-complexity/README.md) | 11 | [目录](#系统与复杂11) |
 | [宏观经济学理论](skills/econ-macro-theories/README.md) | 30 | [目录](#宏观经济学理论30) |
@@ -68,7 +68,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计 **314** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 107）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
+库仍处于早期：跨分类合计 **338** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 131）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
 
 ## 贡献一个思维模型
 
@@ -76,7 +76,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## Skill 目录
 
-全部 **314** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
+全部 **338** 个 Skill 的逐条简介。各分类 README 仍是分域索引。
 
 ### 商业 / 组织情报（1）
 
@@ -176,37 +176,61 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[sensitivity-analysis](skills/decision-probability/sensitivity-analysis/SKILL.md)** — 敏感性分析：找翻转假设与稳健区（draft）。
 - **[threshold-effect](skills/decision-probability/threshold-effect/SKILL.md)** — 阈值效应：剂量/规则门槛（≠临界点相变）（draft）。
 
-### 学习与成长（11）
+### 学习与成长（23）
 
-费曼技巧、心流、元认知、遗忘曲线、反脆弱，以及 M3 草稿（刻意练习、间隔重复、成长型思维、深度工作、ZPD、一万小时澄清）。
+费曼技巧、心流、元认知、遗忘曲线、反脆弱，M3 草稿（刻意练习、间隔重复、成长型思维、深度工作、ZPD、一万小时澄清），以及本批草稿（检索/交错/迁移、双重编码、精细加工、组块、T 型、学习金字塔纠偏、导师制、教中学、元学习、去学习）。
 
 - **[antifragility](skills/learning-growth/antifragility/SKILL.md)** — 反脆弱：设计能从波动与不确定性中获益的策略，而不只是抗住风险。
+- **[chunking](skills/learning-growth/chunking/SKILL.md)** — 组块：把离散信息打成可命名的更大单元，降低工作记忆负荷（draft）。
 - **[deep-work](skills/learning-growth/deep-work/SKILL.md)** — 深度工作：保护无干扰高认知专注块（主条在本类；效率类仅互链）。
 - **[deliberate-practice](skills/learning-growth/deliberate-practice/SKILL.md)** — 刻意练习：针对弱点、有反馈、略超舒适区的训练设计。
+- **[dual-coding](skills/learning-growth/dual-coding/SKILL.md)** — 双重编码：言语与示意表征对齐互译，增加提取线索（draft）。
+- **[elaborative-interrogation](skills/learning-growth/elaborative-interrogation/SKILL.md)** — 精细加工提问：对命题追问「为什么合理」以锚进知识网（draft）。
 - **[feynman-technique](skills/learning-growth/feynman-technique/SKILL.md)** — 费曼技巧：用简单语言「教别人」暴露理解空洞，再修补并复讲。
 - **[flow](skills/learning-growth/flow/SKILL.md)** — 心流：当挑战与技能大致匹配、目标清晰且反馈及时时，诊断并调节投入状态。
 - **[forgetting-curve](skills/learning-growth/forgetting-curve/SKILL.md)** — 遗忘曲线：解释记忆随时间衰减；复习日程操作见间隔重复。
 - **[growth-mindset](skills/learning-growth/growth-mindset/SKILL.md)** — 成长型思维：把能力视为可发展，改写反馈与目标语言（非努力万能鸡汤）。
+- **[interleaved-practice](skills/learning-growth/interleaved-practice/SKILL.md)** — 交错练习：混合易混题型以提升辨别与迁移（draft）。
+- **[learning-by-teaching](skills/learning-growth/learning-by-teaching/SKILL.md)** — 学习中教：用教学任务强制提取与组织知识（draft）。
+- **[learning-pyramid](skills/learning-growth/learning-pyramid/SKILL.md)** — 学习金字塔（谨慎）：纠偏假百分比，降级为主动参与启发式（draft）。
+- **[mentorship](skills/learning-growth/mentorship/SKILL.md)** — 导师制：目标—节奏—反馈—渐撤的带教协议（draft）。
+- **[meta-learning](skills/learning-growth/meta-learning/SKILL.md)** — 元学习：跨任务选择并实验「如何学」的策略菜单（draft）。
 - **[metacognition](skills/learning-growth/metacognition/SKILL.md)** — 元认知：监控并调节自己的认知过程——觉察是否理解、是否用错策略并换方法。
+- **[retrieval-practice](skills/learning-growth/retrieval-practice/SKILL.md)** — 检索练习：合上材料主动提取（测试效应），强化保持与诊断（draft）。
 - **[spaced-repetition](skills/learning-growth/spaced-repetition/SKILL.md)** — 间隔重复：主动检索 + 递增间隔的 SRS/复习日程。
+- **[t-shaped-skills](skills/learning-growth/t-shaped-skills/SKILL.md)** — T 型技能：一纵深可交付 + 多横杠可对话的能力组合（draft）。
 - **[ten-thousand-hours](skills/learning-growth/ten-thousand-hours/SKILL.md)** — 一万小时定律（澄清）：纠偏时数神话，导流刻意练习。
+- **[transfer-of-learning](skills/learning-growth/transfer-of-learning/SKILL.md)** — 迁移学习：显式设计近/远迁移变式与跨情境验收（draft）。
+- **[unlearning](skills/learning-growth/unlearning/SKILL.md)** — 去学习：有管理地退役干扰性旧知识/旧反应（draft）。
 - **[zpd](skills/learning-growth/zpd/SKILL.md)** — 最近发展区：独立/支架/做不到三带与渐撤支架。
 
-### 战略与竞争（12）
+### 战略与竞争（24）
 
-波特五力、护城河、飞轮、SWOT，以及草稿（蓝海、第二曲线、颠覆式创新、BCG、GE 九宫、麦肯锡 7S、OKR、VRIO）。
+波特五力、护城河、飞轮、SWOT、蓝海、第二曲线、颠覆式创新、BCG、GE 九宫、麦肯锡 7S、OKR、VRIO，以及本批（安索夫、BSC、价值链、通用战略/战略钟、定位、平台、RBV/核心能力、KPI）。
 
+- **[ansoff-matrix](skills/strategy-competition/ansoff-matrix/SKILL.md)** — 安索夫矩阵：现有/新市场×产品四象限增长路径与风险阶梯（draft）。
+- **[balanced-scorecard](skills/strategy-competition/balanced-scorecard/SKILL.md)** — 平衡计分卡：财务/顾客/流程/学习成长四维因果链与战略地图（draft）。
 - **[bcg-matrix](skills/strategy-competition/bcg-matrix/SKILL.md)** — BCG 矩阵：增长×相对份额四象限指导组合投砍。
 - **[blue-ocean](skills/strategy-competition/blue-ocean/SKILL.md)** — 蓝海战略：价值创新与 ERRC 重建买方效用与成本边界。
+- **[core-competence](skills/strategy-competition/core-competence/SKILL.md)** — 核心能力：跨业务共享、难模仿、打开多市场的能力组合（draft）。
+- **[cost-leadership](skills/strategy-competition/cost-leadership/SKILL.md)** — 成本领先：广阔市场结构性最低成本优势（draft）。
+- **[differentiation-strategy](skills/strategy-competition/differentiation-strategy/SKILL.md)** — 差异化战略：全市场可感知独特性与溢价（draft）。
 - **[disruptive-innovation](skills/strategy-competition/disruptive-innovation/SKILL.md)** — 颠覆式创新：低端/新市场轨迹与在位者非对称激励。
 - **[economic-moat](skills/strategy-competition/economic-moat/SKILL.md)** — 护城河：评估企业能否在竞争下维持超额回报，并识别壁垒来源与可持续性。
 - **[flywheel](skills/strategy-competition/flywheel/SKILL.md)** — 飞轮：设计或诊断互相加强的因果闭环，使每一圈投入提高下一圈效率。
 - **[ge-mckinsey-matrix](skills/strategy-competition/ge-mckinsey-matrix/SKILL.md)** — GE-麦肯锡九宫：行业吸引力×竞争实力九格指导投/选/撤。
+- **[kpi-framework](skills/strategy-competition/kpi-framework/SKILL.md)** — KPI 框架：少而尖关键指标与 Goodhart 警示（draft）。
 - **[mckinsey-7s](skills/strategy-competition/mckinsey-7s/SKILL.md)** — 麦肯锡 7S：硬三/软三绕共同价值观对齐，诊断战略落地的组织对齐。
+- **[niche-strategy](skills/strategy-competition/niche-strategy/SKILL.md)** — 利基/集中战略：窄战场上的成本或差异化焦点（draft）。
 - **[okr](skills/strategy-competition/okr/SKILL.md)** — OKR：鼓舞性目标 + 可度量关键结果对齐与复盘（非待办清单）。
+- **[platform-strategy](skills/strategy-competition/platform-strategy/SKILL.md)** — 平台战略：多边市场、网络效应、冷启动与治理变现（draft）。
 - **[porters-five-forces](skills/strategy-competition/porters-five-forces/SKILL.md)** — 波特五力：在行业层面诊断利润结构——竞争、进入、替代、买方与供方议价。
+- **[positioning](skills/strategy-competition/positioning/SKILL.md)** — 定位：目标顾客心智中的清晰可防守位置（draft）。
+- **[resource-based-view](skills/strategy-competition/resource-based-view/SKILL.md)** — 资源基础观：内生异质资源/能力解释可持续优势（draft）。
 - **[second-curve](skills/strategy-competition/second-curve/SKILL.md)** — 第二曲线：在第一增长曲线趋缓前启动下一条 S 曲线并管理输血/停投。
+- **[strategic-clock](skills/strategy-competition/strategic-clock/SKILL.md)** — 战略钟：价格×感知价值竞争路径，识别夹在中间（draft）。
 - **[swot](skills/strategy-competition/swot/SKILL.md)** — SWOT 分析：盘点内部优势/劣势×外部机会/威胁，并做 SO/WO/ST/WT 匹配导向行动。
+- **[value-chain](skills/strategy-competition/value-chain/SKILL.md)** — 价值链：主活动/支持活动拆解成本与差异化落点（draft）。
 - **[vrio](skills/strategy-competition/vrio/SKILL.md)** — VRIO：资源/能力是否有价值、稀缺、难模仿且有组织支持。
 
 ### 效率与执行（21）
