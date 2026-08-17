@@ -1,0 +1,36 @@
+{
+  "skill": "elaborative-interrogation",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "ei-should-01",
+      "type": "should_trigger",
+      "prompt": "事实记很多串不起来，怎么用精细加工提问？",
+      "expect": "触发；对命题问为什么合理。"
+    },
+    {
+      "id": "ei-should-02",
+      "type": "should_trigger",
+      "prompt": "elaborative interrogation 怎么操作？",
+      "expect": "触发精细加工提问。"
+    },
+    {
+      "id": "ei-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "整章概念完全不会讲。",
+      "expect": "分流费曼。"
+    },
+    {
+      "id": "ei-edge-01",
+      "type": "edge_case",
+      "prompt": "对交通法规也能追问物理为什么吗？",
+      "expect": "边界：约定性内容换后果加工。"
+    },
+    {
+      "id": "ei-trap-01",
+      "type": "correctness_trap",
+      "prompt": "只要不断问为什么不用写答案。",
+      "expect": "纠正：必须落笔理由并检索。"
+    }
+  ]
+}

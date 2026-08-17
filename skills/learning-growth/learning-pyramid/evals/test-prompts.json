@@ -1,0 +1,36 @@
+{
+  "skill": "learning-pyramid",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "lp-should-01",
+      "type": "should_trigger",
+      "prompt": "学习金字塔说听讲只记 10% 是真的吗？",
+      "expect": "触发；纠偏假百分比。"
+    },
+    {
+      "id": "lp-should-02",
+      "type": "should_trigger",
+      "prompt": "经验之塔怎么用在培训里？",
+      "expect": "触发谨慎使用+改证据方法。"
+    },
+    {
+      "id": "lp-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "教中学具体怎么备课？",
+      "expect": "分流 learning-by-teaching。"
+    },
+    {
+      "id": "lp-edge-01",
+      "type": "edge_case",
+      "prompt": "能不能把金字塔百分比写进论文引用？",
+      "expect": "边界：禁止当科学依据。"
+    },
+    {
+      "id": "lp-trap-01",
+      "type": "correctness_trap",
+      "prompt": "教别人就能记住 90%。",
+      "expect": "纠正：假数字；改可执行教中学。"
+    }
+  ]
+}

@@ -20,8 +20,13 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [通用思维模型](skills/thinking-models/README.md) | 25 | [目录](#通用思维模型25) |
 | [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | [目录](#认知与思维工具28) |
 | [决策与概率](skills/decision-probability/README.md) | 24 | [目录](#决策与概率24) |
+<<<<<<< HEAD
 | [学习与成长](skills/learning-growth/README.md) | 11 | [目录](#学习与成长11) |
 | [战略与竞争](skills/strategy-competition/README.md) | 24 | [目录](#战略与竞争24) |
+=======
+| [学习与成长](skills/learning-growth/README.md) | 23 | [目录](#学习与成长23) |
+| [战略与竞争](skills/strategy-competition/README.md) | 12 | [目录](#战略与竞争12) |
+>>>>>>> origin/main
 | [效率与执行](skills/efficiency-execution/README.md) | 9 | [目录](#效率与执行9) |
 | [系统与复杂](skills/systems-complexity/README.md) | 11 | [目录](#系统与复杂11) |
 | [宏观经济学理论](skills/econ-macro-theories/README.md) | 30 | [目录](#宏观经济学理论30) |
@@ -176,20 +181,32 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[sensitivity-analysis](skills/decision-probability/sensitivity-analysis/SKILL.md)** — 敏感性分析：找翻转假设与稳健区（draft）。
 - **[threshold-effect](skills/decision-probability/threshold-effect/SKILL.md)** — 阈值效应：剂量/规则门槛（≠临界点相变）（draft）。
 
-### 学习与成长（11）
+### 学习与成长（23）
 
-费曼技巧、心流、元认知、遗忘曲线、反脆弱，以及 M3 草稿（刻意练习、间隔重复、成长型思维、深度工作、ZPD、一万小时澄清）。
+费曼技巧、心流、元认知、遗忘曲线、反脆弱，M3 草稿（刻意练习、间隔重复、成长型思维、深度工作、ZPD、一万小时澄清），以及本批草稿（检索/交错/迁移、双重编码、精细加工、组块、T 型、学习金字塔纠偏、导师制、教中学、元学习、去学习）。
 
 - **[antifragility](skills/learning-growth/antifragility/SKILL.md)** — 反脆弱：设计能从波动与不确定性中获益的策略，而不只是抗住风险。
+- **[chunking](skills/learning-growth/chunking/SKILL.md)** — 组块：把离散信息打成可命名的更大单元，降低工作记忆负荷（draft）。
 - **[deep-work](skills/learning-growth/deep-work/SKILL.md)** — 深度工作：保护无干扰高认知专注块（主条在本类；效率类仅互链）。
 - **[deliberate-practice](skills/learning-growth/deliberate-practice/SKILL.md)** — 刻意练习：针对弱点、有反馈、略超舒适区的训练设计。
+- **[dual-coding](skills/learning-growth/dual-coding/SKILL.md)** — 双重编码：言语与示意表征对齐互译，增加提取线索（draft）。
+- **[elaborative-interrogation](skills/learning-growth/elaborative-interrogation/SKILL.md)** — 精细加工提问：对命题追问「为什么合理」以锚进知识网（draft）。
 - **[feynman-technique](skills/learning-growth/feynman-technique/SKILL.md)** — 费曼技巧：用简单语言「教别人」暴露理解空洞，再修补并复讲。
 - **[flow](skills/learning-growth/flow/SKILL.md)** — 心流：当挑战与技能大致匹配、目标清晰且反馈及时时，诊断并调节投入状态。
 - **[forgetting-curve](skills/learning-growth/forgetting-curve/SKILL.md)** — 遗忘曲线：解释记忆随时间衰减；复习日程操作见间隔重复。
 - **[growth-mindset](skills/learning-growth/growth-mindset/SKILL.md)** — 成长型思维：把能力视为可发展，改写反馈与目标语言（非努力万能鸡汤）。
+- **[interleaved-practice](skills/learning-growth/interleaved-practice/SKILL.md)** — 交错练习：混合易混题型以提升辨别与迁移（draft）。
+- **[learning-by-teaching](skills/learning-growth/learning-by-teaching/SKILL.md)** — 学习中教：用教学任务强制提取与组织知识（draft）。
+- **[learning-pyramid](skills/learning-growth/learning-pyramid/SKILL.md)** — 学习金字塔（谨慎）：纠偏假百分比，降级为主动参与启发式（draft）。
+- **[mentorship](skills/learning-growth/mentorship/SKILL.md)** — 导师制：目标—节奏—反馈—渐撤的带教协议（draft）。
+- **[meta-learning](skills/learning-growth/meta-learning/SKILL.md)** — 元学习：跨任务选择并实验「如何学」的策略菜单（draft）。
 - **[metacognition](skills/learning-growth/metacognition/SKILL.md)** — 元认知：监控并调节自己的认知过程——觉察是否理解、是否用错策略并换方法。
+- **[retrieval-practice](skills/learning-growth/retrieval-practice/SKILL.md)** — 检索练习：合上材料主动提取（测试效应），强化保持与诊断（draft）。
 - **[spaced-repetition](skills/learning-growth/spaced-repetition/SKILL.md)** — 间隔重复：主动检索 + 递增间隔的 SRS/复习日程。
+- **[t-shaped-skills](skills/learning-growth/t-shaped-skills/SKILL.md)** — T 型技能：一纵深可交付 + 多横杠可对话的能力组合（draft）。
 - **[ten-thousand-hours](skills/learning-growth/ten-thousand-hours/SKILL.md)** — 一万小时定律（澄清）：纠偏时数神话，导流刻意练习。
+- **[transfer-of-learning](skills/learning-growth/transfer-of-learning/SKILL.md)** — 迁移学习：显式设计近/远迁移变式与跨情境验收（draft）。
+- **[unlearning](skills/learning-growth/unlearning/SKILL.md)** — 去学习：有管理地退役干扰性旧知识/旧反应（draft）。
 - **[zpd](skills/learning-growth/zpd/SKILL.md)** — 最近发展区：独立/支架/做不到三带与渐撤支架。
 
 ### 战略与竞争（24）
