@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[索洛增长模型](../solow-growth-model/SKILL.md)**：外生 vs 内生技术；先分清问题层级。
 - **与[创造性破坏](../creative-destruction/SKILL.md)**：熊彼特竞争式创新引擎。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：增长累积；内生理论解释增速从哪来。

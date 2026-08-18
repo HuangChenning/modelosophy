@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[供给学派](../supply-side-economics/SKILL.md)**：政策工具箱重叠；涓滴是分配叙事标签。
 - **与[拉弗曲线](../laffer-curve/SKILL.md)**：常被绑销售，机制不同。
 - **与[库兹涅茨曲线](../kuznets-curve/SKILL.md)**：不平等路径经验；非政策保证。

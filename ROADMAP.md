@@ -2,6 +2,22 @@
 
 记录项目当前进展：哪些工作已经完整交付，哪些还在待办队列。按主题分组，而不是按时间顺序。
 
+## 已完成：全库结构审计与机械修复（2026-08-19）
+
+对 `skills/` 下全部 350 个 `SKILL.md` 跑了自动化结构校验 + 抽样人工审读，发现"已完成"在不同批次里成色不一——最早的一批（`thinking-models` 原 4 个种子 + 六分类迁入的 19 个种子）扎实；后续"名录扩充分类轮"批量新建的 ~280 个明显降规格。**已修复的机械性问题**：
+
+- 删除了 `econ-macro-theories` 全部 **30 个**文件里泄漏的内部写作说明文字（`> 只链到本批或仓库中真实路径；跨分类用相对路径。`）——这是批量生成流程遗留的脚手架文字，不该出现在正式产出里。
+- 修了 `business/org-it-intel-report` 的 frontmatter（`author`/`version` 移入 `metadata`，此前和 ThinkingModels 早期同款问题一样未处理）。
+- 全库 350 个 `SKILL.md` 的 frontmatter 现在 **100% 通过** `internal/skill-creator/scripts/quick_validate.py`。
+
+**尚未修复、如实记录的差距**（不是"已完成"，避免本文件继续误导）：
+
+| 问题 | 规模 | 备注 |
+|---|---|---|
+| 仍为 `v0.x-draft` | 350 个里 **280 个（80%）** | 按 CLAUDE.md 规则，草稿不是"成品"；README 的"350 个可执行 Skill"目前没有区分 draft 和已验证 |
+| 缺模板强制的「常见误用」章节 | **50 个**，含原 `occams-razor`/`antifragility`/`socratic-questioning` | 之前的「Phase 3 迁入19旧稿常见误用回填」只覆盖了六分类轮的 19 个，第二轮 25 个迁入 + 全部新建 draft 都没覆盖 |
+| evals 深度不足、未盲测 | 除 `thinking-models`（平均 10 条/skill，已盲测）外，其余 12 类平均仅 **5～6 条**/skill，均未做独立 sub-agent 盲测 | 抽样未发现明显事实/定义错误，但样本只有 6 个，不能排除 |
+
 ## 已完成
 
 ### 项目定位与文档骨架
@@ -409,8 +425,14 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 
 ## 待办：其他
 
+### 补齐 50 个 skill 缺失的「常见误用」章节
+需要逐个按模型真实机制写，不能填通用套话——2026-08-19 审计发现的具体清单见对应审计记录；含 `cognitive-thinking-tools/occams-razor`、`learning-growth/antifragility`、`thinking-models/socratic-questioning` 等我们早期做过的 skill。
+
+### 280 个 v0.x-draft skill 的内容正确性深度审查
+2026-08-19 只抽样读了 6 个（`econ-macro-theories/ad-as-model`、`finance-investing-models/black-scholes`、`game-theory-models/prisoners-dilemma`、迁移后的 `occams-razor`/`antifragility` 等），未发现事实错误但样本太小。需要扩大抽样面，尤其是批量新建、从未经过苏格拉底式质疑自检的那 ~280 个。
+
 ### org-it-intel-report 可选硬化
-官方 frontmatter / `quick_validate` 等（非阻塞）。
+~~官方 frontmatter / `quick_validate` 等（非阻塞）。~~ **已完成（2026-08-19）**：`author`/`version` 移入 `metadata` 嵌套字段，通过 `quick_validate.py`。
 
 ### huawei-customer-insight
 规格在本机 `docs/华为方法论/04-客户洞察Skill需求说明文档.md`，尚未实现。

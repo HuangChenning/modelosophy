@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[内生增长理论](../endogenous-growth-theory/SKILL.md)**：把 A 的增速内生化。
 - **与[马尔萨斯陷阱](../malthusian-trap/SKILL.md)**：前现代对照。
 - **与[创造性破坏](../creative-destruction/SKILL.md)**：创新如何进 TFP。

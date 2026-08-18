@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[不可能三角](../impossible-trinity/SKILL.md)**：政策约束 vs 长期锚。
 - **与[费雪方程](../fisher-equation/SKILL.md)**：名义量；汇率与货币通胀联动叙事可拼。
 - **与[货币主义](../monetarism/SKILL.md)**：长期货币—物价。

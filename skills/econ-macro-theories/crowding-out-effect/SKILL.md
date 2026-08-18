@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[乘数效应](../multiplier-effect/SKILL.md)**：同屏对账。
 - **与[IS-LM 模型](../is-lm-model/SKILL.md)**：利率挤出的教室机制。
 - **与[李嘉图等价](../ricardian-equivalence/SKILL.md)**：另一类私人对冲。

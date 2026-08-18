@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[货币主义](../monetarism/SKILL.md)**：政策化数量论。
 - **与[MMT](../modern-monetary-theory/SKILL.md)**：对「钱从哪来」叙事冲突——对照用。
 - **与[泰勒规则](../taylor-rule/SKILL.md)**：利率工具时代的名义锚操作。

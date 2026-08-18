@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[货币主义](../monetarism/SKILL.md)**：自然率与长期垂直曲线。
 - **与[理性预期](../rational-expectations/SKILL.md)**：预期内生化改变曲线。
 - **与[泰勒规则](../taylor-rule/SKILL.md)**：按通胀与产出缺口设利率，隐含菲利普斯权衡。

@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[凯恩斯主义](../keynesianism/SKILL.md)**：投资是有效需求关键组件；Q 是微观动机指标。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：长期资本积累叙事不同层；Q 是增量投资开关。
 - **与[创造性破坏](../creative-destruction/SKILL.md)**：高 Q 行业吸引进入，加速破坏。

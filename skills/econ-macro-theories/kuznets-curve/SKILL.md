@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[涓滴经济学](../trickle-down-economics/SKILL.md)**：都易被误读为「等待渗透」；本模型是经验假说。
 - **与[索洛增长模型](../solow-growth-model/SKILL.md)**：增长引擎；不自动含分配。
 - **与[帕累托法则](../../systems-classic-effects/pareto-principle/SKILL.md)**：结果集中度另一描述，非发展倒 U。

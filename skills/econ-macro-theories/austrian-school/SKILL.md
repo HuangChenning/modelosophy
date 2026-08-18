@@ -58,8 +58,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[看不见的手](../invisible-hand/SKILL.md)**：奥派把自发秩序理论化；看不见的手是更早隐喻。
 - **与[创造性破坏](../creative-destruction/SKILL.md)**：熊彼特创新破坏与奥派企业家发现相邻但不等同。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：信用扩张与内生不稳定可用系统反馈视角补强；金融专题待 finance 分类补齐。

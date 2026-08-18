@@ -58,8 +58,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[李嘉图等价](../ricardian-equivalence/SKILL.md)**：理性预期下发债≈征税的极端情形。
 - **与[菲利普斯曲线](../phillips-curve/SKILL.md)**：预期嵌入后长期曲线变垂直。
 - **与[泰勒规则](../taylor-rule/SKILL.md)**：规则型政策便于预期协调。

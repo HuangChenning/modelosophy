@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[朱格拉周期](../juglar-cycle/SKILL.md)**：约 7–11 年投资周期。
 - **与[基钦周期](../kitchin-cycle/SKILL.md)**：约 3–5 年库存。
 - **与[创造性破坏](../creative-destruction/SKILL.md)**：技术浪潮机制叙事近亲。
