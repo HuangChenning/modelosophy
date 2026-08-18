@@ -10,26 +10,29 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 这个仓库还处于早期阶段。`skills/<category>/` 下合计 **350** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
+**这 350 个的完成度并不一样，而且这个差别很重要。** 其中只有 **70** 个走完了完整流程——从一手学科来源蒸馏、过了强制的苏格拉底式质疑自检、并做过盲测——标记为 `version: v1.0`。另外 **280** 个是 `v0.x-draft`：按主题名录批量撰写，通过了结构校验、配了最小 evals，但**从未盲测**，内容正确性审查也是最近才开始做。草稿可以当有用的起点，但不要当作已核验的参考资料。每个 Skill 的 `metadata.version` 字段标明了它属于哪一类。
+
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
 分类一览（逐条简介见文末 [Skill 目录](#skill-目录)）：
 
-| 分类 | 数量 | 目录 |
-| --- | ---: | --- |
-| [商业 / 组织情报](skills/business/README.md) | 1 | [目录](#商业--组织情报1) |
-| [通用思维模型](skills/thinking-models/README.md) | 25 | [目录](#通用思维模型25) |
-| [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | [目录](#认知与思维工具28) |
-| [决策与概率](skills/decision-probability/README.md) | 24 | [目录](#决策与概率24) |
-| [学习与成长](skills/learning-growth/README.md) | 23 | [目录](#学习与成长23) |
-| [战略与竞争](skills/strategy-competition/README.md) | 24 | [目录](#战略与竞争24) |
-| [效率与执行](skills/efficiency-execution/README.md) | 21 | [目录](#效率与执行21) |
-| [系统与复杂](skills/systems-complexity/README.md) | 23 | [目录](#系统与复杂23) |
-| [宏观经济学理论](skills/econ-macro-theories/README.md) | 30 | [目录](#宏观经济学理论30) |
-| [微观经济学与市场](skills/econ-micro-markets/README.md) | 30 | [目录](#微观经济学与市场30) |
-| [博弈论与策略](skills/game-theory-models/README.md) | 31 | [目录](#博弈论与策略31) |
-| [行为经济学与偏误](skills/behavioral-biases/README.md) | 30 | [目录](#行为经济学与偏误30) |
-| [金融与投资](skills/finance-investing-models/README.md) | 30 | [目录](#金融与投资30) |
-| [系统与经典效应](skills/systems-classic-effects/README.md) | 30 | [目录](#系统与经典效应30) |
+| 分类 | 合计 | `v1.0` | `v0.x-draft` | 目录 |
+| --- | ---: | ---: | ---: | --- |
+| [商业 / 组织情报](skills/business/README.md) | 1 | 1 | 0 | [目录](#商业--组织情报1) |
+| [通用思维模型](skills/thinking-models/README.md) | 25 | 25 | 0 | [目录](#通用思维模型25) |
+| [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | 8 | 20 | [目录](#认知与思维工具28) |
+| [决策与概率](skills/decision-probability/README.md) | 24 | 2 | 22 | [目录](#决策与概率24) |
+| [学习与成长](skills/learning-growth/README.md) | 23 | 5 | 18 | [目录](#学习与成长23) |
+| [战略与竞争](skills/strategy-competition/README.md) | 24 | 4 | 20 | [目录](#战略与竞争24) |
+| [效率与执行](skills/efficiency-execution/README.md) | 21 | 2 | 19 | [目录](#效率与执行21) |
+| [系统与复杂](skills/systems-complexity/README.md) | 23 | 4 | 19 | [目录](#系统与复杂23) |
+| [宏观经济学理论](skills/econ-macro-theories/README.md) | 30 | 0 | 30 | [目录](#宏观经济学理论30) |
+| [微观经济学与市场](skills/econ-micro-markets/README.md) | 30 | 1 | 29 | [目录](#微观经济学与市场30) |
+| [博弈论与策略](skills/game-theory-models/README.md) | 31 | 1 | 30 | [目录](#博弈论与策略31) |
+| [行为经济学与偏误](skills/behavioral-biases/README.md) | 30 | 9 | 21 | [目录](#行为经济学与偏误30) |
+| [金融与投资](skills/finance-investing-models/README.md) | 30 | 1 | 29 | [目录](#金融与投资30) |
+| [系统与经典效应](skills/systems-classic-effects/README.md) | 30 | 7 | 23 | [目录](#系统与经典效应30) |
+| **合计** | **350** | **70** | **280** | |
 
 另有原属通用思维模型库的 Skill 已分批迁入学科分类（含本轮 **25** 条迁入认知/决策/学习/战略/效率/复杂系统），只在新分类下列出。
 
@@ -68,7 +71,13 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计 **350** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 143）。清单新补条目多为 `v0.x-draft`，尚待压力测试；编写规范仍可能随库扩张调整。
+库仍处于早期：跨分类合计 **350** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 143）。已知的欠缺，如实列出：
+
+- **80% 是未经验证的草稿。** 350 个里有 280 个是 `v0.x-draft`（逐分类拆分见上表）。它们 frontmatter 合规、模板结构完整、配了最小 evals，但**没有做过盲测**。
+- **evals 深度不均。** `thinking-models` 平均每个 Skill 约 10 条测试用例且做过盲测；其余所有分类平均只有 5–6 条，且从未盲测。有 evals 文件不等于该 Skill 的触发判断已被验证。
+- **内容审查只做了一部分。** 2026-08-19 的一轮审计精读了六个批量生成分类中的 123 个文件，修掉 3 处实质问题（公式下标被形近的非拉丁字符顶替、一处经典实验细节记错、两个同名但不同的公式撞名未做区分）。质量比预期好，但覆盖并不完整——具体哪些分类和文件审过、哪些没审，见 [`ROADMAP.md`](ROADMAP.md)。
+
+编写规范仍可能随库扩张调整。
 
 ## 贡献一个思维模型
 

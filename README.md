@@ -10,26 +10,29 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 This repository is early. There are **350** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
+**Not all 350 are equally finished, and the difference matters.** Only **70** have been through the full pipeline — distilled from primary sources, stress-tested with the mandatory Socratic self-check, and blind-tested — and carry `version: v1.0`. The other **280** are `v0.x-draft`: batch-authored from a topic roster, structurally validated and given a minimal eval set, but never blind-tested and (until recently) never content-reviewed. Treat drafts as useful starting points, not vetted references. Every skill's `metadata.version` tells you which it is.
+
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
 Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 
-| Category | Count | Index |
-| --- | ---: | --- |
-| [Business / Org Intel](skills/business/README.md) | 1 | [index](#business-/-org-intel1) |
-| [Thinking Models](skills/thinking-models/README.md) | 25 | [index](#thinking-models25) |
-| [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 28 | [index](#cognitive-thinking-tools28) |
-| [Decision & Probability](skills/decision-probability/README.md) | 24 | [index](#decision--probability24) |
-| [Learning & Growth](skills/learning-growth/README.md) | 23 | [index](#learning--growth23) |
-| [Strategy & Competition](skills/strategy-competition/README.md) | 24 | [index](#strategy--competition24) |
-| [Efficiency & Execution](skills/efficiency-execution/README.md) | 21 | [index](#efficiency--execution21) |
-| [Systems & Complexity](skills/systems-complexity/README.md) | 23 | [index](#systems--complexity23) |
-| [Macroeconomic Theories](skills/econ-macro-theories/README.md) | 30 | [index](#macroeconomic-theories30) |
-| [Microeconomics & Markets](skills/econ-micro-markets/README.md) | 30 | [index](#microeconomics--markets30) |
-| [Game Theory & Strategy](skills/game-theory-models/README.md) | 31 | [index](#game-theory--strategy31) |
-| [Behavioral Biases](skills/behavioral-biases/README.md) | 30 | [index](#behavioral-biases30) |
-| [Finance & Investing](skills/finance-investing-models/README.md) | 30 | [index](#finance--investing30) |
-| [Systems & Classic Effects](skills/systems-classic-effects/README.md) | 30 | [index](#systems--classic-effects30) |
+| Category | Total | `v1.0` | `v0.x-draft` | Index |
+| --- | ---: | ---: | ---: | --- |
+| [Business / Org Intel](skills/business/README.md) | 1 | 1 | 0 | [index](#business-/-org-intel1) |
+| [Thinking Models](skills/thinking-models/README.md) | 25 | 25 | 0 | [index](#thinking-models25) |
+| [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 28 | 8 | 20 | [index](#cognitive-thinking-tools28) |
+| [Decision & Probability](skills/decision-probability/README.md) | 24 | 2 | 22 | [index](#decision--probability24) |
+| [Learning & Growth](skills/learning-growth/README.md) | 23 | 5 | 18 | [index](#learning--growth23) |
+| [Strategy & Competition](skills/strategy-competition/README.md) | 24 | 4 | 20 | [index](#strategy--competition24) |
+| [Efficiency & Execution](skills/efficiency-execution/README.md) | 21 | 2 | 19 | [index](#efficiency--execution21) |
+| [Systems & Complexity](skills/systems-complexity/README.md) | 23 | 4 | 19 | [index](#systems--complexity23) |
+| [Macroeconomic Theories](skills/econ-macro-theories/README.md) | 30 | 0 | 30 | [index](#macroeconomic-theories30) |
+| [Microeconomics & Markets](skills/econ-micro-markets/README.md) | 30 | 1 | 29 | [index](#microeconomics--markets30) |
+| [Game Theory & Strategy](skills/game-theory-models/README.md) | 31 | 1 | 30 | [index](#game-theory--strategy31) |
+| [Behavioral Biases](skills/behavioral-biases/README.md) | 30 | 9 | 21 | [index](#behavioral-biases30) |
+| [Finance & Investing](skills/finance-investing-models/README.md) | 30 | 1 | 29 | [index](#finance--investing30) |
+| [Systems & Classic Effects](skills/systems-classic-effects/README.md) | 30 | 7 | 23 | [index](#systems--classic-effects30) |
+| **Total** | **350** | **70** | **280** | |
 
 Skills formerly under Thinking Models have been moved into domain categories in batches (including **25** this round into cognitive / decision / learning / strategy / efficiency / complexity); they are listed only under the new categories.
 
@@ -68,7 +71,13 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **350** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 143). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
+The library is still early — **350** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 143). Known gaps, stated plainly:
+
+- **80% are unverified drafts.** 280 of 350 are `v0.x-draft` (see the table above for the per-category split). They have valid frontmatter, the full template structure, and a minimal eval set, but have not been blind-tested.
+- **Eval depth is uneven.** `thinking-models` averages ~10 test cases per skill and was blind-tested; every other category averages 5–6 cases and has never been blind-tested. A passing eval file is not evidence a skill triggers correctly.
+- **Content review is partial.** A 2026-08-19 audit read 123 files across six batch-generated categories and fixed 3 real issues (a mojibake'd formula subscript, a misremembered experiment detail, a naming clash between two same-named formulas). Quality held up better than expected, but coverage is incomplete — see [`ROADMAP.md`](ROADMAP.md) for exactly which categories and files have and haven't been reviewed.
+
+Conventions may still change as the library grows.
 
 ## Contributing a mental model
 

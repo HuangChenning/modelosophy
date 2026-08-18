@@ -442,11 +442,15 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 
 ## 待办：其他
 
-### 补齐 50 个 skill 缺失的「常见误用」章节
-需要逐个按模型真实机制写，不能填通用套话——2026-08-19 审计发现的具体清单见对应审计记录；含 `cognitive-thinking-tools/occams-razor`、`learning-growth/antifragility`、`thinking-models/socratic-questioning` 等我们早期做过的 skill。
+### ~~补齐 50 个 skill 缺失的「常见误用」章节~~ — 已完成（2026-08-19）
+50 个全部补齐，逐条按模型自身机制撰写。详见上文「已完成：全库结构审计与机械修复」。
 
-### 280 个 v0.x-draft skill 的内容正确性深度审查
-2026-08-19 只抽样读了 6 个（`econ-macro-theories/ad-as-model`、`finance-investing-models/black-scholes`、`game-theory-models/prisoners-dilemma`、迁移后的 `occams-razor`/`antifragility` 等），未发现事实错误但样本太小。需要扩大抽样面，尤其是批量新建、从未经过苏格拉底式质疑自检的那 ~280 个。
+### 内容正确性深度审查 — 部分完成（2026-08-19），仍有覆盖缺口
+已精读 **123** 个文件（六个批量 draft 分类，约占其 171 条的 72%），修掉 3 处实质问题。**仍未覆盖**：
+- 上述六分类里约 **48** 个未读条目；
+- `cognitive-thinking-tools` / `decision-probability` / `learning-growth` / `strategy-competition` / `efficiency-execution` / `systems-complexity` / `thinking-models` 这 **7 个分类完全未做**内容正确性审查（只过了结构审计）。
+
+详见上文「内容正确性抽样深审」。
 
 ### org-it-intel-report 可选硬化
 ~~官方 frontmatter / `quick_validate` 等（非阻塞）。~~ **已完成（2026-08-19）**：`author`/`version` 移入 `metadata` 嵌套字段，通过 `quick_validate.py`。
