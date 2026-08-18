@@ -101,6 +101,13 @@ metadata:
 - **医学化**：化学物质、衰老相关条目不作临床诊断；涉及健康交专业人士。
 - **替代激励设计**：若根因是奖惩合同本身，改合同优先于心理说教。
 
+## 常见误用
+
+- **把清单写成小作文**：25 条逐一展开成教程式说明，而不是按步骤2只标记 3–7 条并各用一句话说明机制 → 变成资料汇编，失去诊断功能，命中的单条应移交专用 skill 深挖。
+- **命中单条却赖着不走**：某个倾向已有专用 skill（如 confirmation-bias）却在本 skill 里继续展开分析，违反“单倾向→立即路由”的核心规则。
+- **拿倾向词当骂人的话**：给某人贴上“他就是自视过高型人格”之类标签，把机制描述变成对人的道德污名。
+- **扫完清单就收工**：走完 25 格便宣称已排除误判风险，却没有判断是否 ≥3 条同向叠加（步骤4 Lollapalooza 协议），也没产出步骤5的具体防护清单。
+
 ## 相关模型
 
 - **与各专用 bias skill**：本模型扫描与路由；细节执行在 confirmation-bias、availability-heuristic、loss-aversion、prospect-theory、dunning-kruger、spiral-of-silence、forgetting-curve、dual-process 等。
