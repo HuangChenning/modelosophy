@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[凯恩斯主义](../keynesianism/SKILL.md)**：乘数是凯派刺激定量核心。
 - **与[挤出效应](../crowding-out-effect/SKILL.md)**：抵消乘数。
 - **与[李嘉图等价](../ricardian-equivalence/SKILL.md)**：预期增税对冲支出。

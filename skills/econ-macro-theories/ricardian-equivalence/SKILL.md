@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[理性预期](../rational-expectations/SKILL.md)**：预期税收是机制核心。
 - **与[乘数效应](../multiplier-effect/SKILL.md)**：等价越强乘数越小。
 - **与[凯恩斯主义](../keynesianism/SKILL.md)**：凯派默认等价不完全。

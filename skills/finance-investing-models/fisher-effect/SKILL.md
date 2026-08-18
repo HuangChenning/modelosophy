@@ -58,6 +58,7 @@ metadata:
 
 ## 相关模型
 
+- **与[货币数量方程](../../econ-macro-theories/fisher-equation/SKILL.md)**：同为 Fisher 提出但公式不同——本条目是 i≈r+πᵉ（名义—实际利率）；对方是 MV=PQ（货币—物价）。用户说"费雪方程"但问的是货币/通胀总量关系，走货币数量方程。
 - **与[DCF](../dcf/SKILL.md)**：折现率口径必须名义/实际一致。
 - **与[市盈率市净率](../pe-pb-valuation/SKILL.md)**：利率与通胀体制改变合理倍数。
 - **与[复利](../compounding/SKILL.md)**：长期实际复利才接近购买力真相。

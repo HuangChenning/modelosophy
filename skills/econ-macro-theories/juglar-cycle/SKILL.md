@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[基钦周期](../kitchin-cycle/SKILL.md)**：更短库存波可叠在朱格拉上。
 - **与[康德拉季耶夫长波](../kondratiev-wave/SKILL.md)**：更长技术波。
 - **与[乘数效应](../multiplier-effect/SKILL.md)**：投资波动经乘数放大产出。

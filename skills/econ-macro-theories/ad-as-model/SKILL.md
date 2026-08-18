@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[IS-LM 模型](../is-lm-model/SKILL.md)**：常用于构建 AD；本模型加 AS 与物价。
 - **与[菲利普斯曲线](../phillips-curve/SKILL.md)**：通胀—失业经验，可与 AD-AS 互译。
 - **与[供给学派](../supply-side-economics/SKILL.md)**：移动长期 AS。

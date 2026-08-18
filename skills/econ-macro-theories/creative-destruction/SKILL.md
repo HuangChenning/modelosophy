@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[内生增长理论](../endogenous-growth-theory/SKILL.md)**：创新驱动增长的现代形式。
 - **与[奥地利学派](../austrian-school/SKILL.md)**：企业家发现相邻。
 - **与[路径依赖](../../systems-classic-effects/path-dependence/SKILL.md)**：旧标准锁定可阻挠破坏。

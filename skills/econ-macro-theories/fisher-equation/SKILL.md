@@ -1,20 +1,25 @@
 ---
 name: fisher-equation
 description: >
-  用 MV=PQ 做货币—名义收入直觉推演，并严格检查 V 与 Y 假设。Use when 费雪方程、MV=PQ、货币数量论。不适用于 V 剧烈波动时仍当精确预测式。
+  用货币数量方程 MV=PQ 做货币—名义收入直觉推演，并严格检查 V 与 Y 假设。Use when MV=PQ、货币数量论、
+  "印钱是不是一对一变通胀"。不适用于 V 剧烈波动时仍当精确预测式。**注意**：若用户说的是"费雪方程/
+  费雪效应"且指名义利率≈实际利率+预期通胀，那是同名但不同的公式，应走
+  [fisher-effect](../../finance-investing-models/fisher-effect/SKILL.md)。
 metadata:
   author: modelosophy
   version: v0.x-draft
   source: Fisher；货币数量论；V 不稳定文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 
-# 费雪方程 Fisher Equation / Quantity Theory (MV=PQ)
+# 货币数量方程 Quantity Theory of Money (MV=PQ)
+
+> **命名提醒**：这条也常被称作"费雪方程"（源自 Irving Fisher 的交易方程 MV=PQ），但英文语境下更常用 "Fisher equation" 特指**另一个**公式——名义利率≈实际利率+预期通胀（i≈r+πᵉ）。那个公式见 [fisher-effect](../../finance-investing-models/fisher-effect/SKILL.md)，本条目只讲 MV=PQ 这一支。
 
 ## 这是什么
 
 **MV=PQ：货币量×流通速度≈物价水平×产出；常用于名义锚定直觉。**
 
-提出者/源流：Irving Fisher（货币数量方程传统）。若 V 相对稳定、短期 Y 粘在潜在水平附近，则 M 增长主要映入 P。现实中 V 不稳、Y 可变，故方程是会计恒等+行为假设，不是自动政策机器。另：费雪效应侧重名义利率≈实际利率+预期通胀（可在步骤中区分，避免混名）。
+提出者/源流：Irving Fisher（货币数量方程传统）。若 V 相对稳定、短期 Y 粘在潜在水平附近，则 M 增长主要映入 P。现实中 V 不稳、Y 可变，故方程是会计恒等+行为假设，不是自动政策机器。
 
 ## 什么时候用
 
@@ -57,8 +62,7 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
+- **与[费雪效应](../../finance-investing-models/fisher-effect/SKILL.md)**：同源不同公式——本条目是 MV=PQ（货币—物价）；费雪效应是 i≈r+πᵉ（名义—实际利率）。用户说"费雪方程"但问的是利率，走费雪效应。
 - **与[货币主义](../monetarism/SKILL.md)**：政策化数量论。
 - **与[MMT](../modern-monetary-theory/SKILL.md)**：对「钱从哪来」叙事冲突——对照用。
 - **与[泰勒规则](../taylor-rule/SKILL.md)**：利率工具时代的名义锚操作。

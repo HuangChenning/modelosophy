@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[菲利普斯曲线](../phillips-curve/SKILL.md)**：通胀—闲置资源权衡进入规则。
 - **与[理性预期](../rational-expectations/SKILL.md)**：规则利于预期锚定。
 - **与[货币主义](../monetarism/SKILL.md)**：规则优于纯相机抉择的亲戚。

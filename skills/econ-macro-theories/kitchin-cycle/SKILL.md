@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[朱格拉周期](../juglar-cycle/SKILL.md)**：中期投资波；短波叠加上去。
 - **与[AD-AS 模型](../ad-as-model/SKILL.md)**：库存调整是需求短期波动机制之一。
 - **与[蝴蝶效应](../../systems-classic-effects/butterfly-effect/SKILL.md)**：小订单误差经供应链放大——可连用但勿神化。

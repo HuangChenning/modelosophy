@@ -57,8 +57,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[索洛增长模型](../solow-growth-model/SKILL.md)**：现代增长核算；马尔萨斯是前现代对照。
 - **与[内生增长理论](../endogenous-growth-theory/SKILL.md)**：知识突破马尔萨斯土地逻辑。
 - **与[长期主义](../../thinking-models/long-term-thinking/SKILL.md)**：跨代人均议题可连用，但机制不同。

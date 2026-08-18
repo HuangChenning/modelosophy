@@ -2,6 +2,39 @@
 
 记录项目当前进展：哪些工作已经完整交付，哪些还在待办队列。按主题分组，而不是按时间顺序。
 
+## 已完成：全库结构审计与机械修复（2026-08-19）
+
+对 `skills/` 下全部 350 个 `SKILL.md` 跑了自动化结构校验 + 抽样人工审读，发现"已完成"在不同批次里成色不一——最早的一批（`thinking-models` 原 4 个种子 + 六分类迁入的 19 个种子）扎实；后续"名录扩充分类轮"批量新建的 ~280 个明显降规格。**已修复的机械性问题**：
+
+- 删除了 `econ-macro-theories` 全部 **30 个**文件里泄漏的内部写作说明文字（`> 只链到本批或仓库中真实路径；跨分类用相对路径。`）——这是批量生成流程遗留的脚手架文字，不该出现在正式产出里。
+- 修了 `business/org-it-intel-report` 的 frontmatter（`author`/`version` 移入 `metadata`，此前和 ThinkingModels 早期同款问题一样未处理）。
+- 全库 350 个 `SKILL.md` 的 frontmatter 现在 **100% 通过** `internal/skill-creator/scripts/quick_validate.py`。
+
+**已修复的机械问题**（2026-08-19 同一轮）：
+
+| 问题 | 规模 | 处理 |
+|---|---|---|
+| 脚手架文字泄漏 | `econ-macro-theories` 全部 30 个文件 | 已删除 |
+| `business/org-it-intel-report` frontmatter 非法字段 | 1 个 | 已修（`author`/`version` 移入 `metadata`） |
+| 缺模板强制的「常见误用」章节 | **50 个**，含原 `occams-razor`/`antifragility`/`socratic-questioning` | **已全部补齐**（分 4 组由独立 agent 完成，逐条基于模型自身机制撰写，非套话；之前的「Phase 3 迁入19旧稿常见误用回填」只覆盖了六分类轮的 19 个，这次一并补上了第二轮 25 个迁入 + 全部新建 draft 里缺失的部分） |
+
+**内容正确性抽样深审**（2026-08-19，覆盖 `econ-macro-theories`/`econ-micro-markets`/`game-theory-models`/`behavioral-biases`/`finance-investing-models`/`systems-classic-effects` 六个从未做过内容审查的批量 draft 分类，实际精读 **123/171** 个文件，约 72%，超出预期抽样比例）：
+
+- **总体结论**：这批未经苏格拉底式自检的批量 draft，内容正确性明显好于预期——精读 123 个只发现 **3 处**实质问题，全部已修复，且都不是"批量生产常见"的公式方向/定义错误那类硬伤：
+  1. `finance-investing-models/capm/SKILL.md` 公式里的下标 f 被替换成了形近的亚美尼亚字母 "բ"（Unicode 混淆，机械性 bug）——已改回 ASCII。
+  2. `behavioral-biases/anchoring/SKILL.md` 例证把 Tversky & Kahneman 1974 转盘实验的问法（"联合国里非洲国家占比"）错记成"联合国国家数估计"——已按原始实验措辞改正。
+  3. `econ-macro-theories/fisher-equation/SKILL.md` 标题叫"费雪方程"，正文却全讲货币数量方程 MV=PQ，与 `finance-investing-models/fisher-effect`（i≈r+πᵉ）撞名——已加醒目的命名提醒、调整 description 触发词、并在两边"相关模型"互相加了区分链接。
+- 公式方向/正负号、边界与执行步骤是否自相矛盾、术语是否被偷换、例证是否支持其声称的论点——这几类 CLAUDE.md 规定的苏格拉底式质疑重点检查项，在抽样范围内**没有**发现更严重的问题。
+- **未覆盖部分**：171 个文件里仍有约 48 个未读（详见各审查 agent 报告里列出的具体清单，例如 game-theory-models 的 core/bayesian-games/matching-theory 等、behavioral-biases 的 authority-bias/social-proof 等），`decision-probability`/`efficiency-execution`/`learning-growth`/`strategy-competition`/`systems-complexity`/`cognitive-thinking-tools`/`thinking-models`（除本轮常见误用回填时顺带读过的部分）**完全没有做过内容正确性审查**，只做过结构审计。
+
+**仍未做、如实记录的差距**：
+
+| 问题 | 规模 | 备注 |
+|---|---|---|
+| 仍为 `v0.x-draft` | 350 个里 **280 个（80%）** | 按 CLAUDE.md 规则，草稿不是"成品"；README 的"350 个可执行 Skill"目前没有区分 draft 和已验证 |
+| evals 深度不足、未盲测 | 除 `thinking-models`（平均 10 条/skill，已盲测）外，其余 12 类平均仅 **5～6 条**/skill，均未做独立 sub-agent 盲测 | 内容正确性抽样审查不能替代盲测——盲测验证的是"触发/不触发判断是否准确"，两者维度不同 |
+| 内容正确性审查覆盖面 | 171 个抽样里约 48 个未读；`decision-probability` 等 7 个分类完全未审查 | 已读部分质量好于预期，但不能外推到未读部分 |
+
 ## 已完成
 
 ### 项目定位与文档骨架
@@ -409,8 +442,14 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 
 ## 待办：其他
 
+### 补齐 50 个 skill 缺失的「常见误用」章节
+需要逐个按模型真实机制写，不能填通用套话——2026-08-19 审计发现的具体清单见对应审计记录；含 `cognitive-thinking-tools/occams-razor`、`learning-growth/antifragility`、`thinking-models/socratic-questioning` 等我们早期做过的 skill。
+
+### 280 个 v0.x-draft skill 的内容正确性深度审查
+2026-08-19 只抽样读了 6 个（`econ-macro-theories/ad-as-model`、`finance-investing-models/black-scholes`、`game-theory-models/prisoners-dilemma`、迁移后的 `occams-razor`/`antifragility` 等），未发现事实错误但样本太小。需要扩大抽样面，尤其是批量新建、从未经过苏格拉底式质疑自检的那 ~280 个。
+
 ### org-it-intel-report 可选硬化
-官方 frontmatter / `quick_validate` 等（非阻塞）。
+~~官方 frontmatter / `quick_validate` 等（非阻塞）。~~ **已完成（2026-08-19）**：`author`/`version` 移入 `metadata` 嵌套字段，通过 `quick_validate.py`。
 
 ### huawei-customer-insight
 规格在本机 `docs/华为方法论/04-客户洞察Skill需求说明文档.md`，尚未实现。

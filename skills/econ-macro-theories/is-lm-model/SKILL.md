@@ -58,8 +58,6 @@ metadata:
 
 ## 相关模型
 
-> 只链到本批或仓库中真实路径；跨分类用相对路径。
-
 - **与[AD-AS 模型](../ad-as-model/SKILL.md)**：加入物价层；IS-LM 常作推导 AD 的中间步骤。
 - **与[挤出效应](../crowding-out-effect/SKILL.md)**：IS 右移沿 LM 爬升即挤出机制之一。
 - **与[乘数效应](../multiplier-effect/SKILL.md)**：IS 右移幅度与乘数相关。
