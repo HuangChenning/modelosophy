@@ -268,6 +268,8 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 
 ## 待办：名录扩充分类（第七–十二类 + 与既有六分类对账）
 
+> **本阶段状态**：M0–M5 全部里程碑已完成（见下「3. 分批里程碑」全部 `[x]`）。**真正剩余的待办**只有 3 个分类未达到名录 ~30/类的目标：`learning-growth`（现 23，缺 ~7）、`strategy-competition`（现 24，缺 ~6）、`efficiency-execution`（现 21，缺 ~9）——候选主题见下「4. 条目状态速查」里标"待新建"的行。这是刻意暂停，不是遗漏（见「5. 本阶段明确不做」：不批量撰写待新建条目正文）。
+
 > **硬约束**（与 CLAUDE.md / 六分类一致）：
 > - `SKILL.md` 只落在 `skills/<category>/<name>/`
 > - 分类目录小写 kebab-case
@@ -470,12 +472,10 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 ### ~~补齐 50 个 skill 缺失的「常见误用」章节~~ — 已完成（2026-08-19）
 50 个全部补齐，逐条按模型自身机制撰写。详见上文「已完成：全库结构审计与机械修复」。
 
-### 内容正确性深度审查 — 部分完成（2026-08-19），仍有覆盖缺口
-已精读 **123** 个文件（六个批量 draft 分类，约占其 171 条的 72%），修掉 3 处实质问题。**仍未覆盖**：
-- 上述六分类里约 **48** 个未读条目；
-- `cognitive-thinking-tools` / `decision-probability` / `learning-growth` / `strategy-competition` / `efficiency-execution` / `systems-complexity` / `thinking-models` 这 **7 个分类完全未做**内容正确性审查（只过了结构审计）。
+### 内容正确性深度审查 — 两轮完成，仍有覆盖缺口
+两轮合计精读约 300 个文件，修掉 50 处实质问题；`cognitive-thinking-tools`/`decision-probability`/`learning-growth`/`strategy-competition`/`efficiency-execution`/`systems-complexity`/`thinking-models` 这 7 个分类已**全量**读完。**仍未覆盖**：`game-theory-models`（约23个未读）、`behavioral-biases`（约22个）、`econ-macro-theories`（约20个）、`econ-micro-markets`（约21个）、`finance-investing-models`（约20个）里未被读到的条目；`business/org-it-intel-report`（调研类 skill，形态不同，从未审查）。
 
-详见上文「内容正确性抽样深审」。
+详见上文「已完成：内容正确性审查第二轮」。
 
 ### org-it-intel-report 可选硬化
 ~~官方 frontmatter / `quick_validate` 等（非阻塞）。~~ **已完成（2026-08-19）**：`author`/`version` 移入 `metadata` 嵌套字段，通过 `quick_validate.py`。
