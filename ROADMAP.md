@@ -33,7 +33,7 @@
 |---|---|---|
 | 仍为 `v0.x-draft` | 350 个里 **280 个（80%）** | 按 CLAUDE.md 规则，草稿不是"成品"；README 的"350 个可执行 Skill"目前没有区分 draft 和已验证 |
 | evals 深度不足、未盲测 | 除 `thinking-models`（平均 10 条/skill，已盲测）外，其余 12 类平均仅 **5～6 条**/skill，均未做独立 sub-agent 盲测 | 内容正确性抽样审查不能替代盲测——盲测验证的是"触发/不触发判断是否准确"，两者维度不同 |
-| ~~内容正确性审查覆盖面~~ | 见下「第二轮」——7 个此前完全未审的分类已全部补审 | — |
+| ~~内容正确性审查覆盖面~~ | 见下「第三轮」——全库 350 个文件已 100% 覆盖 | — |
 
 ## 已完成：内容正确性审查第二轮（2026-08-19，同日下半场）
 
@@ -58,7 +58,20 @@
 
 **验证**：全部改动跑过 `python3 internal/skill-creator/scripts/audit_repo_skills.py .`，350 个 `SKILL.md` 结构审计 0 问题。
 
-**仍未覆盖**：`game-theory-models`（约 23 个未读）、`behavioral-biases`（约 22 个）、`econ-macro-theories`（约 20 个）、`econ-micro-markets`（约 21 个）、`finance-investing-models`（约 20 个）这五个分类里未被两轮任何一个 agent 读到的条目；`business/org-it-intel-report` 从未做过内容审查（调研类 skill，形态不同，需要单独设计审查标准）。
+**仍未覆盖（本节数字已过期，见下「第三轮」——逐文件核对后发现比这里估的少得多）。**
+
+## 已完成：内容正确性审查第三轮（2026-08-19，收尾剩余缺口）
+
+第二轮结束时凭 agent 报告估算"约 106 个文件、5 个分类未读"，但只是把每个 agent 自报的"未读清单"相加，没有跨 agent 去重。这轮用 `comm -23` 对磁盘文件名和两轮所有 agent 实际读过的文件名精确比对，发现：
+
+- `game-theory-models`（31）、`behavioral-biases`（30）、`econ-macro-theories`（30）、`econ-micro-markets`（30）**四个分类其实早已被两轮合并覆盖，0 个遗漏**——round 1 和 round 2 的 B 组分别读了不重叠的子集，加起来正好是全量，只是没人做过跨轮次去重导致误判为"还有缺口"。
+- 唯一真实缺口：`finance-investing-models` 里 `bubble-cycle`/`rebalancing`/`value-premium` 这 **3 个**文件，加上从未审查过的 `business/org-it-intel-report`。
+
+**审查结果**：
+- 3 个 finance 文件精读后**未发现实质问题**（内容质量与该分类其余文件一致，无公式错误、无自相矛盾）。
+- `business/org-it-intel-report`（调研类 skill，`SKILL.md` + 5 个 `references/*.md` + `generate_report.py` 全部读完）**未发现实质问题**：PEST/波特五力/Gartner 曲线/TAM-SAM-SOM/FAN 等框架描述准确；"严禁编造数据"+三级置信度标注+来源编号的安全边界设计扎实；`generate_report.py` 用 Jinja2 `autoescape=select_autoescape(["html"])`，无 XSS 风险。是这批 skill 里少见的、几乎不需要改动的一个。
+
+**至此，全库 350 个 `SKILL.md` 的内容正确性审查（三轮合计）已 100% 全覆盖。** 累计修复 50 处实质问题（第二轮 47 + 第一轮 3），无新增问题。仍然成立的限制：审查不等于盲测，280 个 `v0.x-draft` 依然没做过独立 sub-agent 盲测（见下方"仍未做"表）。
 
 ## 已完成
 
@@ -268,6 +281,8 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 
 ## 待办：名录扩充分类（第七–十二类 + 与既有六分类对账）
 
+> **本阶段状态**：M0–M5 全部里程碑已完成（见下「3. 分批里程碑」全部 `[x]`）。**真正剩余的待办**只有 3 个分类未达到名录 ~30/类的目标：`learning-growth`（现 23，缺 ~7）、`strategy-competition`（现 24，缺 ~6）、`efficiency-execution`（现 21，缺 ~9）——候选主题见下「4. 条目状态速查」里标"待新建"的行。这是刻意暂停，不是遗漏（见「5. 本阶段明确不做」：不批量撰写待新建条目正文）。
+
 > **硬约束**（与 CLAUDE.md / 六分类一致）：
 > - `SKILL.md` 只落在 `skills/<category>/<name>/`
 > - 分类目录小写 kebab-case
@@ -470,12 +485,10 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 ### ~~补齐 50 个 skill 缺失的「常见误用」章节~~ — 已完成（2026-08-19）
 50 个全部补齐，逐条按模型自身机制撰写。详见上文「已完成：全库结构审计与机械修复」。
 
-### 内容正确性深度审查 — 部分完成（2026-08-19），仍有覆盖缺口
-已精读 **123** 个文件（六个批量 draft 分类，约占其 171 条的 72%），修掉 3 处实质问题。**仍未覆盖**：
-- 上述六分类里约 **48** 个未读条目；
-- `cognitive-thinking-tools` / `decision-probability` / `learning-growth` / `strategy-competition` / `efficiency-execution` / `systems-complexity` / `thinking-models` 这 **7 个分类完全未做**内容正确性审查（只过了结构审计）。
+### ~~内容正确性深度审查~~ — 已完成（2026-08-19，三轮）
+全库 350 个 `SKILL.md`（含 `business/org-it-intel-report`）内容正确性审查**全覆盖**，累计修复 50 处实质问题。详见上文「已完成：内容正确性审查第三轮」。剩余限制：审查不等于盲测，280 个 `v0.x-draft` 仍未做独立 sub-agent 盲测。
 
-详见上文「内容正确性抽样深审」。
+详见上文「已完成：内容正确性审查第二轮」。
 
 ### org-it-intel-report 可选硬化
 ~~官方 frontmatter / `quick_validate` 等（非阻塞）。~~ **已完成（2026-08-19）**：`author`/`version` 移入 `metadata` 嵌套字段，通过 `quick_validate.py`。
