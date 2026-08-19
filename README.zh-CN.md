@@ -8,9 +8,9 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ## 项目简介与现状
 
-这个仓库还处于早期阶段。`skills/<category>/` 下合计 **350** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
+这个仓库还处于早期阶段。`skills/<category>/` 下合计 **372** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
-**这 350 个的完成度并不一样，而且这个差别很重要——但 `v1.0` 这个标签要按窄口径理解。** 70 个标记为 `version: v1.0`：从一手学科来源蒸馏、过了强制的苏格拉底式质疑自检、并由独立 agent 做过盲测。另外 280 个是 `v0.x-draft`：按主题名录批量撰写，通过了结构校验、配了最小 evals，但从未盲测。**"盲测"验证的是触发判断——skill 会不会在对的场景下被正确调用——不是内容本身的事实准确性。** 2026-08-19 的一轮内容审计对 `thinking-models` 这批 v1.0 也做了审查，同样找出了实质问题（过时的路由表、引用张冠李戴、例证违反正文自己定的规则），出错率并不明显低于草稿。把 `v1.0` 理解为"过了触发测试"，不是"已核事实"。具体哪些文件真正做过内容审查，见 [`ROADMAP.md`](ROADMAP.md)。
+**这 372 个的完成度并不一样，而且这个差别很重要——但 `v1.0` 这个标签要按窄口径理解。** 70 个标记为 `version: v1.0`：从一手学科来源蒸馏、过了强制的苏格拉底式质疑自检、并由独立 agent 做过盲测。另外 302 个是 `v0.x-draft`：大部分按主题名录批量撰写，只过了结构校验、配了最小 evals，从未盲测；其中一小部分（22 个，2026-08-19 新增，用于把三个分类补到名录目标数量）确实走了真实研究和苏格拉底式自检，但还没做盲测，仍标 `v0.x-draft`——这个版本号反映的是"还没盲测"，不是"没做过严谨工作"。**"盲测"验证的是触发判断——skill 会不会在对的场景下被正确调用——不是内容本身的事实准确性。** 2026-08-19 的一轮内容审计对 `thinking-models` 这批 v1.0 也做了审查，同样找出了实质问题（过时的路由表、引用张冠李戴、例证违反正文自己定的规则），出错率并不明显低于草稿。把 `v1.0` 理解为"过了触发测试"，不是"已核事实"。具体哪些文件真正做过内容审查，见 [`ROADMAP.md`](ROADMAP.md)。
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)。
 
@@ -22,9 +22,9 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [通用思维模型](skills/thinking-models/README.md) | 25 | 25 | 0 | [目录](#通用思维模型25) |
 | [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | 8 | 20 | [目录](#认知与思维工具28) |
 | [决策与概率](skills/decision-probability/README.md) | 24 | 2 | 22 | [目录](#决策与概率24) |
-| [学习与成长](skills/learning-growth/README.md) | 23 | 5 | 18 | [目录](#学习与成长23) |
-| [战略与竞争](skills/strategy-competition/README.md) | 24 | 4 | 20 | [目录](#战略与竞争24) |
-| [效率与执行](skills/efficiency-execution/README.md) | 21 | 2 | 19 | [目录](#效率与执行21) |
+| [学习与成长](skills/learning-growth/README.md) | 30 | 5 | 25 | [目录](#学习与成长30) |
+| [战略与竞争](skills/strategy-competition/README.md) | 30 | 4 | 26 | [目录](#战略与竞争30) |
+| [效率与执行](skills/efficiency-execution/README.md) | 30 | 2 | 28 | [目录](#效率与执行30) |
 | [系统与复杂](skills/systems-complexity/README.md) | 23 | 4 | 19 | [目录](#系统与复杂23) |
 | [宏观经济学理论](skills/econ-macro-theories/README.md) | 30 | 0 | 30 | [目录](#宏观经济学理论30) |
 | [微观经济学与市场](skills/econ-micro-markets/README.md) | 30 | 1 | 29 | [目录](#微观经济学与市场30) |
@@ -32,7 +32,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [行为经济学与偏误](skills/behavioral-biases/README.md) | 30 | 9 | 21 | [目录](#行为经济学与偏误30) |
 | [金融与投资](skills/finance-investing-models/README.md) | 30 | 1 | 29 | [目录](#金融与投资30) |
 | [系统与经典效应](skills/systems-classic-effects/README.md) | 30 | 7 | 23 | [目录](#系统与经典效应30) |
-| **合计** | **350** | **70** | **280** | |
+| **合计** | **372** | **70** | **302** | |
 
 另有原属通用思维模型库的 Skill 已分批迁入学科分类（含本轮 **25** 条迁入认知/决策/学习/战略/效率/复杂系统），只在新分类下列出。
 
@@ -71,9 +71,9 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计 **350** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 143）。已知的欠缺，如实列出：
+库仍处于早期：跨分类合计 **372** 个可执行模型（`business/` 1 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 165，后者刚达到 ~30/类的名录目标）。已知的欠缺，如实列出：
 
-- **80% 是未经验证的草稿。** 350 个里有 280 个是 `v0.x-draft`（逐分类拆分见上表）。它们 frontmatter 合规、模板结构完整、配了最小 evals，但**没有做过盲测**。
+- **80% 是未经验证的草稿。** 372 个里有 302 个是 `v0.x-draft`（逐分类拆分见上表）。它们 frontmatter 合规、模板结构完整、配了最小 evals，但**没有做过盲测**。
 - **evals 深度不均，而且"盲测"只验证了触发。** `thinking-models` 平均每个 Skill 约 10 条测试用例且做过盲测；其余所有分类平均只有 5–6 条，且从未盲测。但不管测没测，evals 验证的都只是"会不会在对的场景触发"，不是"内容对不对"。
 - **`v1.0` 不等于内容已核实。** 2026-08-19 的内容审计（三轮）读完了全部 **350 个** `SKILL.md`——全覆盖，不是抽样——在版本号两侧都找出了实质问题并修复共 50 处：公式下标被形近的非拉丁字符顶替、经典实验/引用细节记错、两个同名但不同的公式撞名未做区分、正文步骤与自己声明的边界互相矛盾、两个战略类 skill 之间未点破的理论冲突——其中 `v1.0` 那批还专门查出一个路由类 skill（`munger-misjudgment`）的查找表指向了 5 个错误或已过时的目标。背后的教训不变：盲测查的是触发，不是事实；草稿和 `v1.0` 都不该被当成"已核实"。完整审计轨迹见 [`ROADMAP.md`](ROADMAP.md)。
 
@@ -185,12 +185,13 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[sensitivity-analysis](skills/decision-probability/sensitivity-analysis/SKILL.md)** — 敏感性分析：找翻转假设与稳健区（draft）。
 - **[threshold-effect](skills/decision-probability/threshold-effect/SKILL.md)** — 阈值效应：剂量/规则门槛（≠临界点相变）（draft）。
 
-### 学习与成长（23）
+### 学习与成长（30）
 
-费曼技巧、心流、元认知、遗忘曲线、反脆弱，M3 草稿（刻意练习、间隔重复、成长型思维、深度工作、ZPD、一万小时澄清），以及本批草稿（检索/交错/迁移、双重编码、精细加工、组块、T 型、学习金字塔纠偏、导师制、教中学、元学习、去学习）。
+费曼技巧、心流、元认知、遗忘曲线、反脆弱，M3 草稿（刻意练习、间隔重复、成长型思维、深度工作、ZPD、一万小时澄清），批次草稿（检索/交错/迁移、双重编码、精细加工、组块、T 型、学习金字塔纠偏、导师制、教中学、元学习、去学习），以及 2026-08-19 补齐名录目标的一批（习惯养成、项目式学习、同伴学习、认知负荷、自我解释、产出效应、睡眠巩固，等待独立盲测）。
 
 - **[antifragility](skills/learning-growth/antifragility/SKILL.md)** — 反脆弱：设计能从波动与不确定性中获益的策略，而不只是抗住风险。
 - **[chunking](skills/learning-growth/chunking/SKILL.md)** — 组块：把离散信息打成可命名的更大单元，降低工作记忆负荷（draft）。
+- **[cognitive-load](skills/learning-growth/cognitive-load/SKILL.md)** — 认知负荷理论：工作记忆容量有限，须把内在/外在/相关负荷控制在容量内（draft）。
 - **[deep-work](skills/learning-growth/deep-work/SKILL.md)** — 深度工作：保护无干扰高认知专注块（主条在本类；效率类仅互链）。
 - **[deliberate-practice](skills/learning-growth/deliberate-practice/SKILL.md)** — 刻意练习：针对弱点、有反馈、略超舒适区的训练设计。
 - **[dual-coding](skills/learning-growth/dual-coding/SKILL.md)** — 双重编码：言语与示意表征对齐互译，增加提取线索（draft）。
@@ -199,13 +200,19 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[flow](skills/learning-growth/flow/SKILL.md)** — 心流：当挑战与技能大致匹配、目标清晰且反馈及时时，诊断并调节投入状态。
 - **[forgetting-curve](skills/learning-growth/forgetting-curve/SKILL.md)** — 遗忘曲线：解释记忆随时间衰减；复习日程操作见间隔重复。
 - **[growth-mindset](skills/learning-growth/growth-mindset/SKILL.md)** — 成长型思维：把能力视为可发展，改写反馈与目标语言（非努力万能鸡汤）。
+- **[habit-formation](skills/learning-growth/habit-formation/SKILL.md)** — 习惯养成：靠稳定情境线索把行为自动化，纠偏「21天养成」流言（draft）。
 - **[interleaved-practice](skills/learning-growth/interleaved-practice/SKILL.md)** — 交错练习：混合易混题型以提升辨别与迁移（draft）。
 - **[learning-by-teaching](skills/learning-growth/learning-by-teaching/SKILL.md)** — 学习中教：用教学任务强制提取与组织知识（draft）。
 - **[learning-pyramid](skills/learning-growth/learning-pyramid/SKILL.md)** — 学习金字塔（谨慎）：纠偏假百分比，降级为主动参与启发式（draft）。
 - **[mentorship](skills/learning-growth/mentorship/SKILL.md)** — 导师制：目标—节奏—反馈—渐撤的带教协议（draft）。
 - **[meta-learning](skills/learning-growth/meta-learning/SKILL.md)** — 元学习：跨任务选择并实验「如何学」的策略菜单（draft）。
 - **[metacognition](skills/learning-growth/metacognition/SKILL.md)** — 元认知：监控并调节自己的认知过程——觉察是否理解、是否用错策略并换方法。
+- **[peer-learning](skills/learning-growth/peer-learning/SKILL.md)** — 同伴学习：独立作答→找持不同意见者讨论→独立重答，用认知冲突逼出理解修正（draft）。
+- **[production-effect](skills/learning-growth/production-effect/SKILL.md)** — 产出效应：同一份材料里被读出/写出的条目比默读的更好记，但依赖有对照的默读条目（draft）。
+- **[project-based-learning](skills/learning-growth/project-based-learning/SKILL.md)** — 项目式学习：围绕真实问题长周期自主推进、边解决问题边习得知识技能（draft）。
 - **[retrieval-practice](skills/learning-growth/retrieval-practice/SKILL.md)** — 检索练习：合上材料主动提取（测试效应），强化保持与诊断（draft）。
+- **[self-explanation](skills/learning-growth/self-explanation/SKILL.md)** — 自我解释：研读材料时主动补上「为什么这样成立」的推理句，暴露并修复理解缺口（draft）。
+- **[sleep-consolidation](skills/learning-growth/sleep-consolidation/SKILL.md)** — 睡眠与记忆巩固：新编码记忆在睡眠中被主动巩固整合，清醒状态下效率明显更低（draft）。
 - **[spaced-repetition](skills/learning-growth/spaced-repetition/SKILL.md)** — 间隔重复：主动检索 + 递增间隔的 SRS/复习日程。
 - **[t-shaped-skills](skills/learning-growth/t-shaped-skills/SKILL.md)** — T 型技能：一纵深可交付 + 多横杠可对话的能力组合（draft）。
 - **[ten-thousand-hours](skills/learning-growth/ten-thousand-hours/SKILL.md)** — 一万小时定律（澄清）：纠偏时数神话，导流刻意练习。
@@ -213,18 +220,20 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[unlearning](skills/learning-growth/unlearning/SKILL.md)** — 去学习：有管理地退役干扰性旧知识/旧反应（draft）。
 - **[zpd](skills/learning-growth/zpd/SKILL.md)** — 最近发展区：独立/支架/做不到三带与渐撤支架。
 
-### 战略与竞争（24）
+### 战略与竞争（30）
 
-波特五力、护城河、飞轮、SWOT、蓝海、第二曲线、颠覆式创新、BCG、GE 九宫、麦肯锡 7S、OKR、VRIO，以及本批（安索夫、BSC、价值链、通用战略/战略钟、定位、平台、RBV/核心能力、KPI）。
+波特五力、护城河、飞轮、SWOT、蓝海、第二曲线、颠覆式创新、BCG、GE 九宫、麦肯锡 7S、OKR、VRIO，批次新建（安索夫、BSC、价值链、通用战略/战略钟、定位、平台、RBV/核心能力、KPI），以及 2026-08-19 补齐名录目标的一批（商业模式画布、战略地图、动态能力、波特钻石模型、三层面增长、战略意图，等待独立盲测）。
 
 - **[ansoff-matrix](skills/strategy-competition/ansoff-matrix/SKILL.md)** — 安索夫矩阵：现有/新市场×产品四象限增长路径与风险阶梯（draft）。
-- **[balanced-scorecard](skills/strategy-competition/balanced-scorecard/SKILL.md)** — 平衡计分卡：财务/顾客/流程/学习成长四维因果链与战略地图（draft）。
+- **[balanced-scorecard](skills/strategy-competition/balanced-scorecard/SKILL.md)** — 平衡计分卡：把已有战略目标配上指标/目标值/行动方案，形成可持续运行的度量系统（draft）。
 - **[bcg-matrix](skills/strategy-competition/bcg-matrix/SKILL.md)** — BCG 矩阵：增长×相对份额四象限指导组合投砍。
 - **[blue-ocean](skills/strategy-competition/blue-ocean/SKILL.md)** — 蓝海战略：价值创新与 ERRC 重建买方效用与成本边界。
+- **[business-model-canvas](skills/strategy-competition/business-model-canvas/SKILL.md)** — 商业模式画布：一页九模块描述组织如何创造、传递、获取价值（描述性，不评判好坏）（draft）。
 - **[core-competence](skills/strategy-competition/core-competence/SKILL.md)** — 核心能力：跨业务共享、难模仿、打开多市场的能力组合（draft）。
 - **[cost-leadership](skills/strategy-competition/cost-leadership/SKILL.md)** — 成本领先：广阔市场结构性最低成本优势（draft）。
 - **[differentiation-strategy](skills/strategy-competition/differentiation-strategy/SKILL.md)** — 差异化战略：全市场可感知独特性与溢价（draft）。
 - **[disruptive-innovation](skills/strategy-competition/disruptive-innovation/SKILL.md)** — 颠覆式创新：低端/新市场轨迹与在位者非对称激励。
+- **[dynamic-capabilities](skills/strategy-competition/dynamic-capabilities/SKILL.md)** — 动态能力：环境快变时持续感知-抓住-重构资源的能力，是对静态 RBV/VRIO 的直接批评（draft）。
 - **[economic-moat](skills/strategy-competition/economic-moat/SKILL.md)** — 护城河：评估企业能否在竞争下维持超额回报，并识别壁垒来源与可持续性。
 - **[flywheel](skills/strategy-competition/flywheel/SKILL.md)** — 飞轮：设计或诊断互相加强的因果闭环，使每一圈投入提高下一圈效率。
 - **[ge-mckinsey-matrix](skills/strategy-competition/ge-mckinsey-matrix/SKILL.md)** — GE-麦肯锡九宫：行业吸引力×竞争实力九格指导投/选/撤。
@@ -233,22 +242,28 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[niche-strategy](skills/strategy-competition/niche-strategy/SKILL.md)** — 利基/集中战略：窄战场上的成本或差异化焦点（draft）。
 - **[okr](skills/strategy-competition/okr/SKILL.md)** — OKR：鼓舞性目标 + 可度量关键结果对齐与复盘（非待办清单）。
 - **[platform-strategy](skills/strategy-competition/platform-strategy/SKILL.md)** — 平台战略：多边市场、网络效应、冷启动与治理变现（draft）。
+- **[porters-diamond](skills/strategy-competition/porters-diamond/SKILL.md)** — 波特钻石模型：国家/地区产业集群为什么能持续产出全球领先企业（≠波特五力）（draft）。
 - **[porters-five-forces](skills/strategy-competition/porters-five-forces/SKILL.md)** — 波特五力：在行业层面诊断利润结构——竞争、进入、替代、买方与供方议价。
 - **[positioning](skills/strategy-competition/positioning/SKILL.md)** — 定位：目标顾客心智中的清晰可防守位置（draft）。
 - **[resource-based-view](skills/strategy-competition/resource-based-view/SKILL.md)** — 资源基础观：内生异质资源/能力解释可持续优势（draft）。
 - **[second-curve](skills/strategy-competition/second-curve/SKILL.md)** — 第二曲线：在第一增长曲线趋缓前启动下一条 S 曲线并管理输血/停投。
 - **[strategic-clock](skills/strategy-competition/strategic-clock/SKILL.md)** — 战略钟：价格×感知价值竞争路径，识别夹在中间（draft）。
+- **[strategic-intent](skills/strategy-competition/strategic-intent/SKILL.md)** — 战略意图：资源弱势的挑战者主动设定十年级雄心，把落差当动员杠杆而非削减雄心（draft）。
+- **[strategy-map](skills/strategy-competition/strategy-map/SKILL.md)** — 战略地图：只画四层面目标因果链条本身（不含指标），BSC 第 2 步的深潜工具（draft）。
 - **[swot](skills/strategy-competition/swot/SKILL.md)** — SWOT 分析：盘点内部优势/劣势×外部机会/威胁，并做 SO/WO/ST/WT 匹配导向行动。
+- **[three-horizons](skills/strategy-competition/three-horizons/SKILL.md)** — 三层面增长：H1/H2/H3 三个成熟阶段业务永久并行管理，而非等见顶才找下一个（≠第二曲线）（draft）。
 - **[value-chain](skills/strategy-competition/value-chain/SKILL.md)** — 价值链：主活动/支持活动拆解成本与差异化落点（draft）。
 - **[vrio](skills/strategy-competition/vrio/SKILL.md)** — VRIO：资源/能力是否有价值、稀缺、难模仿且有组织支持。
 
-### 效率与执行（21）
+### 效率与执行（30）
 
-艾森豪威尔、PDCA、M3 草稿（番茄、GTD、看板、敏捷、精益、关键路径、5S），以及本批（批处理、清单/SOP、持续改进、委派、吃青蛙、精力管理、甘特、里程碑、站会、时间块、两分钟法则、WIP 限制）。深度工作见学习与成长类。
+艾森豪威尔、PDCA、M3 草稿（番茄、GTD、看板、敏捷、精益、关键路径、5S），批次新建（批处理、清单/SOP、持续改进、委派、吃青蛙、精力管理、甘特、里程碑、站会、时间块、两分钟法则、WIP 限制），以及 2026-08-19 补齐名录目标的一批（高效会议、单任务处理、任务切换成本、收件箱清零、结构化拖延、缓冲时间、一切就位、每周回顾、承诺机制，等待独立盲测）。深度工作见学习与成长类。
 
 - **[agile-iteration](skills/efficiency-execution/agile-iteration/SKILL.md)** — 敏捷迭代：短时间盒交付可检视增量并检视适应。
 - **[batching](skills/efficiency-execution/batching/SKILL.md)** — 批处理：同类任务集中时段，降低上下文切换（draft）。
+- **[buffer-time](skills/efficiency-execution/buffer-time/SKILL.md)** — 缓冲时间管理：拆下各任务安全余量集中到少数关键位置，用消耗速度而非单任务是否按期预警（关键链≠关键路径）（draft）。
 - **[checklist-sop](skills/efficiency-execution/checklist-sop/SKILL.md)** — 清单/SOP：关键步骤外部化，降低遗漏与方差（draft）。
+- **[commitment-devices](skills/efficiency-execution/commitment-devices/SKILL.md)** — 承诺机制：在冷静状态下给未来行为绑上外部强制代价，让半途而废比做完更差（draft）。
 - **[continuous-improvement](skills/efficiency-execution/continuous-improvement/SKILL.md)** — 持续改进：小步全员常态化抬高标准（draft）。
 - **[critical-path](skills/efficiency-execution/critical-path/SKILL.md)** — 关键路径：项目依赖网络中决定最短工期的最长链。
 - **[delegation](skills/efficiency-execution/delegation/SKILL.md)** — 委派：结果与权限清晰移交并保留跟进（draft）。
@@ -258,14 +273,21 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[five-s](skills/efficiency-execution/five-s/SKILL.md)** — 5S：整理整顿清扫清洁素养，稳固现场/数字工作区基础。
 - **[gantt-chart](skills/efficiency-execution/gantt-chart/SKILL.md)** — 甘特图：时间条与依赖可视化沟通进度（draft）。
 - **[gtd](skills/efficiency-execution/gtd/SKILL.md)** — GTD：收集-澄清-组织-回顾，落到可信的下一步行动。
+- **[inbox-zero](skills/efficiency-execution/inbox-zero/SKILL.md)** — 收件箱清零法：核心不是未读数字归零，而是把「还没处理」的心智负担清空（draft）。
 - **[kanban](skills/efficiency-execution/kanban/SKILL.md)** — 看板：可视化流 + 限制 WIP 的拉动系统。
 - **[lean-thinking](skills/efficiency-execution/lean-thinking/SKILL.md)** — 精益思维：价值流与消除浪费（看板/5S 为其工具层）。
+- **[meeting-hygiene](skills/efficiency-execution/meeting-hygiene/SKILL.md)** — 会议卫生：议程先行、唯一决策责任人、时间盒、控制人数等已验证有效的会议设计规则集合（draft）。
 - **[milestone-planning](skills/efficiency-execution/milestone-planning/SKILL.md)** — 里程碑规划：可验证阶段门对齐范围与日期（draft）。
+- **[mise-en-place](skills/efficiency-execution/mise-en-place/SKILL.md)** — 一切就位：执行前把物料/信息/权限准备到位，避免边做边找导致中断（draft）。
 - **[pdca](skills/efficiency-execution/pdca/SKILL.md)** — PDCA：Plan–Do–Check/Study–Act 持续改进循环，每圈带明确假设与度量。
 - **[pomodoro](skills/efficiency-execution/pomodoro/SKILL.md)** — 番茄工作法：固定专注-短休时间盒节奏（≠深度工作长块）。
+- **[single-tasking](skills/efficiency-execution/single-tasking/SKILL.md)** — 单任务处理：一段时间只处理一个任务，切换前主动收尾，而非被打断式切出（draft）。
 - **[standup](skills/efficiency-execution/standup/SKILL.md)** — 站会：短同步昨日/今日/障碍（draft）。
+- **[structured-procrastination](skills/efficiency-execution/structured-procrastination/SKILL.md)** — 结构化拖延：半开玩笑的悖论技巧，用对"大事"的拖延冲动导流去完成其他重要小事（不适用于真拖延成瘾）（draft）。
+- **[task-switching-cost](skills/efficiency-execution/task-switching-cost/SKILL.md)** — 任务切换成本：切换任务后反应变慢、错误率升高，即使有准备时间也无法完全消除（single-tasking 的诊断层）（draft）。
 - **[time-blocking](skills/efficiency-execution/time-blocking/SKILL.md)** — 时间块：日历切成专属用途连续时段（draft）。
 - **[two-minute-rule](skills/efficiency-execution/two-minute-rule/SKILL.md)** — 两分钟法则：澄清时立刻完成≤2 分钟行动（draft）。
+- **[weekly-review](skills/efficiency-execution/weekly-review/SKILL.md)** — 每周回顾：固定时间盒清空-核对-重定向三件事，可独立于 GTD 使用（draft）。
 - **[wip-limits](skills/efficiency-execution/wip-limits/SKILL.md)** — WIP 限制：在制品上限暴露瓶颈、缩短周期（draft）。
 
 ### 系统与复杂（23）

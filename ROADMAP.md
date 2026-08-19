@@ -73,6 +73,26 @@
 
 **至此，全库 350 个 `SKILL.md` 的内容正确性审查（三轮合计）已 100% 全覆盖。** 累计修复 50 处实质问题（第二轮 47 + 第一轮 3），无新增问题。仍然成立的限制：审查不等于盲测，280 个 `v0.x-draft` 依然没做过独立 sub-agent 盲测（见下方"仍未做"表）。
 
+## 已完成：三分类名录目标补齐（2026-08-19）
+
+`learning-growth`（23→30）、`strategy-competition`（24→30）、`efficiency-execution`（21→30）三个分类此前一直停在名录目标数量以下——这是此前刻意暂停的待办（教训：批量新建容易牺牲质量，先前几轮的 50 处问题基本都出在批量生成的文件里），这次决定补齐时**要求严格走完整两阶段流程**（真实学科研究 + 苏格拉底式定稿自检 + evals），不是简单批量复制之前的做法。
+
+**新建 22 个 skill**（全部 `v0.x-draft`，结构审计 0 问题，等待独立盲测）：
+
+- `learning-growth`（+7）：habit-formation / project-based-learning / peer-learning / cognitive-load / self-explanation / production-effect / sleep-consolidation
+- `strategy-competition`（+6）：business-model-canvas / strategy-map / dynamic-capabilities / porters-diamond / three-horizons / strategic-intent
+- `efficiency-execution`（+9）：meeting-hygiene / single-tasking / task-switching-cost / inbox-zero / structured-procrastination / buffer-time / mise-en-place / weekly-review / commitment-devices
+
+**执行中的教训**：4 个并行 drafting agent 首轮被本机意外休眠中断（`habit-formation`/`project-based-learning` 已完整写出，其余留了空壳目录），重新派发时误判了 `efficiency-execution` 的原始 agent 已失败（实际仍在后台运行），导致两个 agent 短暂并发写同一批文件——agent 自行检测到冲突并核实内容而非盲目覆盖，未造成实质损失，但暴露了"仅凭文件状态判断 agent 是否存活、不核对 agent 自身状态"的流程漏洞，后续批量派发 agent 前应先确认状态。
+
+**质量把控**：
+- `strategy-map` 新建时发现并修复了它与 `balanced-scorecard` 之间真实的触发词冲突（BSC 的 description 收窄为"已有目标、需要配指标"）。
+- `porters-diamond`、`dynamic-capabilities`、`three-horizons` 都显式处理了与同名/近似模型的理论层级区分，`dynamic-capabilities` 还按 CLAUDE.md Rule 7 显式点破了它与静态 RBV/VRIO 之间真实的学术立场分歧，没有回避或调和。
+- `commitment-devices` 与仓库里已提及"承诺装置"概念的博弈论/行为经济学 skill（`centipede-game`、`subgame-perfect-equilibrium`、`hyperbolic-discounting`、`long-term-thinking`）做了应用层次区分，避免同一说法命中五六个 skill。
+- 抽查 `habit-formation`（引用 Lally et al. 2010、Wood & Verplanken 2006 等，纠偏"21天养成"流言）与 `porters-diamond` 两篇质量达到本仓库最高标准，可作后续批次的基准范本。
+
+三个分类现均为 30 个，与其余分类持平；`skills/learning-growth/README.md`、`skills/strategy-competition/README.md`、`skills/efficiency-execution/README.md` 及根 README 双语目录均已更新。**下一步**：对这 22 个 skill 做独立 sub-agent 盲测，通过后升级为 `v1.0`。
+
 ## 已完成
 
 ### 项目定位与文档骨架
@@ -281,7 +301,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 
 ## 待办：名录扩充分类（第七–十二类 + 与既有六分类对账）
 
-> **本阶段状态**：M0–M5 全部里程碑已完成（见下「3. 分批里程碑」全部 `[x]`）。**真正剩余的待办**只有 3 个分类未达到名录 ~30/类的目标：`learning-growth`（现 23，缺 ~7）、`strategy-competition`（现 24，缺 ~6）、`efficiency-execution`（现 21，缺 ~9）——候选主题见下「4. 条目状态速查」里标"待新建"的行。这是刻意暂停，不是遗漏（见「5. 本阶段明确不做」：不批量撰写待新建条目正文）。
+> **本阶段状态**：M0–M5 全部里程碑已完成，**3 个曾未达标分类已于 2026-08-19 补齐到目标数量**（见下「已完成：三分类名录目标补齐」）。`learning-growth`/`strategy-competition`/`efficiency-execution` 现均为 30 个，与其余分类持平。
 
 > **硬约束**（与 CLAUDE.md / 六分类一致）：
 > - `SKILL.md` 只落在 `skills/<category>/<name>/`
@@ -313,9 +333,9 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 6 | 系统思维与经典效应 | `systems-classic-effects` | **复用** | 名录 30 条 **已有**（首因/近因→`serial-position-effect`；网络效应→`metcalfes-law`） |
 | 7 | 认知与思维工具 | `cognitive-thinking-tools` | **新建**；迁入 8 | 现 **28**（M1 新建 9 + 剩余补齐 11）；名录专条已齐（二阶/SWOT 仍@他类） |
 | 8 | 决策与概率 | `decision-probability` | **新建**；迁入 2 | 现 **24**（M2 11 + M2b 11）；部分 **已有@他类**；名录专条已基本齐 |
-| 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 现 **23**（M3 新建 6 + 本批新建 12）；余 **待新建**（距 ~30 约 7） |
-| 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 现 **24**（M3 新建 6 + 7S/GE 2 + 本批新建 12）；余 **待新建**（距 ~30 约 6） |
-| 11 | 效率与执行 | `efficiency-execution` | **新建**；迁入 2 | 现 **21**（M3 新建 7 + 本批新建 12）；余 **待新建**（距 ~30 约 9） |
+| 9 | 学习与成长 | `learning-growth` | **新建**；迁入 5 | 现 **30**（M3 新建 6 + 批次新建 12 + 2026-08-19 名录扩容 7）；**已达标**，等待独立盲测 |
+| 10 | 战略与竞争 | `strategy-competition` | **新建**；迁入 4 | 现 **30**（M3 新建 6 + 7S/GE 2 + 批次新建 12 + 2026-08-19 名录扩容 6）；**已达标**，等待独立盲测 |
+| 11 | 效率与执行 | `efficiency-execution` | **新建**；迁入 2 | 现 **30**（M3 新建 7 + 批次新建 12 + 2026-08-19 名录扩容 9）；**已达标**，等待独立盲测 |
 | 12 | 系统与复杂 | `systems-complexity` | **新建**；迁入 4；与第六类互补 | 现 **23**（种子 4 + M4 新建 7 + M4b 新建 12）；与第六类重复项只互链 |
 
 ### 3. 分批里程碑（建议）
@@ -416,7 +436,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 刻意练习 / 间隔重复 / 成长型思维 / 一万小时 / 深度工作 / ZPD | 已有@`learning-growth/*`（M3 `v0.x-draft`） |
 | 检索练习 / 交错练习 / 迁移学习 / 双重编码 / 精细加工 / 组块 | 已有@`…/retrieval-practice` · `interleaved-practice` · `transfer-of-learning` · `dual-coding` · `elaborative-interrogation` · `chunking`（本批 `v0.x-draft`） |
 | T 型技能 / 学习金字塔 / 导师制 / 教中学 / 元学习 / 去学习 | 已有@`…/t-shaped-skills` · `learning-pyramid` · `mentorship` · `learning-by-teaching` · `meta-learning` · `unlearning`（本批 `v0.x-draft`；金字塔专条含证据边界纠偏） |
-| 其余学习法扩展 | 待新建（距类目标 ~30 约 7；可选：习惯养成、项目式学习、同伴学习、认知负荷管理、自我解释、产出效应等） |
+| 习惯养成 / 项目式学习 / 同伴学习 / 认知负荷 / 自我解释 / 产出效应 / 睡眠巩固 | 已有@`…/habit-formation` · `project-based-learning` · `peer-learning` · `cognitive-load` · `self-explanation` · `production-effect` · `sleep-consolidation`（2026-08-19 名录扩容，`v0.x-draft`，走完整蒸馏流程+苏格拉底式自检，等待独立盲测）；**类内达标 30，不再扩容** |
 
 #### 十、`strategy-competition`
 
@@ -432,7 +452,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 安索夫 / BSC / 价值链 | 已有@`…/ansoff-matrix` · `balanced-scorecard` · `value-chain`（本批 `v0.x-draft`） |
 | 成本领先 / 差异化 / 利基 / 战略钟 | 已有@`…/cost-leadership` · `differentiation-strategy` · `niche-strategy` · `strategic-clock`（本批 `v0.x-draft`） |
 | 定位 / 平台 / RBV / 核心能力 / KPI | 已有@`…/positioning` · `platform-strategy` · `resource-based-view` · `core-competence` · `kpi-framework`（本批 `v0.x-draft`） |
-| 其余战略扩展 | 待新建（距类目标 ~30 约 6） |
+| 商业模式画布 / 战略地图 / 动态能力 / 波特钻石模型 / 三层面增长 / 战略意图 | 已有@`…/business-model-canvas` · `strategy-map` · `dynamic-capabilities` · `porters-diamond` · `three-horizons` · `strategic-intent`（2026-08-19 名录扩容，`v0.x-draft`，走完整蒸馏流程+苏格拉底式自检，等待独立盲测）；**类内达标 30，不再扩容** |
 
 #### 十一、`efficiency-execution`
 
@@ -445,7 +465,7 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 | 番茄 / GTD / 看板 / 敏捷迭代 / 关键路径 / 精益 / 5S | 已有@`efficiency-execution/*`（M3 `v0.x-draft`） |
 | 批处理 / 清单SOP / 持续改进 / 委派 / 吃青蛙 / 精力管理 | 已有@`…/batching` · `checklist-sop` · `continuous-improvement` · `delegation` · `eat-the-frog` · `energy-management`（本批 `v0.x-draft`） |
 | 甘特 / 里程碑 / 站会 / 时间块 / 两分钟法则 / WIP 限制 | 已有@`…/gantt-chart` · `milestone-planning` · `standup` · `time-blocking` · `two-minute-rule` · `wip-limits`（本批 `v0.x-draft`） |
-| 其余效率法扩展 | 待新建（距类目标 ~30 约 9） |
+| 会议卫生 / 单任务处理 / 任务切换成本 / 收件箱清零 / 结构化拖延 / 缓冲时间 / 一切就位 / 每周回顾 / 承诺机制 | 已有@`…/meeting-hygiene` · `single-tasking` · `task-switching-cost` · `inbox-zero` · `structured-procrastination` · `buffer-time` · `mise-en-place` · `weekly-review` · `commitment-devices`（2026-08-19 名录扩容，`v0.x-draft`，走完整蒸馏流程+苏格拉底式自检，等待独立盲测）；**类内达标 30，不再扩容** |
 
 #### 十二、`systems-complexity`
 
