@@ -38,7 +38,7 @@ Weiner 等还把成就结果拆成可控/稳定等维度——本 skill 入门�
 - 用户直接说归因 / FAE / 情境归因 / attribution。
 
 **不要**当主模型：
-- 回溯自己从数据爬到信念的层级 → [`ladder-of-inference`](../../thinking-models/ladder-of-inference/SKILL.md)（若存在）或苏格拉底；
+- 回溯自己从数据爬到信念的层级 → [`ladder-of-inference`](../../thinking-models/ladder-of-inference/SKILL.md)或苏格拉底；
 - 证据专找支持已有结论 → [`confirmation-bias`](../confirmation-bias/SKILL.md)；
 - 单次行为会否发生 → [`fogg-behavior-model`](../../thinking-models/fogg-behavior-model/SKILL.md)。
 
@@ -54,7 +54,7 @@ Weiner 等还把成就结果拆成可控/稳定等维度——本 skill 入门�
 
 **司机按喇叭**：观察者易判“没素质”；行动者可能正避险。揭示 **FAE / 行动者—观察者不对称**——同一行为，座位不同故事不同。
 
-**新人连续写错工单**：低一致（老人不错）+ 高独特（只在该系统错）+ 尚无一贯史 → 先查文档/权限/培训（外），不宜首日定论“能力差”。揭示共变线索如何改处方。
+**新人连续写错工单**：高一致（其他新人在该系统上也常出错）+ 高独特（只在该系统错，其他任务正常）+ 尚无一贯史 → 先查文档/权限/培训（外），不宜首日定论“能力差”。揭示共变线索如何改处方。
 
 **（原书卡片）你或他人 × 情境归因示意**：内外二分可用；局限是易励志化为“把失败归因努力就好”，忽略不可控外因与系统责任，且缺少共变操作步骤。
 
@@ -76,7 +76,7 @@ Weiner 等还把成就结果拆成可控/稳定等维度——本 skill 入门�
 
 - **与[确认偏差](../confirmation-bias/SKILL.md)**：确认偏差扭曲你收集的证据；归因管你把因果钉在人还是情境。
 - **与[推论阶梯](../../thinking-models/ladder-of-inference/SKILL.md)**：阶梯管攀升路径；归因常嵌在“赋义→结论”段——可先下阶梯再做共变。
-- **与[邓克效应](../dunning-kruger/SKILL.md)**：自评校准问题 ≠ 对他人行为的归因问题。
+- **与[邓宁-克鲁格效应](../dunning-kruger/SKILL.md)**：自评校准问题 ≠ 对他人行为的归因问题。
 - **与[冰山模型](../../systems-complexity/iceberg-model/SKILL.md)**：文化基本假设可解释“情境压力”，但冰山不替代共变检验。
 - **与[事后聪明偏误](../hindsight-bias/SKILL.md)**：事后常把结果归因到决策者特质。
 ---

@@ -65,7 +65,7 @@ metadata:
 
 ## 相关模型
 
-- **与[刻意练习](../deliberate-practice/SKILL.md)**：刻意练习在反馈下 refinement 组块库；本模型显式打包与命名。
+- **与[刻意练习](../deliberate-practice/SKILL.md)**：刻意练习在反馈下持续精炼组块库；本模型显式打包与命名。
 - **与[交错练习](../interleaved-practice/SKILL.md)**：交错训练「选哪一块」；先有可辨组块再交错。
 - **与[双重编码](../dual-coding/SKILL.md)**：为组块配示意，强化块的可提取性。
 - **与[迁移学习](../transfer-of-learning/SKILL.md)**：可迁移的是结构组块；表面清单难迁。

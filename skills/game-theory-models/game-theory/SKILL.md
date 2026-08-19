@@ -76,5 +76,5 @@ metadata:
 - **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：决策树服务单决策者；博弈服务互动依赖。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：系统看回路与延迟；博弈看策略与支付。
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：支付里应体现放弃的替代，避免只算会计利润。
-- **与[有限理性](../bounded-rationality/SKILL.md)**：完全理性建模入口。
+- **与[有限理性](../bounded-rationality/SKILL.md)**：本模型默认参与人完全理性；有限理性放松这一假设，处理认知/信息限制下的实际偏离。
 ---

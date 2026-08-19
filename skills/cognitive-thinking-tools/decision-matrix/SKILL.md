@@ -3,7 +3,7 @@ name: decision-matrix
 description: >
   用决策矩阵（加权评分表 / Pugh–Kepner-Tregoe 式）在「选项已知、标准多元」时显式打分比较，
   并做权重敏感性，而不是凭笼统感觉。Use when user says “决策矩阵”“加权评分”“Pugh 矩阵”
-  “多标准选哪个”“scorecard 选型”。**名录归属第七类。** **硬区分第八类**：带概率与期望值的
+  “多标准选哪个”“scorecard 选型”。**硬区分**：带概率与期望值的
   不确定分支出 [`decision-tree`](../../decision-probability/decision-tree/SKILL.md)；只要利弊罗列不加权走
   [`pros-cons-list`](../pros-cons-list/SKILL.md)。不适用于伪造精度的权重与分数替用户拍板。
 metadata:

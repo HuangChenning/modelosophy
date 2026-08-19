@@ -2,7 +2,7 @@
 name: mckinsey-7s
 description: >
   用麦肯锡 7S 框架诊断组织是否「七要素对齐」：硬性（战略 Strategy、结构 Structure、制度 Systems）
-  与软性（共同价值观 Shared Values、技能 Skills、风格 Style、人员 Staff）。Use when user says
+  与软性（技能 Skills、风格 Style、人员 Staff），中心是共同价值观 Shared Values。Use when user says
   “7S”“麦肯锡七要素”“战略落地为什么卡住”“组织对齐/ congruence”“改结构却没效果”。
   不适用于行业利润池（五力）、业务组合投砍（BCG/GE 九宫）、或仅写 OKR 目标清单。
 metadata:
@@ -15,7 +15,7 @@ metadata:
 
 ## 这是什么
 
-**麦肯锡 7S**：把组织效能视为七个相互依赖要素的**对齐（congruence）**问题——三个偏「硬」：**Strategy（战略）、Structure（结构）、Systems（制度/流程）**；三个偏「软」：**Skills（技能）、Style（领导与管理风格）、Staff（人员构成与发展）**；中心是 **Shared Values（共同价值观 / 超ordinate goals）**。改其一而不调其余，常出现「战略写了、组织没跟上」。
+**麦肯锡 7S**：把组织效能视为七个相互依赖要素的**对齐（congruence）**问题——三个偏「硬」：**Strategy（战略）、Structure（结构）、Systems（制度/流程）**；三个偏「软」：**Skills（技能）、Style（领导与管理风格）、Staff（人员构成与发展）**；中心是 **Shared Values（共同价值观 / superordinate goals，上位目标）**。改其一而不调其余，常出现「战略写了、组织没跟上」。
 
 它由麦肯锡顾问 Robert Waterman、Tom Peters、Julien Phillips 等在约 1980 年前后提出（经典表述见 *Structure Is Not Organization*），反驳「只改组织结构图就能解决问题」的机械观点。7S 是**诊断与变革设计清单**，不是行业分析工具，也不是组合投资矩阵。
 

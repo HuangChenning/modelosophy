@@ -3,7 +3,8 @@ name: two-minute-rule
 description: >
   用两分钟法则（Two-Minute Rule）在澄清时立刻完成≤2分钟的行动，防止琐事堆积。
   Use when user says “两分钟法则”“两分钟规则”“two-minute rule”“顺便做掉”。
-  不适用于重要但长任务（吃青蛙/时间块），也不替代完整 GTD 系统。
+  不适用于重要但长任务（吃青蛙/时间块），也不替代完整 GTD 系统。若用户指的是「把新习惯缩到两分钟就开始」
+  （James Clear《原子习惯》版本），那是习惯启动启发式，不是本条，见 fogg-behavior-model。
 metadata:
   author: modelosophy
   version: v0.x-draft
@@ -64,6 +65,7 @@ metadata:
 - **与[批处理](../batching/SKILL.md)**：大量短任务宜批，不宜散落两分钟。
 - **与[吃掉那只青蛙](../eat-the-frog/SKILL.md)**：难事先于琐事。
 - **与[委派](../delegation/SKILL.md)**：两分钟内你能做但他人更合适 → 仍可委派（看机会成本）。
+- **若用户指的是「把新习惯缩到两分钟就开始」**（James Clear《原子习惯》）：那是习惯启动启发式，不是本条，走 [`fogg-behavior-model`](../../thinking-models/fogg-behavior-model/SKILL.md)。
 
 ## 记忆钩子
 

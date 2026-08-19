@@ -25,7 +25,7 @@ metadata:
 - "行业标准靠几家扛"
 
 **不要**当主模型：
-- 公共资源被过度消耗枯竭 → 公地悲剧逻辑（微观分类若有则链；否则用系统思维画流量）
+- 公共资源被过度消耗枯竭 → [`tragedy-of-the-commons`](../../econ-micro-markets/tragedy-of-the-commons/SKILL.md)
 - 需要画增强/调节回路 → [`systems-thinking`](../systems-thinking/SKILL.md)
 - 小失序规范崩溃 → [`broken-windows`](../broken-windows/SKILL.md)
 

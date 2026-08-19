@@ -25,8 +25,8 @@ metadata:
 
 **不要**在以下情况套用本模型：
 
-- 十年 CAPEX → juglar
-- 康波 → kondratiev
+- 十年 CAPEX → juglar-cycle
+- 康波 → kondratiev-wave
 
 ## 怎么用（执行步骤）
 

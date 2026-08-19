@@ -25,8 +25,8 @@ metadata:
 
 **不要**在以下情况套用本模型：
 
-- 40 个月库存 → kitchin
-- 50 年技术长波 → kondratiev
+- 40 个月库存 → kitchin-cycle
+- 50 年技术长波 → kondratiev-wave
 
 ## 怎么用（执行步骤）
 

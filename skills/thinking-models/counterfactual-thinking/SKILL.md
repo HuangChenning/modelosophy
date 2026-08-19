@@ -6,8 +6,8 @@ description: >
   “银牌为什么更悔”“差一点就”“如果没发生”。与逆向/事前验尸区分：反事实是对已然事件的
   「若非」模拟；逆向是事前列举失败模式。勿把一切反思都做成沉溺后悔。
 metadata:
-  author: modelosophy（蒸馏自 Kahneman & Tversky 规范理论 + Roese 反事实功能观
-    + Medvec 奖牌研究 + 《万物皆模型》反事实思维卡片）
+  author: modelosophy（蒸馏自 Kahneman & Miller 规范理论(1986) + Kahneman & Tversky
+    模拟启发式(1982) + Roese 反事实功能观 + Medvec 奖牌研究 + 《万物皆模型》反事实思维卡片）
   version: v1.0
   source: docs/books/wanwu-jie-moxing/candidates/batch-7-C.md
 ---
@@ -16,7 +16,7 @@ metadata:
 
 ## 这是什么
 
-反事实思维：对**已经发生**的事件，在头脑中模拟**另一种可能过去**（“要是……就……”）。Kahneman 与 Tversky 的规范理论指出：越容易在心理上“抹掉”某个异常细节，反事实越强（误机差一分钟比差一小时更痛）。
+反事实思维：对**已经发生**的事件，在头脑中模拟**另一种可能过去**（“要是……就……”）。Kahneman 与 Miller 的规范理论（Norm Theory, 1986）指出：越容易在心理上“抹掉”某个异常细节，反事实越强；误机场景里“差一分钟比差一小时更痛”这个经典例子，出自 Kahneman 与 Tversky 关于模拟启发式（simulation heuristic, 1982）的研究。
 
 常见分型（Roese 等）：
 

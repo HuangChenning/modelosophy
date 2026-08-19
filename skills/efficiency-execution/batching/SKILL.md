@@ -61,7 +61,7 @@ metadata:
 ## 相关模型
 
 - **与[时间块](../time-blocking/SKILL.md)**：批处理窗口常落成日历块。
-- **与[两分钟法则](../two-minute-rule/SKILL.md)**：≤2 分钟且在批窗外出现 → 可立即清；其余进批。
+- **与[两分钟法则](../two-minute-rule/SKILL.md)**：≤2 分钟的琐事在批窗**内**顺手清掉；批窗**外**出现一律先记录，不要现场处理——那正是两分钟法则最常见的滥用形态。
 - **与[WIP 限制](../wip-limits/SKILL.md)**：批处理管「同类合并」；WIP 管「同时开多少」。
 - **与[精益思维](../lean-thinking/SKILL.md)**：警惕过大批量的等待浪费。
 - **与[帕累托法则](../../systems-classic-effects/pareto-principle/SKILL.md)**：只互链——先批真正高频的 20% 打断源。
