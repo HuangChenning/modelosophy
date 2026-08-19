@@ -488,8 +488,6 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 ### ~~内容正确性深度审查~~ — 已完成（2026-08-19，三轮）
 全库 350 个 `SKILL.md`（含 `business/org-it-intel-report`）内容正确性审查**全覆盖**，累计修复 50 处实质问题。详见上文「已完成：内容正确性审查第三轮」。剩余限制：审查不等于盲测，280 个 `v0.x-draft` 仍未做独立 sub-agent 盲测。
 
-详见上文「已完成：内容正确性审查第二轮」。
-
 ### org-it-intel-report 可选硬化
 ~~官方 frontmatter / `quick_validate` 等（非阻塞）。~~ **已完成（2026-08-19）**：`author`/`version` 移入 `metadata` 嵌套字段，通过 `quick_validate.py`。
 
