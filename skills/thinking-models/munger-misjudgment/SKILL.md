@@ -59,24 +59,24 @@ metadata:
 | 2 | 喜欢/热爱 | 爱屋及乌，低估所爱对象的缺陷 | — |
 | 3 | 讨厌/憎恨 | 憎其余胥，低估所憎对象的优点 | — |
 | 4 | 避免怀疑 | 为消除疑虑痛苦而过早下结论 | [`dual-process`](../dual-process/SKILL.md)（冷却） |
-| 5 | 避免不一致 | 死守旧承诺与自我形象以维持一致 | [`sunk-cost`](../../behavioral-biases/sunk-cost/SKILL.md) / [`confirmation-bias`](../../behavioral-biases/confirmation-bias/SKILL.md) |
+| 5 | 避免不一致 | 死守旧承诺与自我形象以维持一致 | [`commitment-consistency`](../../behavioral-biases/commitment-consistency/SKILL.md) |
 | 6 | 好奇心 | 探索欲；可对冲部分误判 | —（保护性倾向） |
 | 7 | 康德式公平 | 对绝对公平的执念扭曲交易 | — |
 | 8 | 艳羡/妒忌 | 相对地位驱动决策 | — |
-| 9 | 回馈 | 互惠与以牙还牙过冲 | — |
+| 9 | 回馈 | 互惠与以牙还牙过冲 | [`reciprocity`](../../behavioral-biases/reciprocity/SKILL.md) |
 | 10 | 简单联想 | 符号/刻板联想替代因果 | — |
 | 11 | 避免痛苦的心理否认 | 拒认痛苦事实 | 常叠用 [`confirmation-bias`](../../behavioral-biases/confirmation-bias/SKILL.md) |
-| 12 | 自视过高 | 高估自己与所有物 | [`dunning-kruger`](../../behavioral-biases/dunning-kruger/SKILL.md) |
-| 13 | 过度乐观 | 愿望当概率 | [`prospect-theory`](../../behavioral-biases/prospect-theory/SKILL.md) |
+| 12 | 自视过高 | 高估自己与所有物 | [`overconfidence`](../../behavioral-biases/overconfidence/SKILL.md) |
+| 13 | 过度乐观 | 愿望当概率 | —（暂无专用 skill） |
 | 14 | 被剥夺超级反应 | 对损失/差点失去的过激反应 | [`loss-aversion`](../../behavioral-biases/loss-aversion/SKILL.md) / [`prospect-theory`](../../behavioral-biases/prospect-theory/SKILL.md) |
-| 15 | 社会认同 | 从众替代独立判断 | [`spiral-of-silence`](../spiral-of-silence/SKILL.md) |
+| 15 | 社会认同 | 从众替代独立判断 | [`social-proof`](../../behavioral-biases/social-proof/SKILL.md) |
 | 16 | 对比错误反应 | 被对照物顺序/反差带偏 | — |
 | 17 | 压力影响 | 过强压力损害认知 | — |
 | 18 | 易得性错误衡量 | 生动易提案例权重过高 | [`availability-heuristic`](../../behavioral-biases/availability-heuristic/SKILL.md) |
 | 19 | 不用就忘 | 技能与知识衰减 | [`forgetting-curve`](../../learning-growth/forgetting-curve/SKILL.md) |
 | 20 | 化学物质误影响 | 酒精等扭曲判断 | —（建议 defer 专业/医疗） |
 | 21 | 衰老误影响 | 认知老化相关失误 | —（非诊断） |
-| 22 | 权威误影响 | 过度服从权威与头衔 | — |
+| 22 | 权威误影响 | 过度服从权威与头衔 | [`authority-bias`](../../behavioral-biases/authority-bias/SKILL.md) |
 | 23 | 废话倾向 | 空话挤占思维与议程 | — |
 | 24 | 重视理由 | 有“因为”就更易顺从，理由可空洞 | — |
 | 25 | **Lollapalooza** | 多倾向同向叠加产生极端结果 | **本 skill 主战场** |
@@ -110,7 +110,7 @@ metadata:
 
 ## 相关模型
 
-- **与各专用 bias skill**：本模型扫描与路由；细节执行在 confirmation-bias、availability-heuristic、loss-aversion、prospect-theory、dunning-kruger、spiral-of-silence、forgetting-curve、dual-process 等。
+- **与各专用 bias skill**：本模型扫描与路由；细节执行在 confirmation-bias、availability-heuristic、loss-aversion、overconfidence、social-proof、commitment-consistency、reciprocity、authority-bias、forgetting-curve、dual-process 等。
 - **与[逆向思维](../../cognitive-thinking-tools/inversion/SKILL.md)**：逆向问“如何失败”；本模型提供失败的标准心理菜单。可先清单后逆向补遗漏。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：证据过滤的专用手术刀；芒格命中相关倾向时路由过去。
 - **与[双系统](../dual-process/SKILL.md)**：压力与怀疑回避常走快系统；冷却是跨倾向通用防护。

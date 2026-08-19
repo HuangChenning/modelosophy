@@ -27,7 +27,7 @@ Christensen 传统的关键不是「技术多炫」，而是**非对称动机与
 
 **不要**当主模型：
 
-- 价值曲线 ERR C 重建 → [`blue-ocean`](../blue-ocean/SKILL.md)
+- 价值曲线 ERRC 重建 → [`blue-ocean`](../blue-ocean/SKILL.md)
 - 产业五力利润池 → [`porters-five-forces`](../porters-five-forces/SKILL.md)
 - 可持续壁垒评估 → [`economic-moat`](../economic-moat/SKILL.md)
 

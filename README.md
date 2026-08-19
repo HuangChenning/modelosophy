@@ -10,26 +10,29 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 This repository is early. There are **350** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
+**Not all 350 are equally finished, and the difference matters — but read the `v1.0` label narrowly.** 70 skills carry `version: v1.0`: they were distilled from primary sources, went through the mandatory Socratic self-check, and were blind-tested by an independent agent. The other 280 are `v0.x-draft`: batch-authored from a topic roster, structurally validated and given a minimal eval set, but never blind-tested. **What "blind-tested" verified is triggering — whether the skill fires on the right prompts — not factual accuracy of the content.** A 2026-08-19 content audit of the `thinking-models` v1.0 batch found real issues in it too (a stale router table, a misattributed citation, an example that contradicts the model's own stated rule), at a rate not obviously lower than the drafts. Treat `v1.0` as "passed triggering QA," not "fact-checked." See [`ROADMAP.md`](ROADMAP.md) for what's actually been content-reviewed.
+
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md).
 
 Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 
-| Category | Count | Index |
-| --- | ---: | --- |
-| [Business / Org Intel](skills/business/README.md) | 1 | [index](#business-/-org-intel1) |
-| [Thinking Models](skills/thinking-models/README.md) | 25 | [index](#thinking-models25) |
-| [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 28 | [index](#cognitive-thinking-tools28) |
-| [Decision & Probability](skills/decision-probability/README.md) | 24 | [index](#decision--probability24) |
-| [Learning & Growth](skills/learning-growth/README.md) | 23 | [index](#learning--growth23) |
-| [Strategy & Competition](skills/strategy-competition/README.md) | 24 | [index](#strategy--competition24) |
-| [Efficiency & Execution](skills/efficiency-execution/README.md) | 21 | [index](#efficiency--execution21) |
-| [Systems & Complexity](skills/systems-complexity/README.md) | 23 | [index](#systems--complexity23) |
-| [Macroeconomic Theories](skills/econ-macro-theories/README.md) | 30 | [index](#macroeconomic-theories30) |
-| [Microeconomics & Markets](skills/econ-micro-markets/README.md) | 30 | [index](#microeconomics--markets30) |
-| [Game Theory & Strategy](skills/game-theory-models/README.md) | 31 | [index](#game-theory--strategy31) |
-| [Behavioral Biases](skills/behavioral-biases/README.md) | 30 | [index](#behavioral-biases30) |
-| [Finance & Investing](skills/finance-investing-models/README.md) | 30 | [index](#finance--investing30) |
-| [Systems & Classic Effects](skills/systems-classic-effects/README.md) | 30 | [index](#systems--classic-effects30) |
+| Category | Total | `v1.0` | `v0.x-draft` | Index |
+| --- | ---: | ---: | ---: | --- |
+| [Business / Org Intel](skills/business/README.md) | 1 | 1 | 0 | [index](#business-/-org-intel1) |
+| [Thinking Models](skills/thinking-models/README.md) | 25 | 25 | 0 | [index](#thinking-models25) |
+| [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 28 | 8 | 20 | [index](#cognitive-thinking-tools28) |
+| [Decision & Probability](skills/decision-probability/README.md) | 24 | 2 | 22 | [index](#decision--probability24) |
+| [Learning & Growth](skills/learning-growth/README.md) | 23 | 5 | 18 | [index](#learning--growth23) |
+| [Strategy & Competition](skills/strategy-competition/README.md) | 24 | 4 | 20 | [index](#strategy--competition24) |
+| [Efficiency & Execution](skills/efficiency-execution/README.md) | 21 | 2 | 19 | [index](#efficiency--execution21) |
+| [Systems & Complexity](skills/systems-complexity/README.md) | 23 | 4 | 19 | [index](#systems--complexity23) |
+| [Macroeconomic Theories](skills/econ-macro-theories/README.md) | 30 | 0 | 30 | [index](#macroeconomic-theories30) |
+| [Microeconomics & Markets](skills/econ-micro-markets/README.md) | 30 | 1 | 29 | [index](#microeconomics--markets30) |
+| [Game Theory & Strategy](skills/game-theory-models/README.md) | 31 | 1 | 30 | [index](#game-theory--strategy31) |
+| [Behavioral Biases](skills/behavioral-biases/README.md) | 30 | 9 | 21 | [index](#behavioral-biases30) |
+| [Finance & Investing](skills/finance-investing-models/README.md) | 30 | 1 | 29 | [index](#finance--investing30) |
+| [Systems & Classic Effects](skills/systems-classic-effects/README.md) | 30 | 7 | 23 | [index](#systems--classic-effects30) |
+| **Total** | **350** | **70** | **280** | |
 
 Skills formerly under Thinking Models have been moved into domain categories in batches (including **25** this round into cognitive / decision / learning / strategy / efficiency / complexity); they are listed only under the new categories.
 
@@ -68,7 +71,13 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **350** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 143). New checklist fills are mostly `v0.x-draft` pending pressure tests. Conventions may still change as the library grows.
+The library is still early — **350** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 143). Known gaps, stated plainly:
+
+- **80% are unverified drafts.** 280 of 350 are `v0.x-draft` (see the table above for the per-category split). They have valid frontmatter, the full template structure, and a minimal eval set, but have not been blind-tested.
+- **Eval depth is uneven, and "blind-tested" only means triggering was checked.** `thinking-models` averages ~10 test cases per skill and was blind-tested; every other category averages 5–6 cases and has never been blind-tested. Either way, the eval only verifies whether a skill fires on the right prompts — not whether its content is correct.
+- **`v1.0` is not a content-accuracy guarantee.** A 2026-08-19 content audit covering all 25 `v1.0` thinking-models files, plus large samples of six batch-generated draft categories (~200 files read total), found real issues on both sides of the version line: mojibake'd formula subscripts, misremembered experiment/citation details, a naming clash between two same-named formulas, self-contradictions between a skill's own steps and its stated boundaries, and — in the `v1.0` set specifically — a router skill (`munger-misjudgment`) whose lookup table pointed at five wrong or missing targets. Every found issue has been fixed as of this audit round, but the underlying lesson stands: blind testing checks triggering, not facts, and neither draft nor `v1.0` status should be read as "fact-checked." See [`ROADMAP.md`](ROADMAP.md) for exactly which files have and haven't had a content pass.
+
+Conventions may still change as the library grows.
 
 ## Contributing a mental model
 

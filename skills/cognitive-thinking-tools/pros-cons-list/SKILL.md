@@ -3,7 +3,7 @@ name: pros-cons-list
 description: >
   用优劣势清单（Pros and Cons）把选项的利与弊显式并列，促进全面扫描与对话，适合快速、
   低形式化的比较。Use when user says “优劣势清单”“利弊列表”“pros and cons”“好坏列出来”。
-  **名录归属第七类。** **硬区分**：要加权多标准与敏感性 → [`decision-matrix`](../decision-matrix/SKILL.md)；
+  **硬区分**：要加权多标准与敏感性 → [`decision-matrix`](../decision-matrix/SKILL.md)；
   不确定分叉+概率 → [`decision-tree`](../../decision-probability/decision-tree/SKILL.md)；
   战略四格环境扫描 → [`swot`](../../strategy-competition/swot/SKILL.md)。不适用于把条目数当投票结果。
 metadata:

@@ -25,7 +25,7 @@ metadata:
 
 - "帮我做间隔复习计划 / Anki 策略"
 - "间隔重复 / SRS / spaced repetition 怎么用"
-- 词汇、术语、公式、 orthographic 事实等可卡片化材料
+- 词汇、术语、公式、拼写/正字法事实等可卡片化材料
 
 **不要**当主模型：
 

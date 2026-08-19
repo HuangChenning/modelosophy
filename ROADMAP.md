@@ -33,7 +33,32 @@
 |---|---|---|
 | 仍为 `v0.x-draft` | 350 个里 **280 个（80%）** | 按 CLAUDE.md 规则，草稿不是"成品"；README 的"350 个可执行 Skill"目前没有区分 draft 和已验证 |
 | evals 深度不足、未盲测 | 除 `thinking-models`（平均 10 条/skill，已盲测）外，其余 12 类平均仅 **5～6 条**/skill，均未做独立 sub-agent 盲测 | 内容正确性抽样审查不能替代盲测——盲测验证的是"触发/不触发判断是否准确"，两者维度不同 |
-| 内容正确性审查覆盖面 | 171 个抽样里约 48 个未读；`decision-probability` 等 7 个分类完全未审查 | 已读部分质量好于预期，但不能外推到未读部分 |
+| ~~内容正确性审查覆盖面~~ | 见下「第二轮」——7 个此前完全未审的分类已全部补审 | — |
+
+## 已完成：内容正确性审查第二轮（2026-08-19，同日下半场）
+
+第一轮只覆盖了 6 个批量分类的 72%，`cognitive-thinking-tools`/`decision-probability`/`learning-growth`/`strategy-competition`/`efficiency-execution`/`systems-complexity`/`thinking-models` 这 7 个分类完全没审过。这一轮派 4 个独立 agent 补上：
+
+| Agent 覆盖范围 | 精读文件数 |
+|---|---|
+| cognitive-thinking-tools + decision-probability | 52/52（全量） |
+| learning-growth + strategy-competition | 47/47（全量） |
+| efficiency-execution + systems-complexity | 44/44（全量） |
+| thinking-models（全量 25）+ 六分类此前遗漏的补漏条目 | 25 + 约 40 |
+
+**发现并修复的实质问题共 47 处**（跨 4 个分类 + thinking-models + 六分类补漏），代表性的几类：
+
+- **路由/自相矛盾类**（最危险的一类，会直接导致给错答案）：`munger-misjudgment` 的 25 条倾向路由表有 5 处指向错误或已过时的 skill；`inversion` 与 `pre-mortem` 的触发词重叠且正文互相否认对方是不是"同一个模型"；`batching` 的例证违反了自己和 `two-minute-rule` 两边的规则；`antifragility` 的历史修正只改了正文，frontmatter description（路由层，先于正文生效）还是被推翻的旧说法。
+- **理论内部冲突未被点破**：蓝海战略与波特通用战略（成本领先/差异化）对"能否同时低成本又差异化"给出相反答案，三份 skill 互不知情——按 CLAUDE.md Rule 7（"Surface conflicts, don't average them"）在三份文件里都补了统一的分流判据并注明这是真实的理论分歧。
+- **伪科学/术语误用**：`self-organization`、`negentropy` 把"孤立系统"和"封闭系统"混用，热力学第二定律的适用范围被放宽到组织隐喻里；`edge-of-chaos` 把一个已被 Mitchell et al. (1993) 复现推翻的假说当既定事实；`eat-the-frog` 的立论机制建立在已被 Hagger et al. (2016) 23 实验室重复实验推翻的"自我损耗"理论上。
+- **引用/例证张冠李戴**：`counterfactual-thinking` 把两篇不同论文的内容并成一个错误作者组合；`gaslighting` 把 Stern 的三阶段模型改错了名字；`five-whys` 的丰田经典案例记错并且方向记反；`serial-position-effect` 用 Asch 的实验材料冒充 Luchins 的研究。
+- **伪精确数字**：`deliberate-practice` 的"错误率 20–40%"、`okr` 的"0.6–0.7 健康挑战"（漏掉 committed/aspirational 二分）都是在批判别处伪精确的同时自己犯的同款错误。
+
+**关键方法论发现——`v1.0` 标签的含金量需要重新校准**：两个独立 agent（`cognitive-thinking-tools`/`decision-probability` 那份、`thinking-models` 那份）都报告，**标 `v1.0` 的文件贡献的问题数量并不明显少于 `v0.x-draft`**，`munger-misjudgment`（v1.0 路由 skill）的路由表错误尤其严重。原因：v1.0 文件更长、断言更具体，可证伪面更大；批量 draft 的电报体反而因为"什么都不多说"少犯错。**这说明"盲测"验证的只是触发判断，从未验证内容事实——`v1.0` ≠ 已核实事实。** README 已按此改写措辞（不再暗示 v1.0 更可靠）。
+
+**验证**：全部改动跑过 `python3 internal/skill-creator/scripts/audit_repo_skills.py .`，350 个 `SKILL.md` 结构审计 0 问题。
+
+**仍未覆盖**：`game-theory-models`（约 23 个未读）、`behavioral-biases`（约 22 个）、`econ-macro-theories`（约 20 个）、`econ-micro-markets`（约 21 个）、`finance-investing-models`（约 20 个）这五个分类里未被两轮任何一个 agent 读到的条目；`business/org-it-intel-report` 从未做过内容审查（调研类 skill，形态不同，需要单独设计审查标准）。
 
 ## 已完成
 
@@ -442,11 +467,15 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 
 ## 待办：其他
 
-### 补齐 50 个 skill 缺失的「常见误用」章节
-需要逐个按模型真实机制写，不能填通用套话——2026-08-19 审计发现的具体清单见对应审计记录；含 `cognitive-thinking-tools/occams-razor`、`learning-growth/antifragility`、`thinking-models/socratic-questioning` 等我们早期做过的 skill。
+### ~~补齐 50 个 skill 缺失的「常见误用」章节~~ — 已完成（2026-08-19）
+50 个全部补齐，逐条按模型自身机制撰写。详见上文「已完成：全库结构审计与机械修复」。
 
-### 280 个 v0.x-draft skill 的内容正确性深度审查
-2026-08-19 只抽样读了 6 个（`econ-macro-theories/ad-as-model`、`finance-investing-models/black-scholes`、`game-theory-models/prisoners-dilemma`、迁移后的 `occams-razor`/`antifragility` 等），未发现事实错误但样本太小。需要扩大抽样面，尤其是批量新建、从未经过苏格拉底式质疑自检的那 ~280 个。
+### 内容正确性深度审查 — 部分完成（2026-08-19），仍有覆盖缺口
+已精读 **123** 个文件（六个批量 draft 分类，约占其 171 条的 72%），修掉 3 处实质问题。**仍未覆盖**：
+- 上述六分类里约 **48** 个未读条目；
+- `cognitive-thinking-tools` / `decision-probability` / `learning-growth` / `strategy-competition` / `efficiency-execution` / `systems-complexity` / `thinking-models` 这 **7 个分类完全未做**内容正确性审查（只过了结构审计）。
+
+详见上文「内容正确性抽样深审」。
 
 ### org-it-intel-report 可选硬化
 ~~官方 frontmatter / `quick_validate` 等（非阻塞）。~~ **已完成（2026-08-19）**：`author`/`version` 移入 `metadata` 嵌套字段，通过 `quick_validate.py`。

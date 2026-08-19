@@ -61,8 +61,8 @@ metadata:
 - **与[梅特卡夫定律](../../systems-classic-effects/metcalfes-law/SKILL.md)**：价值/规模；本模型是结构。
 - **与[涌现](../emergence/SKILL.md)**：短路径上的传播模式常是涌现现象。
 - **与[反馈回路](../../systems-classic-effects/feedback-loops/SKILL.md)**：网络上的传播可再画回路；先定拓扑再定回路。
-
 - **与[网络拓扑](../network-topology/SKILL.md)**：拓扑是度量入口；已确认高聚类+短路径再用本专条。
+
 ## 记忆钩子
 
 团内要密，团间要有几座桥——桥是捷径，也是双刃剑。

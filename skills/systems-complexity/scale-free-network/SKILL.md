@@ -64,8 +64,8 @@ metadata:
 - **与[梅特卡夫定律](../../systems-classic-effects/metcalfes-law/SKILL.md)**：价值规模；本模型是度数异质结构。
 - **与[马太效应](../../systems-classic-effects/matthew-effect/SKILL.md)**：优先连接是马太在网络上的机制。
 - **与[锁定效应](../../systems-classic-effects/lock-in-effect/SKILL.md)**：hub 平台常伴随锁定；锁定专攻切换成本。
-
 - **与[幂律](../power-law/SKILL.md)**：无标度是网络度数上的幂律+hub；一般量的胖尾用幂律专条。
+
 ## 记忆钩子
 
 先找那几个被所有人连的 hub——随机坏几个叶子往往无感，打掉 hub 才会地震。

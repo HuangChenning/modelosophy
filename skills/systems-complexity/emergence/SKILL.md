@@ -70,8 +70,8 @@ metadata:
 - **与[复杂适应系统](../complex-adaptive-systems/SKILL.md)**：CAS 是主体适应+共同演化的框架；涌现是其常见产物描述。
 - **与[系统基模](../system-archetypes/SKILL.md)**：基模给常见回路故事；涌现问是否真由互动生成新宏观。
 - **与[路径依赖](../../systems-classic-effects/path-dependence/SKILL.md)**：历史锁定解释「为何停在这」；涌现解释「模式如何从互动冒出」。
-
 - **与[自组织](../self-organization/SKILL.md)**：自组织强调无总控生成；涌现强调跨尺度不可加总。可连用。
+
 ## 记忆钩子
 
 先找互动规则，再谈整体——加总得出来就别叫涌现。
