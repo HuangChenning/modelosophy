@@ -1,0 +1,60 @@
+{
+  "skill": "production-effect",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "production-effect-should-01",
+      "type": "should_trigger",
+      "prompt": "背单词的时候，把重点的那几个生词大声读出来，其他的还是默读，这样有帮助吗？",
+      "expect": "触发。用户描述的正是产出效应的经典应用场景——混合材料中对关键条目做产出、其余默读，应说明这种对比结构能让关键词更容易被记住。"
+    },
+    {
+      "id": "production-effect-should-02",
+      "type": "should_trigger",
+      "prompt": "production effect 具体是什么机制，为什么大声读出来会比默读记得牢？",
+      "expect": "触发。用户直接询问产出效应机制，应说明核心是相对独特性（distinctiveness），并引用MacLeod et al. 2010的混合列表研究。"
+    },
+    {
+      "id": "production-effect-should-03",
+      "type": "should_trigger",
+      "prompt": "这份清单里有几个关键编号必须记牢，其他信息不那么重要，怎么让关键编号更容易被记住？",
+      "expect": "触发。应建议对需要突出记忆的关键条目做产出（读出/抄写/打字），让它们相对于其余默读部分形成对比，增强记忆。"
+    },
+    {
+      "id": "production-effect-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "这段讲解逻辑挺复杂的，我想理解它的因果关系而不只是记住几个术语，该怎么加工？",
+      "expect": "不应主要走本模型。用户目标是深层理解因果关系，不是逐字记忆，产出效应对理解的证据薄弱，应走自我解释或精细加工提问处理含义。"
+    },
+    {
+      "id": "production-effect-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "上个月学的内容，现在想不看书直接测一下自己还记不记得。",
+      "expect": "不应触发本模型。这是脱离材料、事后回忆检验的场景，属于检索练习；产出效应发生在材料仍在眼前的学习阶段，不涉及事后回忆测试。"
+    },
+    {
+      "id": "production-effect-decoy-fact-01",
+      "type": "should_not_trigger",
+      "prompt": "Colin MacLeod 在哪所大学任教？",
+      "expect": "不触发。纯事实性提问（滑铁卢大学），直接回答即可。"
+    },
+    {
+      "id": "production-effect-edge-01",
+      "type": "edge_case",
+      "prompt": "我在图书馆不方便出声，只能默读，那还能利用产出效应吗？",
+      "expect": "边界情况。应说明产出的形式不限于出声朗读，抄写、打字、小声嘟囔等能自己主动生成输出的动作都算产出，核心是'自己生成了可感知的输出'而不是必须发出声音。"
+    },
+    {
+      "id": "production-effect-edge-02",
+      "type": "edge_case",
+      "prompt": "我把整篇要背的课文从头到尾全部大声读了好几遍，感觉应该记得特别牢吧？",
+      "expect": "边界情况，触发但需纠正预期。应指出这是纯列表设计（没有默读部分作对照），根据Ozubko & MacLeod 2010的研究，产出效应在这种情况下会大幅缩小甚至消失，不能指望获得研究中报告的那种效果量；如果想利用产出效应，应只对部分关键内容做产出，其余保持默读形成对比。"
+    },
+    {
+      "id": "production-effect-trap-01",
+      "type": "correctness_trap",
+      "prompt": "既然读出声能加工得更深、记得更牢，那我以后学什么复杂内容都全部大声读一遍，这样既能记住又能理解，对吧？",
+      "expect": "必须纠正两处：（1）产出效应依赖混合列表中的相对独特性，全部读出声（没有默读部分对照）时增益会大幅缩小甚至消失，不是'读得越多越好'；（2）产出效应主要作用于逐字/条目记忆，不直接提升对复杂内容的理解，如果目标是理解，单靠读出声帮助有限，需要配合自我解释或精细加工提问处理含义。"
+    }
+  ]
+}

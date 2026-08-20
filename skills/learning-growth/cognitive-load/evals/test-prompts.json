@@ -1,0 +1,60 @@
+{
+  "skill": "cognitive-load",
+  "version": "v0.x-draft",
+  "tests": [
+    {
+      "id": "cognitive-load-should-01",
+      "type": "should_trigger",
+      "prompt": "这份新员工培训课件信息量特别大，学员反馈说完全跟不上、喘不过气，该怎么改？",
+      "expect": "触发。用户描述的正是认知负荷超载的典型症状，应先诊断根源是内在负荷（内容本身复杂）还是外在负荷（呈现方式问题），再针对性拆分/整合/去冗余。"
+    },
+    {
+      "id": "cognitive-load-should-02",
+      "type": "should_trigger",
+      "prompt": "教程里图和对图的文字说明分别放在两个页面，读者要来回翻页才能对上，这样不好吗？",
+      "expect": "触发。这正是split-attention（图文分离）的典型外在负荷问题，应建议把图和说明在物理或时间上整合到一起。"
+    },
+    {
+      "id": "cognitive-load-should-03",
+      "type": "should_trigger",
+      "prompt": "cognitive load theory 里说的内在负荷、外在负荷、关联负荷分别是什么，怎么用来改进教学设计？",
+      "expect": "触发。用户直接询问认知负荷理论的三分模型，应准确说明三者定义及 Sweller 2010 对germane load 的修正，并给出可操作的诊断步骤。"
+    },
+    {
+      "id": "cognitive-load-decoy-sibling-01",
+      "type": "should_not_trigger",
+      "prompt": "我有一堆零散的历史年份和事件要记，怎么把它们打包成几个好记的单元？",
+      "expect": "不应主要走本模型。用户想要的是把离散信息组织成更大有意义单元的具体技术，属于组块，本模型是更大范围的材料/教学设计诊断框架。"
+    },
+    {
+      "id": "cognitive-load-decoy-sibling-02",
+      "type": "should_not_trigger",
+      "prompt": "团队成员练习一项新技能总是原地踏步，感觉练了很久也没进步，该怎么办？",
+      "expect": "不应触发本模型。问题根源是缺乏针对性反馈闭环，不是信息呈现方式超载，属于刻意练习的场景。"
+    },
+    {
+      "id": "cognitive-load-decoy-fact-01",
+      "type": "should_not_trigger",
+      "prompt": "工作记忆的容量上限一般认为是多少个组块？",
+      "expect": "不触发本模型独立诊断流程，可直接说明常见参考数字（Miller 1956 的7±2，及Cowan 2001 修正为约4个）并简要说明这是估计范围，不必展开完整的负荷诊断步骤。"
+    },
+    {
+      "id": "cognitive-load-edge-01",
+      "type": "edge_case",
+      "prompt": "这份材料是给这个领域的资深专家看的，但他们也反馈说读起来吃力，是不是也要按认知负荷理论精简？",
+      "expect": "边界情况。应先确认吃力的原因——对专家而言，如果材料本身元素互动性确实很高（比如跨多个专业领域的整合内容），仍属于内在负荷问题，可以精简呈现方式（外在负荷）；但要提醒不要对专家使用新手向的高扶手设计（完整讲解、降低独立思考要求），那类设计对专家反而是冗余，会造成专长逆转效应。"
+    },
+    {
+      "id": "cognitive-load-edge-02",
+      "type": "edge_case",
+      "prompt": "视频教程里既有旁白讲解，又在屏幕上同步显示和旁白一字不差的字幕，这样是不是能让学习者从多个渠道加深印象？",
+      "expect": "边界情况，触发但需纠正直觉。应指出这是冗余效应的典型场景——旁白和字幕内容完全重复时，多渠道不是'双重保险'，反而可能增加负荷、拖慢学习，可以测试去掉重复字幕后理解是否变差来判断是否需要保留。"
+    },
+    {
+      "id": "cognitive-load-trap-01",
+      "type": "correctness_trap",
+      "prompt": "我想在课程设计里专门加一个环节来'提升关联负荷（germane load）'，让学生学得更深，具体怎么单独增加这部分负荷？",
+      "expect": "必须纠正。这是对germane load的常见误解——Sweller 2010已经修正，germane load不是独立于工作记忆之外、可以单独'增加'的第三个资源池，而是省下外在负荷之后被腾出来、用于处理内在负荷（建构图式）的那部分资源。正确做法是先压缩外在负荷（去冗余、去split-attention），腾出的余量自然能投入有效加工，不存在脱离这个前提凭空'加大germane load'的操作。"
+    }
+  ]
+}
