@@ -6,7 +6,7 @@
 
 路径：`skills/thinking-models/<skill-name>/SKILL.md`。
 
-当前合计 **26** 个（本轮再迁出 25 个后，新增 pyramid-principle）。
+当前合计 **27** 个（本轮再迁出 25 个后，新增 pyramid-principle 与 scqa-framework）。
 
 ## Skills
 
@@ -32,6 +32,7 @@
 - **[process-replication](./process-replication/SKILL.md)** — 可复制化：把成功经验蒸馏为可迁移步骤，按本地约束适配后再规模化。
 - **[pyramid-principle](./pyramid-principle/SKILL.md)** — 金字塔原理：思考、表达与问题解决的黄金法则，遵循结论先行、以上统下、归类分组 (MECE) 与逻辑递进。
 - **[redundancy](./redundancy/SKILL.md)** — 冗余备份：有意保留多余容量、路径或副本，使局部失效不致系统停摆。
+- **[scqa-framework](./scqa-framework/SKILL.md)** — SCQA 结构化叙事框架：用情境 (S)、冲突 (C)、问题 (Q)、解答 (A) 组织沟通开场，支持标准式、开门见山式、突出忧虑式与突出信心式 4 种变体。
 - **[situational-leadership](./situational-leadership/SKILL.md)** — 用情境领导（Hersey-Blanchard / SL 思路）按下属在*具体任务*上的准备度（能力×意愿）切换督导风格 S1–S4（指令→教练→支持→授权），禁止给人贴永久领导标签。
 - **[socratic-questioning](./socratic-questioning/SKILL.md)** — 用苏格拉底式质疑（elenchus 诘问法）检验一个主张站不站得住——不是靠反驳，而是靠追问， 让主张自身的内在矛盾显露出来。六类追问：澄清含义、检验隐含假设、追问证据、切换视角、 推导后果、反问问题本身。
 - **[spiral-of-silence](./spiral-of-silence/SKILL.md)** — 用沉默的螺旋诊断“怕被孤立 → 误判意见气候 → 少数派沉默 → 优势意见更响”的舆论动力； 区分真实多数与声量多数，并检查自己是否因孤立恐惧而闭嘴。
