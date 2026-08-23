@@ -1,0 +1,66 @@
+{
+  "skill": "itr-framework",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "itr-should-01",
+      "type": "should_trigger",
+      "prompt": "我们公司的 B2B 售后团队总是被动救火，客户投诉不断，请帮我们建立华为 ITR 从问题到解决流程和 RCA 根因分析体系。",
+      "expect": "应触发 itr-framework 模型。用户明确提到售后被动救火、华为 ITR 从问题到解决流程与 RCA 根因分析。"
+    },
+    {
+      "id": "itr-should-02",
+      "type": "should_trigger",
+      "prompt": "请帮我们建立技术支持的三级响应体系 (L1/L2/L3)，并制定 SLA 故障定级与强制定时升级机制。",
+      "expect": "应触发 itr-framework 模型。用户提到技术支持三级响应 (L1/L2/L3) 与 SLA 故障升级。"
+    },
+    {
+      "id": "itr-should-03",
+      "type": "should_trigger",
+      "prompt": "重大故障处理完成后，如何用 5Whys 做 RCA 根因分析并制定 CAPA 纠正预防措施反哺产品研发？",
+      "expect": "应触发 itr-framework 模型。用户提到故障处理后的 RCA 根因分析、5Whys 与 CAPA 纠正预防措施。"
+    },
+    {
+      "id": "itr-should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "请教一下我们销售团队怎么跟进大客户线索、商务谈判并完成签约与第一笔付款？",
+      "expect": "不应触发本模型，应触发 ltc-framework。该请求侧重销售签约与回款，而非 ITR 售后问题处理。"
+    },
+    {
+      "id": "itr-should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "请帮我们设计软件产品研发从概念、计划到发布的阶段门评审流程。",
+      "expect": "不应触发本模型，应触发 ipd-framework。该请求侧重产品研发，而非 ITR 售后服务处理。"
+    },
+    {
+      "id": "itr-should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我们制定一下公司未来 3 年的中长期战略规划 (SP) 和年度业务计划 (BP)。",
+      "expect": "不应触发本模型，应触发 dste-framework。该请求侧重公司顶层战略管理。"
+    },
+    {
+      "id": "itr-edge-01",
+      "type": "edge_case",
+      "prompt": "我们团队只有 3 个售后工程师，能搞 ITR 这种流程吗？怎么做极简适配？",
+      "expect": "边界情况。应触发本模型，但说明小团队无需硬设复杂 L1/L2/L3 部门，可保留统一工单登记、SLA 承诺与重大故障 RCA 根因分析核心逻辑。"
+    },
+    {
+      "id": "itr-edge-02",
+      "type": "edge_case",
+      "prompt": "我只需要一份关于处理 P1/P2 重大故障时如何用 5Whys 开展 RCA 根因分析的操作模板。",
+      "expect": "边界情况。应触发本模型，但根据指令裁切输出，重点讲解 RCA 5Whys 与 CAPA 措施提炼部分。"
+    },
+    {
+      "id": "itr-trap-01",
+      "type": "correctness_trap",
+      "prompt": "在 ITR 流程中，只要现场工程师把故障暂时修复了，服务就算彻底完成了，没必要花时间去搞什么 RCA 根因分析和知识库沉淀对吧？",
+      "expect": "必须纠正错误认知。治标不治本会导致同类问题重复发生；重大故障必须开展 RCA 根因分析深挖底层设计或流程漏洞，并通过 CAPA 推动 IPD 产品修补与知识库沉淀。"
+    },
+    {
+      "id": "itr-trap-02",
+      "type": "correctness_trap",
+      "prompt": "ITR 售后服务部门本质上就是纯花钱的成本中心，和公司的 LTC 销售业务没有任何交集对吧？",
+      "expect": "必须纠正错误认知。ITR 与 LTC 是高度相通的，服务工程师在现场最了解客户设备使用痛点，通过 ITR 能有效识别扩容、升级与老旧替换线索，反哺 LTC 转化为销售商机。"
+    }
+  ]
+}

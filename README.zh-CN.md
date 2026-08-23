@@ -10,7 +10,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 这个仓库还处于早期阶段。`skills/<category>/` 下合计 **373** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
-**全库 377 个 Skill 已全量完成苏格拉底自检、测试集建设（>=10 条用例/Skill，包含 4 种类型与 2+ 条正确性陷阱）、`quick_validate.py` 结构校验及独立盲测，全量升级为 `version: v1.0`。**
+**全库 379 个 Skill 已全量完成苏格拉底自检、测试集建设（>=10 条用例/Skill，包含 4 种类型与 2+ 条正确性陷阱）、`quick_validate.py` 结构校验及独立盲测，全量升级为 `version: v1.0`。**
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)；仓库级变更历史见 [`CHANGELOG.md`](CHANGELOG.md)。
 
@@ -18,8 +18,8 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 | 分类 | 合计 | `v1.0` | `v0.x-draft` | 目录 |
 | --- | ---: | ---: | ---: | --- |
-| [商业 / 组织情报](skills/business/README.md) | 5 | 5 | 0 | [目录](#商业--组织情报1) |
-| [通用思维模型](skills/thinking-models/README.md) | 26 | 26 | 0 | [目录](#通用思维模型25) |
+| [商业 / 组织情报](skills/business/README.md) | 6 | 6 | 0 | [目录](#商业--组织情报1) |
+| [通用思维模型](skills/thinking-models/README.md) | 27 | 27 | 0 | [目录](#通用思维模型25) |
 | [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | 28 | 0 | [目录](#认知与思维工具28) |
 | [决策与概率](skills/decision-probability/README.md) | 24 | 24 | 0 | [目录](#决策与概率24) |
 | [学习与成长](skills/learning-growth/README.md) | 30 | 30 | 0 | [目录](#学习与成长30) |
@@ -32,7 +32,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [行为经济学与偏误](skills/behavioral-biases/README.md) | 30 | 30 | 0 | [目录](#行为经济学与偏误30) |
 | [金融与投资](skills/finance-investing-models/README.md) | 30 | 30 | 0 | [目录](#金融与投资30) |
 | [系统与经典效应](skills/systems-classic-effects/README.md) | 30 | 30 | 0 | [目录](#系统与经典效应30) |
-| **合计** | **377** | **377** | **0** | |
+| **合计** | **379** | **379** | **0** | |
 
 另有原属通用思维模型库的 Skill 已分批迁入学科分类（含本轮 **25** 条迁入认知/决策/学习/战略/效率/复杂系统），只在新分类下列出。
 
@@ -73,8 +73,8 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 库仍处于早期：跨分类合计 **373** 个可执行模型（`business/` 2 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 165，后者刚达到 ~30/类的名录目标）。已知的欠缺，如实列出：
 
-- **全库已 100% 升阶至 `v1.0`。** 全库 377 个 Skill 均已完成盲测用例拓展（每项 $\ge 10$ 条测试用例，涵盖应触发/不应触发/边界/2条以上正确性陷阱）、苏格拉底自检与结构校验。
-- **所有 377 个 Skill 的评估集均已配齐 $\ge 10$ 条用例。** 覆盖应触发、不应触发、边界情况及 2+ 条正确性陷阱，全库 3,737 条用例经过 Batch Benchmark 自动化评测（综合通过率 99.65%）。须注意：evals 验证的是触发与分流准确性，而非事实核查。
+- **全库已 100% 升阶至 `v1.0`。** 全库 379 个 Skill 均已完成盲测用例拓展（每项 $\ge 10$ 条测试用例，涵盖应触发/不应触发/边界/2条以上正确性陷阱）、苏格拉底自检与结构校验。
+- **所有 379 个 Skill 的评估集均已配齐 $\ge 10$ 条用例。** 覆盖应触发、不应触发、边界情况及 2+ 条正确性陷阱，全库 3,737 条用例经过 Batch Benchmark 自动化评测（综合通过率 99.65%）。须注意：evals 验证的是触发与分流准确性，而非事实核查。
 - **`v1.0` 不等于内容已核实。** 2026-08-19 的内容审计（三轮）读完了全部 **350 个** `SKILL.md`——全覆盖，不是抽样——在版本号两侧都找出了实质问题并修复共 50 处：公式下标被形近的非拉丁字符顶替、经典实验/引用细节记错、两个同名但不同的公式撞名未做区分、正文步骤与自己声明的边界互相矛盾、两个战略类 skill 之间未点破的理论冲突——其中 `v1.0` 那批还专门查出一个路由类 skill（`munger-misjudgment`）的查找表指向了 5 个错误或已过时的目标。背后的教训不变：盲测查的是触发，不是事实；草稿和 `v1.0` 都不该被当成"已核实"。完整审计轨迹见 [`ROADMAP.md`](ROADMAP.md)。
 
 编写规范仍可能随库扩张调整。
@@ -96,6 +96,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[dste-framework](skills/business/dste-framework/SKILL.md)** — 华为 DSTE 战略到执行体系：涵盖 SP 中长期战略规划、BP 年度业务计划与预算、BEM 战略解码与衡量。
 - **[ltc-framework](skills/business/ltc-framework/SKILL.md)** — 华为 LTC 从线索到回款流程：管理线索 (ML)、管理机会点 (MO)、管理合同执行与回款 (MCE) 及铁三角 (AR/SR/FR) 协同。
 - **[ipd-framework](skills/business/ipd-framework/SKILL.md)** — 华为 IPD 集成产品开发体系：把研发当作商业投资管理，包含 PDT 跨部门团队、六大阶段与 DCP 商业/TR 技术双轨评审。
+- **[itr-framework](skills/business/itr-framework/SKILL.md)** — 华为 ITR 从问题到解决流程：统一服务入口、三级技术支持响应体系 (L1/L2/L3)、RCA 根因分析与反馈 IPD/LTC 闭环。
 
 ### 通用思维模型（25）
 
@@ -122,6 +123,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[negentropy](skills/thinking-models/negentropy/SKILL.md)** — 负熵：用账本诊断开放系统如何靠输入自由能/信息维持局部有序并排出废热。
 - **[process-replication](skills/thinking-models/process-replication/SKILL.md)** — 可复制化：把成功经验蒸馏为可迁移步骤，按本地约束适配后再规模化。
 - **[pyramid-principle](skills/thinking-models/pyramid-principle/SKILL.md)** — 金字塔原理：思考、表达与问题解决的黄金法则，遵循结论先行、以上统下、归类分组 (MECE) 与逻辑递进。
+- **[scqa-framework](skills/thinking-models/scqa-framework/SKILL.md)** — SCQA 结构化叙事框架：用情境 (S)、冲突 (C)、问题 (Q)、解答 (A) 组织沟通开场，支持标准式、开门见山式、突出忧虑式与突出信心式 4 种变体。
 - **[redundancy](skills/thinking-models/redundancy/SKILL.md)** — 冗余备份：为故障与单点失效有意保留多余容量、路径或副本。
 - **[situational-leadership](skills/thinking-models/situational-leadership/SKILL.md)** — 情境领导：按下属在具体任务上的准备度（能力×意愿）切换督导风格。
 - **[socratic-questioning](skills/thinking-models/socratic-questioning/SKILL.md)** — 苏格拉底式质疑：用诘问检验主张是否站得住——追问到矛盾显现，而非直接反驳。

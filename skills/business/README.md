@@ -13,6 +13,7 @@
 - **[dste-framework](./dste-framework/SKILL.md)** — 华为 DSTE 战略到执行体系：涵盖 SP 中长期战略、BP 年度业务计划与预算、BEM 战略解码导出 KPI/PBC。
 - **[ltc-framework](./ltc-framework/SKILL.md)** — 华为 LTC 从线索到回款流程：管理线索 (ML)、管理机会点 (MO)、管理合同执行与回款 (MCE) 及铁三角 (AR/SR/FR) 协同。
 - **[ipd-framework](./ipd-framework/SKILL.md)** — 华为 IPD 集成产品开发体系：把研发当作商业投资管理，包含 PDT 跨部门团队、六大阶段与 DCP 商业/TR 技术双轨评审。
+- **[itr-framework](./itr-framework/SKILL.md)** — 华为 ITR 从问题到解决流程：统一服务入口、三级技术支持响应体系 (L1/L2/L3)、RCA 根因分析与反馈 IPD/LTC 闭环。
 
 ## Other categories
 
