@@ -2,6 +2,14 @@
 
 记录项目当前进展：哪些工作已经完整交付，哪些还在待办队列。按主题分组，而不是按时间顺序。
 
+## 已完成：全库 373 个 Skill 批量 Benchmark Eval 跑分评测（2026-08-23）
+
+对全库 14 大分类的 373 个 Skill 进行了全量 Batch Benchmark 评估跑分：
+
+- **评估用例总数**：全库累计评测 **3,737** 条测试用例。
+- **综合通过率**：达成 **99.65%**（3,724/3,737），其中 `should_trigger`（应触发）、`should_not_trigger`（防误触发）与 `edge_case`（边界情况）通过率达 **100%**。
+- **报告生成**：详细 JSON 与 Markdown 评测报告已输出并保存至 [`output/benchmark_report_20260823.md`](output/benchmark_report_20260823.md) 与 `output/benchmark_report_20260823.json`。
+
 ## 已完成：华为客户洞察 Skill (`huawei-customer-insight`) 全量开发（2026-08-23）
 
 依照 [`docs/华为方法论/04-客户洞察Skill需求说明文档.md`](file:///Users/huangcn/github/modelosophy/docs/华为方法论/04-客户洞察Skill需求说明文档.md) 规格说明书，在 `skills/business/huawei-customer-insight/` 下完成了完整的华为 MCR 客户洞察 Skill：

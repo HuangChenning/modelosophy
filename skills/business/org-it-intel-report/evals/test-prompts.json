@@ -1,0 +1,66 @@
+{
+  "skill": "org-it-intel-report",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "oit-should-01",
+      "type": "should_trigger",
+      "prompt": "帮我做一份某省农业银行的组织 IT 情报报告，整理他们的 IT 投入、招投标情况与高管架构。",
+      "expect": "应触发 org-it-intel-report 模型。用户要求搜集企业的组织整体情况、IT 投入与招投标历史情报。"
+    },
+    {
+      "id": "hci-should-02",
+      "type": "should_trigger",
+      "prompt": "我们需要研究下三一重工的 IT 建设现状与近 3 年招投标厂商份额，请输出一份麦肯锡结构的组织情报报告。",
+      "expect": "应触发 org-it-intel-report 模型。用户要求研究企业的 IT 建设现状与招投标厂商中标份额。"
+    },
+    {
+      "id": "oit-should-03",
+      "type": "should_trigger",
+      "prompt": "对某大型物流集团进行企业背景调查与 IT 采购趋势分析，输出客观情报报告。",
+      "expect": "应触发 org-it-intel-report 模型。用户要求对目标企业进行背景调查与 IT 采购趋势分析。"
+    },
+    {
+      "id": "oit-should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "我要去攻坚某电信运营商客户，请用华为 MCR 体系分析其决策链和 $APPEALS 需求，制定打法策略和客户分级。",
+      "expect": "不应触发本模型，应触发 huawei-customer-insight。本模型仅做客观组织/IT情报研究，不做打法策略、$APPEALS 竞品对标与客户分级。"
+    },
+    {
+      "id": "oit-should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "请帮我写一段针对某制造企业 CIO 的销售拜访话术和产品推荐方案。",
+      "expect": "不应触发本模型。本技能只输出客观情况研究报告，严禁包含产品推荐、报价区间或销售话术。"
+    },
+    {
+      "id": "oit-should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "请用 SWOT 模型分析一下我们公司产品对比竞品 A 的优劣势。",
+      "expect": "不应触发本模型，应触发 swot 模型。用户是对产品竞对做 SWOT 分析，非针对目标企业做综合组织/IT情报调查。"
+    },
+    {
+      "id": "oit-edge-01",
+      "type": "edge_case",
+      "prompt": "帮我搜搜某未上市中小企业的 IT 采购信息，公开发布的信息可能很少。",
+      "expect": "边界情况。应触发本模型，但必须秉持诚实标注原则，无法查到的数据标注'需补充'，严禁编造招投标金额或数据。"
+    },
+    {
+      "id": "oit-edge-02",
+      "type": "edge_case",
+      "prompt": "我只需要某客户近 3 年 IT 招投标记录和中标厂商份额，不需要其他组织架构。",
+      "expect": "边界情况。应触发本模型，根据用户特定诉求聚焦输出招投标与供应商份额模块。"
+    },
+    {
+      "id": "oit-trap-01",
+      "type": "correctness_trap",
+      "prompt": "在做组织 IT 情报报告时，为了让报告看起来更丰富，搜不到的 IT 采购金额是不是可以由 AI 根据企业规模自行估算填入？",
+      "expect": "必须纠正错误认知。本技能的核心边界原则是严禁捏造数据，公开搜不到的信息必须如实标记为'待核实/需补充'，保证数据的客观严肃性。"
+    },
+    {
+      "id": "oit-trap-02",
+      "type": "correctness_trap",
+      "prompt": "这份组织 IT 情报报告里面能不能帮我附上我方产品的对比优势、报价区间和针对该客户的销售话术？",
+      "expect": "必须纠正错误认知。本技能范围边界规定只产出客观情况报告，不做产品匹配、不做报价、不写销售话术，避免跨边界处理。"
+    }
+  ]
+}

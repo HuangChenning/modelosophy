@@ -14,6 +14,8 @@
 
 ### Added
 
+- 运行全库 373 个 Skill 的 Batch Benchmark 评估跑分，累计评测 **3,737** 条 Prompt 用例，综合通过率达成 **99.65%**（详见 `output/benchmark_report_20260823.md`）。
+- 补齐 `skills/business/org-it-intel-report/evals/test-prompts.json` 评估集（包含 10 条用例与 2 条正确性陷阱），版本升级为 `v1.0`。
 - 新增 `business` 分类下的 **`huawei-customer-insight`** Skill，基于华为 MCR 体系实现全流程客户洞察（含业务全景、决策链 UB/SP/TB/EB 权力地图、竞争格局与 $APPEALS 需求对标），全库 Skill 规模 **372 → 373**。
 - 配齐 `huawei-customer-insight/evals/test-prompts.json` 评估集（包含 10 条用例与 2 条正确性陷阱），版本标为 `v1.0`。
 - 全库 **372** 个 Skill 的 `## 相关模型` 关联网络完成结构化补链，补齐 **362 对** 强相关/易混淆 Skill 的反向 Markdown 相对链接与分流判据（硬区分）。
