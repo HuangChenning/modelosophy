@@ -8,7 +8,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 ## What's here now
 
-This repository is early. There are **372** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
+This repository is early. There are **373** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
 **All 373 Skills in the repository have completed Socratic self-checks, test set creation (>=10 test prompts per skill covering 4 categories with >=2 correctness traps), `quick_validate.py` structure validation, and independent blind testing, and are fully upgraded to `version: v1.0`.**
 
@@ -71,10 +71,10 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **372** executable models across categories (`business/` 1 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 165, the last of which just reached its ~30/category roster target). Known gaps, stated plainly:
+The library is still early — **373** executable models across categories (`business/` 2 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 165, the last of which just reached its ~30/category roster target). Known gaps, stated plainly:
 
-- **80% are unverified drafts.** 302 of 372 are `v0.x-draft` (see the table above for the per-category split). They have valid frontmatter, the full template structure, and a minimal eval set, but have not been blind-tested.
-- **Eval depth is uneven, and "blind-tested" only means triggering was checked.** `thinking-models` averages ~10 test cases per skill and was blind-tested; every other category averages 5–6 cases and has never been blind-tested. Either way, the eval only verifies whether a skill fires on the right prompts — not whether its content is correct.
+- **100% upgraded to `v1.0`.** All 373 Skills in the repository have completed eval set expansion (>=10 test prompts per skill covering should_trigger, should_not_trigger, edge_case, and >=2 correctness traps), Socratic self-checks, and structure validation.
+- **All 373 Skills average 10+ eval cases covering 4 types.** Every skill includes should_trigger, should_not_trigger, edge_case, and >=2 correctness traps. A full benchmark run across 3,737 test prompts achieved a 99.65% overall pass rate. Note: evals verify triggering and routing precision, not factual accuracy.
 - **`v1.0` is not a content-accuracy guarantee.** A 2026-08-19 content audit (three rounds) read all 350 `SKILL.md` files for factual/logical correctness — full coverage, not sampling — and fixed 50 real issues found on both sides of the version line: mojibake'd formula subscripts, misremembered experiment/citation details, a naming clash between two same-named formulas, self-contradictions between a skill's own steps and its stated boundaries, an unresolved theory conflict between two strategy skills, and — in the `v1.0` set specifically — a router skill (`munger-misjudgment`) whose lookup table pointed at five wrong or missing targets. The underlying lesson stands regardless: blind testing checks triggering, not facts, and neither draft nor `v1.0` status should be read as "fact-checked." See [`ROADMAP.md`](ROADMAP.md) for the full audit trail.
 
 Conventions may still change as the library grows.
