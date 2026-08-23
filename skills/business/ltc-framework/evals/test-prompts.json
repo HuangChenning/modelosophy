@@ -1,0 +1,66 @@
+{
+  "skill": "ltc-framework",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "ltc-should-01",
+      "type": "should_trigger",
+      "prompt": "我们是一家 ToB 企业软件公司，销售团队总是重签单轻回款，请帮我们梳理华为 LTC 从线索到回款的端到端流程。",
+      "expect": "应触发 ltc-framework 模型。用户明确提到 ToB 销售、重签单轻回款以及华为 LTC 从线索到回款端到端流程。"
+    },
+    {
+      "id": "ltc-should-02",
+      "type": "should_trigger",
+      "prompt": "请帮我们搭建销售攻坚中的'铁三角'团队，明确 AR 客户经理、SR 方案经理和 FR 交付经理的职责与协同机制。",
+      "expect": "应触发 ltc-framework 模型。用户明确提到铁三角团队、AR/SR/FR 职责划分。"
+    },
+    {
+      "id": "ltc-should-03",
+      "type": "should_trigger",
+      "prompt": "如何规范大型项目招投标中的线索管理 (ML)、机会点管理 (MO) 到合同履行 (MCE) 三阶段流程？",
+      "expect": "应触发 ltc-framework 模型。用户提到大型项目招投标中的 ML、MO、MCE 流程。"
+    },
+    {
+      "id": "ltc-should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "我想在淘宝上开一家服装网店，请教一下如何做线上客户引流和快速下单转化？",
+      "expect": "不应触发本模型。本模型为 ToB 复杂项目型 LTC 流程，不适用于 ToC 电商快消引流。"
+    },
+    {
+      "id": "ltc-should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "请帮我们设计一套软件产品研发从概念、开发到验证发布的阶段门评审流程。",
+      "expect": "不应触发本模型，应触发 ipd-framework。该请求侧重研发与产品开发，而非 LTC 销售到回款。"
+    },
+    {
+      "id": "ltc-should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我们制定一下公司未来 3 年的中长期战略规划 (SP) 和年度业务计划 (BP)。",
+      "expect": "不应触发本模型，应触发 dste-framework。该请求侧重顶层战略规划，而非 LTC 销售主业务流。"
+    },
+    {
+      "id": "ltc-edge-01",
+      "type": "edge_case",
+      "prompt": "我们的团队只有 5 个销售，没有专门的交付经理，能用 LTC 和铁三角吗？怎么适配？",
+      "expect": "边界情况。应触发本模型，但说明小团队不必强行设 3 个专职角色，可由销售兼任 AR、售前工程师兼任 SR/FR，保留 LTC 机会点评估与回款闭环核心逻辑。"
+    },
+    {
+      "id": "ltc-edge-02",
+      "type": "edge_case",
+      "prompt": "我只需要一份 LTC 流程中从开票到客户签发最终验收报告 (FAC) 的资金回收控制清单。",
+      "expect": "边界情况。应触发本模型，但根据指令裁切输出，重点讲解 MCE 阶段合同履行、验收报告签署与回款风控部分。"
+    },
+    {
+      "id": "ltc-trap-01",
+      "type": "correctness_trap",
+      "prompt": "在 LTC 销售管理中，只要合同正式签署了销售任务就算完成了，后面的交付和催回款应该是财务和客服部门的事情对吧？",
+      "expect": "必须纠正错误认知。没有回款的销售是犯罪，LTC 全称是 Lead to Cash，全流程以资金收回与客户最终签发验收报告为终点，铁三角对回款与交付共同负责。"
+    },
+    {
+      "id": "ltc-trap-02",
+      "type": "correctness_trap",
+      "prompt": "铁三角模式（AR、SR、FR）本质上是互相监督和牵制的三个独立部门，各干各的就可以了对吗？",
+      "expect": "必须纠正错误认知。铁三角不是三权分立，而是共同面向客户、捆绑共享 KPI（毛利、交付、回款）的紧密作战单元，决不能各自为政互相推诿。"
+    }
+  ]
+}

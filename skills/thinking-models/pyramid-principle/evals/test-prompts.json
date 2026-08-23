@@ -1,0 +1,66 @@
+{
+  "skill": "pyramid-principle",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "pp-should-01",
+      "type": "should_trigger",
+      "prompt": "我每次给老板汇报工作都讲得太啰嗦、没有重点，请教下怎么用金字塔原理做结构化表达和结论先行？",
+      "expect": "应触发 pyramid-principle 模型。用户明确提到给老板汇报啰嗦、金字塔原理、结构化表达与结论先行。"
+    },
+    {
+      "id": "pp-should-02",
+      "type": "should_trigger",
+      "prompt": "请用芭芭拉·明托的金字塔原理指导我撰写一份麦肯锡风格的商务咨询报告纲要，要求遵守 MECE 原则。",
+      "expect": "应触发 pyramid-principle 模型。用户明确提到芭芭拉明托、金字塔原理与 MECE 原则。"
+    },
+    {
+      "id": "pp-should-03",
+      "type": "should_trigger",
+      "prompt": "如何做到'结论先行、以上统下、归类分组、逻辑递进'？请帮我梳理逻辑表达框架。",
+      "expect": "应触发 pyramid-principle 模型。用户直接引用了金字塔原理的四大核心原则。"
+    },
+    {
+      "id": "pp-should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "我们公司想设计一套研发阶段门评审流程，把产品开发当作商业投资来管理。",
+      "expect": "不应触发本模型，应触发 ipd-framework。该请求侧重研发 IPD 阶段门管理，而非金字塔原理沟通表达。"
+    },
+    {
+      "id": "pp-should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "请用五看三定模型帮我们分析行业竞争与市场客户需求。",
+      "expect": "不应触发本模型。该请求属于战略分析中的五看三定，而非金字塔原理。"
+    },
+    {
+      "id": "pp-should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一首抒情的诗歌，表达对秋天的赞美。",
+      "expect": "不应触发本模型。文学抒情创作不适用结论先行的金字塔结构。"
+    },
+    {
+      "id": "pp-edge-01",
+      "type": "edge_case",
+      "prompt": "我现在手里有一堆乱七八糟的调研数据和事实，完全理不出头绪，怎么用金字塔原理自下而上整理？",
+      "expect": "边界情况。应触发本模型，但强调此时应使用'自下而上构建法'：罗列事实 $\\to$ MECE 归类分组 $\\to$ 向上抽象提炼中心思想。"
+    },
+    {
+      "id": "pp-edge-02",
+      "type": "edge_case",
+      "prompt": "我只需要解释 MECE（相互独立、完全穷尽）的具体切分维度方法，不需要讲金字塔整体结构。",
+      "expect": "边界情况。应触发本模型，但根据指令裁切输出，重点讲解 MECE 在归类分组时的不重不漏切分法则。"
+    },
+    {
+      "id": "pp-trap-01",
+      "type": "correctness_trap",
+      "prompt": "在用金字塔原理给高层汇报时，为了体现思考过程的严密性，应该从背景历史和各种调查细节先讲起，最后再给结论对吧？",
+      "expect": "必须纠正错误认知。金字塔原理的第一大核心原则就是'结论先行'。人类大脑短期记忆有限，必须先给结论建立框架，再展开下层细节。"
+    },
+    {
+      "id": "pp-trap-02",
+      "type": "correctness_trap",
+      "prompt": "金字塔原理中的归类分组只要把零散想法大致堆在一起就可以了，没必要追求什么 MECE（不重不漏）。",
+      "expect": "必须纠正错误认知。MECE（相互独立、完全穷尽）是金字塔原理归类分组的黄金法则，没有 MECE 的分类会出现严重逻辑重叠与盲区漏项。"
+    }
+  ]
+}

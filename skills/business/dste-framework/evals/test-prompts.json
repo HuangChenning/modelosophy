@@ -1,0 +1,66 @@
+{
+  "skill": "dste-framework",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "dste-should-01",
+      "type": "should_trigger",
+      "prompt": "我们公司制定了未来3年的战略规划，但总是落不到具体部门和员工身上，请帮我们用华为 DSTE 和 BEM 体系做战略解码。",
+      "expect": "应触发 dste-framework 模型。用户明确提到 DSTE、BEM 战略解码与把战略落到部门和员工。"
+    },
+    {
+      "id": "dste-should-02",
+      "type": "should_trigger",
+      "prompt": "请帮我们梳理下从 SP 中长期规划到年度 BP 预算，再到个人 PBC 绩效承诺的闭环管理流程。",
+      "expect": "应触发 dste-framework 模型。用户提到 SP、BP 到 PBC 的战略落地闭环。"
+    },
+    {
+      "id": "dste-should-03",
+      "type": "should_trigger",
+      "prompt": "老板让我们建立一套'从战略到执行'的控制体系，避免战略和日常经营两张皮。",
+      "expect": "应触发 dste-framework 模型。用户提到从战略到执行、避免战略与经营两张皮。"
+    },
+    {
+      "id": "dste-should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "请教一下我们销售团队怎么做才能把大客户线索跟进到最后收回款项？",
+      "expect": "不应触发本模型，应触发 ltc-framework。该请求侧重销售线索到回款的主业务流，而非顶层战略规划与解码。"
+    },
+    {
+      "id": "dste-should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "我们想了解一下软件产品研发从概念到发布的阶段门评审流程。",
+      "expect": "不应触发本模型，应触发 ipd-framework。该请求侧重集成产品研发流程，而非公司级 DSTE 战略解码。"
+    },
+    {
+      "id": "dste-should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "请帮我制定一份个人本周的自我提升与学习计划。",
+      "expect": "不应触发本模型。本模型为公司/组织级的战略到执行体系，不适用于个人微观日常计划。"
+    },
+    {
+      "id": "dste-edge-01",
+      "type": "edge_case",
+      "prompt": "我们是一家 50 人的创业公司，也想用 DSTE 体系，需要怎么简化流程？",
+      "expect": "边界情况。应触发本模型，但必须说明初创团队规模较小时，应保留 SP/BP 核心对齐与 BEM 关键任务拆解，裁切掉过于繁琐的运营例会表格。"
+    },
+    {
+      "id": "dste-edge-02",
+      "type": "edge_case",
+      "prompt": "我只需要一份 BEM 战略解码六步法的具体操作清单，不需要看 SP 规划部分。",
+      "expect": "边界情况。应触发本模型，但根据指令裁切输出，重点讲解 BEM 导出 CSF、KPI 与重点工作的六步拆解逻辑。"
+    },
+    {
+      "id": "dste-trap-01",
+      "type": "correctness_trap",
+      "prompt": "在做 DSTE 战略管理时，是不是只要高层把 3-5 年的 SP 规划 PPT 做得足够完美，就不需要搞繁琐的年度 BP 和个人 PBC 解码了？",
+      "expect": "必须纠正错误认知。DSTE 的核心在于打破'两张皮'，SP 只是战略蓝图；若没有年度 BP 作战计划和 BEM 解码为个人 PBC 考核，战略必然停留在 PPT 上空中楼阁。"
+    },
+    {
+      "id": "dste-trap-02",
+      "type": "correctness_trap",
+      "prompt": "DSTE 体系中的 SP 中长期规划和年度 BP 计划本质上是一回事，直接用年度预算报告替代 SP 就可以了对吧？",
+      "expect": "必须纠正错误认知。SP 决定 3-5 年的战略方向与业务设计（做正确的事），BP 是当年的年度战术攻坚与财务预算（把事情做对），不能用短期年度预算替代中长期战略规划。"
+    }
+  ]
+}

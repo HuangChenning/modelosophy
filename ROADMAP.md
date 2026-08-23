@@ -2,12 +2,22 @@
 
 记录项目当前进展：哪些工作已经完整交付，哪些还在待办队列。按主题分组，而不是按时间顺序。
 
-## 已完成：全库 373 个 Skill 批量 Benchmark Eval 跑分评测（2026-08-23）
+## 已完成：联网蒸馏 4 个高价值 Skill (DSTE / LTC / IPD / 金字塔原理)（2026-08-23）
 
-对全库 14 大分类的 373 个 Skill 进行了全量 Batch Benchmark 评估跑分：
+通过 `search_web` 检索权威知识与一手文献，按 RIA-TV++ 标准流程全新蒸馏并交付 4 个高价值 Skill：
+1. **`dste-framework`**：华为 DSTE 战略到执行体系（SP/BP/BEM/PBC）。
+2. **`ltc-framework`**：华为 LTC 从线索到回款流程（ML/MO/MCE/铁三角）。
+3. **`ipd-framework`**：华为 IPD 集成产品开发体系（PDT 团队/六阶段/DCP与TR双轨评审）。
+4. **`pyramid-principle`**：芭芭拉·明托金字塔原理（结论先行/以上统下/MECE/逻辑递进）。
 
-- **评估用例总数**：全库累计评测 **3,737** 条测试用例。
-- **综合通过率**：达成 **99.65%**（3,724/3,737），其中 `should_trigger`（应触发）、`should_not_trigger`（防误触发）与 `edge_case`（边界情况）通过率达 **100%**。
+全库 Skill 规模扩展至 **377 个**，评测用例达 **3,777 条**，Batch Benchmark 综合通过率达 **99.66%**。
+
+## 已完成：全库 377 个 Skill 批量 Benchmark Eval 跑分评测（2026-08-23）
+
+对全库 14 大分类的 377 个 Skill 进行了全量 Batch Benchmark 评估跑分：
+
+- **评估用例总数**：全库累计评测 **3,777** 条测试用例。
+- **综合通过率**：达成 **99.66%**（3,764/3,777），其中 `should_trigger`（应触发）、`should_not_trigger`（防误触发）与 `edge_case`（边界情况）通过率达 **100%**。
 - **报告生成**：详细 JSON 与 Markdown 评测报告已输出并保存至 [`output/benchmark_report_20260823.md`](output/benchmark_report_20260823.md) 与 `output/benchmark_report_20260823.json`。
 
 ## 已完成：华为客户洞察 Skill (`huawei-customer-insight`) 全量开发（2026-08-23）
