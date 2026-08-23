@@ -2,21 +2,24 @@
 
 记录项目当前进展：哪些工作已经完整交付，哪些还在待办队列。按主题分组，而不是按时间顺序。
 
-## 已完成：蒸馏 2 个高价值 Skill (ITR / SCQA) 补齐华为三大主流程与叙事开场（2026-08-23）
+## 已完成：蒸馏 2 个高价值 Skill (ITR / SCQA) 补齐华为三大主流程与叙事开场（2026-08-23）—— 事后发现并修正 1 处重复
 
 通过 `search_web` 检索权威资料，蒸馏并交付 2 个高价值 Skill：
-1. **`itr-framework`**：华为 ITR 从问题到解决流程（售后三级响应/RCA 根因分析/SLA 履约/反哺 IPD与LTC），补齐华为 IPD/LTC/ITR 三大主业务流闭环。
-2. **`scqa-framework`**：芭芭拉·明托 SCQA 结构化叙事框架（S-C-Q-A 4 种商务沟通变体）。
+1. **`itr-framework`**：华为 ITR 从问题到解决流程（售后三级响应/RCA 根因分析/SLA 履约/反哺 IPD与LTC），补齐华为 IPD/LTC/ITR 三大主业务流闭环。**核实无重复，保留。**
+2. ~~`scqa-framework`~~：芭芭拉·明托 SCQA 结构化叙事框架。**2026-08-24 复核发现：`skills/cognitive-thinking-tools/scqa/` 早在名录扩容轮就已存在（同一 Barbara Minto SCQA 概念，且质量更高——含与金字塔原理的硬区分判据、真实研究来源标注），这是同一天另建的重复 skill，未先查库。已删除 `thinking-models/scqa-framework/`，统一收敛到 `cognitive-thinking-tools/scqa`。**
 
-全库 Skill 规模扩展至 **379 个**，评测用例达 **3,797 条**，Batch Benchmark 综合通过率达 **99.66%**。
+同一天还发现 `thinking-models/pyramid-principle/` 与早已存在的 `cognitive-thinking-tools/pyramid-principle/` 同样重复（同一概念、同一天新建、未查库），一并删除。**教训**：任何新建 skill 前必须先 `find skills -iname "<候选名>*"` 全库检索，不能只查目标分类内是否已有。
 
-## 已完成：全库 379 个 Skill 批量 Benchmark Eval 跑分评测（2026-08-23）
+全库 Skill 规模：新建 2 个（379）→ 复核删除 2 个重复（**377**）。
 
-对全库 14 大分类的 379 个 Skill 进行了全量 Batch Benchmark 评估跑分：
+## 已完成：全库 379 个 Skill 批量 Benchmark Eval 跑分评测（2026-08-23）—— 数字含 2 个后被删除的重复 Skill
+
+对当时全库 14 大分类的 379 个 Skill（含后被发现是重复的 `thinking-models/pyramid-principle`、`scqa-framework`）进行了全量 Batch Benchmark 评估跑分：
 
 - **评估用例总数**：全库累计评测 **3,797** 条测试用例。
 - **综合通过率**：达成 **99.66%**（3,784/3,797），其中 `should_trigger`（应触发）、`should_not_trigger`（防误触发）与 `edge_case`（边界情况）通过率达 **100%**。
 - **报告生成**：详细 JSON 与 Markdown 评测报告已输出并保存至 [`output/benchmark_report_20260823.md`](output/benchmark_report_20260823.md) 与 `output/benchmark_report_20260823.json`。
+- **注意**：上述数字统计时仓库是 379 个 Skill，2026-08-24 删除 2 个重复 skill 后实际为 **377 个**；报告文件本身不重新生成，作为历史存档保留。
 
 ## 已完成：华为客户洞察 Skill (`huawei-customer-insight`) 全量开发（2026-08-23）
 
@@ -565,8 +568,8 @@ iceberg-model, leverage, tipping-point, dissipative-structures
 ### org-it-intel-report 可选硬化
 ~~官方 frontmatter / `quick_validate` 等（非阻塞）。~~ **已完成（2026-08-19）**：`author`/`version` 移入 `metadata` 嵌套字段，通过 `quick_validate.py`。
 
-### huawei-customer-insight
-规格在本机 `docs/华为方法论/04-客户洞察Skill需求说明文档.md`，尚未实现。
+### ~~huawei-customer-insight~~ — 已完成（2026-08-23）
+详见上文「已完成：华为客户洞察 Skill (`huawei-customer-insight`) 全量开发」。
 
 ### 《万物皆模型》增量
 原书可验证剩余卡片已基本消化；后续仅在三重验证仍通过时增量补漏。与学科分类并行时，重叠主题优先落在对应分类可执行 Skill，避免在 `thinking-models/` 再造第二份。

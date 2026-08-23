@@ -12,6 +12,13 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- 删除 2026-08-23 误建的重复 Skill `thinking-models/pyramid-principle`、`thinking-models/scqa-framework`（与已有的 `cognitive-thinking-tools/pyramid-principle`、`cognitive-thinking-tools/scqa` 重复，后者更完整），全库 Skill 规模 **379 → 377**。
+- 修正 `huawei-customer-insight` 与 `org-it-intel-report` 的边界重叠：`huawei-customer-insight` 改用与 `org-it-intel-report` 一致的三级置信度标注（已证实/推断/待核实），替换原先较弱的单一 `[需补充]` 标记；两份 `SKILL.md` 均改写为"并列、各自独立、互不依赖"的关系描述（此前的表述暗示了一种未落地的 `data.json` 依赖）。
+- 同步双语 README 的过期状态标注：清理 `README.zh-CN.md` 遗留的 35 处"（草稿）"标签及两条重复 Skill 目录条目（此前只在中文版误留）；EN/ZH 计数统一为 377；清理 5 个 Skill（`abstraction-ladder`、`cross-validation-thinking`、`decision-matrix`、`pros-cons-list`、`probability-thinking`）在双语 README 目录里残留的过期 "(draft)"/"（草稿）" 标注——这些 Skill 已在此前的全量升阶中转为 `v1.0`，README 正文未同步更新。
+- 修正 `ROADMAP.md` 中 `huawei-customer-insight` "尚未实现" 的过期备注（该 Skill 已完成开发）。
+
 ---
 
 ## [2026-08-23] — 全库 379 Skill v1.0 升阶、双向关联网络优化与 6 大高价值 Skill 联网蒸馏

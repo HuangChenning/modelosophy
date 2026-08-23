@@ -6,7 +6,7 @@
 
 路径：`skills/thinking-models/<skill-name>/SKILL.md`。
 
-当前合计 **27** 个（本轮再迁出 25 个后，新增 pyramid-principle 与 scqa-framework）。
+当前合计 **25** 个。
 
 ## Skills
 
@@ -30,9 +30,7 @@
 - **[munger-misjudgment](./munger-misjudgment/SKILL.md)** — 用查理·芒格《人类误判心理学》的 25 种心理倾向做检查清单扫描，并识别 Lollapalooza （多倾向同向叠加）结构；单倾向命中则路由到库内专用 bias skill 深挖，不在此重复写迷你教程。
 - **[negentropy](./negentropy/SKILL.md)** — 负熵：用账本诊断开放系统如何靠输入自由能/信息维持局部有序并排出废热。
 - **[process-replication](./process-replication/SKILL.md)** — 可复制化：把成功经验蒸馏为可迁移步骤，按本地约束适配后再规模化。
-- **[pyramid-principle](./pyramid-principle/SKILL.md)** — 金字塔原理：思考、表达与问题解决的黄金法则，遵循结论先行、以上统下、归类分组 (MECE) 与逻辑递进。
 - **[redundancy](./redundancy/SKILL.md)** — 冗余备份：有意保留多余容量、路径或副本，使局部失效不致系统停摆。
-- **[scqa-framework](./scqa-framework/SKILL.md)** — SCQA 结构化叙事框架：用情境 (S)、冲突 (C)、问题 (Q)、解答 (A) 组织沟通开场，支持标准式、开门见山式、突出忧虑式与突出信心式 4 种变体。
 - **[situational-leadership](./situational-leadership/SKILL.md)** — 用情境领导（Hersey-Blanchard / SL 思路）按下属在*具体任务*上的准备度（能力×意愿）切换督导风格 S1–S4（指令→教练→支持→授权），禁止给人贴永久领导标签。
 - **[socratic-questioning](./socratic-questioning/SKILL.md)** — 用苏格拉底式质疑（elenchus 诘问法）检验一个主张站不站得住——不是靠反驳，而是靠追问， 让主张自身的内在矛盾显露出来。六类追问：澄清含义、检验隐含假设、追问证据、切换视角、 推导后果、反问问题本身。
 - **[spiral-of-silence](./spiral-of-silence/SKILL.md)** — 用沉默的螺旋诊断“怕被孤立 → 误判意见气候 → 少数派沉默 → 优势意见更响”的舆论动力； 区分真实多数与声量多数，并检查自己是否因孤立恐惧而闭嘴。
@@ -85,6 +83,8 @@
 | [six-thinking-hats](../cognitive-thinking-tools/six-thinking-hats/SKILL.md) | 六顶思考帽 | `cognitive-thinking-tools/` |
 | [swot](../strategy-competition/swot/SKILL.md) | SWOT | `strategy-competition/` |
 | [tipping-point](../systems-complexity/tipping-point/SKILL.md) | 临界点/断裂点 | `systems-complexity/` |
+| [pyramid-principle](../cognitive-thinking-tools/pyramid-principle/SKILL.md) | 金字塔原理 | `cognitive-thinking-tools/`（2026-08-23 曾在本目录误建重复版，已删除并合并） |
+| [scqa](../cognitive-thinking-tools/scqa/SKILL.md) | SCQA 结构化叙事 | `cognitive-thinking-tools/`（2026-08-23 曾以 `scqa-framework` 之名在本目录误建重复版，已删除并合并） |
 
 下方防误触发图仅覆盖**仍留在本目录**的模型；已迁出项的分流见各目标分类 README 与对应 Skill「相关模型」。
 
@@ -117,7 +117,6 @@ graph TD
     B -->|论证缺腿/未说出的前提| IP[implicit-premises<br/>补全隐含前提]
     B -->|前提真时结论是否必然| DR[deductive-reasoning<br/>有效vs可靠]
     B -->|最佳解释假设是哪个| AR[abductive-reasoning<br/>溯因]
-    B -->|结论先行怎么写| PY[pyramid-principle<br/>金字塔]
     B -->|单点故障备份| RD[redundancy<br/>冗余]
     B -->|监控调节自己的思考| MC[metacognition<br/>元认知]
     B -->|复习对抗遗忘| FC[forgetting-curve<br/>间隔重复]
@@ -147,7 +146,6 @@ graph TD
     GC -.->|若要的是战略态势而非叙事| SW
     EM -.->|若怀疑整座山错了| LG
     FW -.->|若各环要迭代改进| PC
-    ME -.->|若要的是结论先行写作结构| PY
     DR -.->|若问最佳解释而非必然推出| AR
     AR -.->|若只排解释简单度| D
     FB -.->|若要的是习惯回路产品设计| HK
@@ -169,7 +167,6 @@ graph TD
 - **邓克 vs 周哈里窗**：表现-自评校准（含复制争议）vs 人际信息四格与反馈披露。
 - **黄金圈 vs SWOT**：叙事一致性 vs 内外态势匹配；黄金圈不是万能领导定律。
 - **反脆弱 vs 逆向思维**：配仓 vs 失败预演。
-- **MECE vs 金字塔原理**：分类纪律 vs 结论先行的表达结构。
 - **演绎 vs 溯因 vs 奥卡姆**：必然推出 vs 最佳解释 vs 解释优先排序。
 - **福格 vs HOOK**：单次行为发生条件 vs 习惯回路产品设计。
 - **反脆弱 vs 冗余**：从波动获益的结构 vs 备份容错。
@@ -211,7 +208,6 @@ graph TD
 | 有效 vs 可靠 | 形式必然推出 vs 前提亦为真 | deductive-reasoning |
 | 可见层 / 假设层 | 组织文化冰山：器物行为 vs 底层假设 | iceberg-model |
 | 费曼缺口 | 无法用自己的话讲清处即未掌握处 | feynman-technique |
-| 结论先行 | 先答再分组论证支撑 | pyramid-principle |
 | 主动/待机冗余 | 并行备份 vs 故障切换备份 | redundancy |
 | 认知监控 | 对思维过程的觉察与调节 | metacognition |
 | 间隔重复 | 按遗忘节奏安排复习 | forgetting-curve |
