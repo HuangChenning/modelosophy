@@ -127,13 +127,13 @@ General reasoning, leadership, communication (domain-specific items moved out).
 
 First principles, structured decomposition, critical thinking tools.
 
-- **[abstraction-ladder](skills/cognitive-thinking-tools/abstraction-ladder/SKILL.md)** — Abstraction ladder: move deliberately between concrete and abstract wording (draft; ≠ ladder of inference).
+- **[abstraction-ladder](skills/cognitive-thinking-tools/abstraction-ladder/SKILL.md)** — Abstraction ladder: move deliberately between concrete and abstract wording (≠ ladder of inference).
 - **[analogical-thinking](skills/cognitive-thinking-tools/analogical-thinking/SKILL.md)** — Analogical thinking: structure-mapping transfer with explicit failure boundaries.
 - **[backward-goal](skills/cognitive-thinking-tools/backward-goal/SKILL.md)** — Backward goal: define a verifiable end state, then plan prerequisites back to today.
 - **[concept-map](skills/cognitive-thinking-tools/concept-map/SKILL.md)** — Concept map: proposition networks with linking words.
 - **[critical-thinking](skills/cognitive-thinking-tools/critical-thinking/SKILL.md)** — Critical thinking: Facione Delphi skills (interpretation, analysis, evaluation, inference, explanation, self-regulation).
-- **[cross-validation-thinking](skills/cognitive-thinking-tools/cross-validation-thinking/SKILL.md)** — Cross-validation thinking: corroborate claims via independent evidence paths (draft; ≠ ML k-fold).
-- **[decision-matrix](skills/cognitive-thinking-tools/decision-matrix/SKILL.md)** — Decision matrix: multi-criteria weighted scoring with sensitivity (draft; probability trees → decision-probability).
+- **[cross-validation-thinking](skills/cognitive-thinking-tools/cross-validation-thinking/SKILL.md)** — Cross-validation thinking: corroborate claims via independent evidence paths (≠ ML k-fold).
+- **[decision-matrix](skills/cognitive-thinking-tools/decision-matrix/SKILL.md)** — Decision matrix: multi-criteria weighted scoring with sensitivity (probability trees → decision-probability).
 - **[diamond-six-steps](skills/cognitive-thinking-tools/diamond-six-steps/SKILL.md)** — Diamond six steps: two diverge–converge cycles with stage gates.
 - **[first-principles](skills/cognitive-thinking-tools/first-principles/SKILL.md)** — First principles: strip a claim to hard facts/constraints, then rebuild upward without analogy crutches.
 - **[five-whys](skills/cognitive-thinking-tools/five-whys/SKILL.md)** — Five Whys: drill a causal chain to an actionable root cause.
@@ -146,7 +146,7 @@ First principles, structured decomposition, critical thinking tools.
 - **[mind-map](skills/cognitive-thinking-tools/mind-map/SKILL.md)** — Mind map: radial hierarchical association for notes and brainstorming.
 - **[occams-razor](skills/cognitive-thinking-tools/occams-razor/SKILL.md)** — Occam’s razor: among explanations that fit, prefer fewer ad hoc assumptions—then verify.
 - **[octopus-diagram](skills/cognitive-thinking-tools/octopus-diagram/SKILL.md)** — Octopus diagram: center topic with multi-arm dimension coverage.
-- **[pros-cons-list](skills/cognitive-thinking-tools/pros-cons-list/SKILL.md)** — Pros and cons list: explicit benefit/cost scan (draft; weighted scoring → decision-matrix).
+- **[pros-cons-list](skills/cognitive-thinking-tools/pros-cons-list/SKILL.md)** — Pros and cons list: explicit benefit/cost scan (weighted scoring → decision-matrix).
 - **[pyramid-principle](skills/cognitive-thinking-tools/pyramid-principle/SKILL.md)** — Pyramid principle: lead with the answer; group supporting arguments MECE under it.
 - **[scqa](skills/cognitive-thinking-tools/scqa/SKILL.md)** — SCQA: Situation–Complication–Question–Answer for openings and problem definition.
 - **[six-thinking-hats](skills/cognitive-thinking-tools/six-thinking-hats/SKILL.md)** — Six Thinking Hats: separate facts, feelings, benefits, risks, and ideas in parallel meeting modes.
@@ -158,7 +158,7 @@ First principles, structured decomposition, critical thinking tools.
 
 ### Decision & Probability（24）
 
-Expected value, decision trees, Bayesian updating, Monte Carlo, journals/AAR, and other decisions under uncertainty (M2 + M2b drafts included).
+Expected value, decision trees, Bayesian updating, Monte Carlo, journals/AAR, and other decisions under uncertainty (M2 + M2b batches included).
 
 - **[after-action-review](skills/decision-probability/after-action-review/SKILL.md)** — After Action Review: intent → actual → gap → next actions.
 - **[asymmetric-payoff](skills/decision-probability/asymmetric-payoff/SKILL.md)** — Asymmetric payoff: compare upside/downside shapes, not means alone.
@@ -176,7 +176,7 @@ Expected value, decision trees, Bayesian updating, Monte Carlo, journals/AAR, an
 - **[oz-principle](skills/decision-probability/oz-principle/SKILL.md)** — Oz Principle: Above the Line accountability (See–Own–Solve–Do).
 - **[planning-fallacy](skills/decision-probability/planning-fallacy/SKILL.md)** — Planning fallacy: correct optimistic schedules with outside view.
 - **[pre-mortem](skills/decision-probability/pre-mortem/SKILL.md)** — Pre-mortem: assume failure already happened to surface preventable causes.
-- **[probability-thinking](skills/decision-probability/probability-thinking/SKILL.md)** — Probability thinking: define events and speak in probabilities (draft entry).
+- **[probability-thinking](skills/decision-probability/probability-thinking/SKILL.md)** — Probability thinking: define events and speak in probabilities.
 - **[rapid-experimentation](skills/decision-probability/rapid-experimentation/SKILL.md)** — Rapid experimentation: short falsifiable loops with kill criteria.
 - **[red-team](skills/decision-probability/red-team/SKILL.md)** — Red team: structured independent attack on a plan.
 - **[reversible-irreversible](skills/decision-probability/reversible-irreversible/SKILL.md)** — Reversible vs irreversible decisions: match process weight to undo cost.
@@ -187,7 +187,7 @@ Expected value, decision trees, Bayesian updating, Monte Carlo, journals/AAR, an
 
 ### Learning & Growth（30）
 
-Feynman, flow, metacognition, forgetting curve, antifragility, M3 drafts (deliberate practice, SRS, growth mindset, deep work, ZPD, 10k-hours), plus batches (retrieval/interleaving/transfer, dual coding, elaborative interrogation, chunking, T-shaped, learning-pyramid caveat, mentorship, learning-by-teaching, meta-learning, unlearning), plus a 2026-08-19 roster-completion batch (habit formation, project-based learning, peer instruction, cognitive load, self-explanation, production effect, sleep consolidation) awaiting blind testing.
+Feynman, flow, metacognition, forgetting curve, antifragility, M3 batch (deliberate practice, SRS, growth mindset, deep work, ZPD, 10k-hours), plus batches (retrieval/interleaving/transfer, dual coding, elaborative interrogation, chunking, T-shaped, learning-pyramid caveat, mentorship, learning-by-teaching, meta-learning, unlearning), plus a 2026-08-19 roster-completion batch (habit formation, project-based learning, peer instruction, cognitive load, self-explanation, production effect, sleep consolidation).
 
 - **[antifragility](skills/learning-growth/antifragility/SKILL.md)** — Antifragility: design strategies that gain from volatility and uncertainty—not merely withstand risk.
 - **[chunking](skills/learning-growth/chunking/SKILL.md)** — Chunking: pack items into named meaningful units to cut working-memory load.
@@ -257,7 +257,7 @@ Five forces, moats, flywheels, SWOT, blue ocean, second curve, disruption, BCG, 
 
 ### Efficiency & Execution（30）
 
-Eisenhower, PDCA, M3 drafts (Pomodoro, GTD, Kanban, agile, lean, critical path, 5S), plus batches (batching, checklist/SOP, continuous improvement, delegation, eat-the-frog, energy, Gantt, milestones, standup, time-blocking, two-minute rule, WIP limits), plus a 2026-08-19 roster-completion batch (meeting hygiene, single-tasking, task-switching cost, Inbox Zero, structured procrastination, buffer time, mise en place, weekly review, commitment devices) awaiting blind testing. Deep work lives under Learning & Growth.
+Eisenhower, PDCA, M3 batch (Pomodoro, GTD, Kanban, agile, lean, critical path, 5S), plus batches (batching, checklist/SOP, continuous improvement, delegation, eat-the-frog, energy, Gantt, milestones, standup, time-blocking, two-minute rule, WIP limits), plus a 2026-08-19 roster-completion batch (meeting hygiene, single-tasking, task-switching cost, Inbox Zero, structured procrastination, buffer time, mise en place, weekly review, commitment devices). Deep work lives under Learning & Growth.
 
 - **[agile-iteration](skills/efficiency-execution/agile-iteration/SKILL.md)** — Agile iteration: short timeboxes delivering inspectable increments, then adapt.
 - **[batching](skills/efficiency-execution/batching/SKILL.md)** — Batching: group similar tasks to cut context switching.

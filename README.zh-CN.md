@@ -132,13 +132,13 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 第一性原理、结构化拆解、批判性思维等认知工具。
 
-- **[abstraction-ladder](skills/cognitive-thinking-tools/abstraction-ladder/SKILL.md)** — 抽象阶梯：在具体与抽象之间有意识上下钻（草稿；≠ 推论阶梯）。
+- **[abstraction-ladder](skills/cognitive-thinking-tools/abstraction-ladder/SKILL.md)** — 抽象阶梯：在具体与抽象之间有意识上下钻（≠ 推论阶梯）。
 - **[analogical-thinking](skills/cognitive-thinking-tools/analogical-thinking/SKILL.md)** — 类比思维：结构映射迁移并检验失效边界。
 - **[backward-goal](skills/cognitive-thinking-tools/backward-goal/SKILL.md)** — 反向目标：从可验收终态倒推到今日动作。
 - **[concept-map](skills/cognitive-thinking-tools/concept-map/SKILL.md)** — 概念图：概念+连接词构成命题网络。
 - **[critical-thinking](skills/cognitive-thinking-tools/critical-thinking/SKILL.md)** — 批判性思维：按 Facione Delphi 框架练诠释、分析、评估、推理、说明与自我校准。
-- **[cross-validation-thinking](skills/cognitive-thinking-tools/cross-validation-thinking/SKILL.md)** — 交叉验证：多独立证据路径核验主张（草稿；≠ ML k-fold）。
-- **[decision-matrix](skills/cognitive-thinking-tools/decision-matrix/SKILL.md)** — 决策矩阵：多标准加权评分与敏感性（草稿；概率树见决策与概率）。
+- **[cross-validation-thinking](skills/cognitive-thinking-tools/cross-validation-thinking/SKILL.md)** — 交叉验证：多独立证据路径核验主张（≠ ML k-fold）。
+- **[decision-matrix](skills/cognitive-thinking-tools/decision-matrix/SKILL.md)** — 决策矩阵：多标准加权评分与敏感性（概率树见决策与概率）。
 - **[diamond-six-steps](skills/cognitive-thinking-tools/diamond-six-steps/SKILL.md)** — 菱形六步法：两轮发散—收敛门控。
 - **[first-principles](skills/cognitive-thinking-tools/first-principles/SKILL.md)** — 第一性原理：把判断拆到硬事实/物理约束，再从约束重新往上构建，少靠类比。
 - **[five-whys](skills/cognitive-thinking-tools/five-whys/SKILL.md)** — 5Why：沿因果链追问至可行动根因。
@@ -151,7 +151,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[mind-map](skills/cognitive-thinking-tools/mind-map/SKILL.md)** — 思维导图：中心放射的层级联想笔记与外化。
 - **[occams-razor](skills/cognitive-thinking-tools/occams-razor/SKILL.md)** — 奥卡姆剃刀：在同样能解释现象的假设中，优先所需特设假设更少者，再验证。
 - **[octopus-diagram](skills/cognitive-thinking-tools/octopus-diagram/SKILL.md)** — 八爪鱼图：中心主题+多腕足维度盘点。
-- **[pros-cons-list](skills/cognitive-thinking-tools/pros-cons-list/SKILL.md)** — 优劣势清单：利弊并列扫描（草稿；加权走决策矩阵）。
+- **[pros-cons-list](skills/cognitive-thinking-tools/pros-cons-list/SKILL.md)** — 优劣势清单：利弊并列扫描（加权走决策矩阵）。
 - **[pyramid-principle](skills/cognitive-thinking-tools/pyramid-principle/SKILL.md)** — 金字塔原理：结论先行，上层概括下层，同层 MECE 组织论证与沟通。
 - **[scqa](skills/cognitive-thinking-tools/scqa/SKILL.md)** — SCQA：情境–冲突–问题–答案的开场与问题定义。
 - **[six-thinking-hats](skills/cognitive-thinking-tools/six-thinking-hats/SKILL.md)** — 六顶思考帽：把会议中的事实、感受、利益、风险与创意分时并行处理。
@@ -163,7 +163,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ### 决策与概率（24）
 
-期望值、决策树、贝叶斯、蒙特卡洛、决策日志/复盘等不确定性决策工具（含 M2 + M2b draft）。
+期望值、决策树、贝叶斯、蒙特卡洛、决策日志/复盘等不确定性决策工具（含 M2 + M2b 批次）。
 
 - **[after-action-review](skills/decision-probability/after-action-review/SKILL.md)** — 复盘四步法（AAR）：意图→实际→落差→下次。
 - **[asymmetric-payoff](skills/decision-probability/asymmetric-payoff/SKILL.md)** — 不对称回报：比较上行/下行损益形状。
@@ -192,7 +192,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ### 学习与成长（30）
 
-费曼技巧、心流、元认知、遗忘曲线、反脆弱，M3 草稿（刻意练习、间隔重复、成长型思维、深度工作、ZPD、一万小时澄清），批次草稿（检索/交错/迁移、双重编码、精细加工、组块、T 型、学习金字塔纠偏、导师制、教中学、元学习、去学习），以及 2026-08-19 补齐名录目标的一批（习惯养成、项目式学习、同伴学习、认知负荷、自我解释、产出效应、睡眠巩固，等待独立盲测）。
+费曼技巧、心流、元认知、遗忘曲线、反脆弱，M3 批次（刻意练习、间隔重复、成长型思维、深度工作、ZPD、一万小时澄清），批次新建（检索/交错/迁移、双重编码、精细加工、组块、T 型、学习金字塔纠偏、导师制、教中学、元学习、去学习），以及 2026-08-19 补齐名录目标的一批（习惯养成、项目式学习、同伴学习、认知负荷、自我解释、产出效应、睡眠巩固）。
 
 - **[antifragility](skills/learning-growth/antifragility/SKILL.md)** — 反脆弱：设计能从波动与不确定性中获益的策略，而不只是抗住风险。
 - **[chunking](skills/learning-growth/chunking/SKILL.md)** — 组块：把离散信息打成可命名的更大单元，降低工作记忆负荷。
@@ -262,7 +262,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ### 效率与执行（30）
 
-艾森豪威尔、PDCA、M3 草稿（番茄、GTD、看板、敏捷、精益、关键路径、5S），批次新建（批处理、清单/SOP、持续改进、委派、吃青蛙、精力管理、甘特、里程碑、站会、时间块、两分钟法则、WIP 限制），以及 2026-08-19 补齐名录目标的一批（高效会议、单任务处理、任务切换成本、收件箱清零、结构化拖延、缓冲时间、一切就位、每周回顾、承诺机制，等待独立盲测）。深度工作见学习与成长类。
+艾森豪威尔、PDCA、M3 批次（番茄、GTD、看板、敏捷、精益、关键路径、5S），批次新建（批处理、清单/SOP、持续改进、委派、吃青蛙、精力管理、甘特、里程碑、站会、时间块、两分钟法则、WIP 限制），以及 2026-08-19 补齐名录目标的一批（高效会议、单任务处理、任务切换成本、收件箱清零、结构化拖延、缓冲时间、一切就位、每周回顾、承诺机制）。深度工作见学习与成长类。
 
 - **[agile-iteration](skills/efficiency-execution/agile-iteration/SKILL.md)** — 敏捷迭代：短时间盒交付可检视增量并检视适应。
 - **[batching](skills/efficiency-execution/batching/SKILL.md)** — 批处理：同类任务集中时段，降低上下文切换。
