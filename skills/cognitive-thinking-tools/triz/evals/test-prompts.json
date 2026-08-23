@@ -1,6 +1,6 @@
 {
   "skill": "triz",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "triz-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "不用写矛盾，直接随机抽40原理就行。",
       "expect": "纠正：必须先定义矛盾；原理是启发不是抽卡。"
+    },
+    {
+      "id": "triz-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地TRIZ 发明原理 TRIZ (Theory of Inventive Problem Solving)，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按TRIZ 发明原理 TRIZ (Theory of Inventive Problem Solving)的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "triz-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用第一性原理的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 第一性原理）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "triz-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "TRIZ 发明原理 TRIZ (Theory of Inventive Problem Solving)最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "triz-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了无工程/功能矛盾，只是利益分配**：谈判与治理问题，不要伪 TRIZ。的情况，还能继续套用TRIZ 发明原理 TRIZ (Theory of Inventive Problem Solving)吗？",
+      "expect": "边界情况。必须指出本模型在无工程/功能矛盾，只是利益分配**：谈判与治理问题，不要伪 TRIZ。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "triz-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把TRIZ 发明原理 TRIZ (Theory of Inventive Problem Solving)的步骤做一遍，就算未写矛盾就翻 40 原理**：像抽卡 → 先完成步骤 2。也没关系，对吧？",
+      "expect": "必须纠正。未写矛盾就翻 40 原理**：像抽卡 → 先完成步骤 2。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

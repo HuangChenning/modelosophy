@@ -1,6 +1,6 @@
 {
   "skill": "entropy-increase",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "entropy-increase-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "励志绑科学是对的吧？",
       "expect": "必须纠正常见误用：励志绑科学 — “熵增所以你要努力” → 停。"
+    },
+    {
+      "id": "entropy-increase-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地熵增定律 Entropy Increase，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按熵增定律 Entropy Increase的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "entropy-increase-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用负熵的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 负熵）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "entropy-increase-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "熵增定律 Entropy Increase最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "entropy-increase-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了强开放且高投入系统**：可持续局部有序（代价是环境增熵）。的情况，还能继续套用熵增定律 Entropy Increase吗？",
+      "expect": "边界情况。必须指出本模型在强开放且高投入系统**：可持续局部有序（代价是环境增熵）。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "entropy-increase-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把熵增定律 Entropy Increase的步骤做一遍，就算励志绑科学**：“熵增所以你要努力” → 停。也没关系，对吧？",
+      "expect": "必须纠正。励志绑科学**：“熵增所以你要努力” → 停。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

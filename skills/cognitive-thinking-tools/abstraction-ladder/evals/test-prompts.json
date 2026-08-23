@@ -1,6 +1,6 @@
 {
   "skill": "abstraction-ladder",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "abstraction-ladder-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "抽象阶梯就是推论阶梯。",
       "expect": "纠正：一个管语义高度，一个管推理攀升。"
+    },
+    {
+      "id": "abstraction-ladder-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地抽象阶梯 Ladder of Abstraction，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按抽象阶梯 Ladder of Abstraction的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "abstraction-ladder-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用推论阶梯的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 推论阶梯）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "abstraction-ladder-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "抽象阶梯 Ladder of Abstraction最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "abstraction-ladder-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了诗歌/隐喻故意含混**：艺术表达可不钉高度。的情况，还能继续套用抽象阶梯 Ladder of Abstraction吗？",
+      "expect": "边界情况。必须指出本模型在诗歌/隐喻故意含混**：艺术表达可不钉高度。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "abstraction-ladder-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把抽象阶梯 Ladder of Abstraction的步骤做一遍，就算与推论阶梯混淆**：说「抽象阶梯」却在查信念跳跃 → 改走 ladder-of-inference。也没关系，对吧？",
+      "expect": "必须纠正。与推论阶梯混淆**：说「抽象阶梯」却在查信念跳跃 → 改走 ladder-of-inference。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

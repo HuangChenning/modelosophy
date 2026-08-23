@@ -8,7 +8,7 @@ description: >
   （那是 post-mortem）。
 metadata:
   author: modelosophy（蒸馏自 Gary Klein 事前验尸方法 + Kahneman 推广的 prospective hindsight）
-  version: v0.x-draft
+  version: v1.0
   source: Klein pre-mortem；判断与决策；研究审计 docs/books/decision-probability-m2/
 ---
 

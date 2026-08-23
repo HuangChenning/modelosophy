@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Connors / Smith / Hickman《The Oz Principle》的
     Above the Line 问责框架；决策与执行交界，非魔法冒险寓言）
-  version: v0.x-draft
+  version: v1.0
   source: The Oz Principle（accountability）；研究审计 docs/books/decision-probability-m2b/
 ---
 

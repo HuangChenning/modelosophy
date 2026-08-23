@@ -6,7 +6,7 @@ description: >
   与框架效应区分：本条改选项集合，不只改措辞。
 metadata:
   author: modelosophy（蒸馏自Huber, Payne, Puto 不对称支配效应）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/decoy-effect/
 ---
 

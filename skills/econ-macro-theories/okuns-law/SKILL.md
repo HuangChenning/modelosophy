@@ -4,7 +4,7 @@ description: >
   用奥肯定律粗估增长与失业的联动，做情景而非精确预测。Use when 奥肯定律、增长能降多少失业、产出缺口和失业。不适用于把经验系数当物理常数。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Okun；宏观经验规则文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

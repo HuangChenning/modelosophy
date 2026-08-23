@@ -6,7 +6,7 @@ description: >
   不适用于同时行动标准式扫纳什（纳什均衡）、只要倒推算法步骤（逆向归纳）、不完全信息（贝叶斯）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Selten；动态博弈教材
 ---
 

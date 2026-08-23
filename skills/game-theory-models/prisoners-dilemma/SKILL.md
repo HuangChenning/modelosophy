@@ -6,7 +6,7 @@ description: >
   不适用于单人不确定决策（决策树）、单纯零和争夺（零和博弈）、已进入重复互动设计（重复博弈/无名氏定理）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Tucker / Flood–Dresher；标准教材 2×2 PD
 ---
 

@@ -4,7 +4,7 @@ description: >
   用菲利普斯曲线权衡短期通胀与失业，并检查预期是否使权衡失效。Use when 菲利普斯曲线、通胀失业权衡、自然失业率。不适用于供给冲击主导却仍沿需求权衡开药。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Phillips 1958；Friedman/Phelps 自然率；现代 NKPC 文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

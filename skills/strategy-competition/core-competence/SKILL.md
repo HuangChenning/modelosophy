@@ -6,7 +6,7 @@ description: >
   不适用于单点资源 VRIO 打勾清单替代品、也不等于护城河类型学；勿与定位口号混淆。
 metadata:
   author: modelosophy（蒸馏自 Prahalad & Hamel 核心能力理论，并与 RBV/VRIO 分流）
-  version: v0.x-draft
+  version: v1.0
   source: Prahalad & Hamel, “The Core Competence of the Corporation” (HBR, 1990)；docs/books/strategy-competition-batch/
 ---
 

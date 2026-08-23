@@ -6,7 +6,7 @@ description: >
   不适用于业务组合投砍（BCG/GE）、也不替代五力判断行业是否值得进入。
 metadata:
   author: modelosophy（蒸馏自 Ansoff 产品/市场增长矩阵及风险阶梯实践）
-  version: v0.x-draft
+  version: v1.0
   source: H. Igor Ansoff, “Strategies for Diversification” (HBR, 1957) 及后续产品-市场矩阵表述；docs/books/strategy-competition-batch/
 ---
 

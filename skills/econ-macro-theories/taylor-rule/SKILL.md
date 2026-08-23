@@ -4,7 +4,7 @@ description: >
   用泰勒规则评估政策利率相对通胀与产出缺口是否系统性偏离。Use when 泰勒规则、央行该加息多少、政策利率基准。不适用于零下界时仍只报公式不做非常规工具讨论。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Taylor 1993；货币政策规则文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

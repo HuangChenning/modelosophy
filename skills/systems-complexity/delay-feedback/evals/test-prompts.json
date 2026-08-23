@@ -1,6 +1,6 @@
 {
   "skill": "delay-feedback",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "delay-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "振荡了就再加一层审批加强控制。",
       "expect": "纠正；可能加大延迟，应降增益/先行指标。"
+    },
+    {
+      "id": "delay-feedback-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地延迟反馈 Delay Feedback，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按延迟反馈 Delay Feedback的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "delay-feedback-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用反馈回路的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 反馈回路）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "delay-feedback-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "延迟反馈 Delay Feedback最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "delay-feedback-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了开环一次性项目**：无反馈闭环。的情况，还能继续套用延迟反馈 Delay Feedback吗？",
+      "expect": "边界情况。必须指出本模型在开环一次性项目**：无反馈闭环。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "delay-feedback-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把延迟反馈 Delay Feedback的步骤做一遍，就算延迟 = 借口不作为**：要缩短可缩短的感知/决策延迟。也没关系，对吧？",
+      "expect": "必须纠正。延迟 = 借口不作为**：要缩短可缩短的感知/决策延迟。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

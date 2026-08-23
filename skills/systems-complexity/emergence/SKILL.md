@@ -7,7 +7,7 @@ description: >
   不适用于把任何意外结果都叫涌现、或用涌现逃避机制说明。
 metadata:
   author: modelosophy（蒸馏自复杂系统/系统科学中的涌现概念：弱涌现可还原解释、强涌现争议；Holland/Bedau 等；非照抄卡片）
-  version: v0.x-draft
+  version: v1.0
   source: 复杂系统与涌现文献（weak/strong emergence）；研究审计 docs/books/systems-complexity-m4/
 ---
 

@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自咨询式问题解决流程：问题定义、议题树、分析综合；
     作为认知工具总论，与 MECE/金字塔/SCQA 专条分流）
-  version: v0.x-draft
+  version: v1.0
   source: 结构化问题解决实践；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

@@ -6,7 +6,7 @@ description: >
   不适用于当成完整货币数量论；宏观总量还可接费雪方程（宏观分类）；本条聚焦路径与分配。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

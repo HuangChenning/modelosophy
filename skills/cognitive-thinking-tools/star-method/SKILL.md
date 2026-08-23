@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自行为面试中广泛使用的 STAR 叙事结构；
     与 SCQA / 金字塔分流）
-  version: v0.x-draft
+  version: v1.0
   source: 行为面试 STAR 惯例；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

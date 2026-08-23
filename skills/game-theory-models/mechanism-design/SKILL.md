@@ -6,7 +6,7 @@ description: >
   不适用于分析既定矩阵均衡、纯实证实验博弈、护城河/五力战略。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Hurwicz / Maskin / Myerson
 ---
 

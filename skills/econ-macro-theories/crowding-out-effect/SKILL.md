@@ -4,7 +4,7 @@ description: >
   评估财政扩张是否及如何挤出私人支出。Use when 挤出效应、政府花钱挤私人投资、财政推高利率。不适用于资源严重闲置却假设 100% 挤出。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 宏观财政挤出文献；IS-LM 教学；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

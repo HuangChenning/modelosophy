@@ -6,7 +6,7 @@ description: >
   不适用于无底线内卷恐吓、或把一切绩效问题都靠空降对手解决；与霍桑（被观察改变）、破窗区分。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求清单《经济学思维模型Skills生成需求》分类六 + 学科通行表述（草稿）
 ---
 

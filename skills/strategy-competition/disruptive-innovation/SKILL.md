@@ -6,7 +6,7 @@ description: >
   “低端颠覆”“新市场颠覆”。不要把任何猛烈创新或高端突破都叫颠覆；那常是维持性创新。
 metadata:
   author: modelosophy（蒸馏自 Clayton Christensen 颠覆式创新理论及常见误用澄清）
-  version: v0.x-draft
+  version: v1.0
   source: Christensen Innovator's Dilemma / Solution；颠覆 vs 维持性创新区分
 ---
 

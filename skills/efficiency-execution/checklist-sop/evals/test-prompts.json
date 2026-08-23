@@ -1,11 +1,66 @@
 {
   "skill": "checklist-sop",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
-    {"id": "cs-should-01", "type": "should_trigger", "prompt": "发布总漏步骤，想做 checklist。", "expect": "触发。"},
-    {"id": "cs-should-02", "type": "should_trigger", "prompt": "怎么写团队 SOP？", "expect": "触发。"},
-    {"id": "cs-decoy-01", "type": "should_not_trigger", "prompt": "用PDCA跑改进实验。", "expect": "分流 pdca。"},
-    {"id": "cs-edge-01", "type": "edge_case", "prompt": "全新产品探索也要厚SOP吗？", "expect": "边界：先探索再固化。"},
-    {"id": "cs-trap-01", "type": "correctness_trap", "prompt": "清单越长越安全。", "expect": "纠正：过长无人用。"}
+    {
+      "id": "cs-should-01",
+      "type": "should_trigger",
+      "prompt": "发布总漏步骤，想做 checklist。",
+      "expect": "触发。"
+    },
+    {
+      "id": "cs-should-02",
+      "type": "should_trigger",
+      "prompt": "怎么写团队 SOP？",
+      "expect": "触发。"
+    },
+    {
+      "id": "cs-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "用PDCA跑改进实验。",
+      "expect": "分流 pdca。"
+    },
+    {
+      "id": "cs-edge-01",
+      "type": "edge_case",
+      "prompt": "全新产品探索也要厚SOP吗？",
+      "expect": "边界：先探索再固化。"
+    },
+    {
+      "id": "cs-trap-01",
+      "type": "correctness_trap",
+      "prompt": "清单越长越安全。",
+      "expect": "纠正：过长无人用。"
+    },
+    {
+      "id": "checklist-sop-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地清单与 SOP Checklist / SOP，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按清单与 SOP Checklist / SOP的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "checklist-sop-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用PDCA的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 PDCA）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "checklist-sop-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "清单与 SOP Checklist / SOP最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "checklist-sop-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了高度新颖无步骤可循**：先探索再固化。的情况，还能继续套用清单与 SOP Checklist / SOP吗？",
+      "expect": "边界情况。必须指出本模型在高度新颖无步骤可循**：先探索再固化。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "checklist-sop-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把清单与 SOP Checklist / SOP的步骤做一遍，就算写成小说级 SOP**：没人读。也没关系，对吧？",
+      "expect": "必须纠正。写成小说级 SOP**：没人读。属于典型误用误区，必须澄清真实机制与适用边界。"
+    }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "skill": "five-s",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "5s-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "5S等于精益全部。",
       "expect": "纠正：基础层。"
+    },
+    {
+      "id": "five-s-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地5S 五常法 Five S，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按5S 五常法 Five S的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "five-s-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用精益思维的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 精益思维）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "five-s-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "5S 五常法 Five S最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "five-s-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了把 5S 当唯一战略**：现场整洁不等于顾客价值流已优。的情况，还能继续套用5S 五常法 Five S吗？",
+      "expect": "边界情况。必须指出本模型在把 5S 当唯一战略**：现场整洁不等于顾客价值流已优。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "five-s-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把5S 五常法 Five S的步骤做一遍，就算5S=大扫除**：缺整顿与标准。也没关系，对吧？",
+      "expect": "必须纠正。5S=大扫除**：缺整顿与标准。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

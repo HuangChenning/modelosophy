@@ -7,7 +7,7 @@ description: >
   不适用于已有良好校准记录且带置信区间的专业判断。
 metadata:
   author: modelosophy（蒸馏自Moore & Healy 过度自信三分法 + 校准研究）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/overconfidence/
 ---
 

@@ -6,7 +6,7 @@ description: >
   不适用于把一切失败都归短板、或忽略长板战略与冗余设计；与帕累托（抓重点长板）、杠杆点区分。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求清单《经济学思维模型Skills生成需求》分类六 + 学科通行表述（草稿）
 ---
 

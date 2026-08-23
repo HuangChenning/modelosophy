@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Dedre Gentner 结构映射理论 Structure-Mapping + Holyoak/Thagard
     类比约束满足；非照抄《万物皆模型》卡片）
-  version: v0.x-draft
+  version: v1.0
   source: Gentner SMT；类比推理认知科学；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

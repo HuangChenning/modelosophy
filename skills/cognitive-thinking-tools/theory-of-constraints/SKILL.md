@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Eliyahu M. Goldratt《目标》及 TOC 五聚焦步骤、
     DBR 等运作惯例；非照抄《万物皆模型》卡片）
-  version: v0.x-draft
+  version: v1.0
   source: Goldratt The Goal / TOC focusing steps；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

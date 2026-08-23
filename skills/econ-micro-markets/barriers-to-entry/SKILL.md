@@ -4,7 +4,7 @@ description: >
   用进入壁垒帮用户完成可执行分析：阻止或拖延新玩家以竞争姿态入场的障碍。 Use when user says 「进入壁垒、为什么新玩家进不来、barriers to entry」 or Barriers to Entry. 不适用于：把在位者效率本身道德化成「坏壁垒」而不加区分
 metadata:
   author: modelosophy（蒸馏自Bain 进入壁垒传统 + 产业组织后续争论；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/barriers-to-entry.md
 ---
 

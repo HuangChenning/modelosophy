@@ -4,7 +4,7 @@ description: >
   用比较优势帮用户完成可执行分析：专注相对成本最低的领域，再通过交易共赢。 Use when user says 「要不要什么都自己做、比较优势、分工划算吗」 or Comparative Advantage. 不适用于：把「我样样比你强」当成不必交易的理由（绝对优势≠无贸易空间）
 metadata:
   author: modelosophy（蒸馏自Ricardo On the Principles of Political Economy and Taxation (1817)；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/comparative-advantage.md
 ---
 

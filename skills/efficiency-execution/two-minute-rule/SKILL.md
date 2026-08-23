@@ -7,7 +7,7 @@ description: >
   （James Clear《原子习惯》版本），那是习惯启动启发式，不是本条，见 fogg-behavior-model。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: David Allen GTD — Two-Minute Rule
 ---
 

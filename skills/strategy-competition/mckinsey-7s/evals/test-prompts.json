@@ -1,6 +1,6 @@
 {
   "skill": "mckinsey-7s",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "7s-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "把官网使命愿景填进Shared Values就算做完7S了。",
       "expect": "纠正：用可观察奖惩行为，非口号。"
+    },
+    {
+      "id": "mckinsey-7s-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地麦肯锡 7S McKinsey 7S，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按麦肯锡 7S McKinsey 7S的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "mckinsey-7s-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用SWOT的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 SWOT）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "mckinsey-7s-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "麦肯锡 7S McKinsey 7S最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "mckinsey-7s-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了问题本质是产业利润池或竞争结构**：7S 不回答「这行业值不值得做」→ 先五力/护城河。的情况，还能继续套用麦肯锡 7S McKinsey 7S吗？",
+      "expect": "边界情况。必须指出本模型在问题本质是产业利润池或竞争结构**：7S 不回答「这行业值不值得做」→ 先五力/护城河。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "mckinsey-7s-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把麦肯锡 7S McKinsey 7S的步骤做一遍，就算只改 Structure**：以为换架构图等于转型 → 必须同步 Systems/Skills/Style。也没关系，对吧？",
+      "expect": "必须纠正。只改 Structure**：以为换架构图等于转型 → 必须同步 Systems/Skills/Style。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

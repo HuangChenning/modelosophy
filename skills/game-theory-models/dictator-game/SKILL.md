@@ -6,7 +6,7 @@ description: >
   不适用于有拒绝权的最后通牒、信任投资、机制设计激励兼容。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 行为博弈实验传统
 ---
 

@@ -4,7 +4,7 @@ description: >
   诊断泡沫破裂后是否陷入资产负债表衰退，并权衡财政填补与过早紧缩风险。Use when 资产负债表衰退、辜朝明、企业只还债不借款、日本失去的十年。不适用于普通库存短周期或供给约束型滞胀。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Koo；日本大衰退文献；去杠杆宏观；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

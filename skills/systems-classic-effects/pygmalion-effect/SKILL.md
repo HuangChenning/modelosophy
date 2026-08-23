@@ -6,7 +6,7 @@ description: >
   不适用于只会画大饼无资源的空期望；与霍桑、光环区分。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求清单《经济学思维模型Skills生成需求》分类六 + 学科通行表述（草稿）
 ---
 

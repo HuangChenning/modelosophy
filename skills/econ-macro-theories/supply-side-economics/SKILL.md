@@ -4,7 +4,7 @@ description: >
   从生产端激励（税率、管制、要素）分析如何提高潜在供给。Use when 供给学派、减税促增长、放松管制、供给侧改革、里根经济学。不适用于需求塌陷却只减富人税、忽略乘数与再分配。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 供给学派文献；宏观供给约束诊断；公共财政激励理论；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

@@ -4,7 +4,7 @@ description: >
   用购买力平价做长期汇率锚与通胀差粗判，并承认短期偏离。Use when 购买力平价、PPP、汇率长期由物价决定、巨无霸指数。不适用于短期汇率交易策略神化。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: PPP 理论；实际汇率文献；巴萨效应；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

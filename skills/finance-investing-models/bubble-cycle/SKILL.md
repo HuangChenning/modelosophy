@@ -6,7 +6,7 @@ description: >
   不适用于把上涨都叫泡沫；需估值、杠杆、叙事三重证据；融资脆弱接 minsky-moment。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

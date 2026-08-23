@@ -7,7 +7,7 @@ description: >
   真实或模拟受众与互动。不要变成只会读幻灯；金字塔 90% 神话见 learning-pyramid。
 metadata:
   author: modelosophy（蒸馏自 learning-by-teaching / protégé effect 与同伴教学实践）
-  version: v0.x-draft
+  version: v1.0
   source: learning by teaching；protégé effect；peer tutoring 相关证据与实践
 ---
 

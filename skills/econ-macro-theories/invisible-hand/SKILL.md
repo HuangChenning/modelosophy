@@ -4,7 +4,7 @@ description: >
   用「看不见的手」判断市场能否靠价格自发协调资源配置，以及何时需要制度/政策补位。适用于讨论自由市场、价格信号、去中心化协调。Use when user says 看不见的手、价格自发调节、市场会自己解决、invisible hand。不适用于已确认严重外部性/垄断/公共品失灵却仍主张「什么都别管」。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Smith 1776；新古典价格理论；市场失灵三分法（Bator 等）；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

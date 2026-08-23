@@ -4,7 +4,7 @@ description: >
   用范围经济帮用户完成可执行分析：多产品一起生产的总成本低于分开生产之和。 Use when user says 「要不要延伸产品线、范围经济、economies of scope」 or Economies of Scope. 不适用于：把收入协同（交叉销售）直接叫范围经济——范围经济首先是成本侧
 metadata:
   author: modelosophy（蒸馏自产业组织范围经济定义（Panzar/Willig 等传统表述）；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/economies-of-scope.md
 ---
 

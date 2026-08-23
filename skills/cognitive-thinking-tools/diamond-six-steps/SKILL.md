@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自创造性问题解决中的 diverge–converge 菱形节奏
     + Design Council Double Diamond 的可执行六步拆解；非单一商标流程的完整认证课）
-  version: v0.x-draft
+  version: v1.0
   source: diverge–converge / Double Diamond 实践；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

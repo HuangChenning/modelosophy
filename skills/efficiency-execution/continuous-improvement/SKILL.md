@@ -6,7 +6,7 @@ description: >
   不适用于单次 PDCA 实验设计细节（见 PDCA），也不等于战略级变革项目。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Toyota Kaizen；Imai Masaaki；精益持续改进实践
 ---
 

@@ -4,7 +4,7 @@ description: >
   检验发债减税是否被私人储蓄对冲（李嘉图等价）。Use when 李嘉图等价、发债等于征税、减税被存起来。不适用于流动性约束人群占主导却断言完全等价。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Barro 1974；财政乘数与等价检验文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

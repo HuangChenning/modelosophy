@@ -7,7 +7,7 @@ description: >
   冒充间隔重复；也不要用本模型替代技能的刻意练习。
 metadata:
   author: modelosophy（蒸馏自间隔重复与检索练习文献 + SRS 实践；与 forgetting-curve 互补）
-  version: v0.x-draft
+  version: v1.0
   source: spaced repetition / retrieval practice 文献；Anki/SM 类算法实践
 ---
 

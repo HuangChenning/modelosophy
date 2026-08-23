@@ -1,6 +1,6 @@
 {
   "skill": "learning-pyramid",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "lp-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "教别人就能记住 90%。",
       "expect": "纠正：假数字；改可执行教中学。"
+    },
+    {
+      "id": "learning-pyramid-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地学习金字塔 Learning Pyramid（谨慎），请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按学习金字塔 Learning Pyramid（谨慎）的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "learning-pyramid-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用检索练习的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 检索练习）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "learning-pyramid-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "学习金字塔 Learning Pyramid（谨慎）最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "learning-pyramid-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了当作引用依据写进学术/合规材料**：禁止；改引用检索练习等可追溯文献。的情况，还能继续套用学习金字塔 Learning Pyramid（谨慎）吗？",
+      "expect": "边界情况。必须指出本模型在当作引用依据写进学术/合规材料**：禁止；改引用检索练习等可追溯文献。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "learning-pyramid-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把学习金字塔 Learning Pyramid（谨慎）的步骤做一遍，就算把 % 当科学**：→ 纠正并删除数字。也没关系，对吧？",
+      "expect": "必须纠正。把 % 当科学**：→ 纠正并删除数字。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

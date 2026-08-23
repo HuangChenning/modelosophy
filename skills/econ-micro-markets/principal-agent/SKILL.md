@@ -4,7 +4,7 @@ description: >
   用委托-代理问题帮用户完成可执行分析：代理人不完全按委托人利益行事，因目标与信息不同。 Use when user says 「委托代理、代理人不听话、principal agent」 or Principal–Agent Problem. 不适用于：没有利益冲突也硬套代理问题
 metadata:
   author: modelosophy（蒸馏自委托-代理 / 合同理论标准框架；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/principal-agent.md
 ---
 

@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自多属性决策中的加权评分 / Pugh concept selection /
     Kepner-Tregoe 决策分析可执行子集；与决策树分流）
-  version: v0.x-draft
+  version: v1.0
   source: weighted decision matrix；Pugh/KT 实践；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

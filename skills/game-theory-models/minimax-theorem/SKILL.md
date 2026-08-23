@@ -6,7 +6,7 @@ description: >
   不适用于正和协作、一般纳什非零和、演化 ESS。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: von Neumann minimax theorem
 ---
 

@@ -6,7 +6,7 @@ description: >
   不适用于行业结构五力、心智定位，或资源稀缺性审计（VRIO）；勿与平台多边结构混淆。
 metadata:
   author: modelosophy（蒸馏自 Porter Competitive Advantage 价值链）
-  version: v0.x-draft
+  version: v1.0
   source: Michael Porter, Competitive Advantage (value chain)；docs/books/strategy-competition-batch/
 ---
 

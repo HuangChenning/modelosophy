@@ -7,7 +7,7 @@ description: >
   定价偏离持久存在时改走 limits-to-arbitrage / noise-trader-risk。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

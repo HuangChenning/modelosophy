@@ -4,7 +4,7 @@ description: >
   用一般均衡理论帮用户完成可执行分析：所有市场同时出清的联动均衡分析。 Use when user says 「一般均衡、瓦尔拉斯、general equilibrium」 or General Equilibrium. 不适用于：任何涨价都上一般均衡数学——多数决策局部均衡够用
 metadata:
   author: modelosophy（蒸馏自Walras 一般均衡传统 + Arrow-Debreu 现代表述入门；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/general-equilibrium.md
 ---
 

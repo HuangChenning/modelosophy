@@ -7,7 +7,7 @@ description: >
   不适用于把放任自流叫自组织、或用自组织逃避规则设计。
 metadata:
   author: modelosophy（蒸馏自自组织理论、Prigogine/复杂系统传统与 Hayek 自发秩序的可操作交汇；非照抄卡片）
-  version: v0.x-draft
+  version: v1.0
   source: 自组织 / dissipative systems / spontaneous order；研究审计 docs/books/systems-complexity-batch2/
 ---
 

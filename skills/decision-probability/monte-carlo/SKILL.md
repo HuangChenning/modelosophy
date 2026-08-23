@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自决策分析与风险工程中的 Monte Carlo 实践；
     非照抄《万物皆模型》卡片）
-  version: v0.x-draft
+  version: v1.0
   source: 决策分析 / 风险模拟惯例；研究审计 docs/books/decision-probability-m2b/
 ---
 

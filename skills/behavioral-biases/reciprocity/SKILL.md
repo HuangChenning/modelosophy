@@ -6,7 +6,7 @@ description: >
   “西奥迪尼互惠”。不适用于合同明确对价的正常交易；警惕把互惠当勒索合理化。
 metadata:
   author: modelosophy（蒸馏自Cialdini 影响力·互惠）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/reciprocity/
 ---
 

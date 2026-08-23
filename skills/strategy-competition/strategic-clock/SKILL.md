@@ -6,7 +6,7 @@ description: >
   不适用于替代五力/价值链细节；与波特通用战略对照时用本钟做连续选项，勿与 OKR 混淆。
 metadata:
   author: modelosophy（蒸馏自 Cliff Bowman Strategy Clock，对照 Porter 通用战略）
-  version: v0.x-draft
+  version: v1.0
   source: Bowman strategy clock；docs/books/strategy-competition-batch/
 ---
 

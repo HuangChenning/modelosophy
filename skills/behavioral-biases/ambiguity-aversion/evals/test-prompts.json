@@ -1,6 +1,6 @@
 {
   "skill": "ambiguity-aversion",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "ambiguity-aversion-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "模糊厌恶=胆小是对的吧？",
       "expect": "必须纠正常见误用：模糊厌恶=胆小 — 已知高风险的冒险者仍可能极怕模糊。"
+    },
+    {
+      "id": "ambiguity-aversion-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地模糊厌恶 Ambiguity Aversion，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按模糊厌恶 Ambiguity Aversion的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "ambiguity-aversion-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用前景理论的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 前景理论）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "ambiguity-aversion-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "模糊厌恶 Ambiguity Aversion最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "ambiguity-aversion-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了敌意不确定性**：对手藏信息时回避可能理性。的情况，还能继续套用模糊厌恶 Ambiguity Aversion吗？",
+      "expect": "边界情况。必须指出本模型在敌意不确定性**：对手藏信息时回避可能理性。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "ambiguity-aversion-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把模糊厌恶 Ambiguity Aversion的步骤做一遍，就算模糊厌恶=胆小**：已知高风险的冒险者仍可能极怕模糊。也没关系，对吧？",
+      "expect": "必须纠正。模糊厌恶=胆小**：已知高风险的冒险者仍可能极怕模糊。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

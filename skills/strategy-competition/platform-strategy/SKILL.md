@@ -6,7 +6,7 @@ description: >
   不适用于单边价值链优化、传统利基/成本领先默认假设；强网络效应细节可互链 Metcalfe 等系统模型。
 metadata:
   author: modelosophy（蒸馏自多边平台 / 双边市场战略实践与经典框架）
-  version: v0.x-draft
+  version: v1.0
   source: 多边平台与双边市场文献（Eisenmann, Parker, Van Alstyne 等）；docs/books/strategy-competition-batch/
 ---
 

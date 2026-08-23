@@ -6,7 +6,7 @@ description: >
   不适用于把倒挂当成百分百衰退信号；单点交易故事需补宏观与风险溢价拆解。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

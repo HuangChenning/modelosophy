@@ -6,7 +6,7 @@ description: >
   **硬区分**：无标度强调枢纽度数幂律；小世界强调聚类与短路径共存。不适用于把任何病毒式传播都叫小世界。
 metadata:
   author: modelosophy（蒸馏自 Watts & Strogatz 小世界模型与网络科学教学）
-  version: v0.x-draft
+  version: v1.0
   source: Watts–Strogatz small-world；网络科学；研究审计 docs/books/systems-complexity-m4/
 ---
 

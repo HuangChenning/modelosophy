@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Genrich Altshuller 的 TRIZ：矛盾、分离原理、发明原理与
     理想最终结果 IFR 等核心操作；简化为可执行工作流，非完整认证课程替代）
-  version: v0.x-draft
+  version: v1.0
   source: Altshuller TRIZ；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

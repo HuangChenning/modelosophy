@@ -6,7 +6,7 @@ description: >
   不适用于一次性静态列表决策；与系统思维（更宽方法）、反馈回路（回路专项）区分。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求清单《经济学思维模型Skills生成需求》分类六 + 学科通行表述（草稿）
 ---
 

@@ -6,7 +6,7 @@ description: >
   不适用于否认基本面；重点是套利者面临的额外风险维度；与 limits-to-arbitrage 成对。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

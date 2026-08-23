@@ -4,7 +4,7 @@ description: >
   估算与解释自主支出如何经乘数放大（或缩小）总产出。Use when 乘数效应、财政乘数、刺激能放大多少。不适用于忽略开放经济与充分就业上限的「无限放大」。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Keynesian multiplier；财政乘数经验文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

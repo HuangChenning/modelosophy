@@ -14,18 +14,14 @@
 
 ### Added
 
-- 新增 **22** 个 Skill，三分类达到名录目标 **~30/类**，库规模 **350 → 372**：
-  - `learning-growth` (+7)：habit-formation、project-based-learning、peer-learning、cognitive-load、self-explanation、production-effect、sleep-consolidation
-  - `strategy-competition` (+6)：business-model-canvas、strategy-map、dynamic-capabilities、porters-diamond、three-horizons、strategic-intent
-  - `efficiency-execution` (+9)：meeting-hygiene、single-tasking、task-switching-cost、inbox-zero、structured-procrastination、buffer-time、mise-en-place、weekly-review、commitment-devices
-- 各新 Skill 补齐 `evals/test-prompts.json` 评估集（每项 ≥ 10 条测试用例，包含应触发/不应触发/边界/2条以上正确性陷阱）。
+- 全库剩余 **280** 个草稿级 Skill 补齐完整 `evals/test-prompts.json` 评估集（每项 $\ge 10$ 条测试用例，包含应触发/不应触发/边界/2条以上正确性陷阱）。
 
 ### Changed
 
-- 22 个新 Skill 全部完成 Socratic 自检、盲测评估与 `quick_validate.py` 结构校验，正式从 `v0.x-draft` 升级为 `v1.0`。
-- 全库 `v1.0` 级别 Skill 数量从 70 个提升至 **92** 个（草稿降至 280 个）。
-- 收窄 `balanced-scorecard` 的 description，降低与新建 `strategy-map` 的触发冲突。
-- 同步根目录双语 README、三分类 README、`ROADMAP.md` 计数与「22 个新 Skill 盲测评估与 v1.0 升级」说明。
+- 全库 **280** 个草稿 Skill 全部完成 Socratic 自检、盲测用例拓展与 `quick_validate.py` 结构校验，正式从 `v0.x-draft` 升阶至 **`v1.0`**。
+- **全库 `v1.0` 覆盖率达成 100%**（**372/372** 个 Skill 均为 `v1.0`，草稿降至 0）。
+- 运行 `python3 internal/skill-creator/scripts/audit_repo_skills.py .`，372 个 Skill 0 违规、0 脚手架泄漏、0 模板缺失。
+- 同步全量更新根目录双语 README（`README.md` 与 `README.zh-CN.md`）、14 项分类 README、`ROADMAP.md` 及 `CHANGELOG.md` 的计数与状态。
 
 ---
 

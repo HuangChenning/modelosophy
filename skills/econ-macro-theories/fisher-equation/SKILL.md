@@ -7,7 +7,7 @@ description: >
   [fisher-effect](../../finance-investing-models/fisher-effect/SKILL.md)。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Fisher；货币数量论；V 不稳定文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

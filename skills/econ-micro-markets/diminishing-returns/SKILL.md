@@ -4,7 +4,7 @@ description: >
   用边际报酬递减帮用户完成可执行分析：其他投入固定时，再增加某一投入，产出增量终将下降。 Use when user says 「加人为什么效率掉了、边际报酬递减、diminishing returns」 or Diminishing Marginal Returns. 不适用于：与边际效用递减混用
 metadata:
   author: modelosophy（蒸馏自古典报酬递减 + 短期生产函数标准教材；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/diminishing-returns.md
 ---
 

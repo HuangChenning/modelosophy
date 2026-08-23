@@ -1,6 +1,6 @@
 {
   "skill": "stereotyping",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "stereotyping-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "“反刻板”变成反向刻板是对的吧？",
       "expect": "必须纠正常见误用：“反刻板”变成反向刻板 — 凡某群体必相反 → 仍是标签思维。"
+    },
+    {
+      "id": "stereotyping-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地刻板印象 Stereotyping，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按刻板印象 Stereotyping的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "stereotyping-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用光环效应的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 光环效应）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "stereotyping-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "刻板印象 Stereotyping最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "stereotyping-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了精确定向服务统计**：保险精算等合法使用群体风险，但仍应在个体层更新。的情况，还能继续套用刻板印象 Stereotyping吗？",
+      "expect": "边界情况。必须指出本模型在精确定向服务统计**：保险精算等合法使用群体风险，但仍应在个体层更新。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "stereotyping-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把刻板印象 Stereotyping的步骤做一遍，就算“反刻板”变成反向刻板**：凡某群体必相反 → 仍是标签思维。也没关系，对吧？",
+      "expect": "必须纠正。“反刻板”变成反向刻板**：凡某群体必相反 → 仍是标签思维。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

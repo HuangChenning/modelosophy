@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自期权思维与 Taleb 等强调的 payoff asymmetry；
     与 antifragility 互链不复制杠铃专论）
-  version: v0.x-draft
+  version: v1.0
   source: 不对称损益 / 期权式暴露；研究审计 docs/books/decision-probability-m2b/
 ---
 

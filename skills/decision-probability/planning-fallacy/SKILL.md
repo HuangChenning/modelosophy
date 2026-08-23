@@ -7,7 +7,7 @@ description: >
   本模型点名乐观规划偏差机制。不适用于把所有延期都归谬误（范围变更、依赖方另案处理）。
 metadata:
   author: modelosophy（蒸馏自 Kahneman & Tversky 计划谬误 + Flyvbjerg 参考类预测在项目中的应用）
-  version: v0.x-draft
+  version: v1.0
   source: Kahneman & Tversky；项目预测文献；研究审计 docs/books/decision-probability-m2/
 ---
 

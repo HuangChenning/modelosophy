@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自决策科学中的 decision journal / calibration 实践；
     Tetlock 式预测记录精神）
-  version: v0.x-draft
+  version: v1.0
   source: 判断与决策 / 校准训练惯例；研究审计 docs/books/decision-probability-m2b/
 ---
 

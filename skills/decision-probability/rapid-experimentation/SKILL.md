@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自精益创业/设计冲刺与科学实验迭代的决策用法；
     强调可证伪与止损，非浪漫化失败）
-  version: v0.x-draft
+  version: v1.0
   source: Lean / 实验迭代实践；研究审计 docs/books/decision-probability-m2b/
 ---
 

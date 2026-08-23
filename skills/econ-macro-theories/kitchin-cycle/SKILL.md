@@ -4,7 +4,7 @@ description: >
   用基钦库存周期解释短波波动与补库/去库阶段。Use when 基钦周期、库存周期、补库去库、40个月周期。不适用于设备投资主驱动或技术长波。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Kitchin；库存周期实证；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

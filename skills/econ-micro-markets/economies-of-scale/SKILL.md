@@ -4,7 +4,7 @@ description: >
   用规模经济帮用户完成可执行分析：产量扩大时长期平均成本下降。 Use when user says 「做大就能摊薄成本吗、规模经济、economies of scale」 or Economies of Scale. 不适用于：与范围经济混用（那是多产品共享）
 metadata:
   author: modelosophy（蒸馏自产业组织 / 成本理论标准表述；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/economies-of-scale.md
 ---
 

@@ -4,7 +4,7 @@ description: >
   用朱格拉周期视角分析中期设备投资驱动的经济波动。Use when 朱格拉周期、设备投资周期、十年一轮繁荣萧条。不适用于库存短波或康波长波。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Juglar；投资周期宏观；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

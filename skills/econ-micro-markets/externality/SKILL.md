@@ -4,7 +4,7 @@ description: >
   用外部性帮用户完成可执行分析：行为对旁观者造成未在市场价格中反映的影响。 Use when user says 「污染谁买单、外部性、externality」 or Externality. 不适用于：任何讨厌的结果都叫外部性——要证明未通过价格传递
 metadata:
   author: modelosophy（蒸馏自Pigou 福利经济学 + Coase 产权进路 + 标准公共经济学；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/externality.md
 ---
 

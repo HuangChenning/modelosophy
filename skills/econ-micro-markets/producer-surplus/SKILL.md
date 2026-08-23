@@ -4,7 +4,7 @@ description: >
   用生产者剩余帮用户完成可执行分析：成交价高于卖方边际成本（或最低愿卖价）的差额。 Use when user says 「商家到底赚了多少差价、生产者剩余、producer surplus」 or Producer Surplus. 不适用于：把会计利润直接当生产者剩余（固定成本、沉没成本处理不同）
 metadata:
   author: modelosophy（蒸馏自标准局部均衡福利分析；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/producer-surplus.md
 ---
 

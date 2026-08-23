@@ -7,7 +7,7 @@ description: >
   习走刻意练习；用简单语言讲清概念空洞走费曼。
 metadata:
   author: modelosophy（蒸馏自 Roediger/Karpicke 等检索练习与 testing effect 文献；非照抄原书卡片）
-  version: v0.x-draft
+  version: v1.0
   source: retrieval practice / testing effect；与 spaced-repetition 互补
 ---
 

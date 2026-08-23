@@ -6,7 +6,7 @@ description: >
   不适用于要算完全理性纳什基准、行为偏误专条（前景/损失厌恶属 behavioral-biases）、护城河战略。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Herbert Simon；有限理性与满意化
 ---
 

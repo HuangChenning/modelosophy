@@ -4,7 +4,7 @@ description: >
   评估边际税率是否可能已过峰值导致减税增收入，或仍在曲线上行段。Use when 拉弗曲线、减税能增加税收、税率太高没人干活。不适用于未估弹性就断言「减税必增收」。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Laffer 通俗化；公共财政税率—税基弹性文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

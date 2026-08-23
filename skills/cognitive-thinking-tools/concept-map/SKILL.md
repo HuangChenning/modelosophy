@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Joseph D. Novak 概念图传统：概念、连接词、命题、交叉链接
     + 教育心理学中的知识表征用法）
-  version: v0.x-draft
+  version: v1.0
   source: Novak concept maps；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

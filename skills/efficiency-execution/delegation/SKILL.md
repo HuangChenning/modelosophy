@@ -6,7 +6,7 @@ description: >
   不适用于两分钟可自完成的琐事规则，也不替代 RACI/组织设计全局。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 管理学委派与授权实践；情境领导相关思想
 ---
 

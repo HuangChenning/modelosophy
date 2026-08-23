@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 John Boyd OODA loop 理论要点：Orient 为核心、速度相对对手、
     打破敌方循环）
-  version: v0.x-draft
+  version: v1.0
   source: Boyd OODA；作战与商业快速迭代实践；研究审计 docs/books/decision-probability-m2/
 ---
 

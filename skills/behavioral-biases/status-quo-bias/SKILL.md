@@ -6,7 +6,7 @@ description: >
   （若重点是界面预设选项，可并列 default-effect）。不适用于切换成本真实且高于收益的情形。
 metadata:
   author: modelosophy（蒸馏自Samuelson & Zeckhauser 现状偏差）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/status-quo-bias/
 ---
 

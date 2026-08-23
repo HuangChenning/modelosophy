@@ -6,7 +6,7 @@ description: >
   不要把 5S 当成精益全部；它是现场基础层。勿与看板/敏捷节奏混淆。
 metadata:
   author: modelosophy（蒸馏自丰田/精益现场 5S 实践）
-  version: v0.x-draft
+  version: v1.0
   source: 5S (seiri, seiton, seiso, seiketsu, shitsuke)
 ---
 

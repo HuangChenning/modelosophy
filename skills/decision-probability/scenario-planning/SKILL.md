@@ -7,7 +7,7 @@ description: >
   本模型容忍概率难校准、强调叙事分歧轴。不适用于把情景写成愿望清单或无穷多故事。
 metadata:
   author: modelosophy（蒸馏自 Shell 情景规划传统与战略不确定性实践；与概率决策树分工）
-  version: v0.x-draft
+  version: v1.0
   source: Scenario planning（Wack / Shell 传统）；研究审计 docs/books/decision-probability-m2/
 ---
 

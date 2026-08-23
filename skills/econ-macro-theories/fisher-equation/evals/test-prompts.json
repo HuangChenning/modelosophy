@@ -1,6 +1,6 @@
 {
   "skill": "fisher-equation",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "fisher-equation-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "把恒等当因果是对的吧？",
       "expect": "必须纠正常见误用：把恒等当因果 — PQ 也可驱动 M 内生。"
+    },
+    {
+      "id": "fisher-equation-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地货币数量方程 Quantity Theory of Money (MV=PQ)，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按货币数量方程 Quantity Theory of Money (MV=PQ)的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "fisher-equation-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用费雪效应的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 费雪效应）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "fisher-equation-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "货币数量方程 Quantity Theory of Money (MV=PQ)最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "fisher-equation-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了流动性陷阱/QE**：基础货币↑未必进宽货币与支出。的情况，还能继续套用货币数量方程 Quantity Theory of Money (MV=PQ)吗？",
+      "expect": "边界情况。必须指出本模型在流动性陷阱/QE**：基础货币↑未必进宽货币与支出。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "fisher-equation-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把货币数量方程 Quantity Theory of Money (MV=PQ)的步骤做一遍，就算把恒等当因果**：PQ 也可驱动 M 内生。也没关系，对吧？",
+      "expect": "必须纠正。把恒等当因果**：PQ 也可驱动 M 内生。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

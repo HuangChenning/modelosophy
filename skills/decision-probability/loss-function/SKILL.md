@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自统计决策论 / 分类阈值与非对称错误代价；
     决策用法而非深度学习训练细节）
-  version: v0.x-draft
+  version: v1.0
   source: 统计决策论与非对称损失；研究审计 docs/books/decision-probability-m2b/
 ---
 

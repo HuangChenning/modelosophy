@@ -6,7 +6,7 @@ description: >
   不适用于任务级甘特细节或关键路径计算；也不替代 OKR 战略意图（见战略类）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 项目管理里程碑实践；阶段门（stage-gate）思想
 ---
 

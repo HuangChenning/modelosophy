@@ -7,7 +7,7 @@ description: >
   检索练习；讲给别人听暴露空洞走费曼；监控策略走元认知。
 metadata:
   author: modelosophy（蒸馏自 elaborative interrogation / elaborative encoding 学习科学文献）
-  version: v0.x-draft
+  version: v1.0
   source: elaborative interrogation；Pressley 等；与深度加工传统相关
 ---
 

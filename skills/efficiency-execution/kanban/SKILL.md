@@ -6,7 +6,7 @@ description: >
   不要与敏捷迭代（时间盒冲刺）或关键路径（项目网络工期）混淆。
 metadata:
   author: modelosophy（蒸馏自 Toyota Kanban / David J. Anderson 知识工作看板实践）
-  version: v0.x-draft
+  version: v1.0
   source: Kanban method；精益拉动系统
 ---
 

@@ -6,7 +6,7 @@ description: >
   “深度vs广度”。不要当成岗位招聘标签游戏；单点突破练法走刻意练习；学习策略总控走元学习。
 metadata:
   author: modelosophy（蒸馏自 T-shaped professional 概念在知识工作/设计/咨询中的实践用法）
-  version: v0.x-draft
+  version: v1.0
   source: T-shaped skills（IDEO 等知识工作语境中的通行说法）；能力组合规划实践
 ---
 

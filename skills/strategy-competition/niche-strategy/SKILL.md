@@ -6,7 +6,7 @@ description: >
   不适用于追求全市场成本领先或全市场差异化；也不是定位口号本身（定位在利基内再做）。
 metadata:
   author: modelosophy（蒸馏自 Porter 集中战略 / 利基实践，与差异化、成本领先分流）
-  version: v0.x-draft
+  version: v1.0
   source: Porter generic strategies (focus); niche strategy practice；docs/books/strategy-competition-batch/
 ---
 

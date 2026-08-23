@@ -4,7 +4,7 @@ description: >
   用边际效用递减帮用户完成可执行分析：消费越多，每多一份带来的满足感通常越低。 Use when user says 「为什么第一口最好吃、边际效用递减、吃得越多越没感觉」 or Diminishing Marginal Utility. 不适用于：与边际报酬递减混用（那是生产投入）
 metadata:
   author: modelosophy（蒸馏自边际革命（Gossen/Jevons/Menger）+ 标准消费者理论；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/diminishing-marginal-utility.md
 ---
 

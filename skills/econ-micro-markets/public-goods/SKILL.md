@@ -4,7 +4,7 @@ description: >
   用公共物品帮用户完成可执行分析：非排他且非竞争，市场常供给不足。 Use when user says 「为什么基建/国防要政府、公共物品、public goods」 or Public Goods. 不适用于：把「公家提供的」都叫公共物品（那是供给主体，不是物品属性）
 metadata:
   author: modelosophy（蒸馏自Samuelson 公共物品理论 + 公共经济学分类；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/public-goods.md
 ---
 

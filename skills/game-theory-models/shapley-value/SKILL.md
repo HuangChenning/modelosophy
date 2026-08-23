@@ -6,7 +6,7 @@ description: >
   不适用于非合作纳什、只要核集合、匹配稳定配对。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Shapley 1953
 ---
 

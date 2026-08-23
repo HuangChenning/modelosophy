@@ -7,7 +7,7 @@ description: >
   已有 SWOT/五力/护城河不重建。
 metadata:
   author: modelosophy（蒸馏自 Kim & Mauborgne Blue Ocean Strategy；非照抄卡片）
-  version: v0.x-draft
+  version: v1.0
   source: Blue Ocean Strategy；价值曲线 / ERRC 四行动框架
 ---
 

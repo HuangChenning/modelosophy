@@ -6,7 +6,7 @@ description: >
   不适用于纯日历切块（时间块）或短铃节奏（番茄）；深度工作协议主条在 learning-growth/deep-work。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Loehr & Schwartz The Power of Full Engagement；睡眠与昼夜节律常识
 ---
 

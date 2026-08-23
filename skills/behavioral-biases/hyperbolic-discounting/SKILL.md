@@ -6,7 +6,7 @@ description: >
   “时间偏好不一致”“眼前诱惑”。不适用于利率/风险已显式计入的理性贴现；与机会成本区分。
 metadata:
   author: modelosophy（蒸馏自Laibson 双曲贴现 / Ainslie 等跨期选择）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/hyperbolic-discounting/
 ---
 

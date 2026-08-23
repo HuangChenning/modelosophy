@@ -6,7 +6,7 @@ description: >
   不适用于把因子当稳赚保证；动量等需另加因子；交易层面改走 momentum-reversal / value-premium。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

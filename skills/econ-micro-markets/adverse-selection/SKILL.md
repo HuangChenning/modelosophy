@@ -4,7 +4,7 @@ description: >
   用逆向选择帮用户完成可执行分析：签约前，信息劣势方更容易吸引到「不利」的交易对手。 Use when user says 「逆向选择、adverse selection、来的都是坏客户」 or Adverse Selection. 不适用于：事后行为改变当逆向选择
 metadata:
   author: modelosophy（蒸馏自保险与信息经济学中的逆向选择传统（与 Akerlof 紧密）；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/adverse-selection.md
 ---
 

@@ -6,7 +6,7 @@ description: >
   不适用于只讲优势策略陷阱专条（囚徒困境）、要剔除不可信威胁（子博弈精炼）、要算零和最优防御值（最小最大）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Nash 1950；Osborne/Gibbons 教材
 ---
 

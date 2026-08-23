@@ -6,7 +6,7 @@ description: >
   “旧经验干扰”。不要做成神秘「清空大脑」；新技能获取仍走刻意练习等；信念层可连成长型思维。
 metadata:
   author: modelosophy（蒸馏自组织/个人 unlearning、干扰与抑制、技能重映射实践）
-  version: v0.x-draft
+  version: v1.0
   source: unlearning；负迁移与干扰；习惯替换与抑制控制相关实践
 ---
 

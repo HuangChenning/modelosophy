@@ -6,7 +6,7 @@ description: >
   不适用于无限视野无名氏、同时行动矩阵、只要 SPE 概念辨析而无树可画。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Zermelo / 动态博弈标准方法
 ---
 

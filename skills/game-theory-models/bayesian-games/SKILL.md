@@ -6,7 +6,7 @@ description: >
   不适用于完全信息矩阵、只要发信号分离类型（信号博弈专条）、完全无知却硬编精确先验。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Harsanyi；不完全信息博弈
 ---
 

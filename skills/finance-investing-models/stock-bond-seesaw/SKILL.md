@@ -6,7 +6,7 @@ description: >
   不适用于把负相关当定律；通胀冲击期股债可同跌；需看驱动是增长还是通胀。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

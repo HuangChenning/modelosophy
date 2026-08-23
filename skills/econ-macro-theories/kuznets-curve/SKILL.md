@@ -4,7 +4,7 @@ description: >
   谨慎使用库兹涅茨倒 U 假说讨论发展中不平等路径。Use when 库兹涅茨曲线、发展先恶化分配再改善、环境库兹涅茨。不适用于当作「先污染/先拉大差距必然好转」的许可证。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Kuznets；发展与不平等实证；EKC 文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

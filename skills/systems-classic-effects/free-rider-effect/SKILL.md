@@ -6,7 +6,7 @@ description: >
   不适用于把一切分工差异都打成偷懒；与公地悲剧（过度使用耗竭）、智猪博弈区分。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求清单《经济学思维模型Skills生成需求》分类六 + 学科通行表述（草稿）
 ---
 

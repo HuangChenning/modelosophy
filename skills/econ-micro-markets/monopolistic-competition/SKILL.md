@@ -4,7 +4,7 @@ description: >
   用垄断竞争帮用户完成可执行分析：众多厂商卖差异化产品，有一定定价权又竞争激烈。 Use when user says 「垄断竞争、差异化竞争、monopolistic competition」 or Monopolistic Competition. 不适用于：与寡头混用（玩家数量级不同）
 metadata:
   author: modelosophy（蒸馏自Chamberlin/Robinson 垄断竞争传统；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/monopolistic-competition.md
 ---
 

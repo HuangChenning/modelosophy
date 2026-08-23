@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 means-ends analysis / backward planning 传统
     + Covey「以终为始」的可执行层；与 inversion / premortem 分流）
-  version: v0.x-draft
+  version: v1.0
   source: backward planning；手段—目的分析；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

@@ -6,7 +6,7 @@ description: >
   不适用于完全无信息的纯猜测且无初始线索；也不要把一切参照点都收成锚定——前景理论的参照点编码另走 prospect-theory / loss-aversion。
 metadata:
   author: modelosophy（蒸馏自Tversky & Kahneman 锚定与调整启发 + 谈判/定价实验）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/anchoring/
 ---
 

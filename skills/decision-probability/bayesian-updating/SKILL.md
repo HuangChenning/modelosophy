@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Bayes / Laplace 条件概率与现代贝叶斯推断实践；
     非照抄《万物皆模型》卡片）
-  version: v0.x-draft
+  version: v1.0
   source: 条件概率与贝叶斯推断教科书惯例；研究审计 docs/books/decision-probability-m2/
 ---
 

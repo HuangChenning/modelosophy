@@ -6,7 +6,7 @@ description: >
   不适用于只看收益不看回撤路径；厚尾下 σ 不足；也不等于 Sortino/信息比率。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

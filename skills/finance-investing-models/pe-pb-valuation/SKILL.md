@@ -6,7 +6,7 @@ description: >
   不适用于亏损/账面失真公司盲比；绝对价值仍需 DCF；会计口径必须对齐。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

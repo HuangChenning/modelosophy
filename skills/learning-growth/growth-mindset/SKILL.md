@@ -6,7 +6,7 @@ description: >
   “怎么夸孩子/下属”。不要把它当成「只要努力就一定成功」的鸡汤，也不要用它替代具体的刻意练习设计。
 metadata:
   author: modelosophy（蒸馏自 Carol Dweck 成长型/固定型思维研究及后续争议与实践边界）
-  version: v0.x-draft
+  version: v1.0
   source: Dweck mindset；教育/组织反馈实践；研究审计需区分过度营销表述
 ---
 

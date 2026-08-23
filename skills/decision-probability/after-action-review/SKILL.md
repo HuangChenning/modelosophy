@@ -7,7 +7,7 @@ description: >
   decision-journal；深挖单一事故根因链 → five-whys。不适用于把复盘开成追责批斗会。
 metadata:
   author: modelosophy（蒸馏自美军 AAR 传统与组织学习实践中的四步复盘）
-  version: v0.x-draft
+  version: v1.0
   source: After Action Review 方法论；研究审计 docs/books/decision-probability-m2b/
 ---
 

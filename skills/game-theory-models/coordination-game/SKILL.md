@@ -6,7 +6,7 @@ description: >
   不适用于利益冲突的囚徒/斗鸡、信任风险主导的猎鹿专条、零和对立。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 经典协调博弈；标准经济学
 ---
 

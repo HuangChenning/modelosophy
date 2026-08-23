@@ -7,7 +7,7 @@ description: >
   也不要用本模型替代记忆保持日程（走间隔重复/遗忘曲线）。
 metadata:
   author: modelosophy（蒸馏自 Ericsson 刻意练习研究 + Peak 等综述；非照抄《万物皆模型》卡片）
-  version: v0.x-draft
+  version: v1.0
   source: Ericsson deliberate practice；学习科学反馈/目标设定文献
 ---
 

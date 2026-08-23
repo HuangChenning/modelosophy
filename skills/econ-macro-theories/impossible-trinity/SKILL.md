@@ -4,7 +4,7 @@ description: >
   用不可能三角诊断开放经济政策组合的可行性。Use when 不可能三角、蒙代尔三难、资本流动汇率货币独立。不适用于封闭经济宏观。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Mundell–Fleming；开放宏观三难文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

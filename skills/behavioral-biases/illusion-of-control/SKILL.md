@@ -6,7 +6,7 @@ description: >
   与过度自信区分：本条聚焦对外部随机性的虚假控制感。
 metadata:
   author: modelosophy（蒸馏自Langer 控制错觉实验）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/illusion-of-control/
 ---
 

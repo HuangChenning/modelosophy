@@ -6,7 +6,7 @@ description: >
   不适用于探索性创新无稳定步骤时，也不替代根因分析（鱼骨等）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Atul Gawande The Checklist Manifesto；质量管理 SOP 实践
 ---
 

@@ -4,7 +4,7 @@ description: >
   用垄断与自然垄断帮用户完成可执行分析：独占供给；若成本结构使一家生产最便宜，称自然垄断。 Use when user says 「垄断定价、自然垄断、monopoly」 or Monopoly & Natural Monopoly. 不适用于：市占高就自动=反垄断意义上的垄断（还看势力与进入）
 metadata:
   author: modelosophy（蒸馏自垄断定价标准模型 + 自然垄断规制理论入门；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/monopoly-natural-monopoly.md
 ---
 

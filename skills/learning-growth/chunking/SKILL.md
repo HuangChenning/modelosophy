@@ -6,7 +6,7 @@ description: >
   不要把无结构的死记硬背清单叫组块；技能反馈闭环走刻意练习；记忆日程走间隔重复。
 metadata:
   author: modelosophy（蒸馏自 Miller 工作记忆、Chase & Simon 棋块等专长与组块文献）
-  version: v0.x-draft
+  version: v1.0
   source: chunking；Miller 1956；Chase & Simon chess chunks；认知负荷相关实践
 ---
 

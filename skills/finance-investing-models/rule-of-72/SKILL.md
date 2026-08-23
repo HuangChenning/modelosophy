@@ -6,7 +6,7 @@ description: >
   不适用于高波动路径、现金流中途抽取，或把近似当精确财务模型；完整机制走 compounding。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

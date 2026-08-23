@@ -6,7 +6,7 @@ description: >
   不适用于直接给实盘下单公式当保证；美式/跳扩散/流动性需扩展；禁止当股市涨跌预言。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

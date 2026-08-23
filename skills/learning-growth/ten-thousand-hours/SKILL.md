@@ -6,7 +6,7 @@ description: >
   主交付是纠偏与改道到刻意练习；不要把本模型当成「练满时数即可」的操作手册。
 metadata:
   author: modelosophy（蒸馏自 Gladwell 大众化表述 vs Ericsson 刻意练习研究的对照澄清）
-  version: v0.x-draft
+  version: v1.0
   source: Outliers 大众表述；Ericsson 对一万小时简化的批评与澄清
 ---
 

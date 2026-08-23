@@ -8,7 +8,7 @@ description: >
   只想画出四层面因果链条本身（还没到配指标/目标值/行动方案那一步）应先走 strategy-map。
 metadata:
   author: modelosophy（蒸馏自 Kaplan & Norton Balanced Scorecard / Strategy Maps）
-  version: v0.x-draft
+  version: v1.0
   source: Kaplan & Norton, The Balanced Scorecard; Strategy Maps；docs/books/strategy-competition-batch/
 ---
 

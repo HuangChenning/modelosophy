@@ -6,7 +6,7 @@ description: >
   不适用于教具体 TFT 操作手册（重复博弈）、单次矩阵诊断（囚徒）、机制设计拍卖规则。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Friedman 等；重复博弈 folk theorems
 ---
 

@@ -6,7 +6,7 @@ description: >
   “这笔钱是专款”。不适用于有真实法律/托管隔离约束的资金；也不要把一切预算纪律都诊断成偏差。
 metadata:
   author: modelosophy（蒸馏自Thaler 心理账户理论）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/mental-accounting/
 ---
 

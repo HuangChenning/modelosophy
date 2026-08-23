@@ -6,7 +6,7 @@ description: >
   **硬区分**：小世界强调聚类与短路径；无标度强调 hub 度数分布。不适用于无度数证据却宣称无标度。
 metadata:
   author: modelosophy（蒸馏自 Barabási–Albert 优先连接与网络科学无标度讨论；注意实证争议时仍用 hub 思维可操作）
-  version: v0.x-draft
+  version: v1.0
   source: Barabási–Albert；网络科学 hub/幂律；研究审计 docs/books/systems-complexity-m4/
 ---
 

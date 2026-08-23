@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自放射状主题图/多维盘点教学法中的「八爪鱼图」用法
     + 与 mind map / concept map / logic tree 的可执行分流）
-  version: v0.x-draft
+  version: v1.0
   source: 放射主题图实践；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

@@ -7,7 +7,7 @@ description: >
   不适用于把多数表决神化，或忽略激励与信息污染。
 metadata:
   author: modelosophy（蒸馏自 Surowiecki 条件、Page 多样性定理、Woolley 集体智能研究线索；可执行设计）
-  version: v0.x-draft
+  version: v1.0
   source: collective intelligence / wisdom of crowds；研究审计 docs/books/systems-complexity-batch2/
 ---
 

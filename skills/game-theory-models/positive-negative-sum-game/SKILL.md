@@ -6,7 +6,7 @@ description: >
   不适用于已确认严格零和份额战（零和博弈）、只要纳什计算、金融仓位再平衡。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 博弈论支付结构分类；商业策略常用表述
 ---
 

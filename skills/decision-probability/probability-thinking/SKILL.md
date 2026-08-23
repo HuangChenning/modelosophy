@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自概率论基础用于判断与决策的实践框架；
     作总论入口并强制下钻专条，避免空壳）
-  version: v0.x-draft
+  version: v1.0
   source: 初等概率与决策启发式；研究审计 docs/books/decision-probability-m2b/
 ---
 

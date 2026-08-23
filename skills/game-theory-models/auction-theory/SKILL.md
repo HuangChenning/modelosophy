@@ -6,7 +6,7 @@ description: >
   不适用于一般纳什矩阵、匹配稳定婚配、非价格机制设计全书。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Vickrey；Milgrom；拍卖理论
 ---
 

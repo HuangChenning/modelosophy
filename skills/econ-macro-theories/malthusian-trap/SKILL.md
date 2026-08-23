@@ -4,7 +4,7 @@ description: >
   用马尔萨斯陷阱理解前现代人均停滞与破局条件（技术/制度/人口转型）。Use when 马尔萨斯陷阱、人口吞噬增长、人均为何长期不动。不适用于现代发达经济仍断言「人口一多必崩」而无模型。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Malthus；统一增长理论/经济史；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

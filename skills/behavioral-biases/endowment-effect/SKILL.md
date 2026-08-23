@@ -6,7 +6,7 @@ description: >
   “东西是我的就舍不得”。区别于损失规避的一般痛感；不适用于有真实转换成本/特异质感情价值的物品。
 metadata:
   author: modelosophy（蒸馏自Thaler / Kahneman-Knetsch-Thaler 杯子实验等）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/endowment-effect/
 ---
 

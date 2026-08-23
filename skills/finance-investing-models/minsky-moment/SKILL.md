@@ -6,7 +6,7 @@ description: >
   不适用于把每次跌市都叫明斯基；需债务-收入与再融资依赖证据；情绪五阶段见 bubble-cycle。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

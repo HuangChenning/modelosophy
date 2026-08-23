@@ -6,7 +6,7 @@ description: >
   “从众”。不适用于已独立验证质量、他人选择仅作廉价信号的情形。
 metadata:
   author: modelosophy（蒸馏自Cialdini 影响力·社会认同 / 从众实验传统）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/social-proof/
 ---
 

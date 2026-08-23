@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 von Neumann–Morgenstern 期望效用与决策分析实践；
     区分经典 EV）
-  version: v0.x-draft
+  version: v1.0
   source: vNM 期望效用；决策分析；研究审计 docs/books/decision-probability-m2/
 ---
 

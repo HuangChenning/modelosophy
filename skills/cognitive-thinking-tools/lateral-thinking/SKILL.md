@@ -10,7 +10,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Edward de Bono Lateral Thinking 的核心操作：挑衅、
     逃逸、随机输入等；非完整课程替代）
-  version: v0.x-draft
+  version: v1.0
   source: de Bono Lateral Thinking；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

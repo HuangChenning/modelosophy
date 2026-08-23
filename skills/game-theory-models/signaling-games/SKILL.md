@@ -6,7 +6,7 @@ description: >
   不适用于无发送—接收结构的一般贝叶斯、只要机制设计规则、纯协调无信息。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Spence 1973；信号博弈教材
 ---
 

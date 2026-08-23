@@ -6,7 +6,7 @@ description: >
   不适用于价格拍卖出清、夏普利分钱、非双边偏好协调。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Gale & Shapley 1962
 ---
 

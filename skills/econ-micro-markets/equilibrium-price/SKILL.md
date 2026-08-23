@@ -4,7 +4,7 @@ description: >
   用均衡价格帮用户完成可执行分析：供需量相等时的市场出清价格。 Use when user says 「市场出清价是多少、均衡价格、为什么价格会停在这儿」 or Equilibrium Price. 不适用于：用户其实在问一般均衡（多市场同时出清）→ 走一般均衡
 metadata:
   author: modelosophy（蒸馏自马歇尔局部均衡 + 标准微观教材出清条件；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/equilibrium-price.md
 ---
 

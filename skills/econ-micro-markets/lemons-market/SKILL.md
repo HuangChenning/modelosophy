@@ -4,7 +4,7 @@ description: >
   用柠檬市场帮用户完成可执行分析：质量信息不对称时，劣质品可能驱逐优质品。 Use when user says 「柠檬市场、劣币驱逐良币（质量版）、market for lemons」 or Market for Lemons. 不适用于：把任何「便宜货多」都叫柠檬市场——要有质量不对称与退出反馈
 metadata:
   author: modelosophy（蒸馏自Akerlof The Market for Lemons (1970)；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/lemons-market.md
 ---
 

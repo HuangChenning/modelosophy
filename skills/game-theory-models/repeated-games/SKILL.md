@@ -6,7 +6,7 @@ description: >
   不适用于严格单次遭遇（囚徒困境专条）、无限重复可行性的定理叙述（无名氏定理）、不完全信息信念更新（贝叶斯）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Axelrod; repeated games 教材
 ---
 

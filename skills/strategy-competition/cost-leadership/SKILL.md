@@ -6,7 +6,7 @@ description: >
   不适用于差异化溢价逻辑、利基焦点成本（先 niche）、或仅短期砍费用；勿与蓝海成本重建混为一谈。
 metadata:
   author: modelosophy（蒸馏自 Porter 通用战略之 Cost Leadership）
-  version: v0.x-draft
+  version: v1.0
   source: Porter Competitive Strategy；成本驱动因素实践；docs/books/strategy-competition-batch/
 ---
 

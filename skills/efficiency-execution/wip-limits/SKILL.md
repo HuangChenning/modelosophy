@@ -6,7 +6,7 @@ description: >
   不适用于完整看板列设计（见看板）或项目关键路径工期（见关键路径）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Kanban / Little’s Law；精益在制品控制
 ---
 

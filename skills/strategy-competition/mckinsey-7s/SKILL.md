@@ -7,7 +7,7 @@ description: >
   不适用于行业利润池（五力）、业务组合投砍（BCG/GE 九宫）、或仅写 OKR 目标清单。
 metadata:
   author: modelosophy（蒸馏自 McKinsey 7S / Waterman–Peters–Phillips，非原书卡片照抄）
-  version: v0.x-draft
+  version: v1.0
   source: Waterman, Peters & Phillips, “Structure Is Not Organization” (Business Horizons, 1980); McKinsey 7S framework; 研究笔记 docs/books/strategy-competition-7s-ge/
 ---
 

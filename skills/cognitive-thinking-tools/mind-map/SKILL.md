@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Tony Buzan 思维导图核心操作：中心、主干、层级、联想关键词
     + 笔记/头脑风暴实践；与 concept map 严格分流）
-  version: v0.x-draft
+  version: v1.0
   source: Buzan mind mapping 实践要点；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

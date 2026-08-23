@@ -6,7 +6,7 @@ description: >
   不适用于只要一点夏普利、非合作均衡、匹配稳定（另一套稳定定义）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 合作博弈核概念；Gillies 等
 ---
 

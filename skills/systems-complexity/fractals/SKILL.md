@@ -7,7 +7,7 @@ description: >
   不适用于把任何嵌套图都叫分形，或无标度证据却无限外推。
 metadata:
   author: modelosophy（蒸馏自 Mandelbrot 分形几何与复杂系统自相似讨论；强调可检验标度）
-  version: v0.x-draft
+  version: v1.0
   source: fractal geometry / self-similarity；研究审计 docs/books/systems-complexity-batch2/
 ---
 

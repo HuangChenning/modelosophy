@@ -7,7 +7,7 @@ description: >
   不适用于把一切挫折叫局部最优却不肯定义适应度。
 metadata:
   author: modelosophy（蒸馏自 Wright 适应度景观、Kauffman NK；可操作化为搜索与干预）
-  version: v0.x-draft
+  version: v1.0
   source: fitness landscape / NK；研究审计 docs/books/systems-complexity-batch2/
 ---
 

@@ -6,7 +6,7 @@ description: >
   不适用于只找最长依赖链（关键路径主条）或只定阶段门（里程碑）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Henry Gantt；现代项目管理排程实践
 ---
 

@@ -6,7 +6,7 @@ description: >
   不适用于无限回溯瘫痪；与长期主义、10/10/10、反事实区分（不迁入 long-term-thinking）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求清单《经济学思维模型Skills生成需求》分类六 + 学科通行表述（草稿）
 ---
 

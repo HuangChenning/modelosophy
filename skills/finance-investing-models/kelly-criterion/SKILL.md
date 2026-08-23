@@ -6,7 +6,7 @@ description: >
   不适用于胜率赔率拍脑袋仍输出精确 f；有归零序列风险时先降杠杆；区别于夏普事后评价。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

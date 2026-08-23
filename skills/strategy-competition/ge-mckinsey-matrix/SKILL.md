@@ -6,7 +6,7 @@ description: >
   “比BCG更细的组合工具”。不要与 BCG 对立重建两套矛盾结论；勿与 7S（组织对齐）或五力（单行业结构）混淆。
 metadata:
   author: modelosophy（蒸馏自 GE–McKinsey nine-box / industry attractiveness–business strength，非原书卡片照抄）
-  version: v0.x-draft
+  version: v1.0
   source: GE–McKinsey nine-box matrix（1970s，McKinsey for GE）；战略管理教材中的多因子组合框架；研究笔记 docs/books/strategy-competition-7s-ge/
 ---
 

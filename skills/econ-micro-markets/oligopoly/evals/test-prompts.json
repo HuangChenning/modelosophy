@@ -1,6 +1,6 @@
 {
   "skill": "oligopoly",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "oligopoly-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "寡头=一定非法卡特尔是对的吧？",
       "expect": "必须纠正常见误用：寡头=一定非法卡特尔 — 结构不等于违法行为。"
+    },
+    {
+      "id": "oligopoly-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地寡头市场 Oligopoly，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按寡头市场 Oligopoly的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "oligopoly-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用垄断竞争的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 垄断竞争）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "oligopoly-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "寡头市场 Oligopoly最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "oligopoly-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了进入突然变容易**：寡头纪律可能瓦解。的情况，还能继续套用寡头市场 Oligopoly吗？",
+      "expect": "边界情况。必须指出本模型在进入突然变容易**：寡头纪律可能瓦解。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "oligopoly-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把寡头市场 Oligopoly的步骤做一遍，就算寡头=一定非法卡特尔**：结构不等于违法行为。也没关系，对吧？",
+      "expect": "必须纠正。寡头=一定非法卡特尔**：结构不等于违法行为。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

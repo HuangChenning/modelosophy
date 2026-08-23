@@ -6,7 +6,7 @@ description: >
   不适用于仅做波特成本/差异化活动系统设计（走 cost-leadership / differentiation-strategy），也不替代五力行业结构诊断。
 metadata:
   author: modelosophy（蒸馏自 Ries & Trout Positioning 及品类心智竞争实践，非原书卡片照抄）
-  version: v0.x-draft
+  version: v1.0
   source: Ries & Trout, Positioning; 品类战略实践；研究笔记 docs/books/strategy-competition-batch/
 ---
 

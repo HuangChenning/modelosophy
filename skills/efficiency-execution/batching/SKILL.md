@@ -6,7 +6,7 @@ description: >
   不适用于单次紧急响应、或需要严格 WIP 拉动的流系统主设计（见看板/WIP 限制）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 知识工作中的上下文切换研究；GTD 批处理习惯；精益批量权衡
 ---
 

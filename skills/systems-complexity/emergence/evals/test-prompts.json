@@ -1,6 +1,6 @@
 {
   "skill": "emergence",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "emergence-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "涌现了所以没法分析也没法管。",
       "expect": "纠正；写规则与监测，拒绝神秘化。"
+    },
+    {
+      "id": "emergence-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地涌现 Emergence，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按涌现 Emergence的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "emergence-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用耗散结构的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 耗散结构）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "emergence-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了线性可加总系统**：产量=各机台之和且无显著互动 → 直接运营分析。的情况，还能继续套用涌现 Emergence吗？",
+      "expect": "边界情况。必须指出本模型在线性可加总系统**：产量=各机台之和且无显著互动 → 直接运营分析。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "emergence-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把涌现 Emergence的步骤做一遍，就算用涌现逃避解释**：→ 必须写互动规则假说。也没关系，对吧？",
+      "expect": "必须纠正。用涌现逃避解释**：→ 必须写互动规则假说。属于典型误用误区，必须澄清真实机制与适用边界。"
+    },
+    {
+      "id": "emergence-extra-10",
+      "type": "edge_case",
+      "prompt": "请问涌现 Emergence在遇到极其特殊的非典型干扰场景下该如何处理？",
+      "expect": "边界或避坑测试。检查在非典型场景下涌现 Emergence的适用边界与分流判定。"
     }
   ]
 }

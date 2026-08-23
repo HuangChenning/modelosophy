@@ -6,7 +6,7 @@ description: >
   不适用于唯一纳什已确定、信号昂贵分离类型、机制强制唯一结果。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Schelling Strategy of Conflict
 ---
 

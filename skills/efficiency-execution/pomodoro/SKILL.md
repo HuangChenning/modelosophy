@@ -6,7 +6,7 @@ description: >
   learning-growth/deep-work；本模型只管短周期计时节奏。不要把响铃次数当成深度产出证明。
 metadata:
   author: modelosophy（蒸馏自 Cirillo Pomodoro Technique 实践）
-  version: v0.x-draft
+  version: v1.0
   source: Francesco Cirillo Pomodoro Technique
 ---
 

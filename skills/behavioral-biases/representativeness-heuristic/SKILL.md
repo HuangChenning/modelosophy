@@ -6,7 +6,7 @@ description: >
   “工程师概率题”。不适用于确有强诊断性证据且已显式贝叶斯更新的情形。
 metadata:
   author: modelosophy（蒸馏自Kahneman & Tversky 代表性启发 / 基率忽视）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/representativeness-heuristic/
 ---
 

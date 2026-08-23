@@ -6,7 +6,7 @@ description: >
   不要与看板流动或敏捷迭代等同；那是流/节奏工具，本模型是依赖网络工期分析。
 metadata:
   author: modelosophy（蒸馏自 Critical Path Method 项目管理惯例）
-  version: v0.x-draft
+  version: v1.0
   source: CPM / PERT 项目管理
 ---
 

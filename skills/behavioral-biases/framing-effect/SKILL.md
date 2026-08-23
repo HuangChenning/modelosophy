@@ -6,7 +6,7 @@ description: >
   “获得框架还是损失框架”。不适用于信息集真正改变的情况；与锚定（数值起点）区分。
 metadata:
   author: modelosophy（蒸馏自Tversky & Kahneman 亚洲疾病问题等）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/framing-effect/
 ---
 

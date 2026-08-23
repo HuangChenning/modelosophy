@@ -4,7 +4,7 @@ description: >
   用创造性破坏分析创新、产业更替与政策保护的权衡。Use when 创造性破坏、熊彼特、产业颠覆、旧业失业。不适用于把裁员本身美化为创新。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Schumpeter；产业动态与生产率文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

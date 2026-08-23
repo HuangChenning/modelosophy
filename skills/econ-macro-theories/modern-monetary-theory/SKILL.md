@@ -4,7 +4,7 @@ description: >
   用 MMT 争议框架讨论主权货币、财政空间与通胀约束（非家庭预算类比）。Use when MMT、现代货币理论、主权货币不受税收约束、功能财政。不适用于欧元区非主权货币成员或高外债外币债国家硬套。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: MMT 文献（Kelton 等）；主流批评（宏观预算约束、通胀风险）；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

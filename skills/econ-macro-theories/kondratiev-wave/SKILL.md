@@ -4,7 +4,7 @@ description: >
   谨慎用康波长波做超长期技术—投资情景（争议工具）。Use when 康波、康德拉季耶夫、五六十年大周期。不适用于当作可交易的精确顶底信号。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Kondratiev；长波争议文献；技术浪潮史；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

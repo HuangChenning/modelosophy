@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自金融经济学中 risk premium 的决策直觉；
     与 finance-investing-models/capm 等互链，本类给决策口径）
-  version: v0.x-draft
+  version: v1.0
   source: 风险溢价概念与决策应用；研究审计 docs/books/decision-probability-m2b/
 ---
 

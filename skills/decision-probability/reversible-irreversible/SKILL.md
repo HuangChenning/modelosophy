@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Bezos 股东信 one-way/two-way door 与决策速度实践；
     结合不可逆性经济学直觉）
-  version: v0.x-draft
+  version: v1.0
   source: Amazon shareholder letters（Type 1/2）；研究审计 docs/books/decision-probability-m2/
 ---
 

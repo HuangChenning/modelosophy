@@ -4,7 +4,7 @@ description: >
   用凡勃伦效应帮用户完成可执行分析：价格越高越有人买——因炫耀与地位信号。 Use when user says 「凡勃伦效应、越贵越买、Veblen」 or Veblen Effect. 不适用于：把质量随价格上升的普通推断都叫凡勃伦
 metadata:
   author: modelosophy（蒸馏自Veblen Theory of the Leisure Class + 炫耀性消费文献；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/veblen-effect.md
 ---
 

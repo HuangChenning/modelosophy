@@ -1,11 +1,66 @@
 {
   "skill": "eat-the-frog",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
-    {"id": "frog-should-01", "type": "should_trigger", "prompt": "我总把最难的报告拖到晚上，吃青蛙怎么做？", "expect": "触发。"},
-    {"id": "frog-should-02", "type": "should_trigger", "prompt": "eat the frog 今天先做什么？", "expect": "触发。"},
-    {"id": "frog-decoy-01", "type": "should_not_trigger", "prompt": "用四象限给二十件事分类。", "expect": "分流 eisenhower。"},
-    {"id": "frog-edge-01", "type": "edge_case", "prompt": "夜猫子也必须早上吃青蛙吗？", "expect": "对齐个人高峰。"},
-    {"id": "frog-trap-01", "type": "correctness_trap", "prompt": "最紧急的群消息就是青蛙。", "expect": "纠正：选重要逃避项。"}
+    {
+      "id": "frog-should-01",
+      "type": "should_trigger",
+      "prompt": "我总把最难的报告拖到晚上，吃青蛙怎么做？",
+      "expect": "触发。"
+    },
+    {
+      "id": "frog-should-02",
+      "type": "should_trigger",
+      "prompt": "eat the frog 今天先做什么？",
+      "expect": "触发。"
+    },
+    {
+      "id": "frog-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "用四象限给二十件事分类。",
+      "expect": "分流 eisenhower。"
+    },
+    {
+      "id": "frog-edge-01",
+      "type": "edge_case",
+      "prompt": "夜猫子也必须早上吃青蛙吗？",
+      "expect": "对齐个人高峰。"
+    },
+    {
+      "id": "frog-trap-01",
+      "type": "correctness_trap",
+      "prompt": "最紧急的群消息就是青蛙。",
+      "expect": "纠正：选重要逃避项。"
+    },
+    {
+      "id": "eat-the-frog-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地吃掉那只青蛙 Eat the Frog，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按吃掉那只青蛙 Eat the Frog的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "eat-the-frog-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用艾森豪威尔矩阵的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 艾森豪威尔矩阵）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "eat-the-frog-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "吃掉那只青蛙 Eat the Frog最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "eat-the-frog-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了青蛙依赖他人未就绪**：先解依赖或换今日可吞之蛙。的情况，还能继续套用吃掉那只青蛙 Eat the Frog吗？",
+      "expect": "边界情况。必须指出本模型在青蛙依赖他人未就绪**：先解依赖或换今日可吞之蛙。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "eat-the-frog-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把吃掉那只青蛙 Eat the Frog的步骤做一遍，就算青蛙=最吵的紧急**：应选重要逃避项。也没关系，对吧？",
+      "expect": "必须纠正。青蛙=最吵的紧急**：应选重要逃避项。属于典型误用误区，必须澄清真实机制与适用边界。"
+    }
   ]
 }

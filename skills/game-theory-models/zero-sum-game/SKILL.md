@@ -6,7 +6,7 @@ description: >
   不适用于合作做大增量（正和）、双方都受损的消耗战定性（负和专条）、机制设计改规则。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: von Neumann & Morgenstern；矩阵博弈
 ---
 

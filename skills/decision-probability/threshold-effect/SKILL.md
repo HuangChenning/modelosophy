@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自剂量—反应、政策门槛与决策中的 threshold effects；
     与 tipping-point 分流）
-  version: v0.x-draft
+  version: v1.0
   source: 阈值响应 / 剂量效应；研究审计 docs/books/decision-probability-m2b/
 ---
 

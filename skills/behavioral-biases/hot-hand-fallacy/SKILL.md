@@ -6,7 +6,7 @@ description: >
   注意：部分运动数据对“热手是否存在”有争议——本 skill 默认要求先检验自相关，再行动。
 metadata:
   author: modelosophy（蒸馏自Gilovich 等热手研究 + 后续争议综述）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/hot-hand-fallacy/
 ---
 

@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Taiichi Ohno / Toyota Production System 的 Five Whys 实践
     + 根因分析文献中的因果链与对策检验约定；非照抄《万物皆模型》卡片）
-  version: v0.x-draft
+  version: v1.0
   source: Ohno TPS；工业工程根因分析惯例；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

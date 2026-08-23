@@ -6,7 +6,7 @@ description: >
   注意：生物实验多为迷思；模型取其“渐变适应”启发式。不适用于突然冲击场景；与破窗、灰犀牛区分。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求清单《经济学思维模型Skills生成需求》分类六 + 学科通行表述（草稿）
 ---
 

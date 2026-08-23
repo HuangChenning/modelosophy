@@ -6,7 +6,7 @@ description: >
   “不确定就不碰”。与风险厌恶区分：本条强调概率未知 vs 概率已知。
 metadata:
   author: modelosophy（蒸馏自Ellsberg 悖论 / Ambiguity aversion 文献）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/ambiguity-aversion/
 ---
 

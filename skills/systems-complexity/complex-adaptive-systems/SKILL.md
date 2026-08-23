@@ -6,7 +6,7 @@ description: >
   **硬区分**：一般涌现描述产物；CAS 强调主体适应与共同演化。不适用于把 CAS 当拒绝管理的万能借口。
 metadata:
   author: modelosophy（蒸馏自 Holland CAS、复杂系统研究所传统；适应主体+积木+涌现）
-  version: v0.x-draft
+  version: v1.0
   source: Holland Complex Adaptive Systems；研究审计 docs/books/systems-complexity-m4/
 ---
 

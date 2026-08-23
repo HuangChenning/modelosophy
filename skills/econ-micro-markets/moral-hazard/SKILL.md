@@ -4,7 +4,7 @@ description: >
   用道德风险帮用户完成可执行分析：签约后，一方因不承担全部后果而改变隐藏行为。 Use when user says 「道德风险、有保险就更冒险、moral hazard」 or Moral Hazard. 不适用于：签约前类型问题当成道德风险（那是逆向选择）
 metadata:
   author: modelosophy（蒸馏自保险经济学与委托-代理文献中的道德风险传统；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/moral-hazard.md
 ---
 

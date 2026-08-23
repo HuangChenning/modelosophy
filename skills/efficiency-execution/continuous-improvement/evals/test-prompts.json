@@ -1,11 +1,66 @@
 {
   "skill": "continuous-improvement",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
-    {"id": "ci-should-01", "type": "should_trigger", "prompt": "想建 Kaizen 持续改进文化，怎么起步？", "expect": "触发。"},
-    {"id": "ci-should-02", "type": "should_trigger", "prompt": "流程靠救火，如何日常改善？", "expect": "触发。"},
-    {"id": "ci-decoy-01", "type": "should_not_trigger", "prompt": "帮我写这一圈 PDCA 的假设和度量。", "expect": "分流 pdca。"},
-    {"id": "ci-edge-01", "type": "edge_case", "prompt": "系统已经崩了还做小步改善吗？", "expect": "先稳定。"},
-    {"id": "ci-trap-01", "type": "correctness_trap", "prompt": "持续改进就是一年一次大改造。", "expect": "纠正：日常小步。"}
+    {
+      "id": "ci-should-01",
+      "type": "should_trigger",
+      "prompt": "想建 Kaizen 持续改进文化，怎么起步？",
+      "expect": "触发。"
+    },
+    {
+      "id": "ci-should-02",
+      "type": "should_trigger",
+      "prompt": "流程靠救火，如何日常改善？",
+      "expect": "触发。"
+    },
+    {
+      "id": "ci-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写这一圈 PDCA 的假设和度量。",
+      "expect": "分流 pdca。"
+    },
+    {
+      "id": "ci-edge-01",
+      "type": "edge_case",
+      "prompt": "系统已经崩了还做小步改善吗？",
+      "expect": "先稳定。"
+    },
+    {
+      "id": "ci-trap-01",
+      "type": "correctness_trap",
+      "prompt": "持续改进就是一年一次大改造。",
+      "expect": "纠正：日常小步。"
+    },
+    {
+      "id": "continuous-improvement-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地持续改进 Continuous Improvement (Kaizen)，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按持续改进 Continuous Improvement (Kaizen)的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "continuous-improvement-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用PDCA的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 PDCA）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "continuous-improvement-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "持续改进 Continuous Improvement (Kaizen)最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "continuous-improvement-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了系统已崩溃需重组**：先稳定/重大项目，再谈日常改善。的情况，还能继续套用持续改进 Continuous Improvement (Kaizen)吗？",
+      "expect": "边界情况。必须指出本模型在系统已崩溃需重组**：先稳定/重大项目，再谈日常改善。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "continuous-improvement-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把持续改进 Continuous Improvement (Kaizen)的步骤做一遍，就算运动式改善月**：风过即停。也没关系，对吧？",
+      "expect": "必须纠正。运动式改善月**：风过即停。属于典型误用误区，必须澄清真实机制与适用边界。"
+    }
   ]
 }

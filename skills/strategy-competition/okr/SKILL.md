@@ -6,7 +6,7 @@ description: >
   “对齐公司目标”。不要与 BCG（组合投资）或 VRIO（资源审计）混淆；也不要把 OKR 当惩罚工具。
 metadata:
   author: modelosophy（蒸馏自 Intel/Google 流行的 OKR 实践与常见失败模式）
-  version: v0.x-draft
+  version: v1.0
   source: OKR 实践（Doerr 等传播）；目标设定文献边界
 ---
 

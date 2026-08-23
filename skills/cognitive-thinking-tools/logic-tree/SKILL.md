@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自咨询议题树 / 逻辑树实践：问题树与假设树；
     与 MECE、决策树专条分流）
-  version: v0.x-draft
+  version: v1.0
   source: 咨询议题树实践；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

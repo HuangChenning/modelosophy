@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自科学史 Gedankenexperiment 传统 + 当代科学哲学对思维实验的用法
     与限度；非娱乐脑洞合集）
-  version: v0.x-draft
+  version: v1.0
   source: Galileo/Einstein 传统；Brown/Norton 等科学哲学讨论；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

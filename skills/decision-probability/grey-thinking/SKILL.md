@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自概率化认识论与 Julia Galef 等「scout mindset」实践传统；
     中文语境「灰度」常见于管理沟通，此处锚定为可修订的信念刻度）
-  version: v0.x-draft
+  version: v1.0
   source: 概率判断与认知谦逊实践；研究审计 docs/books/decision-probability-m2/
 ---
 

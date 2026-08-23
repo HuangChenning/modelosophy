@@ -4,7 +4,7 @@ description: >
   用公地悲剧帮用户完成可执行分析：人人可取用的竞争性公共资源，终易被耗尽。 Use when user says 「公地悲剧、共享资源被挤爆、tragedy of the commons」 or Tragedy of the Commons. 不适用于：把一切共享失败都叫公地悲剧而不检查是否竞争性
 metadata:
   author: modelosophy（蒸馏自Hardin 1968 + Ostrom 公共池塘资源治理；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/tragedy-of-the-commons.md
 ---
 

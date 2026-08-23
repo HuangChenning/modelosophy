@@ -6,7 +6,7 @@ description: >
   与热手谬误相反方向；不适用于有真实依赖/有限牌堆无放回的情形。
 metadata:
   author: modelosophy（蒸馏自Tversky & Kahneman 机遇的信念 / 赌场实践）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/gamblers-fallacy/
 ---
 

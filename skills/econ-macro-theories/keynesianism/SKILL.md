@@ -4,7 +4,7 @@ description: >
   在有效需求不足时用逆周期财政/货币干预框架分析衰退与刺激。Use when 凯恩斯主义、有效需求、逆周期、大萧条式需求塌陷、刺激经济。不适用于长期供给约束（产能/人口/技术）却只喊发债刺激。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Keynes 1936；IS-LM/AD-AS 教学框架；战后宏观稳定化文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

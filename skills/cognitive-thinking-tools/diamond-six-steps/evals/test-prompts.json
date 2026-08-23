@@ -1,6 +1,6 @@
 {
   "skill": "diamond-six-steps",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "diamond-six-steps-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "发散阶段就可以用领导意见直接否决。",
       "expect": "纠正：收敛需显式标准与时间盒。"
+    },
+    {
+      "id": "diamond-six-steps-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地菱形六步法 Diamond Six Steps，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按菱形六步法 Diamond Six Steps的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "diamond-six-steps-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用结构化思维的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 结构化思维）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "diamond-six-steps-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "菱形六步法 Diamond Six Steps最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "diamond-six-steps-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了紧急单路径事故**：先止血与根因，不开完整菱形。的情况，还能继续套用菱形六步法 Diamond Six Steps吗？",
+      "expect": "边界情况。必须指出本模型在紧急单路径事故**：先止血与根因，不开完整菱形。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "diamond-six-steps-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把菱形六步法 Diamond Six Steps的步骤做一遍，就算假发散**：只写早已内定的方案 → 强制非常规席位或外部刺激。也没关系，对吧？",
+      "expect": "必须纠正。假发散**：只写早已内定的方案 → 强制非常规席位或外部刺激。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

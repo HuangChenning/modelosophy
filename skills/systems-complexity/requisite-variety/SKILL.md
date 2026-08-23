@@ -7,7 +7,7 @@ description: >
   不适用于用「增加复杂度」当扩权借口，或无限堆流程冒充多样性。
 metadata:
   author: modelosophy（蒸馏自 Ashby Law of Requisite Variety；控制论与组织设计应用）
-  version: v0.x-draft
+  version: v1.0
   source: Ashby requisite variety；研究审计 docs/books/systems-complexity-batch2/
 ---
 

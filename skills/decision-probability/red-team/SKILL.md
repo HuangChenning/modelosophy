@@ -7,7 +7,7 @@ description: >
   红队是持续对抗与渗透式挑战。不适用于无权力保障的形式化抬杠或对个人人格攻击。
 metadata:
   author: modelosophy（蒸馏自军事/安全红队传统与企业决策中的结构化反对实践）
-  version: v0.x-draft
+  version: v1.0
   source: Red teaming 实践；研究审计 docs/books/decision-probability-m2/
 ---
 

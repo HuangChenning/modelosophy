@@ -6,7 +6,7 @@ description: >
   不适用于纯低成本结构、仅心智口号（定位）、利基收窄（先 niche）、或蓝海四步动作框架。
 metadata:
   author: modelosophy（蒸馏自 Porter 通用战略之 Differentiation，与定位/蓝海/战略钟分流）
-  version: v0.x-draft
+  version: v1.0
   source: Porter, Competitive Strategy / Competitive Advantage；docs/books/strategy-competition-batch/
 ---
 

@@ -6,7 +6,7 @@ description: >
   **硬区分**：因果回路是画法工具；基模是可复用的回路模式库。不适用于生搬硬套基模名而不画变量。
 metadata:
   author: modelosophy（蒸馏自 Peter Senge《第五项修炼》系统基模 + 系统动力学教学中的经典结构；非照抄卡片）
-  version: v0.x-draft
+  version: v1.0
   source: Senge system archetypes；系统动力学实践；研究审计 docs/books/systems-complexity-m4/
 ---
 

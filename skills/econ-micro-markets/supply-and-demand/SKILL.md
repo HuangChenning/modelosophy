@@ -4,7 +4,7 @@ description: >
   用供需法则帮用户完成可执行分析：价格由供给与需求共同决定，不是单边意志。 Use when user says 「为什么涨价了/降价了、供需决定价格吗、短缺该不该限价」 or Supply and Demand. 不适用于：用户问的是宏观总供求与通胀周期 → 改走宏观 AD-AS / 货币主义等
 metadata:
   author: modelosophy（蒸馏自微观经济学局部均衡（Marshall）+ 需求定律标准教材表述；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/supply-and-demand.md
 ---
 

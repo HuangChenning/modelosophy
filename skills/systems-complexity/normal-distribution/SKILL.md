@@ -7,7 +7,7 @@ description: >
   不适用于把一切KPI强制正态化，或在明显赢家通吃场仍用±2σ当风控。
 metadata:
   author: modelosophy（蒸馏自概率论中心极限与测量误差传统；强调与幂律对照的可执行判据）
-  version: v0.x-draft
+  version: v1.0
   source: Gaussian / CLT；研究审计 docs/books/systems-complexity-batch2/
 ---
 

@@ -7,7 +7,7 @@ description: >
   勿与 OKR（目标对齐）或 VRIO（资源价值）混淆。
 metadata:
   author: modelosophy（蒸馏自 BCG growth-share matrix 经典框架及常见误用边界）
-  version: v0.x-draft
+  version: v1.0
   source: BCG growth-share matrix；公司战略组合文献
 ---
 

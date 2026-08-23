@@ -4,7 +4,7 @@ description: >
   用价格歧视帮用户完成可执行分析：对成本相同的商品，向不同买家索取不同价格。 Use when user says 「价格歧视、为什么学生票更便宜、price discrimination」 or Price Discrimination. 不适用于：成本不同导致的价差误叫歧视
 metadata:
   author: modelosophy（蒸馏自庇古价格歧视分级 + 产业组织定价；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/price-discrimination.md
 ---
 

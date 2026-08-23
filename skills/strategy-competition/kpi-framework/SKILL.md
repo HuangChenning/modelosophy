@@ -6,7 +6,7 @@ description: >
   不适用于 OKR 的 O/KR 写法、BSC 四维战略地图主框架；也可与二者连用但本 Skill 聚焦指标设计质量。
 metadata:
   author: modelosophy（蒸馏自绩效指标设计实践与 Goodhart/Campbell 警示）
-  version: v0.x-draft
+  version: v1.0
   source: KPI 设计实践；Goodhart’s law；与 OKR/BSC 对照；docs/books/strategy-competition-batch/
 ---
 

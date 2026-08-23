@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Barbara Minto《金字塔原理》中的 SCQA 开场结构
     + 咨询/商务写作中的问题定义实践；与金字塔全塔结构拆分为专条）
-  version: v0.x-draft
+  version: v1.0
   source: Minto Pyramid Principle；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

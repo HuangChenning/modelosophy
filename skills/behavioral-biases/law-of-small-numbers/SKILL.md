@@ -6,7 +6,7 @@ description: >
   “law of small numbers”。与赌徒/热手谬误区分：本条管样本量不足的过度推断。
 metadata:
   author: modelosophy（蒸馏自Tversky & Kahneman 对小数定律的批判）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/law-of-small-numbers/
 ---
 

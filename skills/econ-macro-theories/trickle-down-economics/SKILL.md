@@ -4,7 +4,7 @@ description: >
   批判性检验「先富端刺激再渗透」主张是否有证据。Use when 涓滴经济学、先富带动后富、减税给富人终将惠及穷人。不适用于把一切减税都打成涓滴而不看税种设计。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 公共财政归宿；分配与增长实证；政治修辞批判；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

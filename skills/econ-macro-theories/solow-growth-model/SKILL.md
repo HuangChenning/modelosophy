@@ -4,7 +4,7 @@ description: >
   用索洛模型区分水平效应与长期增长源泉（技术）。Use when 索洛模型、资本积累、稳态、增长核算、全要素生产率。不适用于把提高储蓄率说成永久高增长灵药。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Solow 1956；增长核算；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

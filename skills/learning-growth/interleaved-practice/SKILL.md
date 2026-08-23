@@ -7,7 +7,7 @@ description: >
   分块；纯记忆日程走间隔重复。
 metadata:
   author: modelosophy（蒸馏自 interleaving / contextual interference 学习科学文献）
-  version: v0.x-draft
+  version: v1.0
   source: interleaved practice；Rohrer/Taylor、体育运动学习中的 contextual interference 等
 ---
 

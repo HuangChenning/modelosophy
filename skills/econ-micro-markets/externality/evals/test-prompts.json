@@ -1,6 +1,6 @@
 {
   "skill": "externality",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "externality-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "外部性=政府必须上是对的吧？",
       "expect": "必须纠正常见误用：外部性=政府必须上 — 先比较工具与政府失灵。"
+    },
+    {
+      "id": "externality-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地外部性 Externality，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按外部性 Externality的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "externality-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用公共物品的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 公共物品）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "externality-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "外部性 Externality最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "externality-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了已充分内部化**：再贴「外部性」标签无决策价值。的情况，还能继续套用外部性 Externality吗？",
+      "expect": "边界情况。必须指出本模型在已充分内部化**：再贴「外部性」标签无决策价值。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "externality-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把外部性 Externality的步骤做一遍，就算外部性=政府必须上**：先比较工具与政府失灵。也没关系，对吧？",
+      "expect": "必须纠正。外部性=政府必须上**：先比较工具与政府失灵。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

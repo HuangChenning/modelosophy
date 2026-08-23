@@ -6,7 +6,7 @@ description: >
   不适用于单次最后通牒分饼、无乘倍的纯给予独裁者、重复报复策略全书。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Berg, Dickhaut, McCabe；信任实验
 ---
 

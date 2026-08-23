@@ -6,7 +6,7 @@ description: >
   不要与看板（可视化流）或艾森豪威尔（紧急重要）混淆；GTD 是个人工作流系统。
 metadata:
   author: modelosophy（蒸馏自 David Allen Getting Things Done 核心工作流）
-  version: v0.x-draft
+  version: v1.0
   source: David Allen GTD
 ---
 

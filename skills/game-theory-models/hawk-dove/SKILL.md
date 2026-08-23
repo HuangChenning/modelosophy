@@ -6,7 +6,7 @@ description: >
   不适用于对称公共品智猪、单次边缘政策叙事优先斗鸡、只要 ESS 形式定义。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Maynard Smith & Price；演化博弈
 ---
 

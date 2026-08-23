@@ -6,7 +6,7 @@ description: >
   不适用于事先有时间戳预测且可核对的情形；与过度自信（事前校准）区分。
 metadata:
   author: modelosophy（蒸馏自Fischhoff 事后聪明研究）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/hindsight-bias/
 ---
 

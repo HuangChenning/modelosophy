@@ -4,7 +4,7 @@ description: >
   分析政策是否会被理性预期抵消，以及可信承诺为何重要。Use when 理性预期、卢卡斯批判、政策无效、预期自我实现。不适用于假设所有人数学最优且无摩擦的极端模型崇拜。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Muth；Lucas；Sargent/Wallace 政策无效性讨论；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

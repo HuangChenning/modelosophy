@@ -1,6 +1,6 @@
 {
   "skill": "hindsight-bias",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "hindsight-bias-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "禁止一切复盘是对的吧？",
       "expect": "必须纠正常见误用：禁止一切复盘 — 要禁的是改写事前信息集，不是禁学习。"
+    },
+    {
+      "id": "hindsight-bias-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地事后聪明偏误 Hindsight Bias，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按事后聪明偏误 Hindsight Bias的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "hindsight-bias-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用过度自信的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 过度自信）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "hindsight-bias-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "事后聪明偏误 Hindsight Bias最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "hindsight-bias-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了有预注册预测**：可直接对照，不必猜是否事后聪明。的情况，还能继续套用事后聪明偏误 Hindsight Bias吗？",
+      "expect": "边界情况。必须指出本模型在有预注册预测**：可直接对照，不必猜是否事后聪明。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "hindsight-bias-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把事后聪明偏误 Hindsight Bias的步骤做一遍，就算禁止一切复盘**：要禁的是改写事前信息集，不是禁学习。也没关系，对吧？",
+      "expect": "必须纠正。禁止一切复盘**：要禁的是改写事前信息集，不是禁学习。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

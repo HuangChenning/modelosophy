@@ -6,7 +6,7 @@ description: >
   不适用于一切波动；要落到抵押/净值/外部融资溢价；明斯基更强调融资结构演化。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

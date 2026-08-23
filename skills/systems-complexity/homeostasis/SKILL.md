@@ -7,7 +7,7 @@ description: >
   不适用于把僵化不变叫稳态，或在必须转型时仍死守旧设定点。
 metadata:
   author: modelosophy（蒸馏自 Cannon 内稳态与控制论负反馈；组织/产品可操作化）
-  version: v0.x-draft
+  version: v1.0
   source: homeostasis / negative feedback control；研究审计 docs/books/systems-complexity-batch2/
 ---
 

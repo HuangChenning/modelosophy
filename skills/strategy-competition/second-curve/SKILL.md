@@ -6,7 +6,7 @@ description: >
   不要与蓝海/颠覆简单等同；也不要用它替代 BCG 组合资源分配细表。
 metadata:
   author: modelosophy（蒸馏自 Charles Handy 第二曲线等管理叙事 + S 曲线增长实践）
-  version: v0.x-draft
+  version: v1.0
   source: Handy second curve；增长 S-curve 实践
 ---
 

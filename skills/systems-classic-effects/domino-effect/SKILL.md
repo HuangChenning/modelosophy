@@ -6,7 +6,7 @@ description: >
   不适用于无耦合的巧合叙事；与蝴蝶效应（初值敏感混沌）、破窗（规范信号）区分。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求清单《经济学思维模型Skills生成需求》分类六 + 学科通行表述（草稿）
 ---
 

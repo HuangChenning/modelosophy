@@ -6,7 +6,7 @@ description: >
   不要与看板工具或敏捷仪式等同；看板常是精益落地手段之一。勿与 5S（现场整备）混淆层级。
 metadata:
   author: modelosophy（蒸馏自 Womack/Jones Lean Thinking + 丰田生产系统浪费观）
-  version: v0.x-draft
+  version: v1.0
   source: Lean Thinking；TPS muda 分类
 ---
 

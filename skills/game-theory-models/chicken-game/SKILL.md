@@ -6,7 +6,7 @@ description: >
   不适用于双方背叛占优的囚徒、合作也是纳什的猎鹿、纯零和竞技。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Schelling 边缘；经典 Chicken 矩阵
 ---
 

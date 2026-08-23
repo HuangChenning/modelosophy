@@ -7,7 +7,7 @@ description: >
   也不要用排程技巧替代技能训练内容（刻意练习）。
 metadata:
   author: modelosophy（蒸馏自 Cal Newport Deep Work 实践框架 + 注意力/认知负荷常识）
-  version: v0.x-draft
+  version: v1.0
   source: Newport Deep Work；注意力管理实践
 ---
 

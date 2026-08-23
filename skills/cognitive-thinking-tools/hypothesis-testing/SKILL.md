@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自科学方法中的假说-演绎、可证伪性（Popper 启发）与
     实践中的预测—对照设计；非统计学假设检验公式教程）
-  version: v0.x-draft
+  version: v1.0
   source: 科学方法 / 可证伪性实践；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

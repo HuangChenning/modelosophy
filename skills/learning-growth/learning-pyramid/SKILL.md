@@ -7,7 +7,7 @@ description: >
   交错/费曼等可证据方法；教中学走 learning-by-teaching。
 metadata:
   author: modelosophy（对照 Dale Cone 流传史与学习科学批评；强调边界与纠偏）
-  version: v0.x-draft
+  version: v1.0
   source: Edgar Dale Cone of Experience 流传与误用批评；主动学习证据导向实践
 ---
 

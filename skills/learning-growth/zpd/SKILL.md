@@ -7,7 +7,7 @@ description: >
   刻意练习的反馈闭环设计。
 metadata:
   author: modelosophy（蒸馏自 Vygotsky ZPD 与支架教学实践；教育心理学惯例）
-  version: v0.x-draft
+  version: v1.0
   source: Vygotsky；scaffolding 教学文献
 ---
 

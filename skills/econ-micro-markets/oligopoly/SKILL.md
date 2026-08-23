@@ -4,7 +4,7 @@ description: >
   用寡头市场帮用户完成可执行分析：少数几家巨头相互盯着定价与产量。 Use when user says 「寡头、几家垄断市场、oligopoly」 or Oligopoly. 不适用于：忽略相互依赖、当成多个独立垄断简单相加
 metadata:
   author: modelosophy（蒸馏自产业组织寡头模型（Cournot/Bertrand 等）；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/oligopoly.md
 ---
 

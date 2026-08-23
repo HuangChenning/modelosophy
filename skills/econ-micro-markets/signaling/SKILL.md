@@ -4,7 +4,7 @@ description: >
   用信号传递帮用户完成可执行分析：用高成本、可观测行动证明自己的隐藏类型。 Use when user says 「信号传递、signaling、学历是不是信号」 or Signaling. 不适用于：把一切广告都叫信号——要检验成本结构与分离条件
 metadata:
   author: modelosophy（蒸馏自Spence Job Market Signaling (1973) 及信号博弈传统；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/signaling.md
 ---
 

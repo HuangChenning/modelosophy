@@ -6,7 +6,7 @@ description: >
   **硬区分**：CLD 是定性回路；本模型强调累积与单位。不适用于没有时间累积的一次性选择树。
 metadata:
   author: modelosophy（蒸馏自 Forrester/Sterman 系统动力学存量流量语言；浴缸隐喻教学）
-  version: v0.x-draft
+  version: v1.0
   source: 系统动力学 stock-flow；研究审计 docs/books/systems-complexity-m4/
 ---
 

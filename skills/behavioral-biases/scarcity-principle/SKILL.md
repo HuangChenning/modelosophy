@@ -6,7 +6,7 @@ description: >
   “饥荒心态”。不适用于真实产能/配额约束已核实的情形。
 metadata:
   author: modelosophy（蒸馏自Cialdini 影响力·稀缺 / 商品理论相关）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/scarcity-principle/
 ---
 

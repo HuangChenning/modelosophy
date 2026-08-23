@@ -1,6 +1,6 @@
 {
   "skill": "value-chain",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "value-chain-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "价值链等于组织架构图。",
       "expect": "纠正：按价值活动非汇报线。"
+    },
+    {
+      "id": "value-chain-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地价值链 Value Chain，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按价值链 Value Chain的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "value-chain-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用成本领先的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 成本领先）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "value-chain-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "价值链 Value Chain最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "value-chain-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了纯交易中介/轻资产平台**：经典制造型价值链需改写成平台活动图。的情况，还能继续套用价值链 Value Chain吗？",
+      "expect": "边界情况。必须指出本模型在纯交易中介/轻资产平台**：经典制造型价值链需改写成平台活动图。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "value-chain-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把价值链 Value Chain的步骤做一遍，就算当成组织架构图**：架构≠活动 → 按价值流重画。也没关系，对吧？",
+      "expect": "必须纠正。当成组织架构图**：架构≠活动 → 按价值流重画。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

@@ -1,11 +1,66 @@
 {
   "skill": "gantt-chart",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
-    {"id": "ga-should-01", "type": "should_trigger", "prompt": "怎么画项目甘特图给老板看？", "expect": "触发。"},
-    {"id": "ga-should-02", "type": "should_trigger", "prompt": "Gantt 条形图如何标依赖？", "expect": "触发。"},
-    {"id": "ga-decoy-01", "type": "should_not_trigger", "prompt": "哪条依赖链决定最短工期？", "expect": "分流 critical-path。"},
-    {"id": "ga-edge-01", "type": "edge_case", "prompt": "看板团队还要维护详细甘特吗？", "expect": "边界：易过时。"},
-    {"id": "ga-trap-01", "type": "correctness_trap", "prompt": "条最长的任务就是关键路径。", "expect": "纠正：看依赖网最长链。"}
+    {
+      "id": "ga-should-01",
+      "type": "should_trigger",
+      "prompt": "怎么画项目甘特图给老板看？",
+      "expect": "触发。"
+    },
+    {
+      "id": "ga-should-02",
+      "type": "should_trigger",
+      "prompt": "Gantt 条形图如何标依赖？",
+      "expect": "触发。"
+    },
+    {
+      "id": "ga-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "哪条依赖链决定最短工期？",
+      "expect": "分流 critical-path。"
+    },
+    {
+      "id": "ga-edge-01",
+      "type": "edge_case",
+      "prompt": "看板团队还要维护详细甘特吗？",
+      "expect": "边界：易过时。"
+    },
+    {
+      "id": "ga-trap-01",
+      "type": "correctness_trap",
+      "prompt": "条最长的任务就是关键路径。",
+      "expect": "纠正：看依赖网最长链。"
+    },
+    {
+      "id": "gantt-chart-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地甘特图 Gantt Chart，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按甘特图 Gantt Chart的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "gantt-chart-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用关键路径的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 关键路径）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "gantt-chart-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "甘特图 Gantt Chart最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "gantt-chart-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了高变化看板流**：甘特易过时，改看板+里程碑。的情况，还能继续套用甘特图 Gantt Chart吗？",
+      "expect": "边界情况。必须指出本模型在高变化看板流**：甘特易过时，改看板+里程碑。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "gantt-chart-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把甘特图 Gantt Chart的步骤做一遍，就算甘特=项目管理全部**：缺风险、质量、人。也没关系，对吧？",
+      "expect": "必须纠正。甘特=项目管理全部**：缺风险、质量、人。属于典型误用误区，必须澄清真实机制与适用边界。"
+    }
   ]
 }

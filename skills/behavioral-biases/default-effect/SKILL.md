@@ -6,7 +6,7 @@ description: >
   与现状偏差近亲；本条聚焦选项架构中的默认设计。不适用于无默认、必须主动填写的场景。
 metadata:
   author: modelosophy（蒸馏自Thaler & Sunstein 助推 / Johnson & Goldstein 器官捐赠等）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/default-effect/
 ---
 

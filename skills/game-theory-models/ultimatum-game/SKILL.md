@@ -6,7 +6,7 @@ description: >
   不适用于回应者不能拒绝（独裁者博弈）、信任投资（信任博弈）、联盟夏普利分配。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Güth 等实验；行为博弈
 ---
 

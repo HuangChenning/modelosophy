@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Benjamin Franklin「道德代数」式利弊对照的现代可执行用法
     + 决策辅导中的显式利弊扫描；与矩阵/SWOT/决策树分流）
-  version: v0.x-draft
+  version: v1.0
   source: Franklin pros/cons 传统；决策辅导实践；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

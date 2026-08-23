@@ -6,7 +6,7 @@ description: >
   不适用于忽视相关性突变与杠杆；简单波动倒数不是完整方案；危机相关飙升时需压力。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

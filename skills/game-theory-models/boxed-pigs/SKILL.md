@@ -6,7 +6,7 @@ description: >
   不适用于对称囚徒、对称猎鹿、只要一般公共品政治哲学。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 经典非对称 2×2 寓言；公共品不对称
 ---
 

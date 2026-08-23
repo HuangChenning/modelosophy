@@ -4,7 +4,7 @@ description: >
   用信息不对称帮用户完成可执行分析：交易一方比另一方掌握显著更多的关键信息。 Use when user says 「信息不对称、对方知道得比我多、asymmetric information」 or Asymmetric Information. 不适用于：一有不确定性就叫信息不对称（共同不确定性≠不对称）
 metadata:
   author: modelosophy（蒸馏自Akerlof/Spence/Stiglitz 信息经济学传统；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/asymmetric-information.md
 ---
 

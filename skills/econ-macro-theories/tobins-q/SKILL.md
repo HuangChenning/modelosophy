@@ -4,7 +4,7 @@ description: >
   用托宾 Q 判断资产价格是否激励实体投资或并购。Use when 托宾Q、市值比重置成本、该扩建还是买现成。不适用于把 Q 当短期炒作指标无视测量误差。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Tobin；投资 q 理论；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

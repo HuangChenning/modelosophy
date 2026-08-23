@@ -6,7 +6,7 @@ description: >
   不适用于背叛严格占优的囚徒、对撞最差的斗鸡、无风险多均衡的纯协调。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Rousseau；Skyrms 等现代叙述
 ---
 

@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 S.I. Hayakawa《Language in Thought and Action》抽象阶梯
     + 语义学/沟通教学中的上下钻练习；≠ Argyris 推论阶梯）
-  version: v0.x-draft
+  version: v1.0
   source: Hayakawa ladder of abstraction；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

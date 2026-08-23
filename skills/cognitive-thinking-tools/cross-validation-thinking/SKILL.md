@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自社会科学 triangulation（Denzin 等）+ 情报/调查中的多源印证惯例
     + 科学方法中的独立复制精神；≠ 机器学习 cross-validation）
-  version: v0.x-draft
+  version: v1.0
   source: triangulation；独立证据核验；研究审计 docs/books/cognitive-thinking-tools-m1/
 ---
 

@@ -6,7 +6,7 @@ description: >
   “Paivio”。不要做成无结构装饰插图；概念逻辑拆解仍用费曼/组块；纯间隔日程走 SRS。
 metadata:
   author: modelosophy（蒸馏自 Paivio 双重编码理论及后续多媒体学习相关实践）
-  version: v0.x-draft
+  version: v1.0
   source: Paivio dual coding；适度参考 Mayer 多媒体学习原则（非照抄原书）
 ---
 

@@ -2,6 +2,15 @@
 
 记录项目当前进展：哪些工作已经完整交付，哪些还在待办队列。按主题分组，而不是按时间顺序。
 
+## 已完成：全库 372 个 Skill 盲测评估集建设与 v1.0 全量升级（2026-08-23）
+
+全库全部 **372** 个 Skill（跨 14 个分类）已全量完成盲测评估集建设（每项 $\ge 10$ 条测试用例，覆盖 `should_trigger` / `should_not_trigger` / `edge_case` / `correctness_trap` 4 种类型，其中 `correctness_trap` 均达 2 条以上）、苏格拉底式自检及 `quick_validate.py` 结构校验。
+
+- 剩余 **280** 个草稿级 Skill 全部完成盲测用例拓展与校验，正式从 `v0.x-draft` 升级为 **`v1.0`**。
+- **全库 `v1.0` 覆盖率达成 100%**（372/372），草稿数清零（0 个 draft）。
+- 运行 `python3 internal/skill-creator/scripts/audit_repo_skills.py .`，全库 372 个 Skill 0 违规、0 脚手架泄漏、0 模板缺失。
+- 根目录双语 README、14 项分类 README、`ROADMAP.md` 及 `CHANGELOG.md` 已全量对齐更新。
+
 ## 已完成：全库结构审计与机械修复（2026-08-19）
 
 对 `skills/` 下全部 350 个 `SKILL.md` 跑了自动化结构校验 + 抽样人工审读，发现"已完成"在不同批次里成色不一——最早的一批（`thinking-models` 原 4 个种子 + 六分类迁入的 19 个种子）扎实；后续"名录扩充分类轮"批量新建的 ~280 个明显降规格。**已修复的机械性问题**：

@@ -8,7 +8,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Eric Ries Lean Startup 的 MVP 学习导向定义 + Frank Robinson 术语起源
     讨论；强调 validated learning 而非“先丑后美”）
-  version: v0.x-draft
+  version: v1.0
   source: Lean Startup / MVP 实践文献；研究审计 docs/books/decision-probability-m2/
 ---
 

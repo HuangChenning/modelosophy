@@ -4,7 +4,7 @@ description: >
   用交易成本与科斯定理帮用户完成可执行分析：产权清晰且交易成本足够低时，当事人可谈判解决外部性；否则制度与企业边界成关键。 Use when user says 「科斯定理、交易成本、make or buy」 or Transaction Costs & Coase Theorem. 不适用于：宣称零交易成本世界已实现
 metadata:
   author: modelosophy（蒸馏自Coase The Problem of Social Cost (1960) + 企业的性质传统；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/transaction-costs-coase.md
 ---
 

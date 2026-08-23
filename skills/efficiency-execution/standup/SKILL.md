@@ -6,7 +6,7 @@ description: >
   不适用于深度问题解决会或完整冲刺规划（见敏捷迭代）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Scrum Guide Daily Scrum；敏捷团队同步实践
 ---
 

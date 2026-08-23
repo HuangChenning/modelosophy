@@ -4,7 +4,7 @@ description: >
   用 IS-LM 做短期封闭经济的利率—产出联动推演（教学/直觉）。Use when IS-LM、利率和产出怎么联动、流动性陷阱。不适用于长期物价灵活或开放经济三元冲突主场（改不可能三角/AD-AS）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Hicks 1937；宏观教科书 IS-LM；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

@@ -7,7 +7,7 @@ description: >
   不适用于把情绪波动叫多稳态，或无稳定证据却画多个盆。
 metadata:
   author: modelosophy（蒸馏自非线性动力学多稳态/回滞；生态与社会-技术系统应用）
-  version: v0.x-draft
+  version: v1.0
   source: multistability / bistability / hysteresis；研究审计 docs/books/systems-complexity-batch2/
 ---
 

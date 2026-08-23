@@ -6,7 +6,7 @@ description: >
   不适用于把一切改善都打成霍桑而否认真实处理效应；与鲶鱼、皮格马利翁区分。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求清单《经济学思维模型Skills生成需求》分类六 + 学科通行表述（草稿）
 ---
 

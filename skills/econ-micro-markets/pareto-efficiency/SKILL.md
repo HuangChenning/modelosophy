@@ -4,7 +4,7 @@ description: >
   用帕累托最优帮用户完成可执行分析：若不损害任何人就无法再改善某人境况的状态。 Use when user says 「帕累托最优、帕累托改进、Pareto efficient」 or Pareto Efficiency. 不适用于：把帕累托最优当成「公平」或「人人满意」
 metadata:
   author: modelosophy（蒸馏自Pareto 效率概念 + 福利经济学基本定理入门；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/pareto-efficiency.md
 ---
 

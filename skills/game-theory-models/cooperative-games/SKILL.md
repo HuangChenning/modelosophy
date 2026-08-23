@@ -6,7 +6,7 @@ description: >
   不适用于不能缔约的非合作矩阵、只要夏普利公式、只要核定义。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 合作博弈论；特征函数型
 ---
 

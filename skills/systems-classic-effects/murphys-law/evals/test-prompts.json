@@ -1,6 +1,6 @@
 {
   "skill": "murphys-law",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "murphys-law-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "宿命论是对的吧？",
       "expect": "必须纠正常见误用：宿命论 — 宇宙跟你作对 → 改为失效模式工程。"
+    },
+    {
+      "id": "murphys-law-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地墨菲定律 Murphy's Law，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按墨菲定律 Murphy's Law的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "murphys-law-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用黑天鹅的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 黑天鹅）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "murphys-law-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "墨菲定律 Murphy's Law最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "murphys-law-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了已证伪的不可能路径**：物理上不可能的“出错”不用假装。的情况，还能继续套用墨菲定律 Murphy's Law吗？",
+      "expect": "边界情况。必须指出本模型在已证伪的不可能路径**：物理上不可能的“出错”不用假装。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "murphys-law-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把墨菲定律 Murphy's Law的步骤做一遍，就算宿命论**：宇宙跟你作对 → 改为失效模式工程。也没关系，对吧？",
+      "expect": "必须纠正。宿命论**：宇宙跟你作对 → 改为失效模式工程。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

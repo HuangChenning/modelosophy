@@ -4,7 +4,7 @@ description: >
   用内生增长视角分析研发、教育与制度如何改变长期增速。Use when 内生增长、罗默、知识驱动增长、研发补贴。不适用于短期稳定化主场。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Romer；Lucas；内生增长综述；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

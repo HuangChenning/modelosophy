@@ -4,7 +4,7 @@ description: >
   用货币主义诊断通胀根源与货币政策规则。Use when 货币主义、通胀是货币现象、弗里德曼、货币数量、稳定货币增长。不适用于忽略真实冲击、只喊「印钱万能」或「紧缩万能」。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Friedman & Schwartz；自然率假说；货币数量论传统；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

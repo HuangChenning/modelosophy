@@ -4,7 +4,7 @@ description: >
   用奥派视角分析自发秩序、干预扭曲与信用周期中的错误投资。Use when 奥地利学派、自发秩序、哈耶克、人为繁荣、malinvestment。不适用于需要紧急宏观稳定时仍教条拒绝一切流动性支持。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Mises/Hayek；奥地利商业周期理论；自发秩序文献；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

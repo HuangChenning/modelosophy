@@ -7,7 +7,7 @@ description: >
   不适用于无边数据却空谈拓扑，或把组织政治全部还原成图。
 metadata:
   author: modelosophy（蒸馏自网络科学基础度量：degree/clustering/path/centrality；作为专模入口）
-  version: v0.x-draft
+  version: v1.0
   source: network science basics；研究审计 docs/books/systems-complexity-batch2/
 ---
 

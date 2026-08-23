@@ -6,7 +6,7 @@ description: >
   不适用于无限合作无名氏、同时行动囚徒、只要倒推算法练习。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Rosenthal；蜈蚣实验文献
 ---
 

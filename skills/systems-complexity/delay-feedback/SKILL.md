@@ -7,7 +7,7 @@ description: >
   不适用于无闭环却抱怨「慢」、或把一切波动都怪延迟。
 metadata:
   author: modelosophy（蒸馏自系统动力学 delay / oscillation 传统，Forrester/Sterman；与 feedback-loops 互补）
-  version: v0.x-draft
+  version: v1.0
   source: system dynamics delays；研究审计 docs/books/systems-complexity-batch2/
 ---
 

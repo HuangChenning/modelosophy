@@ -7,7 +7,7 @@ description: >
   不适用于把混乱美化为创新，或用「边缘」逃避治理。
 metadata:
   author: modelosophy（蒸馏自 Langton / Kauffman / 复杂系统 “edge of chaos” 讨论；组织可操作化）
-  version: v0.x-draft
+  version: v1.0
   source: edge of chaos；研究审计 docs/books/systems-complexity-batch2/
 ---
 

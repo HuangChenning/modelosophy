@@ -4,7 +4,7 @@ description: >
   用消费者剩余帮用户完成可执行分析：愿付价格与实际支付之间的差额总和。 Use when user says 「这个deal赚到了吗、消费者剩余、愿付比实付高多少」 or Consumer Surplus. 不适用于：把「好评感觉」直接当可加总的货币剩余而不说明假设
 metadata:
   author: modelosophy（蒸馏自Marshall 消费者剩余图示 + 应用福利分析入门；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/consumer-surplus.md
 ---
 

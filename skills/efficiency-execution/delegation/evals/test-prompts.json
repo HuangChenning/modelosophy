@@ -1,11 +1,66 @@
 {
   "skill": "delegation",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
-    {"id": "del-should-01", "type": "should_trigger", "prompt": "我成了瓶颈，怎么把工作委派出去？", "expect": "触发。"},
-    {"id": "del-should-02", "type": "should_trigger", "prompt": "delegation 如何写清完成定义？", "expect": "触发。"},
-    {"id": "del-decoy-01", "type": "should_not_trigger", "prompt": "两分钟能回的邮件要不要委派？", "expect": "分流 two-minute-rule。"},
-    {"id": "del-edge-01", "type": "edge_case", "prompt": "没人可委派怎么办？", "expect": "先减范围/加资源。"},
-    {"id": "del-trap-01", "type": "correctness_trap", "prompt": "委派了就不用管，出了事怪下属。", "expect": "纠正：跟进与委派质量。"}
+    {
+      "id": "del-should-01",
+      "type": "should_trigger",
+      "prompt": "我成了瓶颈，怎么把工作委派出去？",
+      "expect": "触发。"
+    },
+    {
+      "id": "del-should-02",
+      "type": "should_trigger",
+      "prompt": "delegation 如何写清完成定义？",
+      "expect": "触发。"
+    },
+    {
+      "id": "del-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "两分钟能回的邮件要不要委派？",
+      "expect": "分流 two-minute-rule。"
+    },
+    {
+      "id": "del-edge-01",
+      "type": "edge_case",
+      "prompt": "没人可委派怎么办？",
+      "expect": "先减范围/加资源。"
+    },
+    {
+      "id": "del-trap-01",
+      "type": "correctness_trap",
+      "prompt": "委派了就不用管，出了事怪下属。",
+      "expect": "纠正：跟进与委派质量。"
+    },
+    {
+      "id": "delegation-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地委派 Delegation，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按委派 Delegation的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "delegation-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用清单与 SOP的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 清单与 SOP）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "delegation-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "委派 Delegation最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "delegation-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了无人可用或全员过载**：先减范围/加资源，假委派有害。的情况，还能继续套用委派 Delegation吗？",
+      "expect": "边界情况。必须指出本模型在无人可用或全员过载**：先减范围/加资源，假委派有害。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "delegation-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把委派 Delegation的步骤做一遍，就算委派活动不委派结果**：只扔步骤清单无 Done。也没关系，对吧？",
+      "expect": "必须纠正。委派活动不委派结果**：只扔步骤清单无 Done。属于典型误用误区，必须澄清真实机制与适用边界。"
+    }
   ]
 }

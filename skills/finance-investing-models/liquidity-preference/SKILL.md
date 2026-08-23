@@ -6,7 +6,7 @@ description: >
   不适用于把一切利率波动都归为流动性偏好；现代银行与准备金制度需补充；坎蒂隆谈的是货币注入路径。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

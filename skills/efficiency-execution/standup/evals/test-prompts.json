@@ -1,11 +1,66 @@
 {
   "skill": "standup",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
-    {"id": "su-should-01", "type": "should_trigger", "prompt": "团队每日站会怎么开才不超时？", "expect": "触发。"},
-    {"id": "su-should-02", "type": "should_trigger", "prompt": "daily scrum 该说什么？", "expect": "触发。"},
-    {"id": "su-decoy-01", "type": "should_not_trigger", "prompt": "帮我设计整个 Sprint 计划与回顾。", "expect": "分流 agile-iteration。"},
-    {"id": "su-edge-01", "type": "edge_case", "prompt": "两个人也要每天站会吗？", "expect": "可简化。"},
-    {"id": "su-trap-01", "type": "correctness_trap", "prompt": "站会就该把技术方案讨论清楚。", "expect": "纠正：会后停车坪。"}
+    {
+      "id": "su-should-01",
+      "type": "should_trigger",
+      "prompt": "团队每日站会怎么开才不超时？",
+      "expect": "触发。"
+    },
+    {
+      "id": "su-should-02",
+      "type": "should_trigger",
+      "prompt": "daily scrum 该说什么？",
+      "expect": "触发。"
+    },
+    {
+      "id": "su-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我设计整个 Sprint 计划与回顾。",
+      "expect": "分流 agile-iteration。"
+    },
+    {
+      "id": "su-edge-01",
+      "type": "edge_case",
+      "prompt": "两个人也要每天站会吗？",
+      "expect": "可简化。"
+    },
+    {
+      "id": "su-trap-01",
+      "type": "correctness_trap",
+      "prompt": "站会就该把技术方案讨论清楚。",
+      "expect": "纠正：会后停车坪。"
+    },
+    {
+      "id": "standup-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地站会 Standup / Daily Scrum，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按站会 Standup / Daily Scrum的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "standup-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用敏捷迭代的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 敏捷迭代）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "standup-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "站会 Standup / Daily Scrum最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "standup-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了完全独立贡献者无共享目标**：同步价值低。的情况，还能继续套用站会 Standup / Daily Scrum吗？",
+      "expect": "边界情况。必须指出本模型在完全独立贡献者无共享目标**：同步价值低。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "standup-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把站会 Standup / Daily Scrum的步骤做一遍，就算向领导汇报会**：失去团队自组织。也没关系，对吧？",
+      "expect": "必须纠正。向领导汇报会**：失去团队自组织。属于典型误用误区，必须澄清真实机制与适用边界。"
+    }
   ]
 }

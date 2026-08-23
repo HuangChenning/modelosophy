@@ -6,7 +6,7 @@ description: >
   “听从权威”。不适用于已核验资质且议题在其胜任域内的正当 defer。
 metadata:
   author: modelosophy（蒸馏自Cialdini 影响力·权威 / Milgram 服从研究传统）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/behavioral-biases/authority-bias/
 ---
 

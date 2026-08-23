@@ -4,7 +4,7 @@ description: >
   用供需价格弹性帮用户完成可执行分析：数量对价格变化的敏感程度。 Use when user says 「涨价会少卖多少、需求有没有弹性、税谁来扛」 or Price Elasticity. 不适用于：把「贵」直接当缺乏弹性——要看量的百分比反应
 metadata:
   author: modelosophy（蒸馏自Marshall 弹性概念 + 应用微观（税收归宿、定价）；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/price-elasticity.md
 ---
 

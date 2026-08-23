@@ -7,7 +7,7 @@ description: >
   不适用于无数据却宣称幂律，或把一切不均都叫幂律。
 metadata:
   author: modelosophy（蒸馏自统计物理/网络科学幂律讨论与 Zipf/Pareto 传统；强调可操作检验而非标签崇拜）
-  version: v0.x-draft
+  version: v1.0
   source: power-law / Zipf / Pareto；研究审计 docs/books/systems-complexity-batch2/
 ---
 

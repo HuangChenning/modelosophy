@@ -6,7 +6,7 @@ description: >
   不适用于把一切交易都骂成大傻瓜（流动市场需要对手方）；要区分投资与纯击鼓传花。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

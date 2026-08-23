@@ -6,7 +6,7 @@ description: >
   不适用于伪科学鸡汤（宇宙熵增所以你要奋斗）；局部有序策略详见负熵 Skill，勿物理迁入。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求清单《经济学思维模型Skills生成需求》分类六 + 学科通行表述（草稿）
 ---
 

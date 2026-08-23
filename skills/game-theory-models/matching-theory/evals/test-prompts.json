@@ -1,6 +1,6 @@
 {
   "skill": "matching-theory",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "matching-theory-should-01",
@@ -31,6 +31,36 @@
       "type": "correctness_trap",
       "prompt": "以为唯一公平是对的吧？",
       "expect": "必须纠正常见误用：以为唯一公平 — 稳定匹配可多；侧别偏向重要。"
+    },
+    {
+      "id": "matching-theory-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地匹配理论（Gale–Shapley） Matching Theory (Gale–Shapley)，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按匹配理论（Gale–Shapley） Matching Theory (Gale–Shapley)的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "matching-theory-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用机制设计的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 机制设计）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "matching-theory-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "匹配理论（Gale–Shapley） Matching Theory (Gale–Shapley)最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "matching-theory-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了偏好误报**：某些机制非策略证明。的情况，还能继续套用匹配理论（Gale–Shapley） Matching Theory (Gale–Shapley)吗？",
+      "expect": "边界情况。必须指出本模型在偏好误报**：某些机制非策略证明。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "matching-theory-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把匹配理论（Gale–Shapley） Matching Theory (Gale–Shapley)的步骤做一遍，就算以为唯一公平**：稳定匹配可多；侧别偏向重要。也没关系，对吧？",
+      "expect": "必须纠正。以为唯一公平**：稳定匹配可多；侧别偏向重要。属于典型误用误区，必须澄清真实机制与适用边界。"
     }
   ]
 }

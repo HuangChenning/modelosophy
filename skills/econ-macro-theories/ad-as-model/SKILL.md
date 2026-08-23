@@ -4,7 +4,7 @@ description: >
   用 AD-AS 区分需求冲击与供给冲击，并推断物价与产出方向。Use when AD-AS、总需求总供给、滞胀还是衰退。不适用于单市场局部均衡定价。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 宏观教科书 AD-AS；冲击识别直觉；研究笔记 docs/books/econ-knowledge-skills/
 ---
 

@@ -6,7 +6,7 @@ description: >
   或精益（浪费）完全等同；也不要仪式空转无增量。
 metadata:
   author: modelosophy（蒸馏自 Agile Manifesto 与 Scrum/迭代实践要点）
-  version: v0.x-draft
+  version: v1.0
   source: Agile Manifesto；迭代/增量交付实践
 ---
 

@@ -7,7 +7,7 @@ description: >
   走刻意练习；组织绩效流程另议。
 metadata:
   author: modelosophy（蒸馏自师徒制/认知学徒制与职场 mentorship 实践要点）
-  version: v0.x-draft
+  version: v1.0
   source: mentorship；cognitive apprenticeship 相关思路；职场带教实践
 ---
 

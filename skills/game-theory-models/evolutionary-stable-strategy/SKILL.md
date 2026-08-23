@@ -6,7 +6,7 @@ description: >
   不适用于单次理性纳什计算、机制设计、满意化个人决策。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Maynard Smith；演化博弈论
 ---
 

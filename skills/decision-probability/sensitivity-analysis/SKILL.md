@@ -7,7 +7,7 @@ description: >
   折叠整棵概率树 → decision-tree；少数定性未来 → scenario-planning。不适用于无模型乱扭数字假装严谨。
 metadata:
   author: modelosophy（蒸馏自决策分析与建模中的敏感性/稳健性分析惯例）
-  version: v0.x-draft
+  version: v1.0
   source: 决策分析敏感性方法；研究审计 docs/books/decision-probability-m2b/
 ---
 

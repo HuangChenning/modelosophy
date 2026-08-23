@@ -6,7 +6,7 @@ description: >
   不适用于直接替代 VRIO 打勾清单、五力产业分析或护城河类型标签；需要条目审计时转到 vrio。
 metadata:
   author: modelosophy（蒸馏自 Wernerfelt / Barney 等 RBV 文献，与 VRIO、核心能力分流）
-  version: v0.x-draft
+  version: v1.0
   source: Wernerfelt (1984); Barney (1991) 等 RBV；docs/books/strategy-competition-batch/
 ---
 

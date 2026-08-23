@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Kahneman & Tversky 基率忽视、Tversky/Kahneman 参考类预测
     与 Flyvbjerg 大项目实践；非照抄卡片）
-  version: v0.x-draft
+  version: v1.0
   source: 判断与决策文献；研究审计 docs/books/decision-probability-m2/
 ---
 

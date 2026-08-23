@@ -6,7 +6,7 @@ description: >
   不适用于仅做紧急×重要分流（艾森豪威尔）或短番茄节奏；深度工作块设计主条在 learning-growth/deep-work。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Cal Newport Deep Work / Time-block planning 实践；日历管理常识
 ---
 

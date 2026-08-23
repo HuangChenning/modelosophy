@@ -6,7 +6,7 @@ description: >
   不适用于优先级矩阵全集（艾森豪威尔）或精力低谷强攻（见精力管理）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Brian Tracy Eat That Frog；Mark Twain 谚语引申的执行启发式
 ---
 

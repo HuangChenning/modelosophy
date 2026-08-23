@@ -6,7 +6,7 @@ description: >
   不适用于经典 2 策略囚徒专条、拍卖出价、机制设计正面激励。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Kaushik Basu；旅行者困境
 ---
 

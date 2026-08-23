@@ -1,11 +1,66 @@
 {
   "skill": "milestone-planning",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
-    {"id": "ms-should-01", "type": "should_trigger", "prompt": "大项目怎么设可验收里程碑？", "expect": "触发。"},
-    {"id": "ms-should-02", "type": "should_trigger", "prompt": "版本节点 milestone 怎么定义 Done？", "expect": "触发。"},
-    {"id": "ms-decoy-01", "type": "should_not_trigger", "prompt": "帮我算关键路径工期。", "expect": "分流 critical-path。"},
-    {"id": "ms-edge-01", "type": "edge_case", "prompt": "纯研究项目也能设里程碑吗？", "expect": "用学习/验证门。"},
-    {"id": "ms-trap-01", "type": "correctness_trap", "prompt": "里程碑就是开例会的日子。", "expect": "纠正：需验收标准。"}
+    {
+      "id": "ms-should-01",
+      "type": "should_trigger",
+      "prompt": "大项目怎么设可验收里程碑？",
+      "expect": "触发。"
+    },
+    {
+      "id": "ms-should-02",
+      "type": "should_trigger",
+      "prompt": "版本节点 milestone 怎么定义 Done？",
+      "expect": "触发。"
+    },
+    {
+      "id": "ms-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我算关键路径工期。",
+      "expect": "分流 critical-path。"
+    },
+    {
+      "id": "ms-edge-01",
+      "type": "edge_case",
+      "prompt": "纯研究项目也能设里程碑吗？",
+      "expect": "用学习/验证门。"
+    },
+    {
+      "id": "ms-trap-01",
+      "type": "correctness_trap",
+      "prompt": "里程碑就是开例会的日子。",
+      "expect": "纠正：需验收标准。"
+    },
+    {
+      "id": "milestone-planning-should-03",
+      "type": "should_trigger",
+      "prompt": "在实际项目中我想落地里程碑规划 Milestone Planning，请按照标准流程给出具体的操作步骤与判据。",
+      "expect": "触发。用户明确要求按里程碑规划 Milestone Planning的方法论展开具体操作与评估判据，核心场景。"
+    },
+    {
+      "id": "milestone-planning-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这件事我想用甘特图的框架来做拆解，能帮我按那个框架分析吗？",
+      "expect": "不应触发本 skill（或主要引导至 甘特图）。用户明确指定了其他模型框架。"
+    },
+    {
+      "id": "milestone-planning-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "里程碑规划 Milestone Planning最初是由谁在哪一年提出的？我想了解其学术起源。",
+      "expect": "不触发。纯事实/学术历史咨询，无需调用操作型 Skill 流程。"
+    },
+    {
+      "id": "milestone-planning-edge-02",
+      "type": "edge_case",
+      "prompt": "如果遇到了纯探索无承诺日期**：用学习里程碑（「验证假设 X」）而非假交付门。的情况，还能继续套用里程碑规划 Milestone Planning吗？",
+      "expect": "边界情况。必须指出本模型在纯探索无承诺日期**：用学习里程碑（「验证假设 X」）而非假交付门。场景下的局限性，并建议分流或补充其他支架。"
+    },
+    {
+      "id": "milestone-planning-trap-02",
+      "type": "correctness_trap",
+      "prompt": "只要把里程碑规划 Milestone Planning的步骤做一遍，就算里程碑=状态会议日期**：无 Done。也没关系，对吧？",
+      "expect": "必须纠正。里程碑=状态会议日期**：无 Done。属于典型误用误区，必须澄清真实机制与适用边界。"
+    }
   ]
 }

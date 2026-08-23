@@ -7,7 +7,7 @@ description: >
   VRIO 偏内部资源审计清单。勿重建五力/SWOT。
 metadata:
   author: modelosophy（蒸馏自 Barney 资源基础观 VRIO/VRIN 框架）
-  version: v0.x-draft
+  version: v1.0
   source: Barney VRIO；RBV 战略管理
 ---
 

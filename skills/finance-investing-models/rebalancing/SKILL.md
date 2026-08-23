@@ -6,7 +6,7 @@ description: >
   不适用于无目标权重的乱买卖；交易成本与税要计入；极端危机要有例外条款。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: 需求文档「金融与投资模型」条目 + 学科通行表述（Fama/Markowitz/Sharpe 等）；草稿待压力测试
 ---
 

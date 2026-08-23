@@ -4,7 +4,7 @@ description: >
   用完全竞争帮用户完成可执行分析：无数小厂商做同质品，人人都是价格接受者。 Use when user says 「完全竞争、price taker、perfect competition」 or Perfect Competition. 不适用于：把「竞争很激烈」直接等同完全竞争
 metadata:
   author: modelosophy（蒸馏自新古典完全竞争基准模型；可执行草案，待 skill-creator 后处理）
-  version: v0.x-draft
+  version: v1.0
   source: docs/books/econ-micro-markets/perfect-competition.md
 ---
 

@@ -6,7 +6,7 @@ description: >
   **硬区分**：存量流量要守恒与单位；基模是模式库；本模型是定性画法。不适用于无变量乱画箭头装系统思考。
 metadata:
   author: modelosophy（蒸馏自系统动力学 CLD 惯例：极性、回路、延迟；Sterman 等教学规范）
-  version: v0.x-draft
+  version: v1.0
   source: 系统动力学 CLD 规范；研究审计 docs/books/systems-complexity-m4/
 ---
 

@@ -7,7 +7,7 @@ description: >
   库与实验。不要做成空泛鸡汤；具体记忆/练习仍下钻检索、间隔、刻意练习等。
 metadata:
   author: modelosophy（蒸馏自 learning-to-learn / 自我调节学习中的策略层实践）
-  version: v0.x-draft
+  version: v1.0
   source: meta-learning（学习如何学习）；SRL 策略选择；与 metacognition 区分
 ---
 

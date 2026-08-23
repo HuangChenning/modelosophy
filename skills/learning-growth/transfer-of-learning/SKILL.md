@@ -7,7 +7,7 @@ description: >
   模型替代记忆保持（检索/间隔）或单点技能攻关（刻意练习）。
 metadata:
   author: modelosophy（蒸馏自学习迁移经典框架：近/远迁移、identical elements、抽象原则等）
-  version: v0.x-draft
+  version: v1.0
   source: transfer of learning；Thorndike identical elements；现代近/远迁移与变异练习文献
 ---
 
