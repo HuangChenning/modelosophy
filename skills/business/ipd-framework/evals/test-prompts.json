@@ -1,0 +1,66 @@
+{
+  "skill": "ipd-framework",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "ipd-should-01",
+      "type": "should_trigger",
+      "prompt": "我们公司的研发团队总是闭门造车，产品做出来市场不买单，请帮我们建立华为 IPD 集成产品开发流程和跨部门 PDT 团队。",
+      "expect": "应触发 ipd-framework 模型。用户明确提到研发闭门造车、华为 IPD 集成产品开发与 PDT 团队。"
+    },
+    {
+      "id": "ipd-should-02",
+      "type": "should_trigger",
+      "prompt": "请帮我们梳理产品研发从概念、计划、开发、验证到发布的六大阶段，以及 DCP 商业决策评审和 TR 技术评审的逻辑。",
+      "expect": "应触发 ipd-framework 模型。用户提到研发六大阶段、DCP 商业决策与 TR 技术评审。"
+    },
+    {
+      "id": "ipd-should-03",
+      "type": "should_trigger",
+      "prompt": "如何把产品研发当作一项商业投资来管理？请介绍 IPD 中的 CHARTER 任务书与 PDCP 立项评审。",
+      "expect": "应触发 ipd-framework 模型。用户提到将研发作为商业投资管理、CHARTER 任务书与 PDCP 立项。"
+    },
+    {
+      "id": "ipd-should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "请教一下我们销售团队怎么才能做好大客户商机跟进、合同谈判与交付回款？",
+      "expect": "不应触发本模型，应触发 ltc-framework。该请求侧重销售到回款，而非 IPD 产品开发。"
+    },
+    {
+      "id": "ipd-should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "帮我们制定一下公司未来 3 年的战略规划 SP 和年度 BP 作战计划。",
+      "expect": "不应触发本模型，应触发 dste-framework。该请求侧重公司顶层战略管理，而非 IPD 研发。"
+    },
+    {
+      "id": "ipd-should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "请用五看三定模型分析一下我们公司所处的外部宏观环境和行业竞争对手。",
+      "expect": "不应触发本模型。该请求属于战略分析中的五看三定/BLM，而非 IPD 研发开发流程。"
+    },
+    {
+      "id": "ipd-edge-01",
+      "type": "edge_case",
+      "prompt": "我们是一家小型 SaaS 公司，研发只有 10 个人，套用 IPD 会不会太重了？怎么裁剪？",
+      "expect": "边界情况。应触发本模型，但说明小团队应用 IPD 裁剪规则 (Tailoring)，保留 PDT 跨部门沟通与关键立项/发布 DCP，合并简化 TR 技术评审点。"
+    },
+    {
+      "id": "ipd-edge-02",
+      "type": "edge_case",
+      "prompt": "我只需要一份 IPD 中 TR1 到 TR6 各技术评审点的具体质量检查项列表。",
+      "expect": "边界情况。应触发本模型，但根据指令裁切输出，重点讲解 TR1（架构）、TR3（总体设计）、TR5（系统集成）等技术审查标准。"
+    },
+    {
+      "id": "ipd-trap-01",
+      "type": "correctness_trap",
+      "prompt": "在 IPD 研发体系中，只要技术评审 TR（如技术架构和代码）过关了，项目就可以直接获得高层投资并发布上市，不需要看 DCP 商业决策对吧？",
+      "expect": "必须纠正错误认知。IPD 严禁技术代替商业决策。TR 仅评估技术成熟度，而 DCP 审查财务 ROI、市场空间与商业投资价值，必须通过 ADCP 上市决策才能正式发布。"
+    },
+    {
+      "id": "ipd-trap-02",
+      "type": "correctness_trap",
+      "prompt": "PDT（产品开发团队）只需要包含研发工程师和架构师就可以了，市场、采购和财务代表没必要加入研发团队。",
+      "expect": "必须纠正错误认知。PDT 的核心在于打破部门墙，必须包含研发、市场、制造、采购、服务与财务代表，共同对产品的商业成功负责。"
+    }
+  ]
+}

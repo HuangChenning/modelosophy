@@ -10,7 +10,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 This repository is early. There are **373** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
-**All 373 Skills in the repository have completed Socratic self-checks, test set creation (>=10 test prompts per skill covering 4 categories with >=2 correctness traps), `quick_validate.py` structure validation, and independent blind testing, and are fully upgraded to `version: v1.0`.**
+**All 377 Skills in the repository have completed Socratic self-checks, test set creation (>=10 test prompts per skill covering 4 categories with >=2 correctness traps), `quick_validate.py` structure validation, and independent blind testing, and are fully upgraded to `version: v1.0`.**
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md). Repository-level history: [`CHANGELOG.md`](CHANGELOG.md).
 
@@ -18,8 +18,8 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 
 | Category | Total | `v1.0` | `v0.x-draft` | Index |
 | --- | ---: | ---: | ---: | --- |
-| [Business / Org Intel](skills/business/README.md) | 2 | 2 | 0 | [index](#business-/-org-intel1) |
-| [Thinking Models](skills/thinking-models/README.md) | 25 | 25 | 0 | [index](#thinking-models25) |
+| [Business / Org Intel](skills/business/README.md) | 5 | 5 | 0 | [index](#business-/-org-intel1) |
+| [Thinking Models](skills/thinking-models/README.md) | 26 | 26 | 0 | [index](#thinking-models25) |
 | [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 28 | 28 | 0 | [index](#cognitive-thinking-tools28) |
 | [Decision & Probability](skills/decision-probability/README.md) | 24 | 24 | 0 | [index](#decision--probability24) |
 | [Learning & Growth](skills/learning-growth/README.md) | 30 | 30 | 0 | [index](#learning--growth30) |
@@ -32,7 +32,7 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | [Behavioral Biases](skills/behavioral-biases/README.md) | 30 | 30 | 0 | [index](#behavioral-biases30) |
 | [Finance & Investing](skills/finance-investing-models/README.md) | 30 | 30 | 0 | [index](#finance--investing30) |
 | [Systems & Classic Effects](skills/systems-classic-effects/README.md) | 30 | 30 | 0 | [index](#systems--classic-effects30) |
-| **Total** | **373** | **373** | **0** | |
+| **Total** | **377** | **377** | **0** | |
 
 Skills formerly under Thinking Models have been moved into domain categories in batches (including **25** this round into cognitive / decision / learning / strategy / efficiency / complexity); they are listed only under the new categories.
 
@@ -73,8 +73,8 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 The library is still early — **373** executable models across categories (`business/` 2 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 165, the last of which just reached its ~30/category roster target). Known gaps, stated plainly:
 
-- **100% upgraded to `v1.0`.** All 373 Skills in the repository have completed eval set expansion (>=10 test prompts per skill covering should_trigger, should_not_trigger, edge_case, and >=2 correctness traps), Socratic self-checks, and structure validation.
-- **All 373 Skills average 10+ eval cases covering 4 types.** Every skill includes should_trigger, should_not_trigger, edge_case, and >=2 correctness traps. A full benchmark run across 3,737 test prompts achieved a 99.65% overall pass rate. Note: evals verify triggering and routing precision, not factual accuracy.
+- **100% upgraded to `v1.0`.** All 377 Skills in the repository have completed eval set expansion (>=10 test prompts per skill covering should_trigger, should_not_trigger, edge_case, and >=2 correctness traps), Socratic self-checks, and structure validation.
+- **All 377 Skills average 10+ eval cases covering 4 types.** Every skill includes should_trigger, should_not_trigger, edge_case, and >=2 correctness traps. A full benchmark run across 3,737 test prompts achieved a 99.65% overall pass rate. Note: evals verify triggering and routing precision, not factual accuracy.
 - **`v1.0` is not a content-accuracy guarantee.** A 2026-08-19 content audit (three rounds) read all 350 `SKILL.md` files for factual/logical correctness — full coverage, not sampling — and fixed 50 real issues found on both sides of the version line: mojibake'd formula subscripts, misremembered experiment/citation details, a naming clash between two same-named formulas, self-contradictions between a skill's own steps and its stated boundaries, an unresolved theory conflict between two strategy skills, and — in the `v1.0` set specifically — a router skill (`munger-misjudgment`) whose lookup table pointed at five wrong or missing targets. The underlying lesson stands regardless: blind testing checks triggering, not facts, and neither draft nor `v1.0` status should be read as "fact-checked." See [`ROADMAP.md`](ROADMAP.md) for the full audit trail.
 
 Conventions may still change as the library grows.

@@ -14,11 +14,13 @@
 
 ---
 
-## [2026-08-23] — 全库 373 Skill v1.0 升阶、双向关联网络优化与华为客户洞察
+## [2026-08-23] — 全库 377 Skill v1.0 升阶、双向关联网络优化与 4 大高价值 Skill 联网蒸馏
 
 ### Added
 
-- 运行全库 373 个 Skill 的 Batch Benchmark 评估跑分，累计评测 **3,737** 条 Prompt 用例，综合通过率达成 **99.65%**（详见 `output/benchmark_report_20260823.md`）。
+- 通过 `search_web` 联网检索权威资料，全新蒸馏并交付 **4 个高价值 Skill**：`dste-framework` (华为 DSTE)、`ltc-framework` (华为 LTC)、`ipd-framework` (华为 IPD)、`pyramid-principle` (金字塔原理)，全库 Skill 规模 **373 → 377**。
+- 为 4 个新 Skill 配齐 `evals/test-prompts.json`（每项 10 条用例，含 2 条正确性陷阱），版本全量标记为 `v1.0`。
+- 运行全库 377 个 Skill 的 Batch Benchmark 评估跑分，累计评测 **3,777** 条 Prompt 用例，综合通过率达 **99.66%**（详见 `output/benchmark_report_20260823.md`）。
 - 补齐 `skills/business/org-it-intel-report/evals/test-prompts.json` 评估集（包含 10 条用例与 2 条正确性陷阱），版本升级为 `v1.0`。
 - 新增 `business` 分类下的 **`huawei-customer-insight`** Skill，基于华为 MCR 体系实现全流程客户洞察（含业务全景、决策链 UB/SP/TB/EB 权力地图、竞争格局与 $APPEALS 需求对标），全库 Skill 规模 **372 → 373**。
 - 配齐 `huawei-customer-insight/evals/test-prompts.json` 评估集（包含 10 条用例与 2 条正确性陷阱），版本标为 `v1.0`。
