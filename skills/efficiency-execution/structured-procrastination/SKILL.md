@@ -10,7 +10,7 @@ description: >
   青蛙的正面应对，不得用本模型的语言为回避找借口。
 metadata:
   author: modelosophy（蒸馏自 John Perry 原始随笔 "Structured Procrastination"）
-  version: v0.x-draft
+  version: v1.0
   source: John Perry, "Structured Procrastination" (原载于个人网站，约 1995 年起流传，
     2011 年获 Ig Nobel Prize in Literature；后扩写为 The Art of Procrastination, 2012)
 ---

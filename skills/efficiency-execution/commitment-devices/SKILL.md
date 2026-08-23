@@ -15,7 +15,7 @@ metadata:
     Ariely & Wertenbroch, "Procrastination, Deadlines, and Performance:
     Self-Control by Precommitment", Management Science, 2002 + Bryan, Karlan &
     Nelson, "Commitment Devices", Annual Review of Economics, 2010）
-  version: v0.x-draft
+  version: v1.0
   source: Schelling (1960)；Ariely & Wertenbroch (2002)；Ashraf, Karlan & Yin,
     "Tying Odysseus to the Mast", QJE (2006)；Bryan, Karlan & Nelson (2010)
 ---

@@ -8,7 +8,7 @@ description: >
   衰减曲线本身（走遗忘曲线）；不要用来弥补当天根本没有真正理解/加工过的内容。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Born & Wilhelm 2012 主动系统巩固假说综述 + Plihal & Born 1997 早/晚睡眠对照
     研究 + Yoo et al. 2007 睡眠剥夺与编码研究
 ---

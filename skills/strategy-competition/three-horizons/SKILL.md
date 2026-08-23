@@ -10,7 +10,7 @@ description: >
   持续运行的机制而非一次性决策）；不要把两者当同一件事的不同说法。
 metadata:
   author: modelosophy（蒸馏自麦肯锡三层面增长文献，并与本仓库 second-curve 做区分）
-  version: v0.x-draft
+  version: v1.0
   source: >
     Baghai, Coley & White, "The Alchemy of Growth" (Perseus Books / McKinsey,
     1999-2000)

@@ -8,7 +8,7 @@ description: >
   陈述追问合理性（走精细加工提问）；不要用于事后闭卷回忆检验（走检索练习）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Chi, Bassok, Lewis, Reimann & Glaser 1989 自我解释研究 + Chi, de Leeuw,
     Chiu & LaVancher 1994 提示自我解释因果研究 + Chi 2009/Chi & Wylie 2014 ICAP 框架
 ---

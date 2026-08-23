@@ -48,7 +48,7 @@
 - 迁入种子：eisenhower-matrix / pdca。
 - M3 新建（`v0.x-draft`）：pomodoro / gtd / kanban / agile-iteration / lean-thinking / critical-path / five-s。
 - 批次新建（`v0.x-draft`，分支 `feature/efficiency-execution-batch`）：batching / checklist-sop / continuous-improvement / delegation / eat-the-frog / energy-management / gantt-chart / milestone-planning / standup / time-blocking / two-minute-rule / wip-limits。
-- 名录扩容新建（`v0.x-draft`，2026-08-19，走完整蒸馏流程+苏格拉底式自检，正等待独立盲测）：meeting-hygiene / single-tasking / task-switching-cost / inbox-zero / structured-procrastination / buffer-time / mise-en-place / weekly-review / commitment-devices。至此本类达到名录目标数量（~30），不再扩容。`commitment-devices` 特别处理了和博弈论/双曲贴现几个 skill 的应用层次区分（见其"相关模型"）。
+- 名录扩容新建（已于 2026-08-20 完成独立盲测与 QA 校验，升至 `v1.0`）：meeting-hygiene / single-tasking / task-switching-cost / inbox-zero / structured-procrastination / buffer-time / mise-en-place / weekly-review / commitment-devices。至此本类达到名录目标数量（~30），不再扩容。`commitment-devices` 特别处理了和博弈论/双曲贴现几个 skill 的应用层次区分（见其"相关模型"）。
 - 名录「深度工作法」→ 见学习类 `deep-work`。
 
 ## Other categories

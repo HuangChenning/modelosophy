@@ -1,6 +1,6 @@
 {
   "skill": "peer-learning",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "peer-learning-should-01",
@@ -55,7 +55,7 @@
       "type": "correctness_trap",
       "prompt": "我们小组讨论完，大家意见一致了，那就说明这是正确答案吧？",
       "expect": "必须纠正。达成一致不等于正确——同伴讨论的价值是暴露和部分纠正错误，本身不保证收敛到正确答案；尤其当小组里可能没有一个人一开始就知道正确方向时，讨论后达成的一致仍需要外部权威（教师、权威资料）核验，不能把'讨论完意见一致'直接当作'就是对的'。"
-      },
+    },
     {
       "id": "peer-learning-trap-02",
       "type": "correctness_trap",

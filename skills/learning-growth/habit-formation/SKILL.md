@@ -9,7 +9,7 @@ description: >
   回路（走 HOOK 模型）；复杂技能的精进走刻意练习，不是靠"重复出现"就能长进。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Duhigg 通俗化的 cue-routine-reward 三元组 + Wendy Wood 习惯自动化研究
     （情境线索驱动、outcome devaluation 不敏感性）+ Lally et al. 2010 真实世界习惯
     形成时长研究

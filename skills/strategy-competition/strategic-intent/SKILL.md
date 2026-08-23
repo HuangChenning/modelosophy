@@ -11,7 +11,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Hamel & Prahalad 战略意图理论，并标注本田案例在战略史中的
     真实学术争议）
-  version: v0.x-draft
+  version: v1.0
   source: >
     Hamel & Prahalad, "Strategic Intent" (Harvard Business Review, May-June
     1989); Prahalad & Hamel, "The Core Competence of the Corporation" (HBR, 1990);

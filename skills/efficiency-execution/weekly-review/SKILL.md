@@ -10,7 +10,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 David Allen, Getting Things Done, 2001 的 Weekly Review
     + Stephen Covey 等独立于 GTD 的周计划实践）
-  version: v0.x-draft
+  version: v1.0
   source: David Allen, Getting Things Done (2001)；Stephen Covey, The 7 Habits of
     Highly Effective People (1989) 的周计划实践
 ---

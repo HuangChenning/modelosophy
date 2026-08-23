@@ -49,7 +49,7 @@
 - M3 新建（`v0.x-draft`）：blue-ocean / second-curve / disruptive-innovation / bcg-matrix / okr / vrio。
 - 7S/GE（`v0.x-draft`）：`mckinsey-7s` / `ge-mckinsey-matrix`。长尾战略互链 `systems-classic-effects/long-tail`。
 - 批次新建（`v0.x-draft`，分支 `feature/strategy-competition-batch`）：ansoff-matrix / balanced-scorecard / value-chain / cost-leadership / differentiation-strategy / niche-strategy / strategic-clock / positioning / platform-strategy / resource-based-view / core-competence / kpi-framework。
-- 名录扩容新建（`v0.x-draft`，2026-08-19，走完整蒸馏流程+苏格拉底式自检，正等待独立盲测）：business-model-canvas / strategy-map / dynamic-capabilities / porters-diamond / three-horizons / strategic-intent。至此本类达到名录目标数量（~30），不再扩容。strategy-map 新建过程中发现并修复了它与 balanced-scorecard 之间真实的触发词冲突（BSC 的 description 收窄为"已有目标、需要配指标"）。
+- 名录扩容新建（已于 2026-08-20 完成独立盲测与 QA 校验，升至 `v1.0`）：business-model-canvas / strategy-map / dynamic-capabilities / porters-diamond / three-horizons / strategic-intent。至此本类达到名录目标数量（~30），不再扩容。strategy-map 新建过程中发现并修复了它与 balanced-scorecard 之间真实的触发词冲突（BSC 的 description 收窄为"已有目标、需要配指标"）。
 
 ## Other categories
 

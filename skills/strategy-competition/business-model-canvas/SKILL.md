@@ -10,7 +10,7 @@ description: >
   （走 second-curve/three-horizons）。
 metadata:
   author: modelosophy（蒸馏自 Osterwalder & Pigneur 商业模式画布文献）
-  version: v0.x-draft
+  version: v1.0
   source: >
     Osterwalder, "The Business Model Ontology" (PhD thesis, HEC Lausanne, 2004);
     Osterwalder & Pigneur, "Business Model Generation" (2010); Osterwalder, Pigneur,

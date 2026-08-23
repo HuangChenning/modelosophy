@@ -8,7 +8,7 @@ description: >
   不要用于长期、渐撤式的带教关系（走导师制）；不要在双方完全没有基础的主题上生搬硬套。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Eric Mazur 同伴教学法（Peer Instruction）研究 + Chi 等人 ICAP 框架中的
     互动性（Interactive）参照
 ---

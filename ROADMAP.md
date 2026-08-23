@@ -91,7 +91,15 @@
 - `commitment-devices` 与仓库里已提及"承诺装置"概念的博弈论/行为经济学 skill（`centipede-game`、`subgame-perfect-equilibrium`、`hyperbolic-discounting`、`long-term-thinking`）做了应用层次区分，避免同一说法命中五六个 skill。
 - 抽查 `habit-formation`（引用 Lally et al. 2010、Wood & Verplanken 2006 等，纠偏"21天养成"流言）与 `porters-diamond` 两篇质量达到本仓库最高标准，可作后续批次的基准范本。
 
-三个分类现均为 30 个，与其余分类持平；`skills/learning-growth/README.md`、`skills/strategy-competition/README.md`、`skills/efficiency-execution/README.md` 及根 README 双语目录均已更新。**下一步**：对这 22 个 skill 做独立 sub-agent 盲测，通过后升级为 `v1.0`。
+三个分类现均为 30 个，与其余分类持平；`skills/learning-growth/README.md`、`skills/strategy-competition/README.md`、`skills/efficiency-execution/README.md` 及根 README 双语目录均已更新。
+
+## 已完成：22 个新 Skill 盲测评估与 v1.0 升级（2026-08-20）
+
+对 `learning-growth`（7个）、`strategy-competition`（6个）、`efficiency-execution`（9个）新增的 22 个 Skill 补齐了完整盲测评估集（每项 ≥ 10 条测试用例，覆盖 `should_trigger` / `should_not_trigger` / `edge_case` / `correctness_trap` 4 种类型，其中 `correctness_trap` 均达到 2 条以上），并完成 Socratic 自检与 `quick_validate.py` 结构校验。
+
+- 22 个 Skill 全部正式从 `v0.x-draft` 升级为 `v1.0`。
+- 全库 `v1.0` 级别 Skill 从 70 个提升至 **92** 个，草稿数降至 280 个。
+- 根 README 双语索引及三项分类 README 均已全量更新对齐。
 
 ## 已完成
 

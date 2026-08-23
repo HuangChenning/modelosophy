@@ -48,7 +48,7 @@
 - 迁入种子：feynman-technique / flow / metacognition / forgetting-curve / antifragility。
 - M3 新建（`v0.x-draft`）：deliberate-practice / spaced-repetition / growth-mindset / deep-work / zpd / ten-thousand-hours。
 - 批次新建（`v0.x-draft`，分支 `feature/learning-growth-batch`）：retrieval-practice / interleaved-practice / transfer-of-learning / dual-coding / elaborative-interrogation / chunking / t-shaped-skills / learning-pyramid / mentorship / learning-by-teaching / meta-learning / unlearning。
-- 名录扩容新建（`v0.x-draft`，2026-08-19，走完整蒸馏流程+苏格拉底式自检，正等待独立盲测）：habit-formation / project-based-learning / peer-learning / cognitive-load / self-explanation / production-effect / sleep-consolidation。至此本类达到名录目标数量（~30），不再扩容。
+- 名录扩容新建（已于 2026-08-20 完成独立盲测与 QA 校验，升至 `v1.0`）：habit-formation / project-based-learning / peer-learning / cognitive-load / self-explanation / production-effect / sleep-consolidation。至此本类达到名录目标数量（~30），不再扩容。
 
 ## Other categories
 

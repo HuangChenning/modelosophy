@@ -9,7 +9,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Steven Rogelberg 会议研究、Bain & Company Rule of Seven、
     Amazon 六页备忘录实践）
-  version: v0.x-draft
+  version: v1.0
   source: Rogelberg, "Why Your Meetings Stink—and What to Do About It" (HBR 2019)；
     Bain & Company Decision Insights, Rule of Seven；Amazon Six-Page Memo 实践
 ---

@@ -10,7 +10,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Kaplan & Norton 战略地图文献，并与本仓库 balanced-scorecard
     做边界切分）
-  version: v0.x-draft
+  version: v1.0
   source: >
     Kaplan & Norton, "Having Trouble with Your Strategy? Then Map It" (HBR, 2000);
     Kaplan & Norton, "Strategy Maps: Converting Intangible Assets into Tangible Outcomes"

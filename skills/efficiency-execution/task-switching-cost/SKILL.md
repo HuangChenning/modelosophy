@@ -10,7 +10,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Rubinstein, Meyer & Evans 2001 任务切换实验室研究 +
     Sophie Leroy 2009 注意力残留研究 + Mark, Gudith & Klocke 2008 打断现场研究）
-  version: v0.x-draft
+  version: v1.0
   source: >
     Rubinstein, Meyer & Evans (2001) J. Exp. Psychol.: Human Perception and Performance,
     27, 763-797；Leroy (2009) Organizational Behavior and Human Decision Processes, 109, 168-181；

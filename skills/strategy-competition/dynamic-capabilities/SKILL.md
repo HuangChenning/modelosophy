@@ -10,7 +10,7 @@ description: >
   没看见。
 metadata:
   author: modelosophy（蒸馏自 Teece 动态能力文献，并显式标注与 RBV/VRIO 的学术分歧）
-  version: v0.x-draft
+  version: v1.0
   source: >
     Teece, Pisano & Shuen, "Dynamic Capabilities and Strategic Management"
     (Strategic Management Journal, 1997); Teece, "Explicating Dynamic Capabilities"

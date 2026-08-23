@@ -9,7 +9,7 @@ description: >
   必须先检查认知负荷是否超载，否则效果可能反而不如直接教学。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Kilpatrick 1918 "The Project Method" 教育史源头 + Barron & Darling-Hammond
     2008 综述 + Buck Institute/PBLWorks "Gold Standard PBL" 七要素 + Kirschner,
     Sweller & Clark 2006 对弱指导发现式学习的批评

@@ -8,7 +8,7 @@ description: >
   自我解释/精细加工提问）；不要用于脱离材料的闭卷回忆检验（走检索练习）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: MacLeod, Gopie, Hourihan, Neary & Ozubko 2010 产出效应定名研究 + Ozubko &
     MacLeod 2010 纯列表对照研究 + MacLeod & Bodner 2017 综述
 ---

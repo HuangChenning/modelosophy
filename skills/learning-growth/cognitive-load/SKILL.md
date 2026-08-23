@@ -8,7 +8,7 @@ description: >
   一堆零散信息打包成好记单元"这类更聚焦的组块任务；不要用于技能反馈闭环设计（走刻意练习）。
 metadata:
   author: modelosophy
-  version: v0.x-draft
+  version: v1.0
   source: Sweller 1988 认知负荷理论原始研究 + Sweller, van Merriënboer & Paas 1998
     三分负荷模型 + Sweller 2010 对 germane load 的修正
 ---

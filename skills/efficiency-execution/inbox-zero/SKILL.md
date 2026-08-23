@@ -10,7 +10,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Merlin Mann 43 Folders 博客与 2007 年 Google Tech Talk
     "Inbox Zero" 演讲）
-  version: v0.x-draft
+  version: v1.0
   source: Merlin Mann, "Inbox Zero" (Google Tech Talk, 2007；43folders.com)；后续多次
     公开澄清"zero 指的是花在同一封邮件上的心智周期趋近于零，不是未读数字为零"
 ---

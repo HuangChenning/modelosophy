@@ -9,7 +9,7 @@ description: >
   通用留白（时间块）。
 metadata:
   author: modelosophy（蒸馏自 Eliyahu M. Goldratt Critical Chain, 1997；TOC 关键链项目管理）
-  version: v0.x-draft
+  version: v1.0
   source: Goldratt, Critical Chain (1997)；TOC 项目管理文献
 ---
 

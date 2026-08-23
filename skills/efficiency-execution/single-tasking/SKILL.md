@@ -11,7 +11,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Devora Zack《Singletasking》实践方法论 + Sophie Leroy
     注意力残留研究的应用层 + Gloria Mark 关于知识工作者任务切换频率的现场观察）
-  version: v0.x-draft
+  version: v1.0
   source: >
     Zack, "Singletasking: Get More Done—One Thing at a Time" (2015, Berrett-Koehler)；
     Leroy (2009) Organizational Behavior and Human Decision Processes, 109, 168-181；

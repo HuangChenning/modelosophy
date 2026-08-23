@@ -10,7 +10,7 @@ description: >
   （时间块）。
 metadata:
   author: modelosophy（蒸馏自法式厨房 brigade de cuisine 传统 + Dan Charnas, Work Clean, 2016）
-  version: v0.x-draft
+  version: v1.0
   source: Dan Charnas, Work Clean (2016)；Escoffier 厨房分工传统；任务切换成本研究
     （Rubinstein, Meyer & Evans, 2001）
 ---

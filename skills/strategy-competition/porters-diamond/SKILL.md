@@ -10,7 +10,7 @@ description: >
 metadata:
   author: modelosophy（蒸馏自 Michael Porter 国家竞争优势文献，并与本仓库 porters-five-forces
     做层级区分）
-  version: v0.x-draft
+  version: v1.0
   source: >
     Porter, "The Competitive Advantage of Nations" (Free Press / HBR, 1990);
     Saxenian, "Regional Advantage: Culture and Competition in Silicon Valley and Route

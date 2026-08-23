@@ -1,6 +1,6 @@
 {
   "skill": "business-model-canvas",
-  "version": "v0.x-draft",
+  "version": "v1.0",
   "tests": [
     {
       "id": "bmc-should-01",
@@ -13,7 +13,7 @@
       "type": "should_trigger",
       "prompt": "商业模式画布到底应该先填哪一块？我们团队每次开会都是先讨论我们有什么资源，感觉画出来的东西很奇怪。",
       "expect": "触发。应指出常见错误是先填左侧资源导致自说自话，正确顺序是先从右侧客户细分和价值主张开始。"
-      },
+    },
     {
       "id": "bmc-should-03",
       "type": "should_trigger",
