@@ -2,6 +2,18 @@
 
 记录项目当前进展：哪些工作已经完整交付，哪些还在待办队列。按主题分组，而不是按时间顺序。
 
+## 已完成：华为客户洞察 Skill (`huawei-customer-insight`) 全量开发（2026-08-23）
+
+依照 [`docs/华为方法论/04-客户洞察Skill需求说明文档.md`](file:///Users/huangcn/github/modelosophy/docs/华为方法论/04-客户洞察Skill需求说明文档.md) 规格说明书，在 `skills/business/huawei-customer-insight/` 下完成了完整的华为 MCR 客户洞察 Skill：
+
+- **完备的文件结构**：
+  - 入口 `SKILL.md`（包含触发场景、7 步主工作流、深度自适应与常见误用）
+  - `assets/report-template.md`（标准化 Markdown 客户洞察报告模板）
+  - `references/` 下 6 个详解文件（`business-panorama.md`, `decision-chain.md`, `competitive-landscape.md`, `customer-value.md`, `demand-mining.md`, `tools-guide.md`）
+- **完整的评估集**：配齐包含 10 条测试用例（含 2 条 correctness_trap 正确性陷阱）的 `evals/test-prompts.json`（`version: v1.0`）。
+- **库规模扩充**：全库 Skill 数量从 372 扩充至 **373**，`v1.0` 覆盖率保持 **100%**。
+- **校验通过**：100% 通过 `quick_validate.py` 与 `audit_repo_skills.py .` 结构校验。
+
 ## 已完成：全库关联模型双向补链与分流细节优化（2026-08-23）
 
 对全库 372 个 Skill 的 `## 相关模型` 关联网络进行了全量结构化盘点与精准补链：

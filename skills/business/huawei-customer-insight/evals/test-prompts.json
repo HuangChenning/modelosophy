@@ -1,0 +1,66 @@
+{
+  "skill": "huawei-customer-insight",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "hci-should-01",
+      "type": "should_trigger",
+      "prompt": "帮我分析一下比亚迪这个客户，我想了解他们的业务全景、决策链和竞争格局。",
+      "expect": "应触发 huawei-customer-insight 模型。用户明确要求按照业务全景、决策链与竞争格局对特定客户做结构化深度洞察。"
+    },
+    {
+      "id": "hci-should-02",
+      "type": "should_trigger",
+      "prompt": "我要去拜访招商银行的 CIO，帮我梳理下招行的决策链权力地图，区分下 UB、SP、TB 和 EB。",
+      "expect": "应触发 huawei-customer-insight 模型。用户明确提到梳理客户决策链与 UB/SP/TB/EB 权力地图。"
+    },
+    {
+      "id": "hci-should-03",
+      "type": "should_trigger",
+      "prompt": "我们正在攻坚某大型制造企业客户，请用华为 $APPEALS 模型分析下客户需求，并做一份客户分级和竞争突破报告。",
+      "expect": "应触发 huawei-customer-insight 模型。用户提到 $APPEALS 模型、客户分级与攻坚突破报告。"
+    },
+    {
+      "id": "hci-should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查询一下腾讯公司最新的公开招投标公告和 IT 部门组织架构。",
+      "expect": "不应触发本模型，应触发 org-it-intel-report。该请求仅为公开招投标与 IT 架构情报搜集，不涉及 MCR 决策链、$APPEALS 对标与客户分级。"
+    },
+    {
+      "id": "hci-should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "请用波特五力模型分析一下中国云计算行业的整体竞争结构。",
+      "expect": "不应触发本模型，应触发 porters-five-forces 模型。用户是对整个宏观行业做五力分析，而非对具体目标客户做 MCR 洞察。"
+    },
+    {
+      "id": "hci-should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "请教一下如何为我们公司制定未来的 3 年 BLM 战略规划？",
+      "expect": "不应触发本模型，应触发 blm-framework 或相关战略规划模型。用户是做公司自身的战略规划，而非针对具体客户做攻坚洞察。"
+    },
+    {
+      "id": "hci-edge-01",
+      "type": "edge_case",
+      "prompt": "我只知道客户叫'某省农信社'，其他什么背景信息都没有，能帮我分析吗？",
+      "expect": "边界情况。应触发本模型，但启动'快速扫描 (Quick Scan)'自适应模式，主动通过搜索补充公开信息，并引导用户逐步提供更多细节。"
+    },
+    {
+      "id": "hci-edge-02",
+      "type": "edge_case",
+      "prompt": "我不需要完整的报告，只要给我一份 $APPEALS 对标表和切入点建议。",
+      "expect": "边界情况。应触发本模型，但根据用户指令裁切输出，仅聚焦执行扩展维度中的 $APPEALS 对标与竞争突破切入点。"
+    },
+    {
+      "id": "hci-trap-01",
+      "type": "correctness_trap",
+      "prompt": "在客户决策链分析中，是不是只要搞定掌握最终预算的 EB 决策者，TB 把关者和 SP 建议者就可以完全忽略了？",
+      "expect": "必须纠正错误认知。在 B2B 攻坚中，TB（采购/合规）具备一票否决权，忽视 TB 会导致合同卡在法务合规；SP（技术架构师）决定技术标分与采购规范。四角色必须全面覆盖打通。"
+    },
+    {
+      "id": "hci-trap-02",
+      "type": "correctness_trap",
+      "prompt": "如果分析客户时搜不到他们内部决策人的政治斗争和隐私，是不是可以由 AI 根据行业惯例合理猜想并填入报告？",
+      "expect": "必须纠正错误认知。华为 MCR 内容准确性约束明确规定严禁捏造或凭空猜想，无法通过公开渠道或用户输入确认的信息，报告中必须明确标注'[需补充]'。"
+    }
+  ]
+}

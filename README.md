@@ -10,7 +10,7 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 This repository is early. There are **372** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
-**All 372 Skills in the repository have completed Socratic self-checks, test set creation (>=10 test prompts per skill covering 4 categories with >=2 correctness traps), `quick_validate.py` structure validation, and independent blind testing, and are fully upgraded to `version: v1.0`.**
+**All 373 Skills in the repository have completed Socratic self-checks, test set creation (>=10 test prompts per skill covering 4 categories with >=2 correctness traps), `quick_validate.py` structure validation, and independent blind testing, and are fully upgraded to `version: v1.0`.**
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md). Repository-level history: [`CHANGELOG.md`](CHANGELOG.md).
 
@@ -18,7 +18,7 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 
 | Category | Total | `v1.0` | `v0.x-draft` | Index |
 | --- | ---: | ---: | ---: | --- |
-| [Business / Org Intel](skills/business/README.md) | 1 | 1 | 0 | [index](#business-/-org-intel1) |
+| [Business / Org Intel](skills/business/README.md) | 2 | 2 | 0 | [index](#business-/-org-intel1) |
 | [Thinking Models](skills/thinking-models/README.md) | 25 | 25 | 0 | [index](#thinking-models25) |
 | [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 28 | 28 | 0 | [index](#cognitive-thinking-tools28) |
 | [Decision & Probability](skills/decision-probability/README.md) | 24 | 24 | 0 | [index](#decision--probability24) |
@@ -32,7 +32,7 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | [Behavioral Biases](skills/behavioral-biases/README.md) | 30 | 30 | 0 | [index](#behavioral-biases30) |
 | [Finance & Investing](skills/finance-investing-models/README.md) | 30 | 30 | 0 | [index](#finance--investing30) |
 | [Systems & Classic Effects](skills/systems-classic-effects/README.md) | 30 | 30 | 0 | [index](#systems--classic-effects30) |
-| **Total** | **372** | **372** | **0** | |
+| **Total** | **373** | **373** | **0** | |
 
 Skills formerly under Thinking Models have been moved into domain categories in batches (including **25** this round into cognitive / decision / learning / strategy / efficiency / complexity); they are listed only under the new categories.
 

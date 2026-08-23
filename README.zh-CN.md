@@ -10,7 +10,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 这个仓库还处于早期阶段。`skills/<category>/` 下合计 **372** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
-**全库 372 个 Skill 已全量完成苏格拉底自检、测试集建设（>=10 条用例/Skill，包含 4 种类型与 2+ 条正确性陷阱）、`quick_validate.py` 结构校验及独立盲测，全量升级为 `version: v1.0`。**
+**全库 373 个 Skill 已全量完成苏格拉底自检、测试集建设（>=10 条用例/Skill，包含 4 种类型与 2+ 条正确性陷阱）、`quick_validate.py` 结构校验及独立盲测，全量升级为 `version: v1.0`。**
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)；仓库级变更历史见 [`CHANGELOG.md`](CHANGELOG.md)。
 
@@ -18,7 +18,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 | 分类 | 合计 | `v1.0` | `v0.x-draft` | 目录 |
 | --- | ---: | ---: | ---: | --- |
-| [商业 / 组织情报](skills/business/README.md) | 1 | 1 | 0 | [目录](#商业--组织情报1) |
+| [商业 / 组织情报](skills/business/README.md) | 2 | 2 | 0 | [目录](#商业--组织情报1) |
 | [通用思维模型](skills/thinking-models/README.md) | 25 | 25 | 0 | [目录](#通用思维模型25) |
 | [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | 28 | 0 | [目录](#认知与思维工具28) |
 | [决策与概率](skills/decision-probability/README.md) | 24 | 24 | 0 | [目录](#决策与概率24) |
@@ -32,7 +32,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [行为经济学与偏误](skills/behavioral-biases/README.md) | 30 | 30 | 0 | [目录](#行为经济学与偏误30) |
 | [金融与投资](skills/finance-investing-models/README.md) | 30 | 30 | 0 | [目录](#金融与投资30) |
 | [系统与经典效应](skills/systems-classic-effects/README.md) | 30 | 30 | 0 | [目录](#系统与经典效应30) |
-| **合计** | **372** | **372** | **0** | |
+| **合计** | **373** | **373** | **0** | |
 
 另有原属通用思维模型库的 Skill 已分批迁入学科分类（含本轮 **25** 条迁入认知/决策/学习/战略/效率/复杂系统），只在新分类下列出。
 
@@ -92,6 +92,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 组织 / IT 情报与商业调研。
 
 - **[org-it-intel-report](skills/business/org-it-intel-report/SKILL.md)** — 组织 IT 情报报告：按麦肯锡式结构输出组织整体情况 + IT 投入/招投标情报报告（厂商中立）。
+- **[huawei-customer-insight](skills/business/huawei-customer-insight/SKILL.md)** — 华为客户洞察分析：按华为 MCR 体系对客户进行三维度（业务全景/决策链/竞争格局）+ 两扩展（客户价值/需求挖掘）深度洞察与攻坚分析。
 
 ### 通用思维模型（25）
 

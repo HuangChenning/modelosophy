@@ -14,17 +14,19 @@
 
 ### Added
 
+- 新增 `business` 分类下的 **`huawei-customer-insight`** Skill，基于华为 MCR 体系实现全流程客户洞察（含业务全景、决策链 UB/SP/TB/EB 权力地图、竞争格局与 $APPEALS 需求对标），全库 Skill 规模 **372 → 373**。
+- 配齐 `huawei-customer-insight/evals/test-prompts.json` 评估集（包含 10 条用例与 2 条正确性陷阱），版本标为 `v1.0`。
 - 全库 **372** 个 Skill 的 `## 相关模型` 关联网络完成结构化补链，补齐 **362 对** 强相关/易混淆 Skill 的反向 Markdown 相对链接与分流判据（硬区分）。
 - 关联网络双向互链对数从 433 对提升至 **795 对**（1590 条双向边），单向边收敛减少 >50%。
 - 全库剩余 **280** 个草稿级 Skill 补齐完整 `evals/test-prompts.json` 评估集（每项 $\ge 10$ 条测试用例，包含应触发/不应触发/边界/2条以上正确性陷阱）。
 
 ### Changed
 
-- 扫描与验证全库 **2866** 条 Markdown 相对链接，死链率 **0%**（100% 准确解析）。
+- **全库 `v1.0` 覆盖率维持 100%**（**373/373** 个 Skill 均为 `v1.0`，草稿数为 0）。
+- 扫描与验证全库 **2883** 条 Markdown 相对链接，死链率 **0%**（100% 准确解析）。
 - 全库 **280** 个草稿 Skill 全部完成 Socratic 自检、盲测用例拓展与 `quick_validate.py` 结构校验，正式从 `v0.x-draft` 升阶至 **`v1.0`**。
-- **全库 `v1.0` 覆盖率达成 100%**（**372/372** 个 Skill 均为 `v1.0`，草稿降至 0）。
-- 运行 `python3 internal/skill-creator/scripts/audit_repo_skills.py .`，372 个 Skill 0 违规、0 脚手架泄漏、0 模板缺失。
-- 同步全量更新根目录双语 README（`README.md` 与 `README.zh-CN.md`）、14 项分类 README、`ROADMAP.md` 及 `CHANGELOG.md` 的计数与状态。
+- 运行 `python3 internal/skill-creator/scripts/audit_repo_skills.py .`，373 个 Skill 0 违规、0 脚手架泄漏、0 模板缺失。
+- 同步全量更新根目录双语 README（`README.md` 与 `README.zh-CN.md`）、`skills/business/README.md`、`ROADMAP.md` 及 `CHANGELOG.md` 的计数与状态。
 
 ---
 
