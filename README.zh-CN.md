@@ -10,7 +10,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 这个仓库还处于早期阶段。`skills/<category>/` 下合计 **373** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
-**全库 379 个 Skill 已全量完成苏格拉底自检、测试集建设（>=10 条用例/Skill，包含 4 种类型与 2+ 条正确性陷阱）、`quick_validate.py` 结构校验及独立盲测，全量升级为 `version: v1.0`。**
+**全库 377 个 Skill 已全量完成苏格拉底自检、测试集建设（>=10 条用例/Skill，包含 4 种类型与 2+ 条正确性陷阱）、`quick_validate.py` 结构校验及独立盲测，全量升级为 `version: v1.0`。**
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)；仓库级变更历史见 [`CHANGELOG.md`](CHANGELOG.md)。
 
@@ -19,7 +19,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | 分类 | 合计 | `v1.0` | `v0.x-draft` | 目录 |
 | --- | ---: | ---: | ---: | --- |
 | [商业 / 组织情报](skills/business/README.md) | 6 | 6 | 0 | [目录](#商业--组织情报1) |
-| [通用思维模型](skills/thinking-models/README.md) | 27 | 27 | 0 | [目录](#通用思维模型25) |
+| [通用思维模型](skills/thinking-models/README.md) | 25 | 25 | 0 | [目录](#通用思维模型25) |
 | [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | 28 | 0 | [目录](#认知与思维工具28) |
 | [决策与概率](skills/decision-probability/README.md) | 24 | 24 | 0 | [目录](#决策与概率24) |
 | [学习与成长](skills/learning-growth/README.md) | 30 | 30 | 0 | [目录](#学习与成长30) |
@@ -32,7 +32,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [行为经济学与偏误](skills/behavioral-biases/README.md) | 30 | 30 | 0 | [目录](#行为经济学与偏误30) |
 | [金融与投资](skills/finance-investing-models/README.md) | 30 | 30 | 0 | [目录](#金融与投资30) |
 | [系统与经典效应](skills/systems-classic-effects/README.md) | 30 | 30 | 0 | [目录](#系统与经典效应30) |
-| **合计** | **379** | **379** | **0** | |
+| **合计** | **377** | **377** | **0** | |
 
 另有原属通用思维模型库的 Skill 已分批迁入学科分类（含本轮 **25** 条迁入认知/决策/学习/战略/效率/复杂系统），只在新分类下列出。
 
@@ -73,8 +73,8 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 库仍处于早期：跨分类合计 **373** 个可执行模型（`business/` 2 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 165，后者刚达到 ~30/类的名录目标）。已知的欠缺，如实列出：
 
-- **全库已 100% 升阶至 `v1.0`。** 全库 379 个 Skill 均已完成盲测用例拓展（每项 $\ge 10$ 条测试用例，涵盖应触发/不应触发/边界/2条以上正确性陷阱）、苏格拉底自检与结构校验。
-- **所有 379 个 Skill 的评估集均已配齐 $\ge 10$ 条用例。** 覆盖应触发、不应触发、边界情况及 2+ 条正确性陷阱，全库 3,737 条用例经过 Batch Benchmark 自动化评测（综合通过率 99.65%）。须注意：evals 验证的是触发与分流准确性，而非事实核查。
+- **全库已 100% 升阶至 `v1.0`。** 全库 377 个 Skill 均已完成盲测用例拓展（每项 $\ge 10$ 条测试用例，涵盖应触发/不应触发/边界/2条以上正确性陷阱）、苏格拉底自检与结构校验。
+- **所有 377 个 Skill 的评估集均已配齐 $\ge 10$ 条用例。** 覆盖应触发、不应触发、边界情况及 2+ 条正确性陷阱，全库 3,737 条用例经过 Batch Benchmark 自动化评测（综合通过率 99.65%）。须注意：evals 验证的是触发与分流准确性，而非事实核查。
 - **`v1.0` 不等于内容已核实。** 2026-08-19 的内容审计（三轮）读完了全部 **350 个** `SKILL.md`——全覆盖，不是抽样——在版本号两侧都找出了实质问题并修复共 50 处：公式下标被形近的非拉丁字符顶替、经典实验/引用细节记错、两个同名但不同的公式撞名未做区分、正文步骤与自己声明的边界互相矛盾、两个战略类 skill 之间未点破的理论冲突——其中 `v1.0` 那批还专门查出一个路由类 skill（`munger-misjudgment`）的查找表指向了 5 个错误或已过时的目标。背后的教训不变：盲测查的是触发，不是事实；草稿和 `v1.0` 都不该被当成"已核实"。完整审计轨迹见 [`ROADMAP.md`](ROADMAP.md)。
 
 编写规范仍可能随库扩张调整。
@@ -122,8 +122,6 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[munger-misjudgment](skills/thinking-models/munger-misjudgment/SKILL.md)** — 人类误判心理：用芒格 25 种心理倾向做清单扫描，并警惕 Lollapalooza 叠加。
 - **[negentropy](skills/thinking-models/negentropy/SKILL.md)** — 负熵：用账本诊断开放系统如何靠输入自由能/信息维持局部有序并排出废热。
 - **[process-replication](skills/thinking-models/process-replication/SKILL.md)** — 可复制化：把成功经验蒸馏为可迁移步骤，按本地约束适配后再规模化。
-- **[pyramid-principle](skills/thinking-models/pyramid-principle/SKILL.md)** — 金字塔原理：思考、表达与问题解决的黄金法则，遵循结论先行、以上统下、归类分组 (MECE) 与逻辑递进。
-- **[scqa-framework](skills/thinking-models/scqa-framework/SKILL.md)** — SCQA 结构化叙事框架：用情境 (S)、冲突 (C)、问题 (Q)、解答 (A) 组织沟通开场，支持标准式、开门见山式、突出忧虑式与突出信心式 4 种变体。
 - **[redundancy](skills/thinking-models/redundancy/SKILL.md)** — 冗余备份：为故障与单点失效有意保留多余容量、路径或副本。
 - **[situational-leadership](skills/thinking-models/situational-leadership/SKILL.md)** — 情境领导：按下属在具体任务上的准备度（能力×意愿）切换督导风格。
 - **[socratic-questioning](skills/thinking-models/socratic-questioning/SKILL.md)** — 苏格拉底式质疑：用诘问检验主张是否站得住——追问到矛盾显现，而非直接反驳。
@@ -135,33 +133,33 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 第一性原理、结构化拆解、批判性思维等认知工具。
 
 - **[abstraction-ladder](skills/cognitive-thinking-tools/abstraction-ladder/SKILL.md)** — 抽象阶梯：在具体与抽象之间有意识上下钻（草稿；≠ 推论阶梯）。
-- **[analogical-thinking](skills/cognitive-thinking-tools/analogical-thinking/SKILL.md)** — 类比思维：结构映射迁移并检验失效边界（草稿）。
-- **[backward-goal](skills/cognitive-thinking-tools/backward-goal/SKILL.md)** — 反向目标：从可验收终态倒推到今日动作（草稿）。
-- **[concept-map](skills/cognitive-thinking-tools/concept-map/SKILL.md)** — 概念图：概念+连接词构成命题网络（草稿）。
+- **[analogical-thinking](skills/cognitive-thinking-tools/analogical-thinking/SKILL.md)** — 类比思维：结构映射迁移并检验失效边界。
+- **[backward-goal](skills/cognitive-thinking-tools/backward-goal/SKILL.md)** — 反向目标：从可验收终态倒推到今日动作。
+- **[concept-map](skills/cognitive-thinking-tools/concept-map/SKILL.md)** — 概念图：概念+连接词构成命题网络。
 - **[critical-thinking](skills/cognitive-thinking-tools/critical-thinking/SKILL.md)** — 批判性思维：按 Facione Delphi 框架练诠释、分析、评估、推理、说明与自我校准。
 - **[cross-validation-thinking](skills/cognitive-thinking-tools/cross-validation-thinking/SKILL.md)** — 交叉验证：多独立证据路径核验主张（草稿；≠ ML k-fold）。
 - **[decision-matrix](skills/cognitive-thinking-tools/decision-matrix/SKILL.md)** — 决策矩阵：多标准加权评分与敏感性（草稿；概率树见决策与概率）。
-- **[diamond-six-steps](skills/cognitive-thinking-tools/diamond-six-steps/SKILL.md)** — 菱形六步法：两轮发散—收敛门控（草稿）。
+- **[diamond-six-steps](skills/cognitive-thinking-tools/diamond-six-steps/SKILL.md)** — 菱形六步法：两轮发散—收敛门控。
 - **[first-principles](skills/cognitive-thinking-tools/first-principles/SKILL.md)** — 第一性原理：把判断拆到硬事实/物理约束，再从约束重新往上构建，少靠类比。
-- **[five-whys](skills/cognitive-thinking-tools/five-whys/SKILL.md)** — 5Why：沿因果链追问至可行动根因（草稿）。
+- **[five-whys](skills/cognitive-thinking-tools/five-whys/SKILL.md)** — 5Why：沿因果链追问至可行动根因。
 - **[golden-circle](skills/cognitive-thinking-tools/golden-circle/SKILL.md)** — 黄金圈：按 WHY–HOW–WHAT 整理沟通与策略叙事，先目的再方法再产品。
-- **[hypothesis-testing](skills/cognitive-thinking-tools/hypothesis-testing/SKILL.md)** — 假设检验：写成可证伪命题并设计对照证据（草稿）。
+- **[hypothesis-testing](skills/cognitive-thinking-tools/hypothesis-testing/SKILL.md)** — 假设检验：写成可证伪命题并设计对照证据。
 - **[inversion](skills/cognitive-thinking-tools/inversion/SKILL.md)** — 逆向思维：从失败倒推——先问「怎样保证搞砸」，再把每条失败路径变成规避项。
-- **[lateral-thinking](skills/cognitive-thinking-tools/lateral-thinking/SKILL.md)** — 水平思考：用挑衅/跳框逃离定势后再垂直评估（草稿）。
-- **[logic-tree](skills/cognitive-thinking-tools/logic-tree/SKILL.md)** — 逻辑树：把主问题拆成可行动的议题/假设叶子（草稿）。
+- **[lateral-thinking](skills/cognitive-thinking-tools/lateral-thinking/SKILL.md)** — 水平思考：用挑衅/跳框逃离定势后再垂直评估。
+- **[logic-tree](skills/cognitive-thinking-tools/logic-tree/SKILL.md)** — 逻辑树：把主问题拆成可行动的议题/假设叶子。
 - **[mece](skills/cognitive-thinking-tools/mece/SKILL.md)** — MECE：把议题拆成相互独立、完全穷尽的类别，便于分析与分工。
-- **[mind-map](skills/cognitive-thinking-tools/mind-map/SKILL.md)** — 思维导图：中心放射的层级联想笔记与外化（草稿）。
+- **[mind-map](skills/cognitive-thinking-tools/mind-map/SKILL.md)** — 思维导图：中心放射的层级联想笔记与外化。
 - **[occams-razor](skills/cognitive-thinking-tools/occams-razor/SKILL.md)** — 奥卡姆剃刀：在同样能解释现象的假设中，优先所需特设假设更少者，再验证。
-- **[octopus-diagram](skills/cognitive-thinking-tools/octopus-diagram/SKILL.md)** — 八爪鱼图：中心主题+多腕足维度盘点（草稿）。
+- **[octopus-diagram](skills/cognitive-thinking-tools/octopus-diagram/SKILL.md)** — 八爪鱼图：中心主题+多腕足维度盘点。
 - **[pros-cons-list](skills/cognitive-thinking-tools/pros-cons-list/SKILL.md)** — 优劣势清单：利弊并列扫描（草稿；加权走决策矩阵）。
 - **[pyramid-principle](skills/cognitive-thinking-tools/pyramid-principle/SKILL.md)** — 金字塔原理：结论先行，上层概括下层，同层 MECE 组织论证与沟通。
-- **[scqa](skills/cognitive-thinking-tools/scqa/SKILL.md)** — SCQA：情境–冲突–问题–答案的开场与问题定义（草稿）。
+- **[scqa](skills/cognitive-thinking-tools/scqa/SKILL.md)** — SCQA：情境–冲突–问题–答案的开场与问题定义。
 - **[six-thinking-hats](skills/cognitive-thinking-tools/six-thinking-hats/SKILL.md)** — 六顶思考帽：把会议中的事实、感受、利益、风险与创意分时并行处理。
-- **[star-method](skills/cognitive-thinking-tools/star-method/SKILL.md)** — STAR：情境–任务–行动–结果的经历叙事（草稿）。
-- **[structured-thinking](skills/cognitive-thinking-tools/structured-thinking/SKILL.md)** — 结构化思维：问题定义→拆解→分析→综合的总流程（草稿）。
-- **[theory-of-constraints](skills/cognitive-thinking-tools/theory-of-constraints/SKILL.md)** — TOC 约束理论：聚焦系统吞吐瓶颈的五步法（草稿）。
-- **[thought-experiment](skills/cognitive-thinking-tools/thought-experiment/SKILL.md)** — 思维实验：反事实设定中澄清原则并声明限度（草稿）。
-- **[triz](skills/cognitive-thinking-tools/triz/SKILL.md)** — TRIZ：把设计矛盾结构化并用分离/发明原理启发非折中解（草稿）。
+- **[star-method](skills/cognitive-thinking-tools/star-method/SKILL.md)** — STAR：情境–任务–行动–结果的经历叙事。
+- **[structured-thinking](skills/cognitive-thinking-tools/structured-thinking/SKILL.md)** — 结构化思维：问题定义→拆解→分析→综合的总流程。
+- **[theory-of-constraints](skills/cognitive-thinking-tools/theory-of-constraints/SKILL.md)** — TOC 约束理论：聚焦系统吞吐瓶颈的五步法。
+- **[thought-experiment](skills/cognitive-thinking-tools/thought-experiment/SKILL.md)** — 思维实验：反事实设定中澄清原则并声明限度。
+- **[triz](skills/cognitive-thinking-tools/triz/SKILL.md)** — TRIZ：把设计矛盾结构化并用分离/发明原理启发非折中解。
 
 ### 决策与概率（24）
 
@@ -298,28 +296,28 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[wip-limits](skills/efficiency-execution/wip-limits/SKILL.md)** — WIP 限制：在制品上限暴露瓶颈、缩短周期。
 
 ### 系统与复杂（23）
-- **[causal-loop-diagram](skills/systems-complexity/causal-loop-diagram/SKILL.md)** — 因果回路图：带极性的增强/调节回路并标延迟（草稿）。
-- **[collective-intelligence](skills/systems-complexity/collective-intelligence/SKILL.md)** — 集体智能：多样性、独立与聚合机制（草稿）。
-- **[complex-adaptive-systems](skills/systems-complexity/complex-adaptive-systems/SKILL.md)** — 复杂适应系统：异质适应主体、局部规则与共同演化（草稿）。
-- **[delay-feedback](skills/systems-complexity/delay-feedback/SKILL.md)** — 延迟反馈：时滞如何造成过冲与振荡（草稿）。
+- **[causal-loop-diagram](skills/systems-complexity/causal-loop-diagram/SKILL.md)** — 因果回路图：带极性的增强/调节回路并标延迟。
+- **[collective-intelligence](skills/systems-complexity/collective-intelligence/SKILL.md)** — 集体智能：多样性、独立与聚合机制。
+- **[complex-adaptive-systems](skills/systems-complexity/complex-adaptive-systems/SKILL.md)** — 复杂适应系统：异质适应主体、局部规则与共同演化。
+- **[delay-feedback](skills/systems-complexity/delay-feedback/SKILL.md)** — 延迟反馈：时滞如何造成过冲与振荡。
 - **[dissipative-structures](skills/systems-complexity/dissipative-structures/SKILL.md)** — 耗散结构：远离平衡经涨落过阈值形成新有序，并靠持续耗散维持。
-- **[edge-of-chaos](skills/systems-complexity/edge-of-chaos/SKILL.md)** — 混沌边缘：秩序与混乱之间的可进化工作点（草稿）。
-- **[emergence](skills/systems-complexity/emergence/SKILL.md)** — 涌现：宏观模式由微观互动生成，不可零件属性加总（草稿）。
-- **[fitness-landscape](skills/systems-complexity/fitness-landscape/SKILL.md)** — 适应度景观：多峰搜索、局部最优与跳跃/改景观（草稿）。
-- **[fractals](skills/systems-complexity/fractals/SKILL.md)** — 分形：给定尺度窗内的跨尺度自相似（草稿）。
-- **[homeostasis](skills/systems-complexity/homeostasis/SKILL.md)** — 内稳态：围绕设定点的传感—比较—效应器调节（草稿）。
+- **[edge-of-chaos](skills/systems-complexity/edge-of-chaos/SKILL.md)** — 混沌边缘：秩序与混乱之间的可进化工作点。
+- **[emergence](skills/systems-complexity/emergence/SKILL.md)** — 涌现：宏观模式由微观互动生成，不可零件属性加总。
+- **[fitness-landscape](skills/systems-complexity/fitness-landscape/SKILL.md)** — 适应度景观：多峰搜索、局部最优与跳跃/改景观。
+- **[fractals](skills/systems-complexity/fractals/SKILL.md)** — 分形：给定尺度窗内的跨尺度自相似。
+- **[homeostasis](skills/systems-complexity/homeostasis/SKILL.md)** — 内稳态：围绕设定点的传感—比较—效应器调节。
 - **[iceberg-model](skills/systems-complexity/iceberg-model/SKILL.md)** — 冰山模型：器物/行为之下分层规范与基本假设，避免只改水面以上。
 - **[leverage](skills/systems-complexity/leverage/SKILL.md)** — 杠杆点：小投入撬动大结构改变（Meadows），不是鼓吹财务杠杆。
-- **[multistability](skills/systems-complexity/multistability/SKILL.md)** — 多稳态：多个吸引盆与回滞（草稿）。
-- **[network-topology](skills/systems-complexity/network-topology/SKILL.md)** — 网络拓扑：图度量与结构干预入口（草稿）。
-- **[normal-distribution](skills/systems-complexity/normal-distribution/SKILL.md)** — 正态分布：薄尾钟形；与幂律对照（草稿）。
-- **[power-law](skills/systems-complexity/power-law/SKILL.md)** — 幂律：胖尾与尾部策略；与正态对照（草稿）。
-- **[requisite-variety](skills/systems-complexity/requisite-variety/SKILL.md)** — 必要多样性：Ashby 扰动×响应匹配（草稿）。
-- **[scale-free-network](skills/systems-complexity/scale-free-network/SKILL.md)** — 无标度网络：度数幂律与枢纽；优先连接与韧性（草稿）。
-- **[self-organization](skills/systems-complexity/self-organization/SKILL.md)** — 自组织：无中央蓝图下由局部规则与流生成秩序（草稿）。
-- **[small-world-network](skills/systems-complexity/small-world-network/SKILL.md)** — 小世界网络：高聚类 + 短路径；少量长程捷径（草稿）。
-- **[stock-and-flow](skills/systems-complexity/stock-and-flow/SKILL.md)** — 存量与流量：浴缸式累积与单位一致的速率（草稿）。
-- **[system-archetypes](skills/systems-complexity/system-archetypes/SKILL.md)** — 系统基模：增长上限、舍本逐末等可复用反馈故事（草稿）。
+- **[multistability](skills/systems-complexity/multistability/SKILL.md)** — 多稳态：多个吸引盆与回滞。
+- **[network-topology](skills/systems-complexity/network-topology/SKILL.md)** — 网络拓扑：图度量与结构干预入口。
+- **[normal-distribution](skills/systems-complexity/normal-distribution/SKILL.md)** — 正态分布：薄尾钟形；与幂律对照。
+- **[power-law](skills/systems-complexity/power-law/SKILL.md)** — 幂律：胖尾与尾部策略；与正态对照。
+- **[requisite-variety](skills/systems-complexity/requisite-variety/SKILL.md)** — 必要多样性：Ashby 扰动×响应匹配。
+- **[scale-free-network](skills/systems-complexity/scale-free-network/SKILL.md)** — 无标度网络：度数幂律与枢纽；优先连接与韧性。
+- **[self-organization](skills/systems-complexity/self-organization/SKILL.md)** — 自组织：无中央蓝图下由局部规则与流生成秩序。
+- **[small-world-network](skills/systems-complexity/small-world-network/SKILL.md)** — 小世界网络：高聚类 + 短路径；少量长程捷径。
+- **[stock-and-flow](skills/systems-complexity/stock-and-flow/SKILL.md)** — 存量与流量：浴缸式累积与单位一致的速率。
+- **[system-archetypes](skills/systems-complexity/system-archetypes/SKILL.md)** — 系统基模：增长上限、舍本逐末等可复用反馈故事。
 - **[tipping-point](skills/systems-complexity/tipping-point/SKILL.md)** — 临界点：临界质量附近的非线性相变，过阈值可快速翻转。
 
 ### 宏观经济学理论（30）
