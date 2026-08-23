@@ -65,6 +65,8 @@ metadata:
 
 ## 相关模型
 
+- **与[去学习](../unlearning/SKILL.md)**：用去学习（Unlearning）有意识地抑制、替换或退役过时的知识、技能与习惯，…。本模型与其形成场景或方法层面的互补/分流。
+- **与[认知负荷理论](../cognitive-load/SKILL.md)**：用认知负荷理论（Cognitive Load Theory, Sweller）诊…。本模型与其形成场景或方法层面的互补/分流。
 - **与[刻意练习](../deliberate-practice/SKILL.md)**：刻意练习在反馈下持续精炼组块库；本模型显式打包与命名。
 - **与[交错练习](../interleaved-practice/SKILL.md)**：交错训练「选哪一块」；先有可辨组块再交错。
 - **与[双重编码](../dual-coding/SKILL.md)**：为组块配示意，强化块的可提取性。

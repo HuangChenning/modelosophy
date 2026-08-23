@@ -67,6 +67,8 @@ metadata:
 
 ## 相关模型
 
+- **与[STAR](../star-method/SKILL.md)**：用 STAR（Situation–Task–Action–Result）帮用户把…。本模型与其形成场景或方法层面的互补/分流。
+- **与[SCQA](../scqa/SKILL.md)**：用 SCQA（Situation–Complication–Question–A…。本模型与其形成场景或方法层面的互补/分流。
 - **与[第一性原理](../first-principles/SKILL.md)**：拆硬约束重建方案；黄金圈是沟通对齐，不自动产生真约束。
 - **与[SWOT](../../strategy-competition/swot/SKILL.md)**：态势与匹配出选项；黄金圈包装选项的叙事一致性。
 - **与[福格行为模型](../../thinking-models/fogg-behavior-model/SKILL.md)**：WHY 可提高动机，但行为发生仍要 Ability×Prompt。

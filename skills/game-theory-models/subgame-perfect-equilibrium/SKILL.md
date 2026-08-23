@@ -57,6 +57,7 @@ Selten：整体策略在整棵博弈树的每个节点（子博弈）上仍是�
 
 ## 相关模型
 
+- **与[承诺机制](../../efficiency-execution/commitment-devices/SKILL.md)**：为执行层面设计承诺机制/自我约束装置：在冷静状态下预先设置对未来自己有真实约束力…。本模型与其形成场景或方法层面的互补/分流。
 - **与[逆向归纳法](../backward-induction/SKILL.md)**：算法工具；本条是解概念与可信性。
 - **与[纳什均衡](../nash-equilibrium/SKILL.md)**：SPE 是动态精炼。
 

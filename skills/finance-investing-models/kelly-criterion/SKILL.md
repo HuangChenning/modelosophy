@@ -58,6 +58,10 @@ f* = (b p − q) / b
 
 ## 相关模型
 
+- **与[布莱克-斯科尔斯期权定价](../black-scholes/SKILL.md)**：用布莱克-斯科尔斯框架理解欧式期权定价直觉：价格由标的、行权价、期限、利率、分红…。本模型与其形成场景或方法层面的互补/分流。
+- **与[风险溢价](../../decision-probability/risk-premium/SKILL.md)**：用风险溢价概念解释「不确定现金流为何要求更高回报」：无风险基准 + 风险补偿，拆…。本模型与其形成场景或方法层面的互补/分流。
+- **与[期望效用](../../decision-probability/expected-utility/SKILL.md)**：用期望效用（expected utility）在结果金额对决策者「不线性」时做选…。本模型与其形成场景或方法层面的互补/分流。
+- **与[不对称回报](../../decision-probability/asymmetric-payoff/SKILL.md)**：用不对称回报/风险不对称思维筛选「下行有限、上行开放」或相反的暴露结构，比较左尾…。本模型与其形成场景或方法层面的互补/分流。
 - **与[期望值](../../decision-probability/expected-value/SKILL.md)**：先有 EV/边缘，才有凯利。
 - **与[夏普比率](../sharpe-ratio/SKILL.md)**：评价效率；凯利定仓位。
 - **与[复利](../compounding/SKILL.md)**：凯利直接服务对数复利增长目标。

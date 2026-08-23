@@ -61,6 +61,7 @@ metadata:
 
 ## 相关模型
 
+- **与[延迟反馈](../delay-feedback/SKILL.md)**：用延迟反馈分析「调节动作与结果不同步」如何造成振荡、过冲与政策抗拒，并设计可观测…。本模型与其形成场景或方法层面的互补/分流。
 - **与[因果回路图](../causal-loop-diagram/SKILL.md)**：先定性后定量；或由 S&F 反推回路。
 - **与[系统动力学](../../systems-classic-effects/system-dynamics/SKILL.md)**：SD 是更大建模范式；本 skill 专攻存量流量基本功。
 - **与[临界点](../tipping-point/SKILL.md)**：存量靠近阈值时流量小扰动可致翻转——可连用。

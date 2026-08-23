@@ -62,6 +62,9 @@ metadata:
 
 ## 相关模型
 
+- **与[时间块](../time-blocking/SKILL.md)**：用时间块（Time Blocking）把日历切成专属用途的连续时段，保护深度工作…。本模型与其形成场景或方法层面的互补/分流。
+- **与[单任务处理](../single-tasking/SKILL.md)**：用单任务处理（Single-Tasking / Monotasking）设计"一…。本模型与其形成场景或方法层面的互补/分流。
+- **与[精力管理](../energy-management/SKILL.md)**：用精力管理（Energy Management）按身心高峰匹配任务类型，而非只管…。本模型与其形成场景或方法层面的互补/分流。
 - **与[深度工作](../../learning-growth/deep-work/SKILL.md)**：**硬分流。** 番茄=短节奏计时；深度工作=无扰高认知长块。名录「深度工作法」落学习类主条。
 - **与[艾森豪威尔矩阵](../eisenhower-matrix/SKILL.md)**：先选重要任务，再番茄执行。
 - **与[GTD](../gtd/SKILL.md)**：GTD 产生下一步；番茄执行下一步。

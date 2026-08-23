@@ -63,6 +63,8 @@ metadata:
 
 ## 相关模型
 
+- **与[反馈回路](../../systems-classic-effects/feedback-loops/SKILL.md)**：用反馈回路区分增强回路与调节回路，判断问题是自我强化还是目标追踪，并选择削弱/加…。本模型与其形成场景或方法层面的互补/分流。
+- **与[TOC](../../cognitive-thinking-tools/theory-of-constraints/SKILL.md)**：用约束理论 TOC（Theory of Constraints，Goldratt…。本模型与其形成场景或方法层面的互补/分流。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：系统思维提供存量流量与回路语言；杠杆点是在其上选干预层级。
 - **与[帕累托](../../systems-classic-effects/pareto-principle/SKILL.md)**：二八找“少数重要事实”；杠杆点问“干预层级是否够高”。常先度量集中度，再选层级。
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：反脆弱配置暴露；杠杆点选撬动位置。高杠杆≠反脆弱。

@@ -79,6 +79,10 @@ metadata:
 
 ## 相关模型
 
+- **与[水平思考](../lateral-thinking/SKILL.md)**：用 Edward de Bono 的水平思考（Lateral Thinking）…。本模型与其形成场景或方法层面的互补/分流。
+- **与[假设检验](../hypothesis-testing/SKILL.md)**：用假设检验思维把判断写成可证伪命题，设计观察/实验区分「支持 vs 削弱」，  …。本模型与其形成场景或方法层面的互补/分流。
+- **与[5Why](../five-whys/SKILL.md)**：用丰田式 5Why（Five Whys）沿因果链连续追问「为什么」，直到定位可行…。本模型与其形成场景或方法层面的互补/分流。
+- **与[交叉验证思维](../cross-validation-thinking/SKILL.md)**：用交叉验证思维（多源独立核验 / triangulation）要求关键主张至少被…。本模型与其形成场景或方法层面的互补/分流。
 - **与[苏格拉底式质疑](../../thinking-models/socratic-questioning/SKILL.md)**：**硬区分。** 苏格拉底 = elenchus 证伪、常止于 aporia、不证成。本模型 = 技能+倾向清单、评估证据标准、可给出改进后的判断。用户说挑毛病/苏格拉底 → 前者；系统审论证质量 → 本模型。可连用：先诘问清场，再 Delphi 重建。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：确认偏差专攻证据搜集与加权的选择性；本模型覆盖完整论证评估，可调用确认偏差检查作子步骤。
 - **与[隐含前提](../../thinking-models/implicit-premises/SKILL.md)**：隐含前提专挖未说出的假设；本模型在分析步会用到，但不止于此。

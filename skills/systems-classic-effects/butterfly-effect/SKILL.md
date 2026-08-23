@@ -73,6 +73,8 @@ Lorenz 气象模型的经典叙事（蝴蝶扇动翅膀与远方风暴）是这�
 
 ## 相关模型
 
+- **与[断裂点](../../systems-complexity/tipping-point/SKILL.md)**：用临界点/断裂点思维帮用户识别系统在临界质量附近可能发生的非线性相变：积累到阈值…。本模型与其形成场景或方法层面的互补/分流。
+- **与[基钦周期](../../econ-macro-theories/kitchin-cycle/SKILL.md)**：用基钦库存周期解释短波波动与补库/去库阶段。。本模型与其形成场景或方法层面的互补/分流。
 - **与[系统思维](../systems-thinking/SKILL.md)**：系统思维找存量流量与杠杆；蝴蝶效应专问初值敏感与预报视界。先有结构，再问是否 SDIC。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：复利是定向的再投入增长；蝴蝶效应不保证增长方向。
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：在不可预报域，策略转向限制下行、保留期权，而不是更精的点预测。

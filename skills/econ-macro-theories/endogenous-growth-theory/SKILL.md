@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[马尔萨斯陷阱](../malthusian-trap/SKILL.md)**：用马尔萨斯陷阱理解前现代人均停滞与破局条件（技术/制度/人口转型）。。本模型与其形成场景或方法层面的互补/分流。
 - **与[索洛增长模型](../solow-growth-model/SKILL.md)**：外生 vs 内生技术；先分清问题层级。
 - **与[创造性破坏](../creative-destruction/SKILL.md)**：熊彼特竞争式创新引擎。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：增长累积；内生理论解释增速从哪来。

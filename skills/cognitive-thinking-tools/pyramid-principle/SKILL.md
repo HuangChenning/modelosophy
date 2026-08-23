@@ -73,6 +73,9 @@ Barbara Minto 的金字塔原理：思想应组织成**顶层一个清晰结论�
 
 ## 相关模型
 
+- **与[STAR](../star-method/SKILL.md)**：用 STAR（Situation–Task–Action–Result）帮用户把…。本模型与其形成场景或方法层面的互补/分流。
+- **与[逻辑树](../logic-tree/SKILL.md)**：用逻辑树（议题树/假设树/决策树式问题分解）把主问题拆成可回答的子问题层级，  …。本模型与其形成场景或方法层面的互补/分流。
+- **与[抽象阶梯](../abstraction-ladder/SKILL.md)**：用抽象阶梯（Ladder of Abstraction，Hayakawa）在「具…。本模型与其形成场景或方法层面的互补/分流。
 - **与[SCQA](../scqa/SKILL.md)**：**硬区分。** 只要开场四段/问题定义 → SCQA；要完整论证塔 → 本模型。本模型可将 SCQA 作可选引入。
 - **与[MECE](../mece/SKILL.md)**：MECE 管同层分类不重不漏；金字塔管结论—论据的纵向论证结构。金字塔的每一层内部应尽量 MECE。
 - **与[演绎法](../../thinking-models/deductive-reasoning/SKILL.md)**：演绎检查形式有效；金字塔组织表达顺序。有效推理仍需可读结构。

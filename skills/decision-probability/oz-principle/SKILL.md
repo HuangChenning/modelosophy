@@ -67,6 +67,7 @@ metadata:
 
 ## 相关模型
 
+- **与[委派](../../efficiency-execution/delegation/SKILL.md)**：用委派（Delegation）把结果与权限清晰移交他人，保留适当跟进而不微观管理…。本模型与其形成场景或方法层面的互补/分流。
 - **与[复盘四步法](../after-action-review/SKILL.md)**：AAR 提供事实对照结构；奥兹确保参与者停在线之上把改进做完。可连用。
 - **与[决策日志](../decision-journal/SKILL.md)**：Do It 的承诺写入日志，防口头担当。
 - **与[快速试错](../rapid-experimentation/SKILL.md)**：Solve/Do 常落地为实验序列。

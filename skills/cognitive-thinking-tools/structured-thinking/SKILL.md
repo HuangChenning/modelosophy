@@ -63,6 +63,9 @@ metadata:
 
 ## 相关模型
 
+- **与[菱形六步法](../diamond-six-steps/SKILL.md)**：用菱形六步法（发散—收敛两次的菱形流程）把问题解决分成：钉题→发散探查→收敛定义…。本模型与其形成场景或方法层面的互补/分流。
+- **与[反向目标](../backward-goal/SKILL.md)**：用反向目标（Backward Goal / 从终点反推）先钉死可验收的终态，再倒…。本模型与其形成场景或方法层面的互补/分流。
+- **与[抽象阶梯](../abstraction-ladder/SKILL.md)**：用抽象阶梯（Ladder of Abstraction，Hayakawa）在「具…。本模型与其形成场景或方法层面的互补/分流。
 - **与[MECE](../mece/SKILL.md)**：MECE 是本流程拆解步的纪律插件。
 - **与[逻辑树](../logic-tree/SKILL.md)**：逻辑树是本流程常用的显式载体。
 - **与[金字塔原理](../pyramid-principle/SKILL.md)**：金字塔管对外表达；本模型管对内分析路径。先结构化想清楚，再金字塔写出。

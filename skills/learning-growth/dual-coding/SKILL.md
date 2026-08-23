@@ -65,6 +65,7 @@ Allan Paivio 的理论强调意象系统与言语系统可联合；实践中关�
 
 ## 相关模型
 
+- **与[认知负荷理论](../cognitive-load/SKILL.md)**：用认知负荷理论（Cognitive Load Theory, Sweller）诊…。本模型与其形成场景或方法层面的互补/分流。
 - **与[组块](../chunking/SKILL.md)**：先把元素打成组块，再为组块配示意，避免一图五十个标签。
 - **与[精细加工提问](../elaborative-interrogation/SKILL.md)**：图解释「为何箭头如此」时连用精细加工。
 - **与[检索练习](../retrieval-practice/SKILL.md)**：双编码后仍须合上材料提取，看彩页不算会。

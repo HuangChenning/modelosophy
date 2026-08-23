@@ -59,6 +59,10 @@ metadata:
 
 ## 相关模型
 
+- **与[护城河](../economic-moat/SKILL.md)**：用经济护城河评估企业（或产品）能否在竞争下维持超额回报：识别壁垒来源（无形资产、…。本模型与其形成场景或方法层面的互补/分流。
+- **与[颠覆式创新](../disruptive-innovation/SKILL.md)**：用颠覆式创新（Disruptive Innovation）识别低端或新市场轨迹如…。本模型与其形成场景或方法层面的互补/分流。
+- **与[蓝海战略](../blue-ocean/SKILL.md)**：用蓝海战略（Blue Ocean Strategy）通过价值创新重建买方效用与成…。本模型与其形成场景或方法层面的互补/分流。
+- **与[BCG](../bcg-matrix/SKILL.md)**：用 BCG 矩阵（成长-份额矩阵）把业务按市场增长率×相对份额分为明星/现金牛/…。本模型与其形成场景或方法层面的互补/分流。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：复利给数学形式；飞轮给商业/组织因果故事。常一起成立，但检验方式不同。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：飞轮是增强回路的一种叙事包装；复杂延迟与调节回路仍用系统思维。
 - **与[路径依赖](../../systems-classic-effects/path-dependence/SKILL.md)**：飞轮动量也可能锁住次优标准。

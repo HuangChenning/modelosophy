@@ -58,6 +58,7 @@ metadata:
 
 ## 相关模型
 
+- **与[比较优势](../comparative-advantage/SKILL.md)**：用比较优势帮用户完成可执行分析：专注相对成本最低的领域，再通过交易共赢。。本模型与其形成场景或方法层面的互补/分流。
 - **与[外部性](../externality/SKILL.md)**：科斯提供谈判式内部化路径。
 - **与[公地悲剧](../tragedy-of-the-commons/SKILL.md)**：产权与治理成本决定悲剧是否发生。
 - **与[委托-代理](../principal-agent/SKILL.md)**：企业内部也是降低某些市场交易成本的装置。

@@ -73,6 +73,10 @@ Michael Porter 的行业结构框架：一个行业的**平均利润潜力**被�
 
 ## 相关模型
 
+- **与[商业模式画布](../business-model-canvas/SKILL.md)**：用商业模式画布把一个业务的九个模块（客户细分、价值主张、渠道、客户关系、收入来源…。本模型与其形成场景或方法层面的互补/分流。
+- **与[蓝海战略](../blue-ocean/SKILL.md)**：用蓝海战略（Blue Ocean Strategy）通过价值创新重建买方效用与成…。本模型与其形成场景或方法层面的互补/分流。
+- **与[垄断与自然垄断](../../econ-micro-markets/monopoly-natural-monopoly/SKILL.md)**：用垄断与自然垄断帮用户完成可执行分析：独占供给；若成本结构使一家生产最便宜，称自…。本模型与其形成场景或方法层面的互补/分流。
+- **与[进入壁垒](../../econ-micro-markets/barriers-to-entry/SKILL.md)**：用进入壁垒帮用户完成可执行分析：阻止或拖延新玩家以竞争姿态入场的障碍。。本模型与其形成场景或方法层面的互补/分流。
 - **与[SWOT](../swot/SKILL.md)**：五力=行业结构吸引力；SWOT=特定对象 S/W/O/T + 匹配。先结构后定位，或并行但勿混格。
 - **与[护城河](../economic-moat/SKILL.md)**：五力看平均；护城河看你能否在结构中保住超额。
 - **与[MECE](../../cognitive-thinking-tools/mece/SKILL.md)**：五力条目内证据尽量不重不漏；五力不是唯一行业分类法。

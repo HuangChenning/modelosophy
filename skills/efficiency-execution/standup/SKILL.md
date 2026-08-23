@@ -60,6 +60,8 @@ metadata:
 
 ## 相关模型
 
+- **与[每周回顾](../weekly-review/SKILL.md)**：用每周回顾（Weekly Review）做一次固定时间盒的系统性复盘：清空收件箱…。本模型与其形成场景或方法层面的互补/分流。
+- **与[会议卫生](../meeting-hygiene/SKILL.md)**：用会议卫生（Meeting Hygiene）一组已被证实的具体规则——议程先行、…。本模型与其形成场景或方法层面的互补/分流。
 - **与[敏捷迭代](../agile-iteration/SKILL.md)**：站会是迭代内日节奏；迭代管计划-评审-回顾。
 - **与[看板](../kanban/SKILL.md)** / **[WIP 限制](../wip-limits/SKILL.md)**：站会对板看流与阻塞。
 - **与[持续改进](../continuous-improvement/SKILL.md)**：日障碍是改善输入。

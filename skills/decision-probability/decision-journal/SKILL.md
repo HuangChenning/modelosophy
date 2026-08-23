@@ -67,6 +67,8 @@ metadata:
 
 ## 相关模型
 
+- **与[快速试错](../rapid-experimentation/SKILL.md)**：用快速试错/快速实验（rapid experimentation）把不确定性切成…。本模型与其形成场景或方法层面的互补/分流。
+- **与[奥兹原则](../oz-principle/SKILL.md)**：用奥兹原则（The Oz Principle / Above the Line …。本模型与其形成场景或方法层面的互补/分流。
 - **与[复盘四步法](../after-action-review/SKILL.md)**：AAR 是事件后团队学习；日志是决策时个人/小组的前瞻记录。可连用：日志提供「当时预期」原料给 AAR。
 - **与[事前验尸](../pre-mortem/SKILL.md)**：验尸在批准前挖失败；日志在承诺时钉信念。验尸条目可写入日志的风险栏。
 - **与[贝叶斯更新](../bayesian-updating/SKILL.md)**：日志存先验与预测；证据来了用贝叶斯改信念，并回填后验。

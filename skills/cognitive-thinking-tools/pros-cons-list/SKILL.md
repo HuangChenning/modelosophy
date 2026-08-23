@@ -67,6 +67,8 @@ metadata:
 
 ## 相关模型
 
+- **与[菱形六步法](../diamond-six-steps/SKILL.md)**：用菱形六步法（发散—收敛两次的菱形流程）把问题解决分成：钉题→发散探查→收敛定义…。本模型与其形成场景或方法层面的互补/分流。
+- **与[反向目标](../backward-goal/SKILL.md)**：用反向目标（Backward Goal / 从终点反推）先钉死可验收的终态，再倒…。本模型与其形成场景或方法层面的互补/分流。
 - **与[决策矩阵](../decision-matrix/SKILL.md)**：**硬区分。** 快速利弊、粗重要性 → 本模型；显式权重、打分、敏感性 → 矩阵。两者均可归第七类名录；矩阵更形式化。
 - **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：**跨类。** 不确定分叉与概率 → 第八类决策树；确定语境下的利弊扫描 → 本模型。
 - **与[SWOT](../../strategy-competition/swot/SKILL.md)**：SWOT 不替代具体选项利弊表；战略环境走 SWOT，选项取舍走本模型或矩阵。

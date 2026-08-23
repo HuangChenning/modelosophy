@@ -62,6 +62,7 @@ metadata:
 
 ## 相关模型
 
+- **与[商业模式画布](../business-model-canvas/SKILL.md)**：用商业模式画布把一个业务的九个模块（客户细分、价值主张、渠道、客户关系、收入来源…。本模型与其形成场景或方法层面的互补/分流。
 - **与[飞轮](../flywheel/SKILL.md)**：平台常用飞轮描述加速；先有双边结构再画飞轮。
 - **与[梅特卡夫定律](../../systems-classic-effects/metcalfes-law/SKILL.md)**：网络价值粗启发式；平台战略管启动、治理与变现。
 - **与[护城河](../economic-moat/SKILL.md)**：网络效应是常见护城河来源之一。

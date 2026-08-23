@@ -60,6 +60,7 @@ metadata:
 
 ## 相关模型
 
+- **与[结构化拖延](../structured-procrastination/SKILL.md)**：用结构化拖延（Structured Procrastination，哲学家 Jo…。本模型与其形成场景或方法层面的互补/分流。
 - **与[艾森豪威尔矩阵](../eisenhower-matrix/SKILL.md)**：矩阵选出第 II 象限；吃青蛙决定「今日先咬哪一块」。
 - **与[精力管理](../energy-management/SKILL.md)**：青蛙应对准高峰，非时钟教条。
 - **与[时间块](../time-blocking/SKILL.md)**：青蛙占用第一个命名块。

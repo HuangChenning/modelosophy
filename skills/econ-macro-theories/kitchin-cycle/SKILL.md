@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[康德拉季耶夫长波](../kondratiev-wave/SKILL.md)**：谨慎用康波长波做超长期技术—投资情景（争议工具）。。本模型与其形成场景或方法层面的互补/分流。
 - **与[朱格拉周期](../juglar-cycle/SKILL.md)**：中期投资波；短波叠加上去。
 - **与[AD-AS 模型](../ad-as-model/SKILL.md)**：库存调整是需求短期波动机制之一。
 - **与[蝴蝶效应](../../systems-classic-effects/butterfly-effect/SKILL.md)**：小订单误差经供应链放大——可连用但勿神化。

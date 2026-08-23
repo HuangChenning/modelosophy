@@ -56,6 +56,7 @@ metadata:
 
 ## 相关模型
 
+- **与[费雪效应](../fisher-effect/SKILL.md)**：用费雪效应拆解名义利率 ≈ 实际利率 + 预期通胀（近似）；谈利率、估值与储蓄时…。本模型与其形成场景或方法层面的互补/分流。
 - **与[股利贴现模型](../dividend-discount-model/SKILL.md)**：DDM 是现金回流形式受限的 DCF。
 - **与[CAPM](../capm/SKILL.md)**：常为股权折现率提供脚手架。
 - **与[市盈率市净率](../pe-pb-valuation/SKILL.md)**：相对法快，DCF 慢但假设显式。

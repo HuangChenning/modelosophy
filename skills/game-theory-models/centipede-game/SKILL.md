@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[承诺机制](../../efficiency-execution/commitment-devices/SKILL.md)**：为执行层面设计承诺机制/自我约束装置：在冷静状态下预先设置对未来自己有真实约束力…。本模型与其形成场景或方法层面的互补/分流。
 - **与[逆向归纳法](../backward-induction/SKILL.md)**：理论引擎。
 - **与[有限理性与满意化](../bounded-rationality/SKILL.md)**：程序理性解释之一。
 

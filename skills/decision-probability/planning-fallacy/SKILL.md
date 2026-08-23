@@ -63,6 +63,8 @@ metadata:
 
 ## 相关模型
 
+- **与[阈值效应](../threshold-effect/SKILL.md)**：用阈值效应识别「跨过某临界水平后响应非线性跳变」的决策与干预问题：找阈值变量、 …。本模型与其形成场景或方法层面的互补/分流。
+- **与[蒙特卡洛模拟](../monte-carlo/SKILL.md)**：用蒙特卡洛模拟（Monte Carlo simulation）对不确定输入抽样，…。本模型与其形成场景或方法层面的互补/分流。
 - **与[基率思维](../base-rate/SKILL.md)**：外部视图的数据来源；本模型解释为何必须用它。
 - **与[过度自信](../../behavioral-biases/overconfidence/SKILL.md)**：计划谬误是过度自信在规划域的表现之一。
 - **与[红队思维](../red-team/SKILL.md) / [事前验尸](../pre-mortem/SKILL.md)**：组织售卖乐观计划时，用对抗与验尸压制漂亮故事。

@@ -59,6 +59,7 @@ metadata:
 
 ## 相关模型
 
+- **与[多米诺骨牌效应](../domino-effect/SKILL.md)**：用多米诺骨牌效应分析连锁反应：局部触发如何沿耦合链条逐级引爆，并定位隔断点与缓冲…。本模型与其形成场景或方法层面的互补/分流。
 - **与[黑天鹅](../black-swan/SKILL.md)**：不知/难知 vs 已知拖延。
 - **与[温水煮青蛙](../boiling-frog/SKILL.md)**：麻木未见 vs 见而不动。
 - **与[二阶思维](../second-order-thinking/SKILL.md)**：拖延的二阶常是更大冲击。

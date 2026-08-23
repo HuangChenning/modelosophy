@@ -65,6 +65,7 @@ Robert Metcalfe 提出的网络价值直觉：在**可相互通信**的网络里
 
 ## 相关模型
 
+- **与[平台战略](../../strategy-competition/platform-strategy/SKILL.md)**：用平台战略设计或多边市场：网络效应、鸡生蛋冷启动、治理与变现，避免当成单边管道生…。本模型与其形成场景或方法层面的互补/分流。
 - **与[护城河](../../strategy-competition/economic-moat/SKILL.md)**：梅特卡夫解释网络效应机制；护城河判断该机制是否转化为可持续超额利润。
 - **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：飞轮写因果闭环；梅特卡夫写规模—价值曲率假设。
 - **与[路径依赖](../path-dependence/SKILL.md)**：路径依赖解释标准/安装基数如何锁住历史路径；梅特卡夫只谈兼容网络的规模—价值启发式，不自动等于“已被劣解锁定”。

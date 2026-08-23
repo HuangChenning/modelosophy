@@ -60,6 +60,9 @@ metadata:
 
 ## 相关模型
 
+- **与[在制品限制](../wip-limits/SKILL.md)**：用在制品限制（WIP Limits）显式上限同时进行中的工作，暴露瓶颈并缩短周期…。本模型与其形成场景或方法层面的互补/分流。
+- **与[持续改进](../continuous-improvement/SKILL.md)**：用持续改进（Continuous Improvement / Kaizen）以小…。本模型与其形成场景或方法层面的互补/分流。
+- **与[批处理](../batching/SKILL.md)**：用批处理（Batching）把同类任务集中到同一时段处理，降低上下文切换成本。。本模型与其形成场景或方法层面的互补/分流。
 - **与[看板](../kanban/SKILL.md)**：精益原则；看板是拉动可视化工具。
 - **与[5S](../five-s/SKILL.md)**：5S 稳现场；精益管端到端价值流。
 - **与[TOC](../../cognitive-thinking-tools/theory-of-constraints/SKILL.md)**：TOC 盯约束；精益广谱减浪费——瓶颈处优先。

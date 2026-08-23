@@ -71,6 +71,7 @@ metadata:
 
 ## 相关模型
 
+- **与[二阶思维](../../systems-classic-effects/second-order-thinking/SKILL.md)**：用二阶思维强制追问“然后呢”：列出决策的后续效应、反馈与他人反应，避免停在一阶直…。本模型与其形成场景或方法层面的互补/分流。
 - **与[逆向思维](../../cognitive-thinking-tools/inversion/SKILL.md)**：逆向=事前列失败模式；反事实=事后若非模拟。改进规则可写入下次的 inversion 清单。
 - **与[损失规避](../../behavioral-biases/loss-aversion/SKILL.md)**：上行反事实常放大“失去的更好结果”之痛。
 - **与[沉没成本](../../behavioral-biases/sunk-cost/SKILL.md)**：反刍过去投入与反事实常纠缠；沉没成本问的是未来是否续投。

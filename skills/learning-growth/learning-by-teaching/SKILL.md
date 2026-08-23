@@ -66,6 +66,7 @@ metadata:
 
 ## 相关模型
 
+- **与[同伴学习](../peer-learning/SKILL.md)**：用同伴教学法（Peer Instruction）设计「独立作答→判断正确率区间→…。本模型与其形成场景或方法层面的互补/分流。
 - **与[费曼技巧](../feynman-technique/SKILL.md)**：费曼是个人浅白补洞；教中学加受众与检查点。可先费曼再面向真人。
 - **与[检索练习](../retrieval-practice/SKILL.md)**：备课与答疑本质是高强度提取。
 - **与[导师制](../mentorship/SKILL.md)**：正式带教关系容器；单次分享可用本模型。

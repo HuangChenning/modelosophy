@@ -62,6 +62,8 @@ metadata:
 
 ## 相关模型
 
+- **与[杠杆](../leverage/SKILL.md)**：用杠杆思维帮用户找到系统中「小投入、大结构化改变」的干预点：优先 Meadows…。本模型与其形成场景或方法层面的互补/分流。
+- **与[内稳态](../homeostasis/SKILL.md)**：用内稳态（稳态）设计与诊断「围绕设定点的负反馈调节」：传感、比较、效应器与可承受…。本模型与其形成场景或方法层面的互补/分流。
 - **与[反馈回路](../../systems-classic-effects/feedback-loops/SKILL.md)**：对方辨极性；本模型专攻时滞与振荡。
 - **与[因果回路图](../causal-loop-diagram/SKILL.md)**：CLD 上标注 delay 符号；本模型给干预策略。
 - **与[存量与流量](../stock-and-flow/SKILL.md)**：延迟常来自存量惯性；可连用定量。

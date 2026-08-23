@@ -53,6 +53,7 @@ metadata:
 
 ## 相关模型
 
+- **与[流动性偏好理论](../liquidity-preference/SKILL.md)**：用凯恩斯流动性偏好理解利率与持币三类动机：交易、预防、投机；解释为何利率不能只由…。本模型与其形成场景或方法层面的互补/分流。
 - **与[金融加速器](../financial-accelerator/SKILL.md)**：价格-净值-信贷的放大通道。
 - **与[泡沫周期](../bubble-cycle/SKILL.md)**：心理阶段与融资阶段常叠加。
 - **与[套利限制](../limits-to-arbitrage/SKILL.md)**：崩盘中资本撤离使纠偏更难。

@@ -53,6 +53,7 @@ metadata:
 
 ## 相关模型
 
+- **与[有效市场假说](../efficient-market-hypothesis/SKILL.md)**：用有效市场假说检验“价格是否已反映可用信息、主动战胜市场是否可预期”：弱/半强/…。本模型与其形成场景或方法层面的互补/分流。
 - **与[套利限制](../limits-to-arbitrage/SKILL.md)**：制度与资本约束总览；本条点名噪音维度。
 - **与[大傻瓜理论](../greater-fool-theory/SKILL.md)**：噪音常表现为接盘预期。
 - **与[动量与反转](../momentum-reversal/SKILL.md)**：噪音可制造中期动量。

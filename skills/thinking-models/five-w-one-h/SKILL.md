@@ -72,6 +72,7 @@ metadata:
 
 ## 相关模型
 
+- **与[5Why](../../cognitive-thinking-tools/five-whys/SKILL.md)**：用丰田式 5Why（Five Whys）沿因果链连续追问「为什么」，直到定位可行…。本模型与其形成场景或方法层面的互补/分流。
 - **与[MECE](../../cognitive-thinking-tools/mece/SKILL.md)**：MECE 管分类树；5W1H 管单事件信息槽。先槽位再分类，或相反，但不要互相冒充。
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：苏格拉底挑主张漏洞；5W1H 补事实缺口。
 - **与[隐含前提](../implicit-premises/SKILL.md)**：简报里常省略前提；缺槽暴露后可能要补隐含前提。

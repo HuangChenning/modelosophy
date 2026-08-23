@@ -60,6 +60,7 @@ metadata:
 
 ## 相关模型
 
+- **与[缓冲时间管理](../buffer-time/SKILL.md)**：用缓冲时间管理（源自 Goldratt 关键链项目管理 Critical Cha…。本模型与其形成场景或方法层面的互补/分流。
 - **与[关键路径](../critical-path/SKILL.md)**：**硬分流。** 关键路径算最长链；甘特展示条与时间。常连用：路径结论画在甘特上。
 - **与[里程碑规划](../milestone-planning/SKILL.md)**：先门后条，或条中嵌门。
 - **与[计划谬误](../../decision-probability/planning-fallacy/SKILL.md)**：估条时长加参考类。

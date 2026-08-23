@@ -67,6 +67,9 @@ Newport 强调：深度能力稀缺且可训练；关键不是「感觉忙」，
 
 ## 相关模型
 
+- **与[任务切换成本](../../efficiency-execution/task-switching-cost/SKILL.md)**：用任务切换成本（Task-Switching Cost）解释认知心理学研究证实的…。本模型与其形成场景或方法层面的互补/分流。
+- **与[单任务处理](../../efficiency-execution/single-tasking/SKILL.md)**：用单任务处理（Single-Tasking / Monotasking）设计"一…。本模型与其形成场景或方法层面的互补/分流。
+- **与[精力管理](../../efficiency-execution/energy-management/SKILL.md)**：用精力管理（Energy Management）按身心高峰匹配任务类型，而非只管…。本模型与其形成场景或方法层面的互补/分流。
 - **与[番茄工作法](../../efficiency-execution/pomodoro/SKILL.md)**：番茄管短周期计时与休息；深度工作管无扰高认知块。要计时习惯走番茄；要保护长专注走本模型（可连用番茄作热身）。
 - **与[心流](../flow/SKILL.md)**：心流是体验状态；深度工作是环境与日程设计。可互相促进。
 - **与[刻意练习](../deliberate-practice/SKILL.md)**：深度块提供时间容器；刻意练习填充训练内容。

@@ -78,6 +78,7 @@ metadata:
 
 ## 相关模型
 
+- **与[熵增定律](../../systems-classic-effects/entropy-increase/SKILL.md)**：用熵增定律（热力学第二定律的组织隐喻）判断孤立系统如何趋向无序，并对照需要何种开…。本模型与其形成场景或方法层面的互补/分流。
 - **与[耗散结构](../../systems-complexity/dissipative-structures/SKILL.md)**：本模型管“有序维持的账与开放方向”；耗散结构管“远离平衡、涨落、阈值分岔后的新宏观有序”。防僵化先做负熵账；谈相变式重组用耗散结构。
 - **与[路径依赖](../../systems-classic-effects/path-dependence/SKILL.md)**：路径依赖解释为何锁在旧路径；负熵强调用外部输入打破封闭回路。锁定机制清楚时两者可连用。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：系统思维画反馈、延迟、存量流量并找杠杆；负熵不替代回路图，只检查边界是否开放、输入/排出账是否足以维持目标有序。用户要“按下葫芦浮起瓢”的结构图 → 系统思维；用户要“封闭僵化怎么开输入” → 本模型。

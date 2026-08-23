@@ -58,6 +58,9 @@ metadata:
 
 ## 相关模型
 
+- **与[里程碑规划](../milestone-planning/SKILL.md)**：用里程碑规划（Milestone Planning）把长期目标切成可验证的阶段门…。本模型与其形成场景或方法层面的互补/分流。
+- **与[甘特图](../gantt-chart/SKILL.md)**：用甘特图（Gantt Chart）把任务按时间条与依赖可视化，沟通进度与并行关系…。本模型与其形成场景或方法层面的互补/分流。
+- **与[缓冲时间管理](../buffer-time/SKILL.md)**：用缓冲时间管理（源自 Goldratt 关键链项目管理 Critical Cha…。本模型与其形成场景或方法层面的互补/分流。
 - **与[看板](../kanban/SKILL.md)**：流动优化 vs 项目网络工期。
 - **与[TOC](../../cognitive-thinking-tools/theory-of-constraints/SKILL.md)**：约束可能在资源；可与关键链思想连用。
 - **与[PDCA](../pdca/SKILL.md)**：重算与复盘；估计偏差在 Check 中显式记录并加缓冲。

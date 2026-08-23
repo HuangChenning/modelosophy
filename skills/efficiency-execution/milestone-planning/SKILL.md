@@ -60,6 +60,9 @@ metadata:
 
 ## 相关模型
 
+- **与[一切就位](../mise-en-place/SKILL.md)**：用"一切就位"（法语烹饪术语 mise en place，经 Dan Charn…。本模型与其形成场景或方法层面的互补/分流。
+- **与[委派](../delegation/SKILL.md)**：用委派（Delegation）把结果与权限清晰移交他人，保留适当跟进而不微观管理…。本模型与其形成场景或方法层面的互补/分流。
+- **与[缓冲时间管理](../buffer-time/SKILL.md)**：用缓冲时间管理（源自 Goldratt 关键链项目管理 Critical Cha…。本模型与其形成场景或方法层面的互补/分流。
 - **与[甘特图](../gantt-chart/SKILL.md)**：里程碑定门；甘特展开任务条。
 - **与[关键路径](../critical-path/SKILL.md)**：门之间的最长链决定能否按期。
 - **与[OKR](../../strategy-competition/okr/SKILL.md)**：OKR 答「为何/何成果」；里程碑答「何时过哪一关」。

@@ -53,6 +53,7 @@ metadata:
 
 ## 相关模型
 
+- **与[承诺机制](../../efficiency-execution/commitment-devices/SKILL.md)**：为执行层面设计承诺机制/自我约束装置：在冷静状态下预先设置对未来自己有真实约束力…。本模型与其形成场景或方法层面的互补/分流。
 - **与[沉没成本](../sunk-cost/SKILL.md)**：常一起锁死坏项目。
 - **与[双曲贴现](../hyperbolic-discounting/SKILL.md)**：预承诺是解药之一。
 - **与[互惠原理](../reciprocity/SKILL.md)**：说服术组合拳。

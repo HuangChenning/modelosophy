@@ -67,6 +67,8 @@ metadata:
 
 ## 相关模型
 
+- **与[二阶思维](../../systems-classic-effects/second-order-thinking/SKILL.md)**：用二阶思维强制追问“然后呢”：列出决策的后续效应、反馈与他人反应，避免停在一阶直…。本模型与其形成场景或方法层面的互补/分流。
+- **与[艾森豪威尔矩阵](../../efficiency-execution/eisenhower-matrix/SKILL.md)**：用艾森豪威尔紧急×重要矩阵帮用户分配时间与注意力：先区分紧急与重要，优先投入重要…。本模型与其形成场景或方法层面的互补/分流。
 - **与[沉没成本](../../behavioral-biases/sunk-cost/SKILL.md)**：沉没成本移除过去投入的绑架；本模型拉开未来三个时间尺度。
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：10/10/10 澄清各时点价值，机会成本比较被放弃的最佳替代项。
 - **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：情绪主导、需要时间距离走本模型；多结果概率与阶段决策走决策树。

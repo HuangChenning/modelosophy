@@ -74,6 +74,9 @@ Weiner 等还把成就结果拆成可控/稳定等维度——本 skill 入门�
 
 ## 相关模型
 
+- **与[煤气灯效应](../../thinking-models/gaslighting/SKILL.md)**：用煤气灯效应识别“通过否认对方感知/记忆/判断来夺取现实定义权”的操纵模式；可用…。本模型与其形成场景或方法层面的互补/分流。
+- **与[投射效应](../../systems-classic-effects/projection-effect/SKILL.md)**：用投射效应识别把自己的动机、偏好或情绪安到他人头上的推理错误，并改用可检验的对方…。本模型与其形成场景或方法层面的互补/分流。
+- **与[成长型思维](../../learning-growth/growth-mindset/SKILL.md)**：用成长型思维（Growth Mindset）把能力视为可通过策略与努力发展的，诊…。本模型与其形成场景或方法层面的互补/分流。
 - **与[确认偏差](../confirmation-bias/SKILL.md)**：确认偏差扭曲你收集的证据；归因管你把因果钉在人还是情境。
 - **与[推论阶梯](../../thinking-models/ladder-of-inference/SKILL.md)**：阶梯管攀升路径；归因常嵌在“赋义→结论”段——可先下阶梯再做共变。
 - **与[邓宁-克鲁格效应](../dunning-kruger/SKILL.md)**：自评校准问题 ≠ 对他人行为的归因问题。

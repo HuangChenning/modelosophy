@@ -69,6 +69,8 @@ BJ Fogg 的行为模型：一个具体行为 B 在某一刻发生，当且仅当
 
 ## 相关模型
 
+- **与[两分钟法则](../../efficiency-execution/two-minute-rule/SKILL.md)**：用两分钟法则（Two-Minute Rule）在澄清时立刻完成≤2分钟的行动，防…。本模型与其形成场景或方法层面的互补/分流。
+- **与[黄金圈](../../cognitive-thinking-tools/golden-circle/SKILL.md)**：用黄金圈（WHY–HOW–WHAT）整理沟通与策略叙事：先澄清目的与信念，再方法…。本模型与其形成场景或方法层面的互补/分流。
 - **与[心流](../../learning-growth/flow/SKILL.md)**：发生 vs 体验通道；先 MAP 让行为出现，再谈匹配与专注。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：微行为重复可积累，但须再投入与存活条件成立。
 - **与[PDCA](../../efficiency-execution/pdca/SKILL.md)**：MAP 诊断单次行为；PDCA 管改进循环怎么转下一圈。

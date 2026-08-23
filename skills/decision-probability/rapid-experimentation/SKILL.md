@@ -67,6 +67,7 @@ metadata:
 
 ## 相关模型
 
+- **与[奥兹原则](../oz-principle/SKILL.md)**：用奥兹原则（The Oz Principle / Above the Line …。本模型与其形成场景或方法层面的互补/分流。
 - **与[MVP](../mvp/SKILL.md)**：MVP 回答「用什么最小载体学习」；本模型回答「如何串成有止损的实验序列」。常连用。
 - **与[OODA](../ooda-loop/SKILL.md)**：OODA 强调对抗节奏与定向；快速试错强调假设—证据—止损。对手少、假设多时偏本模型。
 - **与[假设检验](../../cognitive-thinking-tools/hypothesis-testing/SKILL.md)**：假设检验提供可证伪设计；本模型管组合、节奏与杀停规则。

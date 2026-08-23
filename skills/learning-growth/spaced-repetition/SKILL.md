@@ -66,6 +66,9 @@ metadata:
 
 ## 相关模型
 
+- **与[睡眠与记忆巩固](../sleep-consolidation/SKILL.md)**：用睡眠记忆巩固机制说明：新编码的记忆在睡眠（尤其慢波睡眠对陈述性记忆、REM/纺…。本模型与其形成场景或方法层面的互补/分流。
+- **与[检索练习](../retrieval-practice/SKILL.md)**：用检索练习（Retrieval Practice / testing effec…。本模型与其形成场景或方法层面的互补/分流。
+- **与[元学习](../meta-learning/SKILL.md)**：用元学习（Meta-Learning / learning how to lea…。本模型与其形成场景或方法层面的互补/分流。
 - **与[遗忘曲线](../forgetting-curve/SKILL.md)**：曲线 = 为何衰减；本模型 = 如何排复习。现象解释走曲线；SRS 操作走本模型。
 - **与[刻意练习](../deliberate-practice/SKILL.md)**：保持事实走间隔；提升表现走刻意练习。
 - **与[费曼技巧](../feynman-technique/SKILL.md)**：制卡前用费曼暴露空洞，避免背错。

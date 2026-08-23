@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[均衡价格](../equilibrium-price/SKILL.md)**：用均衡价格帮用户完成可执行分析：供需量相等时的市场出清价格。。本模型与其形成场景或方法层面的互补/分流。
 - **与[一般均衡](../general-equilibrium/SKILL.md)**：全市场出清与效率定理的舞台。
 - **与[消费者剩余](../consumer-surplus/SKILL.md)**：局部福利近似工具。
 - **与[外部性](../externality/SKILL.md)**：使竞争均衡偏离帕累托。

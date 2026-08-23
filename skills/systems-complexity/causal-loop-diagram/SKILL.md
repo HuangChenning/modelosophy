@@ -58,6 +58,7 @@ metadata:
 
 ## 相关模型
 
+- **与[延迟反馈](../delay-feedback/SKILL.md)**：用延迟反馈分析「调节动作与结果不同步」如何造成振荡、过冲与政策抗拒，并设计可观测…。本模型与其形成场景或方法层面的互补/分流。
 - **与[存量与流量](../stock-and-flow/SKILL.md)**：CLD 定性；S&F 定量守恒。常先 CLD 后 S&F。
 - **与[系统基模](../system-archetypes/SKILL.md)**：画完再匹配基模；勿先贴标签。
 - **与[反馈回路](../../systems-classic-effects/feedback-loops/SKILL.md)**：反馈回路是概念件；CLD 是完整画法规程。

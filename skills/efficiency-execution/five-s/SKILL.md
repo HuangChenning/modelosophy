@@ -62,6 +62,7 @@ metadata:
 
 ## 相关模型
 
+- **与[清单与](../checklist-sop/SKILL.md)**：用清单与标准作业程序（Checklist / SOP）把关键步骤外部化，降低遗漏…。本模型与其形成场景或方法层面的互补/分流。
 - **与[精益思维](../lean-thinking/SKILL.md)**：5S 是基础；精益看价值流。现场乱先 5S；要系统浪费走精益。
 - **与[PDCA](../pdca/SKILL.md)**：维持与审计用 PDCA。
 - **与[看板](../kanban/SKILL.md)**：整顿后的可视化可与看板列一致。

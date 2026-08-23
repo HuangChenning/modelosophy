@@ -60,6 +60,8 @@ metadata:
 
 ## 相关模型
 
+- **与[涌现](../emergence/SKILL.md)**：用涌现（emergence）判断宏观模式是否由微观互动自下而上生成、且不可仅用零…。本模型与其形成场景或方法层面的互补/分流。
+- **与[延迟反馈](../delay-feedback/SKILL.md)**：用延迟反馈分析「调节动作与结果不同步」如何造成振荡、过冲与政策抗拒，并设计可观测…。本模型与其形成场景或方法层面的互补/分流。
 - **与[因果回路图](../causal-loop-diagram/SKILL.md)**：CLD 是画法；基模是可复用模板。先画后贴标签更稳。
 - **与[杠杆点](../leverage/SKILL.md)**：基模提示杠杆在哪一类结构改动；Meadows 层级提供干预深度语言。
 - **与[反馈回路](../../systems-classic-effects/feedback-loops/SKILL.md)**：反馈回路讲增强/调节基本件；基模是其组合故事。

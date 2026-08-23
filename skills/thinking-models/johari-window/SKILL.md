@@ -74,6 +74,7 @@ metadata:
 
 ## 相关模型
 
+- **与[投射效应](../../systems-classic-effects/projection-effect/SKILL.md)**：用投射效应识别把自己的动机、偏好或情绪安到他人头上的推理错误，并改用可检验的对方…。本模型与其形成场景或方法层面的互补/分流。
 - **与[邓宁-克鲁格](../../behavioral-biases/dunning-kruger/SKILL.md)**：DK 看表现-自评落差；周哈里窗提供“他人知/己不知”的反馈结构。可组合，不互相替代。
 - **与[六顶思考帽](../../cognitive-thinking-tools/six-thinking-hats/SKILL.md)**：帽子管会议角色；窗管人际信息分布。
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：质疑检验主张；窗管理披露与反馈节奏。

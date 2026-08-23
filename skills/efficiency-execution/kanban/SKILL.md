@@ -58,6 +58,9 @@ metadata:
 
 ## 相关模型
 
+- **与[甘特图](../gantt-chart/SKILL.md)**：用甘特图（Gantt Chart）把任务按时间条与依赖可视化，沟通进度与并行关系…。本模型与其形成场景或方法层面的互补/分流。
+- **与[5S](../five-s/SKILL.md)**：用 5S（整理、整顿、清扫、清洁、素养）把工作现场与数字工作区变为可视化、少寻物…。本模型与其形成场景或方法层面的互补/分流。
+- **与[关键路径](../critical-path/SKILL.md)**：用关键路径法（Critical Path Method, CPM）在项目网络中找…。本模型与其形成场景或方法层面的互补/分流。
 - **与[敏捷迭代](../agile-iteration/SKILL.md)**：敏捷强调时间盒迭代；看板强调流动与 WIP。可混合（Scrumban）。
 - **与[精益思维](../lean-thinking/SKILL.md)**：看板常是精益拉动落地工具。
 - **与[TOC](../../cognitive-thinking-tools/theory-of-constraints/SKILL.md)**：瓶颈暴露后可用 TOC 强化。

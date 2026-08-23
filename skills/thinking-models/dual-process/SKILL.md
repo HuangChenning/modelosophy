@@ -71,6 +71,7 @@ Kahneman 的核心不是“理性好、直觉坏”，而是：**默认由 Syste
 
 ## 相关模型
 
+- **与[锚定效应](../../behavioral-biases/anchoring/SKILL.md)**：用锚定效应检查用户是否被首个数字/印象不当牵引后续判断与谈判报价。。本模型与其形成场景或方法层面的互补/分流。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：双系统解释*何时*默认快结论；确认偏差处理*证据筛选*。慢系统被唤起后仍可能只找支持证据。
 - **与[易得性启发](../../behavioral-biases/availability-heuristic/SKILL.md)**：易得性是 System 1 常用的频率捷径之一；纠偏需要 System 2 去对基准率。
 - **与[沉没成本](../../behavioral-biases/sunk-cost/SKILL.md) / [损失规避](../../behavioral-biases/loss-aversion/SKILL.md)**：情绪痛感多由快系统放大；止损规则要预写好，不能等现场靠意志力。

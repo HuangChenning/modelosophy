@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[比较优势](../comparative-advantage/SKILL.md)**：用比较优势帮用户完成可执行分析：专注相对成本最低的领域，再通过交易共赢。。本模型与其形成场景或方法层面的互补/分流。
 - **与[范围经济](../economies-of-scope/SKILL.md)**：单产品做大 vs 多产品共享。
 - **与[自然垄断](../monopoly-natural-monopoly/SKILL.md)**：全程下降的 LRAC 是自然垄断技术条件之一。
 - **与[进入壁垒](../barriers-to-entry/SKILL.md)**：高最小有效规模本身可成壁垒。

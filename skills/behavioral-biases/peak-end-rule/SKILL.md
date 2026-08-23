@@ -65,6 +65,7 @@ metadata:
 
 ## 相关模型
 
+- **与[霍桑效应](../../systems-classic-effects/hawthorne-effect/SKILL.md)**：用霍桑效应评估“被观察/被研究本身”是否改变了行为，从而污染实验或管理干预的因果…。本模型与其形成场景或方法层面的互补/分流。
 - **与[系列位置效应](../../systems-classic-effects/serial-position-effect/SKILL.md)**：列表头尾记忆 vs 体验峰终回忆；勿合并成一条定律。
 - **与[损失规避](../loss-aversion/SKILL.md)**：负峰往往比等量正峰更钉在记忆里，可与损失权重叠加。
 - **与[前景理论](../prospect-theory/SKILL.md)**：峰终属体验记忆启发式；前景理论管选择价值函数与概率权重。

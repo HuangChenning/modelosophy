@@ -70,6 +70,9 @@ Bezos 强调的组织病是：把大多数双向门当成单向门开层层会�
 
 ## 相关模型
 
+- **与[OODA](../ooda-loop/SKILL.md)**：用 OODA 循环（Observe–Orient–Decide–Act）在对抗或…。本模型与其形成场景或方法层面的互补/分流。
+- **与[灰度认知](../grey-thinking/SKILL.md)**：用灰度认知（grey thinking / probabilistic beli…。本模型与其形成场景或方法层面的互补/分流。
+- **与[不对称回报](../asymmetric-payoff/SKILL.md)**：用不对称回报/风险不对称思维筛选「下行有限、上行开放」或相反的暴露结构，比较左尾…。本模型与其形成场景或方法层面的互补/分流。
 - **与[MVP](../mvp/SKILL.md)**：判定可逆后，用 MVP 设计最小试验；本模型先分门型。
 - **与[事前验尸](../pre-mortem/SKILL.md)**：不可逆决策强烈建议事前验尸。
 - **与[红队思维](../red-team/SKILL.md)**：单向门加大红队力度。

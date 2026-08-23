@@ -69,6 +69,9 @@ metadata:
 
 ## 相关模型
 
+- **与[二八定律](../../systems-classic-effects/pareto-principle/SKILL.md)**：用帕累托原则（80/20）识别“少数原因/投入贡献多数结果”的不均衡，先度量集中…。本模型与其形成场景或方法层面的互补/分流。
+- **与[心流](../../learning-growth/flow/SKILL.md)**：用心流（Flow）帮用户诊断投入状态：当挑战与技能大致匹配、目标清晰且反馈及时时…。本模型与其形成场景或方法层面的互补/分流。
+- **与[复利](../../finance-investing-models/compounding/SKILL.md)**：用复利思维评估长期增长是否具备“回报再投入 × 速率可维持 × 时间足够”三条件…。本模型与其形成场景或方法层面的互补/分流。
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：机会成本比较已知选项的放弃价值；本模型强调选项可能不在当前邻域、需付探索成本才进集合。
 - **与[沉没成本](../../behavioral-biases/sunk-cost/SKILL.md)**：换山时已投入不能当留下的理由；但退出罚金等未来成本要进下坡账。
 - **与[艾森豪威尔矩阵](../../efficiency-execution/eisenhower-matrix/SKILL.md)**：矩阵排同一路径上的急事/要事；若怀疑整条路径在错误的山上，先走本模型。

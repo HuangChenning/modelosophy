@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[挤出效应](../crowding-out-effect/SKILL.md)**：评估财政扩张是否及如何挤出私人支出。。本模型与其形成场景或方法层面的互补/分流。
 - **与[理性预期](../rational-expectations/SKILL.md)**：预期税收是机制核心。
 - **与[乘数效应](../multiplier-effect/SKILL.md)**：等价越强乘数越小。
 - **与[凯恩斯主义](../keynesianism/SKILL.md)**：凯派默认等价不完全。

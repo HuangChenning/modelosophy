@@ -62,6 +62,8 @@ metadata:
 
 ## 相关模型
 
+- **与[内稳态](../../systems-complexity/homeostasis/SKILL.md)**：用内稳态（稳态）设计与诊断「围绕设定点的负反馈调节」：传感、比较、效应器与可承受…。本模型与其形成场景或方法层面的互补/分流。
+- **与[因果回路图](../../systems-complexity/causal-loop-diagram/SKILL.md)**：用因果回路图（CLD）把变量以带极性的因果链连成增强/调节回路，显式标出延迟，用…。本模型与其形成场景或方法层面的互补/分流。
 - **与[系统思维](../systems-thinking/SKILL.md)**：系统思维是总方法；本 Skill 专练回路。
 - **与[系统动力学](../system-dynamics/SKILL.md)**：动力学把回路写成存量流量模型。
 - **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：飞轮是有意增强环设计。

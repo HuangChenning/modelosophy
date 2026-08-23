@@ -60,6 +60,7 @@ metadata:
 
 ## 相关模型
 
+- **与[网络拓扑](../network-topology/SKILL.md)**：用网络拓扑选择与诊断图结构：连通、聚类、路径长度、中心性与切边，作为小世界/无标…。本模型与其形成场景或方法层面的互补/分流。
 - **与[小世界网络](../small-world-network/SKILL.md)**：**硬区分。** 见上。
 - **与[梅特卡夫定律](../../systems-classic-effects/metcalfes-law/SKILL.md)**：价值规模；本模型是度数异质结构。
 - **与[马太效应](../../systems-classic-effects/matthew-effect/SKILL.md)**：优先连接是马太在网络上的机制。

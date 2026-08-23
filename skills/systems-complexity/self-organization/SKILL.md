@@ -62,6 +62,7 @@ metadata:
 
 ## 相关模型
 
+- **与[杠杆](../leverage/SKILL.md)**：用杠杆思维帮用户找到系统中「小投入、大结构化改变」的干预点：优先 Meadows…。本模型与其形成场景或方法层面的互补/分流。
 - **与[耗散结构](../dissipative-structures/SKILL.md)**：耗散给开放非平衡+耗散维持的物理图像；自组织强调无中央蓝图的规则生成。可连用。
 - **与[涌现](../emergence/SKILL.md)**：自组织常产生涌现宏观；涌现不问是否有总控。
 - **与[复杂适应系统](../complex-adaptive-systems/SKILL.md)**：CAS 强调适应学习；自组织可含非学习的物理/化学秩序。

@@ -77,6 +77,9 @@ Eliyahu Goldratt 在《目标》（The Goal）等著作中推广的操作核心�
 
 ## 相关模型
 
+- **与[阈值效应](../../decision-probability/threshold-effect/SKILL.md)**：用阈值效应识别「跨过某临界水平后响应非线性跳变」的决策与干预问题：找阈值变量、 …。本模型与其形成场景或方法层面的互补/分流。
+- **与[TRIZ](../triz/SKILL.md)**：用 TRIZ（发明问题解决理论）帮用户把设计/工程矛盾表述为可检索的冲突，   …。本模型与其形成场景或方法层面的互补/分流。
+- **与[反向目标](../backward-goal/SKILL.md)**：用反向目标（Backward Goal / 从终点反推）先钉死可验收的终态，再倒…。本模型与其形成场景或方法层面的互补/分流。
 - **与[5Why](../five-whys/SKILL.md)**：5Why 下钻单次/反复失效的因果；TOC 管理持续吞吐的约束。复盘故障走 5Why；交付上不去走 TOC。
 - **与[杠杆点](../../systems-complexity/leverage/SKILL.md)**：杠杆点谈干预系统结构的高影响点；TOC 的约束是运作层高影响点之一，可连用但不要把任何杠杆都叫「约束」。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：系统思维画回路与延迟；TOC 给「先动哪一环」的吞吐聚焦法。结构不明时先系统扫描，稳态交付问题用 TOC。

@@ -64,6 +64,8 @@ metadata:
 
 ## 相关模型
 
+- **与[快速试错](../rapid-experimentation/SKILL.md)**：用快速试错/快速实验（rapid experimentation）把不确定性切成…。本模型与其形成场景或方法层面的互补/分流。
+- **与[复盘四步法](../after-action-review/SKILL.md)**：用复盘四步法（After Action Review, AAR）在行动结束后对照…。本模型与其形成场景或方法层面的互补/分流。
 - **与[PDCA](../../efficiency-execution/pdca/SKILL.md)**：PDCA 稳态改进；OODA 对抗/高速态势。用户说质量闭环走 PDCA；说抢时间优势走 OODA。
 - **与[MVP](../mvp/SKILL.md)**：MVP 提供 Act/Observe 的学习载体；OODA 编排节奏。
 - **与[灰度认知](../grey-thinking/SKILL.md)**：定向中的置信度用灰度表达，避免假确定性加速。

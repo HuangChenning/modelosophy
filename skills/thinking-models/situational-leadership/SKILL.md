@@ -71,6 +71,7 @@ metadata:
 
 ## 相关模型
 
+- **与[彼得原理](../../systems-classic-effects/peter-principle/SKILL.md)**：用彼得原理诊断“因胜任而被晋升到不胜任层级”的组织风险，并设计双通道与基于新岗位…。本模型与其形成场景或方法层面的互补/分流。
 - **与[福格行为模型](../fogg-behavior-model/SKILL.md)**：福格管行为 MAP；情境领导管督导强度与发展水平匹配。
 - **与[马斯洛需求层次](../maslow-hierarchy/SKILL.md)**：可解释部分意愿来源，但不替代 D/S 任务诊断。
 - **与[周哈里窗](../johari-window/SKILL.md)**：反馈盲区工具；本模型是任务督导风格选择。

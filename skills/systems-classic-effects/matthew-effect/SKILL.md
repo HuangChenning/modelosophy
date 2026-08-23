@@ -64,6 +64,7 @@ metadata:
 
 ## 相关模型
 
+- **与[无标度网络](../../systems-complexity/scale-free-network/SKILL.md)**：用无标度网络（scale-free，Barabási–Albert 等）理解度数…。本模型与其形成场景或方法层面的互补/分流。
 - **与[梅特卡夫法则](../metcalfes-law/SKILL.md)**：网络价值随节点增长；马太管存量优势如何再获增量。
 - **与[帕累托原则](../pareto-principle/SKILL.md)**：二八是结果不均衡的描述；马太解释不均衡如何**随时间自我强化**。
 - **与[路径依赖](../path-dependence/SKILL.md)**：路径依赖强调历史锁定；马太强调优势再分配。

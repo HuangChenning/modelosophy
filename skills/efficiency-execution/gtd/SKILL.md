@@ -58,6 +58,9 @@ metadata:
 
 ## 相关模型
 
+- **与[两分钟法则](../two-minute-rule/SKILL.md)**：用两分钟法则（Two-Minute Rule）在澄清时立刻完成≤2分钟的行动，防…。本模型与其形成场景或方法层面的互补/分流。
+- **与[收件箱清零法](../inbox-zero/SKILL.md)**：用收件箱清零法（Inbox Zero，Merlin Mann 提出）把邮件/消息…。本模型与其形成场景或方法层面的互补/分流。
+- **与[委派](../delegation/SKILL.md)**：用委派（Delegation）把结果与权限清晰移交他人，保留适当跟进而不微观管理…。本模型与其形成场景或方法层面的互补/分流。
 - **与[看板](../kanban/SKILL.md)**：GTD 个人澄清；看板团队流动。
 - **与[艾森豪威尔矩阵](../eisenhower-matrix/SKILL.md)**：GTD 执行阶段可叠加紧急重要。
 - **与[番茄](../pomodoro/SKILL.md)**：选定下一步后用番茄推进。

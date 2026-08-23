@@ -69,6 +69,8 @@ metadata:
 
 ## 相关模型
 
+- **与[间隔重复](../../learning-growth/spaced-repetition/SKILL.md)**：用间隔重复（Spaced Repetition / SRS）把「主动检索 + 递…。本模型与其形成场景或方法层面的互补/分流。
+- **与[遗忘曲线](../../learning-growth/forgetting-curve/SKILL.md)**：用遗忘曲线解释记忆随时间下降的现象与原则：新学内容若不检索会快速遗忘；对抗衰减需…。本模型与其形成场景或方法层面的互补/分流。
 - **与[峰终定律](../../behavioral-biases/peak-end-rule/SKILL.md)**：列表记忆 vs 体验回忆效用；近因≠情感结尾。
 - **与[可得性启发](../../behavioral-biases/availability-heuristic/SKILL.md)**：头尾项更易提取，可能被误当成“更重要/更常见”。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：第一印象形成假设后，后续信息被筛选——首因可启动确认偏差。

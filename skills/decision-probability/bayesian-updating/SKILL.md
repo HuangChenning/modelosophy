@@ -76,6 +76,9 @@ P(H\mid E) = \frac{P(E\mid H)\,P(H)}{P(E)}
 
 ## 相关模型
 
+- **与[损失函数](../loss-function/SKILL.md)**：用损失函数把「错的代价不对称」显式化：不同类型错误（如假阳性/假阴性、延误/早动…。本模型与其形成场景或方法层面的互补/分流。
+- **与[灰度认知](../grey-thinking/SKILL.md)**：用灰度认知（grey thinking / probabilistic beli…。本模型与其形成场景或方法层面的互补/分流。
+- **与[决策日志](../decision-journal/SKILL.md)**：用决策日志（decision journal）在决策时记录信念、选项、预期与可检…。本模型与其形成场景或方法层面的互补/分流。
 - **与[基率思维](../base-rate/SKILL.md)**：基率提供/校准先验；贝叶斯负责把似然并入。用户只说「这类事通常怎样」走基率；说「新证据怎么改信念」走本模型。
 - **与[期望值](../expected-value/SKILL.md)**：EV 用（已给定的）\(p\) 算加权结果；本模型负责**改写 \(p\)**。
 - **与[假设检验](../../cognitive-thinking-tools/hypothesis-testing/SKILL.md)**：假设检验强调可证伪设计；贝叶斯强调信念连续更新。可连用：先设计 \(E\)，再更新。

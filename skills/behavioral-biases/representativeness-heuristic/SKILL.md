@@ -52,6 +52,7 @@ metadata:
 
 ## 相关模型
 
+- **与[基率思维](../../decision-probability/base-rate/SKILL.md)**：用基率/参考类预测（base rate / reference class fo…。本模型与其形成场景或方法层面的互补/分流。
 - **与[可得性启发](../availability-heuristic/SKILL.md)**：一个像不像，一个想不想得起。
 - **与[小数定律](../law-of-small-numbers/SKILL.md)**：小样本“很像规律”常一起出现。
 - **与[确认偏误](../confirmation-bias/SKILL.md)**：选定原型后只收相似证据。

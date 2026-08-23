@@ -71,6 +71,9 @@ Chris Anderson（2004/2006）的长尾：当**生产、储存、分发的边际�
 
 ## 相关模型
 
+- **与[幂律](../../systems-complexity/power-law/SKILL.md)**：用幂律分布识别「少数极端事件/节点占大部分」的胖尾现象，并选择对尾部敏感的策略（…。本模型与其形成场景或方法层面的互补/分流。
+- **与[梅特卡夫法则](../metcalfes-law/SKILL.md)**：用梅特卡夫法则评估兼容网络中“潜在连接数随节点数近似平方增长”如何影响网络价值与…。本模型与其形成场景或方法层面的互补/分流。
+- **与[蓝海战略](../../strategy-competition/blue-ocean/SKILL.md)**：用蓝海战略（Blue Ocean Strategy）通过价值创新重建买方效用与成…。本模型与其形成场景或方法层面的互补/分流。
 - **与[二八定律](../pareto-principle/SKILL.md)**：二八优先配置头部杠杆；长尾评估尾部聚合是否值得服务。先度量集中度，再决定是否做长尾。
 - **与[幸存者偏差](../../behavioral-biases/survivorship-bias/SKILL.md)**：只看见活下来的利基品牌会高估长尾容易度。
 - **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：推荐质量↑→尾部匹配↑→目录价值↑ 可构成飞轮；本模型只判断尾部经济是否成立。

@@ -65,6 +65,8 @@ Chris Argyris 的推论阶梯（ladder of inference）：人很少“看见全�
 
 ## 相关模型
 
+- **与[抽象阶梯](../../cognitive-thinking-tools/abstraction-ladder/SKILL.md)**：用抽象阶梯（Ladder of Abstraction，Hayakawa）在「具…。本模型与其形成场景或方法层面的互补/分流。
+- **与[归因理论](../../behavioral-biases/attribution-theory/SKILL.md)**：用归因理论帮用户区分把结果解释为内因（特质/努力/意图）还是外因（情境/任务/运…。本模型与其形成场景或方法层面的互补/分流。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：确认偏差常嵌在“选资料/解释”级；阶梯提供全路径图，确认偏差专攻证据加权。
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：阶梯定位你站在哪一级；苏格拉底追问主张与前提是否自洽。常顺序：先下阶梯澄清，再诘问。
 - **与[双系统](../dual-process/SKILL.md)**：攀升往往是快系统；下阶梯是慢系统作业。

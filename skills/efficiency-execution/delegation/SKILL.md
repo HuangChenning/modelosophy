@@ -60,6 +60,7 @@ metadata:
 
 ## 相关模型
 
+- **与[会议卫生](../meeting-hygiene/SKILL.md)**：用会议卫生（Meeting Hygiene）一组已被证实的具体规则——议程先行、…。本模型与其形成场景或方法层面的互补/分流。
 - **与[清单与 SOP](../checklist-sop/SKILL.md)**：委派常附标准作业。
 - **与[里程碑规划](../milestone-planning/SKILL.md)**：中间门作跟进点。
 - **与[GTD](../gtd/SKILL.md)**：等待清单跟踪委派项。

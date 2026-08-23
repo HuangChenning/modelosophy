@@ -63,6 +63,8 @@ metadata:
 
 ## 相关模型
 
+- **与[项目式学习](../project-based-learning/SKILL.md)**：用项目式学习（PBL）把学习内容嵌入一个有真实驱动性问题、需要持续探究、最终产出…。本模型与其形成场景或方法层面的互补/分流。
+- **与[导师制](../mentorship/SKILL.md)**：用导师制（Mentorship）设计「目标—接触频率—反馈—渐撤」的带教关系，加…。本模型与其形成场景或方法层面的互补/分流。
 - **与[心流](../flow/SKILL.md)**：心流≈挑战与技能匹配的体验；ZPD≈发展带与支架。要体验走心流；要教学难度走 ZPD。
 - **与[刻意练习](../deliberate-practice/SKILL.md)**：ZPD 选难度带；刻意练习设计反馈训练。常连用。
 - **与[元认知](../metacognition/SKILL.md)**：学习者自判「卡在哪」可辅助定位 ZPD。

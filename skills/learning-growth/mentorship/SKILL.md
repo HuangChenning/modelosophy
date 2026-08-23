@@ -66,6 +66,7 @@ metadata:
 
 ## 相关模型
 
+- **与[同伴学习](../peer-learning/SKILL.md)**：用同伴教学法（Peer Instruction）设计「独立作答→判断正确率区间→…。本模型与其形成场景或方法层面的互补/分流。
 - **与[最近发展区 ZPD](../zpd/SKILL.md)**：ZPD 定单次任务支架；导师制定关系节奏与渐撤。
 - **与[刻意练习](../deliberate-practice/SKILL.md)**：导师常是高质量反馈源；练习设计仍可显式化。
 - **与[学习中教](../learning-by-teaching/SKILL.md)**：高年级带低年级时，教者也在学——双边都可受益。

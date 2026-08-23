@@ -53,6 +53,7 @@ metadata:
 
 ## 相关模型
 
+- **与[金融加速器](../financial-accelerator/SKILL.md)**：用金融加速器解释资产价格与信贷约束的互馈：净值下降→抵押能力弱→信贷收缩→火上浇…。本模型与其形成场景或方法层面的互补/分流。
 - **与[现代投资组合理论](../modern-portfolio-theory/SKILL.md)**：负相关提供分散。
 - **与[美林投资时钟](../investment-clock/SKILL.md)**：不同象限股债相对吸引力不同。
 - **与[再平衡](../rebalancing/SKILL.md)**：跷跷板带来自然漂移，需纪律回摆。

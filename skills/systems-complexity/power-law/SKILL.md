@@ -69,6 +69,7 @@ metadata:
 
 ## 相关模型
 
+- **与[分形](../fractals/SKILL.md)**：用分形视角识别跨尺度自相似与标度不变结构，判断「局部像整体」何时可作推理、何时只…。本模型与其形成场景或方法层面的互补/分流。
 - **与[正态分布](../normal-distribution/SKILL.md)**：薄尾对称 vs 胖尾；先判形态再选模型。
 - **与[无标度网络](../scale-free-network/SKILL.md)**：无标度是度数幂律+hub 机制；幂律是更一般的分布透镜。
 - **与[帕累托法则](../../systems-classic-effects/pareto-principle/SKILL.md)**：80/20 是经验口吻；幂律给分布与尾部决策。

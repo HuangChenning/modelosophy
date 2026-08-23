@@ -66,6 +66,10 @@ metadata:
 
 ## 相关模型
 
+- **与[学习中教](../learning-by-teaching/SKILL.md)**：用「学习中教 / 教中学」（Learning by Teaching）把讲解、答…。本模型与其形成场景或方法层面的互补/分流。
+- **与[遗忘曲线](../forgetting-curve/SKILL.md)**：用遗忘曲线解释记忆随时间下降的现象与原则：新学内容若不检索会快速遗忘；对抗衰减需…。本模型与其形成场景或方法层面的互补/分流。
+- **与[精细加工提问](../elaborative-interrogation/SKILL.md)**：用精细加工提问（Elaborative Interrogation）对事实/主张…。本模型与其形成场景或方法层面的互补/分流。
+- **与[双重编码](../dual-coding/SKILL.md)**：用双重编码（Dual Coding）把言语与非言语表征（图、示意、时间线、动作意…。本模型与其形成场景或方法层面的互补/分流。
 - **与[邓宁-克鲁格](../../behavioral-biases/dunning-kruger/SKILL.md)**：邓克讨论自评偏差机制与争议；费曼是主动制造外部化反馈的练习协议。可连用：先讲，再对照客观测分。
 - **与[双系统](../../thinking-models/dual-process/SKILL.md)**：讲解时放慢，抑制“眼熟即懂”的快系统。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：缺口修复后的反复教/练可积累，但须满足再投入与时间。

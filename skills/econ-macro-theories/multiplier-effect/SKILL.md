@@ -57,6 +57,8 @@ metadata:
 
 ## 相关模型
 
+- **与[朱格拉周期](../juglar-cycle/SKILL.md)**：用朱格拉周期视角分析中期设备投资驱动的经济波动。。本模型与其形成场景或方法层面的互补/分流。
+- **与[IS-LM](../is-lm-model/SKILL.md)**：用 IS-LM 做短期封闭经济的利率—产出联动推演（教学/直觉）。。本模型与其形成场景或方法层面的互补/分流。
 - **与[凯恩斯主义](../keynesianism/SKILL.md)**：乘数是凯派刺激定量核心。
 - **与[挤出效应](../crowding-out-effect/SKILL.md)**：抵消乘数。
 - **与[李嘉图等价](../ricardian-equivalence/SKILL.md)**：预期增税对冲支出。

@@ -64,6 +64,9 @@ metadata:
 
 ## 相关模型
 
+- **与[集体智能](../../systems-complexity/collective-intelligence/SKILL.md)**：用集体智能设计「群体如何比个体更聪明」：多样性、独立、聚合机制与连接结构，并识别…。本模型与其形成场景或方法层面的互补/分流。
+- **与[计划谬误](../planning-fallacy/SKILL.md)**：用计划谬误（planning fallacy）诊断并纠偏「计划时间/成本系统性偏…。本模型与其形成场景或方法层面的互补/分流。
+- **与[复盘四步法](../after-action-review/SKILL.md)**：用复盘四步法（After Action Review, AAR）在行动结束后对照…。本模型与其形成场景或方法层面的互补/分流。
 - **与[事前验尸](../pre-mortem/SKILL.md)**：验尸生成失败叙事；红队强调独立攻击与利用。不可逆大决策两者可叠用。
 - **与[逆向思维](../../cognitive-thinking-tools/inversion/SKILL.md)**：逆向提供「如何失败」问题清单；红队是组织化对抗角色。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：红队是结构性对抗确认偏差的手段之一。

@@ -53,6 +53,7 @@ metadata:
 
 ## 相关模型
 
+- **与[模糊厌恶](../ambiguity-aversion/SKILL.md)**：用模糊厌恶检查用户是否更怕“未知概率”而非已知风险，从而拒绝信息不足但期望可能更…。本模型与其形成场景或方法层面的互补/分流。
 - **与[过度自信](../overconfidence/SKILL.md)**：控制错觉抬高“我能打过随机”的自信。
 - **与[赌徒谬误](../gamblers-fallacy/SKILL.md)**：用动作“催”反转。
 - **与[双系统](../../thinking-models/dual-process/SKILL.md)**：参与感满足快系统。

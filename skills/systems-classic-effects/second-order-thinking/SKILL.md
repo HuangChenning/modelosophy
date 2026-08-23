@@ -59,6 +59,9 @@ metadata:
 
 ## 相关模型
 
+- **与[系统基模](../../systems-complexity/system-archetypes/SKILL.md)**：用系统基模（system archetypes，Senge 等）把反复出现的动态…。本模型与其形成场景或方法层面的互补/分流。
+- **与[灰犀牛](../gray-rhino/SKILL.md)**：用灰犀牛识别“概率高、冲击大、已在视野内却仍被拖延”的风险，并推动触发条件与问责…。本模型与其形成场景或方法层面的互补/分流。
+- **与[OODA](../../decision-probability/ooda-loop/SKILL.md)**：用 OODA 循环（Observe–Orient–Decide–Act）在对抗或…。本模型与其形成场景或方法层面的互补/分流。
 - **与[长期思维](../../thinking-models/long-term-thinking/SKILL.md)**：长期问时间地平线；二阶问效应层级（不迁入）。
 - **与[10/10/10](../../thinking-models/ten-ten-ten/SKILL.md)**：三时间窗感受；二阶是机制链条。
 - **与[反馈回路](../feedback-loops/SKILL.md)**：二阶常显影为回路。

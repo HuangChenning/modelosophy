@@ -63,6 +63,9 @@ metadata:
 
 ## 相关模型
 
+- **与[必要多样性](../../systems-complexity/requisite-variety/SKILL.md)**：用必要多样性（Ashby 定律）匹配「调节器必须具备不少于扰动的多样性」，诊断管…。本模型与其形成场景或方法层面的互补/分流。
+- **与[敏感性分析](../sensitivity-analysis/SKILL.md)**：用敏感性分析检验结论对关键假设/输入的依赖：一次（或有计划地）变动输入，看输出与…。本模型与其形成场景或方法层面的互补/分流。
+- **与[蒙特卡洛模拟](../monte-carlo/SKILL.md)**：用蒙特卡洛模拟（Monte Carlo simulation）对不确定输入抽样，…。本模型与其形成场景或方法层面的互补/分流。
 - **与[决策树](../decision-tree/SKILL.md)**：树要概率与折叠；情景容忍不可校准概率、重叙事轴。能估 \(p\) 走树；不能则情景。
 - **与[黑天鹅](../../systems-classic-effects/black-swan/SKILL.md)**：黑天鹅强调不可预测尾部与暴露；情景是可排练的多种「常规不确定」。
 - **与[红队思维](../red-team/SKILL.md)**：红队攻击「遗漏情景/脆弱战略」。

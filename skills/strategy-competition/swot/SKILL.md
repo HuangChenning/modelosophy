@@ -59,6 +59,7 @@ SWOT 将与对象相关的因素分为：**S 优势、W 劣势**（相对内部�
 
 ## 相关模型
 
+- **与[决策矩阵](../../cognitive-thinking-tools/decision-matrix/SKILL.md)**：用决策矩阵（加权评分表 / Pugh–Kepner-Tregoe 式）在「选项已…。本模型与其形成场景或方法层面的互补/分流。
 - **与[MECE](../../cognitive-thinking-tools/mece/SKILL.md)**：四格内部条目尽量不重不漏；但四格本身不是唯一正确分类。
 - **与[机会成本](../../econ-micro-markets/opportunity-cost/SKILL.md)**：匹配出的选项仍要比重互斥代价。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：威胁/机会若来自回路，SWOT 之后要画动态。

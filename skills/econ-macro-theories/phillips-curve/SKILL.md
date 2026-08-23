@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[AD-AS](../ad-as-model/SKILL.md)**：用 AD-AS 区分需求冲击与供给冲击，并推断物价与产出方向。。本模型与其形成场景或方法层面的互补/分流。
 - **与[货币主义](../monetarism/SKILL.md)**：自然率与长期垂直曲线。
 - **与[理性预期](../rational-expectations/SKILL.md)**：预期内生化改变曲线。
 - **与[泰勒规则](../taylor-rule/SKILL.md)**：按通胀与产出缺口设利率，隐含菲利普斯权衡。

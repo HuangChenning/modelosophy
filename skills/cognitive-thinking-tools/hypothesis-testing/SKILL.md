@@ -68,6 +68,9 @@ metadata:
 
 ## 相关模型
 
+- **与[思维实验](../thought-experiment/SKILL.md)**：用思维实验（Thought Experiment / Gedankenexper…。本模型与其形成场景或方法层面的互补/分流。
+- **与[交叉验证思维](../cross-validation-thinking/SKILL.md)**：用交叉验证思维（多源独立核验 / triangulation）要求关键主张至少被…。本模型与其形成场景或方法层面的互补/分流。
+- **与[类比思维](../analogical-thinking/SKILL.md)**：用结构映射式类比（Analogical Thinking）把源域的关系结构迁移到…。本模型与其形成场景或方法层面的互补/分流。
 - **与[批判性思维](../critical-thinking/SKILL.md)**：批判性思维审已有论证；本模型设计未来证据。用户说「这篇推理行不行」走批判；「怎样证明/证伪」走本模型。
 - **与[奥卡姆剃刀](../occams-razor/SKILL.md)**：奥卡姆在竞争解释间排检验顺序；本模型规定每个解释如何赌观察。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：检验设计显式对抗只搜集支持证据。

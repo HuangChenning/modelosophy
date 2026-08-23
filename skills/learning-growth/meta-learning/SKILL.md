@@ -66,6 +66,7 @@ metadata:
 
 ## 相关模型
 
+- **与[迁移学习](../transfer-of-learning/SKILL.md)**：用迁移学习（Transfer of Learning）显式设计「学会 A 后能否…。本模型与其形成场景或方法层面的互补/分流。
 - **与[元认知](../metacognition/SKILL.md)**：元认知是实时仪表盘；元学习是导航地图更新。
 - **与[检索练习](../retrieval-practice/SKILL.md) / [间隔重复](../spaced-repetition/SKILL.md) / [刻意练习](../deliberate-practice/SKILL.md)**：菜单上的主菜；本模型负责点菜与换菜。
 - **与[T 型技能](../t-shaped-skills/SKILL.md)**：T 型定学什么组合；元学习定怎么学。

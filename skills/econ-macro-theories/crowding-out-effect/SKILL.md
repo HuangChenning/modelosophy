@@ -57,6 +57,8 @@ metadata:
 
 ## 相关模型
 
+- **与[凯恩斯主义](../keynesianism/SKILL.md)**：在有效需求不足时用逆周期财政/货币干预框架分析衰退与刺激。。本模型与其形成场景或方法层面的互补/分流。
+- **与[资产负债表衰退](../balance-sheet-recession/SKILL.md)**：诊断泡沫破裂后是否陷入资产负债表衰退，并权衡财政填补与过早紧缩风险。。本模型与其形成场景或方法层面的互补/分流。
 - **与[乘数效应](../multiplier-effect/SKILL.md)**：同屏对账。
 - **与[IS-LM 模型](../is-lm-model/SKILL.md)**：利率挤出的教室机制。
 - **与[李嘉图等价](../ricardian-equivalence/SKILL.md)**：另一类私人对冲。

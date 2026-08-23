@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[边际效用递减](../diminishing-marginal-utility/SKILL.md)**：用边际效用递减帮用户完成可执行分析：消费越多，每多一份带来的满足感通常越低。。本模型与其形成场景或方法层面的互补/分流。
 - **与[生产者剩余](../producer-surplus/SKILL.md)**：买卖两侧剩余，常一起谈福利。
 - **与[价格歧视](../price-discrimination/SKILL.md)**：歧视试图攫取消费者剩余。
 - **与[供需法则](../supply-and-demand/SKILL.md)**：剩余建立在需求曲线之上。

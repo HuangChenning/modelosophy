@@ -53,6 +53,7 @@ metadata:
 
 ## 相关模型
 
+- **与[承诺机制](../../efficiency-execution/commitment-devices/SKILL.md)**：为执行层面设计承诺机制/自我约束装置：在冷静状态下预先设置对未来自己有真实约束力…。本模型与其形成场景或方法层面的互补/分流。
 - **与[心理账户](../mental-accounting/SKILL.md)**：横财账户更易被现时偏差抽干。
 - **与[承诺与一致](../commitment-consistency/SKILL.md)**：公开承诺可作对抗装置。
 - **与[双系统](../../thinking-models/dual-process/SKILL.md)**：现时诱惑走快系统。

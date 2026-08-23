@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[信息不对称](../asymmetric-information/SKILL.md)**：用信息不对称帮用户完成可执行分析：交易一方比另一方掌握显著更多的关键信息。。本模型与其形成场景或方法层面的互补/分流。
 - **与[柠檬市场](../lemons-market/SKILL.md)**：质量市场的逆向选择动力学。
 - **与[道德风险](../moral-hazard/SKILL.md)**：事前 vs 事后。
 - **与[信号传递](../signaling/SKILL.md)**：好类型主动分离。

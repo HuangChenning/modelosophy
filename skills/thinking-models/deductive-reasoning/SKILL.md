@@ -75,6 +75,7 @@ metadata:
 
 ## 相关模型
 
+- **与[金字塔原理](../../cognitive-thinking-tools/pyramid-principle/SKILL.md)**：用明托金字塔原理帮用户把论证与沟通写成「结论先行、上层概括下层、同层 MECE」…。本模型与其形成场景或方法层面的互补/分流。
 - **与[隐含前提](../implicit-premises/SKILL.md)**：日常论证常先省略前提；补全后再做演绎检验。
 - **与[第一性原理](../../cognitive-thinking-tools/first-principles/SKILL.md)**：第一性原理选择硬约束当起点并重建；演绎假定起点已给定，只负责传递。
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：苏格拉底通过追问暴露矛盾；演绎提供形式判定语言。

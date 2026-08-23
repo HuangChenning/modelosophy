@@ -66,6 +66,7 @@ metadata:
 
 ## 相关模型
 
+- **与[项目式学习](../project-based-learning/SKILL.md)**：用项目式学习（PBL）把学习内容嵌入一个有真实驱动性问题、需要持续探究、最终产出…。本模型与其形成场景或方法层面的互补/分流。
 - **与[交错练习](../interleaved-practice/SKILL.md)**：交错是常用迁移促进器；要定义迁向何处与验收标准走本模型。
 - **与[组块](../chunking/SKILL.md)**：高质组块携带可迁移结构；碎片事实难迁。
 - **与[精细加工提问](../elaborative-interrogation/SKILL.md)**：追问「为何在此成立」利于抽象原则，支撑远迁移。

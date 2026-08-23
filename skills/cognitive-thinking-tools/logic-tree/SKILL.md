@@ -69,6 +69,9 @@ metadata:
 
 ## 相关模型
 
+- **与[思维导图](../mind-map/SKILL.md)**：用思维导图（Mind Map）以中心主题放射、层级联想的方式快速外化想法、做笔记…。本模型与其形成场景或方法层面的互补/分流。
+- **与[概念图](../concept-map/SKILL.md)**：用概念图（Concept Map）把知识表示为「概念 + 连接词」构成的命题网络…。本模型与其形成场景或方法层面的互补/分流。
+- **与[反向目标](../backward-goal/SKILL.md)**：用反向目标（Backward Goal / 从终点反推）先钉死可验收的终态，再倒…。本模型与其形成场景或方法层面的互补/分流。
 - **与[MECE](../mece/SKILL.md)**：MECE 是同层纪律；逻辑树是载体。几乎总连用。
 - **与[结构化思维](../structured-thinking/SKILL.md)**：结构化思维编排流程；逻辑树是其常用产物。
 - **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：决策树含不确定结果与支付；逻辑树分解问题/假设。用户说概率/期望 → 决策树。

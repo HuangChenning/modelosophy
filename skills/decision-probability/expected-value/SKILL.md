@@ -83,6 +83,10 @@ A、B 先到 \(n\) 胜者得奖池；中断时 A 再需 \(a\) 胜、B 再需 \(b
 
 ## 相关模型
 
+- **与[期望效用](../expected-utility/SKILL.md)**：用期望效用（expected utility）在结果金额对决策者「不线性」时做选…。本模型与其形成场景或方法层面的互补/分流。
+- **与[贝叶斯更新](../bayesian-updating/SKILL.md)**：用贝叶斯更新（Bayesian updating）把先验信念与新证据合成为后验：…。本模型与其形成场景或方法层面的互补/分流。
+- **与[不对称回报](../asymmetric-payoff/SKILL.md)**：用不对称回报/风险不对称思维筛选「下行有限、上行开放」或相反的暴露结构，比较左尾…。本模型与其形成场景或方法层面的互补/分流。
+- **与[决策矩阵](../../cognitive-thinking-tools/decision-matrix/SKILL.md)**：用决策矩阵（加权评分表 / Pugh–Kepner-Tregoe 式）在「选项已…。本模型与其形成场景或方法层面的互补/分流。
 - **与[决策树](../decision-tree/SKILL.md)**：**硬区分。** 用户说画树 / 先试点再上 / 信息值多少钱 → 决策树。用户说这笔静态不确定结果的期望 / 点数公平切 / 彩票 EV → 本模型。
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：能估 \(p\) 且无出局约束时用 EV；深度不确定或要有意保留凸性时用反脆弱。
 - **与[沉没成本](../../behavioral-biases/sunk-cost/SKILL.md)**：点数问题按*未来*可能性分配，不按已投入局数；已花成本不进入 \(x_i\) 除非仍改变未来现金流。

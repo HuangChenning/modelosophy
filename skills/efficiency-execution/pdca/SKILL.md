@@ -59,6 +59,9 @@ PDCA = **Plan → Do → Check → Act**（Deming 常强调 **Study**，即 PDSA
 
 ## 相关模型
 
+- **与[敏捷迭代](../agile-iteration/SKILL.md)**：用敏捷迭代（短时间盒、可工作增量、检视适应）降低不确定性下的交付风险，而不是一次…。本模型与其形成场景或方法层面的互补/分流。
+- **与[OODA](../../decision-probability/ooda-loop/SKILL.md)**：用 OODA 循环（Observe–Orient–Decide–Act）在对抗或…。本模型与其形成场景或方法层面的互补/分流。
+- **与[TOC](../../cognitive-thinking-tools/theory-of-constraints/SKILL.md)**：用约束理论 TOC（Theory of Constraints，Goldratt…。本模型与其形成场景或方法层面的互补/分流。
 - **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：飞轮定义推哪一环；PDCA 迭代怎么推。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：Check 发现反弹时，升级画回路再 Plan。
 - **与[逆向思维](../../cognitive-thinking-tools/inversion/SKILL.md)**：Plan 阶段可用事前验尸列出失败模式。

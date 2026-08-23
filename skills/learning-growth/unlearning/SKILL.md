@@ -65,6 +65,7 @@ metadata:
 
 ## 相关模型
 
+- **与[T](../t-shaped-skills/SKILL.md)**：用 T 型技能（T-Shaped Skills）规划「一纵深 + 多横广」的能力…。本模型与其形成场景或方法层面的互补/分流。
 - **与[迁移学习](../transfer-of-learning/SKILL.md)**：正迁移设计走迁移；负迁移/冲突走本模型。
 - **与[刻意练习](../deliberate-practice/SKILL.md)**：新法需要有反馈的练习；去学习负责抑制旧自动化。
 - **与[组块](../chunking/SKILL.md)**：错误组块要拆开重建；优质组块可保留。

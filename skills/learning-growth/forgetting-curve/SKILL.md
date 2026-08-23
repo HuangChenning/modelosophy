@@ -68,6 +68,8 @@ Ebbinghaus（1885）用无意义音节等材料测量到：**停止练习后，�
 
 ## 相关模型
 
+- **与[睡眠与记忆巩固](../sleep-consolidation/SKILL.md)**：用睡眠记忆巩固机制说明：新编码的记忆在睡眠（尤其慢波睡眠对陈述性记忆、REM/纺…。本模型与其形成场景或方法层面的互补/分流。
+- **与[检索练习](../retrieval-practice/SKILL.md)**：用检索练习（Retrieval Practice / testing effec…。本模型与其形成场景或方法层面的互补/分流。
 - **与[间隔重复](../spaced-repetition/SKILL.md)**：本模型解释衰减现象；间隔重复专做日程/SRS 操作。用户说「怎么排复习」走间隔重复。
 - **与[元认知](../metacognition/SKILL.md)**：用监控判断“是否仍可提取”，再触发间隔复习。
 - **与[费曼技巧](../feynman-technique/SKILL.md)**：深度理解与暴露空洞；遗忘曲线管保持日程。

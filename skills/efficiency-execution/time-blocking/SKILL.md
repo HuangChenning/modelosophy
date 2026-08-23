@@ -62,6 +62,9 @@ metadata:
 
 ## 相关模型
 
+- **与[一切就位](../mise-en-place/SKILL.md)**：用"一切就位"（法语烹饪术语 mise en place，经 Dan Charn…。本模型与其形成场景或方法层面的互补/分流。
+- **与[精力管理](../energy-management/SKILL.md)**：用精力管理（Energy Management）按身心高峰匹配任务类型，而非只管…。本模型与其形成场景或方法层面的互补/分流。
+- **与[吃掉那只青蛙](../eat-the-frog/SKILL.md)**：用「吃掉那只青蛙」（Eat the Frog）把当日最难/最高杠杆的一件事先做完…。本模型与其形成场景或方法层面的互补/分流。
 - **与[深度工作](../../learning-growth/deep-work/SKILL.md)**：**硬分流。** 深度工作=无扰高认知协议（学习类主条）；时间块=把意图写入日历。可连用：先定深度块再排日历。
 - **与[番茄工作法](../pomodoro/SKILL.md)**：番茄=短盒节奏；时间块=更长主题时段。
 - **与[艾森豪威尔矩阵](../eisenhower-matrix/SKILL.md)**：先选重要，再块化。

@@ -72,6 +72,11 @@ metadata:
 
 ## 相关模型
 
+- **与[马斯洛需求层次](../../thinking-models/maslow-hierarchy/SKILL.md)**：把马斯洛需求层次当作“需求类别检查表”而非普遍定律：检查生理、安全、归属、尊重、…。本模型与其形成场景或方法层面的互补/分流。
+- **与[周哈里窗](../../thinking-models/johari-window/SKILL.md)**：用周哈里窗（开放/盲目/隐藏/未知四格）设计反馈与自我披露：扩大开放区以减少误解…。本模型与其形成场景或方法层面的互补/分流。
+- **与[水平思考](../lateral-thinking/SKILL.md)**：用 Edward de Bono 的水平思考（Lateral Thinking）…。本模型与其形成场景或方法层面的互补/分流。
+- **与[黄金圈](../golden-circle/SKILL.md)**：用黄金圈（WHY–HOW–WHAT）整理沟通与策略叙事：先澄清目的与信念，再方法…。本模型与其形成场景或方法层面的互补/分流。
+- **与[菱形六步法](../diamond-six-steps/SKILL.md)**：用菱形六步法（发散—收敛两次的菱形流程）把问题解决分成：钉题→发散探查→收敛定义…。本模型与其形成场景或方法层面的互补/分流。
 - **与[苏格拉底式质疑](../../thinking-models/socratic-questioning/SKILL.md)**：六帽组织群体并行探索；苏格拉底式质疑沿一条主张追问到矛盾显现。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：黑帽与白帽可制造结构性反证，但若主持人预先偏向结论，六帽仍会被确认性偏差污染。
 - **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：六帽负责搜集完整输入；决策树负责把不确定选项、概率和效用折叠成选择。

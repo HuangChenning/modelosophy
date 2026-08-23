@@ -53,6 +53,7 @@ metadata:
 
 ## 相关模型
 
+- **与[坎蒂隆效应](../cantillon-effect/SKILL.md)**：用坎蒂隆效应分析新增货币/信贷的分配效应：先到者（靠近注入点）以未涨价购买力受益…。本模型与其形成场景或方法层面的互补/分流。
 - **与[大傻瓜理论](../greater-fool-theory/SKILL.md)**：高潮期定价逻辑。
 - **与[明斯基时刻](../minsky-moment/SKILL.md)**：泡沫常坐在脆弱融资上。
 - **与[动量与反转](../momentum-reversal/SKILL.md)**：涨时动量、极端后反转。

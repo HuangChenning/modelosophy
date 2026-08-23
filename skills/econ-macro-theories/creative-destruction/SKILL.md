@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[康德拉季耶夫长波](../kondratiev-wave/SKILL.md)**：谨慎用康波长波做超长期技术—投资情景（争议工具）。。本模型与其形成场景或方法层面的互补/分流。
 - **与[内生增长理论](../endogenous-growth-theory/SKILL.md)**：创新驱动增长的现代形式。
 - **与[奥地利学派](../austrian-school/SKILL.md)**：企业家发现相邻。
 - **与[路径依赖](../../systems-classic-effects/path-dependence/SKILL.md)**：旧标准锁定可阻挠破坏。

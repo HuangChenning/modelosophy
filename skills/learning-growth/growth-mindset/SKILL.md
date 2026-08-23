@@ -66,6 +66,9 @@ metadata:
 
 ## 相关模型
 
+- **与[一万小时定律](../ten-thousand-hours/SKILL.md)**：澄清「一万小时定律」的流行误读：时长本身不制造专家；有效累计的是高质量、有反馈的…。本模型与其形成场景或方法层面的互补/分流。
+- **与[T](../t-shaped-skills/SKILL.md)**：用 T 型技能（T-Shaped Skills）规划「一纵深 + 多横广」的能力…。本模型与其形成场景或方法层面的互补/分流。
+- **与[元学习](../meta-learning/SKILL.md)**：用元学习（Meta-Learning / learning how to lea…。本模型与其形成场景或方法层面的互补/分流。
 - **与[刻意练习](../deliberate-practice/SKILL.md)**：心态提供挑战意愿；练习提供方法。可连用。
 - **与[元认知](../metacognition/SKILL.md)**：监控策略是否有效，避免「瞎努力」。
 - **与[达克效应](../../behavioral-biases/dunning-kruger/SKILL.md)**：自我评估偏差；成长型不等于高估自己。

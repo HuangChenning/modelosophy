@@ -61,6 +61,9 @@ metadata:
 
 ## 相关模型
 
+- **与[结构化拖延](../structured-procrastination/SKILL.md)**：用结构化拖延（Structured Procrastination，哲学家 Jo…。本模型与其形成场景或方法层面的互补/分流。
+- **与[一切就位](../mise-en-place/SKILL.md)**：用"一切就位"（法语烹饪术语 mise en place，经 Dan Charn…。本模型与其形成场景或方法层面的互补/分流。
+- **与[收件箱清零法](../inbox-zero/SKILL.md)**：用收件箱清零法（Inbox Zero，Merlin Mann 提出）把邮件/消息…。本模型与其形成场景或方法层面的互补/分流。
 - **与[GTD](../gtd/SKILL.md)**：本法则嵌在澄清步；完整可信系统仍靠 GTD。
 - **与[批处理](../batching/SKILL.md)**：大量短任务宜批，不宜散落两分钟。
 - **与[吃掉那只青蛙](../eat-the-frog/SKILL.md)**：难事先于琐事。

@@ -67,6 +67,10 @@ Flavell 以来，元认知指**关于认知的认知**：对自身注意、理�
 
 ## 相关模型
 
+- **与[成长型思维](../growth-mindset/SKILL.md)**：用成长型思维（Growth Mindset）把能力视为可通过策略与努力发展的，诊…。本模型与其形成场景或方法层面的互补/分流。
+- **与[精细加工提问](../elaborative-interrogation/SKILL.md)**：用精细加工提问（Elaborative Interrogation）对事实/主张…。本模型与其形成场景或方法层面的互补/分流。
+- **与[刻意练习](../deliberate-practice/SKILL.md)**：用刻意练习（Deliberate Practice）设计「在舒适区外、有目标、有…。本模型与其形成场景或方法层面的互补/分流。
+- **与[批判性思维](../../cognitive-thinking-tools/critical-thinking/SKILL.md)**：用 Facione Delphi（1990）共识框架做批判性思维：认知技能（诠释…。本模型与其形成场景或方法层面的互补/分流。
 - **与[邓宁-克鲁格](../../behavioral-biases/dunning-kruger/SKILL.md)**：邓克是校准失准的特定现象与争议；元认知是日常监控调节工具箱。改善元认知有助于校准，但不能用四阶段鸡汤替代。
 - **与[费曼技巧](../feynman-technique/SKILL.md)**：费曼是强制输出暴露空洞的协议；属元认知调节手段之一。
 - **与[双系统](../../thinking-models/dual-process/SKILL.md)**：元认知常调用慢系统打断快系统的流畅错觉。

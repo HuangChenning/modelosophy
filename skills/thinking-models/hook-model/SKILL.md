@@ -70,6 +70,7 @@ Nir Eyal《Hooked》提出的**习惯回路产品设计**框架，四步闭环�
 
 ## 相关模型
 
+- **与[习惯养成](../../learning-growth/habit-formation/SKILL.md)**：用习惯养成的「线索-惯常行为-奖赏」回路，把想坚持的行为交给情境自动化，而不是每…。本模型与其形成场景或方法层面的互补/分流。
 - **与[福格行为模型](../fogg-behavior-model/SKILL.md)**：单次 MAP vs 跨会话回路；先发生，再上钩。
 - **与[飞轮](../../strategy-competition/flywheel/SKILL.md)**：飞轮是战略增强回路隐喻；HOOK 是产品层触发—奖励—投入的具体四步。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：投入累积可类比复利，但须再投入条件成立且非剥削。

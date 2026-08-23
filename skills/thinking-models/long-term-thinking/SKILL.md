@@ -71,6 +71,9 @@ metadata:
 
 ## 相关模型
 
+- **与[二阶思维](../../systems-classic-effects/second-order-thinking/SKILL.md)**：用二阶思维强制追问“然后呢”：列出决策的后续效应、反馈与他人反应，避免停在一阶直…。本模型与其形成场景或方法层面的互补/分流。
+- **与[承诺机制](../../efficiency-execution/commitment-devices/SKILL.md)**：为执行层面设计承诺机制/自我约束装置：在冷静状态下预先设置对未来自己有真实约束力…。本模型与其形成场景或方法层面的互补/分流。
+- **与[马尔萨斯陷阱](../../econ-macro-theories/malthusian-trap/SKILL.md)**：用马尔萨斯陷阱理解前现代人均停滞与破局条件（技术/制度/人口转型）。。本模型与其形成场景或方法层面的互补/分流。
 - **与[10/10/10](../ten-ten-ten/SKILL.md)**：情绪三窗 vs 跨期战略/激励纪律。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：复利=增长机制清单；长线=是否允许并保护该机制跑完。
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：长线前提是下行可控、不归零。

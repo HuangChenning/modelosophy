@@ -60,6 +60,9 @@ metadata:
 
 ## 相关模型
 
+- **与[里程碑规划](../milestone-planning/SKILL.md)**：用里程碑规划（Milestone Planning）把长期目标切成可验证的阶段门…。本模型与其形成场景或方法层面的互补/分流。
+- **与[关键路径](../critical-path/SKILL.md)**：用关键路径法（Critical Path Method, CPM）在项目网络中找…。本模型与其形成场景或方法层面的互补/分流。
+- **与[持续改进](../continuous-improvement/SKILL.md)**：用持续改进（Continuous Improvement / Kaizen）以小…。本模型与其形成场景或方法层面的互补/分流。
 - **与[看板](../kanban/SKILL.md)**：时间盒 vs 流动；可混合。
 - **与[精益](../lean-thinking/SKILL.md)**：精益减浪费；敏捷管不确定性迭代。
 - **与[PDCA](../pdca/SKILL.md)**：每个迭代是一次 PDCA。

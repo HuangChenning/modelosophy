@@ -65,6 +65,7 @@ metadata:
 
 ## 相关模型
 
+- **与[奥兹原则](../oz-principle/SKILL.md)**：用奥兹原则（The Oz Principle / Above the Line …。本模型与其形成场景或方法层面的互补/分流。
 - **与[事前验尸](../pre-mortem/SKILL.md)**：**硬区分。** 验尸用「已失败」生成预防；AAR 用「已发生」提炼教训。可连用：验尸清单作 AAR 对照表。
 - **与[决策日志](../decision-journal/SKILL.md)**：日志提供「当时意图与预测」；AAR 消费这些记录避免假记忆。
 - **与[OODA](../ooda-loop/SKILL.md)**：OODA 是节奏闭环；AAR 是环末的结构化学习插入点。

@@ -58,6 +58,8 @@ metadata:
 
 ## 相关模型
 
+- **与[不可能三角](../impossible-trinity/SKILL.md)**：用不可能三角诊断开放经济政策组合的可行性。。本模型与其形成场景或方法层面的互补/分流。
+- **与[资产负债表衰退](../balance-sheet-recession/SKILL.md)**：诊断泡沫破裂后是否陷入资产负债表衰退，并权衡财政填补与过早紧缩风险。。本模型与其形成场景或方法层面的互补/分流。
 - **与[AD-AS 模型](../ad-as-model/SKILL.md)**：加入物价层；IS-LM 常作推导 AD 的中间步骤。
 - **与[挤出效应](../crowding-out-effect/SKILL.md)**：IS 右移沿 LM 爬升即挤出机制之一。
 - **与[乘数效应](../multiplier-effect/SKILL.md)**：IS 右移幅度与乘数相关。

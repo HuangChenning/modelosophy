@@ -74,6 +74,7 @@ Hall 的文化冰山同类：习俗、技术在上，价值观与思维框架在
 
 ## 相关模型
 
+- **与[归因理论](../../behavioral-biases/attribution-theory/SKILL.md)**：用归因理论帮用户区分把结果解释为内因（特质/努力/意图）还是外因（情境/任务/运…。本模型与其形成场景或方法层面的互补/分流。
 - **与[周哈里窗](../../thinking-models/johari-window/SKILL.md)**：周哈里是“谁知道什么”的四格；冰山是“可见到多深”的分层。要反馈盲区走周哈里；要解释制度失灵走冰山。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：结构杠杆与文化假设常纠缠；回路图画清机制，冰山标明默认信念。
 - **与[黄金圈](../../cognitive-thinking-tools/golden-circle/SKILL.md)**：黄金圈管叙事顺序 WHY–HOW–WHAT；冰山检查宣称的 WHY 是否只是信奉价值。

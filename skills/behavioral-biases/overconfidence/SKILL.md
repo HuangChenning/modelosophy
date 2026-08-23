@@ -54,6 +54,10 @@ metadata:
 
 ## 相关模型
 
+- **与[计划谬误](../../decision-probability/planning-fallacy/SKILL.md)**：用计划谬误（planning fallacy）诊断并纠偏「计划时间/成本系统性偏…。本模型与其形成场景或方法层面的互补/分流。
+- **与[灰度认知](../../decision-probability/grey-thinking/SKILL.md)**：用灰度认知（grey thinking / probabilistic beli…。本模型与其形成场景或方法层面的互补/分流。
+- **与[热手谬误](../hot-hand-fallacy/SKILL.md)**：用热手谬误检查用户是否把随机或弱相关的连胜当成“状态火热、应加码追击”。。本模型与其形成场景或方法层面的互补/分流。
+- **与[事后聪明偏误](../hindsight-bias/SKILL.md)**：用事后聪明偏误检查用户是否在结果揭晓后，夸大自己“事先就知道”的程度，从而扭曲学…。本模型与其形成场景或方法层面的互补/分流。
 - **与[达克效应](../dunning-kruger/SKILL.md)**：DK 是能力—自评特定模式；本条是更广校准问题。
 - **与[控制错觉](../illusion-of-control/SKILL.md)**：常共现于交易室。
 - **与[确认偏误](../confirmation-bias/SKILL.md)**：过度自信者更少搜反证。

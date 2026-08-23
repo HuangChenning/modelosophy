@@ -60,6 +60,7 @@ metadata:
 
 ## 相关模型
 
+- **与[站会](../standup/SKILL.md)**：用站会（Daily Standup / Daily Scrum）做短同步：昨日进…。本模型与其形成场景或方法层面的互补/分流。
 - **与[看板](../kanban/SKILL.md)**：看板=可视化+WIP+拉动；本模型聚焦 WIP 旋钮。
 - **与[精益思维](../lean-thinking/SKILL.md)**：降在制品减浪费。
 - **与[TOC](../../cognitive-thinking-tools/theory-of-constraints/SKILL.md)**：撞线处常是约束。

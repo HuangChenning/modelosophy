@@ -59,6 +59,7 @@ MECE = **Mutually Exclusive, Collectively Exhaustive**：类别两两不重叠�
 
 ## 相关模型
 
+- **与[抽象阶梯](../abstraction-ladder/SKILL.md)**：用抽象阶梯（Ladder of Abstraction，Hayakawa）在「具…。本模型与其形成场景或方法层面的互补/分流。
 - **与[第一性原理](../first-principles/SKILL.md)**：第一性原理拆到硬约束；MECE 保证拆出来的桶不重不漏。常连用。
 - **与[奥卡姆剃刀](../occams-razor/SKILL.md)**：奥卡姆排解释优先级；MECE 排分类结构。
 - **与[决策树](../../decision-probability/decision-tree/SKILL.md)**：决策树的分支在每一层也应尽量 MECE。

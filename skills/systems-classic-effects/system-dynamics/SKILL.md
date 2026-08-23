@@ -59,6 +59,10 @@ metadata:
 
 ## 相关模型
 
+- **与[存量与流量](../../systems-complexity/stock-and-flow/SKILL.md)**：用存量—流量（stock and flow）把系统写成「浴缸」：存量由流入/流出…。本模型与其形成场景或方法层面的互补/分流。
+- **与[因果回路图](../../systems-complexity/causal-loop-diagram/SKILL.md)**：用因果回路图（CLD）把变量以带极性的因果链连成增强/调节回路，显式标出延迟，用…。本模型与其形成场景或方法层面的互补/分流。
+- **与[熵增定律](../entropy-increase/SKILL.md)**：用熵增定律（热力学第二定律的组织隐喻）判断孤立系统如何趋向无序，并对照需要何种开…。本模型与其形成场景或方法层面的互补/分流。
+- **与[温水煮青蛙](../boiling-frog/SKILL.md)**：用温水煮青蛙隐喻诊断渐进恶化中的适应性麻木：变化足够慢时警报系统失效，需强制采样…。本模型与其形成场景或方法层面的互补/分流。
 - **与[系统思维](../systems-thinking/SKILL.md)**：先思维后动力学，或反过来用动力学深化。
 - **与[反馈回路](../feedback-loops/SKILL.md)**：回路是动力学的积木。
 - **与[杠杆](../../systems-complexity/leverage/SKILL.md)**：Meadows 杠杆点常基于动力学直觉（互链不迁入）。

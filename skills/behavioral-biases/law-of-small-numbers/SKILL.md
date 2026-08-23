@@ -52,6 +52,8 @@ metadata:
 
 ## 相关模型
 
+- **与[基率思维](../../decision-probability/base-rate/SKILL.md)**：用基率/参考类预测（base rate / reference class fo…。本模型与其形成场景或方法层面的互补/分流。
+- **与[赌徒谬误](../gamblers-fallacy/SKILL.md)**：用赌徒谬误检查用户是否误以为独立随机序列会自我纠错（“该出反面了”）。。本模型与其形成场景或方法层面的互补/分流。
 - **与[幸存者偏差](../survivorship-bias/SKILL.md)**：看见的成功样本可能又小又被筛选。
 - **与[代表性启发](../representativeness-heuristic/SKILL.md)**：小样本“很像真理”。
 - **与[热手谬误](../hot-hand-fallacy/SKILL.md)**：连胜序列常被小 N 神化。

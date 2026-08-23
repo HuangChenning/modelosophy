@@ -73,6 +73,7 @@ metadata:
 
 ## 相关模型
 
+- **与[损失规避](../../behavioral-biases/loss-aversion/SKILL.md)**：用损失规避帮用户识别“同等得失下，损失被加权更重”如何扭曲选择：相对参照点，损失…。本模型与其形成场景或方法层面的互补/分流。
 与[奥卡姆剃刀](../../cognitive-thinking-tools/occams-razor/SKILL.md)互补：奥卡姆剃刀处理"多个解释选哪个"，反脆弱处理"不确定环境下怎么配置"。若用户的问题是"哪个假设更可能成立"，应走奥卡姆剃刀而非本模型。
 
 与[逆向思维](../../cognitive-thinking-tools/inversion/SKILL.md)：Via Negativa 是本模型的工具，服务于不对称收益结构；逆向思维是针对已定义目标的失败预演。用户问"不确定下怎么配仓"走本模型；用户问"这件事怎么搞砸"走逆向思维。

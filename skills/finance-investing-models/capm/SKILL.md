@@ -58,6 +58,9 @@ E[Rᵢ] = Rf + βᵢ (E[Rₘ] − Rf)
 
 ## 相关模型
 
+- **与[有效市场假说](../efficient-market-hypothesis/SKILL.md)**：用有效市场假说检验“价格是否已反映可用信息、主动战胜市场是否可预期”：弱/半强/…。本模型与其形成场景或方法层面的互补/分流。
+- **与[现值与贴现（DCF）](../dcf/SKILL.md)**：用贴现把未来现金流折成今日价值：PV=Σ CFₜ/(1+r)ᵗ；投资与项目决策先…。本模型与其形成场景或方法层面的互补/分流。
+- **与[风险溢价](../../decision-probability/risk-premium/SKILL.md)**：用风险溢价概念解释「不确定现金流为何要求更高回报」：无风险基准 + 风险补偿，拆…。本模型与其形成场景或方法层面的互补/分流。
 - **与[现代投资组合理论](../modern-portfolio-theory/SKILL.md)**：选组合 vs 均衡定价。
 - **与[Fama-French 三因子](../fama-french-three-factor/SKILL.md)**：对遗漏风险的实证扩展。
 - **与[Beta 与 Alpha](../beta-alpha/SKILL.md)**：α 是相对定价模型的截距。

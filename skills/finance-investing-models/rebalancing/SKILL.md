@@ -53,6 +53,7 @@ metadata:
 
 ## 相关模型
 
+- **与[美林投资时钟](../investment-clock/SKILL.md)**：用美林投资时钟按增长与通胀组合划分四季，映射股/债/商品/现金的战术配置倾向；是…。本模型与其形成场景或方法层面的互补/分流。
 - **与[现代投资组合理论](../modern-portfolio-theory/SKILL.md)** / **[风险平价](../risk-parity/SKILL.md)**：提供目标。
 - **与[股债跷跷板](../stock-bond-seesaw/SKILL.md)**：漂移常来自跷跷板。
 - **与[复利](../compounding/SKILL.md)**：再平衡影响长期路径与风险存活。

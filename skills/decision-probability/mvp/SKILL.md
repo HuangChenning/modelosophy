@@ -66,6 +66,8 @@ metadata:
 
 ## 相关模型
 
+- **与[快速试错](../rapid-experimentation/SKILL.md)**：用快速试错/快速实验（rapid experimentation）把不确定性切成…。本模型与其形成场景或方法层面的互补/分流。
+- **与[OODA](../ooda-loop/SKILL.md)**：用 OODA 循环（Observe–Orient–Decide–Act）在对抗或…。本模型与其形成场景或方法层面的互补/分流。
 - **与[可逆与不可逆决策](../reversible-irreversible/SKILL.md)**：先确认试验反悔成本可接受，再 MVP。
 - **与[假设检验](../../cognitive-thinking-tools/hypothesis-testing/SKILL.md)**：MVP 是假设检验的产品形态。
 - **与[计划谬误](../planning-fallacy/SKILL.md)**：完整版工期易乐观；MVP 用学习范围对抗范围膨胀。

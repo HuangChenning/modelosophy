@@ -69,6 +69,7 @@ metadata:
 
 ## 相关模型
 
+- **与[分形](../fractals/SKILL.md)**：用分形视角识别跨尺度自相似与标度不变结构，判断「局部像整体」何时可作推理、何时只…。本模型与其形成场景或方法层面的互补/分流。
 - **与[小世界网络](../small-world-network/SKILL.md)**：拓扑体检后的专模。
 - **与[无标度网络](../scale-free-network/SKILL.md)**：度数胖尾专模。
 - **与[梅特卡夫定律](../../systems-classic-effects/metcalfes-law/SKILL.md)**：价值随规模；拓扑谈结构形状。

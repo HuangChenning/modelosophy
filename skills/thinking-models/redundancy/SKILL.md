@@ -69,6 +69,8 @@ metadata:
 
 ## 相关模型
 
+- **与[墨菲定律](../../systems-classic-effects/murphys-law/SKILL.md)**：用墨菲定律做风险思维：在足够机会下，可能出错的环节终会出错——用于冗余、防呆与最…。本模型与其形成场景或方法层面的互补/分流。
+- **与[木桶效应](../../systems-classic-effects/barrel-effect/SKILL.md)**：用木桶效应（短板理论）判断系统有效容量是否由最弱约束决定，并定位该补短板还是换桶…。本模型与其形成场景或方法层面的互补/分流。
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：冗余≈提高强韧/可恢复；反脆弱要设计不对称获益。需要“坏了还能转”用本模型；需要“波动喂胖我”用反脆弱。
 - **与[系统思维](../../systems-classic-effects/systems-thinking/SKILL.md)**：系统图帮找单点与延迟；冗余是对关键链路的设计处方之一。
 - **与[杠杆](../../systems-complexity/leverage/SKILL.md)**：杠杆放大行动效果；冗余常降低脆弱性但也可能降低效率——在关键节点上权衡。

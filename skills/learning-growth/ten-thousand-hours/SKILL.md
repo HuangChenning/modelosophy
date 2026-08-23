@@ -61,6 +61,7 @@ metadata:
 
 ## 相关模型
 
+- **与[组块](../chunking/SKILL.md)**：用组块（Chunking）把离散信息打成有意义的更大单元，降低工作记忆负荷并支撑…。本模型与其形成场景或方法层面的互补/分流。
 - **与[刻意练习](../deliberate-practice/SKILL.md)**：**硬分流。** 用户要「怎么练」走刻意练习；只纠「一万小时」迷思可先本模型再导流。
 - **与[成长型思维](../growth-mindset/SKILL.md)**：相信可发展 ≠ 相信凑时数。
 - **与[反脆弱](../antifragility/SKILL.md)**：勿把人生策略简化为单一时数 KPI。

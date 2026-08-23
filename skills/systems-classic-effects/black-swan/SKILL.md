@@ -59,6 +59,8 @@ metadata:
 
 ## 相关模型
 
+- **与[正态分布](../../systems-complexity/normal-distribution/SKILL.md)**：用正态分布（高斯）假设处理由多独立小因素叠加产生的薄尾对称波动，并明确何时必须放…。本模型与其形成场景或方法层面的互补/分流。
+- **与[情景规划](../../decision-probability/scenario-planning/SKILL.md)**：用情景规划（scenario planning）在深度不确定下构建少数条「不同且…。本模型与其形成场景或方法层面的互补/分流。
 - **与[灰犀牛](../gray-rhino/SKILL.md)**：可见拖着不办 vs 真正的事后惊奇。
 - **与[反脆弱](../../learning-growth/antifragility/SKILL.md)**：黑天鹅世界的策略语言。
 - **与[墨菲定律](../murphys-law/SKILL.md)**：可设想出错的工程防呆 vs 不可设想的尾部。

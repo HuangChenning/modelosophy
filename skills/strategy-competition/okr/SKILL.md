@@ -62,6 +62,8 @@ metadata:
 
 ## 相关模型
 
+- **与[里程碑规划](../../efficiency-execution/milestone-planning/SKILL.md)**：用里程碑规划（Milestone Planning）把长期目标切成可验证的阶段门…。本模型与其形成场景或方法层面的互补/分流。
+- **与[敏捷迭代](../../efficiency-execution/agile-iteration/SKILL.md)**：用敏捷迭代（短时间盒、可工作增量、检视适应）降低不确定性下的交付风险，而不是一次…。本模型与其形成场景或方法层面的互补/分流。
 - **与[PDCA](../../efficiency-execution/pdca/SKILL.md)**：OKR 定周期目标；PDCA 管改进循环。可连用。
 - **与[BCG 矩阵](../bcg-matrix/SKILL.md)**：组合决策后对选定业务写 OKR。
 - **与[麦肯锡 7S](../mckinsey-7s/SKILL.md)**：OKR 写目标度量；组织结构/制度/文化卡住时先用 7S 清障碍。

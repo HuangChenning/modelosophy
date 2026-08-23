@@ -53,6 +53,7 @@ metadata:
 
 ## 相关模型
 
+- **与[诱饵效应](../decoy-effect/SKILL.md)**：用诱饵效应检查不对称劣势的第三选项是否被加入以操纵两选项间的份额。。本模型与其形成场景或方法层面的互补/分流。
 - **与[现状偏差](../status-quo-bias/SKILL.md)**：默认制造强现状。
 - **与[损失规避](../loss-aversion/SKILL.md)**：改默认像失去被推荐状态。
 - **与[稀缺/互惠等说服术](../scarcity-principle/SKILL.md)**：可并行，但默认更“静默”。

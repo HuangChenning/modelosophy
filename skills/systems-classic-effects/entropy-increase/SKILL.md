@@ -59,6 +59,8 @@ metadata:
 
 ## 相关模型
 
+- **与[自组织](../../systems-complexity/self-organization/SKILL.md)**：用自组织判断有序结构是否由局部互动、在无中央蓝图下自发形成，并设计可维持的局部规…。本模型与其形成场景或方法层面的互补/分流。
+- **与[必要多样性](../../systems-complexity/requisite-variety/SKILL.md)**：用必要多样性（Ashby 定律）匹配「调节器必须具备不少于扰动的多样性」，诊断管…。本模型与其形成场景或方法层面的互补/分流。
 - **与[负熵](../../thinking-models/negentropy/SKILL.md)**：熵增说趋势；负熵说如何维持局部有序（互链，不迁入）。
 - **与[耗散结构](../../systems-complexity/dissipative-structures/SKILL.md)**：远离平衡的新有序机制。
 - **与[系统动力学](../system-dynamics/SKILL.md)**：用存量流量看“维护流量是否覆盖耗散”。

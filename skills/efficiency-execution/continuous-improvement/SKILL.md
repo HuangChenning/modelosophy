@@ -60,6 +60,7 @@ metadata:
 
 ## 相关模型
 
+- **与[每周回顾](../weekly-review/SKILL.md)**：用每周回顾（Weekly Review）做一次固定时间盒的系统性复盘：清空收件箱…。本模型与其形成场景或方法层面的互补/分流。
 - **与[PDCA](../pdca/SKILL.md)**：PDCA=单圈方法；持续改进=让圈子转起来的系统。
 - **与[精益思维](../lean-thinking/SKILL.md)**：精益找浪费；改善落地消除。
 - **与[清单与 SOP](../checklist-sop/SKILL.md)**：改进结果写入标准。

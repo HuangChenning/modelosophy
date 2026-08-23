@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[库兹涅茨曲线](../kuznets-curve/SKILL.md)**：谨慎使用库兹涅茨倒 U 假说讨论发展中不平等路径。。本模型与其形成场景或方法层面的互补/分流。
 - **与[内生增长理论](../endogenous-growth-theory/SKILL.md)**：把 A 的增速内生化。
 - **与[马尔萨斯陷阱](../malthusian-trap/SKILL.md)**：前现代对照。
 - **与[创造性破坏](../creative-destruction/SKILL.md)**：创新如何进 TFP。

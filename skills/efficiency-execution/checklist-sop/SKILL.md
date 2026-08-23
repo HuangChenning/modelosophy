@@ -60,6 +60,7 @@ metadata:
 
 ## 相关模型
 
+- **与[一切就位](../mise-en-place/SKILL.md)**：用"一切就位"（法语烹饪术语 mise en place，经 Dan Charn…。本模型与其形成场景或方法层面的互补/分流。
 - **与[PDCA](../pdca/SKILL.md)**：清单失败→Check/Act 修订清单。
 - **与[持续改进](../continuous-improvement/SKILL.md)**：SOP 是改进的载体之一。
 - **与[5S](../five-s/SKILL.md)**：现场整洁支撑清单可执行。

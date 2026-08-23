@@ -66,6 +66,8 @@ metadata:
 
 ## 相关模型
 
+- **与[敏感性分析](../sensitivity-analysis/SKILL.md)**：用敏感性分析检验结论对关键假设/输入的依赖：一次（或有计划地）变动输入，看输出与…。本模型与其形成场景或方法层面的互补/分流。
+- **与[概率论思维](../probability-thinking/SKILL.md)**：用概率论思维把判断改写成可讨论的概率陈述：样本空间、条件、独立性、期望与方差直觉…。本模型与其形成场景或方法层面的互补/分流。
 - **与[贝叶斯更新](../bayesian-updating/SKILL.md)**：基率≈先验；个案证据经似然并入。分流见上。
 - **与[计划谬误](../planning-fallacy/SKILL.md)**：计划谬误描述 internally 乐观；纠偏常靠本模型的 outside view。
 - **与[代表性启发式](../../behavioral-biases/representativeness-heuristic/SKILL.md)**：故事「像不像」替代频率时，用本模型拉回母体。

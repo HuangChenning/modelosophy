@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[基钦周期](../kitchin-cycle/SKILL.md)**：用基钦库存周期解释短波波动与补库/去库阶段。。本模型与其形成场景或方法层面的互补/分流。
 - **与[IS-LM 模型](../is-lm-model/SKILL.md)**：常用于构建 AD；本模型加 AS 与物价。
 - **与[菲利普斯曲线](../phillips-curve/SKILL.md)**：通胀—失业经验，可与 AD-AS 互译。
 - **与[供给学派](../supply-side-economics/SKILL.md)**：移动长期 AS。

@@ -65,6 +65,9 @@ metadata:
 
 ## 相关模型
 
+- **与[奥兹原则](../oz-principle/SKILL.md)**：用奥兹原则（The Oz Principle / Above the Line …。本模型与其形成场景或方法层面的互补/分流。
+- **与[决策日志](../decision-journal/SKILL.md)**：用决策日志（decision journal）在决策时记录信念、选项、预期与可检…。本模型与其形成场景或方法层面的互补/分流。
+- **与[复盘四步法](../after-action-review/SKILL.md)**：用复盘四步法（After Action Review, AAR）在行动结束后对照…。本模型与其形成场景或方法层面的互补/分流。
 - **与[红队思维](../red-team/SKILL.md)**：验尸偏集体叙事生成；红队偏独立对抗。分流见上。
 - **与[逆向思维](../../cognitive-thinking-tools/inversion/SKILL.md)**：逆向是个人/分析框架；验尸是会议工艺。
 - **与[事后偏差](../../behavioral-biases/hindsight-bias/SKILL.md)**：验尸主动征用「事后感」；真事后勿用事后偏差美化「早就知道」。

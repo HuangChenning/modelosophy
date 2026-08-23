@@ -70,6 +70,10 @@ metadata:
 
 ## 相关模型
 
+- **与[5W1H（Who](../five-w-one-h/SKILL.md)**：用 5W1H（Who/What/When/Where/Why/How）帮用户把事…。本模型与其形成场景或方法层面的互补/分流。
+- **与[冰山模型](../../systems-complexity/iceberg-model/SKILL.md)**：用冰山模型（组织/文化可见—不可见层，Schein/Hall 传统）把表象行为、…。本模型与其形成场景或方法层面的互补/分流。
+- **与[金字塔原理](../../cognitive-thinking-tools/pyramid-principle/SKILL.md)**：用明托金字塔原理帮用户把论证与沟通写成「结论先行、上层概括下层、同层 MECE」…。本模型与其形成场景或方法层面的互补/分流。
+- **与[批判性思维](../../cognitive-thinking-tools/critical-thinking/SKILL.md)**：用 Facione Delphi（1990）共识框架做批判性思维：认知技能（诠释…。本模型与其形成场景或方法层面的互补/分流。
 - **与[苏格拉底式质疑](../socratic-questioning/SKILL.md)**：苏格拉底含“检验隐含假设”类追问；用户要的是整套证伪流程时走它。本模型只把缺的前提补全并分类。
 - **与[确认偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：确认偏差管你搜什么证据；隐含前提管论证结构里缺了什么命题。
 - **与[演绎法](../deductive-reasoning/SKILL.md)**：补全后常用三段论检验有效性；先补前提，再谈形式是否有效。

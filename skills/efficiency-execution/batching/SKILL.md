@@ -60,6 +60,8 @@ metadata:
 
 ## 相关模型
 
+- **与[单任务处理](../single-tasking/SKILL.md)**：用单任务处理（Single-Tasking / Monotasking）设计"一…。本模型与其形成场景或方法层面的互补/分流。
+- **与[收件箱清零法](../inbox-zero/SKILL.md)**：用收件箱清零法（Inbox Zero，Merlin Mann 提出）把邮件/消息…。本模型与其形成场景或方法层面的互补/分流。
 - **与[时间块](../time-blocking/SKILL.md)**：批处理窗口常落成日历块。
 - **与[两分钟法则](../two-minute-rule/SKILL.md)**：≤2 分钟的琐事在批窗**内**顺手清掉；批窗**外**出现一律先记录，不要现场处理——那正是两分钟法则最常见的滥用形态。
 - **与[WIP 限制](../wip-limits/SKILL.md)**：批处理管「同类合并」；WIP 管「同时开多少」。

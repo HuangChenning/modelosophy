@@ -53,6 +53,8 @@ metadata:
 
 ## 相关模型
 
+- **与[事前验尸](../../decision-probability/pre-mortem/SKILL.md)**：用事前验尸（pre-mortem / prospective hindsight…。本模型与其形成场景或方法层面的互补/分流。
+- **与[决策日志](../../decision-probability/decision-journal/SKILL.md)**：用决策日志（decision journal）在决策时记录信念、选项、预期与可检…。本模型与其形成场景或方法层面的互补/分流。
 - **与[过度自信](../overconfidence/SKILL.md)**：一个事前估满，一个事后改口称早就满。
 - **与[幸存者偏差](../survivorship-bias/SKILL.md)**：只看见成功路径会强化“必然”。
 - **与[归因理论](../attribution-theory/SKILL.md)**：事后常把结果归因到决策者特质。

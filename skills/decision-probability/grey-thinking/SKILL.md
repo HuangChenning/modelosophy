@@ -66,6 +66,9 @@ metadata:
 
 ## 相关模型
 
+- **与[概率论思维](../probability-thinking/SKILL.md)**：用概率论思维把判断改写成可讨论的概率陈述：样本空间、条件、独立性、期望与方差直觉…。本模型与其形成场景或方法层面的互补/分流。
+- **与[OODA](../ooda-loop/SKILL.md)**：用 OODA 循环（Observe–Orient–Decide–Act）在对抗或…。本模型与其形成场景或方法层面的互补/分流。
+- **与[决策日志](../decision-journal/SKILL.md)**：用决策日志（decision journal）在决策时记录信念、选项、预期与可检…。本模型与其形成场景或方法层面的互补/分流。
 - **与[贝叶斯更新](../bayesian-updating/SKILL.md)**：灰度给信念刻度；贝叶斯给移动的合法算术。
 - **与[确认性偏差](../../behavioral-biases/confirmation-bias/SKILL.md)**：预注册移动规则对抗只吸收支持证据。
 - **与[过度自信](../../behavioral-biases/overconfidence/SKILL.md)**：校准复盘专治自信膨胀。

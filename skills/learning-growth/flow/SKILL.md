@@ -65,6 +65,10 @@ metadata:
 
 ## 相关模型
 
+- **与[刻意练习](../deliberate-practice/SKILL.md)**：用刻意练习（Deliberate Practice）设计「在舒适区外、有目标、有…。本模型与其形成场景或方法层面的互补/分流。
+- **与[深度工作](../deep-work/SKILL.md)**：用深度工作（Deep Work）设计无干扰的高认知专注时段，保护稀缺注意力以产出…。本模型与其形成场景或方法层面的互补/分流。
+- **与[任务切换成本](../../efficiency-execution/task-switching-cost/SKILL.md)**：用任务切换成本（Task-Switching Cost）解释认知心理学研究证实的…。本模型与其形成场景或方法层面的互补/分流。
+- **与[精力管理](../../efficiency-execution/energy-management/SKILL.md)**：用精力管理（Energy Management）按身心高峰匹配任务类型，而非只管…。本模型与其形成场景或方法层面的互补/分流。
 - **与[艾森豪威尔矩阵](../../efficiency-execution/eisenhower-matrix/SKILL.md)**：矩阵为 II 象限留出整块时间，是心流的日程前提。
 - **与[复利](../../finance-investing-models/compounding/SKILL.md)**：深度练习的小时数可复利，但须再投入到更高挑战，否则停在无聊区。
 - **与[局部/全局最优](../../thinking-models/local-global-optima/SKILL.md)**：在错误任务上很心流，只是局部峰上的舒适沉浸。

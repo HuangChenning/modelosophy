@@ -59,6 +59,8 @@ metadata:
 
 ## 相关模型
 
+- **与[无标度网络](../../systems-complexity/scale-free-network/SKILL.md)**：用无标度网络（scale-free，Barabási–Albert 等）理解度数…。本模型与其形成场景或方法层面的互补/分流。
+- **与[多稳态](../../systems-complexity/multistability/SKILL.md)**：用多稳态识别系统可滞留的多个稳定状态、盆地与跃迁门槛，设计如何守住理想态或支付成…。本模型与其形成场景或方法层面的互补/分流。
 - **与[路径依赖](../path-dependence/SKILL.md)**：历史如何锁；锁定问现在退出成本。
 - **与[梅特卡夫法则](../metcalfes-law/SKILL.md)**：网络价值可加固锁，但先分账。
 - **与[经济护城河](../../strategy-competition/economic-moat/SKILL.md)**：锁入可以是护城河来源之一；护城河是更宽战略框。

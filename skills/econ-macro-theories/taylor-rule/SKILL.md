@@ -57,6 +57,7 @@ metadata:
 
 ## 相关模型
 
+- **与[货币数量方程](../fisher-equation/SKILL.md)**：用货币数量方程 MV=PQ 做货币—名义收入直觉推演，并严格检查 V 与 Y 假…。本模型与其形成场景或方法层面的互补/分流。
 - **与[菲利普斯曲线](../phillips-curve/SKILL.md)**：通胀—闲置资源权衡进入规则。
 - **与[理性预期](../rational-expectations/SKILL.md)**：规则利于预期锚定。
 - **与[货币主义](../monetarism/SKILL.md)**：规则优于纯相机抉择的亲戚。

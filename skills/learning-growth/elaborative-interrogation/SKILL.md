@@ -66,6 +66,7 @@ metadata:
 
 ## 相关模型
 
+- **与[自我解释效应](../self-explanation/SKILL.md)**：用自我解释效应（Self-Explanation Effect, Chi）在学习…。本模型与其形成场景或方法层面的互补/分流。
 - **与[费曼技巧](../feynman-technique/SKILL.md)**：费曼要完整浅白讲解；精细加工是点状「为何」锚点。大洞用费曼，锚点用本模型。
 - **与[检索练习](../retrieval-practice/SKILL.md)**：加工加深编码；检索巩固与诊断。顺序常为：理解/加工 → 检索 → 间隔。
 - **与[双重编码](../dual-coding/SKILL.md)**：理由可用示意图支撑「为何箭头如此」。
