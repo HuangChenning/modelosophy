@@ -6,7 +6,7 @@
 
 路径：`skills/efficiency-execution/<skill-name>/SKILL.md`。
 
-当前合计 **30** 个（迁入种子 2 + M3 新建 7 + 批次新建 12 + 名录扩容新建 9，`v0.x-draft`，达到名录目标数量）。
+当前合计 **31** 个（迁入种子 2 + M3 新建 7 + 批次新建 12 + 名录扩容新建 9 + 补充新建 1，均为可执行 Skill；部分仍为 `v0.x-draft`，详见 Notes）。
 
 ## Skills
 
@@ -32,6 +32,7 @@
 - **[mise-en-place](./mise-en-place/SKILL.md)** — 一切就位：执行前把物料/信息/权限准备到位，避免边做边找导致中断。
 - **[pdca](./pdca/SKILL.md)** — PDCA：计划-执行-检查/学习-处理的持续改进循环，不是一次性瀑布。
 - **[pomodoro](./pomodoro/SKILL.md)** — 番茄工作法：固定专注-短休时间盒节奏（≠深度工作长块）。
+- **[raci](./raci/SKILL.md)** — RACI：跨角色协作分工矩阵，每项任务强制唯一问责人（≠ delegation）。
 - **[single-tasking](./single-tasking/SKILL.md)** — 单任务处理：一段时间只处理一个任务，切换前主动收尾，而非被打断式切出。
 - **[standup](./standup/SKILL.md)** — 站会：短同步昨日/今日/障碍。
 - **[structured-procrastination](./structured-procrastination/SKILL.md)** — 结构化拖延：半开玩笑的悖论技巧——用对"大事"的拖延冲动导流去完成其他重要小事（不适用于真拖延成瘾）。
@@ -48,7 +49,8 @@
 - 迁入种子：eisenhower-matrix / pdca。
 - M3 新建（`v0.x-draft`）：pomodoro / gtd / kanban / agile-iteration / lean-thinking / critical-path / five-s。
 - 批次新建（`v0.x-draft`，分支 `feature/efficiency-execution-batch`）：batching / checklist-sop / continuous-improvement / delegation / eat-the-frog / energy-management / gantt-chart / milestone-planning / standup / time-blocking / two-minute-rule / wip-limits。
-- 名录扩容新建（已于 2026-08-20 完成独立盲测与 QA 校验，升至 `v1.0`）：meeting-hygiene / single-tasking / task-switching-cost / inbox-zero / structured-procrastination / buffer-time / mise-en-place / weekly-review / commitment-devices。至此本类达到名录目标数量（~30），不再扩容。`commitment-devices` 特别处理了和博弈论/双曲贴现几个 skill 的应用层次区分（见其"相关模型"）。
+- 名录扩容新建（已于 2026-08-20 完成独立盲测与 QA 校验，升至 `v1.0`）：meeting-hygiene / single-tasking / task-switching-cost / inbox-zero / structured-procrastination / buffer-time / mise-en-place / weekly-review / commitment-devices。`commitment-devices` 特别处理了和博弈论/双曲贴现几个 skill 的应用层次区分（见其"相关模型"）。
+- 补充新建（已于 2026-09-09 完成独立盲测与 QA 校验，升至 `v1.0`）：raci —— 跨角色协作分工矩阵，与已有 `delegation` 分流互补（RACI 理清全局角色矩阵，delegation 处理一对一移交）。
 - 名录「深度工作法」→ 见学习类 `deep-work`。
 
 ## Other categories

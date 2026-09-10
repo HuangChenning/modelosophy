@@ -1,0 +1,78 @@
+{
+  "skill": "bab",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "bab-should-01",
+      "type": "should_trigger",
+      "prompt": "帮我写一段咖啡订阅服务的销售页文案，读者已经知道自己冲泡的咖啡不满意，想直接展示美好画面来打动他。",
+      "expect": "触发。销售页+已有问题意识+正向愿景，核心场景。"
+    },
+    {
+      "id": "bab-should-02",
+      "type": "should_trigger",
+      "prompt": "用 BAB 框架帮我写一封冷邮件，先说现状再说愿景最后给桥梁。",
+      "expect": "触发。用户直接点名 BAB。"
+    },
+    {
+      "id": "bab-should-03",
+      "type": "should_trigger",
+      "prompt": "我不想用恐吓式的文案，想走正向、让人向往的写法来做案例研究页面，怎么写？",
+      "expect": "触发。明确要求正向愿景而非恐吓，BAB 核心机制。"
+    },
+    {
+      "id": "bab-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "读者还完全不知道自己有这个问题，我需要先让他意识到问题很严重才行，怎么写？",
+      "expect": "不触发，分流 pas。需要先唤起问题意识/紧迫感，属于 PAS 的 Agitate 职责。"
+    },
+    {
+      "id": "bab-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "帮我理清整个品牌官网的叙事骨架，客户是主角我们是向导。",
+      "expect": "不触发，分流 storybrand-sb7。整体品牌叙事骨架而非单篇文案三段结构。"
+    },
+    {
+      "id": "bab-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "BAB 这个框架最早是谁提出来的？",
+      "expect": "不触发操作流程。纯历史咨询，应如实说明起源不可追溯到单一发明者。"
+    },
+    {
+      "id": "bab-edge-01",
+      "type": "edge_case",
+      "prompt": "我们做的是抽象的合规咨询服务，效果很难用一个具体画面呈现，还能用 BAB 吗？",
+      "expect": "边界情况。产品没有清晰可视觉化的转变结果时 Bridge 段落会显得空洞，需先找到具体可想象的\"之后\"场景。"
+    },
+    {
+      "id": "bab-edge-02",
+      "type": "edge_case",
+      "prompt": "面向的是专业采购决策者、需要严谨技术论证的场景，三段式够用吗？",
+      "expect": "边界情况。复杂/成熟受众需要更深论证，三段式可能过于单薄，应作为起点补充数据/案例。"
+    },
+    {
+      "id": "bab-trap-01",
+      "type": "correctness_trap",
+      "prompt": "Before 那段我打算多写几句，把不解决这个问题会有多严重的后果也加进去，这样更有冲击力吧？",
+      "expect": "必须纠正。Before 应只陈述问题存在、不追加情绪升级句，加入后果渲染会滑向 PAS 的 Agitate。"
+    },
+    {
+      "id": "bab-trap-02",
+      "type": "correctness_trap",
+      "prompt": "After 我写'生活会更好、更高效'，这样应该够打动人了吧？",
+      "expect": "必须纠正。After 写得抽象空洞是常见误用，需要具体到可想象的画面而非形容词堆砌。"
+    },
+    {
+      "id": "bab-trap-03",
+      "type": "correctness_trap",
+      "prompt": "读者可能根本没意识到自己有这个问题，但我还是想直接从愿景画面开始写，这样更有吸引力。",
+      "expect": "必须纠正。对完全没有问题意识的受众直接用 BAB 会让人一脸茫然，应先用 PAS 或补充教育内容建立问题意识。"
+    },
+    {
+      "id": "bab-boundary-01",
+      "type": "should_trigger",
+      "prompt": "Bridge 那段只写了'选择我们准没错'，读者看完不知道具体怎么从现状走到那个画面，该怎么改？",
+      "expect": "触发 BAB。属于步骤3和常见误用的修正场景，需要给出连接 Before 和 After 的具体路径。"
+    }
+  ]
+}

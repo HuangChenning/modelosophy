@@ -8,9 +8,9 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 
 ## 项目简介与现状
 
-这个仓库还处于早期阶段。`skills/<category>/` 下合计 **373** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
+这个仓库还处于早期阶段。`skills/<category>/` 下合计 **384** 个可执行 Skill（各分类 README 仍是分域索引；`_templates` 不是 Skill）。
 
-**全库 377 个 Skill 已全量完成苏格拉底自检、测试集建设（>=10 条用例/Skill，包含 4 种类型与 2+ 条正确性陷阱）、`quick_validate.py` 结构校验及独立盲测，全量升级为 `version: v1.0`。**
+**全库 384 个 Skill 已全量完成苏格拉底自检、测试集建设（>=10 条用例/Skill，包含 4 种类型与 2+ 条正确性陷阱）、`quick_validate.py` 结构校验及独立盲测，全量升级为 `version: v1.0`。**
 
 早期「9 字段知识卡」方案已废弃为主交付；其中有用字段（提出者、常见误用、记忆钩子等）可吸收进可执行 `SKILL.md`。计划见 [`ROADMAP.md`](ROADMAP.md)；仓库级变更历史见 [`CHANGELOG.md`](CHANGELOG.md)。
 
@@ -20,11 +20,11 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | --- | ---: | ---: | ---: | --- |
 | [商业 / 组织情报](skills/business/README.md) | 6 | 6 | 0 | [目录](#商业--组织情报1) |
 | [通用思维模型](skills/thinking-models/README.md) | 25 | 25 | 0 | [目录](#通用思维模型25) |
-| [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 28 | 28 | 0 | [目录](#认知与思维工具28) |
+| [认知与思维工具](skills/cognitive-thinking-tools/README.md) | 33 | 33 | 0 | [目录](#认知与思维工具33) |
 | [决策与概率](skills/decision-probability/README.md) | 24 | 24 | 0 | [目录](#决策与概率24) |
 | [学习与成长](skills/learning-growth/README.md) | 30 | 30 | 0 | [目录](#学习与成长30) |
-| [战略与竞争](skills/strategy-competition/README.md) | 30 | 30 | 0 | [目录](#战略与竞争30) |
-| [效率与执行](skills/efficiency-execution/README.md) | 30 | 30 | 0 | [目录](#效率与执行30) |
+| [战略与竞争](skills/strategy-competition/README.md) | 31 | 31 | 0 | [目录](#战略与竞争31) |
+| [效率与执行](skills/efficiency-execution/README.md) | 31 | 31 | 0 | [目录](#效率与执行31) |
 | [系统与复杂](skills/systems-complexity/README.md) | 23 | 23 | 0 | [目录](#系统与复杂23) |
 | [宏观经济学理论](skills/econ-macro-theories/README.md) | 30 | 30 | 0 | [目录](#宏观经济学理论30) |
 | [微观经济学与市场](skills/econ-micro-markets/README.md) | 30 | 30 | 0 | [目录](#微观经济学与市场30) |
@@ -32,7 +32,7 @@ SWOT、第一性原理、MECE、复利思维、第二序思维……每一个思
 | [行为经济学与偏误](skills/behavioral-biases/README.md) | 30 | 30 | 0 | [目录](#行为经济学与偏误30) |
 | [金融与投资](skills/finance-investing-models/README.md) | 30 | 30 | 0 | [目录](#金融与投资30) |
 | [系统与经典效应](skills/systems-classic-effects/README.md) | 30 | 30 | 0 | [目录](#系统与经典效应30) |
-| **合计** | **377** | **377** | **0** | |
+| **合计** | **384** | **384** | **0** | |
 
 另有原属通用思维模型库的 Skill 已分批迁入学科分类（含本轮 **25** 条迁入认知/决策/学习/战略/效率/复杂系统），只在新分类下列出。
 
@@ -71,11 +71,11 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 
 ## 局限性
 
-库仍处于早期：跨分类合计 **373** 个可执行模型（`business/` 2 + `thinking-models/` 25 + 六学科分类 181 + 名录扩充分类 165，后者刚达到 ~30/类的名录目标）。已知的欠缺，如实列出：
+库仍处于早期：跨分类合计 **384** 个可执行模型（`business/` 6 + `thinking-models/` 25 + 其余 12 个分类合计 353，后者刚达到 ~30/类的名录目标）。已知的欠缺，如实列出：
 
-- **全库已 100% 升阶至 `v1.0`。** 全库 377 个 Skill 均已完成盲测用例拓展（每项 $\ge 10$ 条测试用例，涵盖应触发/不应触发/边界/2条以上正确性陷阱）、苏格拉底自检与结构校验。
-- **所有 377 个 Skill 的评估集均已配齐 $\ge 10$ 条用例。** 覆盖应触发、不应触发、边界情况及 2+ 条正确性陷阱，全库 3,737 条用例经过 Batch Benchmark 自动化评测（综合通过率 99.65%）。须注意：evals 验证的是触发与分流准确性，而非事实核查。
-- **`v1.0` 不等于内容已核实。** 2026-08-19 的内容审计（三轮）读完了全部 **350 个** `SKILL.md`——全覆盖，不是抽样——在版本号两侧都找出了实质问题并修复共 50 处：公式下标被形近的非拉丁字符顶替、经典实验/引用细节记错、两个同名但不同的公式撞名未做区分、正文步骤与自己声明的边界互相矛盾、两个战略类 skill 之间未点破的理论冲突——其中 `v1.0` 那批还专门查出一个路由类 skill（`munger-misjudgment`）的查找表指向了 5 个错误或已过时的目标。背后的教训不变：盲测查的是触发，不是事实；草稿和 `v1.0` 都不该被当成"已核实"。完整审计轨迹见 [`ROADMAP.md`](ROADMAP.md)。
+- **全库已 100% 升阶至 `v1.0`。** 全库 384 个 Skill 均已完成盲测用例拓展（每项 $\ge 10$ 条测试用例，涵盖应触发/不应触发/边界/2条以上正确性陷阱）、苏格拉底自检与结构校验。
+- **所有 384 个 Skill 的评估集均已配齐 $\ge 10$ 条用例。** 覆盖应触发、不应触发、边界情况及 2+ 条正确性陷阱，全库 3,737 条用例（早于最近一批 7 个 Skill 的加入，尚未重跑）经过 Batch Benchmark 自动化评测（综合通过率 99.65%）。须注意：evals 验证的是触发与分流准确性，而非事实核查。
+- **`v1.0` 不等于内容已核实。** 2026-08-19 的内容审计（三轮）读完了当时存在的全部 **350 个** `SKILL.md`——覆盖当时的全量，不是抽样——在版本号两侧都找出了实质问题并修复共 50 处：公式下标被形近的非拉丁字符顶替、经典实验/引用细节记错、两个同名但不同的公式撞名未做区分、正文步骤与自己声明的边界互相矛盾、两个战略类 skill 之间未点破的理论冲突——其中 `v1.0` 那批还专门查出一个路由类 skill（`munger-misjudgment`）的查找表指向了 5 个错误或已过时的目标。背后的教训不变：盲测查的是触发，不是事实；草稿和 `v1.0` 都不该被当成"已核实"。完整审计轨迹见 [`ROADMAP.md`](ROADMAP.md)。
 
 编写规范仍可能随库扩张调整。
 
@@ -128,18 +128,21 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[spiral-of-silence](skills/thinking-models/spiral-of-silence/SKILL.md)** — 沉默的螺旋：诊断「怕被孤立→误判意见气候→少数派沉默→优势意见更响」的舆论动力。
 - **[ten-ten-ten](skills/thinking-models/ten-ten-ten/SKILL.md)** — 10/10/10：从当下强烈情绪拉开时间距离，分别写出约 10 分钟/10 个月/10 年的后果。
 
-### 认知与思维工具（28）
+### 认知与思维工具（33）
 
 第一性原理、结构化拆解、批判性思维等认知工具。
 
 - **[abstraction-ladder](skills/cognitive-thinking-tools/abstraction-ladder/SKILL.md)** — 抽象阶梯：在具体与抽象之间有意识上下钻（≠ 推论阶梯）。
+- **[aida](skills/cognitive-thinking-tools/aida/SKILL.md)** — AIDA：注意–兴趣–欲望–行动的陌生受众广告文案结构。
 - **[analogical-thinking](skills/cognitive-thinking-tools/analogical-thinking/SKILL.md)** — 类比思维：结构映射迁移并检验失效边界。
+- **[bab](skills/cognitive-thinking-tools/bab/SKILL.md)** — BAB：现状–愿景–桥梁的正向愿景型销售文案结构。
 - **[backward-goal](skills/cognitive-thinking-tools/backward-goal/SKILL.md)** — 反向目标：从可验收终态倒推到今日动作。
 - **[concept-map](skills/cognitive-thinking-tools/concept-map/SKILL.md)** — 概念图：概念+连接词构成命题网络。
 - **[critical-thinking](skills/cognitive-thinking-tools/critical-thinking/SKILL.md)** — 批判性思维：按 Facione Delphi 框架练诠释、分析、评估、推理、说明与自我校准。
 - **[cross-validation-thinking](skills/cognitive-thinking-tools/cross-validation-thinking/SKILL.md)** — 交叉验证：多独立证据路径核验主张（≠ ML k-fold）。
 - **[decision-matrix](skills/cognitive-thinking-tools/decision-matrix/SKILL.md)** — 决策矩阵：多标准加权评分与敏感性（概率树见决策与概率）。
 - **[diamond-six-steps](skills/cognitive-thinking-tools/diamond-six-steps/SKILL.md)** — 菱形六步法：两轮发散—收敛门控。
+- **[fab](skills/cognitive-thinking-tools/fab/SKILL.md)** — FAB：特性–优势–利益的产品/功能说明结构。
 - **[first-principles](skills/cognitive-thinking-tools/first-principles/SKILL.md)** — 第一性原理：把判断拆到硬事实/物理约束，再从约束重新往上构建，少靠类比。
 - **[five-whys](skills/cognitive-thinking-tools/five-whys/SKILL.md)** — 5Why：沿因果链追问至可行动根因。
 - **[golden-circle](skills/cognitive-thinking-tools/golden-circle/SKILL.md)** — 黄金圈：按 WHY–HOW–WHAT 整理沟通与策略叙事，先目的再方法再产品。
@@ -151,11 +154,13 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[mind-map](skills/cognitive-thinking-tools/mind-map/SKILL.md)** — 思维导图：中心放射的层级联想笔记与外化。
 - **[occams-razor](skills/cognitive-thinking-tools/occams-razor/SKILL.md)** — 奥卡姆剃刀：在同样能解释现象的假设中，优先所需特设假设更少者，再验证。
 - **[octopus-diagram](skills/cognitive-thinking-tools/octopus-diagram/SKILL.md)** — 八爪鱼图：中心主题+多腕足维度盘点。
+- **[pas](skills/cognitive-thinking-tools/pas/SKILL.md)** — PAS：问题–激化–解决的销售/广告短文案结构。
 - **[pros-cons-list](skills/cognitive-thinking-tools/pros-cons-list/SKILL.md)** — 优劣势清单：利弊并列扫描（加权走决策矩阵）。
 - **[pyramid-principle](skills/cognitive-thinking-tools/pyramid-principle/SKILL.md)** — 金字塔原理：结论先行，上层概括下层，同层 MECE 组织论证与沟通。
 - **[scqa](skills/cognitive-thinking-tools/scqa/SKILL.md)** — SCQA：情境–冲突–问题–答案的开场与问题定义。
 - **[six-thinking-hats](skills/cognitive-thinking-tools/six-thinking-hats/SKILL.md)** — 六顶思考帽：把会议中的事实、感受、利益、风险与创意分时并行处理。
 - **[star-method](skills/cognitive-thinking-tools/star-method/SKILL.md)** — STAR：情境–任务–行动–结果的经历叙事。
+- **[storybrand-sb7](skills/cognitive-thinking-tools/storybrand-sb7/SKILL.md)** — StoryBrand SB7：客户为主角、品牌为向导的七段品牌叙事骨架。
 - **[structured-thinking](skills/cognitive-thinking-tools/structured-thinking/SKILL.md)** — 结构化思维：问题定义→拆解→分析→综合的总流程。
 - **[theory-of-constraints](skills/cognitive-thinking-tools/theory-of-constraints/SKILL.md)** — TOC 约束理论：聚焦系统吞吐瓶颈的五步法。
 - **[thought-experiment](skills/cognitive-thinking-tools/thought-experiment/SKILL.md)** — 思维实验：反事实设定中澄清原则并声明限度。
@@ -225,7 +230,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[unlearning](skills/learning-growth/unlearning/SKILL.md)** — 去学习：有管理地退役干扰性旧知识/旧反应。
 - **[zpd](skills/learning-growth/zpd/SKILL.md)** — 最近发展区：独立/支架/做不到三带与渐撤支架。
 
-### 战略与竞争（30）
+### 战略与竞争（31）
 
 波特五力、护城河、飞轮、SWOT、蓝海、第二曲线、颠覆式创新、BCG、GE 九宫、麦肯锡 7S、OKR、VRIO，批次新建（安索夫、BSC、价值链、通用战略/战略钟、定位、平台、RBV/核心能力、KPI），以及 2026-08-19 补齐名录目标的一批（商业模式画布、战略地图、动态能力、波特钻石模型、三层面增长、战略意图，等待独立盲测）。
 
@@ -258,9 +263,10 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[swot](skills/strategy-competition/swot/SKILL.md)** — SWOT 分析：盘点内部优势/劣势×外部机会/威胁，并做 SO/WO/ST/WT 匹配导向行动。
 - **[three-horizons](skills/strategy-competition/three-horizons/SKILL.md)** — 三层面增长：H1/H2/H3 三个成熟阶段业务永久并行管理，而非等见顶才找下一个（≠第二曲线）。
 - **[value-chain](skills/strategy-competition/value-chain/SKILL.md)** — 价值链：主活动/支持活动拆解成本与差异化落点。
+- **[value-proposition-canvas](skills/strategy-competition/value-proposition-canvas/SKILL.md)** — 价值主张画布：客户画像（jobs/pains/gains）与价值地图逐条对应并验证契合（≠ positioning）。
 - **[vrio](skills/strategy-competition/vrio/SKILL.md)** — VRIO：资源/能力是否有价值、稀缺、难模仿且有组织支持。
 
-### 效率与执行（30）
+### 效率与执行（31）
 
 艾森豪威尔、PDCA、M3 批次（番茄、GTD、看板、敏捷、精益、关键路径、5S），批次新建（批处理、清单/SOP、持续改进、委派、吃青蛙、精力管理、甘特、里程碑、站会、时间块、两分钟法则、WIP 限制），以及 2026-08-19 补齐名录目标的一批（高效会议、单任务处理、任务切换成本、收件箱清零、结构化拖延、缓冲时间、一切就位、每周回顾、承诺机制）。深度工作见学习与成长类。
 
@@ -286,6 +292,7 @@ skills/<category>/<name>/assets/       该 Skill 渲染时使用的模板
 - **[mise-en-place](skills/efficiency-execution/mise-en-place/SKILL.md)** — 一切就位：执行前把物料/信息/权限准备到位，避免边做边找导致中断。
 - **[pdca](skills/efficiency-execution/pdca/SKILL.md)** — PDCA：Plan–Do–Check/Study–Act 持续改进循环，每圈带明确假设与度量。
 - **[pomodoro](skills/efficiency-execution/pomodoro/SKILL.md)** — 番茄工作法：固定专注-短休时间盒节奏（≠深度工作长块）。
+- **[raci](skills/efficiency-execution/raci/SKILL.md)** — RACI：跨角色协作分工矩阵，每项任务强制唯一问责人（≠ delegation）。
 - **[single-tasking](skills/efficiency-execution/single-tasking/SKILL.md)** — 单任务处理：一段时间只处理一个任务，切换前主动收尾，而非被打断式切出。
 - **[standup](skills/efficiency-execution/standup/SKILL.md)** — 站会：短同步昨日/今日/障碍。
 - **[structured-procrastination](skills/efficiency-execution/structured-procrastination/SKILL.md)** — 结构化拖延：半开玩笑的悖论技巧，用对"大事"的拖延冲动导流去完成其他重要小事（不适用于真拖延成瘾）。

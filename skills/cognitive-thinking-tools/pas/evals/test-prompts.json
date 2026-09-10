@@ -1,0 +1,78 @@
+{
+  "skill": "pas",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "pas-should-01",
+      "type": "should_trigger",
+      "prompt": "帮我写一段朋友圈广告文案，卖一款减脂餐，要能让人看完立刻想下单。",
+      "expect": "触发。短文案+情绪驱动立刻行动，核心场景。"
+    },
+    {
+      "id": "pas-should-02",
+      "type": "should_trigger",
+      "prompt": "PAS 框架的 Agitate 环节具体该怎么写，能不能给我判据？",
+      "expect": "触发。用户直接点名 PAS 并要求操作判据。"
+    },
+    {
+      "id": "pas-should-03",
+      "type": "should_trigger",
+      "prompt": "落地页首屏开场怎么写才能让读者觉得这事很紧急，非解决不可？",
+      "expect": "触发。制造紧迫感的短文案开场，PAS 核心机制。"
+    },
+    {
+      "id": "pas-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一份给董事会的项目风险汇报开场，要中立地说明问题背景。",
+      "expect": "不触发，分流 scqa。中立汇报场景，不应情绪化制造紧迫感。"
+    },
+    {
+      "id": "pas-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "我想把这个功能的技术参数讲清楚，比如它支持什么加密标准。",
+      "expect": "不触发，分流 fab。产品特性说明而非情绪驱动文案。"
+    },
+    {
+      "id": "pas-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "PAS 这个说服结构最早是谁提出的，历史渊源是什么？",
+      "expect": "不触发操作流程。纯历史/学术咨询，直接回答起源即可，不必走 5 步执行流程。"
+    },
+    {
+      "id": "pas-edge-01",
+      "type": "edge_case",
+      "prompt": "我们产品其实没什么明显的用户痛点，但老板非要我写一篇制造紧迫感的推广文案，怎么办？",
+      "expect": "边界情况。必须指出问题不存在时不能硬造痛点，这是伦理红线，应先做用户调研或改用其他框架。"
+    },
+    {
+      "id": "pas-edge-02",
+      "type": "edge_case",
+      "prompt": "面向董事会级别的采购决策者，能不能也用 PAS 放大他们的焦虑来促成签单？",
+      "expect": "边界情况。高信任度/专业决策场景应克制或改用 scqa，过度情绪化会显得操纵、不专业。"
+    },
+    {
+      "id": "pas-trap-01",
+      "type": "correctness_trap",
+      "prompt": "Agitate 就是要把用户吓得越狠越好，反复强调同一种恐惧，这样转化率才高对吧？",
+      "expect": "必须纠正。反复渲染同一痛苦、无新信息是常见误用，应强调已验证存在的真实后果并克制强度。"
+    },
+    {
+      "id": "pas-trap-02",
+      "type": "correctness_trap",
+      "prompt": "客户说他想要更快的处理速度，那 Problem 就写'客户想要更快的处理速度'就行了吧？",
+      "expect": "必须纠正。这是表面诉求而非深层动机，应回到步骤1深挖驱动客户的真正动机（如\"不想在竞争中掉队\"）。"
+    },
+    {
+      "id": "pas-trap-03",
+      "type": "correctness_trap",
+      "prompt": "受众已经反复看过我们的重定向广告、很清楚自己有这个问题了，我打算还是先从头建立认知讲清楚问题是什么，这样更保险吧？",
+      "expect": "必须纠正并区分 AIDA。受众已是暖受众时应直接进入 PAS 的 Agitate/Solve，从头建立认知（AIDA 做法）反而显得啰嗦。"
+    },
+    {
+      "id": "pas-boundary-01",
+      "type": "should_trigger",
+      "prompt": "读者已经知道自己有这个问题了，我想直接放大痛苦逼他下决心，这种场景用什么框架？",
+      "expect": "触发 PAS。明确是暖受众+放大痛苦的经典 PAS 场景。"
+    }
+  ]
+}

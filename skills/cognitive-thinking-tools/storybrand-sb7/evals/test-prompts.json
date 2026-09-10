@@ -1,0 +1,78 @@
+{
+  "skill": "storybrand-sb7",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "sb7-should-01",
+      "type": "should_trigger",
+      "prompt": "我们官网首页内部术语堆得太多，读者搞不清楚这跟自己有什么关系，怎么理清整体叙事骨架？",
+      "expect": "触发。整份材料定位混乱的核心场景。"
+    },
+    {
+      "id": "sb7-should-02",
+      "type": "should_trigger",
+      "prompt": "用 StoryBrand SB7 帮我把品牌故事理一遍，客户是主角、我们是向导。",
+      "expect": "触发。用户直接点名 SB7。"
+    },
+    {
+      "id": "sb7-should-03",
+      "type": "should_trigger",
+      "prompt": "宣传手册整体应该怎么组织七段信息，让客户觉得这是为他量身定做的？",
+      "expect": "触发。整体叙事骨架搭建场景。"
+    },
+    {
+      "id": "sb7-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一条广告文案的第一句话，要能让陌生受众看了立刻停下来。",
+      "expect": "不触发，分流 aida。单篇文案的具体钩子写法，颗粒度不同。"
+    },
+    {
+      "id": "sb7-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "这个功能具体怎么讲才能让客户明白它有什么用？",
+      "expect": "不触发，分流 fab。单个功能价值翻译而非整体骨架。"
+    },
+    {
+      "id": "sb7-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "我们明年的定价策略和渠道预算应该怎么分配？",
+      "expect": "不触发。市场/定价资源分配决策，SB7 只管叙事定位不管资源分配。"
+    },
+    {
+      "id": "sb7-edge-01",
+      "type": "edge_case",
+      "prompt": "我们是面向技术评审委员会的深度 B2B 采购场景，能只靠 SB7 叙事骨架说服他们吗？",
+      "expect": "边界情况。深度技术采购场景单靠叙事骨架无法通过技术评审，需配合详细规格书，不能替代。"
+    },
+    {
+      "id": "sb7-edge-02",
+      "type": "edge_case",
+      "prompt": "我们已经把 BrandScript 填完了，存进了内部文档库，这样算是用好 SB7 了吗？",
+      "expect": "边界情况。一次性填完就归档等于没做，价值在于持续渗透到所有对外材料。"
+    },
+    {
+      "id": "sb7-trap-01",
+      "type": "correctness_trap",
+      "prompt": "官网首页应该重点讲我们公司是怎么创立的、我们的使命是什么，这样才有说服力对吧？",
+      "expect": "必须纠正。品牌把自己写成主角是典型误用，应把主角让给客户，品牌退居向导位置。"
+    },
+    {
+      "id": "sb7-trap-02",
+      "type": "correctness_trap",
+      "prompt": "Avoid Failure 那部分我打算写得比 Success 更长更煽情，这样才能让客户害怕不选我们。",
+      "expect": "必须纠正。过度渲染失败后果、篇幅盖过 Success 会引发抵触情绪（fearmongering），应收窄并把重心放回 Success。"
+    },
+    {
+      "id": "sb7-trap-03",
+      "type": "correctness_trap",
+      "prompt": "Problem 那段我只写了客户看得见的外部障碍就行了吧，不用管他们的感受。",
+      "expect": "必须纠正。Problem 需要外部/内部/哲学三层缺一不可，只写外部会显得冷冰冰、缺乏共鸣。"
+    },
+    {
+      "id": "sb7-boundary-01",
+      "type": "should_trigger",
+      "prompt": "CTA 只设了一个'立即购买'的按钮，还没准备好下单的访客怎么办，这属于整体骨架的哪一部分该调整？",
+      "expect": "触发 SB7。CTA 环节需要直接+过渡两级，属于整体骨架步骤5的常见误用修正。"
+    }
+  ]
+}

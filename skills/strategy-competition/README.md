@@ -6,7 +6,7 @@
 
 路径：`skills/strategy-competition/<skill-name>/SKILL.md`。
 
-当前合计 **30** 个（迁入种子 4 + M3 新建 6 + 7S/GE 九宫 2 + 批次新建 12 + 名录扩容新建 6，均含 `v0.x-draft`，达到名录目标数量）。
+当前合计 **31** 个（迁入种子 4 + M3 新建 6 + 7S/GE 九宫 2 + 批次新建 12 + 名录扩容新建 6 + 补充新建 1，均为可执行 Skill；部分仍为 `v0.x-draft`，详见 Notes）。
 
 ## Skills
 
@@ -39,6 +39,7 @@
 - **[swot](./swot/SKILL.md)** — SWOT：内外部态势结构化盘点并做 SO/WO/ST/WT 匹配导向行动；禁止无证据洗衣单。
 - **[three-horizons](./three-horizons/SKILL.md)** — 三层面增长：H1/H2/H3 三个成熟阶段业务永久并行管理，而非等见顶才找下一个（≠第二曲线）。
 - **[value-chain](./value-chain/SKILL.md)** — 价值链：主活动/支持活动拆解成本与差异化落点。
+- **[value-proposition-canvas](./value-proposition-canvas/SKILL.md)** — 价值主张画布：客户画像（jobs/pains/gains）与价值地图逐条对应并验证契合（≠ positioning）。
 - **[vrio](./vrio/SKILL.md)** — VRIO：资源/能力是否有价值、稀缺、难模仿且有组织支持。
 
 ## Notes
@@ -49,7 +50,8 @@
 - M3 新建（`v0.x-draft`）：blue-ocean / second-curve / disruptive-innovation / bcg-matrix / okr / vrio。
 - 7S/GE（`v0.x-draft`）：`mckinsey-7s` / `ge-mckinsey-matrix`。长尾战略互链 `systems-classic-effects/long-tail`。
 - 批次新建（`v0.x-draft`，分支 `feature/strategy-competition-batch`）：ansoff-matrix / balanced-scorecard / value-chain / cost-leadership / differentiation-strategy / niche-strategy / strategic-clock / positioning / platform-strategy / resource-based-view / core-competence / kpi-framework。
-- 名录扩容新建（已于 2026-08-20 完成独立盲测与 QA 校验，升至 `v1.0`）：business-model-canvas / strategy-map / dynamic-capabilities / porters-diamond / three-horizons / strategic-intent。至此本类达到名录目标数量（~30），不再扩容。strategy-map 新建过程中发现并修复了它与 balanced-scorecard 之间真实的触发词冲突（BSC 的 description 收窄为"已有目标、需要配指标"）。
+- 名录扩容新建（已于 2026-08-20 完成独立盲测与 QA 校验，升至 `v1.0`）：business-model-canvas / strategy-map / dynamic-capabilities / porters-diamond / three-horizons / strategic-intent。strategy-map 新建过程中发现并修复了它与 balanced-scorecard 之间真实的触发词冲突（BSC 的 description 收窄为"已有目标、需要配指标"）。
+- 补充新建（已于 2026-09-09 完成独立盲测与 QA 校验，升至 `v1.0`）：value-proposition-canvas —— 原计划蒸馏 USP，研究后发现与已有 `positioning` 高度重叠而改为此工具，服务软件产品宣传手册的价值主张验证需求，与 `positioning`/`business-model-canvas` 分流互补。
 
 ## Other categories
 

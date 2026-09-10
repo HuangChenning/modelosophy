@@ -1,0 +1,78 @@
+{
+  "skill": "value-proposition-canvas",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "vpc-should-01",
+      "type": "should_trigger",
+      "prompt": "我们做的功能，客户真的在乎吗？有没有遗漏什么痛点？帮我系统梳理一下。",
+      "expect": "触发。产品与客户需求匹配验证，核心场景。"
+    },
+    {
+      "id": "vpc-should-02",
+      "type": "should_trigger",
+      "prompt": "用价值主张画布帮我理清这个产品到底解决了客户的什么需求。",
+      "expect": "触发。用户直接点名 Value Proposition Canvas。"
+    },
+    {
+      "id": "vpc-should-03",
+      "type": "should_trigger",
+      "prompt": "我想为官网'为什么选我们'那部分找到真实、可验证的素材，而不是自己拍脑袋写。",
+      "expect": "触发。需要结构化验证客户 jobs/pains/gains 与产品对应关系。"
+    },
+    {
+      "id": "vpc-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我提炼一句话，说清楚我们在客户心智里和竞品的差异化认知定位。",
+      "expect": "不触发，分流 positioning。一句话认知定位而非结构化拆解 jobs/pains/gains。"
+    },
+    {
+      "id": "vpc-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "帮我把整个商业模式画出来，包括渠道、成本结构、关键伙伴关系。",
+      "expect": "不触发，分流 business-model-canvas。整个商业模式九宫格而非单一客户细分的价值匹配。"
+    },
+    {
+      "id": "vpc-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "价值主张画布是谁发明的，哪一年提出的？",
+      "expect": "不触发操作流程。纯历史咨询，直接回答 Osterwalder & Pigneur 2014年出处即可。"
+    },
+    {
+      "id": "vpc-edge-01",
+      "type": "edge_case",
+      "prompt": "我们是一个刚成立三个月的早期项目，对目标客户几乎一无所知，能直接填画布吗？",
+      "expect": "边界情况。客户需求尚未被理解时应先做探索性访谈积累素材，而不是凭空填格子。"
+    },
+    {
+      "id": "vpc-edge-02",
+      "type": "edge_case",
+      "prompt": "我们已经有清晰的定位陈述了，只需要一句话讲清楚差异化就够了，还需要画布吗？",
+      "expect": "边界情况。已有清晰认知定位、只需一句话陈述时，画布详细拆解是过度工程，应改用 positioning。"
+    },
+    {
+      "id": "vpc-trap-01",
+      "type": "correctness_trap",
+      "prompt": "填 Customer Profile 的时候，我打算围绕我们产品能提供的功能来写客户需要什么，这样效率高。",
+      "expect": "必须纠正。透过价值主张的镜片写 Customer Profile 是循环论证，必须假装不知道自己在卖什么、独立观察客户。"
+    },
+    {
+      "id": "vpc-trap-02",
+      "type": "correctness_trap",
+      "prompt": "Value Map 我打算尽量覆盖客户列出的每一条 job/pain/gain，这样显得我们很全面。",
+      "expect": "必须纠正。试图满足每一项会导致 Value Map 又宽又浅、没有聚焦的杀手级卖点，应明确取舍。"
+    },
+    {
+      "id": "vpc-trap-03",
+      "type": "correctness_trap",
+      "prompt": "这条 Pain Reliever 和 Pain 的对应关系虽然没做过客户验证，但逻辑上说得通，就当作已验证的 fit 写进销售话术吧。",
+      "expect": "必须纠正。未经验证的对应关系必须标注为\"假设的 fit\"，不能直接当结论使用，需设计验证方式。"
+    },
+    {
+      "id": "vpc-boundary-01",
+      "type": "should_trigger",
+      "prompt": "技术评审者关心配置复杂度，采购决策者关心总拥有成本，同一产品该怎么在画布里分别应对这两种角色？",
+      "expect": "触发 vpc。同一 Customer Profile 下不同角色需要不同 Value Map 组合，核心步骤4场景。"
+    }
+  ]
+}
