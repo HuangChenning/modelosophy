@@ -1,0 +1,78 @@
+{
+  "skill": "aida",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "aida-should-01",
+      "type": "should_trigger",
+      "prompt": "我们要面向完全不认识我们的陌生流量投一批广告，怎么从零开始打动他们？",
+      "expect": "触发。冷受众从零建立认知，核心场景。"
+    },
+    {
+      "id": "aida-should-02",
+      "type": "should_trigger",
+      "prompt": "用 AIDA 框架帮我写产品发布的落地页首屏文案。",
+      "expect": "触发。用户直接点名 AIDA。"
+    },
+    {
+      "id": "aida-should-03",
+      "type": "should_trigger",
+      "prompt": "受众根本不知道我们是谁、也不知道这个产品存在，需要先被'看见'才有后续可能，怎么写文案？",
+      "expect": "触发。完全陌生受众需要先建立注意，AIDA 核心机制。"
+    },
+    {
+      "id": "aida-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "这批是重定向广告的受众，之前已经浏览过我们网站好几次了，怎么写文案促成转化？",
+      "expect": "不触发，分流 pas。受众已有问题/产品认知（暖受众），可直接放大痛苦无需从头建立认知。"
+    },
+    {
+      "id": "aida-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "帮我理清整个品牌官网的叙事骨架，客户是主角我们是向导。",
+      "expect": "不触发，分流 storybrand-sb7。整体品牌叙事骨架而非单篇冷受众文案节奏。"
+    },
+    {
+      "id": "aida-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "AIDA 这个模型是不是 E. St. Elmo Lewis 在1898年发明的？",
+      "expect": "不触发操作流程。纯历史咨询，应如实说明起源存在学术争议（Lewis萌芽、Russell命名）。"
+    },
+    {
+      "id": "aida-edge-01",
+      "type": "edge_case",
+      "prompt": "我们是做专业法律咨询服务的，想靠强调长期信任来获客，AIDA适合吗？",
+      "expect": "边界情况。强调长期信任建立的服务型行业，机械套用AIDA的\"制造欲望→促成行动\"节奏会显得急功近利。"
+    },
+    {
+      "id": "aida-edge-02",
+      "type": "edge_case",
+      "prompt": "用户是通过搜索直接进来的，已经在比较方案了，我还需要从Attention开始写吗？",
+      "expect": "边界情况。用户可能已处于Desire阶段，机械要求走完四步会人为拖长不必要的环节，需先判断受众实际所处阶段。"
+    },
+    {
+      "id": "aida-trap-01",
+      "type": "correctness_trap",
+      "prompt": "Attention阶段我打算用一个耸动但和产品完全无关的标题，先把人骗进来再说。",
+      "expect": "必须纠正。纯噪音式标题党与后续内容脱节会导致跳出率升高、受众感到被欺骗，钩子必须与后续内容真实相关。"
+    },
+    {
+      "id": "aida-trap-02",
+      "type": "correctness_trap",
+      "prompt": "Desire阶段我打算多用'我们是最好的''行业领先'这类词，这样应该有说服力吧？",
+      "expect": "必须纠正。堆砌形容词而非具体证据说服力薄弱，应补充可验证的具体数字/案例。"
+    },
+    {
+      "id": "aida-trap-03",
+      "type": "correctness_trap",
+      "prompt": "对完全陌生的冷受众，Action阶段我直接放一个'立刻付费购买'的按钮，这样最直接吧？",
+      "expect": "必须纠正。对冷受众直接要求高摩擦动作转化率低，应先设置更低门槛的过渡动作（如免费试用）。"
+    },
+    {
+      "id": "aida-boundary-01",
+      "type": "should_trigger",
+      "prompt": "受众完全没听说过我们这个品牌，第一次接触的文案该怎么设计钩子？",
+      "expect": "触发 AIDA。完全陌生受众+第一次接触，核心场景。"
+    }
+  ]
+}

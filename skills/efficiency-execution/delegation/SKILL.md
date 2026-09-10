@@ -66,6 +66,7 @@ metadata:
 - **与[GTD](../gtd/SKILL.md)**：等待清单跟踪委派项。
 - **与[两分钟法则](../two-minute-rule/SKILL.md)**：短闭环可自做；培养性任务仍可委派。
 - **与[奥兹原则](../../decision-probability/oz-principle/SKILL.md)**：委派后仍对结果问责（Above the Line）。
+- **与[RACI](../raci/SKILL.md)**：硬区分。委派是一对一的责任与权限移交，关注移交过程本身；RACI 是一项任务/流程里多个角色如何分工协作的矩阵，关注全局角色划分。任务涉及多角色、职责划分不清 → 先用 RACI 理清矩阵，再用委派把其中的 R 角色具体交出去。
 
 ## 记忆钩子
 

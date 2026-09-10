@@ -8,9 +8,9 @@ SWOT, first principles, MECE, compound thinking, second-order thinking — each 
 
 ## What's here now
 
-This repository is early. There are **373** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
+This repository is early. There are **384** executable Skills under `skills/<category>/` (category READMEs remain the per-domain index; `_templates` is not a skill).
 
-**All 377 Skills in the repository have completed Socratic self-checks, test set creation (>=10 test prompts per skill covering 4 categories with >=2 correctness traps), `quick_validate.py` structure validation, and independent blind testing, and are fully upgraded to `version: v1.0`.**
+**All 384 Skills in the repository have completed Socratic self-checks, test set creation (>=10 test prompts per skill covering 4 categories with >=2 correctness traps), `quick_validate.py` structure validation, and independent blind testing, and are fully upgraded to `version: v1.0`.**
 
 Useful fields from an earlier “9-field card” draft (author, misuse, memory hook, …) may be absorbed into executable `SKILL.md` sections; cards are **not** the primary deliverable. Plan: [`ROADMAP.md`](ROADMAP.md). Repository-level history: [`CHANGELOG.md`](CHANGELOG.md).
 
@@ -20,11 +20,11 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | --- | ---: | ---: | ---: | --- |
 | [Business / Org Intel](skills/business/README.md) | 6 | 6 | 0 | [index](#business-/-org-intel1) |
 | [Thinking Models](skills/thinking-models/README.md) | 25 | 25 | 0 | [index](#thinking-models25) |
-| [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 28 | 28 | 0 | [index](#cognitive-thinking-tools28) |
+| [Cognitive Thinking Tools](skills/cognitive-thinking-tools/README.md) | 33 | 33 | 0 | [index](#cognitive-thinking-tools33) |
 | [Decision & Probability](skills/decision-probability/README.md) | 24 | 24 | 0 | [index](#decision--probability24) |
 | [Learning & Growth](skills/learning-growth/README.md) | 30 | 30 | 0 | [index](#learning--growth30) |
-| [Strategy & Competition](skills/strategy-competition/README.md) | 30 | 30 | 0 | [index](#strategy--competition30) |
-| [Efficiency & Execution](skills/efficiency-execution/README.md) | 30 | 30 | 0 | [index](#efficiency--execution30) |
+| [Strategy & Competition](skills/strategy-competition/README.md) | 31 | 31 | 0 | [index](#strategy--competition31) |
+| [Efficiency & Execution](skills/efficiency-execution/README.md) | 31 | 31 | 0 | [index](#efficiency--execution31) |
 | [Systems & Complexity](skills/systems-complexity/README.md) | 23 | 23 | 0 | [index](#systems--complexity23) |
 | [Macroeconomic Theories](skills/econ-macro-theories/README.md) | 30 | 30 | 0 | [index](#macroeconomic-theories30) |
 | [Microeconomics & Markets](skills/econ-micro-markets/README.md) | 30 | 30 | 0 | [index](#microeconomics--markets30) |
@@ -32,7 +32,7 @@ Category snapshot (full per-skill blurbs: [Skill catalog](#skill-catalog)):
 | [Behavioral Biases](skills/behavioral-biases/README.md) | 30 | 30 | 0 | [index](#behavioral-biases30) |
 | [Finance & Investing](skills/finance-investing-models/README.md) | 30 | 30 | 0 | [index](#finance--investing30) |
 | [Systems & Classic Effects](skills/systems-classic-effects/README.md) | 30 | 30 | 0 | [index](#systems--classic-effects30) |
-| **Total** | **377** | **377** | **0** | |
+| **Total** | **384** | **384** | **0** | |
 
 Skills formerly under Thinking Models have been moved into domain categories in batches (including **25** this round into cognitive / decision / learning / strategy / efficiency / complexity); they are listed only under the new categories.
 
@@ -71,11 +71,11 @@ Skills that render an HTML report follow the shared visual spec in [`DESIGN.md`]
 
 ## Limitations
 
-The library is still early — **373** executable models across categories (`business/` 2 + `thinking-models/` 25 + six domain categories 181 + catalog expansion 165, the last of which just reached its ~30/category roster target). Known gaps, stated plainly:
+The library is still early — **384** executable models across categories (`business/` 6 + `thinking-models/` 25 + the other 12 categories 353, the last of which just reached its ~30/category roster target). Known gaps, stated plainly:
 
-- **100% upgraded to `v1.0`.** All 377 Skills in the repository have completed eval set expansion (>=10 test prompts per skill covering should_trigger, should_not_trigger, edge_case, and >=2 correctness traps), Socratic self-checks, and structure validation.
-- **All 377 Skills average 10+ eval cases covering 4 types.** Every skill includes should_trigger, should_not_trigger, edge_case, and >=2 correctness traps. A full benchmark run across 3,737 test prompts achieved a 99.65% overall pass rate. Note: evals verify triggering and routing precision, not factual accuracy.
-- **`v1.0` is not a content-accuracy guarantee.** A 2026-08-19 content audit (three rounds) read all 350 `SKILL.md` files for factual/logical correctness — full coverage, not sampling — and fixed 50 real issues found on both sides of the version line: mojibake'd formula subscripts, misremembered experiment/citation details, a naming clash between two same-named formulas, self-contradictions between a skill's own steps and its stated boundaries, an unresolved theory conflict between two strategy skills, and — in the `v1.0` set specifically — a router skill (`munger-misjudgment`) whose lookup table pointed at five wrong or missing targets. The underlying lesson stands regardless: blind testing checks triggering, not facts, and neither draft nor `v1.0` status should be read as "fact-checked." See [`ROADMAP.md`](ROADMAP.md) for the full audit trail.
+- **100% upgraded to `v1.0`.** All 384 Skills in the repository have completed eval set expansion (>=10 test prompts per skill covering should_trigger, should_not_trigger, edge_case, and >=2 correctness traps), Socratic self-checks, and structure validation.
+- **All 384 Skills average 10+ eval cases covering 4 types.** Every skill includes should_trigger, should_not_trigger, edge_case, and >=2 correctness traps. A benchmark run across 3,737 test prompts (predating the most recent 7-skill addition; not yet re-run) achieved a 99.65% overall pass rate. Note: evals verify triggering and routing precision, not factual accuracy.
+- **`v1.0` is not a content-accuracy guarantee.** A 2026-08-19 content audit (three rounds) read all 350 `SKILL.md` files that existed at the time for factual/logical correctness — full coverage of that snapshot, not sampling — and fixed 50 real issues found on both sides of the version line: mojibake'd formula subscripts, misremembered experiment/citation details, a naming clash between two same-named formulas, self-contradictions between a skill's own steps and its stated boundaries, an unresolved theory conflict between two strategy skills, and — in the `v1.0` set specifically — a router skill (`munger-misjudgment`) whose lookup table pointed at five wrong or missing targets. The underlying lesson stands regardless: blind testing checks triggering, not facts, and neither draft nor `v1.0` status should be read as "fact-checked." See [`ROADMAP.md`](ROADMAP.md) for the full audit trail.
 
 Conventions may still change as the library grows.
 
@@ -123,18 +123,21 @@ General reasoning, leadership, communication (domain-specific items moved out).
 - **[spiral-of-silence](skills/thinking-models/spiral-of-silence/SKILL.md)** — Spiral of silence: fear of isolation → misread climate → minority silence → louder majority.
 - **[ten-ten-ten](skills/thinking-models/ten-ten-ten/SKILL.md)** — 10/10/10: pull decisions out of hot emotion by checking ~10 minutes / 10 months / 10 years.
 
-### Cognitive Thinking Tools（28）
+### Cognitive Thinking Tools（33）
 
 First principles, structured decomposition, critical thinking tools.
 
 - **[abstraction-ladder](skills/cognitive-thinking-tools/abstraction-ladder/SKILL.md)** — Abstraction ladder: move deliberately between concrete and abstract wording (≠ ladder of inference).
+- **[aida](skills/cognitive-thinking-tools/aida/SKILL.md)** — AIDA: Attention–Interest–Desire–Action copy structure for cold, unfamiliar audiences (≠ pas for warm audiences).
 - **[analogical-thinking](skills/cognitive-thinking-tools/analogical-thinking/SKILL.md)** — Analogical thinking: structure-mapping transfer with explicit failure boundaries.
+- **[bab](skills/cognitive-thinking-tools/bab/SKILL.md)** — BAB: Before–After–Bridge — a positive-vision sales copy structure (≠ pas's fear-driven agitation).
 - **[backward-goal](skills/cognitive-thinking-tools/backward-goal/SKILL.md)** — Backward goal: define a verifiable end state, then plan prerequisites back to today.
 - **[concept-map](skills/cognitive-thinking-tools/concept-map/SKILL.md)** — Concept map: proposition networks with linking words.
 - **[critical-thinking](skills/cognitive-thinking-tools/critical-thinking/SKILL.md)** — Critical thinking: Facione Delphi skills (interpretation, analysis, evaluation, inference, explanation, self-regulation).
 - **[cross-validation-thinking](skills/cognitive-thinking-tools/cross-validation-thinking/SKILL.md)** — Cross-validation thinking: corroborate claims via independent evidence paths (≠ ML k-fold).
 - **[decision-matrix](skills/cognitive-thinking-tools/decision-matrix/SKILL.md)** — Decision matrix: multi-criteria weighted scoring with sensitivity (probability trees → decision-probability).
 - **[diamond-six-steps](skills/cognitive-thinking-tools/diamond-six-steps/SKILL.md)** — Diamond six steps: two diverge–converge cycles with stage gates.
+- **[fab](skills/cognitive-thinking-tools/fab/SKILL.md)** — FAB: Feature–Advantage–Benefit structure for explaining a product/feature's value.
 - **[first-principles](skills/cognitive-thinking-tools/first-principles/SKILL.md)** — First principles: strip a claim to hard facts/constraints, then rebuild upward without analogy crutches.
 - **[five-whys](skills/cognitive-thinking-tools/five-whys/SKILL.md)** — Five Whys: drill a causal chain to an actionable root cause.
 - **[golden-circle](skills/cognitive-thinking-tools/golden-circle/SKILL.md)** — Golden Circle: structure narrative as WHY→HOW→WHAT (purpose before product).
@@ -146,11 +149,13 @@ First principles, structured decomposition, critical thinking tools.
 - **[mind-map](skills/cognitive-thinking-tools/mind-map/SKILL.md)** — Mind map: radial hierarchical association for notes and brainstorming.
 - **[occams-razor](skills/cognitive-thinking-tools/occams-razor/SKILL.md)** — Occam’s razor: among explanations that fit, prefer fewer ad hoc assumptions—then verify.
 - **[octopus-diagram](skills/cognitive-thinking-tools/octopus-diagram/SKILL.md)** — Octopus diagram: center topic with multi-arm dimension coverage.
+- **[pas](skills/cognitive-thinking-tools/pas/SKILL.md)** — PAS: Problem–Agitate–Solve short copy structure for sales/ads (≠ scqa's neutral opening).
 - **[pros-cons-list](skills/cognitive-thinking-tools/pros-cons-list/SKILL.md)** — Pros and cons list: explicit benefit/cost scan (weighted scoring → decision-matrix).
 - **[pyramid-principle](skills/cognitive-thinking-tools/pyramid-principle/SKILL.md)** — Pyramid principle: lead with the answer; group supporting arguments MECE under it.
 - **[scqa](skills/cognitive-thinking-tools/scqa/SKILL.md)** — SCQA: Situation–Complication–Question–Answer for openings and problem definition.
 - **[six-thinking-hats](skills/cognitive-thinking-tools/six-thinking-hats/SKILL.md)** — Six Thinking Hats: separate facts, feelings, benefits, risks, and ideas in parallel meeting modes.
 - **[star-method](skills/cognitive-thinking-tools/star-method/SKILL.md)** — STAR: Situation–Task–Action–Result stories for interviews and reviews.
+- **[storybrand-sb7](skills/cognitive-thinking-tools/storybrand-sb7/SKILL.md)** — StoryBrand SB7: seven-part brand narrative skeleton with the customer as hero and the brand as guide.
 - **[structured-thinking](skills/cognitive-thinking-tools/structured-thinking/SKILL.md)** — Structured thinking: orchestrate define→decompose→analyze→synthesize.
 - **[theory-of-constraints](skills/cognitive-thinking-tools/theory-of-constraints/SKILL.md)** — TOC: focus improvement on the system throughput constraint.
 - **[thought-experiment](skills/cognitive-thinking-tools/thought-experiment/SKILL.md)** — Thought experiment: probe principles in counterfactual setups with explicit limits.
@@ -220,7 +225,7 @@ Feynman, flow, metacognition, forgetting curve, antifragility, M3 batch (deliber
 - **[unlearning](skills/learning-growth/unlearning/SKILL.md)** — Unlearning: retire interfering old knowledge/responses under managed triggers.
 - **[zpd](skills/learning-growth/zpd/SKILL.md)** — Zone of proximal development: place tasks between independent and assisted success with fading scaffolds.
 
-### Strategy & Competition（30）
+### Strategy & Competition（31）
 
 Five forces, moats, flywheels, SWOT, blue ocean, second curve, disruption, BCG, GE–McKinsey, 7S, OKR, VRIO, plus batches (Ansoff, BSC, value chain, generic strategies/clock, positioning, platform, RBV/core competence, KPI), plus a 2026-08-19 roster-completion batch (Business Model Canvas, strategy map, dynamic capabilities, Porter's Diamond, Three Horizons, strategic intent) awaiting blind testing.
 
@@ -253,9 +258,10 @@ Five forces, moats, flywheels, SWOT, blue ocean, second curve, disruption, BCG, 
 - **[swot](skills/strategy-competition/swot/SKILL.md)** — SWOT: structure internal strengths/weaknesses × external opportunities/threats, then TOWS matching.
 - **[three-horizons](skills/strategy-competition/three-horizons/SKILL.md)** — Three Horizons: manage three maturity-stage businesses/options permanently in parallel, not sequentially (≠ second curve).
 - **[value-chain](skills/strategy-competition/value-chain/SKILL.md)** — Value chain: primary/support activities for cost and differentiation loci.
+- **[value-proposition-canvas](skills/strategy-competition/value-proposition-canvas/SKILL.md)** — Value Proposition Canvas: match customer jobs/pains/gains against a value map, item by item (≠ positioning).
 - **[vrio](skills/strategy-competition/vrio/SKILL.md)** — VRIO: audit whether resources are valuable, rare, costly to imitate, and organized.
 
-### Efficiency & Execution（30）
+### Efficiency & Execution（31）
 
 Eisenhower, PDCA, M3 batch (Pomodoro, GTD, Kanban, agile, lean, critical path, 5S), plus batches (batching, checklist/SOP, continuous improvement, delegation, eat-the-frog, energy, Gantt, milestones, standup, time-blocking, two-minute rule, WIP limits), plus a 2026-08-19 roster-completion batch (meeting hygiene, single-tasking, task-switching cost, Inbox Zero, structured procrastination, buffer time, mise en place, weekly review, commitment devices). Deep work lives under Learning & Growth.
 
@@ -281,6 +287,7 @@ Eisenhower, PDCA, M3 batch (Pomodoro, GTD, Kanban, agile, lean, critical path, 5
 - **[mise-en-place](skills/efficiency-execution/mise-en-place/SKILL.md)** — Mise en place: get all materials/info/permissions ready before execution starts, avoiding mid-task scrambling.
 - **[pdca](skills/efficiency-execution/pdca/SKILL.md)** — PDCA: Plan–Do–Check/Study–Act continuous improvement loops with explicit measures.
 - **[pomodoro](skills/efficiency-execution/pomodoro/SKILL.md)** — Pomodoro: fixed focus/break timeboxes (≠ deep-work long blocks).
+- **[raci](skills/efficiency-execution/raci/SKILL.md)** — RACI: cross-role responsibility matrix — exactly one Accountable owner per task (≠ delegation).
 - **[single-tasking](skills/efficiency-execution/single-tasking/SKILL.md)** — Single-tasking: process one task at a time, finishing cleanly before switching, instead of being interrupt-driven.
 - **[standup](skills/efficiency-execution/standup/SKILL.md)** — Standup: short sync of yesterday/today/blockers.
 - **[structured-procrastination](skills/efficiency-execution/structured-procrastination/SKILL.md)** — Structured procrastination: Perry's tongue-in-cheek trick — let avoidance of a big task drive completion of other useful ones; not for real procrastination addiction.

@@ -1,0 +1,78 @@
+{
+  "skill": "raci",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "raci-should-01",
+      "type": "should_trigger",
+      "prompt": "这个跨部门项目职责分工不清，经常互相扯皮，帮我理一下谁该负责什么。",
+      "expect": "触发。跨部门职责不清的核心场景。"
+    },
+    {
+      "id": "raci-should-02",
+      "type": "should_trigger",
+      "prompt": "帮我做一个 RACI 矩阵，明确这个流程里谁执行谁拍板。",
+      "expect": "触发。用户直接点名 RACI 矩阵。"
+    },
+    {
+      "id": "raci-should-03",
+      "type": "should_trigger",
+      "prompt": "这件事到底谁负责最后签字，现在多头管理，议而不决，怎么办？",
+      "expect": "触发。多头管理/议而不决的典型 RACI 场景。"
+    },
+    {
+      "id": "raci-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "我想把这份周报的撰写工作交给团队里的小李去做，该怎么交接？",
+      "expect": "不触发，分流 delegation。一对一具体移交给某个人，关注移交过程本身。"
+    },
+    {
+      "id": "raci-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "帮我列一份操作步骤清单，确保每次上线流程都不遗漏关键步骤。",
+      "expect": "不触发，分流 checklist-sop。步骤标准而非角色分工矩阵。"
+    },
+    {
+      "id": "raci-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "RACI 这个方法是谁发明的，最早出现在哪本书里？",
+      "expect": "不触发操作流程。纯历史咨询，应如实说明起源不可追溯到单一发明者/出版物。"
+    },
+    {
+      "id": "raci-edge-01",
+      "type": "edge_case",
+      "prompt": "我们团队本身人手不够、产能严重不足，是不是先做个 RACI 矩阵理清角色就能解决？",
+      "expect": "边界情况。RACI 不能替代战略决策或解决组织结构性产能不足问题，应先做资源配置/战略决策。"
+    },
+    {
+      "id": "raci-edge-02",
+      "type": "edge_case",
+      "prompt": "这个任务其实一个人就能独立完成，不涉及别人，也要画 RACI 矩阵吗？",
+      "expect": "边界情况。任务过于简单、单人可完成时画矩阵是过度工程，不需要 RACI。"
+    },
+    {
+      "id": "raci-trap-01",
+      "type": "correctness_trap",
+      "prompt": "为了不漏人、显得大家都有份，我打算把相关的三个人都标成 Accountable。",
+      "expect": "必须纠正。多人被标为 Accountable 会导致议而不决，每一行必须有且只有一个 A。"
+    },
+    {
+      "id": "raci-trap-02",
+      "type": "correctness_trap",
+      "prompt": "Responsible 和 Accountable 必须是两个不同的人吧，不然感觉像自己审自己？",
+      "expect": "必须纠正。R 和 A 可以是同一个人，尤其在小团队/单人任务场景，不必强行拆分成两个人。"
+    },
+    {
+      "id": "raci-trap-03",
+      "type": "correctness_trap",
+      "prompt": "我作为项目经理已经把矩阵填好了，直接下发给团队执行就行，不用再跟大家过一遍吧？",
+      "expect": "必须纠正。闭门造车、单方面制定后强推是最常见的失败模式之一，必须经过研讨会协商确认。"
+    },
+    {
+      "id": "raci-boundary-01",
+      "type": "should_trigger",
+      "prompt": "这份 RACI 矩阵是半年前项目立项时定的，公司架构调整后还一直没更新，会有什么问题？",
+      "expect": "触发 raci。矩阵长期不更新导致逐渐失效，属于步骤6和常见误用场景。"
+    }
+  ]
+}

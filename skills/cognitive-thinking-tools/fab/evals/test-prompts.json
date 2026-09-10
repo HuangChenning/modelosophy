@@ -1,0 +1,78 @@
+{
+  "skill": "fab",
+  "version": "v1.0",
+  "tests": [
+    {
+      "id": "fab-should-01",
+      "type": "should_trigger",
+      "prompt": "我们产品新增了自动同步功能，怎么在功能页里讲清楚这个功能到底有什么用？",
+      "expect": "触发。产品功能说明，核心场景。"
+    },
+    {
+      "id": "fab-should-02",
+      "type": "should_trigger",
+      "prompt": "用 FAB 框架帮我把这个特性翻译成客户能感知的价值：支持256位加密。",
+      "expect": "触发。用户直接点名 FAB 并给出具体 Feature。"
+    },
+    {
+      "id": "fab-should-03",
+      "type": "should_trigger",
+      "prompt": "宣传手册里介绍产品能力那一章节该怎么组织，才不会显得只是堆功能列表？",
+      "expect": "触发。功能介绍避免 feature bragging，核心场景。"
+    },
+    {
+      "id": "fab-decoy-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一段朋友圈文案，让人看完立刻想买这个减脂产品。",
+      "expect": "不触发，分流 pas。情绪驱动短文案而非逻辑讲清功能。"
+    },
+    {
+      "id": "fab-decoy-02",
+      "type": "should_not_trigger",
+      "prompt": "我要写一份项目风险汇报的开场，先讲清楚问题背景。",
+      "expect": "不触发，分流 scqa。商务汇报开场而非产品功能说明。"
+    },
+    {
+      "id": "fab-decoy-03",
+      "type": "should_not_trigger",
+      "prompt": "FAB 这个方法最早是哪家公司发明的？",
+      "expect": "不触发操作流程。纯历史咨询，直接回答 Xerox PSS 起源即可。"
+    },
+    {
+      "id": "fab-edge-01",
+      "type": "edge_case",
+      "prompt": "我们是做品牌情感叙事的，产品本身没什么可以罗列的客观技术参数，还能用 FAB 吗？",
+      "expect": "边界情况。产品没有具体客观特性可描述时 FAB 无从拆解，应指出需先有可描述的 Feature 或改用叙事类框架。"
+    },
+    {
+      "id": "fab-edge-02",
+      "type": "edge_case",
+      "prompt": "客户已经很懂我们产品了，只想快速对比几个功能参数，还需要每个都走完整套 F-A-B 吗？",
+      "expect": "边界情况。受众已完全理解产品、只想对比参数时，走完整 F→A→B 会显得冗长，可只保留 Feature 级对比表。"
+    },
+    {
+      "id": "fab-trap-01",
+      "type": "correctness_trap",
+      "prompt": "我把功能参数都列完了，客户应该自己能想明白这对他有什么用吧？",
+      "expect": "必须纠正。假设客户会自动关联 Feature 到 Benefit 是常见误用，链条有断层要显式补全，不能靠客户脑补。"
+    },
+    {
+      "id": "fab-trap-02",
+      "type": "correctness_trap",
+      "prompt": "对决策者和一线使用者，我打算写同一句 Benefit：'更高效、更省心'，这样比较省事。",
+      "expect": "必须纠正。B2B 场景应按受众拆分 Benefit（决策者看业务指标，使用者看体验），且需具体可衡量而非空洞形容词。"
+    },
+    {
+      "id": "fab-trap-03",
+      "type": "correctness_trap",
+      "prompt": "Benefit 是不是写得越煽情越好，比如'用了这个功能，你从此摆脱焦虑，倍儿有面子'？",
+      "expect": "必须纠正。Benefit 应保持客观可验证的结果，写成情绪化承诺会越界到 PAS 的地盘。"
+    },
+    {
+      "id": "fab-boundary-01",
+      "type": "should_trigger",
+      "prompt": "这个功能能让团队不用手动重复设置流程，接下来怎么把这一点落到客户能衡量的结果上？",
+      "expect": "触发 FAB。已有 Advantage，需要继续推进到 Benefit 层，核心步骤3场景。"
+    }
+  ]
+}
